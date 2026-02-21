@@ -1,0 +1,43 @@
+  0%|          | 0/10000 [00:00<?, ?it/s]  4%|4         | 419/10000 [00:00<00:03, 2901.31it/s] 18%|#8        | 1828/10000 [00:00<00:01, 5586.05it/s] 36%|###5      | 3567/10000 [00:00<00:00, 6574.34it/s] 56%|#####5    | 5550/10000 [00:00<00:00, 9790.95it/s] 67%|######7   | 6713/10000 [00:00<00:00, 7868.52it/s] 84%|########4 | 8446/10000 [00:01<00:00, 7279.99it/s]100%|##########| 10000/10000 [00:01<00:00, 8040.96it/s]
+Arguments:
+  data: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt
+  ckpt: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (non-restricted)/GenSCO/ckpts/tsp100.ckpt
+  sampling_steps: 4
+  two_opt_steps: 2
+  seed: 0
+  cycles: 10
+  batch_size: 5000
+  runs: 8
+  random_two_opt_steps_range: (25, 75)
+  heatmap_dtype: float32
+  topk: None
+  argument_level: 1
+  threads_over_batches: 2
+num_instances: 10000, num_nodes: 100
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1767285769.593966 1213728 triton_kernels.cc:617] Autotuning function:  (_fwd_kernel) {}
+I0000 00:00:1767285769.736329 1213728 triton_kernels.cc:630] BLOCK_M: 128, BLOCK_N: 128, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 1 iter in 1.77562 ms
+I0000 00:00:1767285769.790034 1213728 triton_kernels.cc:630] BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 1 iter in 1.54317 ms
+I0000 00:00:1767285769.790056 1213728 triton_kernels.cc:640] Benchmarking with 6 iters (target time: 10 ms)
+I0000 00:00:1767285769.802482 1213728 triton_kernels.cc:654] BLOCK_M: 128, BLOCK_N: 128, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 6 iters in 10.6363 ms
+I0000 00:00:1767285769.802487 1213728 triton_kernels.cc:658] BLOCK_M: 128, BLOCK_N: 128, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None is the new best config
+I0000 00:00:1767285769.813288 1213728 triton_kernels.cc:654] BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 6 iters in 9.24774 ms
+I0000 00:00:1767285769.813293 1213728 triton_kernels.cc:658] BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None is the new best config
+I0000 00:00:1767285769.813295 1213728 triton_kernels.cc:669] Finished autotuning function:  (_fwd_kernel) {} best config BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None
+I0000 00:00:1767285776.632780 1213728 triton_kernels.cc:617] Autotuning function:  (_fwd_kernel) {}
+I0000 00:00:1767285777.513748 1213728 triton_kernels.cc:630] BLOCK_M: 128, BLOCK_N: 128, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 1 iter in 5.74874 ms
+I0000 00:00:1767285777.630079 1213728 triton_kernels.cc:630] BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 1 iter in 3.37715 ms
+I0000 00:00:1767285777.630105 1213728 triton_kernels.cc:640] Benchmarking with 2 iters (target time: 10 ms)
+I0000 00:00:1767285777.647388 1213728 triton_kernels.cc:654] BLOCK_M: 128, BLOCK_N: 128, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 2 iters in 11.5098 ms
+I0000 00:00:1767285777.647394 1213728 triton_kernels.cc:658] BLOCK_M: 128, BLOCK_N: 128, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None is the new best config
+I0000 00:00:1767285777.657530 1213728 triton_kernels.cc:654] BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None, ran 2 iters in 6.74714 ms
+I0000 00:00:1767285777.657535 1213728 triton_kernels.cc:658] BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None is the new best config
+I0000 00:00:1767285777.657537 1213728 triton_kernels.cc:669] Finished autotuning function:  (_fwd_kernel) {} best config BLOCK_M: 64, BLOCK_N: 64, EVEN_M: False, EVEN_N: False, EVEN_HEADDIM: True, use_fp16_accum: False, num_warps: 4, num_ctas: 1, num_stages: 1, maxnreg: None
+  0%|          | 0/1 [00:00<?, ?it/s]batch 0 cost mean: 7.761764
+batch 1 cost mean: 7.764799
+100%|██████████| 1/1 [01:45<00:00, 105.88s/it]100%|██████████| 1/1 [01:45<00:00, 105.88s/it]
+mean cost: 7.763281
+costs.shape: torch.Size([10000])
+opt cost: 7.763255
+per-instance Gap: 0.000342 %
+Total decoding time: 117.45 seconds, mins: 1.96 mins

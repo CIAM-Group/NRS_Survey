@@ -1,0 +1,7 @@
+usage: tsp.py [-h] --data DATA --ckpt CKPT --sampling_steps SAMPLING_STEPS
+              --two_opt_steps TWO_OPT_STEPS [--seed SEED] --cycles CYCLES
+              --batch_size BATCH_SIZE --runs RUNS --random_two_opt_steps_range
+              RANDOM_TWO_OPT_STEPS_RANGE [--heatmap_dtype HEATMAP_DTYPE]
+              [--topk TOPK] [--argument_level ARGUMENT_LEVEL]
+              [--threads_over_batches THREADS_OVER_BATCHES]
+tsp.py: error: the following arguments are required: --data, --ckpt, --sampling_steps, --two_opt_steps, --cycles, --batch_size, --runs, --random_two_opt_steps_range
