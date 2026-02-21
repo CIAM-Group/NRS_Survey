@@ -1,0 +1,233 @@
+[2025-10-29 18:25:00] test_cvrp_survey.py(146) : DEBUG_MODE: True
+[2025-10-29 18:25:00] test_cvrp_survey.py(147) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-10-29 18:25:00] test_cvrp_survey.py(148) : env_params{'mode': 'test', 'use_model': 'DRHG', 'load_way': 'vrplib', 'test_in_vrplib': True, 'vrplib_path': './data/cvrplib_problem_solution_cost.pt', 'data_path': None}
+[2025-10-29 18:25:00] test_cvrp_survey.py(148) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2025-10-29 18:25:00] test_cvrp_survey.py(148) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': 'result/vrp_pretrained', 'epoch': 100}, 'destroy_mode': ['knn-location'], 'destroy_params': {'knn-location': {'center_type': 'random', 'knn_k': [20, 200]}}, 'iter_budget': 1000, 'rearrange_solution': True}
+[2025-10-29 18:25:00] test_cvrp_survey.py(148) : logger_params{'log_file': {'desc': 'test_vrplib_iter1000', 'filename': 'log.txt', 'filepath': './result_survey/20251029_182500_test_vrplib_iter1000'}}
+[2025-10-29 18:32:35] VRPTester_cvrplib.py(585) : Instance X-n120-k6 (n=119) | optimal=13332 | score=13460 | gap=0.960% | time=455.006s
+[2025-10-29 18:32:35] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 18:47:57] VRPTester_cvrplib.py(585) : Instance X-n459-k26 (n=458) | optimal=24139 | score=28630 | gap=18.605% | time=921.821s
+[2025-10-29 18:47:57] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 19:00:33] VRPTester_cvrplib.py(585) : Instance X-n237-k14 (n=236) | optimal=27042 | score=27952 | gap=3.365% | time=755.818s
+[2025-10-29 19:00:33] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 19:15:04] VRPTester_cvrplib.py(585) : Instance X-n200-k36 (n=199) | optimal=58578 | score=63084 | gap=7.692% | time=871.271s
+[2025-10-29 19:15:04] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 19:54:49] VRPTester_cvrplib.py(585) : Instance X-n733-k159 (n=732) | optimal=136187 | score=145638 | gap=6.940% | time=2384.371s
+[2025-10-29 19:54:49] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 20:30:50] VRPTester_cvrplib.py(585) : Instance Antwerp2 (n=7000) | optimal=291350 | score=357205 | gap=22.603% | time=2161.679s
+[2025-10-29 20:30:50] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 20:49:19] VRPTester_cvrplib.py(585) : Instance X-n801-k40 (n=800) | optimal=73311 | score=82569 | gap=12.628% | time=1108.951s
+[2025-10-29 20:49:19] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 21:17:22] VRPTester_cvrplib.py(585) : Instance X-n536-k96 (n=535) | optimal=94846 | score=110632 | gap=16.644% | time=1682.657s
+[2025-10-29 21:17:22] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 21:35:26] VRPTester_cvrplib.py(585) : Instance X-n317-k53 (n=316) | optimal=78355 | score=80326 | gap=2.515% | time=1083.528s
+[2025-10-29 21:35:26] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 22:09:07] VRPTester_cvrplib.py(585) : Instance X-n655-k131 (n=654) | optimal=106780 | score=110017 | gap=3.031% | time=2021.205s
+[2025-10-29 22:09:07] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 22:21:41] VRPTester_cvrplib.py(585) : Instance X-n176-k26 (n=175) | optimal=47812 | score=56388 | gap=17.937% | time=754.200s
+[2025-10-29 22:21:41] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 22:37:26] VRPTester_cvrplib.py(585) : Instance X-n449-k29 (n=448) | optimal=55233 | score=62007 | gap=12.264% | time=944.979s
+[2025-10-29 22:37:26] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 22:54:57] VRPTester_cvrplib.py(585) : Instance X-n502-k39 (n=501) | optimal=69226 | score=72144 | gap=4.215% | time=1051.018s
+[2025-10-29 22:54:57] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-29 23:16:59] VRPTester_cvrplib.py(585) : Instance X-n336-k84 (n=335) | optimal=139111 | score=152661 | gap=9.740% | time=1322.160s
+[2025-10-29 23:16:59] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 01:13:01] VRPTester_cvrplib.py(585) : Instance Brussels1 (n=15000) | optimal=501719 | score=575441 | gap=14.694% | time=6961.514s
+[2025-10-30 01:13:01] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 01:35:53] VRPTester_cvrplib.py(585) : Instance X-n766-k71 (n=765) | optimal=114417 | score=129300 | gap=13.008% | time=1372.296s
+[2025-10-30 01:35:53] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 01:51:05] VRPTester_cvrplib.py(585) : Instance X-n359-k29 (n=358) | optimal=51505 | score=55051 | gap=6.885% | time=912.109s
+[2025-10-30 01:51:05] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 02:05:14] VRPTester_cvrplib.py(585) : Instance X-n284-k15 (n=283) | optimal=20226 | score=23023 | gap=13.829% | time=849.310s
+[2025-10-30 02:05:14] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 02:17:55] VRPTester_cvrplib.py(585) : Instance X-n148-k46 (n=147) | optimal=43448 | score=48061 | gap=10.617% | time=760.984s
+[2025-10-30 02:17:55] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 02:30:40] VRPTester_cvrplib.py(585) : Instance X-n261-k13 (n=260) | optimal=26558 | score=28166 | gap=6.055% | time=764.467s
+[2025-10-30 02:30:40] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 02:39:20] VRPTester_cvrplib.py(585) : Instance X-n134-k13 (n=133) | optimal=10916 | score=11419 | gap=4.608% | time=519.956s
+[2025-10-30 02:39:20] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 02:57:14] VRPTester_cvrplib.py(585) : Instance X-n294-k50 (n=293) | optimal=47161 | score=56401 | gap=19.592% | time=1074.168s
+[2025-10-30 02:57:14] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 03:36:06] VRPTester_cvrplib.py(585) : Instance X-n586-k159 (n=585) | optimal=190316 | score=202561 | gap=6.434% | time=2332.511s
+[2025-10-30 03:36:06] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 03:54:23] VRPTester_cvrplib.py(585) : Instance X-n266-k58 (n=265) | optimal=75478 | score=80277 | gap=6.358% | time=1096.662s
+[2025-10-30 03:54:23] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 04:04:51] VRPTester_cvrplib.py(585) : Instance X-n153-k22 (n=152) | optimal=21220 | score=25821 | gap=21.682% | time=627.631s
+[2025-10-30 04:04:51] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 04:20:20] VRPTester_cvrplib.py(585) : Instance X-n270-k35 (n=269) | optimal=35291 | score=37532 | gap=6.350% | time=929.402s
+[2025-10-30 04:20:20] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 05:10:34] VRPTester_cvrplib.py(585) : Instance X-n916-k207 (n=915) | optimal=329179 | score=346976 | gap=5.406% | time=3014.053s
+[2025-10-30 05:10:34] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 05:27:09] VRPTester_cvrplib.py(585) : Instance X-n247-k50 (n=246) | optimal=37274 | score=45276 | gap=21.468% | time=994.489s
+[2025-10-30 05:27:09] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 05:49:26] VRPTester_cvrplib.py(585) : Instance X-n613-k62 (n=612) | optimal=59535 | score=70395 | gap=18.241% | time=1336.776s
+[2025-10-30 05:49:26] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 06:09:58] VRPTester_cvrplib.py(585) : Instance X-n783-k48 (n=782) | optimal=72386 | score=89536 | gap=23.692% | time=1232.081s
+[2025-10-30 06:09:58] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 06:24:08] VRPTester_cvrplib.py(585) : Instance X-n303-k21 (n=302) | optimal=21736 | score=24680 | gap=13.544% | time=850.172s
+[2025-10-30 06:24:08] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 06:42:19] VRPTester_cvrplib.py(585) : Instance X-n219-k73 (n=218) | optimal=117595 | score=119156 | gap=1.327% | time=1091.341s
+[2025-10-30 06:42:19] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 06:55:26] VRPTester_cvrplib.py(585) : Instance X-n331-k15 (n=330) | optimal=31102 | score=33435 | gap=7.501% | time=786.777s
+[2025-10-30 06:55:26] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 07:11:24] VRPTester_cvrplib.py(585) : Instance X-n401-k29 (n=400) | optimal=66154 | score=71792 | gap=8.523% | time=957.756s
+[2025-10-30 07:11:24] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 07:24:33] VRPTester_cvrplib.py(585) : Instance X-n204-k19 (n=203) | optimal=19565 | score=20223 | gap=3.363% | time=789.110s
+[2025-10-30 07:24:33] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 07:43:36] VRPTester_cvrplib.py(585) : Instance X-n384-k52 (n=383) | optimal=65940 | score=70704 | gap=7.225% | time=1143.367s
+[2025-10-30 07:43:36] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 07:55:31] VRPTester_cvrplib.py(585) : Instance X-n186-k15 (n=185) | optimal=24145 | score=24655 | gap=2.112% | time=714.930s
+[2025-10-30 07:55:31] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 08:15:39] VRPTester_cvrplib.py(585) : Instance X-n1001-k43 (n=1000) | optimal=72355 | score=86375 | gap=19.377% | time=1208.043s
+[2025-10-30 08:15:39] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 08:42:53] VRPTester_cvrplib.py(585) : Instance X-n599-k92 (n=598) | optimal=108451 | score=115756 | gap=6.736% | time=1633.937s
+[2025-10-30 08:42:53] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 08:59:58] VRPTester_cvrplib.py(585) : Instance X-n716-k35 (n=715) | optimal=43373 | score=50836 | gap=17.207% | time=1024.586s
+[2025-10-30 08:59:58] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 09:29:57] VRPTester_cvrplib.py(585) : Instance X-n749-k98 (n=748) | optimal=77269 | score=90645 | gap=17.311% | time=1798.978s
+[2025-10-30 09:29:57] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 09:51:12] VRPTester_cvrplib.py(585) : Instance X-n979-k58 (n=978) | optimal=118976 | score=133732 | gap=12.403% | time=1275.635s
+[2025-10-30 09:51:12] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 10:24:25] VRPTester_cvrplib.py(585) : Instance X-n524-k153 (n=523) | optimal=154593 | score=173510 | gap=12.237% | time=1993.032s
+[2025-10-30 10:24:25] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 10:45:17] VRPTester_cvrplib.py(585) : Instance X-n429-k61 (n=428) | optimal=65449 | score=70692 | gap=8.011% | time=1251.983s
+[2025-10-30 10:45:17] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 11:12:39] VRPTester_cvrplib.py(585) : Instance X-n957-k87 (n=956) | optimal=85465 | score=94317 | gap=10.357% | time=1642.163s
+[2025-10-30 11:12:39] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 11:25:51] VRPTester_cvrplib.py(585) : Instance X-n233-k16 (n=232) | optimal=19230 | score=20484 | gap=6.521% | time=791.735s
+[2025-10-30 11:25:51] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 11:37:02] VRPTester_cvrplib.py(585) : Instance X-n190-k8 (n=189) | optimal=16980 | score=17213 | gap=1.372% | time=670.854s
+[2025-10-30 11:37:02] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 11:45:29] VRPTester_cvrplib.py(585) : Instance X-n101-k25 (n=100) | optimal=27591 | score=32799 | gap=18.876% | time=507.033s
+[2025-10-30 11:45:29] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 12:55:33] VRPTester_cvrplib.py(585) : Instance Flanders2 (n=30000) | optimal=4373244 | score=5234084 | gap=19.684% | time=4204.002s
+[2025-10-30 12:55:33] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 14:17:14] VRPTester_cvrplib.py(585) : Instance Antwerp1 (n=6000) | optimal=477277 | score=530214 | gap=11.091% | time=4900.588s
+[2025-10-30 14:17:14] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 14:36:30] VRPTester_cvrplib.py(585) : Instance X-n895-k37 (n=894) | optimal=53860 | score=64043 | gap=18.906% | time=1155.887s
+[2025-10-30 14:36:30] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 15:15:31] VRPTester_cvrplib.py(585) : Instance X-n936-k151 (n=935) | optimal=132715 | score=158657 | gap=19.547% | time=2340.842s
+[2025-10-30 15:15:31] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 15:30:35] VRPTester_cvrplib.py(585) : Instance X-n223-k34 (n=222) | optimal=40437 | score=47212 | gap=16.754% | time=904.824s
+[2025-10-30 15:30:35] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 15:49:48] VRPTester_cvrplib.py(585) : Instance X-n561-k42 (n=560) | optimal=42717 | score=49966 | gap=16.970% | time=1152.220s
+[2025-10-30 15:49:48] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 16:25:27] VRPTester_cvrplib.py(585) : Instance Ghent2 (n=11000) | optimal=257749 | score=319523 | gap=23.967% | time=2139.679s
+[2025-10-30 16:25:27] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 16:44:33] VRPTester_cvrplib.py(585) : Instance X-n627-k43 (n=626) | optimal=62164 | score=69461 | gap=11.738% | time=1146.174s
+[2025-10-30 16:44:33] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 17:00:46] VRPTester_cvrplib.py(585) : Instance X-n298-k31 (n=297) | optimal=34231 | score=37855 | gap=10.587% | time=973.006s
+[2025-10-30 17:00:46] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 18:52:14] VRPTester_cvrplib.py(585) : Instance Ghent1 (n=10000) | optimal=469531 | score=521464 | gap=11.061% | time=6687.682s
+[2025-10-30 18:52:14] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 19:06:34] VRPTester_cvrplib.py(585) : Instance X-n367-k17 (n=366) | optimal=22814 | score=29591 | gap=29.705% | time=859.694s
+[2025-10-30 19:06:34] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 19:58:53] VRPTester_cvrplib.py(585) : Instance Leuven1 (n=3000) | optimal=192848 | score=213216 | gap=10.562% | time=3138.742s
+[2025-10-30 19:58:53] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 20:16:08] VRPTester_cvrplib.py(585) : Instance X-n351-k40 (n=350) | optimal=25896 | score=28492 | gap=10.025% | time=1035.595s
+[2025-10-30 20:16:08] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 20:30:00] VRPTester_cvrplib.py(585) : Instance X-n280-k17 (n=279) | optimal=33503 | score=41768 | gap=24.669% | time=831.594s
+[2025-10-30 20:30:00] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 20:43:24] VRPTester_cvrplib.py(585) : Instance X-n308-k13 (n=307) | optimal=25859 | score=32416 | gap=25.357% | time=804.289s
+[2025-10-30 20:43:24] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 20:57:30] VRPTester_cvrplib.py(585) : Instance X-n172-k51 (n=171) | optimal=45607 | score=50068 | gap=9.781% | time=846.204s
+[2025-10-30 20:57:30] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 21:10:51] VRPTester_cvrplib.py(585) : Instance X-n256-k16 (n=255) | optimal=18839 | score=19849 | gap=5.361% | time=801.093s
+[2025-10-30 21:10:51] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 21:25:51] VRPTester_cvrplib.py(585) : Instance X-n275-k28 (n=274) | optimal=21245 | score=22240 | gap=4.683% | time=899.825s
+[2025-10-30 21:25:51] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 21:44:29] VRPTester_cvrplib.py(585) : Instance X-n289-k60 (n=288) | optimal=95151 | score=104887 | gap=10.232% | time=1118.070s
+[2025-10-30 21:44:29] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 22:13:51] VRPTester_cvrplib.py(585) : Instance X-n856-k95 (n=855) | optimal=88965 | score=97271 | gap=9.336% | time=1761.286s
+[2025-10-30 22:13:51] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 22:35:03] VRPTester_cvrplib.py(585) : Instance X-n313-k71 (n=312) | optimal=94043 | score=103138 | gap=9.671% | time=1272.443s
+[2025-10-30 22:35:03] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 22:49:46] VRPTester_cvrplib.py(585) : Instance X-n327-k20 (n=326) | optimal=27532 | score=30209 | gap=9.723% | time=883.222s
+[2025-10-30 22:49:46] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 23:00:10] VRPTester_cvrplib.py(585) : Instance X-n125-k30 (n=124) | optimal=55539 | score=61343 | gap=10.450% | time=623.272s
+[2025-10-30 23:00:10] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 23:16:33] VRPTester_cvrplib.py(585) : Instance X-n573-k30 (n=572) | optimal=50673 | score=57100 | gap=12.683% | time=983.571s
+[2025-10-30 23:16:33] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 23:37:10] VRPTester_cvrplib.py(585) : Instance Leuven2 (n=4000) | optimal=111395 | score=140505 | gap=26.132% | time=1236.528s
+[2025-10-30 23:37:10] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-30 23:54:49] VRPTester_cvrplib.py(585) : Instance X-n344-k43 (n=343) | optimal=42050 | score=45348 | gap=7.843% | time=1059.214s
+[2025-10-30 23:54:49] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 00:10:18] VRPTester_cvrplib.py(585) : Instance X-n322-k28 (n=321) | optimal=29834 | score=33705 | gap=12.975% | time=929.177s
+[2025-10-31 00:10:18] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 00:19:06] VRPTester_cvrplib.py(585) : Instance X-n143-k7 (n=142) | optimal=15700 | score=16076 | gap=2.395% | time=528.286s
+[2025-10-31 00:19:06] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 00:33:43] VRPTester_cvrplib.py(585) : Instance X-n251-k28 (n=250) | optimal=38684 | score=40226 | gap=3.986% | time=876.498s
+[2025-10-31 00:33:43] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 00:56:22] VRPTester_cvrplib.py(585) : Instance X-n480-k70 (n=479) | optimal=89449 | score=95606 | gap=6.883% | time=1358.749s
+[2025-10-31 00:56:22] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 01:15:12] VRPTester_cvrplib.py(585) : Instance X-n701-k44 (n=700) | optimal=81923 | score=90528 | gap=10.504% | time=1130.193s
+[2025-10-31 01:15:12] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 02:05:09] VRPTester_cvrplib.py(585) : Instance Brussels2 (n=16000) | optimal=345468 | score=425895 | gap=23.281% | time=2996.994s
+[2025-10-31 02:05:09] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 02:27:32] VRPTester_cvrplib.py(585) : Instance X-n876-k59 (n=875) | optimal=99299 | score=108577 | gap=9.343% | time=1342.791s
+[2025-10-31 02:27:32] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 02:52:27] VRPTester_cvrplib.py(585) : Instance X-n376-k94 (n=375) | optimal=147713 | score=151555 | gap=2.601% | time=1495.728s
+[2025-10-31 02:52:27] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 03:10:03] VRPTester_cvrplib.py(585) : Instance X-n641-k35 (n=640) | optimal=63684 | score=72151 | gap=13.295% | time=1055.741s
+[2025-10-31 03:10:03] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 03:20:27] VRPTester_cvrplib.py(585) : Instance X-n167-k10 (n=166) | optimal=20557 | score=21102 | gap=2.651% | time=623.675s
+[2025-10-31 03:20:27] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 03:55:03] VRPTester_cvrplib.py(585) : Instance X-n469-k138 (n=468) | optimal=221824 | score=237001 | gap=6.842% | time=2075.764s
+[2025-10-31 03:55:03] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 04:10:14] VRPTester_cvrplib.py(585) : Instance X-n513-k21 (n=512) | optimal=24201 | score=29626 | gap=22.416% | time=911.876s
+[2025-10-31 04:10:14] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 04:22:44] VRPTester_cvrplib.py(585) : Instance X-n181-k23 (n=180) | optimal=25569 | score=26071 | gap=1.963% | time=749.873s
+[2025-10-31 04:22:44] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 04:30:05] VRPTester_cvrplib.py(585) : Instance X-n106-k14 (n=105) | optimal=26362 | score=26708 | gap=1.312% | time=440.672s
+[2025-10-31 04:30:05] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 04:40:28] VRPTester_cvrplib.py(585) : Instance X-n162-k11 (n=161) | optimal=14138 | score=14263 | gap=0.884% | time=623.200s
+[2025-10-31 04:40:28] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 04:56:24] VRPTester_cvrplib.py(585) : Instance X-n195-k51 (n=194) | optimal=44225 | score=51449 | gap=16.335% | time=955.968s
+[2025-10-31 04:56:24] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 05:10:44] VRPTester_cvrplib.py(585) : Instance X-n411-k19 (n=410) | optimal=19712 | score=26436 | gap=34.111% | time=860.176s
+[2025-10-31 05:10:44] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 05:28:20] VRPTester_cvrplib.py(585) : Instance X-n439-k37 (n=438) | optimal=36391 | score=41034 | gap=12.759% | time=1055.660s
+[2025-10-31 05:28:20] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 05:37:28] VRPTester_cvrplib.py(585) : Instance X-n139-k10 (n=138) | optimal=13590 | score=14310 | gap=5.298% | time=548.135s
+[2025-10-31 05:37:28] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 08:11:57] VRPTester_cvrplib.py(585) : Instance Flanders1 (n=20000) | optimal=7240118 | score=7892424 | gap=9.010% | time=9268.372s
+[2025-10-31 08:11:57] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 08:24:34] VRPTester_cvrplib.py(585) : Instance X-n209-k16 (n=208) | optimal=30656 | score=31670 | gap=3.308% | time=757.368s
+[2025-10-31 08:24:34] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 09:02:21] VRPTester_cvrplib.py(585) : Instance X-n837-k142 (n=836) | optimal=193737 | score=206557 | gap=6.617% | time=2267.026s
+[2025-10-31 09:02:21] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 09:34:32] VRPTester_cvrplib.py(585) : Instance X-n420-k130 (n=419) | optimal=107798 | score=116320 | gap=7.906% | time=1930.579s
+[2025-10-31 09:34:32] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 10:18:04] VRPTester_cvrplib.py(585) : Instance X-n819-k171 (n=818) | optimal=158121 | score=168251 | gap=6.406% | time=2612.024s
+[2025-10-31 10:18:04] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 10:30:39] VRPTester_cvrplib.py(585) : Instance X-n214-k11 (n=213) | optimal=10856 | score=11369 | gap=4.725% | time=755.627s
+[2025-10-31 10:30:39] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 10:48:23] VRPTester_cvrplib.py(585) : Instance X-n393-k38 (n=392) | optimal=38260 | score=43338 | gap=13.272% | time=1063.428s
+[2025-10-31 10:48:23] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 10:58:21] VRPTester_cvrplib.py(585) : Instance X-n157-k13 (n=156) | optimal=16876 | score=17036 | gap=0.948% | time=598.598s
+[2025-10-31 10:58:21] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 11:20:37] VRPTester_cvrplib.py(585) : Instance X-n491-k59 (n=490) | optimal=66483 | score=79377 | gap=19.394% | time=1335.686s
+[2025-10-31 11:20:37] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 11:40:03] VRPTester_cvrplib.py(585) : Instance X-n548-k50 (n=547) | optimal=86700 | score=92535 | gap=6.730% | time=1165.948s
+[2025-10-31 11:40:03] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 11:47:46] VRPTester_cvrplib.py(585) : Instance X-n115-k10 (n=114) | optimal=12747 | score=18995 | gap=49.015% | time=463.467s
+[2025-10-31 11:47:46] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 12:20:32] VRPTester_cvrplib.py(585) : Instance X-n670-k130 (n=669) | optimal=146332 | score=167194 | gap=14.257% | time=1965.858s
+[2025-10-31 12:20:32] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 12:37:18] VRPTester_cvrplib.py(585) : Instance X-n242-k48 (n=241) | optimal=82751 | score=87968 | gap=6.304% | time=1005.331s
+[2025-10-31 12:37:18] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 12:44:57] VRPTester_cvrplib.py(585) : Instance X-n110-k13 (n=109) | optimal=14971 | score=15373 | gap=2.685% | time=459.782s
+[2025-10-31 12:44:57] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 12:59:08] VRPTester_cvrplib.py(585) : Instance X-n228-k23 (n=227) | optimal=25742 | score=35862 | gap=39.313% | time=850.780s
+[2025-10-31 12:59:08] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 13:23:35] VRPTester_cvrplib.py(585) : Instance X-n685-k75 (n=684) | optimal=68205 | score=81320 | gap=19.229% | time=1467.118s
+[2025-10-31 13:23:35] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(585) : Instance X-n129-k18 (n=128) | optimal=28940 | score=30043 | gap=3.811% | time=535.414s
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(589) : ===============================================================
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(603) : #################  CVRPLIB (file) TEST DONE  #################
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(604) : Solved 110/110, total time: 155250.18s, avg time (solved only): 1411.37s
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(610) : [0,1000) | num=99, avg gap=11.110%, avg time=1114.604s
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(610) : [1000,10000) | num=5, avg gap=17.953%, avg time=2529.116s
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(610) : [10000,100001] | num=6, avg gap=16.949%, avg time=5376.374s
+[2025-10-31 13:32:31] VRPTester_cvrplib.py(616) : ALL | num=110, avg gap=11.740%, avg time=1411.360s
+[2025-10-31 13:32:31] test_cvrp_survey.py(140) : total time: 155250s
