@@ -1,0 +1,596 @@
+2026-01-13 22:36:44,383 - trainer - INFO - ===== Nearest Neighbor CVRP Tester (ICAM-style log) =====
+2026-01-13 22:36:44,383 - trainer - INFO - Log directory: ./CVRP/result_nn_cvrp/20260113_223644_1683
+2026-01-13 22:36:44,383 - trainer - INFO - #################  Test scale range: [0, 1000]  #################
+2026-01-13 22:36:44,384 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,384 - trainer - INFO - Instance name: X-n120-k6, problem_size: 119, edge_weight: EUC_2D
+2026-01-13 22:36:44,387 - trainer - INFO - Instance name: X-n120-k6, optimal score: 13332.0000
+2026-01-13 22:36:44,387 - trainer - INFO - No aug score:16304.000, No aug gap:22.292%
+2026-01-13 22:36:44,387 - trainer - INFO - Instance time (NN only): 0.003s
+2026-01-13 22:36:44,389 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,389 - trainer - INFO - Instance name: X-n459-k26, problem_size: 458, edge_weight: EUC_2D
+2026-01-13 22:36:44,417 - trainer - INFO - Instance name: X-n459-k26, optimal score: 24139.0000
+2026-01-13 22:36:44,417 - trainer - INFO - No aug score:30325.000, No aug gap:25.627%
+2026-01-13 22:36:44,417 - trainer - INFO - Instance time (NN only): 0.028s
+2026-01-13 22:36:44,418 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,418 - trainer - INFO - Instance name: X-n237-k14, problem_size: 236, edge_weight: EUC_2D
+2026-01-13 22:36:44,427 - trainer - INFO - Instance name: X-n237-k14, optimal score: 27042.0000
+2026-01-13 22:36:44,427 - trainer - INFO - No aug score:31781.000, No aug gap:17.525%
+2026-01-13 22:36:44,427 - trainer - INFO - Instance time (NN only): 0.009s
+2026-01-13 22:36:44,428 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,428 - trainer - INFO - Instance name: X-n200-k36, problem_size: 199, edge_weight: EUC_2D
+2026-01-13 22:36:44,438 - trainer - INFO - Instance name: X-n200-k36, optimal score: 58578.0000
+2026-01-13 22:36:44,438 - trainer - INFO - No aug score:66307.000, No aug gap:13.194%
+2026-01-13 22:36:44,438 - trainer - INFO - Instance time (NN only): 0.010s
+2026-01-13 22:36:44,441 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,441 - trainer - INFO - Instance name: X-n733-k159, problem_size: 732, edge_weight: EUC_2D
+2026-01-13 22:36:44,511 - trainer - INFO - Instance name: X-n733-k159, optimal score: 136187.0000
+2026-01-13 22:36:44,511 - trainer - INFO - No aug score:161426.000, No aug gap:18.533%
+2026-01-13 22:36:44,512 - trainer - INFO - Instance time (NN only): 0.070s
+2026-01-13 22:36:44,531 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,531 - trainer - INFO - Instance name: X-n801-k40, problem_size: 800, edge_weight: EUC_2D
+2026-01-13 22:36:44,597 - trainer - INFO - Instance name: X-n801-k40, optimal score: 73311.0000
+2026-01-13 22:36:44,597 - trainer - INFO - No aug score:82691.000, No aug gap:12.795%
+2026-01-13 22:36:44,597 - trainer - INFO - Instance time (NN only): 0.065s
+2026-01-13 22:36:44,600 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,600 - trainer - INFO - Instance name: X-n536-k96, problem_size: 535, edge_weight: EUC_2D
+2026-01-13 22:36:44,648 - trainer - INFO - Instance name: X-n536-k96, optimal score: 94846.0000
+2026-01-13 22:36:44,648 - trainer - INFO - No aug score:106549.000, No aug gap:12.339%
+2026-01-13 22:36:44,648 - trainer - INFO - Instance time (NN only): 0.048s
+2026-01-13 22:36:44,650 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,650 - trainer - INFO - Instance name: X-n317-k53, problem_size: 316, edge_weight: EUC_2D
+2026-01-13 22:36:44,673 - trainer - INFO - Instance name: X-n317-k53, optimal score: 78355.0000
+2026-01-13 22:36:44,673 - trainer - INFO - No aug score:81173.000, No aug gap:3.596%
+2026-01-13 22:36:44,673 - trainer - INFO - Instance time (NN only): 0.023s
+2026-01-13 22:36:44,677 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,677 - trainer - INFO - Instance name: X-n655-k131, problem_size: 654, edge_weight: EUC_2D
+2026-01-13 22:36:44,744 - trainer - INFO - Instance name: X-n655-k131, optimal score: 106780.0000
+2026-01-13 22:36:44,745 - trainer - INFO - No aug score:109820.000, No aug gap:2.847%
+2026-01-13 22:36:44,745 - trainer - INFO - Instance time (NN only): 0.067s
+2026-01-13 22:36:44,746 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,746 - trainer - INFO - Instance name: X-n176-k26, problem_size: 175, edge_weight: EUC_2D
+2026-01-13 22:36:44,758 - trainer - INFO - Instance name: X-n176-k26, optimal score: 47812.0000
+2026-01-13 22:36:44,758 - trainer - INFO - No aug score:63864.000, No aug gap:33.573%
+2026-01-13 22:36:44,758 - trainer - INFO - Instance time (NN only): 0.012s
+2026-01-13 22:36:44,761 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,761 - trainer - INFO - Instance name: X-n449-k29, problem_size: 448, edge_weight: EUC_2D
+2026-01-13 22:36:44,785 - trainer - INFO - Instance name: X-n449-k29, optimal score: 55233.0000
+2026-01-13 22:36:44,785 - trainer - INFO - No aug score:71413.000, No aug gap:29.294%
+2026-01-13 22:36:44,785 - trainer - INFO - Instance time (NN only): 0.024s
+2026-01-13 22:36:44,786 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,786 - trainer - INFO - Instance name: X-n502-k39, problem_size: 501, edge_weight: EUC_2D
+2026-01-13 22:36:44,824 - trainer - INFO - Instance name: X-n502-k39, optimal score: 69226.0000
+2026-01-13 22:36:44,824 - trainer - INFO - No aug score:72113.000, No aug gap:4.170%
+2026-01-13 22:36:44,824 - trainer - INFO - Instance time (NN only): 0.037s
+2026-01-13 22:36:44,826 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,826 - trainer - INFO - Instance name: X-n336-k84, problem_size: 335, edge_weight: EUC_2D
+2026-01-13 22:36:44,855 - trainer - INFO - Instance name: X-n336-k84, optimal score: 139111.0000
+2026-01-13 22:36:44,855 - trainer - INFO - No aug score:167042.000, No aug gap:20.078%
+2026-01-13 22:36:44,855 - trainer - INFO - Instance time (NN only): 0.028s
+2026-01-13 22:36:44,917 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,917 - trainer - INFO - Instance name: X-n766-k71, problem_size: 765, edge_weight: EUC_2D
+2026-01-13 22:36:44,983 - trainer - INFO - Instance name: X-n766-k71, optimal score: 114417.0000
+2026-01-13 22:36:44,983 - trainer - INFO - No aug score:143561.000, No aug gap:25.472%
+2026-01-13 22:36:44,983 - trainer - INFO - Instance time (NN only): 0.066s
+2026-01-13 22:36:44,986 - trainer - INFO - ===============================================================
+2026-01-13 22:36:44,986 - trainer - INFO - Instance name: X-n359-k29, problem_size: 358, edge_weight: EUC_2D
+2026-01-13 22:36:45,012 - trainer - INFO - Instance name: X-n359-k29, optimal score: 51505.0000
+2026-01-13 22:36:45,012 - trainer - INFO - No aug score:61594.000, No aug gap:19.588%
+2026-01-13 22:36:45,012 - trainer - INFO - Instance time (NN only): 0.026s
+2026-01-13 22:36:45,014 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,014 - trainer - INFO - Instance name: X-n284-k15, problem_size: 283, edge_weight: EUC_2D
+2026-01-13 22:36:45,031 - trainer - INFO - Instance name: X-n284-k15, optimal score: 20226.0000
+2026-01-13 22:36:45,031 - trainer - INFO - No aug score:25962.000, No aug gap:28.360%
+2026-01-13 22:36:45,032 - trainer - INFO - Instance time (NN only): 0.017s
+2026-01-13 22:36:45,032 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,032 - trainer - INFO - Instance name: X-n148-k46, problem_size: 147, edge_weight: EUC_2D
+2026-01-13 22:36:45,038 - trainer - INFO - Instance name: X-n148-k46, optimal score: 43448.0000
+2026-01-13 22:36:45,038 - trainer - INFO - No aug score:54159.000, No aug gap:24.652%
+2026-01-13 22:36:45,038 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:45,039 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,039 - trainer - INFO - Instance name: X-n261-k13, problem_size: 260, edge_weight: EUC_2D
+2026-01-13 22:36:45,049 - trainer - INFO - Instance name: X-n261-k13, optimal score: 26558.0000
+2026-01-13 22:36:45,049 - trainer - INFO - No aug score:35446.000, No aug gap:33.466%
+2026-01-13 22:36:45,049 - trainer - INFO - Instance time (NN only): 0.009s
+2026-01-13 22:36:45,049 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,049 - trainer - INFO - Instance name: X-n134-k13, problem_size: 133, edge_weight: EUC_2D
+2026-01-13 22:36:45,055 - trainer - INFO - Instance name: X-n134-k13, optimal score: 10916.0000
+2026-01-13 22:36:45,056 - trainer - INFO - No aug score:14231.000, No aug gap:30.368%
+2026-01-13 22:36:45,056 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:45,057 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,058 - trainer - INFO - Instance name: X-n294-k50, problem_size: 293, edge_weight: EUC_2D
+2026-01-13 22:36:45,079 - trainer - INFO - Instance name: X-n294-k50, optimal score: 47161.0000
+2026-01-13 22:36:45,079 - trainer - INFO - No aug score:59413.000, No aug gap:25.979%
+2026-01-13 22:36:45,079 - trainer - INFO - Instance time (NN only): 0.021s
+2026-01-13 22:36:45,083 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,083 - trainer - INFO - Instance name: X-n586-k159, problem_size: 585, edge_weight: EUC_2D
+2026-01-13 22:36:45,134 - trainer - INFO - Instance name: X-n586-k159, optimal score: 190316.0000
+2026-01-13 22:36:45,134 - trainer - INFO - No aug score:205597.000, No aug gap:8.029%
+2026-01-13 22:36:45,134 - trainer - INFO - Instance time (NN only): 0.051s
+2026-01-13 22:36:45,135 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,135 - trainer - INFO - Instance name: X-n266-k58, problem_size: 265, edge_weight: EUC_2D
+2026-01-13 22:36:45,149 - trainer - INFO - Instance name: X-n266-k58, optimal score: 75478.0000
+2026-01-13 22:36:45,149 - trainer - INFO - No aug score:83379.000, No aug gap:10.468%
+2026-01-13 22:36:45,149 - trainer - INFO - Instance time (NN only): 0.014s
+2026-01-13 22:36:45,151 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,151 - trainer - INFO - Instance name: X-n153-k22, problem_size: 152, edge_weight: EUC_2D
+2026-01-13 22:36:45,159 - trainer - INFO - Instance name: X-n153-k22, optimal score: 21220.0000
+2026-01-13 22:36:45,160 - trainer - INFO - No aug score:27161.000, No aug gap:27.997%
+2026-01-13 22:36:45,160 - trainer - INFO - Instance time (NN only): 0.008s
+2026-01-13 22:36:45,161 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,161 - trainer - INFO - Instance name: X-n270-k35, problem_size: 269, edge_weight: EUC_2D
+2026-01-13 22:36:45,180 - trainer - INFO - Instance name: X-n270-k35, optimal score: 35291.0000
+2026-01-13 22:36:45,180 - trainer - INFO - No aug score:40281.000, No aug gap:14.140%
+2026-01-13 22:36:45,180 - trainer - INFO - Instance time (NN only): 0.018s
+2026-01-13 22:36:45,184 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,184 - trainer - INFO - Instance name: X-n916-k207, problem_size: 915, edge_weight: EUC_2D
+2026-01-13 22:36:45,286 - trainer - INFO - Instance name: X-n916-k207, optimal score: 329179.0000
+2026-01-13 22:36:45,287 - trainer - INFO - No aug score:349430.000, No aug gap:6.152%
+2026-01-13 22:36:45,287 - trainer - INFO - Instance time (NN only): 0.102s
+2026-01-13 22:36:45,289 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,289 - trainer - INFO - Instance name: X-n247-k50, problem_size: 246, edge_weight: EUC_2D
+2026-01-13 22:36:45,304 - trainer - INFO - Instance name: X-n247-k50, optimal score: 37274.0000
+2026-01-13 22:36:45,304 - trainer - INFO - No aug score:50724.000, No aug gap:36.084%
+2026-01-13 22:36:45,304 - trainer - INFO - Instance time (NN only): 0.014s
+2026-01-13 22:36:45,306 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,306 - trainer - INFO - Instance name: X-n613-k62, problem_size: 612, edge_weight: EUC_2D
+2026-01-13 22:36:45,351 - trainer - INFO - Instance name: X-n613-k62, optimal score: 59535.0000
+2026-01-13 22:36:45,351 - trainer - INFO - No aug score:79896.000, No aug gap:34.200%
+2026-01-13 22:36:45,351 - trainer - INFO - Instance time (NN only): 0.045s
+2026-01-13 22:36:45,355 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,355 - trainer - INFO - Instance name: X-n783-k48, problem_size: 782, edge_weight: EUC_2D
+2026-01-13 22:36:45,412 - trainer - INFO - Instance name: X-n783-k48, optimal score: 72386.0000
+2026-01-13 22:36:45,412 - trainer - INFO - No aug score:93738.000, No aug gap:29.497%
+2026-01-13 22:36:45,412 - trainer - INFO - Instance time (NN only): 0.057s
+2026-01-13 22:36:45,413 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,413 - trainer - INFO - Instance name: X-n303-k21, problem_size: 302, edge_weight: EUC_2D
+2026-01-13 22:36:45,424 - trainer - INFO - Instance name: X-n303-k21, optimal score: 21736.0000
+2026-01-13 22:36:45,424 - trainer - INFO - No aug score:29233.000, No aug gap:34.491%
+2026-01-13 22:36:45,424 - trainer - INFO - Instance time (NN only): 0.011s
+2026-01-13 22:36:45,425 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,425 - trainer - INFO - Instance name: X-n219-k73, problem_size: 218, edge_weight: EUC_2D
+2026-01-13 22:36:45,434 - trainer - INFO - Instance name: X-n219-k73, optimal score: 117595.0000
+2026-01-13 22:36:45,434 - trainer - INFO - No aug score:120811.000, No aug gap:2.735%
+2026-01-13 22:36:45,434 - trainer - INFO - Instance time (NN only): 0.009s
+2026-01-13 22:36:45,435 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,435 - trainer - INFO - Instance name: X-n331-k15, problem_size: 330, edge_weight: EUC_2D
+2026-01-13 22:36:45,446 - trainer - INFO - Instance name: X-n331-k15, optimal score: 31102.0000
+2026-01-13 22:36:45,446 - trainer - INFO - No aug score:36361.000, No aug gap:16.909%
+2026-01-13 22:36:45,446 - trainer - INFO - Instance time (NN only): 0.011s
+2026-01-13 22:36:45,448 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,448 - trainer - INFO - Instance name: X-n401-k29, problem_size: 400, edge_weight: EUC_2D
+2026-01-13 22:36:45,464 - trainer - INFO - Instance name: X-n401-k29, optimal score: 66154.0000
+2026-01-13 22:36:45,464 - trainer - INFO - No aug score:75126.000, No aug gap:13.562%
+2026-01-13 22:36:45,464 - trainer - INFO - Instance time (NN only): 0.016s
+2026-01-13 22:36:45,465 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,465 - trainer - INFO - Instance name: X-n204-k19, problem_size: 203, edge_weight: EUC_2D
+2026-01-13 22:36:45,471 - trainer - INFO - Instance name: X-n204-k19, optimal score: 19565.0000
+2026-01-13 22:36:45,471 - trainer - INFO - No aug score:24208.000, No aug gap:23.731%
+2026-01-13 22:36:45,471 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:45,472 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,472 - trainer - INFO - Instance name: X-n384-k52, problem_size: 383, edge_weight: EUC_2D
+2026-01-13 22:36:45,488 - trainer - INFO - Instance name: X-n384-k52, optimal score: 65940.0000
+2026-01-13 22:36:45,488 - trainer - INFO - No aug score:74097.000, No aug gap:12.370%
+2026-01-13 22:36:45,489 - trainer - INFO - Instance time (NN only): 0.016s
+2026-01-13 22:36:45,489 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,489 - trainer - INFO - Instance name: X-n186-k15, problem_size: 185, edge_weight: EUC_2D
+2026-01-13 22:36:45,495 - trainer - INFO - Instance name: X-n186-k15, optimal score: 24145.0000
+2026-01-13 22:36:45,495 - trainer - INFO - No aug score:28423.000, No aug gap:17.718%
+2026-01-13 22:36:45,495 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:45,499 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,499 - trainer - INFO - Instance name: X-n599-k92, problem_size: 598, edge_weight: EUC_2D
+2026-01-13 22:36:45,530 - trainer - INFO - Instance name: X-n599-k92, optimal score: 108451.0000
+2026-01-13 22:36:45,530 - trainer - INFO - No aug score:121385.000, No aug gap:11.926%
+2026-01-13 22:36:45,531 - trainer - INFO - Instance time (NN only): 0.031s
+2026-01-13 22:36:45,533 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,533 - trainer - INFO - Instance name: X-n716-k35, problem_size: 715, edge_weight: EUC_2D
+2026-01-13 22:36:45,601 - trainer - INFO - Instance name: X-n716-k35, optimal score: 43373.0000
+2026-01-13 22:36:45,601 - trainer - INFO - No aug score:53176.000, No aug gap:22.602%
+2026-01-13 22:36:45,601 - trainer - INFO - Instance time (NN only): 0.068s
+2026-01-13 22:36:45,605 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,605 - trainer - INFO - Instance name: X-n749-k98, problem_size: 748, edge_weight: EUC_2D
+2026-01-13 22:36:45,671 - trainer - INFO - Instance name: X-n749-k98, optimal score: 77269.0000
+2026-01-13 22:36:45,671 - trainer - INFO - No aug score:101181.000, No aug gap:30.946%
+2026-01-13 22:36:45,671 - trainer - INFO - Instance time (NN only): 0.066s
+2026-01-13 22:36:45,676 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,676 - trainer - INFO - Instance name: X-n979-k58, problem_size: 978, edge_weight: EUC_2D
+2026-01-13 22:36:45,762 - trainer - INFO - Instance name: X-n979-k58, optimal score: 118976.0000
+2026-01-13 22:36:45,762 - trainer - INFO - No aug score:132753.000, No aug gap:11.580%
+2026-01-13 22:36:45,762 - trainer - INFO - Instance time (NN only): 0.085s
+2026-01-13 22:36:45,763 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,763 - trainer - INFO - Instance name: X-n524-k153, problem_size: 523, edge_weight: EUC_2D
+2026-01-13 22:36:45,793 - trainer - INFO - Instance name: X-n524-k153, optimal score: 154593.0000
+2026-01-13 22:36:45,793 - trainer - INFO - No aug score:200314.000, No aug gap:29.575%
+2026-01-13 22:36:45,793 - trainer - INFO - Instance time (NN only): 0.029s
+2026-01-13 22:36:45,794 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,794 - trainer - INFO - Instance name: X-n429-k61, problem_size: 428, edge_weight: EUC_2D
+2026-01-13 22:36:45,813 - trainer - INFO - Instance name: X-n429-k61, optimal score: 65449.0000
+2026-01-13 22:36:45,813 - trainer - INFO - No aug score:73280.000, No aug gap:11.965%
+2026-01-13 22:36:45,813 - trainer - INFO - Instance time (NN only): 0.019s
+2026-01-13 22:36:45,816 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,816 - trainer - INFO - Instance name: X-n957-k87, problem_size: 956, edge_weight: EUC_2D
+2026-01-13 22:36:45,876 - trainer - INFO - Instance name: X-n957-k87, optimal score: 85465.0000
+2026-01-13 22:36:45,876 - trainer - INFO - No aug score:92185.000, No aug gap:7.863%
+2026-01-13 22:36:45,876 - trainer - INFO - Instance time (NN only): 0.060s
+2026-01-13 22:36:45,877 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,877 - trainer - INFO - Instance name: X-n233-k16, problem_size: 232, edge_weight: EUC_2D
+2026-01-13 22:36:45,885 - trainer - INFO - Instance name: X-n233-k16, optimal score: 19230.0000
+2026-01-13 22:36:45,885 - trainer - INFO - No aug score:26436.000, No aug gap:37.473%
+2026-01-13 22:36:45,885 - trainer - INFO - Instance time (NN only): 0.008s
+2026-01-13 22:36:45,886 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,886 - trainer - INFO - Instance name: X-n190-k8, problem_size: 189, edge_weight: EUC_2D
+2026-01-13 22:36:45,892 - trainer - INFO - Instance name: X-n190-k8, optimal score: 16980.0000
+2026-01-13 22:36:45,892 - trainer - INFO - No aug score:19985.000, No aug gap:17.697%
+2026-01-13 22:36:45,892 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:45,892 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,892 - trainer - INFO - Instance name: X-n101-k25, problem_size: 100, edge_weight: EUC_2D
+2026-01-13 22:36:45,895 - trainer - INFO - Instance name: X-n101-k25, optimal score: 27591.0000
+2026-01-13 22:36:45,895 - trainer - INFO - No aug score:38084.000, No aug gap:38.031%
+2026-01-13 22:36:45,895 - trainer - INFO - Instance time (NN only): 0.003s
+2026-01-13 22:36:45,996 - trainer - INFO - ===============================================================
+2026-01-13 22:36:45,996 - trainer - INFO - Instance name: X-n895-k37, problem_size: 894, edge_weight: EUC_2D
+2026-01-13 22:36:46,057 - trainer - INFO - Instance name: X-n895-k37, optimal score: 53860.0000
+2026-01-13 22:36:46,057 - trainer - INFO - No aug score:63186.000, No aug gap:17.315%
+2026-01-13 22:36:46,057 - trainer - INFO - Instance time (NN only): 0.061s
+2026-01-13 22:36:46,060 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,060 - trainer - INFO - Instance name: X-n936-k151, problem_size: 935, edge_weight: EUC_2D
+2026-01-13 22:36:46,161 - trainer - INFO - Instance name: X-n936-k151, optimal score: 132715.0000
+2026-01-13 22:36:46,161 - trainer - INFO - No aug score:182261.000, No aug gap:37.333%
+2026-01-13 22:36:46,161 - trainer - INFO - Instance time (NN only): 0.101s
+2026-01-13 22:36:46,163 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,163 - trainer - INFO - Instance name: X-n223-k34, problem_size: 222, edge_weight: EUC_2D
+2026-01-13 22:36:46,176 - trainer - INFO - Instance name: X-n223-k34, optimal score: 40437.0000
+2026-01-13 22:36:46,177 - trainer - INFO - No aug score:52631.000, No aug gap:30.156%
+2026-01-13 22:36:46,177 - trainer - INFO - Instance time (NN only): 0.013s
+2026-01-13 22:36:46,179 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,180 - trainer - INFO - Instance name: X-n561-k42, problem_size: 560, edge_weight: EUC_2D
+2026-01-13 22:36:46,216 - trainer - INFO - Instance name: X-n561-k42, optimal score: 42717.0000
+2026-01-13 22:36:46,216 - trainer - INFO - No aug score:55166.000, No aug gap:29.143%
+2026-01-13 22:36:46,216 - trainer - INFO - Instance time (NN only): 0.036s
+2026-01-13 22:36:46,270 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,270 - trainer - INFO - Instance name: X-n627-k43, problem_size: 626, edge_weight: EUC_2D
+2026-01-13 22:36:46,324 - trainer - INFO - Instance name: X-n627-k43, optimal score: 62164.0000
+2026-01-13 22:36:46,324 - trainer - INFO - No aug score:69004.000, No aug gap:11.003%
+2026-01-13 22:36:46,324 - trainer - INFO - Instance time (NN only): 0.053s
+2026-01-13 22:36:46,326 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,326 - trainer - INFO - Instance name: X-n298-k31, problem_size: 297, edge_weight: EUC_2D
+2026-01-13 22:36:46,346 - trainer - INFO - Instance name: X-n298-k31, optimal score: 34231.0000
+2026-01-13 22:36:46,346 - trainer - INFO - No aug score:45466.000, No aug gap:32.821%
+2026-01-13 22:36:46,346 - trainer - INFO - Instance time (NN only): 0.020s
+2026-01-13 22:36:46,380 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,381 - trainer - INFO - Instance name: X-n367-k17, problem_size: 366, edge_weight: EUC_2D
+2026-01-13 22:36:46,395 - trainer - INFO - Instance name: X-n367-k17, optimal score: 22814.0000
+2026-01-13 22:36:46,395 - trainer - INFO - No aug score:30203.000, No aug gap:32.388%
+2026-01-13 22:36:46,395 - trainer - INFO - Instance time (NN only): 0.014s
+2026-01-13 22:36:46,406 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,406 - trainer - INFO - Instance name: X-n351-k40, problem_size: 350, edge_weight: EUC_2D
+2026-01-13 22:36:46,422 - trainer - INFO - Instance name: X-n351-k40, optimal score: 25896.0000
+2026-01-13 22:36:46,422 - trainer - INFO - No aug score:34216.000, No aug gap:32.129%
+2026-01-13 22:36:46,422 - trainer - INFO - Instance time (NN only): 0.015s
+2026-01-13 22:36:46,423 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,423 - trainer - INFO - Instance name: X-n280-k17, problem_size: 279, edge_weight: EUC_2D
+2026-01-13 22:36:46,433 - trainer - INFO - Instance name: X-n280-k17, optimal score: 33503.0000
+2026-01-13 22:36:46,433 - trainer - INFO - No aug score:44486.000, No aug gap:32.782%
+2026-01-13 22:36:46,433 - trainer - INFO - Instance time (NN only): 0.010s
+2026-01-13 22:36:46,434 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,434 - trainer - INFO - Instance name: X-n308-k13, problem_size: 307, edge_weight: EUC_2D
+2026-01-13 22:36:46,445 - trainer - INFO - Instance name: X-n308-k13, optimal score: 25859.0000
+2026-01-13 22:36:46,445 - trainer - INFO - No aug score:35167.000, No aug gap:35.995%
+2026-01-13 22:36:46,445 - trainer - INFO - Instance time (NN only): 0.011s
+2026-01-13 22:36:46,445 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,445 - trainer - INFO - Instance name: X-n172-k51, problem_size: 171, edge_weight: EUC_2D
+2026-01-13 22:36:46,452 - trainer - INFO - Instance name: X-n172-k51, optimal score: 45607.0000
+2026-01-13 22:36:46,452 - trainer - INFO - No aug score:55705.000, No aug gap:22.141%
+2026-01-13 22:36:46,452 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:46,453 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,453 - trainer - INFO - Instance name: X-n256-k16, problem_size: 255, edge_weight: EUC_2D
+2026-01-13 22:36:46,463 - trainer - INFO - Instance name: X-n256-k16, optimal score: 18839.0000
+2026-01-13 22:36:46,463 - trainer - INFO - No aug score:21798.000, No aug gap:15.707%
+2026-01-13 22:36:46,463 - trainer - INFO - Instance time (NN only): 0.009s
+2026-01-13 22:36:46,466 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,466 - trainer - INFO - Instance name: X-n275-k28, problem_size: 274, edge_weight: EUC_2D
+2026-01-13 22:36:46,484 - trainer - INFO - Instance name: X-n275-k28, optimal score: 21245.0000
+2026-01-13 22:36:46,484 - trainer - INFO - No aug score:24261.000, No aug gap:14.196%
+2026-01-13 22:36:46,484 - trainer - INFO - Instance time (NN only): 0.017s
+2026-01-13 22:36:46,485 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,485 - trainer - INFO - Instance name: X-n289-k60, problem_size: 288, edge_weight: EUC_2D
+2026-01-13 22:36:46,501 - trainer - INFO - Instance name: X-n289-k60, optimal score: 95151.0000
+2026-01-13 22:36:46,501 - trainer - INFO - No aug score:109565.000, No aug gap:15.149%
+2026-01-13 22:36:46,501 - trainer - INFO - Instance time (NN only): 0.015s
+2026-01-13 22:36:46,505 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,505 - trainer - INFO - Instance name: X-n856-k95, problem_size: 855, edge_weight: EUC_2D
+2026-01-13 22:36:46,580 - trainer - INFO - Instance name: X-n856-k95, optimal score: 88965.0000
+2026-01-13 22:36:46,580 - trainer - INFO - No aug score:96933.000, No aug gap:8.956%
+2026-01-13 22:36:46,580 - trainer - INFO - Instance time (NN only): 0.075s
+2026-01-13 22:36:46,581 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,581 - trainer - INFO - Instance name: X-n313-k71, problem_size: 312, edge_weight: EUC_2D
+2026-01-13 22:36:46,596 - trainer - INFO - Instance name: X-n313-k71, optimal score: 94043.0000
+2026-01-13 22:36:46,596 - trainer - INFO - No aug score:112536.000, No aug gap:19.664%
+2026-01-13 22:36:46,596 - trainer - INFO - Instance time (NN only): 0.015s
+2026-01-13 22:36:46,598 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,598 - trainer - INFO - Instance name: X-n327-k20, problem_size: 326, edge_weight: EUC_2D
+2026-01-13 22:36:46,618 - trainer - INFO - Instance name: X-n327-k20, optimal score: 27532.0000
+2026-01-13 22:36:46,618 - trainer - INFO - No aug score:32748.000, No aug gap:18.945%
+2026-01-13 22:36:46,618 - trainer - INFO - Instance time (NN only): 0.020s
+2026-01-13 22:36:46,619 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,619 - trainer - INFO - Instance name: X-n125-k30, problem_size: 124, edge_weight: EUC_2D
+2026-01-13 22:36:46,625 - trainer - INFO - Instance name: X-n125-k30, optimal score: 55539.0000
+2026-01-13 22:36:46,625 - trainer - INFO - No aug score:68354.000, No aug gap:23.074%
+2026-01-13 22:36:46,625 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:46,627 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,627 - trainer - INFO - Instance name: X-n573-k30, problem_size: 572, edge_weight: EUC_2D
+2026-01-13 22:36:46,665 - trainer - INFO - Instance name: X-n573-k30, optimal score: 50673.0000
+2026-01-13 22:36:46,665 - trainer - INFO - No aug score:57960.000, No aug gap:14.380%
+2026-01-13 22:36:46,665 - trainer - INFO - Instance time (NN only): 0.037s
+2026-01-13 22:36:46,685 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,685 - trainer - INFO - Instance name: X-n344-k43, problem_size: 343, edge_weight: EUC_2D
+2026-01-13 22:36:46,709 - trainer - INFO - Instance name: X-n344-k43, optimal score: 42050.0000
+2026-01-13 22:36:46,710 - trainer - INFO - No aug score:47510.000, No aug gap:12.985%
+2026-01-13 22:36:46,710 - trainer - INFO - Instance time (NN only): 0.025s
+2026-01-13 22:36:46,712 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,712 - trainer - INFO - Instance name: X-n322-k28, problem_size: 321, edge_weight: EUC_2D
+2026-01-13 22:36:46,734 - trainer - INFO - Instance name: X-n322-k28, optimal score: 29834.0000
+2026-01-13 22:36:46,734 - trainer - INFO - No aug score:37289.000, No aug gap:24.988%
+2026-01-13 22:36:46,734 - trainer - INFO - Instance time (NN only): 0.022s
+2026-01-13 22:36:46,735 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,735 - trainer - INFO - Instance name: X-n143-k7, problem_size: 142, edge_weight: EUC_2D
+2026-01-13 22:36:46,743 - trainer - INFO - Instance name: X-n143-k7, optimal score: 15700.0000
+2026-01-13 22:36:46,743 - trainer - INFO - No aug score:21668.000, No aug gap:38.013%
+2026-01-13 22:36:46,743 - trainer - INFO - Instance time (NN only): 0.008s
+2026-01-13 22:36:46,745 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,745 - trainer - INFO - Instance name: X-n251-k28, problem_size: 250, edge_weight: EUC_2D
+2026-01-13 22:36:46,761 - trainer - INFO - Instance name: X-n251-k28, optimal score: 38684.0000
+2026-01-13 22:36:46,761 - trainer - INFO - No aug score:42795.000, No aug gap:10.627%
+2026-01-13 22:36:46,761 - trainer - INFO - Instance time (NN only): 0.016s
+2026-01-13 22:36:46,764 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,764 - trainer - INFO - Instance name: X-n480-k70, problem_size: 479, edge_weight: EUC_2D
+2026-01-13 22:36:46,805 - trainer - INFO - Instance name: X-n480-k70, optimal score: 89449.0000
+2026-01-13 22:36:46,805 - trainer - INFO - No aug score:96931.000, No aug gap:8.365%
+2026-01-13 22:36:46,805 - trainer - INFO - Instance time (NN only): 0.041s
+2026-01-13 22:36:46,809 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,809 - trainer - INFO - Instance name: X-n701-k44, problem_size: 700, edge_weight: EUC_2D
+2026-01-13 22:36:46,861 - trainer - INFO - Instance name: X-n701-k44, optimal score: 81923.0000
+2026-01-13 22:36:46,861 - trainer - INFO - No aug score:93552.000, No aug gap:14.195%
+2026-01-13 22:36:46,861 - trainer - INFO - Instance time (NN only): 0.051s
+2026-01-13 22:36:46,930 - trainer - INFO - ===============================================================
+2026-01-13 22:36:46,930 - trainer - INFO - Instance name: X-n876-k59, problem_size: 875, edge_weight: EUC_2D
+2026-01-13 22:36:47,007 - trainer - INFO - Instance name: X-n876-k59, optimal score: 99299.0000
+2026-01-13 22:36:47,007 - trainer - INFO - No aug score:122846.000, No aug gap:23.713%
+2026-01-13 22:36:47,007 - trainer - INFO - Instance time (NN only): 0.076s
+2026-01-13 22:36:47,009 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,009 - trainer - INFO - Instance name: X-n376-k94, problem_size: 375, edge_weight: EUC_2D
+2026-01-13 22:36:47,040 - trainer - INFO - Instance name: X-n376-k94, optimal score: 147713.0000
+2026-01-13 22:36:47,041 - trainer - INFO - No aug score:151784.000, No aug gap:2.756%
+2026-01-13 22:36:47,041 - trainer - INFO - Instance time (NN only): 0.031s
+2026-01-13 22:36:47,044 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,045 - trainer - INFO - Instance name: X-n641-k35, problem_size: 640, edge_weight: EUC_2D
+2026-01-13 22:36:47,097 - trainer - INFO - Instance name: X-n641-k35, optimal score: 63684.0000
+2026-01-13 22:36:47,097 - trainer - INFO - No aug score:71579.000, No aug gap:12.397%
+2026-01-13 22:36:47,097 - trainer - INFO - Instance time (NN only): 0.052s
+2026-01-13 22:36:47,098 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,098 - trainer - INFO - Instance name: X-n167-k10, problem_size: 166, edge_weight: EUC_2D
+2026-01-13 22:36:47,103 - trainer - INFO - Instance name: X-n167-k10, optimal score: 20557.0000
+2026-01-13 22:36:47,103 - trainer - INFO - No aug score:25705.000, No aug gap:25.043%
+2026-01-13 22:36:47,103 - trainer - INFO - Instance time (NN only): 0.005s
+2026-01-13 22:36:47,104 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,104 - trainer - INFO - Instance name: X-n469-k138, problem_size: 468, edge_weight: EUC_2D
+2026-01-13 22:36:47,146 - trainer - INFO - Instance name: X-n469-k138, optimal score: 221824.0000
+2026-01-13 22:36:47,147 - trainer - INFO - No aug score:240381.000, No aug gap:8.366%
+2026-01-13 22:36:47,147 - trainer - INFO - Instance time (NN only): 0.042s
+2026-01-13 22:36:47,150 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,150 - trainer - INFO - Instance name: X-n513-k21, problem_size: 512, edge_weight: EUC_2D
+2026-01-13 22:36:47,185 - trainer - INFO - Instance name: X-n513-k21, optimal score: 24201.0000
+2026-01-13 22:36:47,186 - trainer - INFO - No aug score:31436.000, No aug gap:29.895%
+2026-01-13 22:36:47,186 - trainer - INFO - Instance time (NN only): 0.035s
+2026-01-13 22:36:47,186 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,186 - trainer - INFO - Instance name: X-n181-k23, problem_size: 180, edge_weight: EUC_2D
+2026-01-13 22:36:47,192 - trainer - INFO - Instance name: X-n181-k23, optimal score: 25569.0000
+2026-01-13 22:36:47,192 - trainer - INFO - No aug score:27718.000, No aug gap:8.405%
+2026-01-13 22:36:47,192 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:47,193 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,193 - trainer - INFO - Instance name: X-n106-k14, problem_size: 105, edge_weight: EUC_2D
+2026-01-13 22:36:47,196 - trainer - INFO - Instance name: X-n106-k14, optimal score: 26362.0000
+2026-01-13 22:36:47,196 - trainer - INFO - No aug score:28896.000, No aug gap:9.612%
+2026-01-13 22:36:47,196 - trainer - INFO - Instance time (NN only): 0.003s
+2026-01-13 22:36:47,196 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,196 - trainer - INFO - Instance name: X-n162-k11, problem_size: 161, edge_weight: EUC_2D
+2026-01-13 22:36:47,204 - trainer - INFO - Instance name: X-n162-k11, optimal score: 14138.0000
+2026-01-13 22:36:47,204 - trainer - INFO - No aug score:17534.000, No aug gap:24.020%
+2026-01-13 22:36:47,204 - trainer - INFO - Instance time (NN only): 0.008s
+2026-01-13 22:36:47,206 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,206 - trainer - INFO - Instance name: X-n195-k51, problem_size: 194, edge_weight: EUC_2D
+2026-01-13 22:36:47,218 - trainer - INFO - Instance name: X-n195-k51, optimal score: 44225.0000
+2026-01-13 22:36:47,218 - trainer - INFO - No aug score:55435.000, No aug gap:25.348%
+2026-01-13 22:36:47,218 - trainer - INFO - Instance time (NN only): 0.012s
+2026-01-13 22:36:47,221 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,221 - trainer - INFO - Instance name: X-n411-k19, problem_size: 410, edge_weight: EUC_2D
+2026-01-13 22:36:47,250 - trainer - INFO - Instance name: X-n411-k19, optimal score: 19712.0000
+2026-01-13 22:36:47,250 - trainer - INFO - No aug score:26500.000, No aug gap:34.436%
+2026-01-13 22:36:47,250 - trainer - INFO - Instance time (NN only): 0.029s
+2026-01-13 22:36:47,253 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,254 - trainer - INFO - Instance name: X-n439-k37, problem_size: 438, edge_weight: EUC_2D
+2026-01-13 22:36:47,275 - trainer - INFO - Instance name: X-n439-k37, optimal score: 36391.0000
+2026-01-13 22:36:47,275 - trainer - INFO - No aug score:40795.000, No aug gap:12.102%
+2026-01-13 22:36:47,275 - trainer - INFO - Instance time (NN only): 0.021s
+2026-01-13 22:36:47,275 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,276 - trainer - INFO - Instance name: X-n139-k10, problem_size: 138, edge_weight: EUC_2D
+2026-01-13 22:36:47,281 - trainer - INFO - Instance name: X-n139-k10, optimal score: 13590.0000
+2026-01-13 22:36:47,281 - trainer - INFO - No aug score:18144.000, No aug gap:33.510%
+2026-01-13 22:36:47,281 - trainer - INFO - Instance time (NN only): 0.005s
+2026-01-13 22:36:47,360 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,360 - trainer - INFO - Instance name: X-n209-k16, problem_size: 208, edge_weight: EUC_2D
+2026-01-13 22:36:47,367 - trainer - INFO - Instance name: X-n209-k16, optimal score: 30656.0000
+2026-01-13 22:36:47,367 - trainer - INFO - No aug score:36304.000, No aug gap:18.424%
+2026-01-13 22:36:47,368 - trainer - INFO - Instance time (NN only): 0.007s
+2026-01-13 22:36:47,370 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,370 - trainer - INFO - Instance name: X-n837-k142, problem_size: 836, edge_weight: EUC_2D
+2026-01-13 22:36:47,453 - trainer - INFO - Instance name: X-n837-k142, optimal score: 193737.0000
+2026-01-13 22:36:47,453 - trainer - INFO - No aug score:207533.000, No aug gap:7.121%
+2026-01-13 22:36:47,453 - trainer - INFO - Instance time (NN only): 0.083s
+2026-01-13 22:36:47,455 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,455 - trainer - INFO - Instance name: X-n420-k130, problem_size: 419, edge_weight: EUC_2D
+2026-01-13 22:36:47,476 - trainer - INFO - Instance name: X-n420-k130, optimal score: 107798.0000
+2026-01-13 22:36:47,476 - trainer - INFO - No aug score:127370.000, No aug gap:18.156%
+2026-01-13 22:36:47,476 - trainer - INFO - Instance time (NN only): 0.021s
+2026-01-13 22:36:47,478 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,478 - trainer - INFO - Instance name: X-n819-k171, problem_size: 818, edge_weight: EUC_2D
+2026-01-13 22:36:47,531 - trainer - INFO - Instance name: X-n819-k171, optimal score: 158121.0000
+2026-01-13 22:36:47,531 - trainer - INFO - No aug score:171376.000, No aug gap:8.383%
+2026-01-13 22:36:47,531 - trainer - INFO - Instance time (NN only): 0.053s
+2026-01-13 22:36:47,532 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,532 - trainer - INFO - Instance name: X-n214-k11, problem_size: 213, edge_weight: EUC_2D
+2026-01-13 22:36:47,539 - trainer - INFO - Instance name: X-n214-k11, optimal score: 10856.0000
+2026-01-13 22:36:47,539 - trainer - INFO - No aug score:16397.000, No aug gap:51.041%
+2026-01-13 22:36:47,539 - trainer - INFO - Instance time (NN only): 0.007s
+2026-01-13 22:36:47,540 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,540 - trainer - INFO - Instance name: X-n393-k38, problem_size: 392, edge_weight: EUC_2D
+2026-01-13 22:36:47,556 - trainer - INFO - Instance name: X-n393-k38, optimal score: 38260.0000
+2026-01-13 22:36:47,556 - trainer - INFO - No aug score:46008.000, No aug gap:20.251%
+2026-01-13 22:36:47,556 - trainer - INFO - Instance time (NN only): 0.016s
+2026-01-13 22:36:47,557 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,557 - trainer - INFO - Instance name: X-n157-k13, problem_size: 156, edge_weight: EUC_2D
+2026-01-13 22:36:47,562 - trainer - INFO - Instance name: X-n157-k13, optimal score: 16876.0000
+2026-01-13 22:36:47,562 - trainer - INFO - No aug score:18704.000, No aug gap:10.832%
+2026-01-13 22:36:47,562 - trainer - INFO - Instance time (NN only): 0.005s
+2026-01-13 22:36:47,563 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,563 - trainer - INFO - Instance name: X-n491-k59, problem_size: 490, edge_weight: EUC_2D
+2026-01-13 22:36:47,586 - trainer - INFO - Instance name: X-n491-k59, optimal score: 66483.0000
+2026-01-13 22:36:47,586 - trainer - INFO - No aug score:88378.000, No aug gap:32.933%
+2026-01-13 22:36:47,586 - trainer - INFO - Instance time (NN only): 0.023s
+2026-01-13 22:36:47,588 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,588 - trainer - INFO - Instance name: X-n548-k50, problem_size: 547, edge_weight: EUC_2D
+2026-01-13 22:36:47,636 - trainer - INFO - Instance name: X-n548-k50, optimal score: 86700.0000
+2026-01-13 22:36:47,636 - trainer - INFO - No aug score:93123.000, No aug gap:7.408%
+2026-01-13 22:36:47,636 - trainer - INFO - Instance time (NN only): 0.048s
+2026-01-13 22:36:47,637 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,637 - trainer - INFO - Instance name: X-n115-k10, problem_size: 114, edge_weight: EUC_2D
+2026-01-13 22:36:47,644 - trainer - INFO - Instance name: X-n115-k10, optimal score: 12747.0000
+2026-01-13 22:36:47,644 - trainer - INFO - No aug score:18168.000, No aug gap:42.528%
+2026-01-13 22:36:47,644 - trainer - INFO - Instance time (NN only): 0.006s
+2026-01-13 22:36:47,647 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,647 - trainer - INFO - Instance name: X-n670-k130, problem_size: 669, edge_weight: EUC_2D
+2026-01-13 22:36:47,707 - trainer - INFO - Instance name: X-n670-k130, optimal score: 146332.0000
+2026-01-13 22:36:47,707 - trainer - INFO - No aug score:199454.000, No aug gap:36.302%
+2026-01-13 22:36:47,707 - trainer - INFO - Instance time (NN only): 0.059s
+2026-01-13 22:36:47,709 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,709 - trainer - INFO - Instance name: X-n242-k48, problem_size: 241, edge_weight: EUC_2D
+2026-01-13 22:36:47,726 - trainer - INFO - Instance name: X-n242-k48, optimal score: 82751.0000
+2026-01-13 22:36:47,726 - trainer - INFO - No aug score:95298.000, No aug gap:15.162%
+2026-01-13 22:36:47,726 - trainer - INFO - Instance time (NN only): 0.017s
+2026-01-13 22:36:47,727 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,727 - trainer - INFO - Instance name: X-n110-k13, problem_size: 109, edge_weight: EUC_2D
+2026-01-13 22:36:47,732 - trainer - INFO - Instance name: X-n110-k13, optimal score: 14971.0000
+2026-01-13 22:36:47,732 - trainer - INFO - No aug score:18940.000, No aug gap:26.511%
+2026-01-13 22:36:47,732 - trainer - INFO - Instance time (NN only): 0.005s
+2026-01-13 22:36:47,733 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,733 - trainer - INFO - Instance name: X-n228-k23, problem_size: 227, edge_weight: EUC_2D
+2026-01-13 22:36:47,742 - trainer - INFO - Instance name: X-n228-k23, optimal score: 25742.0000
+2026-01-13 22:36:47,742 - trainer - INFO - No aug score:34588.000, No aug gap:34.364%
+2026-01-13 22:36:47,742 - trainer - INFO - Instance time (NN only): 0.009s
+2026-01-13 22:36:47,744 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,744 - trainer - INFO - Instance name: X-n685-k75, problem_size: 684, edge_weight: EUC_2D
+2026-01-13 22:36:47,803 - trainer - INFO - Instance name: X-n685-k75, optimal score: 68205.0000
+2026-01-13 22:36:47,803 - trainer - INFO - No aug score:87993.000, No aug gap:29.013%
+2026-01-13 22:36:47,803 - trainer - INFO - Instance time (NN only): 0.059s
+2026-01-13 22:36:47,804 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,804 - trainer - INFO - Instance name: X-n129-k18, problem_size: 128, edge_weight: EUC_2D
+2026-01-13 22:36:47,808 - trainer - INFO - Instance name: X-n129-k18, optimal score: 28940.0000
+2026-01-13 22:36:47,808 - trainer - INFO - No aug score:35956.000, No aug gap:24.243%
+2026-01-13 22:36:47,808 - trainer - INFO - Instance time (NN only): 0.004s
+2026-01-13 22:36:47,808 - trainer - INFO -  *** Test Done *** 
+2026-01-13 22:36:47,808 - trainer - INFO - scale_range: [0, 1000], instance number: 99, total time: 3.43s, avg time per instance: 0.03s
+2026-01-13 22:36:47,808 - trainer - INFO - instance: ['X-n120-k6', 'X-n459-k26', 'X-n237-k14', 'X-n200-k36', 'X-n733-k159', 'X-n801-k40', 'X-n536-k96', 'X-n317-k53', 'X-n655-k131', 'X-n176-k26', 'X-n449-k29', 'X-n502-k39', 'X-n336-k84', 'X-n766-k71', 'X-n359-k29', 'X-n284-k15', 'X-n148-k46', 'X-n261-k13', 'X-n134-k13', 'X-n294-k50', 'X-n586-k159', 'X-n266-k58', 'X-n153-k22', 'X-n270-k35', 'X-n916-k207', 'X-n247-k50', 'X-n613-k62', 'X-n783-k48', 'X-n303-k21', 'X-n219-k73', 'X-n331-k15', 'X-n401-k29', 'X-n204-k19', 'X-n384-k52', 'X-n186-k15', 'X-n599-k92', 'X-n716-k35', 'X-n749-k98', 'X-n979-k58', 'X-n524-k153', 'X-n429-k61', 'X-n957-k87', 'X-n233-k16', 'X-n190-k8', 'X-n101-k25', 'X-n895-k37', 'X-n936-k151', 'X-n223-k34', 'X-n561-k42', 'X-n627-k43', 'X-n298-k31', 'X-n367-k17', 'X-n351-k40', 'X-n280-k17', 'X-n308-k13', 'X-n172-k51', 'X-n256-k16', 'X-n275-k28', 'X-n289-k60', 'X-n856-k95', 'X-n313-k71', 'X-n327-k20', 'X-n125-k30', 'X-n573-k30', 'X-n344-k43', 'X-n322-k28', 'X-n143-k7', 'X-n251-k28', 'X-n480-k70', 'X-n701-k44', 'X-n876-k59', 'X-n376-k94', 'X-n641-k35', 'X-n167-k10', 'X-n469-k138', 'X-n513-k21', 'X-n181-k23', 'X-n106-k14', 'X-n162-k11', 'X-n195-k51', 'X-n411-k19', 'X-n439-k37', 'X-n139-k10', 'X-n209-k16', 'X-n837-k142', 'X-n420-k130', 'X-n819-k171', 'X-n214-k11', 'X-n393-k38', 'X-n157-k13', 'X-n491-k59', 'X-n548-k50', 'X-n115-k10', 'X-n670-k130', 'X-n242-k48', 'X-n110-k13', 'X-n228-k23', 'X-n685-k75', 'X-n129-k18']
+2026-01-13 22:36:47,808 - trainer - INFO - optimal: [13332.0, 24139.0, 27042.0, 58578.0, 136187.0, 73311.0, 94846.0, 78355.0, 106780.0, 47812.0, 55233.0, 69226.0, 139111.0, 114417.0, 51505.0, 20226.0, 43448.0, 26558.0, 10916.0, 47161.0, 190316.0, 75478.0, 21220.0, 35291.0, 329179.0, 37274.0, 59535.0, 72386.0, 21736.0, 117595.0, 31102.0, 66154.0, 19565.0, 65940.0, 24145.0, 108451.0, 43373.0, 77269.0, 118976.0, 154593.0, 65449.0, 85465.0, 19230.0, 16980.0, 27591.0, 53860.0, 132715.0, 40437.0, 42717.0, 62164.0, 34231.0, 22814.0, 25896.0, 33503.0, 25859.0, 45607.0, 18839.0, 21245.0, 95151.0, 88965.0, 94043.0, 27532.0, 55539.0, 50673.0, 42050.0, 29834.0, 15700.0, 38684.0, 89449.0, 81923.0, 99299.0, 147713.0, 63684.0, 20557.0, 221824.0, 24201.0, 25569.0, 26362.0, 14138.0, 44225.0, 19712.0, 36391.0, 13590.0, 30656.0, 193737.0, 107798.0, 158121.0, 10856.0, 38260.0, 16876.0, 66483.0, 86700.0, 12747.0, 146332.0, 82751.0, 14971.0, 25742.0, 68205.0, 28940.0]
+2026-01-13 22:36:47,808 - trainer - INFO - problem_size: [119, 458, 236, 199, 732, 800, 535, 316, 654, 175, 448, 501, 335, 765, 358, 283, 147, 260, 133, 293, 585, 265, 152, 269, 915, 246, 612, 782, 302, 218, 330, 400, 203, 383, 185, 598, 715, 748, 978, 523, 428, 956, 232, 189, 100, 894, 935, 222, 560, 626, 297, 366, 350, 279, 307, 171, 255, 274, 288, 855, 312, 326, 124, 572, 343, 321, 142, 250, 479, 700, 875, 375, 640, 166, 468, 512, 180, 105, 161, 194, 410, 438, 138, 208, 836, 419, 818, 213, 392, 156, 490, 547, 114, 669, 241, 109, 227, 684, 128]
+2026-01-13 22:36:47,808 - trainer - INFO - no_aug_score: [16304.0, 30325.0, 31781.0, 66307.0, 161426.0, 82691.0, 106549.0, 81173.0, 109820.0, 63864.0, 71413.0, 72113.0, 167042.0, 143561.0, 61594.0, 25962.0, 54159.0, 35446.0, 14231.0, 59413.0, 205597.0, 83379.0, 27161.0, 40281.0, 349430.0, 50724.0, 79896.0, 93738.0, 29233.0, 120811.0, 36361.0, 75126.0, 24208.0, 74097.0, 28423.0, 121385.0, 53176.0, 101181.0, 132753.0, 200314.0, 73280.0, 92185.0, 26436.0, 19985.0, 38084.0, 63186.0, 182261.0, 52631.0, 55166.0, 69004.0, 45466.0, 30203.0, 34216.0, 44486.0, 35167.0, 55705.0, 21798.0, 24261.0, 109565.0, 96933.0, 112536.0, 32748.0, 68354.0, 57960.0, 47510.0, 37289.0, 21668.0, 42795.0, 96931.0, 93552.0, 122846.0, 151784.0, 71579.0, 25705.0, 240381.0, 31436.0, 27718.0, 28896.0, 17534.0, 55435.0, 26500.0, 40795.0, 18144.0, 36304.0, 207533.0, 127370.0, 171376.0, 16397.0, 46008.0, 18704.0, 88378.0, 93123.0, 18168.0, 199454.0, 95298.0, 18940.0, 34588.0, 87993.0, 35956.0]
+2026-01-13 22:36:47,808 - trainer - INFO - no_aug_gap: [22.29222922292229, 25.626579394341107, 17.524591376377487, 13.194373314213527, 18.532605902178624, 12.794805690824024, 12.338949454905848, 3.596452045178993, 2.8469750889679717, 33.573161549401824, 29.29408143682219, 4.170398405223471, 20.078210925088598, 25.471739339433825, 19.588389476749832, 28.35953722930881, 24.65245811084515, 33.46637548008133, 30.368266764382557, 25.979092894552704, 8.029277622480507, 10.467950926097672, 27.99717247879359, 14.139582329772463, 6.1519720273772025, 36.08413371250738, 34.200050390526584, 29.49741662752466, 34.491166728008835, 2.7348101534929206, 16.90888045784837, 13.56229404117665, 23.73115256836187, 12.370336669699727, 17.717954027749016, 11.926123318364976, 22.601618518433128, 30.94643388681101, 11.579646315223238, 29.575077784893235, 11.96504148268117, 7.862867840636518, 37.47269890795632, 17.69729093050648, 38.03051719763691, 17.315261789825474, 37.33263007195871, 30.155550609590225, 29.14296415946813, 11.003152950260601, 32.821127048581694, 32.38800736389936, 32.1285140562249, 32.78213891293317, 35.9952047642987, 22.14133795250729, 15.706778491427357, 14.196281477994821, 15.148553352040441, 8.956331141460124, 19.66440883425667, 18.94522737178556, 23.073876015052484, 14.380439287194363, 12.984542211652794, 24.988268418582823, 38.01273885350319, 10.627132664667563, 8.364542923900771, 14.195036802851458, 23.71322974048077, 2.756020120097757, 12.397148420325356, 25.04256457654327, 8.365641229082517, 29.895458865336142, 8.40470882709531, 9.612320764737122, 24.02037063233838, 25.347654041831543, 34.43587662337662, 12.101893325272732, 33.50993377483444, 18.423799582463467, 7.120993924753661, 18.156181005213455, 8.382820751196869, 51.04089904200442, 20.250914793518035, 10.831950699217824, 32.93323105154701, 7.408304498269896, 42.52765356554483, 36.30238088729738, 15.162354533479958, 26.51125509318015, 34.36407427550307, 29.01253573784913, 24.24326192121631]
+2026-01-13 22:36:47,808 - trainer - INFO - Solved_ instances number: 99, min_dimension: 100, max_dimension: 978, avg gap(no aug): 21.174%
+2026-01-13 22:36:47,808 - trainer - INFO - Avg time per instance: 0.03s
+2026-01-13 22:36:47,809 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,809 - trainer - INFO - #################  Test scale range: [1000, 10000]  #################
+2026-01-13 22:36:47,831 - trainer - INFO - ===============================================================
+2026-01-13 22:36:47,831 - trainer - INFO - Instance name: Antwerp2, problem_size: 7000, edge_weight: EUC_2D
+2026-01-13 22:36:50,454 - trainer - INFO - Instance name: Antwerp2, optimal score: 291350.0000
+2026-01-13 22:36:50,454 - trainer - INFO - No aug score:339747.000, No aug gap:16.611%
+2026-01-13 22:36:50,454 - trainer - INFO - Instance time (NN only): 2.622s
+2026-01-13 22:36:50,528 - trainer - INFO - ===============================================================
+2026-01-13 22:36:50,528 - trainer - INFO - Instance name: X-n1001-k43, problem_size: 1000, edge_weight: EUC_2D
+2026-01-13 22:36:50,591 - trainer - INFO - Instance name: X-n1001-k43, optimal score: 72355.0000
+2026-01-13 22:36:50,591 - trainer - INFO - No aug score:86337.000, No aug gap:19.324%
+2026-01-13 22:36:50,591 - trainer - INFO - Instance time (NN only): 0.063s
+2026-01-13 22:36:50,692 - trainer - INFO - ===============================================================
+2026-01-13 22:36:50,693 - trainer - INFO - Instance name: Antwerp1, problem_size: 6000, edge_weight: EUC_2D
+2026-01-13 22:36:52,224 - trainer - INFO - Instance name: Antwerp1, optimal score: 477277.0000
+2026-01-13 22:36:52,224 - trainer - INFO - No aug score:521775.000, No aug gap:9.323%
+2026-01-13 22:36:52,224 - trainer - INFO - Instance time (NN only): 1.531s
+2026-01-13 22:36:52,289 - trainer - INFO - ===============================================================
+2026-01-13 22:36:52,289 - trainer - INFO - Instance name: Leuven1, problem_size: 3000, edge_weight: EUC_2D
+2026-01-13 22:36:52,712 - trainer - INFO - Instance name: Leuven1, optimal score: 192848.0000
+2026-01-13 22:36:52,712 - trainer - INFO - No aug score:211925.000, No aug gap:9.892%
+2026-01-13 22:36:52,712 - trainer - INFO - Instance time (NN only): 0.423s
+2026-01-13 22:36:52,733 - trainer - INFO - ===============================================================
+2026-01-13 22:36:52,733 - trainer - INFO - Instance name: Leuven2, problem_size: 4000, edge_weight: EUC_2D
+2026-01-13 22:36:53,500 - trainer - INFO - Instance name: Leuven2, optimal score: 111395.0000
+2026-01-13 22:36:53,500 - trainer - INFO - No aug score:134511.000, No aug gap:20.751%
+2026-01-13 22:36:53,500 - trainer - INFO - Instance time (NN only): 0.767s
+2026-01-13 22:36:53,621 - trainer - INFO -  *** Test Done *** 
+2026-01-13 22:36:53,622 - trainer - INFO - scale_range: [1000, 10000], instance number: 5, total time: 5.81s, avg time per instance: 1.16s
+2026-01-13 22:36:53,622 - trainer - INFO - instance: ['Antwerp2', 'X-n1001-k43', 'Antwerp1', 'Leuven1', 'Leuven2']
+2026-01-13 22:36:53,622 - trainer - INFO - optimal: [291350.0, 72355.0, 477277.0, 192848.0, 111395.0]
+2026-01-13 22:36:53,622 - trainer - INFO - problem_size: [7000, 1000, 6000, 3000, 4000]
+2026-01-13 22:36:53,622 - trainer - INFO - no_aug_score: [339747.0, 86337.0, 521775.0, 211925.0, 134511.0]
+2026-01-13 22:36:53,622 - trainer - INFO - no_aug_gap: [16.61129226016818, 19.324165572524358, 9.323307010394384, 9.892246743549324, 20.751380223528884]
+2026-01-13 22:36:53,622 - trainer - INFO - Solved_ instances number: 5, min_dimension: 1000, max_dimension: 7000, avg gap(no aug): 15.180%
+2026-01-13 22:36:53,622 - trainer - INFO - Avg time per instance: 1.16s
+2026-01-13 22:36:53,622 - trainer - INFO - ===============================================================
+2026-01-13 22:36:53,622 - trainer - INFO - #################  Test scale range: [10000, 100001]  #################
+2026-01-13 22:36:53,690 - trainer - INFO - ===============================================================
+2026-01-13 22:36:53,690 - trainer - INFO - Instance name: Brussels1, problem_size: 15000, edge_weight: EUC_2D
+2026-01-13 22:37:03,189 - trainer - INFO - Instance name: Brussels1, optimal score: 501719.0000
+2026-01-13 22:37:03,189 - trainer - INFO - No aug score:555386.000, No aug gap:10.697%
+2026-01-13 22:37:03,189 - trainer - INFO - Instance time (NN only): 9.499s
+2026-01-13 22:37:03,305 - trainer - INFO - ===============================================================
+2026-01-13 22:37:03,306 - trainer - INFO - Instance name: Flanders2, problem_size: 30000, edge_weight: EUC_2D
+2026-01-13 22:37:42,771 - trainer - INFO - Instance name: Flanders2, optimal score: 4373244.0000
+2026-01-13 22:37:42,771 - trainer - INFO - No aug score:4969637.000, No aug gap:13.637%
+2026-01-13 22:37:42,771 - trainer - INFO - Instance time (NN only): 39.465s
+2026-01-13 22:37:42,835 - trainer - INFO - ===============================================================
+2026-01-13 22:37:42,835 - trainer - INFO - Instance name: Ghent2, problem_size: 11000, edge_weight: EUC_2D
+2026-01-13 22:37:47,852 - trainer - INFO - Instance name: Ghent2, optimal score: 257749.0000
+2026-01-13 22:37:47,852 - trainer - INFO - No aug score:299310.000, No aug gap:16.125%
+2026-01-13 22:37:47,852 - trainer - INFO - Instance time (NN only): 5.016s
+2026-01-13 22:37:47,880 - trainer - INFO - ===============================================================
+2026-01-13 22:37:47,880 - trainer - INFO - Instance name: Ghent1, problem_size: 10000, edge_weight: EUC_2D
+2026-01-13 22:37:52,266 - trainer - INFO - Instance name: Ghent1, optimal score: 469531.0000
+2026-01-13 22:37:52,266 - trainer - INFO - No aug score:505698.000, No aug gap:7.703%
+2026-01-13 22:37:52,266 - trainer - INFO - Instance time (NN only): 4.386s
+2026-01-13 22:37:52,343 - trainer - INFO - ===============================================================
+2026-01-13 22:37:52,343 - trainer - INFO - Instance name: Brussels2, problem_size: 16000, edge_weight: EUC_2D
+2026-01-13 22:38:03,607 - trainer - INFO - Instance name: Brussels2, optimal score: 345468.0000
+2026-01-13 22:38:03,607 - trainer - INFO - No aug score:401311.000, No aug gap:16.164%
+2026-01-13 22:38:03,608 - trainer - INFO - Instance time (NN only): 11.264s
+2026-01-13 22:38:03,688 - trainer - INFO - ===============================================================
+2026-01-13 22:38:03,688 - trainer - INFO - Instance name: Flanders1, problem_size: 20000, edge_weight: EUC_2D
+2026-01-13 22:38:21,810 - trainer - INFO - Instance name: Flanders1, optimal score: 7240118.0000
+2026-01-13 22:38:21,810 - trainer - INFO - No aug score:7709745.000, No aug gap:6.486%
+2026-01-13 22:38:21,810 - trainer - INFO - Instance time (NN only): 18.121s
+2026-01-13 22:38:21,830 - trainer - INFO -  *** Test Done *** 
+2026-01-13 22:38:21,830 - trainer - INFO - scale_range: [10000, 100001], instance number: 6, total time: 88.21s, avg time per instance: 14.70s
+2026-01-13 22:38:21,830 - trainer - INFO - instance: ['Brussels1', 'Flanders2', 'Ghent2', 'Ghent1', 'Brussels2', 'Flanders1']
+2026-01-13 22:38:21,830 - trainer - INFO - optimal: [501719.0, 4373244.0, 257749.0, 469531.0, 345468.0, 7240118.0]
+2026-01-13 22:38:21,830 - trainer - INFO - problem_size: [15000, 30000, 11000, 10000, 16000, 20000]
+2026-01-13 22:38:21,830 - trainer - INFO - no_aug_score: [555386.0, 4969637.0, 299310.0, 505698.0, 401311.0, 7709745.0]
+2026-01-13 22:38:21,830 - trainer - INFO - no_aug_gap: [10.696625003238864, 13.637313628052768, 16.12460184132625, 7.702792786844745, 16.164449384602914, 6.4864550550142965]
+2026-01-13 22:38:21,831 - trainer - INFO - Solved_ instances number: 6, min_dimension: 10000, max_dimension: 30000, avg gap(no aug): 11.802%
+2026-01-13 22:38:21,831 - trainer - INFO - Avg time per instance: 14.70s
+2026-01-13 22:38:21,831 - trainer - INFO - ===============================================================
+2026-01-13 22:38:21,831 - trainer - INFO - All scale ranges done, solved instance number: 110/110, total time: 97.45s, avg time per instance: 0.89s
+2026-01-13 22:38:21,831 - trainer - INFO - [0, 1000), number: 99, avg gap(no aug): 21.174%
+2026-01-13 22:38:21,832 - trainer - INFO - [1000, 10000), number: 5, avg gap(no aug): 15.180%
+2026-01-13 22:38:21,832 - trainer - INFO - [10000, 100000], number: 6, avg gap(no aug): 11.802%
+2026-01-13 22:38:21,832 - trainer - INFO - #################  Bucket-wise Avg Time  #################
+2026-01-13 22:38:21,832 - trainer - INFO - [0, 1000), number: 99, avg time: 0.028s
+2026-01-13 22:38:21,832 - trainer - INFO - [1000, 10000), number: 5, avg time: 1.081s
+2026-01-13 22:38:21,832 - trainer - INFO - [10000, 100000], number: 6, avg time: 14.625s
+2026-01-13 22:38:21,832 - trainer - INFO - #######################################################
+2026-01-13 22:38:21,832 - trainer - INFO - All instances, number: 110, avg gap(no aug): 20.390%
+2026-01-13 22:38:21,832 - trainer - INFO - #################  All Done  #################
