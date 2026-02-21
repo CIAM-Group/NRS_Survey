@@ -1,0 +1,224 @@
+2025-12-04 16:44:10,905 | INFO | Logger initialized, log file at /public/home/bayp/exp_survey_202509/Improvement/population_based/GFACS/cvrp_nls/survey_results/cvrp_test_20251204_164410_test_CVRPLIB_Survey.log
+2025-12-04 16:44:10,905 | INFO | ===== Start CVRP Testing =====
+2025-12-04 16:44:10,905 | INFO | Checkpoint: /public/home/bayp/exp_survey_202509/Improvement/population_based/GFACS/pretrained/cvrp_nls/1000/cvrp1000_sd0_fromckpt-500_cvrp500_sd0_50/20.pt
+2025-12-04 16:44:10,905 | INFO | Dataset dir: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp
+2025-12-04 16:44:10,905 | INFO | n_ants=100, n_iter=100, k_sparse_factor=5, seed=0
+2025-12-04 16:44:11,268 | INFO | instances: 110, dim range: 100–30000 (median 370)
+2025-12-04 16:44:11,268 | INFO | checkpoint: /public/home/bayp/exp_survey_202509/Improvement/population_based/GFACS/pretrained/cvrp_nls/1000/cvrp1000_sd0_fromckpt-500_cvrp500_sd0_50/20.pt
+2025-12-04 16:44:11,268 | INFO | device: cuda:0+cpu
+2025-12-04 16:44:11,268 | INFO | n_ants: 100
+2025-12-04 16:44:11,268 | INFO | seed: 0
+2025-12-04 16:44:11,957 | INFO | Model loaded successfully.
+2025-12-04 16:44:11,957 | INFO | #################  Test scale range: [0,1000)  #################
+2025-12-04 16:44:11,957 | INFO | Current test instance: X-n101-k25, number of nodes: 100
+2025-12-04 16:46:22,099 | INFO | Instance X-n101-k25, dim=100, length=28015, optimal=27591.0, gap=1.537%, time=130.1417s)
+2025-12-04 16:46:22,099 | INFO | Current test instance: X-n106-k14, number of nodes: 105
+2025-12-04 16:48:29,685 | INFO | Instance X-n106-k14, dim=105, length=26660, optimal=26362.0, gap=1.130%, time=127.5861s)
+2025-12-04 16:48:29,685 | INFO | Current test instance: X-n110-k13, number of nodes: 109
+2025-12-04 16:50:28,674 | INFO | Instance X-n110-k13, dim=109, length=14971, optimal=14971.0, gap=0.000%, time=118.9889s)
+2025-12-04 16:50:28,674 | INFO | Current test instance: X-n115-k10, number of nodes: 114
+2025-12-04 16:52:21,110 | INFO | Instance X-n115-k10, dim=114, length=12754, optimal=12747.0, gap=0.055%, time=112.4355s)
+2025-12-04 16:52:21,110 | INFO | Current test instance: X-n120-k6, number of nodes: 119
+2025-12-04 16:54:18,894 | INFO | Instance X-n120-k6, dim=119, length=13332, optimal=13332.0, gap=0.000%, time=117.7838s)
+2025-12-04 16:54:18,895 | INFO | Current test instance: X-n125-k30, number of nodes: 124
+2025-12-04 16:56:54,185 | INFO | Instance X-n125-k30, dim=124, length=57235, optimal=55539.0, gap=3.054%, time=155.2904s)
+2025-12-04 16:56:54,185 | INFO | Current test instance: X-n129-k18, number of nodes: 128
+2025-12-04 16:59:33,980 | INFO | Instance X-n129-k18, dim=128, length=29160, optimal=28940.0, gap=0.760%, time=159.7950s)
+2025-12-04 16:59:33,981 | INFO | Current test instance: X-n134-k13, number of nodes: 133
+2025-12-04 17:02:07,595 | INFO | Instance X-n134-k13, dim=133, length=11075, optimal=10916.0, gap=1.457%, time=153.6141s)
+2025-12-04 17:02:07,595 | INFO | Current test instance: X-n139-k10, number of nodes: 138
+2025-12-04 17:04:18,234 | INFO | Instance X-n139-k10, dim=138, length=13663, optimal=13590.0, gap=0.537%, time=130.6388s)
+2025-12-04 17:04:18,234 | INFO | Current test instance: X-n143-k7, number of nodes: 142
+2025-12-04 17:06:57,489 | INFO | Instance X-n143-k7, dim=142, length=15939, optimal=15700.0, gap=1.522%, time=159.2544s)
+2025-12-04 17:06:57,489 | INFO | Current test instance: X-n148-k46, number of nodes: 147
+2025-12-04 17:10:15,949 | INFO | Instance X-n148-k46, dim=147, length=44082, optimal=43448.0, gap=1.459%, time=198.4594s)
+2025-12-04 17:10:15,949 | INFO | Current test instance: X-n153-k22, number of nodes: 152
+2025-12-04 17:12:58,827 | INFO | Instance X-n153-k22, dim=152, length=21954, optimal=21220.0, gap=3.459%, time=162.8785s)
+2025-12-04 17:12:58,828 | INFO | Current test instance: X-n157-k13, number of nodes: 156
+2025-12-04 17:16:06,905 | INFO | Instance X-n157-k13, dim=156, length=16967, optimal=16876.0, gap=0.539%, time=188.0769s)
+2025-12-04 17:16:06,905 | INFO | Current test instance: X-n162-k11, number of nodes: 161
+2025-12-04 17:18:38,855 | INFO | Instance X-n162-k11, dim=161, length=14235, optimal=14138.0, gap=0.686%, time=151.9502s)
+2025-12-04 17:18:38,855 | INFO | Current test instance: X-n167-k10, number of nodes: 166
+2025-12-04 17:21:12,652 | INFO | Instance X-n167-k10, dim=166, length=20841, optimal=20557.0, gap=1.382%, time=153.7959s)
+2025-12-04 17:21:12,652 | INFO | Current test instance: X-n172-k51, number of nodes: 171
+2025-12-04 17:24:59,643 | INFO | Instance X-n172-k51, dim=171, length=46329, optimal=45607.0, gap=1.583%, time=226.9916s)
+2025-12-04 17:24:59,643 | INFO | Current test instance: X-n176-k26, number of nodes: 175
+2025-12-04 17:28:07,841 | INFO | Instance X-n176-k26, dim=175, length=49126, optimal=47812.0, gap=2.748%, time=188.1978s)
+2025-12-04 17:28:07,842 | INFO | Current test instance: X-n181-k23, number of nodes: 180
+2025-12-04 17:31:06,444 | INFO | Instance X-n181-k23, dim=180, length=25729, optimal=25569.0, gap=0.626%, time=178.6023s)
+2025-12-04 17:31:06,444 | INFO | Current test instance: X-n186-k15, number of nodes: 185
+2025-12-04 17:33:56,967 | INFO | Instance X-n186-k15, dim=185, length=24441, optimal=24145.0, gap=1.226%, time=170.5228s)
+2025-12-04 17:33:56,967 | INFO | Current test instance: X-n190-k8, number of nodes: 189
+2025-12-04 17:37:03,746 | INFO | Instance X-n190-k8, dim=189, length=17297, optimal=16980.0, gap=1.867%, time=186.7788s)
+2025-12-04 17:37:03,746 | INFO | Current test instance: X-n195-k51, number of nodes: 194
+2025-12-04 17:41:08,842 | INFO | Instance X-n195-k51, dim=194, length=44992, optimal=44225.0, gap=1.734%, time=245.0956s)
+2025-12-04 17:41:08,842 | INFO | Current test instance: X-n200-k36, number of nodes: 199
+2025-12-04 17:45:23,727 | INFO | Instance X-n200-k36, dim=199, length=60159, optimal=58578.0, gap=2.699%, time=254.8850s)
+2025-12-04 17:45:23,727 | INFO | Current test instance: X-n204-k19, number of nodes: 203
+2025-12-04 17:48:47,203 | INFO | Instance X-n204-k19, dim=203, length=19920, optimal=19565.0, gap=1.814%, time=203.4760s)
+2025-12-04 17:48:47,203 | INFO | Current test instance: X-n209-k16, number of nodes: 208
+2025-12-04 17:51:58,540 | INFO | Instance X-n209-k16, dim=208, length=31076, optimal=30656.0, gap=1.370%, time=191.3366s)
+2025-12-04 17:51:58,540 | INFO | Current test instance: X-n214-k11, number of nodes: 213
+2025-12-04 17:55:47,997 | INFO | Instance X-n214-k11, dim=213, length=11243, optimal=10856.0, gap=3.565%, time=229.4570s)
+2025-12-04 17:55:47,998 | INFO | Current test instance: X-n219-k73, number of nodes: 218
+2025-12-04 18:00:43,833 | INFO | Instance X-n219-k73, dim=218, length=117776, optimal=117595.0, gap=0.154%, time=295.8350s)
+2025-12-04 18:00:43,833 | INFO | Current test instance: X-n223-k34, number of nodes: 222
+2025-12-04 18:05:35,451 | INFO | Instance X-n223-k34, dim=222, length=41434, optimal=40437.0, gap=2.466%, time=291.6182s)
+2025-12-04 18:05:35,451 | INFO | Current test instance: X-n228-k23, number of nodes: 227
+2025-12-04 18:09:22,068 | INFO | Instance X-n228-k23, dim=227, length=26565, optimal=25742.0, gap=3.197%, time=226.6166s)
+2025-12-04 18:09:22,068 | INFO | Current test instance: X-n233-k16, number of nodes: 232
+2025-12-04 18:13:06,307 | INFO | Instance X-n233-k16, dim=232, length=19582, optimal=19230.0, gap=1.830%, time=224.2391s)
+2025-12-04 18:13:06,307 | INFO | Current test instance: X-n237-k14, number of nodes: 236
+2025-12-04 18:16:36,620 | INFO | Instance X-n237-k14, dim=236, length=27430, optimal=27042.0, gap=1.435%, time=210.3124s)
+2025-12-04 18:16:36,620 | INFO | Current test instance: X-n242-k48, number of nodes: 241
+2025-12-04 18:21:24,390 | INFO | Instance X-n242-k48, dim=241, length=84780, optimal=82751.0, gap=2.452%, time=287.7695s)
+2025-12-04 18:21:24,390 | INFO | Current test instance: X-n247-k50, number of nodes: 246
+2025-12-04 18:26:15,271 | INFO | Instance X-n247-k50, dim=246, length=38567, optimal=37274.0, gap=3.469%, time=290.8808s)
+2025-12-04 18:26:15,271 | INFO | Current test instance: X-n251-k28, number of nodes: 250
+2025-12-04 18:30:37,388 | INFO | Instance X-n251-k28, dim=250, length=39461, optimal=38684.0, gap=2.009%, time=262.1167s)
+2025-12-04 18:30:37,388 | INFO | Current test instance: X-n256-k16, number of nodes: 255
+2025-12-04 18:34:37,150 | INFO | Instance X-n256-k16, dim=255, length=19006, optimal=18839.0, gap=0.886%, time=239.7621s)
+2025-12-04 18:34:37,150 | INFO | Current test instance: X-n261-k13, number of nodes: 260
+2025-12-04 18:39:00,619 | INFO | Instance X-n261-k13, dim=260, length=27377, optimal=26558.0, gap=3.084%, time=263.4691s)
+2025-12-04 18:39:00,620 | INFO | Current test instance: X-n266-k58, number of nodes: 265
+2025-12-04 18:44:32,687 | INFO | Instance X-n266-k58, dim=265, length=77414, optimal=75478.0, gap=2.565%, time=332.0672s)
+2025-12-04 18:44:32,687 | INFO | Current test instance: X-n270-k35, number of nodes: 269
+2025-12-04 18:49:12,354 | INFO | Instance X-n270-k35, dim=269, length=36012, optimal=35291.0, gap=2.043%, time=279.6670s)
+2025-12-04 18:49:12,354 | INFO | Current test instance: X-n275-k28, number of nodes: 274
+2025-12-04 18:54:45,102 | INFO | Instance X-n275-k28, dim=274, length=21601, optimal=21245.0, gap=1.676%, time=332.7479s)
+2025-12-04 18:54:45,102 | INFO | Current test instance: X-n280-k17, number of nodes: 279
+2025-12-04 18:59:27,554 | INFO | Instance X-n280-k17, dim=279, length=34368, optimal=33503.0, gap=2.582%, time=282.4512s)
+2025-12-04 18:59:27,554 | INFO | Current test instance: X-n284-k15, number of nodes: 283
+2025-12-04 19:04:36,106 | INFO | Instance X-n284-k15, dim=283, length=21013, optimal=20226.0, gap=3.891%, time=308.5525s)
+2025-12-04 19:04:36,107 | INFO | Current test instance: X-n289-k60, number of nodes: 288
+2025-12-04 19:10:31,732 | INFO | Instance X-n289-k60, dim=288, length=97832, optimal=95151.0, gap=2.818%, time=355.6254s)
+2025-12-04 19:10:31,732 | INFO | Current test instance: X-n294-k50, number of nodes: 293
+2025-12-04 19:16:14,170 | INFO | Instance X-n294-k50, dim=293, length=48628, optimal=47161.0, gap=3.111%, time=342.4380s)
+2025-12-04 19:16:14,170 | INFO | Current test instance: X-n298-k31, number of nodes: 297
+2025-12-04 19:21:22,973 | INFO | Instance X-n298-k31, dim=297, length=34981, optimal=34231.0, gap=2.191%, time=308.8020s)
+2025-12-04 19:21:22,973 | INFO | Current test instance: X-n303-k21, number of nodes: 302
+2025-12-04 19:27:05,370 | INFO | Instance X-n303-k21, dim=302, length=22354, optimal=21736.0, gap=2.843%, time=342.3969s)
+2025-12-04 19:27:05,370 | INFO | Current test instance: X-n308-k13, number of nodes: 307
+2025-12-04 19:32:22,879 | INFO | Instance X-n308-k13, dim=307, length=26565, optimal=25859.0, gap=2.730%, time=317.5090s)
+2025-12-04 19:32:22,879 | INFO | Current test instance: X-n313-k71, number of nodes: 312
+2025-12-04 19:39:05,196 | INFO | Instance X-n313-k71, dim=312, length=97019, optimal=94043.0, gap=3.165%, time=402.3165s)
+2025-12-04 19:39:05,196 | INFO | Current test instance: X-n317-k53, number of nodes: 316
+2025-12-04 19:45:20,954 | INFO | Instance X-n317-k53, dim=316, length=78829, optimal=78355.0, gap=0.605%, time=375.7577s)
+2025-12-04 19:45:20,954 | INFO | Current test instance: X-n322-k28, number of nodes: 321
+2025-12-04 19:50:43,666 | INFO | Instance X-n322-k28, dim=321, length=30575, optimal=29834.0, gap=2.484%, time=322.7119s)
+2025-12-04 19:50:43,666 | INFO | Current test instance: X-n327-k20, number of nodes: 326
+2025-12-04 19:56:10,524 | INFO | Instance X-n327-k20, dim=326, length=28410, optimal=27532.0, gap=3.189%, time=326.8582s)
+2025-12-04 19:56:10,524 | INFO | Current test instance: X-n331-k15, number of nodes: 330
+2025-12-04 20:01:19,610 | INFO | Instance X-n331-k15, dim=330, length=31801, optimal=31102.0, gap=2.247%, time=309.0850s)
+2025-12-04 20:01:19,610 | INFO | Current test instance: X-n336-k84, number of nodes: 335
+2025-12-04 20:08:35,557 | INFO | Instance X-n336-k84, dim=335, length=143929, optimal=139111.0, gap=3.463%, time=435.9472s)
+2025-12-04 20:08:35,557 | INFO | Current test instance: X-n344-k43, number of nodes: 343
+2025-12-04 20:14:26,280 | INFO | Instance X-n344-k43, dim=343, length=43110, optimal=42050.0, gap=2.521%, time=350.7232s)
+2025-12-04 20:14:26,281 | INFO | Current test instance: X-n351-k40, number of nodes: 350
+2025-12-04 20:20:41,961 | INFO | Instance X-n351-k40, dim=350, length=26841, optimal=25896.0, gap=3.649%, time=375.6806s)
+2025-12-04 20:20:41,961 | INFO | Current test instance: X-n359-k29, number of nodes: 358
+2025-12-04 20:26:42,029 | INFO | Instance X-n359-k29, dim=358, length=52754, optimal=51505.0, gap=2.425%, time=360.0676s)
+2025-12-04 20:26:42,029 | INFO | Current test instance: X-n367-k17, number of nodes: 366
+2025-12-04 20:32:35,430 | INFO | Instance X-n367-k17, dim=366, length=23654, optimal=22814.0, gap=3.682%, time=353.4003s)
+2025-12-04 20:32:35,430 | INFO | Current test instance: X-n376-k94, number of nodes: 375
+2025-12-04 20:40:29,198 | INFO | Instance X-n376-k94, dim=375, length=148499, optimal=147713.0, gap=0.532%, time=473.7685s)
+2025-12-04 20:40:29,199 | INFO | Current test instance: X-n384-k52, number of nodes: 383
+2025-12-04 20:47:02,713 | INFO | Instance X-n384-k52, dim=383, length=67676, optimal=65940.0, gap=2.633%, time=393.5146s)
+2025-12-04 20:47:02,713 | INFO | Current test instance: X-n393-k38, number of nodes: 392
+2025-12-04 20:53:54,189 | INFO | Instance X-n393-k38, dim=392, length=39147, optimal=38260.0, gap=2.318%, time=411.4753s)
+2025-12-04 20:53:54,189 | INFO | Current test instance: X-n401-k29, number of nodes: 400
+2025-12-04 21:01:15,417 | INFO | Instance X-n401-k29, dim=400, length=67614, optimal=66154.0, gap=2.207%, time=441.2280s)
+2025-12-04 21:01:15,417 | INFO | Current test instance: X-n411-k19, number of nodes: 410
+2025-12-04 21:08:04,873 | INFO | Instance X-n411-k19, dim=410, length=20483, optimal=19712.0, gap=3.911%, time=409.4556s)
+2025-12-04 21:08:04,873 | INFO | Current test instance: X-n420-k130, number of nodes: 419
+2025-12-04 21:17:52,668 | INFO | Instance X-n420-k130, dim=419, length=110675, optimal=107798.0, gap=2.669%, time=587.7948s)
+2025-12-04 21:17:52,668 | INFO | Current test instance: X-n429-k61, number of nodes: 428
+2025-12-04 21:25:24,531 | INFO | Instance X-n429-k61, dim=428, length=67451, optimal=65449.0, gap=3.059%, time=451.8626s)
+2025-12-04 21:25:24,531 | INFO | Current test instance: X-n439-k37, number of nodes: 438
+2025-12-04 21:32:51,492 | INFO | Instance X-n439-k37, dim=438, length=37157, optimal=36391.0, gap=2.105%, time=446.9617s)
+2025-12-04 21:32:51,493 | INFO | Current test instance: X-n449-k29, number of nodes: 448
+2025-12-04 21:40:58,090 | INFO | Instance X-n449-k29, dim=448, length=57028, optimal=55233.0, gap=3.250%, time=486.5970s)
+2025-12-04 21:40:58,090 | INFO | Current test instance: X-n459-k26, number of nodes: 458
+2025-12-04 21:49:26,508 | INFO | Instance X-n459-k26, dim=458, length=25333, optimal=24139.0, gap=4.946%, time=508.4177s)
+2025-12-04 21:49:26,508 | INFO | Current test instance: X-n469-k138, number of nodes: 468
+2025-12-04 22:00:30,603 | INFO | Instance X-n469-k138, dim=468, length=230856, optimal=221824.0, gap=4.072%, time=664.0953s)
+2025-12-04 22:00:30,603 | INFO | Current test instance: X-n480-k70, number of nodes: 479
+2025-12-04 22:09:30,783 | INFO | Instance X-n480-k70, dim=479, length=91745, optimal=89449.0, gap=2.567%, time=540.1796s)
+2025-12-04 22:09:30,783 | INFO | Current test instance: X-n491-k59, number of nodes: 490
+2025-12-04 22:18:45,288 | INFO | Instance X-n491-k59, dim=490, length=68492, optimal=66483.0, gap=3.022%, time=554.5051s)
+2025-12-04 22:18:45,288 | INFO | Current test instance: X-n502-k39, number of nodes: 501
+2025-12-04 22:30:08,118 | INFO | Instance X-n502-k39, dim=501, length=69792, optimal=69226.0, gap=0.818%, time=682.8293s)
+2025-12-04 22:30:08,118 | INFO | Current test instance: X-n513-k21, number of nodes: 512
+2025-12-04 22:39:13,944 | INFO | Instance X-n513-k21, dim=512, length=25128, optimal=24201.0, gap=3.830%, time=545.8258s)
+2025-12-04 22:39:13,944 | INFO | Current test instance: X-n524-k153, number of nodes: 523
+2025-12-04 22:51:47,080 | INFO | Instance X-n524-k153, dim=523, length=160460, optimal=154593.0, gap=3.795%, time=753.1361s)
+2025-12-04 22:51:47,080 | INFO | Current test instance: X-n536-k96, number of nodes: 535
+2025-12-04 23:03:27,735 | INFO | Instance X-n536-k96, dim=535, length=98009, optimal=94846.0, gap=3.335%, time=700.6542s)
+2025-12-04 23:03:27,735 | INFO | Current test instance: X-n548-k50, number of nodes: 547
+2025-12-04 23:13:05,694 | INFO | Instance X-n548-k50, dim=547, length=88134, optimal=86700.0, gap=1.654%, time=577.9593s)
+2025-12-04 23:13:05,694 | INFO | Current test instance: X-n561-k42, number of nodes: 560
+2025-12-04 23:23:47,038 | INFO | Instance X-n561-k42, dim=560, length=44058, optimal=42717.0, gap=3.139%, time=641.3433s)
+2025-12-04 23:23:47,038 | INFO | Current test instance: X-n573-k30, number of nodes: 572
+2025-12-04 23:34:46,993 | INFO | Instance X-n573-k30, dim=572, length=51708, optimal=50673.0, gap=2.043%, time=659.9549s)
+2025-12-04 23:34:46,993 | INFO | Current test instance: X-n586-k159, number of nodes: 585
+2025-12-04 23:49:12,065 | INFO | Instance X-n586-k159, dim=585, length=196715, optimal=190316.0, gap=3.362%, time=865.0714s)
+2025-12-04 23:49:12,065 | INFO | Current test instance: X-n599-k92, number of nodes: 598
+2025-12-05 00:01:15,326 | INFO | Instance X-n599-k92, dim=598, length=112166, optimal=108451.0, gap=3.426%, time=723.2612s)
+2025-12-05 00:01:15,326 | INFO | Current test instance: X-n613-k62, number of nodes: 612
+2025-12-05 00:13:23,254 | INFO | Instance X-n613-k62, dim=612, length=61486, optimal=59535.0, gap=3.277%, time=727.9272s)
+2025-12-05 00:13:23,254 | INFO | Current test instance: X-n627-k43, number of nodes: 626
+2025-12-05 00:28:14,938 | INFO | Instance X-n627-k43, dim=626, length=64139, optimal=62164.0, gap=3.177%, time=891.6841s)
+2025-12-05 00:28:14,938 | INFO | Current test instance: X-n641-k35, number of nodes: 640
+2025-12-05 00:41:03,105 | INFO | Instance X-n641-k35, dim=640, length=65951, optimal=63684.0, gap=3.560%, time=768.1669s)
+2025-12-05 00:41:03,105 | INFO | Current test instance: X-n655-k131, number of nodes: 654
+2025-12-05 00:56:12,822 | INFO | Instance X-n655-k131, dim=654, length=107595, optimal=106780.0, gap=0.763%, time=909.7166s)
+2025-12-05 00:56:12,822 | INFO | Current test instance: X-n670-k130, number of nodes: 669
+2025-12-05 01:11:50,669 | INFO | Instance X-n670-k130, dim=669, length=155851, optimal=146332.0, gap=6.505%, time=937.8465s)
+2025-12-05 01:11:50,669 | INFO | Current test instance: X-n685-k75, number of nodes: 684
+2025-12-05 01:26:15,413 | INFO | Instance X-n685-k75, dim=684, length=70634, optimal=68205.0, gap=3.561%, time=864.7440s)
+2025-12-05 01:26:15,413 | INFO | Current test instance: X-n701-k44, number of nodes: 700
+2025-12-05 01:41:59,099 | INFO | Instance X-n701-k44, dim=700, length=84293, optimal=81923.0, gap=2.893%, time=943.6856s)
+2025-12-05 01:41:59,099 | INFO | Current test instance: X-n716-k35, number of nodes: 715
+2025-12-05 01:57:55,607 | INFO | Instance X-n716-k35, dim=715, length=45533, optimal=43373.0, gap=4.980%, time=956.5084s)
+2025-12-05 01:57:55,607 | INFO | Current test instance: X-n733-k159, number of nodes: 732
+2025-12-05 02:16:32,410 | INFO | Instance X-n733-k159, dim=732, length=141002, optimal=136187.0, gap=3.536%, time=1116.8025s)
+2025-12-05 02:16:32,410 | INFO | Current test instance: X-n749-k98, number of nodes: 748
+2025-12-05 02:34:12,615 | INFO | Instance X-n749-k98, dim=748, length=80088, optimal=77269.0, gap=3.648%, time=1060.2047s)
+2025-12-05 02:34:12,615 | INFO | Current test instance: X-n766-k71, number of nodes: 765
+2025-12-05 02:50:57,266 | INFO | Instance X-n766-k71, dim=765, length=119527, optimal=114417.0, gap=4.466%, time=1004.6505s)
+2025-12-05 02:50:57,266 | INFO | Current test instance: X-n783-k48, number of nodes: 782
+2025-12-05 03:07:07,799 | INFO | Instance X-n783-k48, dim=782, length=75156, optimal=72386.0, gap=3.827%, time=970.5335s)
+2025-12-05 03:07:07,800 | INFO | Current test instance: X-n801-k40, number of nodes: 800
+2025-12-05 03:23:15,867 | INFO | Instance X-n801-k40, dim=800, length=75287, optimal=73311.0, gap=2.695%, time=968.0672s)
+2025-12-05 03:23:15,867 | INFO | Current test instance: X-n819-k171, number of nodes: 818
+2025-12-05 03:44:50,282 | INFO | Instance X-n819-k171, dim=818, length=163895, optimal=158121.0, gap=3.652%, time=1294.4144s)
+2025-12-05 03:44:50,282 | INFO | Current test instance: X-n837-k142, number of nodes: 836
+2025-12-05 04:04:38,755 | INFO | Instance X-n837-k142, dim=836, length=199120, optimal=193737.0, gap=2.779%, time=1188.4725s)
+2025-12-05 04:04:38,755 | INFO | Current test instance: X-n856-k95, number of nodes: 855
+2025-12-05 04:24:26,518 | INFO | Instance X-n856-k95, dim=855, length=90453, optimal=88965.0, gap=1.673%, time=1187.7631s)
+2025-12-05 04:24:26,518 | INFO | Current test instance: X-n876-k59, number of nodes: 875
+2025-12-05 04:47:46,203 | INFO | Instance X-n876-k59, dim=875, length=102033, optimal=99299.0, gap=2.753%, time=1399.6850s)
+2025-12-05 04:47:46,203 | INFO | Current test instance: X-n895-k37, number of nodes: 894
+2025-12-05 05:07:37,204 | INFO | Instance X-n895-k37, dim=894, length=56217, optimal=53860.0, gap=4.376%, time=1191.0011s)
+2025-12-05 05:07:37,205 | INFO | Current test instance: X-n916-k207, number of nodes: 915
+2025-12-05 05:33:37,711 | INFO | Instance X-n916-k207, dim=915, length=338651, optimal=329179.0, gap=2.877%, time=1560.5062s)
+2025-12-05 05:33:37,711 | INFO | Current test instance: X-n936-k151, number of nodes: 935
+2025-12-05 05:57:44,945 | INFO | Instance X-n936-k151, dim=935, length=143324, optimal=132715.0, gap=7.994%, time=1447.2340s)
+2025-12-05 05:57:44,945 | INFO | Current test instance: X-n957-k87, number of nodes: 956
+2025-12-05 06:20:52,717 | INFO | Instance X-n957-k87, dim=956, length=87399, optimal=85465.0, gap=2.263%, time=1387.7714s)
+2025-12-05 06:20:52,717 | INFO | Current test instance: X-n979-k58, number of nodes: 978
+2025-12-05 06:47:59,161 | INFO | Instance X-n979-k58, dim=978, length=121885, optimal=118976.0, gap=2.445%, time=1626.4435s)
+2025-12-05 06:47:59,161 | INFO |  *** Test Done *** 
+2025-12-05 06:47:59,161 | INFO | scale_range: [0,1000), instance number: 99, total time: 50627.20s, 
+2025-12-05 06:47:59,161 | INFO | avg gap (this range): 2.546%, avg time (this range): 511.3856s
+2025-12-05 06:47:59,161 | INFO | ===============================================================
+2025-12-05 06:47:59,161 | INFO | #################  Test scale range: [1000,10000)  #################
+2025-12-05 06:47:59,161 | INFO | Current test instance: X-n1001-k43, number of nodes: 1000
+2025-12-05 07:12:30,612 | INFO | Instance X-n1001-k43, dim=1000, length=75443, optimal=72355.0, gap=4.268%, time=1471.4505s)
+2025-12-05 07:12:30,612 | INFO | Current test instance: Leuven1, number of nodes: 3000
+2025-12-05 10:29:22,702 | INFO | Instance Leuven1, dim=3000, length=201790, optimal=192848.0, gap=4.637%, time=11812.0901s)
+2025-12-05 10:29:22,702 | INFO | Current test instance: Leuven2, number of nodes: 4000
+2025-12-05 16:12:09,900 | INFO | Instance Leuven2, dim=4000, length=119839, optimal=111395.0, gap=7.580%, time=20567.1972s)
+2025-12-05 16:12:09,900 | INFO | Current test instance: Antwerp1, number of nodes: 6000
+2025-12-06 05:17:01,245 | INFO | Instance Antwerp1, dim=6000, length=499597, optimal=477277.0, gap=4.677%, time=47091.3447s)
+2025-12-06 05:17:01,245 | INFO | Current test instance: Antwerp2, number of nodes: 7000
