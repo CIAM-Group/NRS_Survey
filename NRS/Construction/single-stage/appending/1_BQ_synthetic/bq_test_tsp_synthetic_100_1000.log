@@ -1,0 +1,110 @@
+nohup: ignoring input
+dim_emb: 192
+dim_ff: 512
+nb_layers_encoder: 9
+nb_heads: 12
+dropout: 0.0
+batchnorm: False
+activation_ff: relu
+activation_attention: softmax
+train_dataset: None
+val_dataset: None
+test_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt
+output_dir: output/
+episode: 10000
+pretrained_model: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best
+beam_size: 1
+knns: -1
+test_only: False
+seed: None
+train_batch_size: 512
+val_batch_size: 1024
+test_batch_size: 10000
+debug: False
+decay_rate: 0.99
+decay_every: 50
+test_every: 100
+nb_total_epochs: 1000
+lr: 0.00025
+cuda_device_num: 0
+Namespace(activation_attention='softmax', activation_ff='relu', batchnorm=False, beam_size=1, cuda_device_num=0, debug=False, decay_every=50, decay_rate=0.99, dim_emb=192, dim_ff=512, dropout=0.0, episode=10000, knns=-1, lr=0.00025, nb_heads=12, nb_layers_encoder=9, nb_total_epochs=1000, output_dir='output/', pretrained_model='/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best', seed=None, test_batch_size=10000, test_dataset='/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt', test_every=100, test_only=False, train_batch_size=512, train_dataset=None, val_batch_size=1024, val_dataset=None)
+Using 1 GPU(s)
+Using cuda device: cuda:0
+Total number of parameters: 3107539
+trying to load: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best
+loaded checkpoint: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best
+load raw dataset begin!
+  0%|          | 0/10000 [00:00<?, ?it/s] 10%|#         | 1033/10000 [00:00<00:00, 10326.51it/s] 21%|##        | 2066/10000 [00:00<00:00, 10142.04it/s] 31%|###       | 3081/10000 [00:00<00:00, 9614.89it/s]  40%|####      | 4046/10000 [00:00<00:00, 8897.30it/s] 50%|####9     | 4972/10000 [00:00<00:00, 8078.21it/s] 66%|######6   | 6612/10000 [00:00<00:00, 8210.60it/s] 83%|########2 | 8264/10000 [00:00<00:00, 10282.50it/s] 94%|#########3| 9361/10000 [00:01<00:00, 8547.82it/s] 100%|##########| 10000/10000 [00:01<00:00, 9157.82it/s]
+[7.40146279 7.54642499 7.49972858 ... 7.8083035  7.75572824 7.484513  ]
+opt_gap_test 0.348
+Inference time 68.079s
+Inference time: 1.1346439282099405mins
+episode: 10000
+beam_size: 1
+batch_size: 10000
+Inference time 68.079s
+dim_emb: 192
+dim_ff: 512
+nb_layers_encoder: 9
+nb_heads: 12
+dropout: 0.0
+batchnorm: False
+activation_ff: relu
+activation_attention: softmax
+train_dataset: None
+val_dataset: None
+test_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt
+output_dir: output/
+episode: 128
+pretrained_model: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best
+beam_size: 1
+knns: 250
+test_only: False
+seed: None
+train_batch_size: 512
+val_batch_size: 1024
+test_batch_size: 128
+debug: False
+decay_rate: 0.99
+decay_every: 50
+test_every: 100
+nb_total_epochs: 1000
+lr: 0.00025
+cuda_device_num: 0
+Namespace(activation_attention='softmax', activation_ff='relu', batchnorm=False, beam_size=1, cuda_device_num=0, debug=False, decay_every=50, decay_rate=0.99, dim_emb=192, dim_ff=512, dropout=0.0, episode=128, knns=250, lr=0.00025, nb_heads=12, nb_layers_encoder=9, nb_total_epochs=1000, output_dir='output/', pretrained_model='/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best', seed=None, test_batch_size=128, test_dataset='/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt', test_every=100, test_only=False, train_batch_size=512, train_dataset=None, val_batch_size=1024, val_dataset=None)
+Using 1 GPU(s)
+Using cuda device: cuda:0
+Total number of parameters: 3107539
+trying to load: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best
+loaded checkpoint: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ/pretrained_models/tsp.best
+load raw dataset begin!
+  0%|          | 0/128 [00:00<?, ?it/s] 82%|########2 | 105/128 [00:00<00:00, 399.05it/s]100%|##########| 128/128 [00:00<00:00, 447.82it/s]
+[23.11425773 23.07170324 22.89503295 23.39196625 23.3134778  23.20870223
+ 23.23277842 22.85146535 22.91821907 23.2281045  23.12443259 22.66961851
+ 23.07778178 22.79762839 23.25512664 23.19446871 23.28216809 23.2783322
+ 23.30928939 23.09795937 23.12228865 23.36022774 22.85212887 22.98795317
+ 23.24761086 23.13382449 23.2477956  23.44344806 23.26557968 23.24814569
+ 23.50821652 22.88044115 23.11728021 23.29732533 23.14141579 22.9607094
+ 23.29020928 22.79111879 22.9083727  23.25585808 22.87950677 22.5040588
+ 23.5856053  23.19347861 23.13029617 22.78009053 23.02250863 23.10763949
+ 23.273335   23.10255369 23.52914275 22.93951654 23.00407484 23.10053597
+ 23.32663345 23.21119563 23.18414908 23.28296348 22.89567853 23.49763667
+ 22.90453234 22.89827777 23.01439812 22.94584778 22.80881174 23.05644674
+ 23.10935071 23.06768164 22.71885055 23.06012376 23.19633812 23.25239654
+ 23.2008384  23.60134298 22.96849241 23.0757929  23.26000412 22.90087171
+ 22.89722388 23.06215343 23.4005507  22.90040304 23.40559809 23.04403489
+ 23.06922761 23.07018957 23.47529937 22.90974592 23.15186106 23.49648777
+ 23.21461562 23.00587307 23.17012751 23.19552474 22.79157771 23.19328347
+ 23.1968229  23.14019484 23.29765485 22.86218962 23.41689486 22.95050115
+ 23.04694462 23.23147258 23.10785174 23.28186951 23.08405922 23.2112355
+ 22.9252784  23.21906944 23.05062923 23.22269881 22.72419014 23.35777381
+ 23.20471413 22.71303958 23.35491765 22.81080788 23.22841542 23.04525045
+ 23.0801726  23.04050627 23.2196585  23.42730641 23.03126855 23.12962359
+ 23.11133759 22.98796456]
+opt_gap_test 2.294
+Inference time 71.313s
+Inference time: 1.188555121421814mins
+episode: 128
+beam_size: 1
+batch_size: 128
+Inference time 71.313s
