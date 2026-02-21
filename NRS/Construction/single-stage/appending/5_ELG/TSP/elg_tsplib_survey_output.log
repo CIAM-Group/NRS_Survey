@@ -1,0 +1,2425 @@
+nohup: ignoring input
+Load checkpoint: weights/ELG.pt
+Start testing on TSPLib instances...
+Loading instances from /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp
+#################  Test scale range: [0, 1000]  #################
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_wi29.tsp**********
+===============================================================
+Instance name: wi29, problem_size: 29
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 29
+edge weight type: EUC_2D
+current all solved instance num: 1
+Instance name: wi29, optimal score: 27603.0000
+No aug score:28856.000, No aug gap:4.539%
+Instance time (incl. dist+test): 0.551s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_dj38.tsp**********
+===============================================================
+Instance name: dj38, problem_size: 38
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 38
+edge weight type: EUC_2D
+current all solved instance num: 2
+Instance name: dj38, optimal score: 6656.0000
+No aug score:6657.000, No aug gap:0.015%
+Instance time (incl. dist+test): 0.064s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil51.tsp**********
+===============================================================
+Instance name: eil51, problem_size: 51
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 51
+edge weight type: EUC_2D
+current all solved instance num: 3
+Instance name: eil51, optimal score: 426.0000
+No aug score:432.000, No aug gap:1.408%
+Instance time (incl. dist+test): 0.080s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_berlin52.tsp**********
+===============================================================
+Instance name: berlin52, problem_size: 52
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 52
+edge weight type: EUC_2D
+current all solved instance num: 4
+Instance name: berlin52, optimal score: 7542.0000
+No aug score:7543.000, No aug gap:0.013%
+Instance time (incl. dist+test): 0.082s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_st70.tsp**********
+===============================================================
+Instance name: st70, problem_size: 70
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 70
+edge weight type: EUC_2D
+current all solved instance num: 5
+Instance name: st70, optimal score: 675.0000
+No aug score:676.000, No aug gap:0.148%
+Instance time (incl. dist+test): 0.108s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr76.tsp**********
+===============================================================
+Instance name: pr76, problem_size: 76
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 76
+edge weight type: EUC_2D
+current all solved instance num: 6
+Instance name: pr76, optimal score: 108159.0000
+No aug score:108906.000, No aug gap:0.691%
+Instance time (incl. dist+test): 0.117s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil76.tsp**********
+===============================================================
+Instance name: eil76, problem_size: 76
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 76
+edge weight type: EUC_2D
+current all solved instance num: 7
+Instance name: eil76, optimal score: 538.0000
+No aug score:546.000, No aug gap:1.487%
+Instance time (incl. dist+test): 0.117s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat99.tsp**********
+===============================================================
+Instance name: rat99, problem_size: 99
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 99
+edge weight type: EUC_2D
+current all solved instance num: 8
+Instance name: rat99, optimal score: 1211.0000
+No aug score:1266.000, No aug gap:4.542%
+Instance time (incl. dist+test): 0.151s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA100.tsp**********
+===============================================================
+Instance name: kroA100, problem_size: 100
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100
+edge weight type: EUC_2D
+current all solved instance num: 9
+Instance name: kroA100, optimal score: 21282.0000
+No aug score:21638.000, No aug gap:1.673%
+Instance time (incl. dist+test): 0.153s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroC100.tsp**********
+===============================================================
+Instance name: kroC100, problem_size: 100
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100
+edge weight type: EUC_2D
+current all solved instance num: 10
+Instance name: kroC100, optimal score: 20749.0000
+No aug score:21137.000, No aug gap:1.870%
+Instance time (incl. dist+test): 0.154s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroD100.tsp**********
+===============================================================
+Instance name: kroD100, problem_size: 100
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100
+edge weight type: EUC_2D
+current all solved instance num: 11
+Instance name: kroD100, optimal score: 21294.0000
+No aug score:21851.000, No aug gap:2.616%
+Instance time (incl. dist+test): 0.154s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rd100.tsp**********
+===============================================================
+Instance name: rd100, problem_size: 100
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100
+edge weight type: EUC_2D
+current all solved instance num: 12
+Instance name: rd100, optimal score: 7910.0000
+No aug score:7945.000, No aug gap:0.442%
+Instance time (incl. dist+test): 0.153s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB100.tsp**********
+===============================================================
+Instance name: kroB100, problem_size: 100
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100
+edge weight type: EUC_2D
+current all solved instance num: 13
+Instance name: kroB100, optimal score: 22141.0000
+No aug score:22507.000, No aug gap:1.653%
+Instance time (incl. dist+test): 0.152s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroE100.tsp**********
+===============================================================
+Instance name: kroE100, problem_size: 100
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100
+edge weight type: EUC_2D
+current all solved instance num: 14
+Instance name: kroE100, optimal score: 22068.0000
+No aug score:22556.000, No aug gap:2.211%
+Instance time (incl. dist+test): 0.153s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil101.tsp**********
+===============================================================
+Instance name: eil101, problem_size: 101
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 101
+edge weight type: EUC_2D
+current all solved instance num: 15
+Instance name: eil101, optimal score: 629.0000
+No aug score:633.000, No aug gap:0.636%
+Instance time (incl. dist+test): 0.156s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_lin105.tsp**********
+===============================================================
+Instance name: lin105, problem_size: 105
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 105
+edge weight type: EUC_2D
+current all solved instance num: 16
+Instance name: lin105, optimal score: 14379.0000
+No aug score:14749.000, No aug gap:2.573%
+Instance time (incl. dist+test): 0.160s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr107.tsp**********
+===============================================================
+Instance name: pr107, problem_size: 107
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 107
+edge weight type: EUC_2D
+current all solved instance num: 17
+Instance name: pr107, optimal score: 44303.0000
+No aug score:45908.000, No aug gap:3.623%
+Instance time (incl. dist+test): 0.164s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr124.tsp**********
+===============================================================
+Instance name: pr124, problem_size: 124
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 124
+edge weight type: EUC_2D
+current all solved instance num: 18
+Instance name: pr124, optimal score: 59030.0000
+No aug score:59181.000, No aug gap:0.256%
+Instance time (incl. dist+test): 0.188s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_bier127.tsp**********
+===============================================================
+Instance name: bier127, problem_size: 127
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 127
+edge weight type: EUC_2D
+current all solved instance num: 19
+Instance name: bier127, optimal score: 118282.0000
+No aug score:125417.000, No aug gap:6.032%
+Instance time (incl. dist+test): 0.193s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ch130.tsp**********
+===============================================================
+Instance name: ch130, problem_size: 130
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 130
+edge weight type: EUC_2D
+current all solved instance num: 20
+Instance name: ch130, optimal score: 6110.0000
+No aug score:6136.000, No aug gap:0.426%
+Instance time (incl. dist+test): 0.211s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqf131.tsp**********
+===============================================================
+Instance name: xqf131, problem_size: 131
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 131
+edge weight type: EUC_2D
+current all solved instance num: 21
+Instance name: xqf131, optimal score: 564.0000
+No aug score:577.000, No aug gap:2.305%
+Instance time (incl. dist+test): 0.212s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr136.tsp**********
+===============================================================
+Instance name: pr136, problem_size: 136
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 136
+edge weight type: EUC_2D
+current all solved instance num: 22
+Instance name: pr136, optimal score: 96772.0000
+No aug score:99207.000, No aug gap:2.516%
+Instance time (incl. dist+test): 0.220s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr144.tsp**********
+===============================================================
+Instance name: pr144, problem_size: 144
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 144
+edge weight type: EUC_2D
+current all solved instance num: 23
+Instance name: pr144, optimal score: 58537.0000
+No aug score:59083.000, No aug gap:0.933%
+Instance time (incl. dist+test): 0.234s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB150.tsp**********
+===============================================================
+Instance name: kroB150, problem_size: 150
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 150
+edge weight type: EUC_2D
+current all solved instance num: 24
+Instance name: kroB150, optimal score: 26130.0000
+No aug score:26515.000, No aug gap:1.473%
+Instance time (incl. dist+test): 0.244s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ch150.tsp**********
+===============================================================
+Instance name: ch150, problem_size: 150
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 150
+edge weight type: EUC_2D
+current all solved instance num: 25
+Instance name: ch150, optimal score: 6528.0000
+No aug score:6600.000, No aug gap:1.103%
+Instance time (incl. dist+test): 0.243s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA150.tsp**********
+===============================================================
+Instance name: kroA150, problem_size: 150
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 150
+edge weight type: EUC_2D
+current all solved instance num: 26
+Instance name: kroA150, optimal score: 26524.0000
+No aug score:27064.000, No aug gap:2.036%
+Instance time (incl. dist+test): 0.243s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr152.tsp**********
+===============================================================
+Instance name: pr152, problem_size: 152
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 152
+edge weight type: EUC_2D
+current all solved instance num: 27
+Instance name: pr152, optimal score: 73682.0000
+No aug score:73987.000, No aug gap:0.414%
+Instance time (incl. dist+test): 0.245s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u159.tsp**********
+===============================================================
+Instance name: u159, problem_size: 159
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 159
+edge weight type: EUC_2D
+current all solved instance num: 28
+Instance name: u159, optimal score: 42080.0000
+No aug score:42665.000, No aug gap:1.390%
+Instance time (incl. dist+test): 0.257s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_qa194.tsp**********
+===============================================================
+Instance name: qa194, problem_size: 194
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 194
+edge weight type: EUC_2D
+current all solved instance num: 29
+Instance name: qa194, optimal score: 9352.0000
+No aug score:10044.000, No aug gap:7.399%
+Instance time (incl. dist+test): 0.313s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat195.tsp**********
+===============================================================
+Instance name: rat195, problem_size: 195
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 195
+edge weight type: EUC_2D
+current all solved instance num: 30
+Instance name: rat195, optimal score: 2323.0000
+No aug score:2465.000, No aug gap:6.113%
+Instance time (incl. dist+test): 0.314s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d198.tsp**********
+===============================================================
+Instance name: d198, problem_size: 198
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 198
+edge weight type: EUC_2D
+current all solved instance num: 31
+Instance name: d198, optimal score: 15780.0000
+No aug score:18025.000, No aug gap:14.227%
+Instance time (incl. dist+test): 0.319s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA200.tsp**********
+===============================================================
+Instance name: kroA200, problem_size: 200
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 200
+edge weight type: EUC_2D
+current all solved instance num: 32
+Instance name: kroA200, optimal score: 29368.0000
+No aug score:29982.000, No aug gap:2.091%
+Instance time (incl. dist+test): 0.322s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB200.tsp**********
+===============================================================
+Instance name: kroB200, problem_size: 200
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 200
+edge weight type: EUC_2D
+current all solved instance num: 33
+Instance name: kroB200, optimal score: 29437.0000
+No aug score:29902.000, No aug gap:1.580%
+Instance time (incl. dist+test): 0.321s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_tsp225.tsp**********
+===============================================================
+Instance name: tsp225, problem_size: 225
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 225
+edge weight type: EUC_2D
+current all solved instance num: 34
+Instance name: tsp225, optimal score: 3916.0000
+No aug score:4129.000, No aug gap:5.439%
+Instance time (incl. dist+test): 0.363s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ts225.tsp**********
+===============================================================
+Instance name: ts225, problem_size: 225
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 225
+edge weight type: EUC_2D
+current all solved instance num: 35
+Instance name: ts225, optimal score: 126643.0000
+No aug score:129836.000, No aug gap:2.521%
+Instance time (incl. dist+test): 0.362s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr226.tsp**********
+===============================================================
+Instance name: pr226, problem_size: 226
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 226
+edge weight type: EUC_2D
+current all solved instance num: 36
+Instance name: pr226, optimal score: 80369.0000
+No aug score:81515.000, No aug gap:1.426%
+Instance time (incl. dist+test): 0.365s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqg237.tsp**********
+===============================================================
+Instance name: xqg237, problem_size: 237
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 237
+edge weight type: EUC_2D
+current all solved instance num: 37
+Instance name: xqg237, optimal score: 1019.0000
+No aug score:1070.000, No aug gap:5.005%
+Instance time (incl. dist+test): 0.381s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_gil262.tsp**********
+===============================================================
+Instance name: gil262, problem_size: 262
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 262
+edge weight type: EUC_2D
+current all solved instance num: 38
+Instance name: gil262, optimal score: 2378.0000
+No aug score:2427.000, No aug gap:2.061%
+Instance time (incl. dist+test): 0.423s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr264.tsp**********
+===============================================================
+Instance name: pr264, problem_size: 264
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 264
+edge weight type: EUC_2D
+current all solved instance num: 39
+Instance name: pr264, optimal score: 49135.0000
+No aug score:51925.000, No aug gap:5.678%
+Instance time (incl. dist+test): 0.446s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_a280.tsp**********
+===============================================================
+Instance name: a280, problem_size: 280
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 280
+edge weight type: EUC_2D
+current all solved instance num: 40
+Instance name: a280, optimal score: 2579.0000
+No aug score:2732.000, No aug gap:5.933%
+Instance time (incl. dist+test): 0.472s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr299.tsp**********
+===============================================================
+Instance name: pr299, problem_size: 299
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 299
+edge weight type: EUC_2D
+current all solved instance num: 41
+Instance name: pr299, optimal score: 48191.0000
+No aug score:50588.000, No aug gap:4.974%
+Instance time (incl. dist+test): 0.491s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_lin318.tsp**********
+===============================================================
+Instance name: lin318, problem_size: 318
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 318
+edge weight type: EUC_2D
+current all solved instance num: 42
+Instance name: lin318, optimal score: 42029.0000
+No aug score:43894.000, No aug gap:4.437%
+Instance time (incl. dist+test): 2.267s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pma343.tsp**********
+===============================================================
+Instance name: pma343, problem_size: 343
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 343
+edge weight type: EUC_2D
+current all solved instance num: 43
+Instance name: pma343, optimal score: 1368.0000
+No aug score:1554.000, No aug gap:13.596%
+Instance time (incl. dist+test): 0.573s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pka379.tsp**********
+===============================================================
+Instance name: pka379, problem_size: 379
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 379
+edge weight type: EUC_2D
+current all solved instance num: 44
+Instance name: pka379, optimal score: 1332.0000
+No aug score:1579.000, No aug gap:18.544%
+Instance time (incl. dist+test): 0.625s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bcl380.tsp**********
+===============================================================
+Instance name: bcl380, problem_size: 380
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 380
+edge weight type: EUC_2D
+current all solved instance num: 45
+Instance name: bcl380, optimal score: 1621.0000
+No aug score:1770.000, No aug gap:9.192%
+Instance time (incl. dist+test): 0.624s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbl395.tsp**********
+===============================================================
+Instance name: pbl395, problem_size: 395
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 395
+edge weight type: EUC_2D
+current all solved instance num: 46
+Instance name: pbl395, optimal score: 1281.0000
+No aug score:1375.000, No aug gap:7.338%
+Instance time (incl. dist+test): 0.649s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rd400.tsp**********
+===============================================================
+Instance name: rd400, problem_size: 400
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 400
+edge weight type: EUC_2D
+current all solved instance num: 47
+Instance name: rd400, optimal score: 15281.0000
+No aug score:16237.000, No aug gap:6.256%
+Instance time (incl. dist+test): 0.651s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbk411.tsp**********
+===============================================================
+Instance name: pbk411, problem_size: 411
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 411
+edge weight type: EUC_2D
+current all solved instance num: 48
+Instance name: pbk411, optimal score: 1343.0000
+No aug score:1426.000, No aug gap:6.180%
+Instance time (incl. dist+test): 0.673s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl417.tsp**********
+===============================================================
+Instance name: fl417, problem_size: 417
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 417
+edge weight type: EUC_2D
+current all solved instance num: 49
+Instance name: fl417, optimal score: 11861.0000
+No aug score:12782.000, No aug gap:7.765%
+Instance time (incl. dist+test): 0.677s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbn423.tsp**********
+===============================================================
+Instance name: pbn423, problem_size: 423
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 423
+edge weight type: EUC_2D
+current all solved instance num: 50
+Instance name: pbn423, optimal score: 1365.0000
+No aug score:1480.000, No aug gap:8.425%
+Instance time (incl. dist+test): 0.683s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbm436.tsp**********
+===============================================================
+Instance name: pbm436, problem_size: 436
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 436
+edge weight type: EUC_2D
+current all solved instance num: 51
+Instance name: pbm436, optimal score: 1443.0000
+No aug score:1552.000, No aug gap:7.554%
+Instance time (incl. dist+test): 0.706s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr439.tsp**********
+===============================================================
+Instance name: pr439, problem_size: 439
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 439
+edge weight type: EUC_2D
+current all solved instance num: 52
+Instance name: pr439, optimal score: 107217.0000
+No aug score:115179.000, No aug gap:7.426%
+Instance time (incl. dist+test): 0.724s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb442.tsp**********
+===============================================================
+Instance name: pcb442, problem_size: 442
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 442
+edge weight type: EUC_2D
+current all solved instance num: 53
+Instance name: pcb442, optimal score: 50778.0000
+No aug score:54360.000, No aug gap:7.054%
+Instance time (incl. dist+test): 0.721s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d493.tsp**********
+===============================================================
+Instance name: d493, problem_size: 493
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 493
+edge weight type: EUC_2D
+current all solved instance num: 54
+Instance name: d493, optimal score: 35002.0000
+No aug score:45919.000, No aug gap:31.190%
+Instance time (incl. dist+test): 0.816s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u574.tsp**********
+===============================================================
+Instance name: u574, problem_size: 574
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 574
+edge weight type: EUC_2D
+current all solved instance num: 55
+Instance name: u574, optimal score: 36905.0000
+No aug score:40633.000, No aug gap:10.102%
+Instance time (incl. dist+test): 0.940s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat575.tsp**********
+===============================================================
+Instance name: rat575, problem_size: 575
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 575
+edge weight type: EUC_2D
+current all solved instance num: 56
+Instance name: rat575, optimal score: 6773.0000
+No aug score:7416.000, No aug gap:9.494%
+Instance time (incl. dist+test): 0.941s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_p654.tsp**********
+===============================================================
+Instance name: p654, problem_size: 654
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 654
+edge weight type: EUC_2D
+current all solved instance num: 57
+Instance name: p654, optimal score: 34643.0000
+No aug score:36790.000, No aug gap:6.198%
+Instance time (incl. dist+test): 1.090s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d657.tsp**********
+===============================================================
+Instance name: d657, problem_size: 657
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 657
+edge weight type: EUC_2D
+current all solved instance num: 58
+Instance name: d657, optimal score: 48912.0000
+No aug score:54468.000, No aug gap:11.359%
+Instance time (incl. dist+test): 1.101s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xql662.tsp**********
+===============================================================
+Instance name: xql662, problem_size: 662
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 662
+edge weight type: EUC_2D
+current all solved instance num: 59
+Instance name: xql662, optimal score: 2513.0000
+No aug score:2811.000, No aug gap:11.858%
+Instance time (incl. dist+test): 1.070s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbx711.tsp**********
+===============================================================
+Instance name: rbx711, problem_size: 711
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 711
+edge weight type: EUC_2D
+current all solved instance num: 60
+Instance name: rbx711, optimal score: 3115.0000
+No aug score:3407.000, No aug gap:9.374%
+Instance time (incl. dist+test): 1.176s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u724.tsp**********
+===============================================================
+Instance name: u724, problem_size: 724
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 724
+edge weight type: EUC_2D
+current all solved instance num: 61
+Instance name: u724, optimal score: 41910.0000
+No aug score:46242.000, No aug gap:10.336%
+Instance time (incl. dist+test): 1.196s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_uy734.tsp**********
+===============================================================
+Instance name: uy734, problem_size: 734
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 734
+edge weight type: EUC_2D
+current all solved instance num: 62
+Instance name: uy734, optimal score: 79114.0000
+No aug score:88050.000, No aug gap:11.295%
+Instance time (incl. dist+test): 1.250s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbu737.tsp**********
+===============================================================
+Instance name: rbu737, problem_size: 737
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 737
+edge weight type: EUC_2D
+current all solved instance num: 63
+Instance name: rbu737, optimal score: 3314.0000
+No aug score:3788.000, No aug gap:14.303%
+Instance time (incl. dist+test): 1.236s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat783.tsp**********
+===============================================================
+Instance name: rat783, problem_size: 783
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 783
+edge weight type: EUC_2D
+current all solved instance num: 64
+Instance name: rat783, optimal score: 8806.0000
+No aug score:9651.000, No aug gap:9.596%
+Instance time (incl. dist+test): 1.333s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkg813.tsp**********
+===============================================================
+Instance name: dkg813, problem_size: 813
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 813
+edge weight type: EUC_2D
+current all solved instance num: 65
+Instance name: dkg813, optimal score: 3199.0000
+No aug score:3598.000, No aug gap:12.473%
+Instance time (incl. dist+test): 1.490s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_zi929.tsp**********
+===============================================================
+Instance name: zi929, problem_size: 929
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 929
+edge weight type: EUC_2D
+current all solved instance num: 66
+Instance name: zi929, optimal score: 95345.0000
+No aug score:109839.000, No aug gap:15.202%
+Instance time (incl. dist+test): 1.771s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lim963.tsp**********
+===============================================================
+Instance name: lim963, problem_size: 963
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 963
+edge weight type: EUC_2D
+current all solved instance num: 67
+Instance name: lim963, optimal score: 2789.0000
+No aug score:3146.000, No aug gap:12.800%
+Instance time (incl. dist+test): 1.872s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_lu980.tsp**********
+===============================================================
+Instance name: lu980, problem_size: 980
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 980
+edge weight type: EUC_2D
+current all solved instance num: 68
+Instance name: lu980, optimal score: 11340.0000
+No aug score:12601.000, No aug gap:11.120%
+Instance time (incl. dist+test): 1.944s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbd984.tsp**********
+===============================================================
+Instance name: pbd984, problem_size: 984
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 984
+edge weight type: EUC_2D
+current all solved instance num: 69
+Instance name: pbd984, optimal score: 2797.0000
+No aug score:3167.000, No aug gap:13.228%
+Instance time (incl. dist+test): 1.926s
+ *** Test Done *** 
+scale_range: [0, 1000], instance number: 69, total time: 43.53s, avg time per instance: 0.63s
+===============================================================
+instance: ['wi29', 'dj38', 'eil51', 'berlin52', 'st70', 'pr76', 'eil76', 'rat99', 'kroA100', 'kroC100', 'kroD100', 'rd100', 'kroB100', 'kroE100', 'eil101', 'lin105', 'pr107', 'pr124', 'bier127', 'ch130', 'xqf131', 'pr136', 'pr144', 'kroB150', 'ch150', 'kroA150', 'pr152', 'u159', 'qa194', 'rat195', 'd198', 'kroA200', 'kroB200', 'tsp225', 'ts225', 'pr226', 'xqg237', 'gil262', 'pr264', 'a280', 'pr299', 'lin318', 'pma343', 'pka379', 'bcl380', 'pbl395', 'rd400', 'pbk411', 'fl417', 'pbn423', 'pbm436', 'pr439', 'pcb442', 'd493', 'u574', 'rat575', 'p654', 'd657', 'xql662', 'rbx711', 'u724', 'uy734', 'rbu737', 'rat783', 'dkg813', 'zi929', 'lim963', 'lu980', 'pbd984']
+optimal: [27603.0, 6656.0, 426.0, 7542.0, 675.0, 108159.0, 538.0, 1211.0, 21282.0, 20749.0, 21294.0, 7910.0, 22141.0, 22068.0, 629.0, 14379.0, 44303.0, 59030.0, 118282.0, 6110.0, 564.0, 96772.0, 58537.0, 26130.0, 6528.0, 26524.0, 73682.0, 42080.0, 9352.0, 2323.0, 15780.0, 29368.0, 29437.0, 3916.0, 126643.0, 80369.0, 1019.0, 2378.0, 49135.0, 2579.0, 48191.0, 42029.0, 1368.0, 1332.0, 1621.0, 1281.0, 15281.0, 1343.0, 11861.0, 1365.0, 1443.0, 107217.0, 50778.0, 35002.0, 36905.0, 6773.0, 34643.0, 48912.0, 2513.0, 3115.0, 41910.0, 79114.0, 3314.0, 8806.0, 3199.0, 95345.0, 2789.0, 11340.0, 2797.0]
+problem_size: [29, 38, 51, 52, 70, 76, 76, 99, 100, 100, 100, 100, 100, 100, 101, 105, 107, 124, 127, 130, 131, 136, 144, 150, 150, 150, 152, 159, 194, 195, 198, 200, 200, 225, 225, 226, 237, 262, 264, 280, 299, 318, 343, 379, 380, 395, 400, 411, 417, 423, 436, 439, 442, 493, 574, 575, 654, 657, 662, 711, 724, 734, 737, 783, 813, 929, 963, 980, 984]
+no_aug_score: [28856.0, 6657.0, 432.0, 7543.0, 676.0, 108906.0, 546.0, 1266.0, 21638.0, 21137.0, 21851.0, 7945.0, 22507.0, 22556.0, 633.0, 14749.0, 45908.0, 59181.0, 125417.0, 6136.0, 577.0, 99207.0, 59083.0, 26515.0, 6600.0, 27064.0, 73987.0, 42665.0, 10044.0, 2465.0, 18025.0, 29982.0, 29902.0, 4129.0, 129836.0, 81515.0, 1070.0, 2427.0, 51925.0, 2732.0, 50588.0, 43894.0, 1554.0, 1579.0, 1770.0, 1375.0, 16237.0, 1426.0, 12782.0, 1480.0, 1552.0, 115179.0, 54360.0, 45919.0, 40633.0, 7416.0, 36790.0, 54468.0, 2811.0, 3407.0, 46242.0, 88050.0, 3788.0, 9651.0, 3598.0, 109839.0, 3146.0, 12601.0, 3167.0]
+aug_score: [28856.0, 6657.0, 432.0, 7543.0, 676.0, 108906.0, 546.0, 1266.0, 21638.0, 21137.0, 21851.0, 7945.0, 22507.0, 22556.0, 633.0, 14749.0, 45908.0, 59181.0, 125417.0, 6136.0, 577.0, 99207.0, 59083.0, 26515.0, 6600.0, 27064.0, 73987.0, 42665.0, 10044.0, 2465.0, 18025.0, 29982.0, 29902.0, 4129.0, 129836.0, 81515.0, 1070.0, 2427.0, 51925.0, 2732.0, 50588.0, 43894.0, 1554.0, 1579.0, 1770.0, 1375.0, 16237.0, 1426.0, 12782.0, 1480.0, 1552.0, 115179.0, 54360.0, 45919.0, 40633.0, 7416.0, 36790.0, 54468.0, 2811.0, 3407.0, 46242.0, 88050.0, 3788.0, 9651.0, 3598.0, 109839.0, 3146.0, 12601.0, 3167.0]
+no_aug_gap: [4.539361663587291, 0.015024038461538462, 1.408450704225352, 0.013259082471492973, 0.14814814814814814, 0.6906498765706044, 1.486988847583643, 4.541701073492981, 1.6727751151207593, 1.8699696370909442, 2.6157603080680003, 0.4424778761061947, 1.653041868027641, 2.2113467464201557, 0.6359300476947536, 2.5731970234369568, 3.6227794957452093, 0.25580213450787737, 6.0321942476454575, 0.425531914893617, 2.3049645390070923, 2.5162237010705577, 0.9327433930676324, 1.4734022196708765, 1.1029411764705883, 2.035892022319409, 0.41394098965826115, 1.390209125475285, 7.3994867408041065, 6.112785191562635, 14.226869455006337, 2.0907109779351676, 1.579644664877535, 5.439223697650664, 2.521260551313535, 1.4259229304831464, 5.004906771344455, 2.0605550883095036, 5.678233438485805, 5.9325319891430786, 4.973957792948891, 4.437412262961288, 13.596491228070175, 18.543543543543542, 9.19185687847008, 7.338017174082748, 6.256135069694392, 6.180193596425912, 7.76494393390102, 8.424908424908425, 7.553707553707554, 7.426061165673354, 7.054236086494151, 31.189646305925375, 10.101612247662919, 9.493577439834638, 6.197500216493952, 11.359175662414131, 11.858336649423, 9.373996789727126, 10.336435218324983, 11.29509315671057, 14.302957151478576, 9.595730183965479, 12.472647702407002, 15.201636163406576, 12.800286841161707, 11.119929453262786, 13.228459063282088]
+aug_gap: [4.539361663587291, 0.015024038461538462, 1.408450704225352, 0.013259082471492973, 0.14814814814814814, 0.6906498765706044, 1.486988847583643, 4.541701073492981, 1.6727751151207593, 1.8699696370909442, 2.6157603080680003, 0.4424778761061947, 1.653041868027641, 2.2113467464201557, 0.6359300476947536, 2.5731970234369568, 3.6227794957452093, 0.25580213450787737, 6.0321942476454575, 0.425531914893617, 2.3049645390070923, 2.5162237010705577, 0.9327433930676324, 1.4734022196708765, 1.1029411764705883, 2.035892022319409, 0.41394098965826115, 1.390209125475285, 7.3994867408041065, 6.112785191562635, 14.226869455006337, 2.0907109779351676, 1.579644664877535, 5.439223697650664, 2.521260551313535, 1.4259229304831464, 5.004906771344455, 2.0605550883095036, 5.678233438485805, 5.9325319891430786, 4.973957792948891, 4.437412262961288, 13.596491228070175, 18.543543543543542, 9.19185687847008, 7.338017174082748, 6.256135069694392, 6.180193596425912, 7.76494393390102, 8.424908424908425, 7.553707553707554, 7.426061165673354, 7.054236086494151, 31.189646305925375, 10.101612247662919, 9.493577439834638, 6.197500216493952, 11.359175662414131, 11.858336649423, 9.373996789727126, 10.336435218324983, 11.29509315671057, 14.302957151478576, 9.595730183965479, 12.472647702407002, 15.201636163406576, 12.800286841161707, 11.119929453262786, 13.228459063282088]
+===============================================================
+Solved_ instances number: 69, min_dimension: 29, max_dimension: 984, avg gap(no aug): 6.046%, avg_gap(aug): 6.046%
+Avg time per instance: 0.63s
+#################  Test scale range: [1000, 10000]  #################
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.8.tsp**********
+===============================================================
+Instance name: portcgen-1000-10008, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 70
+Instance name: portcgen-1000-10008, optimal score: 11605723.0000
+No aug score:12925900.000, No aug gap:11.375%
+Instance time (incl. dist+test): 1.983s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_dsj1000.tsp**********
+===============================================================
+Instance name: dsj1000, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: CEIL_2D
+current all solved instance num: 71
+Instance name: dsj1000, optimal score: 18660188.0000
+No aug score:20887704.000, No aug gap:11.937%
+Instance time (incl. dist+test): 1.974s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.5.tsp**********
+===============================================================
+Instance name: portcgen-1000-10005, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 72
+Instance name: portcgen-1000-10005, optimal score: 11394911.0000
+No aug score:12939908.000, No aug gap:13.559%
+Instance time (incl. dist+test): 1.965s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.2.tsp**********
+===============================================================
+Instance name: portcgen-1000-10002, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 73
+Instance name: portcgen-1000-10002, optimal score: 10855033.0000
+No aug score:12413924.000, No aug gap:14.361%
+Instance time (incl. dist+test): 1.970s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.6.tsp**********
+===============================================================
+Instance name: portcgen-1000-10006, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 74
+Instance name: portcgen-1000-10006, optimal score: 10166701.0000
+No aug score:11920762.000, No aug gap:17.253%
+Instance time (incl. dist+test): 1.973s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.3.tsp**********
+===============================================================
+Instance name: portcgen-1000-10003, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 75
+Instance name: portcgen-1000-10003, optimal score: 11886457.0000
+No aug score:13294855.000, No aug gap:11.849%
+Instance time (incl. dist+test): 1.967s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.4.tsp**********
+===============================================================
+Instance name: portcgen-1000-10004, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 76
+Instance name: portcgen-1000-10004, optimal score: 11499958.0000
+No aug score:13108453.000, No aug gap:13.987%
+Instance time (incl. dist+test): 1.970s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.0.tsp**********
+===============================================================
+Instance name: portcgen-1000-1000, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 77
+Instance name: portcgen-1000-1000, optimal score: 11387430.0000
+No aug score:12705271.000, No aug gap:11.573%
+Instance time (incl. dist+test): 1.964s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.9.tsp**********
+===============================================================
+Instance name: portcgen-1000-10009, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 78
+Instance name: portcgen-1000-10009, optimal score: 10906997.0000
+No aug score:12218900.000, No aug gap:12.028%
+Instance time (incl. dist+test): 1.968s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.7.tsp**********
+===============================================================
+Instance name: portcgen-1000-10007, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 79
+Instance name: portcgen-1000-10007, optimal score: 10664660.0000
+No aug score:12030906.000, No aug gap:12.811%
+Instance time (incl. dist+test): 1.966s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.1.tsp**********
+===============================================================
+Instance name: portcgen-1000-10001, problem_size: 1000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1000
+edge weight type: EUC_2D
+current all solved instance num: 80
+Instance name: portcgen-1000-10001, optimal score: 11376735.0000
+No aug score:12619620.000, No aug gap:10.925%
+Instance time (incl. dist+test): 1.969s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr1002.tsp**********
+===============================================================
+Instance name: pr1002, problem_size: 1002
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1002
+edge weight type: EUC_2D
+current all solved instance num: 81
+Instance name: pr1002, optimal score: 259045.0000
+No aug score:289674.000, No aug gap:11.824%
+Instance time (incl. dist+test): 1.978s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1060.tsp**********
+===============================================================
+Instance name: u1060, problem_size: 1060
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1060
+edge weight type: EUC_2D
+current all solved instance num: 82
+Instance name: u1060, optimal score: 224094.0000
+No aug score:251623.000, No aug gap:12.285%
+Instance time (incl. dist+test): 2.152s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xit1083.tsp**********
+===============================================================
+Instance name: xit1083, problem_size: 1083
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1083
+edge weight type: EUC_2D
+current all solved instance num: 83
+Instance name: xit1083, optimal score: 3558.0000
+No aug score:4042.000, No aug gap:13.603%
+Instance time (incl. dist+test): 2.231s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_vm1084.tsp**********
+===============================================================
+Instance name: vm1084, problem_size: 1084
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1084
+edge weight type: EUC_2D
+current all solved instance num: 84
+Instance name: vm1084, optimal score: 239297.0000
+No aug score:275848.000, No aug gap:15.274%
+Instance time (incl. dist+test): 2.228s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb1173.tsp**********
+===============================================================
+Instance name: pcb1173, problem_size: 1173
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1173
+edge weight type: EUC_2D
+current all solved instance num: 85
+Instance name: pcb1173, optimal score: 56892.0000
+No aug score:64918.000, No aug gap:14.107%
+Instance time (incl. dist+test): 2.577s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d1291.tsp**********
+===============================================================
+Instance name: d1291, problem_size: 1291
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1291
+edge weight type: EUC_2D
+current all solved instance num: 86
+Instance name: d1291, optimal score: 50801.0000
+No aug score:55571.000, No aug gap:9.390%
+Instance time (incl. dist+test): 3.267s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1304.tsp**********
+===============================================================
+Instance name: rl1304, problem_size: 1304
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1304
+edge weight type: EUC_2D
+current all solved instance num: 87
+Instance name: rl1304, optimal score: 252948.0000
+No aug score:286294.000, No aug gap:13.183%
+Instance time (incl. dist+test): 3.306s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1323.tsp**********
+===============================================================
+Instance name: rl1323, problem_size: 1323
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1323
+edge weight type: EUC_2D
+current all solved instance num: 88
+Instance name: rl1323, optimal score: 270199.0000
+No aug score:303761.000, No aug gap:12.421%
+Instance time (incl. dist+test): 3.409s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dka1376.tsp**********
+===============================================================
+Instance name: dka1376, problem_size: 1376
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1376
+edge weight type: EUC_2D
+current all solved instance num: 89
+Instance name: dka1376, optimal score: 4666.0000
+No aug score:5344.000, No aug gap:14.531%
+Instance time (incl. dist+test): 3.685s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_nrw1379.tsp**********
+===============================================================
+Instance name: nrw1379, problem_size: 1379
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1379
+edge weight type: EUC_2D
+current all solved instance num: 90
+Instance name: nrw1379, optimal score: 56638.0000
+No aug score:62654.000, No aug gap:10.622%
+Instance time (incl. dist+test): 3.694s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dca1389.tsp**********
+===============================================================
+Instance name: dca1389, problem_size: 1389
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1389
+edge weight type: EUC_2D
+current all solved instance num: 91
+Instance name: dca1389, optimal score: 5085.0000
+No aug score:5752.000, No aug gap:13.117%
+Instance time (incl. dist+test): 3.747s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl1400.tsp**********
+===============================================================
+Instance name: fl1400, problem_size: 1400
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1400
+edge weight type: EUC_2D
+current all solved instance num: 92
+Instance name: fl1400, optimal score: 20127.0000
+No aug score:21887.000, No aug gap:8.744%
+Instance time (incl. dist+test): 3.809s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1432.tsp**********
+===============================================================
+Instance name: u1432, problem_size: 1432
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1432
+edge weight type: EUC_2D
+current all solved instance num: 93
+Instance name: u1432, optimal score: 152970.0000
+No aug score:169980.000, No aug gap:11.120%
+Instance time (incl. dist+test): 3.987s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dja1436.tsp**********
+===============================================================
+Instance name: dja1436, problem_size: 1436
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1436
+edge weight type: EUC_2D
+current all solved instance num: 94
+Instance name: dja1436, optimal score: 5257.0000
+No aug score:6059.000, No aug gap:15.256%
+Instance time (incl. dist+test): 4.006s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_icw1483.tsp**********
+===============================================================
+Instance name: icw1483, problem_size: 1483
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1483
+edge weight type: EUC_2D
+current all solved instance num: 95
+Instance name: icw1483, optimal score: 4416.0000
+No aug score:5123.000, No aug gap:16.010%
+Instance time (incl. dist+test): 4.274s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fra1488.tsp**********
+===============================================================
+Instance name: fra1488, problem_size: 1488
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1488
+edge weight type: EUC_2D
+current all solved instance num: 96
+Instance name: fra1488, optimal score: 4264.0000
+No aug score:4873.000, No aug gap:14.282%
+Instance time (incl. dist+test): 4.315s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl1577.tsp**********
+===============================================================
+Instance name: fl1577, problem_size: 1577
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1577
+edge weight type: EUC_2D
+current all solved instance num: 97
+Instance name: fl1577, optimal score: 22249.0000
+No aug score:24420.000, No aug gap:9.758%
+Instance time (incl. dist+test): 4.857s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbv1583.tsp**********
+===============================================================
+Instance name: rbv1583, problem_size: 1583
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1583
+edge weight type: EUC_2D
+current all solved instance num: 98
+Instance name: rbv1583, optimal score: 5387.0000
+No aug score:6245.000, No aug gap:15.927%
+Instance time (incl. dist+test): 4.898s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rby1599.tsp**********
+===============================================================
+Instance name: rby1599, problem_size: 1599
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1599
+edge weight type: EUC_2D
+current all solved instance num: 99
+Instance name: rby1599, optimal score: 5533.0000
+No aug score:6289.000, No aug gap:13.663%
+Instance time (incl. dist+test): 5.002s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fnb1615.tsp**********
+===============================================================
+Instance name: fnb1615, problem_size: 1615
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1615
+edge weight type: EUC_2D
+current all solved instance num: 100
+Instance name: fnb1615, optimal score: 4956.0000
+No aug score:5775.000, No aug gap:16.525%
+Instance time (incl. dist+test): 5.120s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_rw1621.tsp**********
+===============================================================
+Instance name: rw1621, problem_size: 1621
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1621
+edge weight type: EUC_2D
+current all solved instance num: 101
+Instance name: rw1621, optimal score: 26051.0000
+No aug score:29123.000, No aug gap:11.792%
+Instance time (incl. dist+test): 5.180s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d1655.tsp**********
+===============================================================
+Instance name: d1655, problem_size: 1655
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1655
+edge weight type: EUC_2D
+current all solved instance num: 102
+Instance name: d1655, optimal score: 62128.0000
+No aug score:71864.000, No aug gap:15.671%
+Instance time (incl. dist+test): 5.414s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_vm1748.tsp**********
+===============================================================
+Instance name: vm1748, problem_size: 1748
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1748
+edge weight type: EUC_2D
+current all solved instance num: 103
+Instance name: vm1748, optimal score: 336556.0000
+No aug score:391406.000, No aug gap:16.297%
+Instance time (incl. dist+test): 6.105s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_djc1785.tsp**********
+===============================================================
+Instance name: djc1785, problem_size: 1785
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1785
+edge weight type: EUC_2D
+current all solved instance num: 104
+Instance name: djc1785, optimal score: 6115.0000
+No aug score:7067.000, No aug gap:15.568%
+Instance time (incl. dist+test): 6.360s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1817.tsp**********
+===============================================================
+Instance name: u1817, problem_size: 1817
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1817
+edge weight type: EUC_2D
+current all solved instance num: 105
+Instance name: u1817, optimal score: 57201.0000
+No aug score:63895.000, No aug gap:11.703%
+Instance time (incl. dist+test): 6.664s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1889.tsp**********
+===============================================================
+Instance name: rl1889, problem_size: 1889
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1889
+edge weight type: EUC_2D
+current all solved instance num: 106
+Instance name: rl1889, optimal score: 316536.0000
+No aug score:367826.000, No aug gap:16.204%
+Instance time (incl. dist+test): 7.278s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dcc1911.tsp**********
+===============================================================
+Instance name: dcc1911, problem_size: 1911
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1911
+edge weight type: EUC_2D
+current all solved instance num: 107
+Instance name: dcc1911, optimal score: 6396.0000
+No aug score:7425.000, No aug gap:16.088%
+Instance time (incl. dist+test): 7.454s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkd1973.tsp**********
+===============================================================
+Instance name: dkd1973, problem_size: 1973
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1973
+edge weight type: EUC_2D
+current all solved instance num: 108
+Instance name: dkd1973, optimal score: 6421.0000
+No aug score:7709.000, No aug gap:20.059%
+Instance time (incl. dist+test): 7.997s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_mu1979.tsp**********
+===============================================================
+Instance name: mu1979, problem_size: 1979
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 1979
+edge weight type: EUC_2D
+current all solved instance num: 109
+Instance name: mu1979, optimal score: 86891.0000
+No aug score:103139.000, No aug gap:18.699%
+Instance time (incl. dist+test): 8.066s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_djb2036.tsp**********
+===============================================================
+Instance name: djb2036, problem_size: 2036
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2036
+edge weight type: EUC_2D
+current all solved instance num: 110
+Instance name: djb2036, optimal score: 6197.0000
+No aug score:7283.000, No aug gap:17.525%
+Instance time (incl. dist+test): 8.626s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dcb2086.tsp**********
+===============================================================
+Instance name: dcb2086, problem_size: 2086
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2086
+edge weight type: EUC_2D
+current all solved instance num: 111
+Instance name: dcb2086, optimal score: 6600.0000
+No aug score:7633.000, No aug gap:15.652%
+Instance time (incl. dist+test): 9.226s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d2103.tsp**********
+===============================================================
+Instance name: d2103, problem_size: 2103
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2103
+edge weight type: EUC_2D
+current all solved instance num: 112
+Instance name: d2103, optimal score: 80450.0000
+No aug score:85999.000, No aug gap:6.897%
+Instance time (incl. dist+test): 9.433s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bva2144.tsp**********
+===============================================================
+Instance name: bva2144, problem_size: 2144
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2144
+edge weight type: EUC_2D
+current all solved instance num: 113
+Instance name: bva2144, optimal score: 6304.0000
+No aug score:7215.000, No aug gap:14.451%
+Instance time (incl. dist+test): 9.718s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u2152.tsp**********
+===============================================================
+Instance name: u2152, problem_size: 2152
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2152
+edge weight type: EUC_2D
+current all solved instance num: 114
+Instance name: u2152, optimal score: 64253.0000
+No aug score:72124.000, No aug gap:12.250%
+Instance time (incl. dist+test): 9.838s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqc2175.tsp**********
+===============================================================
+Instance name: xqc2175, problem_size: 2175
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2175
+edge weight type: EUC_2D
+current all solved instance num: 115
+Instance name: xqc2175, optimal score: 6830.0000
+No aug score:7917.000, No aug gap:15.915%
+Instance time (incl. dist+test): 10.217s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bck2217.tsp**********
+===============================================================
+Instance name: bck2217, problem_size: 2217
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2217
+edge weight type: EUC_2D
+current all solved instance num: 116
+Instance name: bck2217, optimal score: 6764.0000
+No aug score:7840.000, No aug gap:15.908%
+Instance time (incl. dist+test): 10.701s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xpr2308.tsp**********
+===============================================================
+Instance name: xpr2308, problem_size: 2308
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2308
+edge weight type: EUC_2D
+current all solved instance num: 117
+Instance name: xpr2308, optimal score: 7219.0000
+No aug score:8270.000, No aug gap:14.559%
+Instance time (incl. dist+test): 11.602s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u2319.tsp**********
+===============================================================
+Instance name: u2319, problem_size: 2319
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2319
+edge weight type: EUC_2D
+current all solved instance num: 118
+Instance name: u2319, optimal score: 234256.0000
+No aug score:240393.000, No aug gap:2.620%
+Instance time (incl. dist+test): 11.921s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ley2323.tsp**********
+===============================================================
+Instance name: ley2323, problem_size: 2323
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2323
+edge weight type: EUC_2D
+current all solved instance num: 119
+Instance name: ley2323, optimal score: 8352.0000
+No aug score:9898.000, No aug gap:18.511%
+Instance time (incl. dist+test): 11.984s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dea2382.tsp**********
+===============================================================
+Instance name: dea2382, problem_size: 2382
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2382
+edge weight type: EUC_2D
+current all solved instance num: 120
+Instance name: dea2382, optimal score: 8017.0000
+No aug score:9475.000, No aug gap:18.186%
+Instance time (incl. dist+test): 12.661s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr2392.tsp**********
+===============================================================
+Instance name: pr2392, problem_size: 2392
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2392
+edge weight type: EUC_2D
+current all solved instance num: 121
+Instance name: pr2392, optimal score: 378032.0000
+No aug score:441059.000, No aug gap:16.672%
+Instance time (incl. dist+test): 12.658s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbw2481.tsp**********
+===============================================================
+Instance name: rbw2481, problem_size: 2481
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2481
+edge weight type: EUC_2D
+current all solved instance num: 122
+Instance name: rbw2481, optimal score: 7724.0000
+No aug score:8948.000, No aug gap:15.847%
+Instance time (incl. dist+test): 14.105s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pds2566.tsp**********
+===============================================================
+Instance name: pds2566, problem_size: 2566
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2566
+edge weight type: EUC_2D
+current all solved instance num: 123
+Instance name: pds2566, optimal score: 7643.0000
+No aug score:8824.000, No aug gap:15.452%
+Instance time (incl. dist+test): 15.905s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_mlt2597.tsp**********
+===============================================================
+Instance name: mlt2597, problem_size: 2597
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2597
+edge weight type: EUC_2D
+current all solved instance num: 124
+Instance name: mlt2597, optimal score: 8071.0000
+No aug score:9377.000, No aug gap:16.181%
+Instance time (incl. dist+test): 16.438s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bch2762.tsp**********
+===============================================================
+Instance name: bch2762, problem_size: 2762
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2762
+edge weight type: EUC_2D
+current all solved instance num: 125
+Instance name: bch2762, optimal score: 8234.0000
+No aug score:9616.000, No aug gap:16.784%
+Instance time (incl. dist+test): 19.219s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_irw2802.tsp**********
+===============================================================
+Instance name: irw2802, problem_size: 2802
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2802
+edge weight type: EUC_2D
+current all solved instance num: 126
+Instance name: irw2802, optimal score: 8423.0000
+No aug score:9867.000, No aug gap:17.144%
+Instance time (incl. dist+test): 19.923s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsm2854.tsp**********
+===============================================================
+Instance name: lsm2854, problem_size: 2854
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2854
+edge weight type: EUC_2D
+current all solved instance num: 127
+Instance name: lsm2854, optimal score: 8014.0000
+No aug score:9380.000, No aug gap:17.045%
+Instance time (incl. dist+test): 20.968s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dbj2924.tsp**********
+===============================================================
+Instance name: dbj2924, problem_size: 2924
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2924
+edge weight type: EUC_2D
+current all solved instance num: 128
+Instance name: dbj2924, optimal score: 10128.0000
+No aug score:11858.000, No aug gap:17.081%
+Instance time (incl. dist+test): 22.363s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xva2993.tsp**********
+===============================================================
+Instance name: xva2993, problem_size: 2993
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 2993
+edge weight type: EUC_2D
+current all solved instance num: 129
+Instance name: xva2993, optimal score: 8492.0000
+No aug score:9907.000, No aug gap:16.663%
+Instance time (incl. dist+test): 23.713s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb3038.tsp**********
+===============================================================
+Instance name: pcb3038, problem_size: 3038
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3038
+edge weight type: EUC_2D
+current all solved instance num: 130
+Instance name: pcb3038, optimal score: 137694.0000
+No aug score:160080.000, No aug gap:16.258%
+Instance time (incl. dist+test): 24.607s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pia3056.tsp**********
+===============================================================
+Instance name: pia3056, problem_size: 3056
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3056
+edge weight type: EUC_2D
+current all solved instance num: 131
+Instance name: pia3056, optimal score: 8258.0000
+No aug score:9717.000, No aug gap:17.668%
+Instance time (incl. dist+test): 25.182s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dke3097.tsp**********
+===============================================================
+Instance name: dke3097, problem_size: 3097
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3097
+edge weight type: EUC_2D
+current all solved instance num: 132
+Instance name: dke3097, optimal score: 10539.0000
+No aug score:12215.000, No aug gap:15.903%
+Instance time (incl. dist+test): 26.064s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsn3119.tsp**********
+===============================================================
+Instance name: lsn3119, problem_size: 3119
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3119
+edge weight type: EUC_2D
+current all solved instance num: 133
+Instance name: lsn3119, optimal score: 9114.0000
+No aug score:10730.000, No aug gap:17.731%
+Instance time (incl. dist+test): 26.627s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lta3140.tsp**********
+===============================================================
+Instance name: lta3140, problem_size: 3140
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3140
+edge weight type: EUC_2D
+current all solved instance num: 134
+Instance name: lta3140, optimal score: 9517.0000
+No aug score:11170.000, No aug gap:17.369%
+Instance time (incl. dist+test): 27.371s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.2.tsp**********
+===============================================================
+Instance name: portcgen-3162-31622, problem_size: 3162
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3162
+edge weight type: EUC_2D
+current all solved instance num: 135
+Instance name: portcgen-3162-31622, optimal score: 19547551.0000
+No aug score:22919676.000, No aug gap:17.251%
+Instance time (incl. dist+test): 27.754s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.0.tsp**********
+===============================================================
+Instance name: portcgen-3162-3162, problem_size: 3162
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3162
+edge weight type: EUC_2D
+current all solved instance num: 136
+Instance name: portcgen-3162-3162, optimal score: 19198258.0000
+No aug score:22687668.000, No aug gap:18.176%
+Instance time (incl. dist+test): 27.786s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.1.tsp**********
+===============================================================
+Instance name: portcgen-3162-31621, problem_size: 3162
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3162
+edge weight type: EUC_2D
+current all solved instance num: 137
+Instance name: portcgen-3162-31621, optimal score: 19017805.0000
+No aug score:22641788.000, No aug gap:19.056%
+Instance time (incl. dist+test): 27.754s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.3.tsp**********
+===============================================================
+Instance name: portcgen-3162-31623, problem_size: 3162
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3162
+edge weight type: EUC_2D
+current all solved instance num: 138
+Instance name: portcgen-3162-31623, optimal score: 19108508.0000
+No aug score:22716880.000, No aug gap:18.884%
+Instance time (incl. dist+test): 27.784s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.4.tsp**********
+===============================================================
+Instance name: portcgen-3162-31624, problem_size: 3162
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3162
+edge weight type: EUC_2D
+current all solved instance num: 139
+Instance name: portcgen-3162-31624, optimal score: 18864046.0000
+No aug score:22445810.000, No aug gap:18.987%
+Instance time (incl. dist+test): 27.784s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fdp3256.tsp**********
+===============================================================
+Instance name: fdp3256, problem_size: 3256
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3256
+edge weight type: EUC_2D
+current all solved instance num: 140
+Instance name: fdp3256, optimal score: 10008.0000
+No aug score:11743.000, No aug gap:17.336%
+Instance time (incl. dist+test): 30.251s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_beg3293.tsp**********
+===============================================================
+Instance name: beg3293, problem_size: 3293
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3293
+edge weight type: EUC_2D
+current all solved instance num: 141
+Instance name: beg3293, optimal score: 9772.0000
+No aug score:11445.000, No aug gap:17.120%
+Instance time (incl. dist+test): 30.835s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dhb3386.tsp**********
+===============================================================
+Instance name: dhb3386, problem_size: 3386
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3386
+edge weight type: EUC_2D
+current all solved instance num: 142
+Instance name: dhb3386, optimal score: 11137.0000
+No aug score:13045.000, No aug gap:17.132%
+Instance time (incl. dist+test): 33.338s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_nu3496.tsp**********
+===============================================================
+Instance name: nu3496, problem_size: 3496
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3496
+edge weight type: EUC_2D
+current all solved instance num: 143
+Instance name: nu3496, optimal score: 96132.0000
+No aug score:112601.000, No aug gap:17.132%
+Instance time (incl. dist+test): 37.116s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fjs3649.tsp**********
+===============================================================
+Instance name: fjs3649, problem_size: 3649
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3649
+edge weight type: EUC_2D
+current all solved instance num: 144
+Instance name: fjs3649, optimal score: 9272.0000
+No aug score:12279.000, No aug gap:32.431%
+Instance time (incl. dist+test): 41.002s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fjr3672.tsp**********
+===============================================================
+Instance name: fjr3672, problem_size: 3672
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3672
+edge weight type: EUC_2D
+current all solved instance num: 145
+Instance name: fjr3672, optimal score: 9601.0000
+No aug score:12994.000, No aug gap:35.340%
+Instance time (incl. dist+test): 41.939s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dlb3694.tsp**********
+===============================================================
+Instance name: dlb3694, problem_size: 3694
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3694
+edge weight type: EUC_2D
+current all solved instance num: 146
+Instance name: dlb3694, optimal score: 10959.0000
+No aug score:12893.000, No aug gap:17.648%
+Instance time (incl. dist+test): 42.401s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ltb3729.tsp**********
+===============================================================
+Instance name: ltb3729, problem_size: 3729
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3729
+edge weight type: EUC_2D
+current all solved instance num: 147
+Instance name: ltb3729, optimal score: 11821.0000
+No aug score:14147.000, No aug gap:19.677%
+Instance time (incl. dist+test): 43.448s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl3795.tsp**********
+===============================================================
+Instance name: fl3795, problem_size: 3795
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3795
+edge weight type: EUC_2D
+current all solved instance num: 148
+Instance name: fl3795, optimal score: 28772.0000
+No aug score:32644.000, No aug gap:13.458%
+Instance time (incl. dist+test): 45.575s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqe3891.tsp**********
+===============================================================
+Instance name: xqe3891, problem_size: 3891
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3891
+edge weight type: EUC_2D
+current all solved instance num: 149
+Instance name: xqe3891, optimal score: 11995.0000
+No aug score:14309.000, No aug gap:19.291%
+Instance time (incl. dist+test): 50.508s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xua3937.tsp**********
+===============================================================
+Instance name: xua3937, problem_size: 3937
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3937
+edge weight type: EUC_2D
+current all solved instance num: 150
+Instance name: xua3937, optimal score: 11239.0000
+No aug score:13227.000, No aug gap:17.688%
+Instance time (incl. dist+test): 52.220s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkc3938.tsp**********
+===============================================================
+Instance name: dkc3938, problem_size: 3938
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3938
+edge weight type: EUC_2D
+current all solved instance num: 151
+Instance name: dkc3938, optimal score: 12503.0000
+No aug score:15176.000, No aug gap:21.379%
+Instance time (incl. dist+test): 52.230s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkf3954.tsp**********
+===============================================================
+Instance name: dkf3954, problem_size: 3954
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 3954
+edge weight type: EUC_2D
+current all solved instance num: 152
+Instance name: dkf3954, optimal score: 12538.0000
+No aug score:14951.000, No aug gap:19.245%
+Instance time (incl. dist+test): 52.824s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgb4355.tsp**********
+===============================================================
+Instance name: bgb4355, problem_size: 4355
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4355
+edge weight type: EUC_2D
+current all solved instance num: 153
+Instance name: bgb4355, optimal score: 12723.0000
+No aug score:15113.000, No aug gap:18.785%
+Instance time (incl. dist+test): 68.453s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgd4396.tsp**********
+===============================================================
+Instance name: bgd4396, problem_size: 4396
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4396
+edge weight type: EUC_2D
+current all solved instance num: 154
+Instance name: bgd4396, optimal score: 13009.0000
+No aug score:15625.000, No aug gap:20.109%
+Instance time (incl. dist+test): 70.754s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_frv4410.tsp**********
+===============================================================
+Instance name: frv4410, problem_size: 4410
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4410
+edge weight type: EUC_2D
+current all solved instance num: 155
+Instance name: frv4410, optimal score: 10711.0000
+No aug score:12709.000, No aug gap:18.654%
+Instance time (incl. dist+test): 70.500s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fnl4461.tsp**********
+===============================================================
+Instance name: fnl4461, problem_size: 4461
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4461
+edge weight type: EUC_2D
+current all solved instance num: 156
+Instance name: fnl4461, optimal score: 182566.0000
+No aug score:212513.000, No aug gap:16.403%
+Instance time (incl. dist+test): 72.934s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgf4475.tsp**********
+===============================================================
+Instance name: bgf4475, problem_size: 4475
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4475
+edge weight type: EUC_2D
+current all solved instance num: 157
+Instance name: bgf4475, optimal score: 13221.0000
+No aug score:15713.000, No aug gap:18.849%
+Instance time (incl. dist+test): 73.215s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ca4663.tsp**********
+===============================================================
+Instance name: ca4663, problem_size: 4663
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4663
+edge weight type: EUC_2D
+current all solved instance num: 158
+Instance name: ca4663, optimal score: 1290319.0000
+No aug score:2309654.000, No aug gap:78.999%
+Instance time (incl. dist+test): 82.045s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqd4966.tsp**********
+===============================================================
+Instance name: xqd4966, problem_size: 4966
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 4966
+edge weight type: EUC_2D
+current all solved instance num: 159
+Instance name: xqd4966, optimal score: 15316.0000
+No aug score:19795.000, No aug gap:29.244%
+Instance time (incl. dist+test): 97.697s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fqm5087.tsp**********
+===============================================================
+Instance name: fqm5087, problem_size: 5087
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 5087
+edge weight type: EUC_2D
+current all solved instance num: 160
+Instance name: fqm5087, optimal score: 13029.0000
+No aug score:16733.000, No aug gap:28.429%
+Instance time (incl. dist+test): 103.936s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fea5557.tsp**********
+===============================================================
+Instance name: fea5557, problem_size: 5557
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 5557
+edge weight type: EUC_2D
+current all solved instance num: 161
+Instance name: fea5557, optimal score: 15445.0000
+No aug score:18351.000, No aug gap:18.815%
+Instance time (incl. dist+test): 137.130s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl5915.tsp**********
+===============================================================
+Instance name: rl5915, problem_size: 5915
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 5915
+edge weight type: EUC_2D
+current all solved instance num: 162
+Instance name: rl5915, optimal score: 565530.0000
+No aug score:655420.000, No aug gap:15.895%
+Instance time (incl. dist+test): 164.465s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl5934.tsp**********
+===============================================================
+Instance name: rl5934, problem_size: 5934
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 5934
+edge weight type: EUC_2D
+current all solved instance num: 163
+Instance name: rl5934, optimal score: 556045.0000
+No aug score:655835.000, No aug gap:17.946%
+Instance time (incl. dist+test): 166.636s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_tz6117.tsp**********
+===============================================================
+Instance name: tz6117, problem_size: 6117
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 6117
+edge weight type: EUC_2D
+current all solved instance num: 164
+Instance name: tz6117, optimal score: 394718.0000
+No aug score:476232.000, No aug gap:20.651%
+Instance time (incl. dist+test): 182.379s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xsc6880.tsp**********
+===============================================================
+Instance name: xsc6880, problem_size: 6880
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 6880
+edge weight type: EUC_2D
+current all solved instance num: 165
+Instance name: xsc6880, optimal score: 21535.0000
+No aug score:26080.000, No aug gap:21.105%
+Instance time (incl. dist+test): 270.585s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_eg7146.tsp**********
+===============================================================
+Instance name: eg7146, problem_size: 7146
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 7146
+edge weight type: EUC_2D
+Warning: Aug gap >=100% in instance eg7146, dimension: 7146, gap: 311.910%, skip it!
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bnd7168.tsp**********
+===============================================================
+Instance name: bnd7168, problem_size: 7168
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 7168
+edge weight type: EUC_2D
+current all solved instance num: 166
+Instance name: bnd7168, optimal score: 21834.0000
+No aug score:26313.000, No aug gap:20.514%
+Instance time (incl. dist+test): 304.677s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla7397.tsp**********
+===============================================================
+Instance name: pla7397, problem_size: 7397
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 7397
+edge weight type: CEIL_2D
+current all solved instance num: 167
+Instance name: pla7397, optimal score: 23260728.0000
+No aug score:27398488.000, No aug gap:17.789%
+Instance time (incl. dist+test): 326.152s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lap7454.tsp**********
+===============================================================
+Instance name: lap7454, problem_size: 7454
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 7454
+edge weight type: EUC_2D
+current all solved instance num: 168
+Instance name: lap7454, optimal score: 19535.0000
+No aug score:23227.000, No aug gap:18.899%
+Instance time (incl. dist+test): 334.464s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ym7663.tsp**********
+===============================================================
+Instance name: ym7663, problem_size: 7663
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 7663
+edge weight type: EUC_2D
+current all solved instance num: 169
+Instance name: ym7663, optimal score: 238314.0000
+No aug score:441960.000, No aug gap:85.453%
+Instance time (incl. dist+test): 359.441s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_pm8079.tsp**********
+===============================================================
+Instance name: pm8079, problem_size: 8079
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 8079
+edge weight type: EUC_2D
+current all solved instance num: 170
+Instance name: pm8079, optimal score: 114855.0000
+No aug score:139632.000, No aug gap:21.572%
+Instance time (incl. dist+test): 427.794s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ida8197.tsp**********
+===============================================================
+Instance name: ida8197, problem_size: 8197
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 8197
+edge weight type: EUC_2D
+current all solved instance num: 171
+Instance name: ida8197, optimal score: 22338.0000
+No aug score:27319.000, No aug gap:22.298%
+Instance time (incl. dist+test): 448.099s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ei8246.tsp**********
+===============================================================
+Instance name: ei8246, problem_size: 8246
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 8246
+edge weight type: EUC_2D
+current all solved instance num: 172
+Instance name: ei8246, optimal score: 206171.0000
+No aug score:249543.000, No aug gap:21.037%
+Instance time (incl. dist+test): 457.635s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ar9152.tsp**********
+===============================================================
+Instance name: ar9152, problem_size: 9152
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 9152
+edge weight type: EUC_2D
+current all solved instance num: 173
+Instance name: ar9152, optimal score: 837479.0000
+No aug score:1013485.000, No aug gap:21.016%
+Instance time (incl. dist+test): 641.229s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dga9698.tsp**********
+===============================================================
+Instance name: dga9698, problem_size: 9698
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 9698
+edge weight type: EUC_2D
+current all solved instance num: 174
+Instance name: dga9698, optimal score: 27724.0000
+No aug score:33199.000, No aug gap:19.748%
+Instance time (incl. dist+test): 736.861s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ja9847.tsp**********
+===============================================================
+Instance name: ja9847, problem_size: 9847
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 9847
+edge weight type: EUC_2D
+current all solved instance num: 175
+Instance name: ja9847, optimal score: 491924.0000
+No aug score:745073.000, No aug gap:51.461%
+Instance time (incl. dist+test): 774.628s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_gr9882.tsp**********
+===============================================================
+Instance name: gr9882, problem_size: 9882
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 9882
+edge weight type: EUC_2D
+current all solved instance num: 176
+Instance name: gr9882, optimal score: 300899.0000
+No aug score:371402.000, No aug gap:23.431%
+Instance time (incl. dist+test): 783.916s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_kz9976.tsp**********
+===============================================================
+Instance name: kz9976, problem_size: 9976
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 9976
+edge weight type: EUC_2D
+current all solved instance num: 177
+Instance name: kz9976, optimal score: 1061881.0000
+No aug score:1310210.000, No aug gap:23.386%
+Instance time (incl. dist+test): 805.022s
+ *** Test Done *** 
+scale_range: [1000, 10000], instance number: 109, total time: 9516.86s, avg time per instance: 87.31s
+===============================================================
+instance: ['portcgen-1000-10008', 'dsj1000', 'portcgen-1000-10005', 'portcgen-1000-10002', 'portcgen-1000-10006', 'portcgen-1000-10003', 'portcgen-1000-10004', 'portcgen-1000-1000', 'portcgen-1000-10009', 'portcgen-1000-10007', 'portcgen-1000-10001', 'pr1002', 'u1060', 'xit1083', 'vm1084', 'pcb1173', 'd1291', 'rl1304', 'rl1323', 'dka1376', 'nrw1379', 'dca1389', 'fl1400', 'u1432', 'dja1436', 'icw1483', 'fra1488', 'fl1577', 'rbv1583', 'rby1599', 'fnb1615', 'rw1621', 'd1655', 'vm1748', 'djc1785', 'u1817', 'rl1889', 'dcc1911', 'dkd1973', 'mu1979', 'djb2036', 'dcb2086', 'd2103', 'bva2144', 'u2152', 'xqc2175', 'bck2217', 'xpr2308', 'u2319', 'ley2323', 'dea2382', 'pr2392', 'rbw2481', 'pds2566', 'mlt2597', 'bch2762', 'irw2802', 'lsm2854', 'dbj2924', 'xva2993', 'pcb3038', 'pia3056', 'dke3097', 'lsn3119', 'lta3140', 'portcgen-3162-31622', 'portcgen-3162-3162', 'portcgen-3162-31621', 'portcgen-3162-31623', 'portcgen-3162-31624', 'fdp3256', 'beg3293', 'dhb3386', 'nu3496', 'fjs3649', 'fjr3672', 'dlb3694', 'ltb3729', 'fl3795', 'xqe3891', 'xua3937', 'dkc3938', 'dkf3954', 'bgb4355', 'bgd4396', 'frv4410', 'fnl4461', 'bgf4475', 'ca4663', 'xqd4966', 'fqm5087', 'fea5557', 'rl5915', 'rl5934', 'tz6117', 'xsc6880', 'bnd7168', 'pla7397', 'lap7454', 'ym7663', 'pm8079', 'ida8197', 'ei8246', 'ar9152', 'dga9698', 'ja9847', 'gr9882', 'kz9976']
+optimal: [11605723.0, 18660188.0, 11394911.0, 10855033.0, 10166701.0, 11886457.0, 11499958.0, 11387430.0, 10906997.0, 10664660.0, 11376735.0, 259045.0, 224094.0, 3558.0, 239297.0, 56892.0, 50801.0, 252948.0, 270199.0, 4666.0, 56638.0, 5085.0, 20127.0, 152970.0, 5257.0, 4416.0, 4264.0, 22249.0, 5387.0, 5533.0, 4956.0, 26051.0, 62128.0, 336556.0, 6115.0, 57201.0, 316536.0, 6396.0, 6421.0, 86891.0, 6197.0, 6600.0, 80450.0, 6304.0, 64253.0, 6830.0, 6764.0, 7219.0, 234256.0, 8352.0, 8017.0, 378032.0, 7724.0, 7643.0, 8071.0, 8234.0, 8423.0, 8014.0, 10128.0, 8492.0, 137694.0, 8258.0, 10539.0, 9114.0, 9517.0, 19547551.0, 19198258.0, 19017805.0, 19108508.0, 18864046.0, 10008.0, 9772.0, 11137.0, 96132.0, 9272.0, 9601.0, 10959.0, 11821.0, 28772.0, 11995.0, 11239.0, 12503.0, 12538.0, 12723.0, 13009.0, 10711.0, 182566.0, 13221.0, 1290319.0, 15316.0, 13029.0, 15445.0, 565530.0, 556045.0, 394718.0, 21535.0, 21834.0, 23260728.0, 19535.0, 238314.0, 114855.0, 22338.0, 206171.0, 837479.0, 27724.0, 491924.0, 300899.0, 1061881.0]
+problem_size: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1002, 1060, 1083, 1084, 1173, 1291, 1304, 1323, 1376, 1379, 1389, 1400, 1432, 1436, 1483, 1488, 1577, 1583, 1599, 1615, 1621, 1655, 1748, 1785, 1817, 1889, 1911, 1973, 1979, 2036, 2086, 2103, 2144, 2152, 2175, 2217, 2308, 2319, 2323, 2382, 2392, 2481, 2566, 2597, 2762, 2802, 2854, 2924, 2993, 3038, 3056, 3097, 3119, 3140, 3162, 3162, 3162, 3162, 3162, 3256, 3293, 3386, 3496, 3649, 3672, 3694, 3729, 3795, 3891, 3937, 3938, 3954, 4355, 4396, 4410, 4461, 4475, 4663, 4966, 5087, 5557, 5915, 5934, 6117, 6880, 7168, 7397, 7454, 7663, 8079, 8197, 8246, 9152, 9698, 9847, 9882, 9976]
+no_aug_score: [12925900.0, 20887704.0, 12939908.0, 12413924.0, 11920762.0, 13294855.0, 13108453.0, 12705271.0, 12218900.0, 12030906.0, 12619620.0, 289674.0, 251623.0, 4042.0, 275848.0, 64918.0, 55571.0, 286294.0, 303761.0, 5344.0, 62654.0, 5752.0, 21887.0, 169980.0, 6059.0, 5123.0, 4873.0, 24420.0, 6245.0, 6289.0, 5775.0, 29123.0, 71864.0, 391406.0, 7067.0, 63895.0, 367826.0, 7425.0, 7709.0, 103139.0, 7283.0, 7633.0, 85999.0, 7215.0, 72124.0, 7917.0, 7840.0, 8270.0, 240393.0, 9898.0, 9475.0, 441059.0, 8948.0, 8824.0, 9377.0, 9616.0, 9867.0, 9380.0, 11858.0, 9907.0, 160080.0, 9717.0, 12215.0, 10730.0, 11170.0, 22919676.0, 22687668.0, 22641788.0, 22716880.0, 22445810.0, 11743.0, 11445.0, 13045.0, 112601.0, 12279.0, 12994.0, 12893.0, 14147.0, 32644.0, 14309.0, 13227.0, 15176.0, 14951.0, 15113.0, 15625.0, 12709.0, 212513.0, 15713.0, 2309654.0, 19795.0, 16733.0, 18351.0, 655420.0, 655835.0, 476232.0, 26080.0, 26313.0, 27398488.0, 23227.0, 441960.0, 139632.0, 27319.0, 249543.0, 1013485.0, 33199.0, 745073.0, 371402.0, 1310210.0]
+aug_score: [12925900.0, 20887704.0, 12939908.0, 12413924.0, 11920762.0, 13294855.0, 13108453.0, 12705271.0, 12218900.0, 12030906.0, 12619620.0, 289674.0, 251623.0, 4042.0, 275848.0, 64918.0, 55571.0, 286294.0, 303761.0, 5344.0, 62654.0, 5752.0, 21887.0, 169980.0, 6059.0, 5123.0, 4873.0, 24420.0, 6245.0, 6289.0, 5775.0, 29123.0, 71864.0, 391406.0, 7067.0, 63895.0, 367826.0, 7425.0, 7709.0, 103139.0, 7283.0, 7633.0, 85999.0, 7215.0, 72124.0, 7917.0, 7840.0, 8270.0, 240393.0, 9898.0, 9475.0, 441059.0, 8948.0, 8824.0, 9377.0, 9616.0, 9867.0, 9380.0, 11858.0, 9907.0, 160080.0, 9717.0, 12215.0, 10730.0, 11170.0, 22919676.0, 22687668.0, 22641788.0, 22716880.0, 22445810.0, 11743.0, 11445.0, 13045.0, 112601.0, 12279.0, 12994.0, 12893.0, 14147.0, 32644.0, 14309.0, 13227.0, 15176.0, 14951.0, 15113.0, 15625.0, 12709.0, 212513.0, 15713.0, 2309654.0, 19795.0, 16733.0, 18351.0, 655420.0, 655835.0, 476232.0, 26080.0, 26313.0, 27398488.0, 23227.0, 441960.0, 139632.0, 27319.0, 249543.0, 1013485.0, 33199.0, 745073.0, 371402.0, 1310210.0]
+no_aug_gap: [11.37522410279825, 11.93726451201885, 13.558657895616737, 14.36099733644292, 17.253000752161395, 11.848761998634243, 13.986964126303766, 11.57276927278587, 12.028086190910294, 12.81096631303764, 10.924795207060725, 11.823814395182303, 12.284577007862772, 13.603147835862844, 15.274324375148874, 14.107431624833017, 9.389578945296352, 13.18294669260085, 12.421215474520631, 14.530647235319332, 10.621843991666372, 13.11701081612586, 8.744472598996373, 11.119827417140616, 15.255849343732166, 16.00996376811594, 14.282363977485929, 9.757741920985213, 15.927232225728606, 13.663473703235134, 16.52542372881356, 11.792253656289585, 15.67087303631213, 16.297436385029535, 15.568274734260017, 11.702592612017272, 16.203528192685823, 16.088180112570356, 20.059180812957482, 18.699289914950917, 17.52460868162014, 15.651515151515152, 6.897451833436917, 14.451142131979696, 12.250011672606727, 15.915080527086383, 15.907746895328208, 14.558803158332179, 2.6197834847346493, 18.510536398467433, 18.18635399775477, 16.67239810386422, 15.846711548420508, 15.452047625278032, 16.181390162309505, 16.784066067524897, 17.143535557402352, 17.045170950836038, 17.081358609794627, 16.662741403674048, 16.257789010414395, 17.667716154032455, 15.902837081317013, 17.73096335308317, 17.3689187769255, 17.2508822204889, 18.175659479104823, 19.05573750493288, 18.883588399471062, 18.987252257548565, 17.3361310951239, 17.120343839541547, 17.132082248361318, 17.13165231140515, 32.43097497842968, 35.340068742839286, 17.647595583538646, 19.676846290499956, 13.45752815237036, 19.29137140475198, 17.68840644185426, 21.37886907142286, 19.24549369915457, 18.784877780397704, 20.109155200245983, 18.653720474278778, 16.403382886189103, 18.848801149686107, 78.99868172134178, 29.243927918516583, 28.428889400567964, 18.815150534153446, 15.894824324085372, 17.946389231087412, 20.651199083902938, 21.105177617831437, 20.513877438856827, 17.788609195722508, 18.899411313027898, 85.45280596188222, 21.572417395846937, 22.298325722983257, 21.036906257427088, 21.01616876363467, 19.748232578271534, 51.4609980403477, 23.430785745383, 23.385765448294112]
+aug_gap: [11.37522410279825, 11.93726451201885, 13.558657895616737, 14.36099733644292, 17.253000752161395, 11.848761998634243, 13.986964126303766, 11.57276927278587, 12.028086190910294, 12.81096631303764, 10.924795207060725, 11.823814395182303, 12.284577007862772, 13.603147835862844, 15.274324375148874, 14.107431624833017, 9.389578945296352, 13.18294669260085, 12.421215474520631, 14.530647235319332, 10.621843991666372, 13.11701081612586, 8.744472598996373, 11.119827417140616, 15.255849343732166, 16.00996376811594, 14.282363977485929, 9.757741920985213, 15.927232225728606, 13.663473703235134, 16.52542372881356, 11.792253656289585, 15.67087303631213, 16.297436385029535, 15.568274734260017, 11.702592612017272, 16.203528192685823, 16.088180112570356, 20.059180812957482, 18.699289914950917, 17.52460868162014, 15.651515151515152, 6.897451833436917, 14.451142131979696, 12.250011672606727, 15.915080527086383, 15.907746895328208, 14.558803158332179, 2.6197834847346493, 18.510536398467433, 18.18635399775477, 16.67239810386422, 15.846711548420508, 15.452047625278032, 16.181390162309505, 16.784066067524897, 17.143535557402352, 17.045170950836038, 17.081358609794627, 16.662741403674048, 16.257789010414395, 17.667716154032455, 15.902837081317013, 17.73096335308317, 17.3689187769255, 17.2508822204889, 18.175659479104823, 19.05573750493288, 18.883588399471062, 18.987252257548565, 17.3361310951239, 17.120343839541547, 17.132082248361318, 17.13165231140515, 32.43097497842968, 35.340068742839286, 17.647595583538646, 19.676846290499956, 13.45752815237036, 19.29137140475198, 17.68840644185426, 21.37886907142286, 19.24549369915457, 18.784877780397704, 20.109155200245983, 18.653720474278778, 16.403382886189103, 18.848801149686107, 78.99868172134178, 29.243927918516583, 28.428889400567964, 18.815150534153446, 15.894824324085372, 17.946389231087412, 20.651199083902938, 21.105177617831437, 20.513877438856827, 17.788609195722508, 18.899411313027898, 85.45280596188222, 21.572417395846937, 22.298325722983257, 21.036906257427088, 21.01616876363467, 19.748232578271534, 51.4609980403477, 23.430785745383, 23.385765448294112]
+===============================================================
+Solved_ instances number: 108, min_dimension: 1000, max_dimension: 9976, avg gap(no aug): 18.142%, avg_gap(aug): 18.142%
+Avg time per instance: 88.12s
+#################  Test scale range: [10000, 100001]  #################
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.2.tsp**********
+===============================================================
+Instance name: portcgen-10000-100002, problem_size: 10000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 10000
+edge weight type: EUC_2D
+current all solved instance num: 178
+Instance name: portcgen-10000-100002, optimal score: 33155424.0000
+No aug score:40880280.000, No aug gap:23.299%
+Instance time (incl. dist+test): 812.069s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.1.tsp**********
+===============================================================
+Instance name: portcgen-10000-100001, problem_size: 10000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 10000
+edge weight type: EUC_2D
+current all solved instance num: 179
+Instance name: portcgen-10000-100001, optimal score: 33186248.0000
+No aug score:40908248.000, No aug gap:23.269%
+Instance time (incl. dist+test): 816.375s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.0.tsp**********
+===============================================================
+Instance name: portcgen-10000-10000, problem_size: 10000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 10000
+edge weight type: EUC_2D
+current all solved instance num: 180
+Instance name: portcgen-10000-10000, optimal score: 33001034.0000
+No aug score:40408000.000, No aug gap:22.445%
+Instance time (incl. dist+test): 816.722s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xmc10150.tsp**********
+===============================================================
+Instance name: xmc10150, problem_size: 10150
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 10150
+edge weight type: EUC_2D
+current all solved instance num: 181
+Instance name: xmc10150, optimal score: 28387.0000
+No aug score:33971.000, No aug gap:19.671%
+Instance time (incl. dist+test): 840.051s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_fi10639.tsp**********
+===============================================================
+Instance name: fi10639, problem_size: 10639
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 10639
+edge weight type: EUC_2D
+current all solved instance num: 182
+Instance name: fi10639, optimal score: 520527.0000
+No aug score:640426.000, No aug gap:23.034%
+Instance time (incl. dist+test): 984.255s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl11849.tsp**********
+===============================================================
+Instance name: rl11849, problem_size: 11849
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 11849
+edge weight type: EUC_2D
+current all solved instance num: 183
+Instance name: rl11849, optimal score: 923288.0000
+No aug score:1091104.000, No aug gap:18.176%
+Instance time (incl. dist+test): 1355.157s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_usa13509.tsp**********
+===============================================================
+Instance name: usa13509, problem_size: 13509
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 13509
+Error occurred in instance usa13509, dimension: 13509, skip it!
+Error message: CUDA out of memory. Tried to allocate 5.44 GiB (GPU 0; 23.59 GiB total capacity; 15.02 GiB already allocated; 3.23 GiB free; 20.03 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xvb13584.tsp**********
+===============================================================
+Instance name: xvb13584, problem_size: 13584
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 13584
+Error occurred in instance xvb13584, dimension: 13584, skip it!
+Error message: CUDA out of memory. Tried to allocate 5.50 GiB (GPU 0; 23.59 GiB total capacity; 15.18 GiB already allocated; 3.05 GiB free; 20.21 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_brd14051.tsp**********
+===============================================================
+Instance name: brd14051, problem_size: 14051
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 14051
+Error occurred in instance brd14051, dimension: 14051, skip it!
+Error message: CUDA out of memory. Tried to allocate 5.88 GiB (GPU 0; 23.59 GiB total capacity; 16.24 GiB already allocated; 1.90 GiB free; 21.37 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_mo14185.tsp**********
+===============================================================
+Instance name: mo14185, problem_size: 14185
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 14185
+Error occurred in instance mo14185, dimension: 14185, skip it!
+Error message: CUDA out of memory. Tried to allocate 6.00 GiB (GPU 0; 23.59 GiB total capacity; 16.55 GiB already allocated; 2.34 GiB free; 20.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xrb14233.tsp**********
+===============================================================
+Instance name: xrb14233, problem_size: 14233
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 14233
+Error occurred in instance xrb14233, dimension: 14233, skip it!
+Error message: CUDA out of memory. Tried to allocate 6.04 GiB (GPU 0; 23.59 GiB total capacity; 16.66 GiB already allocated; 2.22 GiB free; 21.04 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ho14473.tsp**********
+===============================================================
+Instance name: ho14473, problem_size: 14473
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 14473
+Error occurred in instance ho14473, dimension: 14473, skip it!
+Error message: CUDA out of memory. Tried to allocate 6.24 GiB (GPU 0; 23.59 GiB total capacity; 14.11 GiB already allocated; 1.81 GiB free; 21.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d15112.tsp**********
+===============================================================
+Instance name: d15112, problem_size: 15112
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 15112
+Error occurred in instance d15112, dimension: 15112, skip it!
+Error message: CUDA out of memory. Tried to allocate 6.81 GiB (GPU 0; 23.59 GiB total capacity; 15.38 GiB already allocated; 701.12 MiB free; 22.58 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_it16862.tsp**********
+===============================================================
+Instance name: it16862, problem_size: 16862
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 16862
+Error occurred in instance it16862, dimension: 16862, skip it!
+Error message: CUDA out of memory. Tried to allocate 8.47 GiB (GPU 0; 23.59 GiB total capacity; 10.66 GiB already allocated; 5.82 GiB free; 17.44 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xia16928.tsp**********
+===============================================================
+Instance name: xia16928, problem_size: 16928
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 16928
+Error occurred in instance xia16928, dimension: 16928, skip it!
+Error message: CUDA out of memory. Tried to allocate 8.54 GiB (GPU 0; 23.59 GiB total capacity; 10.75 GiB already allocated; 5.76 GiB free; 17.51 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pjh17845.tsp**********
+===============================================================
+Instance name: pjh17845, problem_size: 17845
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 17845
+Error occurred in instance pjh17845, dimension: 17845, skip it!
+Error message: CUDA out of memory. Tried to allocate 9.49 GiB (GPU 0; 23.59 GiB total capacity; 11.94 GiB already allocated; 4.81 GiB free; 18.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d18512.tsp**********
+===============================================================
+Instance name: d18512, problem_size: 18512
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 18512
+Error occurred in instance d18512, dimension: 18512, skip it!
+Error message: CUDA out of memory. Tried to allocate 10.21 GiB (GPU 0; 23.59 GiB total capacity; 12.84 GiB already allocated; 4.08 GiB free; 19.18 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_frh19289.tsp**********
+===============================================================
+Instance name: frh19289, problem_size: 19289
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 19289
+Error occurred in instance frh19289, dimension: 19289, skip it!
+Error message: CUDA out of memory. Tried to allocate 11.09 GiB (GPU 0; 23.59 GiB total capacity; 13.94 GiB already allocated; 3.21 GiB free; 20.06 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fnc19402.tsp**********
+===============================================================
+Instance name: fnc19402, problem_size: 19402
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 19402
+Error occurred in instance fnc19402, dimension: 19402, skip it!
+Error message: CUDA out of memory. Tried to allocate 11.22 GiB (GPU 0; 23.59 GiB total capacity; 14.10 GiB already allocated; 3.08 GiB free; 20.19 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ido21215.tsp**********
+===============================================================
+Instance name: ido21215, problem_size: 21215
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 21215
+Error occurred in instance ido21215, dimension: 21215, skip it!
+Error message: CUDA out of memory. Tried to allocate 13.41 GiB (GPU 0; 23.59 GiB total capacity; 16.85 GiB already allocated; 905.12 MiB free; 22.38 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fma21553.tsp**********
+===============================================================
+Instance name: fma21553, problem_size: 21553
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 21553
+Error occurred in instance fma21553, dimension: 21553, skip it!
+Error message: CUDA out of memory. Tried to allocate 13.85 GiB (GPU 0; 23.59 GiB total capacity; 17.39 GiB already allocated; 463.12 MiB free; 22.81 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_vm22775.tsp**********
+===============================================================
+Instance name: vm22775, problem_size: 22775
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 22775
+Error occurred in instance vm22775, dimension: 22775, skip it!
+Error message: CUDA out of memory. Tried to allocate 15.46 GiB (GPU 0; 23.59 GiB total capacity; 3.95 GiB already allocated; 14.30 GiB free; 8.97 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsb22777.tsp**********
+===============================================================
+Instance name: lsb22777, problem_size: 22777
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 22777
+Error occurred in instance lsb22777, dimension: 22777, skip it!
+Error message: CUDA out of memory. Tried to allocate 15.46 GiB (GPU 0; 23.59 GiB total capacity; 3.95 GiB already allocated; 14.30 GiB free; 8.97 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xrh24104.tsp**********
+===============================================================
+Instance name: xrh24104, problem_size: 24104
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 24104
+Error occurred in instance xrh24104, dimension: 24104, skip it!
+Error message: CUDA out of memory. Tried to allocate 17.32 GiB (GPU 0; 23.59 GiB total capacity; 4.42 GiB already allocated; 14.30 GiB free; 8.97 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_sw24978.tsp**********
+===============================================================
+Instance name: sw24978, problem_size: 24978
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 24978
+Error occurred in instance sw24978, dimension: 24978, skip it!
+Error message: CUDA out of memory. Tried to allocate 18.59 GiB (GPU 0; 23.59 GiB total capacity; 4.74 GiB already allocated; 11.99 GiB free; 11.28 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bbz25234.tsp**********
+===============================================================
+Instance name: bbz25234, problem_size: 25234
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 25234
+Error occurred in instance bbz25234, dimension: 25234, skip it!
+Error message: CUDA out of memory. Tried to allocate 18.98 GiB (GPU 0; 23.59 GiB total capacity; 4.83 GiB already allocated; 11.94 GiB free; 11.33 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_irx28268.tsp**********
+===============================================================
+Instance name: irx28268, problem_size: 28268
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 28268
+Error occurred in instance irx28268, dimension: 28268, skip it!
+Error message: CUDA out of memory. Tried to allocate 23.81 GiB (GPU 0; 23.59 GiB total capacity; 6.05 GiB already allocated; 11.33 GiB free; 11.93 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fyg28534.tsp**********
+===============================================================
+Instance name: fyg28534, problem_size: 28534
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 28534
+Error occurred in instance fyg28534, dimension: 28534, skip it!
+Error message: CUDA out of memory. Tried to allocate 24.27 GiB (GPU 0; 23.59 GiB total capacity; 6.16 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_icx28698.tsp**********
+===============================================================
+Instance name: icx28698, problem_size: 28698
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 28698
+Error occurred in instance icx28698, dimension: 28698, skip it!
+Error message: CUDA out of memory. Tried to allocate 24.54 GiB (GPU 0; 23.59 GiB total capacity; 6.23 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_boa28924.tsp**********
+===============================================================
+Instance name: boa28924, problem_size: 28924
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 28924
+Error occurred in instance boa28924, dimension: 28924, skip it!
+Error message: CUDA out of memory. Tried to allocate 24.93 GiB (GPU 0; 23.59 GiB total capacity; 6.33 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ird29514.tsp**********
+===============================================================
+Instance name: ird29514, problem_size: 29514
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 29514
+Error occurred in instance ird29514, dimension: 29514, skip it!
+Error message: CUDA out of memory. Tried to allocate 25.96 GiB (GPU 0; 23.59 GiB total capacity; 6.59 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbh30440.tsp**********
+===============================================================
+Instance name: pbh30440, problem_size: 30440
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 30440
+Error occurred in instance pbh30440, dimension: 30440, skip it!
+Error message: CUDA out of memory. Tried to allocate 27.62 GiB (GPU 0; 23.59 GiB total capacity; 7.00 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C31k.0.tsp**********
+===============================================================
+Instance name: portcgen-31623-31623, problem_size: 31623
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 31623
+Error occurred in instance portcgen-31623-31623, dimension: 31623, skip it!
+Error message: CUDA out of memory. Tried to allocate 29.80 GiB (GPU 0; 23.59 GiB total capacity; 7.55 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C31k.1.tsp**********
+===============================================================
+Instance name: portcgen-31623-316231, problem_size: 31623
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 31623
+Error occurred in instance portcgen-31623-316231, dimension: 31623, skip it!
+Error message: CUDA out of memory. Tried to allocate 29.80 GiB (GPU 0; 23.59 GiB total capacity; 7.55 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xib32892.tsp**********
+===============================================================
+Instance name: xib32892, problem_size: 32892
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 32892
+Error occurred in instance xib32892, dimension: 32892, skip it!
+Error message: CUDA out of memory. Tried to allocate 32.24 GiB (GPU 0; 23.59 GiB total capacity; 8.16 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fry33203.tsp**********
+===============================================================
+Instance name: fry33203, problem_size: 33203
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 33203
+Error occurred in instance fry33203, dimension: 33203, skip it!
+Error message: CUDA out of memory. Tried to allocate 32.86 GiB (GPU 0; 23.59 GiB total capacity; 8.32 GiB already allocated; 8.24 GiB free; 15.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_bm33708.tsp**********
+===============================================================
+Instance name: bm33708, problem_size: 33708
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 33708
+Error occurred in instance bm33708, dimension: 33708, skip it!
+Error message: CUDA out of memory. Tried to allocate 33.86 GiB (GPU 0; 23.59 GiB total capacity; 8.57 GiB already allocated; 7.65 GiB free; 15.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla33810.tsp**********
+===============================================================
+Instance name: pla33810, problem_size: 33810
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 33810
+Error occurred in instance pla33810, dimension: 33810, skip it!
+Error message: CUDA out of memory. Tried to allocate 34.07 GiB (GPU 0; 23.59 GiB total capacity; 8.62 GiB already allocated; 7.57 GiB free; 15.69 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bby34656.tsp**********
+===============================================================
+Instance name: bby34656, problem_size: 34656
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 34656
+Error occurred in instance bby34656, dimension: 34656, skip it!
+Error message: CUDA out of memory. Tried to allocate 35.79 GiB (GPU 0; 23.59 GiB total capacity; 9.06 GiB already allocated; 6.92 GiB free; 16.34 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pba38478.tsp**********
+===============================================================
+Instance name: pba38478, problem_size: 38478
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 38478
+Error occurred in instance pba38478, dimension: 38478, skip it!
+Error message: CUDA out of memory. Tried to allocate 44.12 GiB (GPU 0; 23.59 GiB total capacity; 11.15 GiB already allocated; 3.80 GiB free; 19.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ics39603.tsp**********
+===============================================================
+Instance name: ics39603, problem_size: 39603
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 39603
+Error occurred in instance ics39603, dimension: 39603, skip it!
+Error message: CUDA out of memory. Tried to allocate 46.74 GiB (GPU 0; 23.59 GiB total capacity; 11.80 GiB already allocated; 2.82 GiB free; 20.45 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbz43748.tsp**********
+===============================================================
+Instance name: rbz43748, problem_size: 43748
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 43748
+Error occurred in instance rbz43748, dimension: 43748, skip it!
+Error message: CUDA out of memory. Tried to allocate 7.13 GiB (GPU 0; 23.59 GiB total capacity; 14.30 GiB already allocated; 6.09 GiB free; 17.18 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fht47608.tsp**********
+===============================================================
+Instance name: fht47608, problem_size: 47608
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 47608
+Error occurred in instance fht47608, dimension: 47608, skip it!
+Error message: CUDA out of memory. Tried to allocate 8.45 GiB (GPU 0; 23.59 GiB total capacity; 16.93 GiB already allocated; 3.46 GiB free; 19.80 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fna52057.tsp**********
+===============================================================
+Instance name: fna52057, problem_size: 52057
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 52057
+Error occurred in instance fna52057, dimension: 52057, skip it!
+Error message: CUDA out of memory. Tried to allocate 10.10 GiB (GPU 0; 23.59 GiB total capacity; 20.23 GiB already allocated; 161.12 MiB free; 23.11 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bna56769.tsp**********
+===============================================================
+Instance name: bna56769, problem_size: 56769
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 56769
+Error occurred in instance bna56769, dimension: 56769, skip it!
+Error message: CUDA out of memory. Tried to allocate 24.01 GiB (GPU 0; 23.59 GiB total capacity; 41.65 MiB already allocated; 20.35 GiB free; 2.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dan59296.tsp**********
+===============================================================
+Instance name: dan59296, problem_size: 59296
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 59296
+Error occurred in instance dan59296, dimension: 59296, skip it!
+Error message: CUDA out of memory. Tried to allocate 26.20 GiB (GPU 0; 23.59 GiB total capacity; 41.69 MiB already allocated; 20.35 GiB free; 2.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ch71009.tsp**********
+===============================================================
+Instance name: ch71009, problem_size: 71009
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 71009
+Error occurred in instance ch71009, dimension: 71009, skip it!
+Error message: CUDA out of memory. Tried to allocate 37.57 GiB (GPU 0; 23.59 GiB total capacity; 41.87 MiB already allocated; 20.35 GiB free; 2.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla85900.tsp**********
+===============================================================
+Instance name: pla85900, problem_size: 85900
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 85900
+Error occurred in instance pla85900, dimension: 85900, skip it!
+Error message: CUDA out of memory. Tried to allocate 54.98 GiB (GPU 0; 23.59 GiB total capacity; 42.10 MiB already allocated; 20.35 GiB free; 2.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C100k.0.tsp**********
+===============================================================
+Instance name: portcgen-100000-100000, problem_size: 100000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100000
+Error occurred in instance portcgen-100000-100000, dimension: 100000, skip it!
+Error message: CUDA out of memory. Tried to allocate 74.51 GiB (GPU 0; 23.59 GiB total capacity; 42.31 MiB already allocated; 20.35 GiB free; 2.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C100k.1.tsp**********
+===============================================================
+Instance name: portcgen-100000-1000001, problem_size: 100000
+aug_factor in TSPLIB env: 1
+batch size in TSPLIB env: 1
+pomo size in TSPLIB env: 100000
+Error occurred in instance portcgen-100000-1000001, dimension: 100000, skip it!
+Error message: CUDA out of memory. Tried to allocate 74.51 GiB (GPU 0; 23.59 GiB total capacity; 42.31 MiB already allocated; 20.35 GiB free; 2.92 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+ *** Test Done *** 
+scale_range: [10000, 100001], instance number: 50, total time: 5642.11s, avg time per instance: 112.84s
+===============================================================
+instance: ['portcgen-10000-100002', 'portcgen-10000-100001', 'portcgen-10000-10000', 'xmc10150', 'fi10639', 'rl11849']
+optimal: [33155424.0, 33186248.0, 33001034.0, 28387.0, 520527.0, 923288.0]
+problem_size: [10000, 10000, 10000, 10150, 10639, 11849]
+no_aug_score: [40880280.0, 40908248.0, 40408000.0, 33971.0, 640426.0, 1091104.0]
+aug_score: [40880280.0, 40908248.0, 40408000.0, 33971.0, 640426.0, 1091104.0]
+no_aug_gap: [23.298920864350883, 23.268674422007575, 22.444648249506365, 19.67097615105506, 23.03415576905713, 18.175910441812306]
+aug_gap: [23.298920864350883, 23.268674422007575, 22.444648249506365, 19.67097615105506, 23.03415576905713, 18.175910441812306]
+===============================================================
+Solved_ instances number: 6, min_dimension: 10000, max_dimension: 11849, avg gap(no aug): 21.649%, avg_gap(aug): 21.649%
+Avg time per instance: 940.35s
+All scale ranges done, solved instance number: 183/228, total time: 15202.58s, avg time per instance: 83.07s
+[0, 1000), number: 69, avg gap(no aug): 6.046%, avg gap(aug): 6.046%
+[1000, 10000), number: 108, avg gap(no aug): 18.142%, avg gap(aug): 18.142%
+[10000, 100000], number: 6, avg gap(no aug): 21.649%, avg gap(aug): 21.649%
+#################  All Done  #################
+All solved instances, number: 183, avg gap(no aug): 13.696%, avg gap(aug): 13.696%

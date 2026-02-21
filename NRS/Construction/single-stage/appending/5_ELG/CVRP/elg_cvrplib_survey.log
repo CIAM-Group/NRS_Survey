@@ -1,0 +1,664 @@
+nohup: ignoring input
+Load checkpoint: weights/ELG.pt
+Pre-reading instances to sort by size...
+Sorted 110 instances.
+instance list :
+Instance: X-n101-k25, Problem Size: 100
+Instance: X-n106-k14, Problem Size: 105
+Instance: X-n110-k13, Problem Size: 109
+Instance: X-n115-k10, Problem Size: 114
+Instance: X-n120-k6, Problem Size: 119
+Instance: X-n125-k30, Problem Size: 124
+Instance: X-n129-k18, Problem Size: 128
+Instance: X-n134-k13, Problem Size: 133
+Instance: X-n139-k10, Problem Size: 138
+Instance: X-n143-k7, Problem Size: 142
+Instance: X-n148-k46, Problem Size: 147
+Instance: X-n153-k22, Problem Size: 152
+Instance: X-n157-k13, Problem Size: 156
+Instance: X-n162-k11, Problem Size: 161
+Instance: X-n167-k10, Problem Size: 166
+Instance: X-n172-k51, Problem Size: 171
+Instance: X-n176-k26, Problem Size: 175
+Instance: X-n181-k23, Problem Size: 180
+Instance: X-n186-k15, Problem Size: 185
+Instance: X-n190-k8, Problem Size: 189
+Instance: X-n195-k51, Problem Size: 194
+Instance: X-n200-k36, Problem Size: 199
+Instance: X-n204-k19, Problem Size: 203
+Instance: X-n209-k16, Problem Size: 208
+Instance: X-n214-k11, Problem Size: 213
+Instance: X-n219-k73, Problem Size: 218
+Instance: X-n223-k34, Problem Size: 222
+Instance: X-n228-k23, Problem Size: 227
+Instance: X-n233-k16, Problem Size: 232
+Instance: X-n237-k14, Problem Size: 236
+Instance: X-n242-k48, Problem Size: 241
+Instance: X-n247-k50, Problem Size: 246
+Instance: X-n251-k28, Problem Size: 250
+Instance: X-n256-k16, Problem Size: 255
+Instance: X-n261-k13, Problem Size: 260
+Instance: X-n266-k58, Problem Size: 265
+Instance: X-n270-k35, Problem Size: 269
+Instance: X-n275-k28, Problem Size: 274
+Instance: X-n280-k17, Problem Size: 279
+Instance: X-n284-k15, Problem Size: 283
+Instance: X-n289-k60, Problem Size: 288
+Instance: X-n294-k50, Problem Size: 293
+Instance: X-n298-k31, Problem Size: 297
+Instance: X-n303-k21, Problem Size: 302
+Instance: X-n308-k13, Problem Size: 307
+Instance: X-n313-k71, Problem Size: 312
+Instance: X-n317-k53, Problem Size: 316
+Instance: X-n322-k28, Problem Size: 321
+Instance: X-n327-k20, Problem Size: 326
+Instance: X-n331-k15, Problem Size: 330
+Instance: X-n336-k84, Problem Size: 335
+Instance: X-n344-k43, Problem Size: 343
+Instance: X-n351-k40, Problem Size: 350
+Instance: X-n359-k29, Problem Size: 358
+Instance: X-n367-k17, Problem Size: 366
+Instance: X-n376-k94, Problem Size: 375
+Instance: X-n384-k52, Problem Size: 383
+Instance: X-n393-k38, Problem Size: 392
+Instance: X-n401-k29, Problem Size: 400
+Instance: X-n411-k19, Problem Size: 410
+Instance: X-n420-k130, Problem Size: 419
+Instance: X-n429-k61, Problem Size: 428
+Instance: X-n439-k37, Problem Size: 438
+Instance: X-n449-k29, Problem Size: 448
+Instance: X-n459-k26, Problem Size: 458
+Instance: X-n469-k138, Problem Size: 468
+Instance: X-n480-k70, Problem Size: 479
+Instance: X-n491-k59, Problem Size: 490
+Instance: X-n502-k39, Problem Size: 501
+Instance: X-n513-k21, Problem Size: 512
+Instance: X-n524-k153, Problem Size: 523
+Instance: X-n536-k96, Problem Size: 535
+Instance: X-n548-k50, Problem Size: 547
+Instance: X-n561-k42, Problem Size: 560
+Instance: X-n573-k30, Problem Size: 572
+Instance: X-n586-k159, Problem Size: 585
+Instance: X-n599-k92, Problem Size: 598
+Instance: X-n613-k62, Problem Size: 612
+Instance: X-n627-k43, Problem Size: 626
+Instance: X-n641-k35, Problem Size: 640
+Instance: X-n655-k131, Problem Size: 654
+Instance: X-n670-k130, Problem Size: 669
+Instance: X-n685-k75, Problem Size: 684
+Instance: X-n701-k44, Problem Size: 700
+Instance: X-n716-k35, Problem Size: 715
+Instance: X-n733-k159, Problem Size: 732
+Instance: X-n749-k98, Problem Size: 748
+Instance: X-n766-k71, Problem Size: 765
+Instance: X-n783-k48, Problem Size: 782
+Instance: X-n801-k40, Problem Size: 800
+Instance: X-n819-k171, Problem Size: 818
+Instance: X-n837-k142, Problem Size: 836
+Instance: X-n856-k95, Problem Size: 855
+Instance: X-n876-k59, Problem Size: 875
+Instance: X-n895-k37, Problem Size: 894
+Instance: X-n916-k207, Problem Size: 915
+Instance: X-n936-k151, Problem Size: 935
+Instance: X-n957-k87, Problem Size: 956
+Instance: X-n979-k58, Problem Size: 978
+Instance: X-n1001-k43, Problem Size: 1000
+Instance: Leuven1, Problem Size: 3000
+Instance: Leuven2, Problem Size: 4000
+Instance: Antwerp1, Problem Size: 6000
+Instance: Antwerp2, Problem Size: 7000
+Instance: Ghent1, Problem Size: 10000
+Instance: Ghent2, Problem Size: 11000
+Instance: Brussels1, Problem Size: 15000
+Instance: Brussels2, Problem Size: 16000
+Instance: Flanders1, Problem Size: 20000
+Instance: Flanders2, Problem Size: 30000
+Start testing on VRPLib dataset...
+aug factor: 1, batch size: 1
+problem_size: 100, multi_width: 100
+problem_size: 100, multi_width: 100
+Instance X-n101-k25: Time 0.8503s, Cost 28971.0, Gap 5.00%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 105, multi_width: 105
+problem_size: 105, multi_width: 105
+Instance X-n106-k14: Time 0.3107s, Cost 27344.0, Gap 3.73%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 109, multi_width: 109
+problem_size: 109, multi_width: 109
+Instance X-n110-k13: Time 0.3211s, Cost 15464.0, Gap 3.29%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 114, multi_width: 114
+problem_size: 114, multi_width: 114
+Instance X-n115-k10: Time 0.3238s, Cost 13908.0, Gap 9.11%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 119, multi_width: 119
+problem_size: 119, multi_width: 119
+Instance X-n120-k6: Time 0.3230s, Cost 14129.0, Gap 5.98%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 124, multi_width: 124
+problem_size: 124, multi_width: 124
+Instance X-n125-k30: Time 0.4063s, Cost 58303.0, Gap 4.98%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 128, multi_width: 128
+problem_size: 128, multi_width: 128
+Instance X-n129-k18: Time 0.3835s, Cost 29530.0, Gap 2.04%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 133, multi_width: 133
+problem_size: 133, multi_width: 133
+Instance X-n134-k13: Time 0.3874s, Cost 11348.0, Gap 3.96%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 138, multi_width: 138
+problem_size: 138, multi_width: 138
+Instance X-n139-k10: Time 0.3891s, Cost 14161.0, Gap 4.20%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 142, multi_width: 142
+problem_size: 142, multi_width: 142
+Instance X-n143-k7: Time 0.3895s, Cost 16937.0, Gap 7.88%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 147, multi_width: 147
+problem_size: 147, multi_width: 147
+Instance X-n148-k46: Time 0.5168s, Cost 45536.0, Gap 4.81%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 152, multi_width: 152
+problem_size: 152, multi_width: 152
+Instance X-n153-k22: Time 0.4747s, Cost 24732.0, Gap 16.55%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 156, multi_width: 156
+problem_size: 156, multi_width: 156
+Instance X-n157-k13: Time 0.4388s, Cost 17746.0, Gap 5.16%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 161, multi_width: 161
+problem_size: 161, multi_width: 161
+Instance X-n162-k11: Time 0.4490s, Cost 14906.0, Gap 5.43%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 166, multi_width: 166
+problem_size: 166, multi_width: 166
+Instance X-n167-k10: Time 0.4594s, Cost 21458.0, Gap 4.38%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 171, multi_width: 171
+problem_size: 171, multi_width: 171
+Instance X-n172-k51: Time 0.5969s, Cost 49055.0, Gap 7.56%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 175, multi_width: 175
+problem_size: 175, multi_width: 175
+Instance X-n176-k26: Time 0.5370s, Cost 53384.0, Gap 11.65%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 180, multi_width: 180
+problem_size: 180, multi_width: 180
+Instance X-n181-k23: Time 0.5285s, Cost 26202.0, Gap 2.48%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 185, multi_width: 185
+problem_size: 185, multi_width: 185
+Instance X-n186-k15: Time 0.5240s, Cost 25334.0, Gap 4.92%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 189, multi_width: 189
+problem_size: 189, multi_width: 189
+Instance X-n190-k8: Time 0.5226s, Cost 18929.0, Gap 11.48%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 194, multi_width: 194
+problem_size: 194, multi_width: 194
+Instance X-n195-k51: Time 0.6576s, Cost 47094.0, Gap 6.49%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 199, multi_width: 199
+problem_size: 199, multi_width: 199
+Instance X-n200-k36: Time 0.6209s, Cost 62381.0, Gap 6.49%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 203, multi_width: 203
+problem_size: 203, multi_width: 203
+Instance X-n204-k19: Time 0.5765s, Cost 20655.0, Gap 5.57%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 208, multi_width: 208
+problem_size: 208, multi_width: 208
+Instance X-n209-k16: Time 0.5824s, Cost 31902.0, Gap 4.06%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 213, multi_width: 213
+problem_size: 213, multi_width: 213
+Instance X-n214-k11: Time 0.5862s, Cost 11633.0, Gap 7.16%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 218, multi_width: 218
+problem_size: 218, multi_width: 218
+Instance X-n219-k73: Time 0.7972s, Cost 123206.0, Gap 4.77%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 222, multi_width: 222
+problem_size: 222, multi_width: 222
+Instance X-n223-k34: Time 0.6752s, Cost 42503.0, Gap 5.11%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 227, multi_width: 227
+problem_size: 227, multi_width: 227
+Instance X-n228-k23: Time 0.6611s, Cost 29332.0, Gap 13.95%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 232, multi_width: 232
+problem_size: 232, multi_width: 232
+Instance X-n233-k16: Time 0.6485s, Cost 20561.0, Gap 6.92%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 236, multi_width: 236
+problem_size: 236, multi_width: 236
+Instance X-n237-k14: Time 0.6460s, Cost 28817.0, Gap 6.56%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 241, multi_width: 241
+problem_size: 241, multi_width: 241
+Instance X-n242-k48: Time 0.7564s, Cost 86601.0, Gap 4.65%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 246, multi_width: 246
+problem_size: 246, multi_width: 246
+Instance X-n247-k50: Time 0.7849s, Cost 40424.0, Gap 8.45%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 250, multi_width: 250
+problem_size: 250, multi_width: 250
+Instance X-n251-k28: Time 0.7267s, Cost 40058.0, Gap 3.55%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 255, multi_width: 255
+problem_size: 255, multi_width: 255
+Instance X-n256-k16: Time 0.7043s, Cost 19880.0, Gap 5.53%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 260, multi_width: 260
+problem_size: 260, multi_width: 260
+Instance X-n261-k13: Time 0.7133s, Cost 28151.0, Gap 6.00%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 265, multi_width: 265
+problem_size: 265, multi_width: 265
+Instance X-n266-k58: Time 0.8614s, Cost 81013.0, Gap 7.33%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 269, multi_width: 269
+problem_size: 269, multi_width: 269
+Instance X-n270-k35: Time 0.8033s, Cost 37301.0, Gap 5.70%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 274, multi_width: 274
+problem_size: 274, multi_width: 274
+Instance X-n275-k28: Time 0.7888s, Cost 22293.0, Gap 4.93%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 279, multi_width: 279
+problem_size: 279, multi_width: 279
+Instance X-n280-k17: Time 0.7782s, Cost 36272.0, Gap 8.26%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 283, multi_width: 283
+problem_size: 283, multi_width: 283
+Instance X-n284-k15: Time 0.7783s, Cost 22126.0, Gap 9.39%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 288, multi_width: 288
+problem_size: 288, multi_width: 288
+Instance X-n289-k60: Time 0.9275s, Cost 100497.0, Gap 5.62%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 293, multi_width: 293
+problem_size: 293, multi_width: 293
+Instance X-n294-k50: Time 0.9083s, Cost 50768.0, Gap 7.65%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 297, multi_width: 297
+problem_size: 297, multi_width: 297
+Instance X-n298-k31: Time 0.8638s, Cost 36725.0, Gap 7.29%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 302, multi_width: 302
+problem_size: 302, multi_width: 302
+Instance X-n303-k21: Time 0.8461s, Cost 23239.0, Gap 6.91%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 307, multi_width: 307
+problem_size: 307, multi_width: 307
+Instance X-n308-k13: Time 0.8445s, Cost 28559.0, Gap 10.44%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 312, multi_width: 312
+problem_size: 312, multi_width: 312
+Instance X-n313-k71: Time 1.0203s, Cost 99778.0, Gap 6.10%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 316, multi_width: 316
+problem_size: 316, multi_width: 316
+Instance X-n317-k53: Time 1.0251s, Cost 83310.0, Gap 6.32%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 321, multi_width: 321
+problem_size: 321, multi_width: 321
+Instance X-n322-k28: Time 0.9158s, Cost 31884.0, Gap 6.87%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 326, multi_width: 326
+problem_size: 326, multi_width: 326
+Instance X-n327-k20: Time 0.9055s, Cost 29345.0, Gap 6.59%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 330, multi_width: 330
+problem_size: 330, multi_width: 330
+Instance X-n331-k15: Time 0.8981s, Cost 34151.0, Gap 9.80%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 335, multi_width: 335
+problem_size: 335, multi_width: 335
+Instance X-n336-k84: Time 1.1351s, Cost 147885.0, Gap 6.31%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 343, multi_width: 343
+problem_size: 343, multi_width: 343
+Instance X-n344-k43: Time 1.0188s, Cost 44602.0, Gap 6.07%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 350, multi_width: 350
+problem_size: 350, multi_width: 350
+Instance X-n351-k40: Time 1.0338s, Cost 28320.0, Gap 9.36%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 358, multi_width: 358
+problem_size: 358, multi_width: 358
+Instance X-n359-k29: Time 1.0198s, Cost 54122.0, Gap 5.08%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 366, multi_width: 366
+problem_size: 366, multi_width: 366
+Instance X-n367-k17: Time 1.0146s, Cost 27132.0, Gap 18.93%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 375, multi_width: 375
+problem_size: 375, multi_width: 375
+Instance X-n376-k94: Time 1.2593s, Cost 156410.0, Gap 5.89%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 383, multi_width: 383
+problem_size: 383, multi_width: 383
+Instance X-n384-k52: Time 1.1564s, Cost 69756.0, Gap 5.79%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 392, multi_width: 392
+problem_size: 392, multi_width: 392
+Instance X-n393-k38: Time 1.1377s, Cost 40974.0, Gap 7.09%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 400, multi_width: 400
+problem_size: 400, multi_width: 400
+Instance X-n401-k29: Time 1.1525s, Cost 79637.0, Gap 20.38%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 410, multi_width: 410
+problem_size: 410, multi_width: 410
+Instance X-n411-k19: Time 1.1336s, Cost 22121.0, Gap 12.22%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 419, multi_width: 419
+problem_size: 419, multi_width: 419
+Instance X-n420-k130: Time 1.4798s, Cost 114601.0, Gap 6.31%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 428, multi_width: 428
+problem_size: 428, multi_width: 428
+Instance X-n429-k61: Time 1.3080s, Cost 69903.0, Gap 6.81%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 438, multi_width: 438
+problem_size: 438, multi_width: 438
+Instance X-n439-k37: Time 1.2552s, Cost 38304.0, Gap 5.26%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 448, multi_width: 448
+problem_size: 448, multi_width: 448
+Instance X-n449-k29: Time 1.2719s, Cost 58503.0, Gap 5.92%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 458, multi_width: 458
+problem_size: 458, multi_width: 458
+Instance X-n459-k26: Time 1.2962s, Cost 26499.0, Gap 9.78%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 468, multi_width: 468
+problem_size: 468, multi_width: 468
+Instance X-n469-k138: Time 1.7170s, Cost 252088.0, Gap 13.64%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 479, multi_width: 479
+problem_size: 479, multi_width: 479
+Instance X-n480-k70: Time 1.4701s, Cost 94543.0, Gap 5.69%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 490, multi_width: 490
+problem_size: 490, multi_width: 490
+Instance X-n491-k59: Time 1.4705s, Cost 70789.0, Gap 6.48%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 501, multi_width: 501
+problem_size: 501, multi_width: 501
+Instance X-n502-k39: Time 1.4361s, Cost 74045.0, Gap 6.96%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 512, multi_width: 512
+problem_size: 512, multi_width: 512
+Instance X-n513-k21: Time 1.4242s, Cost 26874.0, Gap 11.04%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 523, multi_width: 523
+problem_size: 523, multi_width: 523
+Instance X-n524-k153: Time 1.8673s, Cost 173100.0, Gap 11.97%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 535, multi_width: 535
+problem_size: 535, multi_width: 535
+Instance X-n536-k96: Time 1.7954s, Cost 106225.0, Gap 12.00%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 547, multi_width: 547
+problem_size: 547, multi_width: 547
+Instance X-n548-k50: Time 1.7085s, Cost 92079.0, Gap 6.20%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 560, multi_width: 560
+problem_size: 560, multi_width: 560
+Instance X-n561-k42: Time 1.6793s, Cost 46080.0, Gap 7.87%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 572, multi_width: 572
+problem_size: 572, multi_width: 572
+Instance X-n573-k30: Time 1.6943s, Cost 59104.0, Gap 16.64%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 585, multi_width: 585
+problem_size: 585, multi_width: 585
+Instance X-n586-k159: Time 2.1196s, Cost 203051.0, Gap 6.69%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 598, multi_width: 598
+problem_size: 598, multi_width: 598
+Instance X-n599-k92: Time 1.9508s, Cost 114681.0, Gap 5.74%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 612, multi_width: 612
+problem_size: 612, multi_width: 612
+Instance X-n613-k62: Time 1.9072s, Cost 65228.0, Gap 9.56%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 626, multi_width: 626
+problem_size: 626, multi_width: 626
+Instance X-n627-k43: Time 1.8834s, Cost 67897.0, Gap 9.22%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 640, multi_width: 640
+problem_size: 640, multi_width: 640
+Instance X-n641-k35: Time 1.9021s, Cost 70052.0, Gap 10.00%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 654, multi_width: 654
+problem_size: 654, multi_width: 654
+Instance X-n655-k131: Time 2.2756s, Cost 116904.0, Gap 9.48%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 669, multi_width: 669
+problem_size: 669, multi_width: 669
+Instance X-n670-k130: Time 2.3699s, Cost 172812.0, Gap 18.10%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 684, multi_width: 684
+problem_size: 684, multi_width: 684
+Instance X-n685-k75: Time 2.1969s, Cost 74538.0, Gap 9.29%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 700, multi_width: 700
+problem_size: 700, multi_width: 700
+Instance X-n701-k44: Time 2.1377s, Cost 87140.0, Gap 6.37%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 715, multi_width: 715
+problem_size: 715, multi_width: 715
+Instance X-n716-k35: Time 2.1648s, Cost 48222.0, Gap 11.18%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 732, multi_width: 732
+problem_size: 732, multi_width: 732
+Instance X-n733-k159: Time 2.6102s, Cost 144049.0, Gap 5.77%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 748, multi_width: 748
+problem_size: 748, multi_width: 748
+Instance X-n749-k98: Time 2.4911s, Cost 82871.0, Gap 7.25%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 765, multi_width: 765
+problem_size: 765, multi_width: 765
+Instance X-n766-k71: Time 2.4738s, Cost 126356.0, Gap 10.43%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 782, multi_width: 782
+problem_size: 782, multi_width: 782
+Instance X-n783-k48: Time 2.4762s, Cost 78644.0, Gap 8.65%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 800, multi_width: 800
+problem_size: 800, multi_width: 800
+Instance X-n801-k40: Time 2.4787s, Cost 81156.0, Gap 10.70%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 818, multi_width: 818
+problem_size: 818, multi_width: 818
+Instance X-n819-k171: Time 2.9253s, Cost 171920.0, Gap 8.73%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 836, multi_width: 836
+problem_size: 836, multi_width: 836
+Instance X-n837-k142: Time 2.9108s, Cost 205874.0, Gap 6.26%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 855, multi_width: 855
+problem_size: 855, multi_width: 855
+Instance X-n856-k95: Time 2.8189s, Cost 94956.0, Gap 6.73%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 875, multi_width: 875
+problem_size: 875, multi_width: 875
+Instance X-n876-k59: Time 2.8454s, Cost 120300.0, Gap 21.15%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 894, multi_width: 894
+problem_size: 894, multi_width: 894
+Instance X-n895-k37: Time 2.8046s, Cost 60791.0, Gap 12.87%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 915, multi_width: 915
+problem_size: 915, multi_width: 915
+Instance X-n916-k207: Time 3.5410s, Cost 369474.0, Gap 12.24%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 935, multi_width: 935
+problem_size: 935, multi_width: 935
+Instance X-n936-k151: Time 3.4145s, Cost 153665.0, Gap 15.79%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 956, multi_width: 956
+problem_size: 956, multi_width: 956
+Instance X-n957-k87: Time 3.2295s, Cost 91988.0, Gap 7.63%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 978, multi_width: 978
+problem_size: 978, multi_width: 978
+Instance X-n979-k58: Time 3.2367s, Cost 126997.0, Gap 6.74%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 1000, multi_width: 1000
+problem_size: 1000, multi_width: 1000
+Instance X-n1001-k43: Time 3.2731s, Cost 80669.0, Gap 11.49%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 3000, multi_width: 1000
+problem_size: 3000, multi_width: 1000
+Instance Leuven1: Time 15.3800s, Cost 226541.0, Gap 17.47%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 4000, multi_width: 1000
+problem_size: 4000, multi_width: 1000
+Instance Leuven2: Time 22.8014s, Cost 137305.0, Gap 23.26%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 6000, multi_width: 1000
+problem_size: 6000, multi_width: 1000
+Instance Antwerp1: Time 48.3359s, Cost 546949.0, Gap 14.60%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 7000, multi_width: 1000
+problem_size: 7000, multi_width: 1000
+Instance Antwerp2: Time 61.2471s, Cost 366362.0, Gap 25.75%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 10000, multi_width: 1000
+problem_size: 10000, multi_width: 1000
+Instance Ghent1: Time 125.2838s, Cost 613012.0, Gap 30.56%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 11000, multi_width: 1000
+problem_size: 11000, multi_width: 1000
+Instance Ghent2: Time 140.8826s, Cost 330423.0, Gap 28.20%
+------------------------------------------------------------
+aug factor: 1, batch size: 1
+problem_size: 15000, multi_width: 1000
+[CUDA OOM] Instance Brussels1 显存不足，跳过该实例（不计入统计）。错误：CUDA out of memory. Tried to allocate 6.71 GiB (GPU 0; 23.59 GiB total capacity; 14.43 GiB already allocated; 5.84 GiB free; 17.43 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+aug factor: 1, batch size: 1
+problem_size: 16000, multi_width: 1000
+[CUDA OOM] Instance Brussels2 显存不足，跳过该实例（不计入统计）。错误：CUDA out of memory. Tried to allocate 7.63 GiB (GPU 0; 23.59 GiB total capacity; 16.40 GiB already allocated; 3.99 GiB free; 19.28 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+aug factor: 1, batch size: 1
+problem_size: 20000, multi_width: 1000
+[CUDA OOM] Instance Flanders1 显存不足，跳过该实例（不计入统计）。错误：CUDA out of memory. Tried to allocate 11.92 GiB (GPU 0; 23.59 GiB total capacity; 13.64 GiB already allocated; 3.30 GiB free; 19.96 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+
+------------------------------------------------------------
+Interval             | Count      | Avg Time (s)    | Avg Gap (%)    
+------------------------------------------------------------
+[0, 1000)            | 99         | 1.2882          | 8.03           
+[1000, 10000)        | 5          | 30.2075         | 18.51          
+[10000, 100001)      | 2          | 133.0832        | 29.38          
+0-30000              | 106        | N/A             | 8.93           
+------------------------------------------------------------

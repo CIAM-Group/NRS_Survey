@@ -1,0 +1,26 @@
+Test device: cuda:0
+Test multiple width: 100
+Test size: 10000
+Test batch size: 1000
+Load checkpoint: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/12_ELG/TSP/weights/ELG.pt
+Test data: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt
+Model params: {'ensemble': True, 'distance_penalty': True, 'positional': True, 'ensemble_size': 1, 'xi': -1, 'local_size': [30], 'euclidean': False, 'embedding_dim': 128, 'encoder_layer_num': 6, 'head_num': 8, 'qkv_dim': 16, 'logit_clipping': 50, 'ff_hidden_dim': 512, 'local_att_hidden_dim': 32, 'local_att_head_num': 4, 'local_att_qkv_dim': 8}
+Test aug factor: 8
+Add ensemble policy
+100%|##############################################################################################################################################################################| 10000/10000 [00:01<00:00, 9988.98it/s]
+Batch 1000: Avg.optimal score: 7.7553, Aug.cost: 7.7733, Gap: 0.2310%, No aug.cost: 7.8047
+Batch 2000: Avg.optimal score: 7.7566, Aug.cost: 7.7736, Gap: 0.2189%, No aug.cost: 7.8052
+Batch 3000: Avg.optimal score: 7.7582, Aug.cost: 7.7754, Gap: 0.2215%, No aug.cost: 7.8078
+Batch 4000: Avg.optimal score: 7.7669, Aug.cost: 7.7840, Gap: 0.2193%, No aug.cost: 7.8149
+Batch 5000: Avg.optimal score: 7.7718, Aug.cost: 7.7889, Gap: 0.2178%, No aug.cost: 7.8212
+Batch 6000: Avg.optimal score: 7.7624, Aug.cost: 7.7793, Gap: 0.2168%, No aug.cost: 7.8118
+Batch 7000: Avg.optimal score: 7.7535, Aug.cost: 7.7712, Gap: 0.2269%, No aug.cost: 7.8015
+Batch 8000: Avg.optimal score: 7.7652, Aug.cost: 7.7829, Gap: 0.2273%, No aug.cost: 7.8170
+Batch 9000: Avg.optimal score: 7.7743, Aug.cost: 7.7932, Gap: 0.2424%, No aug.cost: 7.8247
+Batch 10000: Avg.optimal score: 7.7685, Aug.cost: 7.7853, Gap: 0.2154%, No aug.cost: 7.8190
+Aug cost: 7.7807
+Aug gap: 0.2237%
+Aug gap (tensor): 0.2237%
+no aug Avg cost: 7.8128, Wall-clock time: 178.49s
+Total test time: 181.051s, 3.018min, 0.050hr
+Total test time per instance: 0.0181s
