@@ -1,0 +1,14 @@
+[2025-12-17 16:21:55] test_synthetic.py(142) : DEBUG_MODE: False
+[2025-12-17 16:21:55] test_synthetic.py(143) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-12-17 16:21:55] test_synthetic.py(144) : env_params{'mode': 'test', 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt', 'sub_path': False, 'RRC_budget': 0}
+[2025-12-17 16:21:55] test_synthetic.py(144) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512}
+[2025-12-17 16:21:55] test_synthetic.py(144) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'test_episodes': 10000, 'test_batch_size': 10000}
+[2025-12-17 16:21:55] test_synthetic.py(144) : logger_params{'log_file': {'desc': 'test_tsp100_RRC0', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/tsp100/20251217_162155test_tsp100_RRC0'}}
+[2025-12-17 16:22:23] TSPTester.py(192) : greedy, name:TSP100, gap:0.576265 %,  Elapsed[0.45m], stu_l:7.808050 , opt_l:7.763255
+[2025-12-17 16:22:23] TSPTester.py(106) : episode 10000/10000, Elapsed[0.45m], Remain[0.00m], Score_teacher:7.7633,Score_studetnt: 7.8080,
+[2025-12-17 16:22:23] TSPTester.py(114) :  *** Test Done *** 
+[2025-12-17 16:22:23] TSPTester.py(115) :  Teacher SCORE: 7.7633 
+[2025-12-17 16:22:23] TSPTester.py(116) :  Student SCORE: 7.8080 
+[2025-12-17 16:22:23] TSPTester.py(117) :  Gap: 0.5763%
+[2025-12-17 16:22:23] TSPTester.py(118) :  Total Test Time: 26.84 sec, 0.45 min, 0.01 hr 
+[2025-12-17 16:22:23] TSPTester.py(120) :  Avg. Test Time per Episode: 0.00 sec 

@@ -1,0 +1,235 @@
+[2025-10-23 01:28:56] TSPTester_inTSPlib.py(605) : [TSPLIB] Resolved 228 instances from tsplib_cost under: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp
+[2025-10-23 01:28:56] TSPTester_inTSPlib.py(656) : [Inst] national_wi29 (n=29) opt=27603.00, stu=27623.00, gap=0.072%, time=0.49s
+[2025-10-23 01:28:56] TSPTester_inTSPlib.py(656) : [Inst] national_dj38 (n=38) opt=6656.00, stu=6663.00, gap=0.105%, time=0.10s
+[2025-10-23 01:28:56] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_eil51 (n=51) opt=426.00, stu=431.00, gap=1.174%, time=0.14s
+[2025-10-23 01:28:56] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_berlin52 (n=52) opt=7542.00, stu=7542.00, gap=0.000%, time=0.15s
+[2025-10-23 01:28:57] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_st70 (n=70) opt=675.00, stu=675.00, gap=0.000%, time=0.20s
+[2025-10-23 01:28:57] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_eil76 (n=76) opt=538.00, stu=546.00, gap=1.487%, time=0.22s
+[2025-10-23 01:28:57] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr76 (n=76) opt=108159.00, stu=108395.00, gap=0.218%, time=0.22s
+[2025-10-23 01:28:57] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rat99 (n=99) opt=1211.00, stu=1218.00, gap=0.578%, time=0.29s
+[2025-10-23 01:28:58] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroA100 (n=100) opt=21282.00, stu=21305.00, gap=0.108%, time=0.29s
+[2025-10-23 01:28:58] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroB100 (n=100) opt=22141.00, stu=22199.00, gap=0.262%, time=0.29s
+[2025-10-23 01:28:58] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroC100 (n=100) opt=20749.00, stu=20816.00, gap=0.323%, time=0.29s
+[2025-10-23 01:28:59] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroD100 (n=100) opt=21294.00, stu=21374.00, gap=0.376%, time=0.29s
+[2025-10-23 01:28:59] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroE100 (n=100) opt=22068.00, stu=22162.00, gap=0.426%, time=0.29s
+[2025-10-23 01:28:59] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rd100 (n=100) opt=7910.00, stu=7910.00, gap=0.000%, time=0.29s
+[2025-10-23 01:28:59] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_eil101 (n=101) opt=629.00, stu=633.00, gap=0.636%, time=0.29s
+[2025-10-23 01:29:00] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_lin105 (n=105) opt=14379.00, stu=14424.00, gap=0.313%, time=0.31s
+[2025-10-23 01:29:00] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr107 (n=107) opt=44303.00, stu=49279.00, gap=11.232%, time=0.31s
+[2025-10-23 01:29:00] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr124 (n=124) opt=59030.00, stu=59686.00, gap=1.111%, time=0.36s
+[2025-10-23 01:29:01] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_bier127 (n=127) opt=118282.00, stu=123900.00, gap=4.750%, time=0.37s
+[2025-10-23 01:29:01] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_ch130 (n=130) opt=6110.00, stu=6145.00, gap=0.573%, time=0.38s
+[2025-10-23 01:29:02] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xqf131 (n=131) opt=564.00, stu=572.00, gap=1.418%, time=0.38s
+[2025-10-23 01:29:02] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr136 (n=136) opt=96772.00, stu=97206.00, gap=0.448%, time=0.40s
+[2025-10-23 01:29:02] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr144 (n=144) opt=58537.00, stu=58651.00, gap=0.195%, time=0.42s
+[2025-10-23 01:29:03] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_ch150 (n=150) opt=6528.00, stu=6559.00, gap=0.475%, time=0.44s
+[2025-10-23 01:29:03] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroA150 (n=150) opt=26524.00, stu=26895.00, gap=1.399%, time=0.44s
+[2025-10-23 01:29:04] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroB150 (n=150) opt=26130.00, stu=26329.00, gap=0.762%, time=0.44s
+[2025-10-23 01:29:04] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr152 (n=152) opt=73682.00, stu=82621.00, gap=12.132%, time=0.45s
+[2025-10-23 01:29:05] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u159 (n=159) opt=42080.00, stu=42560.00, gap=1.141%, time=0.47s
+[2025-10-23 01:29:05] TSPTester_inTSPlib.py(656) : [Inst] national_qa194 (n=194) opt=9352.00, stu=11896.00, gap=27.203%, time=0.58s
+[2025-10-23 01:29:06] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rat195 (n=195) opt=2323.00, stu=2348.00, gap=1.076%, time=0.58s
+[2025-10-23 01:29:06] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d198 (n=198) opt=15780.00, stu=17212.00, gap=9.075%, time=0.59s
+[2025-10-23 01:29:07] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroA200 (n=200) opt=29368.00, stu=29554.00, gap=0.633%, time=0.59s
+[2025-10-23 01:29:08] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_kroB200 (n=200) opt=29437.00, stu=29479.00, gap=0.143%, time=0.59s
+[2025-10-23 01:29:08] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_ts225 (n=225) opt=126643.00, stu=126994.00, gap=0.277%, time=0.67s
+[2025-10-23 01:29:09] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_tsp225 (n=225) opt=3916.00, stu=3966.00, gap=1.277%, time=0.67s
+[2025-10-23 01:29:10] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr226 (n=226) opt=80369.00, stu=81261.00, gap=1.110%, time=0.67s
+[2025-10-23 01:29:10] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xqg237 (n=237) opt=1019.00, stu=1030.00, gap=1.079%, time=0.71s
+[2025-10-23 01:29:11] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_gil262 (n=262) opt=2378.00, stu=2406.00, gap=1.177%, time=0.79s
+[2025-10-23 01:29:12] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr264 (n=264) opt=49135.00, stu=51831.00, gap=5.487%, time=0.79s
+[2025-10-23 01:29:13] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_a280 (n=280) opt=2579.00, stu=2645.00, gap=2.559%, time=0.84s
+[2025-10-23 01:29:14] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr299 (n=299) opt=48191.00, stu=49539.00, gap=2.797%, time=0.90s
+[2025-10-23 01:29:15] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_lin318 (n=318) opt=42029.00, stu=42607.00, gap=1.375%, time=0.96s
+[2025-10-23 01:29:16] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pma343 (n=343) opt=1368.00, stu=1442.00, gap=5.409%, time=1.04s
+[2025-10-23 01:29:17] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pka379 (n=379) opt=1332.00, stu=1396.00, gap=4.805%, time=1.15s
+[2025-10-23 01:29:18] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bcl380 (n=380) opt=1621.00, stu=1673.00, gap=3.208%, time=1.15s
+[2025-10-23 01:29:19] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pbl395 (n=395) opt=1281.00, stu=1316.00, gap=2.732%, time=1.20s
+[2025-10-23 01:29:20] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rd400 (n=400) opt=15281.00, stu=15439.00, gap=1.034%, time=1.21s
+[2025-10-23 01:29:22] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pbk411 (n=411) opt=1343.00, stu=1378.00, gap=2.606%, time=1.25s
+[2025-10-23 01:29:23] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_fl417 (n=417) opt=11861.00, stu=12761.00, gap=7.588%, time=1.27s
+[2025-10-23 01:29:24] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pbn423 (n=423) opt=1365.00, stu=1411.00, gap=3.370%, time=1.28s
+[2025-10-23 01:29:25] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pbm436 (n=436) opt=1443.00, stu=1480.00, gap=2.564%, time=1.33s
+[2025-10-23 01:29:27] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr439 (n=439) opt=107217.00, stu=110830.00, gap=3.370%, time=1.34s
+[2025-10-23 01:29:28] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pcb442 (n=442) opt=50778.00, stu=52352.00, gap=3.100%, time=1.34s
+[2025-10-23 01:29:30] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d493 (n=493) opt=35002.00, stu=38316.00, gap=9.468%, time=1.50s
+[2025-10-23 01:29:31] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u574 (n=574) opt=36905.00, stu=37888.00, gap=2.664%, time=1.75s
+[2025-10-23 01:29:33] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rat575 (n=575) opt=6773.00, stu=6956.00, gap=2.702%, time=1.76s
+[2025-10-23 01:29:35] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_p654 (n=654) opt=34643.00, stu=35779.00, gap=3.279%, time=2.01s
+[2025-10-23 01:29:37] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d657 (n=657) opt=48912.00, stu=52856.00, gap=8.063%, time=2.02s
+[2025-10-23 01:29:39] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xql662 (n=662) opt=2513.00, stu=2696.00, gap=7.282%, time=2.03s
+[2025-10-23 01:29:41] TSPTester_inTSPlib.py(656) : [Inst] vlsi_rbx711 (n=711) opt=3115.00, stu=3206.00, gap=2.921%, time=2.19s
+[2025-10-23 01:29:44] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u724 (n=724) opt=41910.00, stu=43288.00, gap=3.288%, time=2.23s
+[2025-10-23 01:29:46] TSPTester_inTSPlib.py(656) : [Inst] national_uy734 (n=734) opt=79114.00, stu=95698.00, gap=20.962%, time=2.26s
+[2025-10-23 01:29:48] TSPTester_inTSPlib.py(656) : [Inst] vlsi_rbu737 (n=737) opt=3314.00, stu=3460.00, gap=4.406%, time=2.26s
+[2025-10-23 01:29:51] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rat783 (n=783) opt=8806.00, stu=9121.00, gap=3.577%, time=2.41s
+[2025-10-23 01:29:53] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dkg813 (n=813) opt=3199.00, stu=3409.00, gap=6.565%, time=2.51s
+[2025-10-23 01:29:56] TSPTester_inTSPlib.py(656) : [Inst] national_zi929 (n=929) opt=95345.00, stu=112822.00, gap=18.330%, time=2.89s
+[2025-10-23 01:29:59] TSPTester_inTSPlib.py(656) : [Inst] vlsi_lim963 (n=963) opt=2789.00, stu=2923.00, gap=4.805%, time=3.01s
+[2025-10-23 01:30:02] TSPTester_inTSPlib.py(656) : [Inst] national_lu980 (n=980) opt=11340.00, stu=21923.00, gap=93.325%, time=3.07s
+[2025-10-23 01:30:05] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pbd984 (n=984) opt=2797.00, stu=2980.00, gap=6.543%, time=3.09s
+[2025-10-23 01:30:08] TSPTester_inTSPlib.py(656) : [Inst] tsplib_ceil_dsj1000 (n=1000) opt=18660188.00, stu=20211040.00, gap=8.311%, time=3.15s
+[2025-10-23 01:30:11] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.0 (n=1000) opt=11387430.00, stu=12768311.00, gap=12.126%, time=3.15s
+[2025-10-23 01:30:15] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.1 (n=1000) opt=11376735.00, stu=12898458.00, gap=13.376%, time=3.15s
+[2025-10-23 01:30:18] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.2 (n=1000) opt=10855033.00, stu=12722624.00, gap=17.205%, time=3.14s
+[2025-10-23 01:30:21] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.3 (n=1000) opt=11886457.00, stu=13569730.00, gap=14.161%, time=3.15s
+[2025-10-23 01:30:24] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.4 (n=1000) opt=11499958.00, stu=13018137.00, gap=13.202%, time=3.15s
+[2025-10-23 01:30:27] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.5 (n=1000) opt=11394911.00, stu=12707768.00, gap=11.521%, time=3.15s
+[2025-10-23 01:30:30] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.6 (n=1000) opt=10166701.00, stu=11309118.00, gap=11.237%, time=3.15s
+[2025-10-23 01:30:33] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.7 (n=1000) opt=10664660.00, stu=11769372.00, gap=10.359%, time=3.15s
+[2025-10-23 01:30:37] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.8 (n=1000) opt=11605723.00, stu=12579284.00, gap=8.389%, time=3.15s
+[2025-10-23 01:30:40] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C1k.9 (n=1000) opt=10906997.00, stu=12219985.00, gap=12.038%, time=3.15s
+[2025-10-23 01:30:43] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr1002 (n=1002) opt=259045.00, stu=270525.00, gap=4.432%, time=3.15s
+[2025-10-23 01:30:46] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u1060 (n=1060) opt=224094.00, stu=246531.00, gap=10.012%, time=3.37s
+[2025-10-23 01:30:50] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xit1083 (n=1083) opt=3558.00, stu=3974.00, gap=11.692%, time=3.47s
+[2025-10-23 01:30:53] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_vm1084 (n=1084) opt=239297.00, stu=252272.00, gap=5.422%, time=3.47s
+[2025-10-23 01:30:57] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pcb1173 (n=1173) opt=56892.00, stu=61416.00, gap=7.952%, time=3.84s
+[2025-10-23 01:31:01] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d1291 (n=1291) opt=50801.00, stu=57639.00, gap=13.460%, time=4.39s
+[2025-10-23 01:31:06] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rl1304 (n=1304) opt=252948.00, stu=273536.00, gap=8.139%, time=4.46s
+[2025-10-23 01:31:10] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rl1323 (n=1323) opt=270199.00, stu=295238.00, gap=9.267%, time=4.57s
+[2025-10-23 01:31:15] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dka1376 (n=1376) opt=4666.00, stu=5012.00, gap=7.415%, time=4.89s
+[2025-10-23 01:31:20] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_nrw1379 (n=1379) opt=56638.00, stu=65380.00, gap=15.435%, time=4.89s
+[2025-10-23 01:31:25] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dca1389 (n=1389) opt=5085.00, stu=5565.00, gap=9.440%, time=4.96s
+[2025-10-23 01:31:30] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_fl1400 (n=1400) opt=20127.00, stu=23794.00, gap=18.219%, time=5.02s
+[2025-10-23 01:31:35] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u1432 (n=1432) opt=152970.00, stu=165104.00, gap=7.932%, time=5.22s
+[2025-10-23 01:31:41] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dja1436 (n=1436) opt=5257.00, stu=5719.00, gap=8.788%, time=5.24s
+[2025-10-23 01:31:46] TSPTester_inTSPlib.py(656) : [Inst] vlsi_icw1483 (n=1483) opt=4416.00, stu=4821.00, gap=9.171%, time=5.56s
+[2025-10-23 01:31:52] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fra1488 (n=1488) opt=4264.00, stu=4690.00, gap=9.991%, time=5.58s
+[2025-10-23 01:31:58] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_fl1577 (n=1577) opt=22249.00, stu=25537.00, gap=14.778%, time=6.19s
+[2025-10-23 01:32:04] TSPTester_inTSPlib.py(656) : [Inst] vlsi_rbv1583 (n=1583) opt=5387.00, stu=5796.00, gap=7.592%, time=6.23s
+[2025-10-23 01:32:11] TSPTester_inTSPlib.py(656) : [Inst] vlsi_rby1599 (n=1599) opt=5533.00, stu=6074.00, gap=9.778%, time=6.35s
+[2025-10-23 01:32:17] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fnb1615 (n=1615) opt=4956.00, stu=5686.00, gap=14.730%, time=6.46s
+[2025-10-23 01:32:24] TSPTester_inTSPlib.py(656) : [Inst] national_rw1621 (n=1621) opt=26051.00, stu=41347.00, gap=58.716%, time=6.50s
+[2025-10-23 01:32:30] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d1655 (n=1655) opt=62128.00, stu=70403.00, gap=13.319%, time=6.77s
+[2025-10-23 01:32:38] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_vm1748 (n=1748) opt=336556.00, stu=370576.00, gap=10.108%, time=7.51s
+[2025-10-23 01:32:46] TSPTester_inTSPlib.py(656) : [Inst] vlsi_djc1785 (n=1785) opt=6115.00, stu=6737.00, gap=10.172%, time=7.80s
+[2025-10-23 01:32:54] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u1817 (n=1817) opt=57201.00, stu=62564.00, gap=9.376%, time=8.06s
+[2025-10-23 01:33:02] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rl1889 (n=1889) opt=316536.00, stu=340268.00, gap=7.497%, time=8.73s
+[2025-10-23 01:33:11] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dcc1911 (n=1911) opt=6396.00, stu=6987.00, gap=9.240%, time=8.93s
+[2025-10-23 01:33:21] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dkd1973 (n=1973) opt=6421.00, stu=7775.00, gap=21.087%, time=9.51s
+[2025-10-23 01:33:30] TSPTester_inTSPlib.py(656) : [Inst] national_mu1979 (n=1979) opt=86891.00, stu=123977.00, gap=42.681%, time=9.57s
+[2025-10-23 01:33:41] TSPTester_inTSPlib.py(656) : [Inst] vlsi_djb2036 (n=2036) opt=6197.00, stu=6759.00, gap=9.069%, time=10.19s
+[2025-10-23 01:33:51] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dcb2086 (n=2086) opt=6600.00, stu=7016.00, gap=6.303%, time=10.73s
+[2025-10-23 01:34:02] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d2103 (n=2103) opt=80450.00, stu=92169.00, gap=14.567%, time=10.93s
+[2025-10-23 01:34:14] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bva2144 (n=2144) opt=6304.00, stu=7659.00, gap=21.494%, time=11.37s
+[2025-10-23 01:34:25] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u2152 (n=2152) opt=64253.00, stu=71730.00, gap=11.637%, time=11.47s
+[2025-10-23 01:34:37] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xqc2175 (n=2175) opt=6830.00, stu=7436.00, gap=8.873%, time=11.73s
+[2025-10-23 01:34:49] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bck2217 (n=2217) opt=6764.00, stu=7892.00, gap=16.677%, time=12.22s
+[2025-10-23 01:35:02] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xpr2308 (n=2308) opt=7219.00, stu=7942.00, gap=10.015%, time=13.30s
+[2025-10-23 01:35:16] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_u2319 (n=2319) opt=234256.00, stu=243954.00, gap=4.140%, time=13.46s
+[2025-10-23 01:35:29] TSPTester_inTSPlib.py(656) : [Inst] vlsi_ley2323 (n=2323) opt=8352.00, stu=10372.00, gap=24.186%, time=13.54s
+[2025-10-23 01:35:44] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dea2382 (n=2382) opt=8017.00, stu=9665.00, gap=20.556%, time=14.32s
+[2025-10-23 01:35:58] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pr2392 (n=2392) opt=378032.00, stu=424579.00, gap=12.313%, time=14.44s
+[2025-10-23 01:36:14] TSPTester_inTSPlib.py(656) : [Inst] vlsi_rbw2481 (n=2481) opt=7724.00, stu=8328.00, gap=7.820%, time=15.63s
+[2025-10-23 01:36:31] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pds2566 (n=2566) opt=7643.00, stu=8391.00, gap=9.787%, time=16.84s
+[2025-10-23 01:36:48] TSPTester_inTSPlib.py(656) : [Inst] vlsi_mlt2597 (n=2597) opt=8071.00, stu=9011.00, gap=11.647%, time=17.36s
+[2025-10-23 01:37:08] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bch2762 (n=2762) opt=8234.00, stu=9046.00, gap=9.862%, time=20.16s
+[2025-10-23 01:37:29] TSPTester_inTSPlib.py(656) : [Inst] vlsi_irw2802 (n=2802) opt=8423.00, stu=9846.00, gap=16.894%, time=20.92s
+[2025-10-23 01:37:51] TSPTester_inTSPlib.py(656) : [Inst] vlsi_lsm2854 (n=2854) opt=8014.00, stu=8999.00, gap=12.291%, time=21.90s
+[2025-10-23 01:38:14] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dbj2924 (n=2924) opt=10128.00, stu=11118.00, gap=9.775%, time=23.28s
+[2025-10-23 01:38:39] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xva2993 (n=2993) opt=8492.00, stu=9368.00, gap=10.316%, time=24.67s
+[2025-10-23 01:39:04] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_pcb3038 (n=3038) opt=137694.00, stu=156100.00, gap=13.367%, time=25.59s
+[2025-10-23 01:39:30] TSPTester_inTSPlib.py(656) : [Inst] vlsi_pia3056 (n=3056) opt=8258.00, stu=9480.00, gap=14.798%, time=25.94s
+[2025-10-23 01:39:57] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dke3097 (n=3097) opt=10539.00, stu=12604.00, gap=19.594%, time=26.82s
+[2025-10-23 01:40:25] TSPTester_inTSPlib.py(656) : [Inst] vlsi_lsn3119 (n=3119) opt=9114.00, stu=10394.00, gap=14.044%, time=27.38s
+[2025-10-23 01:40:52] TSPTester_inTSPlib.py(656) : [Inst] vlsi_lta3140 (n=3140) opt=9517.00, stu=10776.00, gap=13.229%, time=27.80s
+[2025-10-23 01:41:21] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C3k.0 (n=3162) opt=19198258.00, stu=22930896.00, gap=19.443%, time=28.43s
+[2025-10-23 01:41:49] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C3k.1 (n=3162) opt=19017805.00, stu=22757872.00, gap=19.666%, time=28.38s
+[2025-10-23 01:42:18] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C3k.2 (n=3162) opt=19547551.00, stu=25436676.00, gap=30.127%, time=28.49s
+[2025-10-23 01:42:46] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C3k.3 (n=3162) opt=19108508.00, stu=23884244.00, gap=24.993%, time=28.48s
+[2025-10-23 01:43:15] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C3k.4 (n=3162) opt=18864046.00, stu=22870570.00, gap=21.239%, time=28.43s
+[2025-10-23 01:43:45] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fdp3256 (n=3256) opt=10008.00, stu=11325.00, gap=13.159%, time=30.56s
+[2025-10-23 01:44:17] TSPTester_inTSPlib.py(656) : [Inst] vlsi_beg3293 (n=3293) opt=9772.00, stu=11235.00, gap=14.971%, time=31.50s
+[2025-10-23 01:44:51] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dhb3386 (n=3386) opt=11137.00, stu=12431.00, gap=11.619%, time=33.98s
+[2025-10-23 01:45:27] TSPTester_inTSPlib.py(656) : [Inst] national_nu3496 (n=3496) opt=96132.00, stu=177920.00, gap=85.079%, time=36.37s
+[2025-10-23 01:46:08] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fjs3649 (n=3649) opt=9272.00, stu=13689.00, gap=47.638%, time=40.81s
+[2025-10-23 01:46:49] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fjr3672 (n=3672) opt=9601.00, stu=13842.00, gap=44.172%, time=41.48s
+[2025-10-23 01:47:32] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dlb3694 (n=3694) opt=10959.00, stu=12653.00, gap=15.458%, time=42.22s
+[2025-10-23 01:48:15] TSPTester_inTSPlib.py(656) : [Inst] vlsi_ltb3729 (n=3729) opt=11821.00, stu=14826.00, gap=25.421%, time=43.13s
+[2025-10-23 01:49:00] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_fl3795 (n=3795) opt=28772.00, stu=32768.00, gap=13.889%, time=45.16s
+[2025-10-23 01:49:48] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xqe3891 (n=3891) opt=11995.00, stu=13863.00, gap=15.573%, time=48.42s
+[2025-10-23 01:50:38] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xua3937 (n=3937) opt=11239.00, stu=12681.00, gap=12.830%, time=50.02s
+[2025-10-23 01:51:28] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dkc3938 (n=3938) opt=12503.00, stu=15970.00, gap=27.729%, time=49.87s
+[2025-10-23 01:52:19] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dkf3954 (n=3954) opt=12538.00, stu=14748.00, gap=17.626%, time=50.58s
+[2025-10-23 01:53:24] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bgb4355 (n=4355) opt=12723.00, stu=14833.00, gap=16.584%, time=65.76s
+[2025-10-23 01:54:32] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bgd4396 (n=4396) opt=13009.00, stu=16081.00, gap=23.614%, time=67.23s
+[2025-10-23 01:55:39] TSPTester_inTSPlib.py(656) : [Inst] vlsi_frv4410 (n=4410) opt=10711.00, stu=13492.00, gap=25.964%, time=67.39s
+[2025-10-23 01:56:49] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_fnl4461 (n=4461) opt=182566.00, stu=217156.00, gap=18.947%, time=69.58s
+[2025-10-23 01:57:59] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bgf4475 (n=4475) opt=13221.00, stu=16753.00, gap=26.715%, time=70.17s
+[2025-10-23 01:59:17] TSPTester_inTSPlib.py(656) : [Inst] national_ca4663 (n=4663) opt=1290319.00, stu=1809176.00, gap=40.212%, time=77.95s
+[2025-10-23 02:00:49] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xqd4966 (n=4966) opt=15316.00, stu=20824.00, gap=35.962%, time=92.01s
+[2025-10-23 02:02:27] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fqm5087 (n=5087) opt=13029.00, stu=17615.00, gap=35.198%, time=98.07s
+[2025-10-23 02:04:34] TSPTester_inTSPlib.py(656) : [Inst] vlsi_fea5557 (n=5557) opt=15445.00, stu=18685.00, gap=20.978%, time=126.69s
+[2025-10-23 02:07:06] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rl5915 (n=5915) opt=565530.00, stu=702248.00, gap=24.175%, time=152.05s
+[2025-10-23 02:09:39] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rl5934 (n=5934) opt=556045.00, stu=690094.00, gap=24.108%, time=153.79s
+[2025-10-23 02:12:27] TSPTester_inTSPlib.py(656) : [Inst] national_tz6117 (n=6117) opt=394718.00, stu=597064.00, gap=51.263%, time=167.71s
+[2025-10-23 02:16:22] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xsc6880 (n=6880) opt=21535.00, stu=26873.00, gap=24.788%, time=235.40s
+[2025-10-23 02:20:40] TSPTester_inTSPlib.py(656) : [Inst] national_eg7146 (n=7146) opt=172386.00, stu=245363.00, gap=42.333%, time=257.91s
+[2025-10-23 02:25:02] TSPTester_inTSPlib.py(656) : [Inst] vlsi_bnd7168 (n=7168) opt=21834.00, stu=27091.00, gap=24.077%, time=261.46s
+[2025-10-23 02:29:50] TSPTester_inTSPlib.py(656) : [Inst] tsplib_ceil_pla7397 (n=7397) opt=23260728.00, stu=32785460.00, gap=40.948%, time=288.02s
+[2025-10-23 02:34:48] TSPTester_inTSPlib.py(656) : [Inst] vlsi_lap7454 (n=7454) opt=19535.00, stu=23775.00, gap=21.705%, time=297.65s
+[2025-10-23 02:40:12] TSPTester_inTSPlib.py(656) : [Inst] national_ym7663 (n=7663) opt=238314.00, stu=462170.00, gap=93.933%, time=324.66s
+[2025-10-23 02:46:33] TSPTester_inTSPlib.py(656) : [Inst] national_pm8079 (n=8079) opt=114855.00, stu=352776.00, gap=207.149%, time=381.27s
+[2025-10-23 02:53:10] TSPTester_inTSPlib.py(656) : [Inst] vlsi_ida8197 (n=8197) opt=22338.00, stu=27363.00, gap=22.495%, time=396.45s
+[2025-10-23 02:59:54] TSPTester_inTSPlib.py(656) : [Inst] national_ei8246 (n=8246) opt=206171.00, stu=476695.00, gap=131.213%, time=404.20s
+[2025-10-23 03:09:11] TSPTester_inTSPlib.py(656) : [Inst] national_ar9152 (n=9152) opt=837479.00, stu=1310812.00, gap=56.519%, time=556.48s
+[2025-10-23 03:20:06] TSPTester_inTSPlib.py(656) : [Inst] vlsi_dga9698 (n=9698) opt=27724.00, stu=36347.00, gap=31.103%, time=655.04s
+[2025-10-23 03:31:37] TSPTester_inTSPlib.py(656) : [Inst] national_ja9847 (n=9847) opt=491924.00, stu=1145118.00, gap=132.784%, time=691.40s
+[2025-10-23 03:43:17] TSPTester_inTSPlib.py(656) : [Inst] national_gr9882 (n=9882) opt=300899.00, stu=526492.00, gap=74.973%, time=700.04s
+[2025-10-23 03:55:19] TSPTester_inTSPlib.py(656) : [Inst] national_kz9976 (n=9976) opt=1061881.00, stu=1652821.00, gap=55.650%, time=721.75s
+[2025-10-23 04:07:29] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C10k.0 (n=10000) opt=33001034.00, stu=48750308.00, gap=47.724%, time=730.23s
+[2025-10-23 04:19:36] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C10k.1 (n=10000) opt=33186248.00, stu=48251844.00, gap=45.397%, time=727.26s
+[2025-10-23 04:31:46] TSPTester_inTSPlib.py(656) : [Inst] challenge8_C10k.2 (n=10000) opt=33155424.00, stu=49332292.00, gap=48.791%, time=729.73s
+[2025-10-23 04:44:24] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xmc10150 (n=10150) opt=28387.00, stu=38281.00, gap=34.854%, time=758.44s
+[2025-10-23 04:59:01] TSPTester_inTSPlib.py(656) : [Inst] national_fi10639 (n=10639) opt=520527.00, stu=1033386.00, gap=98.527%, time=876.74s
+[2025-10-23 05:19:17] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_rl11849 (n=11849) opt=923288.00, stu=1274413.00, gap=38.030%, time=1216.04s
+[2025-10-23 05:49:19] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_usa13509 (n=13509) opt=19982859.00, stu=34191584.00, gap=71.105%, time=1801.42s
+[2025-10-23 06:19:36] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xvb13584 (n=13584) opt=37083.00, stu=50398.00, gap=35.906%, time=1817.34s
+[2025-10-23 06:52:55] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_brd14051 (n=14051) opt=469385.00, stu=662567.00, gap=41.156%, time=1998.77s
+[2025-10-23 07:27:21] TSPTester_inTSPlib.py(656) : [Inst] national_mo14185 (n=14185) opt=427377.00, stu=912090.00, gap=113.416%, time=2066.20s
+[2025-10-23 08:02:07] TSPTester_inTSPlib.py(656) : [Inst] vlsi_xrb14233 (n=14233) opt=45462.00, stu=66176.00, gap=45.563%, time=2086.22s
+[2025-10-23 08:38:33] TSPTester_inTSPlib.py(656) : [Inst] national_ho14473 (n=14473) opt=177092.00, stu=1173647.00, gap=562.733%, time=2185.60s
+[2025-10-23 09:20:17] TSPTester_inTSPlib.py(656) : [Inst] tsplib_euc_d15112 (n=15112) opt=1573084.00, stu=2136314.00, gap=35.804%, time=2503.91s
+[2025-10-23 09:20:18] TSPTester_inTSPlib.py(638) : [Error] instance national_it16862 (size=16862) failed, err=CUDA out of memory. Tried to allocate 8.47 GiB (GPU 0; 23.59 GiB total capacity; 17.00 GiB already allocated; 5.96 GiB free; 17.32 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:18] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_xia16928 (size=16928) failed, err=CUDA out of memory. Tried to allocate 8.54 GiB (GPU 0; 23.59 GiB total capacity; 17.13 GiB already allocated; 5.83 GiB free; 17.45 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:19] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_pjh17845 (size=17845) failed, err=CUDA out of memory. Tried to allocate 9.49 GiB (GPU 0; 23.59 GiB total capacity; 19.04 GiB already allocated; 3.93 GiB free; 19.35 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:19] TSPTester_inTSPlib.py(638) : [Error] instance tsplib_euc_d18512 (size=18512) failed, err=CUDA out of memory. Tried to allocate 10.21 GiB (GPU 0; 23.59 GiB total capacity; 20.48 GiB already allocated; 2.48 GiB free; 20.80 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:20] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_frh19289 (size=19289) failed, err=CUDA out of memory. Tried to allocate 11.09 GiB (GPU 0; 23.59 GiB total capacity; 22.23 GiB already allocated; 747.12 MiB free; 22.55 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:20] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_fnc19402 (size=19402) failed, err=CUDA out of memory. Tried to allocate 11.22 GiB (GPU 0; 23.59 GiB total capacity; 22.50 GiB already allocated; 485.12 MiB free; 22.80 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:21] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_ido21215 (size=21215) failed, err=CUDA out of memory. Tried to allocate 13.41 GiB (GPU 0; 23.59 GiB total capacity; 13.48 GiB already allocated; 9.50 GiB free; 13.78 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:21] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_fma21553 (size=21553) failed, err=CUDA out of memory. Tried to allocate 13.85 GiB (GPU 0; 23.59 GiB total capacity; 13.91 GiB already allocated; 9.07 GiB free; 14.21 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:22] TSPTester_inTSPlib.py(638) : [Error] instance national_vm22775 (size=22775) failed, err=CUDA out of memory. Tried to allocate 15.46 GiB (GPU 0; 23.59 GiB total capacity; 15.52 GiB already allocated; 7.45 GiB free; 15.83 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:22] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_lsb22777 (size=22777) failed, err=CUDA out of memory. Tried to allocate 15.46 GiB (GPU 0; 23.59 GiB total capacity; 15.53 GiB already allocated; 7.45 GiB free; 15.83 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:23] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_xrh24104 (size=24104) failed, err=CUDA out of memory. Tried to allocate 17.32 GiB (GPU 0; 23.59 GiB total capacity; 17.38 GiB already allocated; 5.59 GiB free; 17.69 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:23] TSPTester_inTSPlib.py(638) : [Error] instance national_sw24978 (size=24978) failed, err=CUDA out of memory. Tried to allocate 18.59 GiB (GPU 0; 23.59 GiB total capacity; 18.66 GiB already allocated; 4.32 GiB free; 18.96 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:24] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_bbz25234 (size=25234) failed, err=CUDA out of memory. Tried to allocate 18.98 GiB (GPU 0; 23.59 GiB total capacity; 19.05 GiB already allocated; 3.93 GiB free; 19.35 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:24] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_irx28268 (size=28268) failed, err=CUDA out of memory. Tried to allocate 23.81 GiB (GPU 0; 23.59 GiB total capacity; 76.40 MiB already allocated; 22.91 GiB free; 376.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:24] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_fyg28534 (size=28534) failed, err=CUDA out of memory. Tried to allocate 24.27 GiB (GPU 0; 23.59 GiB total capacity; 76.92 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:24] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_icx28698 (size=28698) failed, err=CUDA out of memory. Tried to allocate 24.54 GiB (GPU 0; 23.59 GiB total capacity; 77.24 MiB already allocated; 22.91 GiB free; 376.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:24] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_boa28924 (size=28924) failed, err=CUDA out of memory. Tried to allocate 24.93 GiB (GPU 0; 23.59 GiB total capacity; 77.68 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_ird29514 (size=29514) failed, err=CUDA out of memory. Tried to allocate 25.96 GiB (GPU 0; 23.59 GiB total capacity; 78.84 MiB already allocated; 22.91 GiB free; 376.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_pbh30440 (size=30440) failed, err=CUDA out of memory. Tried to allocate 27.62 GiB (GPU 0; 23.59 GiB total capacity; 80.65 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance challenge8_C31k.0 (size=31623) failed, err=CUDA out of memory. Tried to allocate 29.80 GiB (GPU 0; 23.59 GiB total capacity; 82.97 MiB already allocated; 22.91 GiB free; 376.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance challenge8_C31k.1 (size=31623) failed, err=CUDA out of memory. Tried to allocate 29.80 GiB (GPU 0; 23.59 GiB total capacity; 82.97 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_xib32892 (size=32892) failed, err=CUDA out of memory. Tried to allocate 32.24 GiB (GPU 0; 23.59 GiB total capacity; 85.46 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_fry33203 (size=33203) failed, err=CUDA out of memory. Tried to allocate 32.86 GiB (GPU 0; 23.59 GiB total capacity; 86.07 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance national_bm33708 (size=33708) failed, err=CUDA out of memory. Tried to allocate 33.86 GiB (GPU 0; 23.59 GiB total capacity; 87.06 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance tsplib_ceil_pla33810 (size=33810) failed, err=CUDA out of memory. Tried to allocate 34.07 GiB (GPU 0; 23.59 GiB total capacity; 87.26 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_bby34656 (size=34656) failed, err=CUDA out of memory. Tried to allocate 35.79 GiB (GPU 0; 23.59 GiB total capacity; 88.92 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_pba38478 (size=38478) failed, err=CUDA out of memory. Tried to allocate 44.12 GiB (GPU 0; 23.59 GiB total capacity; 96.42 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_ics39603 (size=39603) failed, err=CUDA out of memory. Tried to allocate 46.74 GiB (GPU 0; 23.59 GiB total capacity; 98.62 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_rbz43748 (size=43748) failed, err=CUDA out of memory. Tried to allocate 57.04 GiB (GPU 0; 23.59 GiB total capacity; 106.75 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_fht47608 (size=47608) failed, err=CUDA out of memory. Tried to allocate 67.55 GiB (GPU 0; 23.59 GiB total capacity; 114.32 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:25] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_fna52057 (size=52057) failed, err=CUDA out of memory. Tried to allocate 80.76 GiB (GPU 0; 23.59 GiB total capacity; 123.04 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_bna56769 (size=56769) failed, err=CUDA out of memory. Tried to allocate 96.04 GiB (GPU 0; 23.59 GiB total capacity; 132.28 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(638) : [Error] instance vlsi_dan59296 (size=59296) failed, err=CUDA out of memory. Tried to allocate 104.79 GiB (GPU 0; 23.59 GiB total capacity; 137.23 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(638) : [Error] instance national_ch71009 (size=71009) failed, err=CUDA out of memory. Tried to allocate 150.27 GiB (GPU 0; 23.59 GiB total capacity; 160.20 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(638) : [Error] instance tsplib_ceil_pla85900 (size=85900) failed, err=CUDA out of memory. Tried to allocate 219.91 GiB (GPU 0; 23.59 GiB total capacity; 189.40 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(638) : [Error] instance challenge8_C100k.0 (size=100000) failed, err=CUDA out of memory. Tried to allocate 298.02 GiB (GPU 0; 23.59 GiB total capacity; 217.04 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(638) : [Error] instance challenge8_C100k.1 (size=100000) failed, err=CUDA out of memory. Tried to allocate 298.02 GiB (GPU 0; 23.59 GiB total capacity; 217.04 MiB already allocated; 22.91 GiB free; 378.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(661) : #################  All Done  #################
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(662) : All solved: 191/228, total time: 28293.63s, avg per solved: 148.13s
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(671) : [0, 1000)  num=69, avg_gap=4.854%, avg_time=1.01s
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(671) : [1000, 10000)  num=109, avg_gap=23.899%, avg_time=79.94s
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(671) : [10000, 100001)  num=13, avg_gap=93.770%, avg_time=1499.84s
+[2025-10-23 09:20:26] TSPTester_inTSPlib.py(673) : [All] num=191, avg_gap=21.775%, avg_time=148.07s
