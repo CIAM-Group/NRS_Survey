@@ -1,0 +1,252 @@
+nohup: ignoring input
+Namespace(activation_attention='softmax', activation_ff='relu', batchnorm=False, beam_size=1, cuda_device_num=0, debug=False, decay_every=50, decay_rate=0.99, dim_emb=192, dim_ff=512, dropout=0.0, episode=100, knns=250, lr=0.00025, nb_heads=12, nb_layers_encoder=9, nb_total_epochs=1000, output_dir='output/', pretrained_model='/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/pretrained_models/cvrp.best', seed=None, test_batch_size=1, test_dataset='/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/data/CVRPlib_survey_instances_converted.txt', test_every=100, test_only=False, train_batch_size=512, train_dataset=None, val_batch_size=1024, val_dataset=None)
+Using 1 GPU(s)
+Total number of parameters: 3108116
+trying to load: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/pretrained_models/cvrp.best
+loaded checkpoint: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/pretrained_models/cvrp.best
+/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/data/CVRPlib_survey_instances_converted.txt
+  0%|          | 0/110 [00:00<?, ?it/s] 98%|█████████▊| 108/110 [00:00<00:00, 998.67it/s]100%|██████████| 110/110 [00:00<00:00, 785.75it/s]
+[989.0, 1000.0, 1000.0, 986.0, 992.0, 989.0, 998.0, 962.0, 994.0, 995.0, 995.0, 984.0, 961.0, 981.0, 990.0, 971.0, 1000.0, 954.0, 996.0, 997.0, 999.0, 975.0, 999.0, 999.0, 999.0, 1000.0, 999.0, 1000.0, 997.0, 999.0, 1000.0, 982.0, 995.0, 995.0, 999.0, 1000.0, 996.0, 927.0, 1000.0, 991.0, 998.0, 997.0, 1000.0, 991.0, 996.0, 996.0, 999.0, 1000.0, 995.0, 999.0, 999.0, 997.0, 1000.0, 1000.0, 923.0, 999.0, 998.0, 997.0, 1000.0, 1000.0, 997.0, 996.0, 998.0, 1000.0, 956.0, 998.0, 996.0, 999.0, 1000.0, 998.0, 1000.0, 1000.0, 1000.0, 999.0, 1000.0, 998.0, 1000.0, 999.0, 999.0, 999.0, 973.0, 1000.0, 997.0, 1000.0, 999.0, 1000.0, 992.0, 1000.0, 999.0, 1000.0, 1000.0, 999.0, 1000.0, 998.0, 1000.0, 1000.0, 998.0, 1000.0, 1000.0, 1000.0, 1903.0, 1989.0, 1998.0, 1999.0, 1999.0, 1996.0, 1994.0, 1995.0, 26662.0, 26840.0]
+capacities [ 206  600   66  169   21  188   39  643  106 1190   18  144   12 1174
+  133  161  142    8  974  138  181  402  836  101  944    3   37  154
+  631   18   28  134   69 1225 1081   35  585   10  192  109  267  285
+   55  794  246  248    6  868  128   23  203   61  436   68  218    4
+  564   78  745  216   18  536   12  777 1106  256   52  428   13  142
+  125  371   11   74  210   28  487  523  110 1381    5  129  408   87
+ 1007   25  396  166  832   20  358   44    9  764 1816   33  138   11
+  998  131   25  150   30  100   35  170   50  150   50  200]
+num_nodes 102 tensor(5151, device='cuda:0') 5151.0
+Instance: X-n101-k25, Cost: 31517.00, Optimal: 27591.00, Gap: 14.2293%, Time: 1.3450s
+num_nodes 107 tensor(5671, device='cuda:0') 5671.0
+Instance: X-n106-k14, Cost: 27532.00, Optimal: 26362.00, Gap: 4.4382%, Time: 0.9167s
+num_nodes 111 tensor(6105, device='cuda:0') 6105.0
+Instance: X-n110-k13, Cost: 16010.00, Optimal: 14971.00, Gap: 6.9401%, Time: 0.9551s
+num_nodes 116 tensor(6670, device='cuda:0') 6670.0
+Instance: X-n115-k10, Cost: 15531.00, Optimal: 12747.00, Gap: 21.8404%, Time: 1.0040s
+num_nodes 121 tensor(7260, device='cuda:0') 7260.0
+Instance: X-n120-k6, Cost: 13757.00, Optimal: 13332.00, Gap: 3.1878%, Time: 1.0466s
+num_nodes 126 tensor(7875, device='cuda:0') 7875.0
+Instance: X-n125-k30, Cost: 63112.00, Optimal: 55539.00, Gap: 13.6355%, Time: 1.0951s
+num_nodes 130 tensor(8385, device='cuda:0') 8385.0
+Instance: X-n129-k18, Cost: 29883.00, Optimal: 28940.00, Gap: 3.2585%, Time: 1.1276s
+num_nodes 135 tensor(9045, device='cuda:0') 9045.0
+Instance: X-n134-k13, Cost: 11716.00, Optimal: 10916.00, Gap: 7.3287%, Time: 1.1683s
+num_nodes 140 tensor(9730, device='cuda:0') 9730.0
+Instance: X-n139-k10, Cost: 14296.00, Optimal: 13590.00, Gap: 5.1950%, Time: 1.2129s
+num_nodes 144 tensor(10296, device='cuda:0') 10296.0
+Instance: X-n143-k7, Cost: 16198.00, Optimal: 15700.00, Gap: 3.1720%, Time: 1.2485s
+num_nodes 149 tensor(11026, device='cuda:0') 11026.0
+Instance: X-n148-k46, Cost: 53684.00, Optimal: 43448.00, Gap: 23.5592%, Time: 1.2964s
+num_nodes 154 tensor(11781, device='cuda:0') 11781.0
+Instance: X-n153-k22, Cost: 26474.00, Optimal: 21220.00, Gap: 24.7597%, Time: 1.3425s
+num_nodes 158 tensor(12403, device='cuda:0') 12403.0
+Instance: X-n157-k13, Cost: 17511.00, Optimal: 16876.00, Gap: 3.7627%, Time: 1.3782s
+num_nodes 163 tensor(13203, device='cuda:0') 13203.0
+Instance: X-n162-k11, Cost: 15007.00, Optimal: 14138.00, Gap: 6.1466%, Time: 1.4281s
+num_nodes 168 tensor(14028, device='cuda:0') 14028.0
+Instance: X-n167-k10, Cost: 21458.00, Optimal: 20557.00, Gap: 4.3829%, Time: 1.4685s
+num_nodes 173 tensor(14878, device='cuda:0') 14878.0
+Instance: X-n172-k51, Cost: 55025.00, Optimal: 45607.00, Gap: 20.6503%, Time: 1.5160s
+num_nodes 177 tensor(15576, device='cuda:0') 15576.0
+Instance: X-n176-k26, Cost: 57438.00, Optimal: 47812.00, Gap: 20.1330%, Time: 1.5562s
+num_nodes 182 tensor(16471, device='cuda:0') 16471.0
+Instance: X-n181-k23, Cost: 25862.00, Optimal: 25569.00, Gap: 1.1459%, Time: 1.5963s
+num_nodes 187 tensor(17391, device='cuda:0') 17391.0
+Instance: X-n186-k15, Cost: 25260.00, Optimal: 24145.00, Gap: 4.6179%, Time: 1.6401s
+num_nodes 191 tensor(18145, device='cuda:0') 18145.0
+Instance: X-n190-k8, Cost: 17823.00, Optimal: 16980.00, Gap: 4.9647%, Time: 1.6758s
+num_nodes 196 tensor(19110, device='cuda:0') 19110.0
+Instance: X-n195-k51, Cost: 53430.00, Optimal: 44225.00, Gap: 20.8140%, Time: 1.7286s
+num_nodes 201 tensor(20100, device='cuda:0') 20100.0
+Instance: X-n200-k36, Cost: 62181.00, Optimal: 58578.00, Gap: 6.1508%, Time: 1.7461s
+num_nodes 205 tensor(20910, device='cuda:0') 20910.0
+Instance: X-n204-k19, Cost: 20887.00, Optimal: 19565.00, Gap: 6.7570%, Time: 1.7760s
+num_nodes 210 tensor(21945, device='cuda:0') 21945.0
+Instance: X-n209-k16, Cost: 31487.00, Optimal: 30656.00, Gap: 2.7107%, Time: 1.8143s
+num_nodes 215 tensor(23005, device='cuda:0') 23005.0
+Instance: X-n214-k11, Cost: 11947.00, Optimal: 10856.00, Gap: 10.0497%, Time: 1.8853s
+num_nodes 220 tensor(24090, device='cuda:0') 24090.0
+Instance: X-n219-k73, Cost: 130967.00, Optimal: 117595.00, Gap: 11.3712%, Time: 1.9083s
+num_nodes 224 tensor(24976, device='cuda:0') 24976.0
+Instance: X-n223-k34, Cost: 42680.00, Optimal: 40437.00, Gap: 5.5469%, Time: 1.9408s
+num_nodes 229 tensor(26106, device='cuda:0') 26106.0
+Instance: X-n228-k23, Cost: 32083.00, Optimal: 25742.00, Gap: 24.6329%, Time: 1.9838s
+num_nodes 234 tensor(27261, device='cuda:0') 27261.0
+Instance: X-n233-k16, Cost: 20334.00, Optimal: 19230.00, Gap: 5.7410%, Time: 2.0537s
+num_nodes 238 tensor(28203, device='cuda:0') 28203.0
+Instance: X-n237-k14, Cost: 27891.00, Optimal: 27042.00, Gap: 3.1396%, Time: 2.0620s
+num_nodes 243 tensor(29403, device='cuda:0') 29403.0
+Instance: X-n242-k48, Cost: 86898.00, Optimal: 82751.00, Gap: 5.0114%, Time: 2.1093s
+num_nodes 248 tensor(30628, device='cuda:0') 30628.0
+Instance: X-n247-k50, Cost: 47706.00, Optimal: 37274.00, Gap: 27.9873%, Time: 2.1535s
+num_nodes 252 tensor(31626, device='cuda:0') 31626.0
+Instance: X-n251-k28, Cost: 39893.00, Optimal: 38684.00, Gap: 3.1253%, Time: 2.2157s
+num_nodes 257 tensor(32896, device='cuda:0') 32896.0
+Instance: X-n256-k16, Cost: 20266.00, Optimal: 18839.00, Gap: 7.5747%, Time: 2.2320s
+num_nodes 262 tensor(34191, device='cuda:0') 34191.0
+Instance: X-n261-k13, Cost: 27334.00, Optimal: 26558.00, Gap: 2.9219%, Time: 2.2809s
+num_nodes 267 tensor(35511, device='cuda:0') 35511.0
+Instance: X-n266-k58, Cost: 79124.00, Optimal: 75478.00, Gap: 4.8305%, Time: 2.3242s
+num_nodes 271 tensor(36585, device='cuda:0') 36585.0
+Instance: X-n270-k35, Cost: 37330.00, Optimal: 35291.00, Gap: 5.7777%, Time: 2.3860s
+num_nodes 276 tensor(37950, device='cuda:0') 37950.0
+Instance: X-n275-k28, Cost: 22079.00, Optimal: 21245.00, Gap: 3.9256%, Time: 2.4100s
+num_nodes 281 tensor(39340, device='cuda:0') 39340.0
+Instance: X-n280-k17, Cost: 36496.00, Optimal: 33503.00, Gap: 8.9335%, Time: 2.4527s
+num_nodes 285 tensor(40470, device='cuda:0') 40470.0
+Instance: X-n284-k15, Cost: 21207.00, Optimal: 20226.00, Gap: 4.8502%, Time: 2.4875s
+num_nodes 290 tensor(41905, device='cuda:0') 41905.0
+Instance: X-n289-k60, Cost: 103453.00, Optimal: 95151.00, Gap: 8.7251%, Time: 2.5642s
+num_nodes 295 tensor(43365, device='cuda:0') 43365.0
+Instance: X-n294-k50, Cost: 53189.00, Optimal: 47161.00, Gap: 12.7817%, Time: 2.5789s
+num_nodes 299 tensor(44551, device='cuda:0') 44551.0
+Instance: X-n298-k31, Cost: 35954.00, Optimal: 34231.00, Gap: 5.0334%, Time: 2.6175s
+num_nodes 304 tensor(46056, device='cuda:0') 46056.0
+Instance: X-n303-k21, Cost: 24238.00, Optimal: 21736.00, Gap: 11.5109%, Time: 2.6584s
+num_nodes 309 tensor(47586, device='cuda:0') 47586.0
+Instance: X-n308-k13, Cost: 28647.00, Optimal: 25859.00, Gap: 10.7815%, Time: 2.7307s
+num_nodes 314 tensor(49141, device='cuda:0') 49141.0
+Instance: X-n313-k71, Cost: 104161.00, Optimal: 94043.00, Gap: 10.7589%, Time: 2.7536s
+num_nodes 318 tensor(50403, device='cuda:0') 50403.0
+Instance: X-n317-k53, Cost: 80050.00, Optimal: 78355.00, Gap: 2.1632%, Time: 2.7914s
+num_nodes 323 tensor(52003, device='cuda:0') 52003.0
+Instance: X-n322-k28, Cost: 32118.00, Optimal: 29834.00, Gap: 7.6557%, Time: 2.8353s
+num_nodes 328 tensor(53628, device='cuda:0') 53628.0
+Instance: X-n327-k20, Cost: 28990.00, Optimal: 27532.00, Gap: 5.2957%, Time: 2.9365s
+num_nodes 332 tensor(54946, device='cuda:0') 54946.0
+Instance: X-n331-k15, Cost: 32213.00, Optimal: 31102.00, Gap: 3.5721%, Time: 2.9183s
+num_nodes 337 tensor(56616, device='cuda:0') 56616.0
+Instance: X-n336-k84, Cost: 158255.00, Optimal: 139111.00, Gap: 13.7617%, Time: 2.9659s
+num_nodes 345 tensor(59340, device='cuda:0') 59340.0
+Instance: X-n344-k43, Cost: 43953.00, Optimal: 42050.00, Gap: 4.5256%, Time: 3.0344s
+num_nodes 352 tensor(61776, device='cuda:0') 61776.0
+Instance: X-n351-k40, Cost: 28193.00, Optimal: 25896.00, Gap: 8.8701%, Time: 3.1240s
+num_nodes 360 tensor(64620, device='cuda:0') 64620.0
+Instance: X-n359-k29, Cost: 52970.00, Optimal: 51505.00, Gap: 2.8444%, Time: 3.1705s
+num_nodes 368 tensor(67528, device='cuda:0') 67528.0
+Instance: X-n367-k17, Cost: 24944.00, Optimal: 22814.00, Gap: 9.3364%, Time: 3.2494s
+num_nodes 377 tensor(70876, device='cuda:0') 70876.0
+Instance: X-n376-k94, Cost: 151978.00, Optimal: 147713.00, Gap: 2.8874%, Time: 3.3365s
+num_nodes 385 tensor(73920, device='cuda:0') 73920.0
+Instance: X-n384-k52, Cost: 69780.00, Optimal: 65940.00, Gap: 5.8235%, Time: 3.4275s
+num_nodes 394 tensor(77421, device='cuda:0') 77421.0
+Instance: X-n393-k38, Cost: 41372.00, Optimal: 38260.00, Gap: 8.1338%, Time: 3.4844s
+num_nodes 402 tensor(80601, device='cuda:0') 80601.0
+Instance: X-n401-k29, Cost: 70706.00, Optimal: 66154.00, Gap: 6.8809%, Time: 3.5572s
+num_nodes 412 tensor(84666, device='cuda:0') 84666.0
+Instance: X-n411-k19, Cost: 21398.00, Optimal: 19712.00, Gap: 8.5532%, Time: 3.6456s
+num_nodes 421 tensor(88410, device='cuda:0') 88410.0
+Instance: X-n420-k130, Cost: 127111.00, Optimal: 107798.00, Gap: 17.9159%, Time: 3.7586s
+num_nodes 430 tensor(92235, device='cuda:0') 92235.0
+Instance: X-n429-k61, Cost: 68786.00, Optimal: 65449.00, Gap: 5.0986%, Time: 3.8018s
+num_nodes 440 tensor(96580, device='cuda:0') 96580.0
+Instance: X-n439-k37, Cost: 37425.00, Optimal: 36391.00, Gap: 2.8414%, Time: 3.9031s
+num_nodes 450 tensor(101025, device='cuda:0') 101025.0
+Instance: X-n449-k29, Cost: 60305.00, Optimal: 55233.00, Gap: 9.1829%, Time: 4.0057s
+num_nodes 460 tensor(105570, device='cuda:0') 105570.0
+Instance: X-n459-k26, Cost: 25429.00, Optimal: 24139.00, Gap: 5.3440%, Time: 4.0776s
+num_nodes 470 tensor(110215, device='cuda:0') 110215.0
+Instance: X-n469-k138, Cost: 258536.00, Optimal: 221824.00, Gap: 16.5501%, Time: 4.1728s
+num_nodes 481 tensor(115440, device='cuda:0') 115440.0
+Instance: X-n480-k70, Cost: 92867.00, Optimal: 89449.00, Gap: 3.8212%, Time: 4.2703s
+num_nodes 492 tensor(120786, device='cuda:0') 120786.0
+Instance: X-n491-k59, Cost: 71611.00, Optimal: 66483.00, Gap: 7.7133%, Time: 4.4028s
+num_nodes 503 tensor(126253, device='cuda:0') 126253.0
+Instance: X-n502-k39, Cost: 71104.00, Optimal: 69226.00, Gap: 2.7129%, Time: 4.4706s
+num_nodes 514 tensor(131841, device='cuda:0') 131841.0
+Instance: X-n513-k21, Cost: 26828.00, Optimal: 24201.00, Gap: 10.8549%, Time: 4.5738s
+num_nodes 525 tensor(137550, device='cuda:0') 137550.0
+Instance: X-n524-k153, Cost: 196772.00, Optimal: 154593.00, Gap: 27.2839%, Time: 4.7033s
+num_nodes 537 tensor(143916, device='cuda:0') 143916.0
+Instance: X-n536-k96, Cost: 102894.00, Optimal: 94846.00, Gap: 8.4853%, Time: 4.7853s
+num_nodes 549 tensor(150426, device='cuda:0') 150426.0
+Instance: X-n548-k50, Cost: 87972.00, Optimal: 86700.00, Gap: 1.4671%, Time: 4.9152s
+num_nodes 562 tensor(157641, device='cuda:0') 157641.0
+Instance: X-n561-k42, Cost: 45193.00, Optimal: 42717.00, Gap: 5.7963%, Time: 5.0178s
+num_nodes 574 tensor(164451, device='cuda:0') 164451.0
+Instance: X-n573-k30, Cost: 57062.00, Optimal: 50673.00, Gap: 12.6083%, Time: 5.1631s
+num_nodes 587 tensor(171991, device='cuda:0') 171991.0
+Instance: X-n586-k159, Cost: 211399.00, Optimal: 190316.00, Gap: 11.0779%, Time: 5.2653s
+num_nodes 600 tensor(179700, device='cuda:0') 179700.0
+Instance: X-n599-k92, Cost: 114215.00, Optimal: 108451.00, Gap: 5.3148%, Time: 5.3676s
+num_nodes 614 tensor(188191, device='cuda:0') 188191.0
+Instance: X-n613-k62, Cost: 64973.00, Optimal: 59535.00, Gap: 9.1341%, Time: 5.5311s
+num_nodes 628 tensor(196878, device='cuda:0') 196878.0
+Instance: X-n627-k43, Cost: 65905.00, Optimal: 62164.00, Gap: 6.0180%, Time: 5.6301s
+num_nodes 642 tensor(205761, device='cuda:0') 205761.0
+Instance: X-n641-k35, Cost: 66298.00, Optimal: 63684.00, Gap: 4.1046%, Time: 5.7529s
+num_nodes 656 tensor(214840, device='cuda:0') 214840.0
+Instance: X-n655-k131, Cost: 111060.00, Optimal: 106780.00, Gap: 4.0082%, Time: 5.9220s
+num_nodes 671 tensor(224785, device='cuda:0') 224785.0
+Instance: X-n670-k130, Cost: 192648.00, Optimal: 146332.00, Gap: 31.6513%, Time: 6.0175s
+num_nodes 686 tensor(234955, device='cuda:0') 234955.0
+Instance: X-n685-k75, Cost: 74972.00, Optimal: 68205.00, Gap: 9.9216%, Time: 6.1557s
+num_nodes 702 tensor(246051, device='cuda:0') 246051.0
+Instance: X-n701-k44, Cost: 85105.00, Optimal: 81923.00, Gap: 3.8841%, Time: 6.3346s
+num_nodes 717 tensor(256686, device='cuda:0') 256686.0
+Instance: X-n716-k35, Cost: 47837.00, Optimal: 43373.00, Gap: 10.2921%, Time: 6.4454s
+num_nodes 734 tensor(269011, device='cuda:0') 269011.0
+Instance: X-n733-k159, Cost: 149513.00, Optimal: 136187.00, Gap: 9.7851%, Time: 6.6049s
+num_nodes 750 tensor(280875, device='cuda:0') 280875.0
+Instance: X-n749-k98, Cost: 84095.00, Optimal: 77269.00, Gap: 8.8341%, Time: 6.7616s
+num_nodes 767 tensor(293761, device='cuda:0') 293761.0
+Instance: X-n766-k71, Cost: 133830.00, Optimal: 114417.00, Gap: 16.9669%, Time: 6.8897s
+num_nodes 784 tensor(306936, device='cuda:0') 306936.0
+Instance: X-n783-k48, Cost: 77078.00, Optimal: 72386.00, Gap: 6.4819%, Time: 7.0176s
+num_nodes 802 tensor(321201, device='cuda:0') 321201.0
+Instance: X-n801-k40, Cost: 75763.00, Optimal: 73311.00, Gap: 3.3447%, Time: 7.2033s
+num_nodes 820 tensor(335790, device='cuda:0') 335790.0
+Instance: X-n819-k171, Cost: 172802.00, Optimal: 158121.00, Gap: 9.2847%, Time: 7.3444s
+num_nodes 838 tensor(350703, device='cuda:0') 350703.0
+Instance: X-n837-k142, Cost: 201460.00, Optimal: 193737.00, Gap: 3.9863%, Time: 7.5085s
+num_nodes 857 tensor(366796, device='cuda:0') 366796.0
+Instance: X-n856-k95, Cost: 92128.00, Optimal: 88965.00, Gap: 3.5553%, Time: 7.6983s
+num_nodes 877 tensor(384126, device='cuda:0') 384126.0
+Instance: X-n876-k59, Cost: 108005.00, Optimal: 99299.00, Gap: 8.7675%, Time: 7.8526s
+num_nodes 896 tensor(400960, device='cuda:0') 400960.0
+Instance: X-n895-k37, Cost: 56704.00, Optimal: 53860.00, Gap: 5.2804%, Time: 8.0280s
+num_nodes 917 tensor(419986, device='cuda:0') 419986.0
+Instance: X-n916-k207, Cost: 355500.00, Optimal: 329179.00, Gap: 7.9960%, Time: 8.2482s
+num_nodes 937 tensor(438516, device='cuda:0') 438516.0
+Instance: X-n936-k151, Cost: 169986.00, Optimal: 132715.00, Gap: 28.0835%, Time: 8.3801s
+num_nodes 958 tensor(458403, device='cuda:0') 458403.0
+Instance: X-n957-k87, Cost: 89049.00, Optimal: 85465.00, Gap: 4.1935%, Time: 8.5562s
+num_nodes 980 tensor(479710, device='cuda:0') 479710.0
+Instance: X-n979-k58, Cost: 130335.00, Optimal: 118976.00, Gap: 9.5473%, Time: 8.7749s
+num_nodes 1002 tensor(501501, device='cuda:0') 501501.0
+Instance: X-n1001-k43, Cost: 75931.00, Optimal: 72355.00, Gap: 4.9423%, Time: 8.9731s
+num_nodes 3002 tensor(4504501, device='cuda:0') 4504501.0
+Instance: Leuven1, Cost: 232202.00, Optimal: 192848.00, Gap: 20.4067%, Time: 27.2906s
+num_nodes 4002 tensor(8006001, device='cuda:0') 8006001.0
+Instance: Leuven2, Cost: 146762.00, Optimal: 111395.00, Gap: 31.7492%, Time: 36.8486s
+num_nodes 6002 tensor(18009001, device='cuda:0') 18009001.0
+Instance: Antwerp1, Cost: 556032.00, Optimal: 477277.00, Gap: 16.5009%, Time: 57.6868s
+num_nodes 7002 tensor(24510501, device='cuda:0') 24510501.0
+Instance: Antwerp2, Cost: 372339.00, Optimal: 291350.00, Gap: 27.7978%, Time: 69.0431s
+num_nodes 10002 tensor(50015001, device='cuda:0') 50015001.0
+Instance: Ghent1, Cost: 590128.00, Optimal: 469531.00, Gap: 25.6846%, Time: 108.5516s
+num_nodes 11002 tensor(60516501, device='cuda:0') 60516501.0
+Instance: Ghent2, Cost: 401691.00, Optimal: 257749.00, Gap: 55.8458%, Time: 124.5475s
+num_nodes 15002 tensor(112522501, device='cuda:0') 112522501.0
+Instance: Brussels1, Cost: 678896.00, Optimal: 501719.00, Gap: 35.3140%, Time: 203.0829s
+num_nodes 16002 tensor(128024001, device='cuda:0') 128024001.0
+Instance: Brussels2, Cost: 528997.00, Optimal: 345468.00, Gap: 53.1247%, Time: 227.8444s
+num_nodes 20002 tensor(200030001, device='cuda:0') 200030001.0
+Instance: Flanders1, Cost: 9962853.00, Optimal: 7240118.00, Gap: 37.6062%, Time: 349.4043s
+num_nodes 30002 tensor(450045001, device='cuda:0') 450045001.0
+Skipping Instance: Flanders2, Gap: 108.6259% > 100%
+
+====================================================================================================
+Bucket               | Valid Count  | Avg Time (s)    | Avg Gap (%)    
+----------------------------------------------------------------------------------------------------
+0_1000               | 99           | 3.6329          | 8.8716         
+1000_10000           | 5            | 39.9684         | 20.2794        
+10000_100000         | 5            | 202.6861        | 41.5151        
+total                | 109          | 14.4306         | 10.8923        
+----------------------------------------------------------------------------------------------------
+Total Instances Processed: 110
+Valid Instances (Gap <= 100%): 109
+Skipped Instances (Gap > 100%): 1
+====================================================================================================
+
+Inference time 2477.515s

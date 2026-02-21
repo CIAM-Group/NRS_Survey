@@ -1,0 +1,1590 @@
+nohup: ignoring input
+Namespace(activation_attention='softmax', activation_ff='relu', batchnorm=False, beam_size=1, cuda_device_num=0, debug=False, decay_every=50, decay_rate=0.99, dim_emb=192, dim_ff=512, dropout=0.0, episode=8, knns=250, lr=0.00025, nb_heads=12, nb_layers_encoder=9, nb_total_epochs=1000, output_dir='output/', pretrained_model='/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/pretrained_models/tsp.best', seed=None, test_batch_size=1, test_dataset='/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/data/TSP_survey_converted.txt', test_every=100, test_only=False, train_batch_size=512, train_dataset=None, val_batch_size=1024, val_dataset=None)
+Using 1 GPU(s)
+Total number of parameters: 3107539
+trying to load: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/pretrained_models/tsp.best
+loaded checkpoint: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/1_BQ_fixed/pretrained_models/tsp.best
+[17629.1667, 32351.944499999998, 64.0, 1735.0, 99.0, 72.0, 19600.0, 215.0, 3936.0, 3935.0, 3933.0, 3921.0, 3971.0, 980.8056700000001, 75.0, 3024.0, 11725.0, 11785.0, 19372.0, 698.3148139197, 107.0, 12460.0, 12900.0, 699.1177233917, 3963.0, 3938.0, 14078.0, 6400.0, 26870.833400000003, 292.0, 4028.3, 3949.0, 3943.0, 12000.0, 488.77, 15225.0, 132.0, 198.0, 7925.0, 280.0, 7260.0, 4134.0, 299.0, 299.0, 167.0, 122.0, 995.56935, 122.0, 1895.514, 110.0, 122.0, 11925.0, 3800.0, 3745.2, 3072.01, 499.0, 4815.0, 4005.6, 227.0, 185.0, 2902.89, 28283.333400000003, 294.0, 580.0, 306.0, 17283.3333, 144.0, 44438.888900000005, 143.0, 1042501.0, 1085907.0, 1120116.0, 1118168.0, 1144979.0, 1160493.0, 1135102.0, 1047304.0, 1128073.0, 1062822.0, 1224864.0, 15800.0, 20017.91, 251.0, 18688.0, 3286.0, 3961.2, 18835.0, 18976.0, 258.0, 5256.0, 331.0, 2104.61, 6700.0, 349.0, 264.0, 323.0, 1937.2839999999999, 243.0, 240.0, 339.0, 29548.0555, 3726.2, 18868.0, 249.0, 2844.7799999999997, 18976.0, 288.0, 579.0, 43128.6111, 253.0, 246.0, 4348.2, 370.0, 2844.7999999999997, 279.0, 324.0, 252.0, 6700.0, 778.0, 714.0, 14410.0, 284.0, 299.0, 376.0, 284.0, 445.0, 276.0, 299.0, 251.0, 4013.0, 299.0, 359.0, 330.0, 348.0, 1046123.0, 1066253.0, 1098637.0, 1086423.0, 1073447.0, 385.0, 402.0, 339.0, 76883.3333, 1136.0, 1232.0, 332.0, 549.0, 2104.61, 382.0, 358.0, 720.0, 359.0, 380.0, 676.0, 455.0, 5036.0, 672.0, 99183.3333, 1299.0, 1115.0, 534.0, 19010.0, 18976.0, 39427.2222, 539.0, 13267.5, 580.0, 627925.0, 532.0, 42266.6667, 75683.3333, 543.0, 49357.5, 50900.0, 618.0, 121883.3333, 22333.333400000003, 46450.0, 1035865.0, 1056163.0, 1047706.0, 599.0, 50550.0, 19040.0, 999408.3330000001, 599.0, 8559.0, 34885.555499999995, 866.0, 76316.6666, 23878.0, 40366.6667, 1390.0, 892.0, 8559.0, 808.0, 980.0, 719.0, 1365.0, 100850.0, 754.0, 1223.0, 57933.3334, 849.0, 1287.0, 837.0, 1020.0, 1539.0, 888.0, 1321.0, 1028240.0, 1025185.0, 1371.0, 1483.0, 91133.3334, 697900.0, 969.0, 1199.0, 1379.0, 1315.0, 1527.0, 1403.0, 1205.0, 1347.0, 116450.0, 904000.0, 1014831.0, 1016359.0]
+Execution time: 0.6105771064758301 seconds predicted_tour_lens tensor([27603.], device='cuda:0') factor: 17629.1667
+Instance: wi29, Dimension: 29, Cost: 27603.00, Optimal: 27603.00, Gap: 0.0000%, Time: 0.611s
+[0-1000] count: 1, mean time: 0.611s, mean gap: 0.0000%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 1, mean time: 0.611s, mean gap: 0.0000%
+--------------------------------------------------
+Execution time: 0.26779794692993164 seconds predicted_tour_lens tensor([7333.], device='cuda:0') factor: 32351.944499999998
+Instance: dj38, Dimension: 38, Cost: 7333.00, Optimal: 6656.00, Gap: 10.1713%, Time: 0.268s
+[0-1000] count: 2, mean time: 0.439s, mean gap: 5.0856%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 2, mean time: 0.439s, mean gap: 5.0856%
+--------------------------------------------------
+Execution time: 0.3639650344848633 seconds predicted_tour_lens tensor([430.], device='cuda:0') factor: 64.0
+Instance: eil51, Dimension: 51, Cost: 430.00, Optimal: 426.00, Gap: 0.9390%, Time: 0.364s
+[0-1000] count: 3, mean time: 0.414s, mean gap: 3.7034%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 3, mean time: 0.414s, mean gap: 3.7034%
+--------------------------------------------------
+Execution time: 0.3708763122558594 seconds predicted_tour_lens tensor([7542.], device='cuda:0') factor: 1735.0
+Instance: berlin52, Dimension: 52, Cost: 7542.00, Optimal: 7542.00, Gap: 0.0000%, Time: 0.371s
+[0-1000] count: 4, mean time: 0.403s, mean gap: 2.7776%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 4, mean time: 0.403s, mean gap: 2.7776%
+--------------------------------------------------
+Execution time: 0.5151097774505615 seconds predicted_tour_lens tensor([675.], device='cuda:0') factor: 99.0
+Instance: st70, Dimension: 70, Cost: 675.00, Optimal: 675.00, Gap: 0.0000%, Time: 0.515s
+[0-1000] count: 5, mean time: 0.426s, mean gap: 2.2220%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 5, mean time: 0.426s, mean gap: 2.2220%
+--------------------------------------------------
+Execution time: 0.564061164855957 seconds predicted_tour_lens tensor([538.], device='cuda:0') factor: 72.0
+Instance: eil76, Dimension: 76, Cost: 538.00, Optimal: 538.00, Gap: 0.0000%, Time: 0.564s
+[0-1000] count: 6, mean time: 0.449s, mean gap: 1.8517%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 6, mean time: 0.449s, mean gap: 1.8517%
+--------------------------------------------------
+Execution time: 0.5629556179046631 seconds predicted_tour_lens tensor([109158.], device='cuda:0') factor: 19600.0
+Instance: pr76, Dimension: 76, Cost: 109158.00, Optimal: 108159.00, Gap: 0.9236%, Time: 0.563s
+[0-1000] count: 7, mean time: 0.465s, mean gap: 1.7191%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 7, mean time: 0.465s, mean gap: 1.7191%
+--------------------------------------------------
+Execution time: 0.7525742053985596 seconds predicted_tour_lens tensor([1218.], device='cuda:0') factor: 215.0
+Instance: rat99, Dimension: 99, Cost: 1218.00, Optimal: 1211.00, Gap: 0.5780%, Time: 0.753s
+[0-1000] count: 8, mean time: 0.501s, mean gap: 1.5765%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 8, mean time: 0.501s, mean gap: 1.5765%
+--------------------------------------------------
+Execution time: 0.759598970413208 seconds predicted_tour_lens tensor([21305.], device='cuda:0') factor: 3936.0
+Instance: kroA100, Dimension: 100, Cost: 21305.00, Optimal: 21282.00, Gap: 0.1081%, Time: 0.760s
+[0-1000] count: 9, mean time: 0.530s, mean gap: 1.4133%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 9, mean time: 0.530s, mean gap: 1.4133%
+--------------------------------------------------
+Execution time: 0.7591533660888672 seconds predicted_tour_lens tensor([22270.], device='cuda:0') factor: 3935.0
+Instance: kroB100, Dimension: 100, Cost: 22270.00, Optimal: 22141.00, Gap: 0.5826%, Time: 0.759s
+[0-1000] count: 10, mean time: 0.553s, mean gap: 1.3303%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 10, mean time: 0.553s, mean gap: 1.3303%
+--------------------------------------------------
+Execution time: 0.7588906288146973 seconds predicted_tour_lens tensor([20749.], device='cuda:0') factor: 3933.0
+Instance: kroC100, Dimension: 100, Cost: 20749.00, Optimal: 20749.00, Gap: 0.0000%, Time: 0.759s
+[0-1000] count: 11, mean time: 0.571s, mean gap: 1.2093%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 11, mean time: 0.571s, mean gap: 1.2093%
+--------------------------------------------------
+Execution time: 0.7572996616363525 seconds predicted_tour_lens tensor([21294.], device='cuda:0') factor: 3921.0
+Instance: kroD100, Dimension: 100, Cost: 21294.00, Optimal: 21294.00, Gap: 0.0000%, Time: 0.757s
+[0-1000] count: 12, mean time: 0.587s, mean gap: 1.1086%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 12, mean time: 0.587s, mean gap: 1.1086%
+--------------------------------------------------
+Execution time: 0.7532117366790771 seconds predicted_tour_lens tensor([22137.], device='cuda:0') factor: 3971.0
+Instance: kroE100, Dimension: 100, Cost: 22137.00, Optimal: 22068.00, Gap: 0.3127%, Time: 0.753s
+[0-1000] count: 13, mean time: 0.600s, mean gap: 1.0473%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 13, mean time: 0.600s, mean gap: 1.0473%
+--------------------------------------------------
+Execution time: 0.753711462020874 seconds predicted_tour_lens tensor([7910.], device='cuda:0') factor: 980.8056700000001
+Instance: rd100, Dimension: 100, Cost: 7910.00, Optimal: 7910.00, Gap: 0.0000%, Time: 0.754s
+[0-1000] count: 14, mean time: 0.611s, mean gap: 0.9725%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 14, mean time: 0.611s, mean gap: 0.9725%
+--------------------------------------------------
+Execution time: 0.7604951858520508 seconds predicted_tour_lens tensor([637.], device='cuda:0') factor: 75.0
+Instance: eil101, Dimension: 101, Cost: 637.00, Optimal: 629.00, Gap: 1.2719%, Time: 0.760s
+[0-1000] count: 15, mean time: 0.621s, mean gap: 0.9925%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 15, mean time: 0.621s, mean gap: 0.9925%
+--------------------------------------------------
+Execution time: 0.7941269874572754 seconds predicted_tour_lens tensor([14379.], device='cuda:0') factor: 3024.0
+Instance: lin105, Dimension: 105, Cost: 14379.00, Optimal: 14379.00, Gap: 0.0000%, Time: 0.794s
+[0-1000] count: 16, mean time: 0.632s, mean gap: 0.9304%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 16, mean time: 0.632s, mean gap: 0.9304%
+--------------------------------------------------
+Execution time: 0.8098695278167725 seconds predicted_tour_lens tensor([50476.], device='cuda:0') factor: 11725.0
+Instance: pr107, Dimension: 107, Cost: 50476.00, Optimal: 44303.00, Gap: 13.9336%, Time: 0.810s
+[0-1000] count: 17, mean time: 0.642s, mean gap: 1.6953%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 17, mean time: 0.642s, mean gap: 1.6953%
+--------------------------------------------------
+Execution time: 0.946864128112793 seconds predicted_tour_lens tensor([59551.], device='cuda:0') factor: 11785.0
+Instance: pr124, Dimension: 124, Cost: 59551.00, Optimal: 59030.00, Gap: 0.8826%, Time: 0.947s
+[0-1000] count: 18, mean time: 0.659s, mean gap: 1.6502%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 18, mean time: 0.659s, mean gap: 1.6502%
+--------------------------------------------------
+Execution time: 0.9709312915802002 seconds predicted_tour_lens tensor([123875.], device='cuda:0') factor: 19372.0
+Instance: bier127, Dimension: 127, Cost: 123875.00, Optimal: 118282.00, Gap: 4.7285%, Time: 0.971s
+[0-1000] count: 19, mean time: 0.675s, mean gap: 1.8122%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 19, mean time: 0.675s, mean gap: 1.8122%
+--------------------------------------------------
+Execution time: 0.9944438934326172 seconds predicted_tour_lens tensor([6145.], device='cuda:0') factor: 698.3148139197
+Instance: ch130, Dimension: 130, Cost: 6145.00, Optimal: 6110.00, Gap: 0.5728%, Time: 0.994s
+[0-1000] count: 20, mean time: 0.691s, mean gap: 1.7502%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 20, mean time: 0.691s, mean gap: 1.7502%
+--------------------------------------------------
+Execution time: 1.0033984184265137 seconds predicted_tour_lens tensor([578.], device='cuda:0') factor: 107.0
+Instance: xqf131, Dimension: 131, Cost: 578.00, Optimal: 564.00, Gap: 2.4823%, Time: 1.003s
+[0-1000] count: 21, mean time: 0.706s, mean gap: 1.7851%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 21, mean time: 0.706s, mean gap: 1.7851%
+--------------------------------------------------
+Execution time: 1.0450658798217773 seconds predicted_tour_lens tensor([96781.], device='cuda:0') factor: 12460.0
+Instance: pr136, Dimension: 136, Cost: 96781.00, Optimal: 96772.00, Gap: 0.0093%, Time: 1.045s
+[0-1000] count: 22, mean time: 0.722s, mean gap: 1.7044%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 22, mean time: 0.722s, mean gap: 1.7044%
+--------------------------------------------------
+Execution time: 1.1082217693328857 seconds predicted_tour_lens tensor([58919.], device='cuda:0') factor: 12900.0
+Instance: pr144, Dimension: 144, Cost: 58919.00, Optimal: 58537.00, Gap: 0.6526%, Time: 1.108s
+[0-1000] count: 23, mean time: 0.738s, mean gap: 1.6586%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 23, mean time: 0.738s, mean gap: 1.6586%
+--------------------------------------------------
+Execution time: 1.15675687789917 seconds predicted_tour_lens tensor([6578.], device='cuda:0') factor: 699.1177233917
+Instance: ch150, Dimension: 150, Cost: 6578.00, Optimal: 6528.00, Gap: 0.7659%, Time: 1.157s
+[0-1000] count: 24, mean time: 0.756s, mean gap: 1.6214%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 24, mean time: 0.756s, mean gap: 1.6214%
+--------------------------------------------------
+Execution time: 1.1554045677185059 seconds predicted_tour_lens tensor([26627.], device='cuda:0') factor: 3963.0
+Instance: kroA150, Dimension: 150, Cost: 26627.00, Optimal: 26524.00, Gap: 0.3883%, Time: 1.155s
+[0-1000] count: 25, mean time: 0.772s, mean gap: 1.5721%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 25, mean time: 0.772s, mean gap: 1.5721%
+--------------------------------------------------
+Execution time: 1.15708589553833 seconds predicted_tour_lens tensor([26141.], device='cuda:0') factor: 3938.0
+Instance: kroB150, Dimension: 150, Cost: 26141.00, Optimal: 26130.00, Gap: 0.0421%, Time: 1.157s
+[0-1000] count: 26, mean time: 0.787s, mean gap: 1.5133%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 26, mean time: 0.787s, mean gap: 1.5133%
+--------------------------------------------------
+Execution time: 1.172933578491211 seconds predicted_tour_lens tensor([81568.], device='cuda:0') factor: 14078.0
+Instance: pr152, Dimension: 152, Cost: 81568.00, Optimal: 73682.00, Gap: 10.7027%, Time: 1.173s
+[0-1000] count: 27, mean time: 0.801s, mean gap: 1.8536%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 27, mean time: 0.801s, mean gap: 1.8536%
+--------------------------------------------------
+Execution time: 1.2311177253723145 seconds predicted_tour_lens tensor([42418.], device='cuda:0') factor: 6400.0
+Instance: u159, Dimension: 159, Cost: 42418.00, Optimal: 42080.00, Gap: 0.8032%, Time: 1.231s
+[0-1000] count: 28, mean time: 0.816s, mean gap: 1.8161%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 28, mean time: 0.816s, mean gap: 1.8161%
+--------------------------------------------------
+Execution time: 1.5934946537017822 seconds predicted_tour_lens tensor([16361.], device='cuda:0') factor: 26870.833400000003
+Instance: qa194, Dimension: 194, Cost: 16361.00, Optimal: 9352.00, Gap: 74.9465%, Time: 1.593s
+[0-1000] count: 29, mean time: 0.843s, mean gap: 4.3379%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 29, mean time: 0.843s, mean gap: 4.3379%
+--------------------------------------------------
+Execution time: 1.6365957260131836 seconds predicted_tour_lens tensor([2334.], device='cuda:0') factor: 292.0
+Instance: rat195, Dimension: 195, Cost: 2334.00, Optimal: 2323.00, Gap: 0.4735%, Time: 1.637s
+[0-1000] count: 30, mean time: 0.870s, mean gap: 4.2090%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 30, mean time: 0.870s, mean gap: 4.2090%
+--------------------------------------------------
+Execution time: 1.673612356185913 seconds predicted_tour_lens tensor([18525.], device='cuda:0') factor: 4028.3
+Instance: d198, Dimension: 198, Cost: 18525.00, Optimal: 15780.00, Gap: 17.3954%, Time: 1.674s
+[0-1000] count: 31, mean time: 0.895s, mean gap: 4.6344%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 31, mean time: 0.895s, mean gap: 4.6344%
+--------------------------------------------------
+Execution time: 1.6331501007080078 seconds predicted_tour_lens tensor([29556.], device='cuda:0') factor: 3949.0
+Instance: kroA200, Dimension: 200, Cost: 29556.00, Optimal: 29368.00, Gap: 0.6402%, Time: 1.633s
+[0-1000] count: 32, mean time: 0.919s, mean gap: 4.5096%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 32, mean time: 0.919s, mean gap: 4.5096%
+--------------------------------------------------
+Execution time: 1.53385591506958 seconds predicted_tour_lens tensor([29519.], device='cuda:0') factor: 3943.0
+Instance: kroB200, Dimension: 200, Cost: 29519.00, Optimal: 29437.00, Gap: 0.2786%, Time: 1.534s
+[0-1000] count: 33, mean time: 0.937s, mean gap: 4.3814%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 33, mean time: 0.937s, mean gap: 4.3814%
+--------------------------------------------------
+Execution time: 1.7212059497833252 seconds predicted_tour_lens tensor([126643.], device='cuda:0') factor: 12000.0
+Instance: ts225, Dimension: 225, Cost: 126643.00, Optimal: 126643.00, Gap: 0.0000%, Time: 1.721s
+[0-1000] count: 34, mean time: 0.960s, mean gap: 4.2525%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 34, mean time: 0.960s, mean gap: 4.2525%
+--------------------------------------------------
+Execution time: 1.7238645553588867 seconds predicted_tour_lens tensor([3962.], device='cuda:0') factor: 488.77
+Instance: tsp225, Dimension: 225, Cost: 3962.00, Optimal: 3916.00, Gap: 1.1747%, Time: 1.724s
+[0-1000] count: 35, mean time: 0.982s, mean gap: 4.1646%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 35, mean time: 0.982s, mean gap: 4.1646%
+--------------------------------------------------
+Execution time: 1.7333545684814453 seconds predicted_tour_lens tensor([80512.], device='cuda:0') factor: 15225.0
+Instance: pr226, Dimension: 226, Cost: 80512.00, Optimal: 80369.00, Gap: 0.1779%, Time: 1.733s
+[0-1000] count: 36, mean time: 1.003s, mean gap: 4.0538%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 36, mean time: 1.003s, mean gap: 4.0538%
+--------------------------------------------------
+Execution time: 1.81624436378479 seconds predicted_tour_lens tensor([1037.], device='cuda:0') factor: 132.0
+Instance: xqg237, Dimension: 237, Cost: 1037.00, Optimal: 1019.00, Gap: 1.7664%, Time: 1.816s
+[0-1000] count: 37, mean time: 1.025s, mean gap: 3.9920%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 37, mean time: 1.025s, mean gap: 3.9920%
+--------------------------------------------------
+Execution time: 2.017683982849121 seconds predicted_tour_lens tensor([2387.], device='cuda:0') factor: 198.0
+Instance: gil262, Dimension: 262, Cost: 2387.00, Optimal: 2378.00, Gap: 0.3785%, Time: 2.018s
+[0-1000] count: 38, mean time: 1.051s, mean gap: 3.8969%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 38, mean time: 1.051s, mean gap: 3.8969%
+--------------------------------------------------
+Execution time: 2.035595178604126 seconds predicted_tour_lens tensor([57544.], device='cuda:0') factor: 7925.0
+Instance: pr264, Dimension: 264, Cost: 57544.00, Optimal: 49135.00, Gap: 17.1141%, Time: 2.036s
+[0-1000] count: 39, mean time: 1.076s, mean gap: 4.2358%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 39, mean time: 1.076s, mean gap: 4.2358%
+--------------------------------------------------
+Execution time: 2.1618616580963135 seconds predicted_tour_lens tensor([2660.], device='cuda:0') factor: 280.0
+Instance: a280, Dimension: 280, Cost: 2660.00, Optimal: 2579.00, Gap: 3.1408%, Time: 2.162s
+[0-1000] count: 40, mean time: 1.103s, mean gap: 4.2084%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 40, mean time: 1.103s, mean gap: 4.2084%
+--------------------------------------------------
+Execution time: 2.3222596645355225 seconds predicted_tour_lens tensor([49051.], device='cuda:0') factor: 7260.0
+Instance: pr299, Dimension: 299, Cost: 49051.00, Optimal: 48191.00, Gap: 1.7846%, Time: 2.322s
+[0-1000] count: 41, mean time: 1.133s, mean gap: 4.1493%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 41, mean time: 1.133s, mean gap: 4.1493%
+--------------------------------------------------
+Execution time: 2.466259241104126 seconds predicted_tour_lens tensor([42165.], device='cuda:0') factor: 4134.0
+Instance: lin318, Dimension: 318, Cost: 42165.00, Optimal: 42029.00, Gap: 0.3236%, Time: 2.466s
+[0-1000] count: 42, mean time: 1.165s, mean gap: 4.0582%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 42, mean time: 1.165s, mean gap: 4.0582%
+--------------------------------------------------
+Execution time: 2.668872833251953 seconds predicted_tour_lens tensor([1460.], device='cuda:0') factor: 299.0
+Instance: pma343, Dimension: 343, Cost: 1460.00, Optimal: 1368.00, Gap: 6.7251%, Time: 2.669s
+[0-1000] count: 43, mean time: 1.200s, mean gap: 4.1203%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 43, mean time: 1.200s, mean gap: 4.1203%
+--------------------------------------------------
+Execution time: 2.9580838680267334 seconds predicted_tour_lens tensor([1425.], device='cuda:0') factor: 299.0
+Instance: pka379, Dimension: 379, Cost: 1425.00, Optimal: 1332.00, Gap: 6.9820%, Time: 2.958s
+[0-1000] count: 44, mean time: 1.240s, mean gap: 4.1853%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 44, mean time: 1.240s, mean gap: 4.1853%
+--------------------------------------------------
+Execution time: 2.95904541015625 seconds predicted_tour_lens tensor([1655.], device='cuda:0') factor: 167.0
+Instance: bcl380, Dimension: 380, Cost: 1655.00, Optimal: 1621.00, Gap: 2.0975%, Time: 2.959s
+[0-1000] count: 45, mean time: 1.278s, mean gap: 4.1389%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 45, mean time: 1.278s, mean gap: 4.1389%
+--------------------------------------------------
+Execution time: 3.0886902809143066 seconds predicted_tour_lens tensor([1299.], device='cuda:0') factor: 122.0
+Instance: pbl395, Dimension: 395, Cost: 1299.00, Optimal: 1281.00, Gap: 1.4052%, Time: 3.089s
+[0-1000] count: 46, mean time: 1.317s, mean gap: 4.0795%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 46, mean time: 1.317s, mean gap: 4.0795%
+--------------------------------------------------
+Execution time: 3.129063129425049 seconds predicted_tour_lens tensor([15355.], device='cuda:0') factor: 995.56935
+Instance: rd400, Dimension: 400, Cost: 15355.00, Optimal: 15281.00, Gap: 0.4843%, Time: 3.129s
+[0-1000] count: 47, mean time: 1.356s, mean gap: 4.0030%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 47, mean time: 1.356s, mean gap: 4.0030%
+--------------------------------------------------
+Execution time: 3.2120492458343506 seconds predicted_tour_lens tensor([1348.], device='cuda:0') factor: 122.0
+Instance: pbk411, Dimension: 411, Cost: 1348.00, Optimal: 1343.00, Gap: 0.3723%, Time: 3.212s
+[0-1000] count: 48, mean time: 1.395s, mean gap: 3.9273%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 48, mean time: 1.395s, mean gap: 3.9273%
+--------------------------------------------------
+Execution time: 3.261340379714966 seconds predicted_tour_lens tensor([14424.], device='cuda:0') factor: 1895.514
+Instance: fl417, Dimension: 417, Cost: 14424.00, Optimal: 11861.00, Gap: 21.6086%, Time: 3.261s
+[0-1000] count: 49, mean time: 1.433s, mean gap: 4.2882%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 49, mean time: 1.433s, mean gap: 4.2882%
+--------------------------------------------------
+Execution time: 3.3123228549957275 seconds predicted_tour_lens tensor([1365.], device='cuda:0') factor: 110.0
+Instance: pbn423, Dimension: 423, Cost: 1365.00, Optimal: 1365.00, Gap: 0.0000%, Time: 3.312s
+[0-1000] count: 50, mean time: 1.470s, mean gap: 4.2024%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 50, mean time: 1.470s, mean gap: 4.2024%
+--------------------------------------------------
+Execution time: 3.42433500289917 seconds predicted_tour_lens tensor([1471.], device='cuda:0') factor: 122.0
+Instance: pbm436, Dimension: 436, Cost: 1471.00, Optimal: 1443.00, Gap: 1.9404%, Time: 3.424s
+[0-1000] count: 51, mean time: 1.509s, mean gap: 4.1581%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 51, mean time: 1.509s, mean gap: 4.1581%
+--------------------------------------------------
+Execution time: 3.438539505004883 seconds predicted_tour_lens tensor([109467.], device='cuda:0') factor: 11925.0
+Instance: pr439, Dimension: 439, Cost: 109467.00, Optimal: 107217.00, Gap: 2.0985%, Time: 3.439s
+[0-1000] count: 52, mean time: 1.546s, mean gap: 4.1185%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 52, mean time: 1.546s, mean gap: 4.1185%
+--------------------------------------------------
+Execution time: 3.4593193531036377 seconds predicted_tour_lens tensor([51227.], device='cuda:0') factor: 3800.0
+Instance: pcb442, Dimension: 442, Cost: 51227.00, Optimal: 50778.00, Gap: 0.8842%, Time: 3.459s
+[0-1000] count: 53, mean time: 1.582s, mean gap: 4.0574%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 53, mean time: 1.582s, mean gap: 4.0574%
+--------------------------------------------------
+Execution time: 3.875312566757202 seconds predicted_tour_lens tensor([37590.], device='cuda:0') factor: 3745.2
+Instance: d493, Dimension: 493, Cost: 37590.00, Optimal: 35002.00, Gap: 7.3939%, Time: 3.875s
+[0-1000] count: 54, mean time: 1.624s, mean gap: 4.1192%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 54, mean time: 1.624s, mean gap: 4.1192%
+--------------------------------------------------
+Execution time: 4.529419660568237 seconds predicted_tour_lens tensor([37936.], device='cuda:0') factor: 3072.01
+Instance: u574, Dimension: 574, Cost: 37936.00, Optimal: 36905.00, Gap: 2.7937%, Time: 4.529s
+[0-1000] count: 55, mean time: 1.677s, mean gap: 4.0951%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 55, mean time: 1.677s, mean gap: 4.0951%
+--------------------------------------------------
+Execution time: 4.532843351364136 seconds predicted_tour_lens tensor([6906.], device='cuda:0') factor: 499.0
+Instance: rat575, Dimension: 575, Cost: 6906.00, Optimal: 6773.00, Gap: 1.9637%, Time: 4.533s
+[0-1000] count: 56, mean time: 1.728s, mean gap: 4.0571%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 56, mean time: 1.728s, mean gap: 4.0571%
+--------------------------------------------------
+Execution time: 5.17356014251709 seconds predicted_tour_lens tensor([38450.], device='cuda:0') factor: 4815.0
+Instance: p654, Dimension: 654, Cost: 38450.00, Optimal: 34643.00, Gap: 10.9892%, Time: 5.174s
+[0-1000] count: 57, mean time: 1.789s, mean gap: 4.1787%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 57, mean time: 1.789s, mean gap: 4.1787%
+--------------------------------------------------
+Execution time: 5.187711477279663 seconds predicted_tour_lens tensor([51087.], device='cuda:0') factor: 4005.6
+Instance: d657, Dimension: 657, Cost: 51087.00, Optimal: 48912.00, Gap: 4.4468%, Time: 5.188s
+[0-1000] count: 58, mean time: 1.847s, mean gap: 4.1833%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 58, mean time: 1.847s, mean gap: 4.1833%
+--------------------------------------------------
+Execution time: 5.2336931228637695 seconds predicted_tour_lens tensor([2629.], device='cuda:0') factor: 227.0
+Instance: xql662, Dimension: 662, Cost: 2629.00, Optimal: 2513.00, Gap: 4.6160%, Time: 5.234s
+[0-1000] count: 59, mean time: 1.905s, mean gap: 4.1906%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 59, mean time: 1.905s, mean gap: 4.1906%
+--------------------------------------------------
+Execution time: 5.610573768615723 seconds predicted_tour_lens tensor([3160.], device='cuda:0') factor: 185.0
+Instance: rbx711, Dimension: 711, Cost: 3160.00, Optimal: 3115.00, Gap: 1.4446%, Time: 5.611s
+[0-1000] count: 60, mean time: 1.966s, mean gap: 4.1449%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 60, mean time: 1.966s, mean gap: 4.1449%
+--------------------------------------------------
+Execution time: 5.726311683654785 seconds predicted_tour_lens tensor([43165.], device='cuda:0') factor: 2902.89
+Instance: u724, Dimension: 724, Cost: 43165.00, Optimal: 41910.00, Gap: 2.9945%, Time: 5.726s
+[0-1000] count: 61, mean time: 2.028s, mean gap: 4.1260%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 61, mean time: 2.028s, mean gap: 4.1260%
+--------------------------------------------------
+Execution time: 5.807030439376831 seconds predicted_tour_lens tensor([107274.], device='cuda:0') factor: 28283.333400000003
+Instance: uy734, Dimension: 734, Cost: 107274.00, Optimal: 79114.00, Gap: 35.5942%, Time: 5.807s
+[0-1000] count: 62, mean time: 2.089s, mean gap: 4.6336%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 62, mean time: 2.089s, mean gap: 4.6336%
+--------------------------------------------------
+Execution time: 5.826581001281738 seconds predicted_tour_lens tensor([3435.], device='cuda:0') factor: 294.0
+Instance: rbu737, Dimension: 737, Cost: 3435.00, Optimal: 3314.00, Gap: 3.6512%, Time: 5.827s
+[0-1000] count: 63, mean time: 2.148s, mean gap: 4.6180%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 63, mean time: 2.148s, mean gap: 4.6180%
+--------------------------------------------------
+Execution time: 6.208723306655884 seconds predicted_tour_lens tensor([9102.], device='cuda:0') factor: 580.0
+Instance: rat783, Dimension: 783, Cost: 9102.00, Optimal: 8806.00, Gap: 3.3613%, Time: 6.209s
+[0-1000] count: 64, mean time: 2.212s, mean gap: 4.5983%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 64, mean time: 2.212s, mean gap: 4.5983%
+--------------------------------------------------
+Execution time: 6.408250093460083 seconds predicted_tour_lens tensor([3439.], device='cuda:0') factor: 306.0
+Instance: dkg813, Dimension: 813, Cost: 3439.00, Optimal: 3199.00, Gap: 7.5023%, Time: 6.408s
+[0-1000] count: 65, mean time: 2.276s, mean gap: 4.6430%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 65, mean time: 2.276s, mean gap: 4.6430%
+--------------------------------------------------
+Execution time: 7.380666017532349 seconds predicted_tour_lens tensor([123566.], device='cuda:0') factor: 17283.3333
+Instance: zi929, Dimension: 929, Cost: 123566.00, Optimal: 95345.00, Gap: 29.5988%, Time: 7.381s
+[0-1000] count: 66, mean time: 2.354s, mean gap: 5.0211%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 66, mean time: 2.354s, mean gap: 5.0211%
+--------------------------------------------------
+Execution time: 7.65653657913208 seconds predicted_tour_lens tensor([2845.], device='cuda:0') factor: 144.0
+Instance: lim963, Dimension: 963, Cost: 2845.00, Optimal: 2789.00, Gap: 2.0079%, Time: 7.657s
+[0-1000] count: 67, mean time: 2.433s, mean gap: 4.9762%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 67, mean time: 2.433s, mean gap: 4.9762%
+--------------------------------------------------
+Execution time: 7.785356760025024 seconds predicted_tour_lens tensor([119844.], device='cuda:0') factor: 44438.888900000005
+Instance: lu980, Dimension: 980, Cost: 119844.00, Optimal: 11340.00, Gap: 956.8254%, Time: 7.785s
+  -> Gap 956.83% > 100%, excluded from statistics.
+[0-1000] count: 67, mean time: 2.433s, mean gap: 4.9762%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 67, mean time: 2.433s, mean gap: 4.9762%
+--------------------------------------------------
+Execution time: 7.81719446182251 seconds predicted_tour_lens tensor([2984.], device='cuda:0') factor: 143.0
+Instance: pbd984, Dimension: 984, Cost: 2984.00, Optimal: 2797.00, Gap: 6.6857%, Time: 7.817s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 0, mean time: NaN s, mean gap: NaN %
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 68, mean time: 2.512s, mean gap: 5.0013%
+--------------------------------------------------
+Execution time: 7.935478448867798 seconds predicted_tour_lens tensor([13934733.], device='cuda:0') factor: 1042501.0
+Instance: portcgen-1000-1000, Dimension: 1000, Cost: 13934733.00, Optimal: 11387430.00, Gap: 22.3694%, Time: 7.935s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 1, mean time: 7.935s, mean gap: 22.3694%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 69, mean time: 2.591s, mean gap: 5.2530%
+--------------------------------------------------
+Execution time: 7.932790040969849 seconds predicted_tour_lens tensor([13306680.], device='cuda:0') factor: 1085907.0
+Instance: portcgen-1000-10001, Dimension: 1000, Cost: 13306680.00, Optimal: 11376735.00, Gap: 16.9640%, Time: 7.933s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 2, mean time: 7.934s, mean gap: 19.6667%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 70, mean time: 2.667s, mean gap: 5.4203%
+--------------------------------------------------
+Execution time: 7.9480085372924805 seconds predicted_tour_lens tensor([12752240.], device='cuda:0') factor: 1120116.0
+Instance: portcgen-1000-10002, Dimension: 1000, Cost: 12752240.00, Optimal: 10855033.00, Gap: 17.4777%, Time: 7.948s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 3, mean time: 7.939s, mean gap: 18.9370%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 71, mean time: 2.741s, mean gap: 5.5901%
+--------------------------------------------------
+Execution time: 7.935609817504883 seconds predicted_tour_lens tensor([14232495.], device='cuda:0') factor: 1118168.0
+Instance: portcgen-1000-10003, Dimension: 1000, Cost: 14232495.00, Optimal: 11886457.00, Gap: 19.7371%, Time: 7.936s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 4, mean time: 7.938s, mean gap: 19.1370%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 72, mean time: 2.813s, mean gap: 5.7866%
+--------------------------------------------------
+Execution time: 7.943783760070801 seconds predicted_tour_lens tensor([13319983.], device='cuda:0') factor: 1144979.0
+Instance: portcgen-1000-10004, Dimension: 1000, Cost: 13319983.00, Optimal: 11499958.00, Gap: 15.8264%, Time: 7.944s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 5, mean time: 7.939s, mean gap: 18.4749%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 73, mean time: 2.884s, mean gap: 5.9241%
+--------------------------------------------------
+Execution time: 7.972950458526611 seconds predicted_tour_lens tensor([12854121.], device='cuda:0') factor: 1160493.0
+Instance: portcgen-1000-10005, Dimension: 1000, Cost: 12854121.00, Optimal: 11394911.00, Gap: 12.8058%, Time: 7.973s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 6, mean time: 7.945s, mean gap: 17.5300%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 74, mean time: 2.952s, mean gap: 6.0171%
+--------------------------------------------------
+Execution time: 7.943096876144409 seconds predicted_tour_lens tensor([11865588.], device='cuda:0') factor: 1135102.0
+Instance: portcgen-1000-10006, Dimension: 1000, Cost: 11865588.00, Optimal: 10166701.00, Gap: 16.7103%, Time: 7.943s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 7, mean time: 7.945s, mean gap: 17.4129%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 75, mean time: 3.019s, mean gap: 6.1597%
+--------------------------------------------------
+Execution time: 7.9393134117126465 seconds predicted_tour_lens tensor([12027398.], device='cuda:0') factor: 1047304.0
+Instance: portcgen-1000-10007, Dimension: 1000, Cost: 12027398.00, Optimal: 10664660.00, Gap: 12.7781%, Time: 7.939s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 8, mean time: 7.944s, mean gap: 16.8336%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 76, mean time: 3.084s, mean gap: 6.2468%
+--------------------------------------------------
+Execution time: 7.956899642944336 seconds predicted_tour_lens tensor([13133810.], device='cuda:0') factor: 1128073.0
+Instance: portcgen-1000-10008, Dimension: 1000, Cost: 13133810.00, Optimal: 11605723.00, Gap: 13.1667%, Time: 7.957s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 9, mean time: 7.945s, mean gap: 16.4261%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 77, mean time: 3.147s, mean gap: 6.3367%
+--------------------------------------------------
+Execution time: 7.94996976852417 seconds predicted_tour_lens tensor([12328360.], device='cuda:0') factor: 1062822.0
+Instance: portcgen-1000-10009, Dimension: 1000, Cost: 12328360.00, Optimal: 10906997.00, Gap: 13.0317%, Time: 7.950s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 10, mean time: 7.946s, mean gap: 16.0867%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 78, mean time: 3.209s, mean gap: 6.4225%
+--------------------------------------------------
+Execution time: 7.961810827255249 seconds predicted_tour_lens tensor([19959072.], device='cuda:0') factor: 1224864.0
+Instance: dsj1000, Dimension: 1000, Cost: 19959072.00, Optimal: 18660188.00, Gap: 6.9607%, Time: 7.962s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 11, mean time: 7.947s, mean gap: 15.2571%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 79, mean time: 3.269s, mean gap: 6.4293%
+--------------------------------------------------
+Execution time: 7.9844348430633545 seconds predicted_tour_lens tensor([267694.], device='cuda:0') factor: 15800.0
+Instance: pr1002, Dimension: 1002, Cost: 267694.00, Optimal: 259045.00, Gap: 3.3388%, Time: 7.984s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 12, mean time: 7.950s, mean gap: 14.2639%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 80, mean time: 3.328s, mean gap: 6.3907%
+--------------------------------------------------
+Execution time: 8.435417413711548 seconds predicted_tour_lens tensor([248122.], device='cuda:0') factor: 20017.91
+Instance: u1060, Dimension: 1060, Cost: 248122.00, Optimal: 224094.00, Gap: 10.7223%, Time: 8.435s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 13, mean time: 7.988s, mean gap: 13.9914%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 81, mean time: 3.391s, mean gap: 6.4442%
+--------------------------------------------------
+Execution time: 8.613300800323486 seconds predicted_tour_lens tensor([3748.], device='cuda:0') factor: 251.0
+Instance: xit1083, Dimension: 1083, Cost: 3748.00, Optimal: 3558.00, Gap: 5.3401%, Time: 8.613s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 14, mean time: 8.032s, mean gap: 13.3735%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 82, mean time: 3.454s, mean gap: 6.4307%
+--------------------------------------------------
+Execution time: 8.66712760925293 seconds predicted_tour_lens tensor([249846.], device='cuda:0') factor: 18688.0
+Instance: vm1084, Dimension: 1084, Cost: 249846.00, Optimal: 239297.00, Gap: 4.4083%, Time: 8.667s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 15, mean time: 8.075s, mean gap: 12.7758%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 83, mean time: 3.517s, mean gap: 6.4063%
+--------------------------------------------------
+Execution time: 9.280433177947998 seconds predicted_tour_lens tensor([60044.], device='cuda:0') factor: 3286.0
+Instance: pcb1173, Dimension: 1173, Cost: 60044.00, Optimal: 56892.00, Gap: 5.5403%, Time: 9.280s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 16, mean time: 8.150s, mean gap: 12.3236%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 84, mean time: 3.586s, mean gap: 6.3960%
+--------------------------------------------------
+Execution time: 10.257498502731323 seconds predicted_tour_lens tensor([56001.], device='cuda:0') factor: 3961.2
+Instance: d1291, Dimension: 1291, Cost: 56001.00, Optimal: 50801.00, Gap: 10.2360%, Time: 10.257s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 17, mean time: 8.274s, mean gap: 12.2008%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 85, mean time: 3.664s, mean gap: 6.4412%
+--------------------------------------------------
+Execution time: 10.36424446105957 seconds predicted_tour_lens tensor([274397.], device='cuda:0') factor: 18835.0
+Instance: rl1304, Dimension: 1304, Cost: 274397.00, Optimal: 252948.00, Gap: 8.4796%, Time: 10.364s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 18, mean time: 8.390s, mean gap: 11.9941%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 86, mean time: 3.742s, mean gap: 6.4649%
+--------------------------------------------------
+Execution time: 10.515668392181396 seconds predicted_tour_lens tensor([284900.], device='cuda:0') factor: 18976.0
+Instance: rl1323, Dimension: 1323, Cost: 284900.00, Optimal: 270199.00, Gap: 5.4408%, Time: 10.516s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 19, mean time: 8.502s, mean gap: 11.6492%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 87, mean time: 3.820s, mean gap: 6.4531%
+--------------------------------------------------
+Execution time: 11.037692546844482 seconds predicted_tour_lens tensor([4927.], device='cuda:0') factor: 258.0
+Instance: dka1376, Dimension: 1376, Cost: 4927.00, Optimal: 4666.00, Gap: 5.5937%, Time: 11.038s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 20, mean time: 8.629s, mean gap: 11.3464%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 88, mean time: 3.902s, mean gap: 6.4434%
+--------------------------------------------------
+Execution time: 10.96828842163086 seconds predicted_tour_lens tensor([67379.], device='cuda:0') factor: 5256.0
+Instance: nrw1379, Dimension: 1379, Cost: 67379.00, Optimal: 56638.00, Gap: 18.9643%, Time: 10.968s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 21, mean time: 8.740s, mean gap: 11.7091%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 89, mean time: 3.982s, mean gap: 6.5840%
+--------------------------------------------------
+Execution time: 11.04081916809082 seconds predicted_tour_lens tensor([5534.], device='cuda:0') factor: 331.0
+Instance: dca1389, Dimension: 1389, Cost: 5534.00, Optimal: 5085.00, Gap: 8.8299%, Time: 11.041s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 22, mean time: 8.845s, mean gap: 11.5783%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 90, mean time: 4.060s, mean gap: 6.6090%
+--------------------------------------------------
+Execution time: 11.150303363800049 seconds predicted_tour_lens tensor([23357.], device='cuda:0') factor: 2104.61
+Instance: fl1400, Dimension: 1400, Cost: 23357.00, Optimal: 20127.00, Gap: 16.0481%, Time: 11.150s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 23, mean time: 8.945s, mean gap: 11.7726%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 91, mean time: 4.138s, mean gap: 6.7127%
+--------------------------------------------------
+Execution time: 11.351072072982788 seconds predicted_tour_lens tensor([158838.], device='cuda:0') factor: 6700.0
+Instance: u1432, Dimension: 1432, Cost: 158838.00, Optimal: 152970.00, Gap: 3.8360%, Time: 11.351s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 24, mean time: 9.045s, mean gap: 11.4419%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 92, mean time: 4.216s, mean gap: 6.6815%
+--------------------------------------------------
+Execution time: 11.415903806686401 seconds predicted_tour_lens tensor([5764.], device='cuda:0') factor: 349.0
+Instance: dja1436, Dimension: 1436, Cost: 5764.00, Optimal: 5257.00, Gap: 9.6443%, Time: 11.416s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 25, mean time: 9.140s, mean gap: 11.3700%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 93, mean time: 4.294s, mean gap: 6.7133%
+--------------------------------------------------
+Execution time: 11.794609546661377 seconds predicted_tour_lens tensor([4807.], device='cuda:0') factor: 264.0
+Instance: icw1483, Dimension: 1483, Cost: 4807.00, Optimal: 4416.00, Gap: 8.8542%, Time: 11.795s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 26, mean time: 9.242s, mean gap: 11.2732%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 94, mean time: 4.373s, mean gap: 6.7361%
+--------------------------------------------------
+Execution time: 11.851491451263428 seconds predicted_tour_lens tensor([5137.], device='cuda:0') factor: 323.0
+Instance: fra1488, Dimension: 1488, Cost: 5137.00, Optimal: 4264.00, Gap: 20.4737%, Time: 11.851s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 27, mean time: 9.339s, mean gap: 11.6140%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 95, mean time: 4.452s, mean gap: 6.8807%
+--------------------------------------------------
+Execution time: 12.549622535705566 seconds predicted_tour_lens tensor([26824.], device='cuda:0') factor: 1937.2839999999999
+Instance: fl1577, Dimension: 1577, Cost: 26824.00, Optimal: 22249.00, Gap: 20.5627%, Time: 12.550s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 28, mean time: 9.453s, mean gap: 11.9336%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 96, mean time: 4.537s, mean gap: 7.0232%
+--------------------------------------------------
+Execution time: 12.61905550956726 seconds predicted_tour_lens tensor([5679.], device='cuda:0') factor: 243.0
+Instance: rbv1583, Dimension: 1583, Cost: 5679.00, Optimal: 5387.00, Gap: 5.4205%, Time: 12.619s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 29, mean time: 9.563s, mean gap: 11.7090%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 97, mean time: 4.620s, mean gap: 7.0067%
+--------------------------------------------------
+Execution time: 12.716818571090698 seconds predicted_tour_lens tensor([5863.], device='cuda:0') factor: 240.0
+Instance: rby1599, Dimension: 1599, Cost: 5863.00, Optimal: 5533.00, Gap: 5.9642%, Time: 12.717s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 30, mean time: 9.668s, mean gap: 11.5175%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 98, mean time: 4.703s, mean gap: 6.9961%
+--------------------------------------------------
+Execution time: 12.918371200561523 seconds predicted_tour_lens tensor([5490.], device='cuda:0') factor: 339.0
+Instance: fnb1615, Dimension: 1615, Cost: 5490.00, Optimal: 4956.00, Gap: 10.7748%, Time: 12.918s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 31, mean time: 9.773s, mean gap: 11.4936%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 99, mean time: 4.785s, mean gap: 7.0342%
+--------------------------------------------------
+Execution time: 12.92726755142212 seconds predicted_tour_lens tensor([198432.], device='cuda:0') factor: 29548.0555
+Instance: rw1621, Dimension: 1621, Cost: 198432.00, Optimal: 26051.00, Gap: 661.7059%, Time: 12.927s
+  -> Gap 661.71% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 31, mean time: 9.773s, mean gap: 11.4936%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 99, mean time: 4.785s, mean gap: 7.0342%
+--------------------------------------------------
+Execution time: 13.228147983551025 seconds predicted_tour_lens tensor([69570.], device='cuda:0') factor: 3726.2
+Instance: d1655, Dimension: 1655, Cost: 69570.00, Optimal: 62128.00, Gap: 11.9785%, Time: 13.228s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 32, mean time: 9.881s, mean gap: 11.5087%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 100, mean time: 4.870s, mean gap: 7.0837%
+--------------------------------------------------
+Execution time: 13.956970453262329 seconds predicted_tour_lens tensor([362522.], device='cuda:0') factor: 18868.0
+Instance: vm1748, Dimension: 1748, Cost: 362522.00, Optimal: 336556.00, Gap: 7.7152%, Time: 13.957s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 33, mean time: 10.004s, mean gap: 11.3938%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 101, mean time: 4.960s, mean gap: 7.0899%
+--------------------------------------------------
+Execution time: 14.281748294830322 seconds predicted_tour_lens tensor([6496.], device='cuda:0') factor: 249.0
+Instance: djc1785, Dimension: 1785, Cost: 6496.00, Optimal: 6115.00, Gap: 6.2306%, Time: 14.282s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 34, mean time: 10.130s, mean gap: 11.2419%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 102, mean time: 5.051s, mean gap: 7.0815%
+--------------------------------------------------
+Execution time: 14.539794206619263 seconds predicted_tour_lens tensor([61446.], device='cuda:0') factor: 2844.7799999999997
+Instance: u1817, Dimension: 1817, Cost: 61446.00, Optimal: 57201.00, Gap: 7.4212%, Time: 14.540s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 35, mean time: 10.256s, mean gap: 11.1327%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 103, mean time: 5.143s, mean gap: 7.0848%
+--------------------------------------------------
+Execution time: 15.101283550262451 seconds predicted_tour_lens tensor([341654.], device='cuda:0') factor: 18976.0
+Instance: rl1889, Dimension: 1889, Cost: 341654.00, Optimal: 316536.00, Gap: 7.9353%, Time: 15.101s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 36, mean time: 10.391s, mean gap: 11.0439%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 104, mean time: 5.239s, mean gap: 7.0930%
+--------------------------------------------------
+Execution time: 15.297794342041016 seconds predicted_tour_lens tensor([6882.], device='cuda:0') factor: 288.0
+Instance: dcc1911, Dimension: 1911, Cost: 6882.00, Optimal: 6396.00, Gap: 7.5985%, Time: 15.298s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 37, mean time: 10.523s, mean gap: 10.9508%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 105, mean time: 5.335s, mean gap: 7.0978%
+--------------------------------------------------
+Execution time: 15.811890363693237 seconds predicted_tour_lens tensor([8429.], device='cuda:0') factor: 579.0
+Instance: dkd1973, Dimension: 1973, Cost: 8429.00, Optimal: 6421.00, Gap: 31.2724%, Time: 15.812s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 38, mean time: 10.662s, mean gap: 11.4856%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 106, mean time: 5.434s, mean gap: 7.3258%
+--------------------------------------------------
+Execution time: 15.854907035827637 seconds predicted_tour_lens tensor([363197.], device='cuda:0') factor: 43128.6111
+Instance: mu1979, Dimension: 1979, Cost: 363197.00, Optimal: 86891.00, Gap: 317.9915%, Time: 15.855s
+  -> Gap 317.99% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 38, mean time: 10.662s, mean gap: 11.4856%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 106, mean time: 5.434s, mean gap: 7.3258%
+--------------------------------------------------
+Execution time: 16.28989005088806 seconds predicted_tour_lens tensor([6602.], device='cuda:0') factor: 253.0
+Instance: djb2036, Dimension: 2036, Cost: 6602.00, Optimal: 6197.00, Gap: 6.5354%, Time: 16.290s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 39, mean time: 10.807s, mean gap: 11.3587%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 107, mean time: 5.535s, mean gap: 7.3185%
+--------------------------------------------------
+Execution time: 16.611605644226074 seconds predicted_tour_lens tensor([7309.], device='cuda:0') factor: 246.0
+Instance: dcb2086, Dimension: 2086, Cost: 7309.00, Optimal: 6600.00, Gap: 10.7424%, Time: 16.612s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 40, mean time: 10.952s, mean gap: 11.3432%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 108, mean time: 5.638s, mean gap: 7.3502%
+--------------------------------------------------
+Execution time: 16.86881160736084 seconds predicted_tour_lens tensor([93735.], device='cuda:0') factor: 4348.2
+Instance: d2103, Dimension: 2103, Cost: 93735.00, Optimal: 80450.00, Gap: 16.5134%, Time: 16.869s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 41, mean time: 11.096s, mean gap: 11.4693%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 109, mean time: 5.741s, mean gap: 7.4342%
+--------------------------------------------------
+Execution time: 17.229705095291138 seconds predicted_tour_lens tensor([7362.], device='cuda:0') factor: 370.0
+Instance: bva2144, Dimension: 2144, Cost: 7362.00, Optimal: 6304.00, Gap: 16.7830%, Time: 17.230s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 42, mean time: 11.242s, mean gap: 11.5959%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 110, mean time: 5.845s, mean gap: 7.5192%
+--------------------------------------------------
+Execution time: 17.223376750946045 seconds predicted_tour_lens tensor([71024.], device='cuda:0') factor: 2844.7999999999997
+Instance: u2152, Dimension: 2152, Cost: 71024.00, Optimal: 64253.00, Gap: 10.5380%, Time: 17.223s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 43, mean time: 11.381s, mean gap: 11.5713%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 111, mean time: 5.948s, mean gap: 7.5464%
+--------------------------------------------------
+Execution time: 17.408282995224 seconds predicted_tour_lens tensor([7551.], device='cuda:0') factor: 279.0
+Instance: xqc2175, Dimension: 2175, Cost: 7551.00, Optimal: 6830.00, Gap: 10.5564%, Time: 17.408s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 44, mean time: 11.518s, mean gap: 11.5482%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 112, mean time: 6.050s, mean gap: 7.5733%
+--------------------------------------------------
+Execution time: 17.74367046356201 seconds predicted_tour_lens tensor([7773.], device='cuda:0') factor: 324.0
+Instance: bck2217, Dimension: 2217, Cost: 7773.00, Optimal: 6764.00, Gap: 14.9172%, Time: 17.744s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 45, mean time: 11.657s, mean gap: 11.6231%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 113, mean time: 6.154s, mean gap: 7.6383%
+--------------------------------------------------
+Execution time: 18.459540605545044 seconds predicted_tour_lens tensor([7669.], device='cuda:0') factor: 252.0
+Instance: xpr2308, Dimension: 2308, Cost: 7669.00, Optimal: 7219.00, Gap: 6.2336%, Time: 18.460s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 46, mean time: 11.804s, mean gap: 11.5059%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 114, mean time: 6.262s, mean gap: 7.6260%
+--------------------------------------------------
+Execution time: 18.556528329849243 seconds predicted_tour_lens tensor([246918.], device='cuda:0') factor: 6700.0
+Instance: u2319, Dimension: 2319, Cost: 246918.00, Optimal: 234256.00, Gap: 5.4052%, Time: 18.557s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 47, mean time: 11.948s, mean gap: 11.3761%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 115, mean time: 6.368s, mean gap: 7.6066%
+--------------------------------------------------
+Execution time: 18.58353590965271 seconds predicted_tour_lens tensor([10738.], device='cuda:0') factor: 778.0
+Instance: ley2323, Dimension: 2323, Cost: 10738.00, Optimal: 8352.00, Gap: 28.5680%, Time: 18.584s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 48, mean time: 12.086s, mean gap: 11.7343%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 116, mean time: 6.474s, mean gap: 7.7873%
+--------------------------------------------------
+Execution time: 19.058166027069092 seconds predicted_tour_lens tensor([12569.], device='cuda:0') factor: 714.0
+Instance: dea2382, Dimension: 2382, Cost: 12569.00, Optimal: 8017.00, Gap: 56.7793%, Time: 19.058s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 49, mean time: 12.229s, mean gap: 12.6535%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 117, mean time: 6.581s, mean gap: 8.2061%
+--------------------------------------------------
+Execution time: 19.07756519317627 seconds predicted_tour_lens tensor([426499.], device='cuda:0') factor: 14410.0
+Instance: pr2392, Dimension: 2392, Cost: 426499.00, Optimal: 378032.00, Gap: 12.8209%, Time: 19.078s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 50, mean time: 12.366s, mean gap: 12.6569%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 118, mean time: 6.687s, mean gap: 8.2452%
+--------------------------------------------------
+Execution time: 19.810548543930054 seconds predicted_tour_lens tensor([8445.], device='cuda:0') factor: 284.0
+Instance: rbw2481, Dimension: 2481, Cost: 8445.00, Optimal: 7724.00, Gap: 9.3345%, Time: 19.811s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 51, mean time: 12.512s, mean gap: 12.5918%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 119, mean time: 6.797s, mean gap: 8.2543%
+--------------------------------------------------
+Execution time: 20.467068433761597 seconds predicted_tour_lens tensor([8689.], device='cuda:0') factor: 299.0
+Instance: pds2566, Dimension: 2566, Cost: 8689.00, Optimal: 7643.00, Gap: 13.6857%, Time: 20.467s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 52, mean time: 12.665s, mean gap: 12.6128%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 120, mean time: 6.911s, mean gap: 8.2996%
+--------------------------------------------------
+Execution time: 20.77701449394226 seconds predicted_tour_lens tensor([9335.], device='cuda:0') factor: 376.0
+Instance: mlt2597, Dimension: 2597, Cost: 9335.00, Optimal: 8071.00, Gap: 15.6610%, Time: 20.777s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 53, mean time: 12.818s, mean gap: 12.6703%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 121, mean time: 7.026s, mean gap: 8.3604%
+--------------------------------------------------
+Execution time: 22.17862319946289 seconds predicted_tour_lens tensor([9014.], device='cuda:0') factor: 284.0
+Instance: bch2762, Dimension: 2762, Cost: 9014.00, Optimal: 8234.00, Gap: 9.4729%, Time: 22.179s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 54, mean time: 12.991s, mean gap: 12.6111%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 122, mean time: 7.150s, mean gap: 8.3696%
+--------------------------------------------------
+Execution time: 22.480791807174683 seconds predicted_tour_lens tensor([10006.], device='cuda:0') factor: 445.0
+Instance: irw2802, Dimension: 2802, Cost: 10006.00, Optimal: 8423.00, Gap: 18.7938%, Time: 22.481s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 55, mean time: 13.164s, mean gap: 12.7235%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 123, mean time: 7.275s, mean gap: 8.4543%
+--------------------------------------------------
+Execution time: 22.894099473953247 seconds predicted_tour_lens tensor([8788.], device='cuda:0') factor: 276.0
+Instance: lsm2854, Dimension: 2854, Cost: 8788.00, Optimal: 8014.00, Gap: 9.6581%, Time: 22.894s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 56, mean time: 13.337s, mean gap: 12.6688%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 124, mean time: 7.401s, mean gap: 8.4640%
+--------------------------------------------------
+Execution time: 23.35336685180664 seconds predicted_tour_lens tensor([10909.], device='cuda:0') factor: 299.0
+Instance: dbj2924, Dimension: 2924, Cost: 10909.00, Optimal: 10128.00, Gap: 7.7113%, Time: 23.353s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 57, mean time: 13.513s, mean gap: 12.5818%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 125, mean time: 7.528s, mean gap: 8.4580%
+--------------------------------------------------
+Execution time: 23.88184928894043 seconds predicted_tour_lens tensor([9217.], device='cuda:0') factor: 251.0
+Instance: xva2993, Dimension: 2993, Cost: 9217.00, Optimal: 8492.00, Gap: 8.5374%, Time: 23.882s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 58, mean time: 13.692s, mean gap: 12.5121%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 126, mean time: 7.658s, mean gap: 8.4586%
+--------------------------------------------------
+Execution time: 24.39091444015503 seconds predicted_tour_lens tensor([158026.], device='cuda:0') factor: 4013.0
+Instance: pcb3038, Dimension: 3038, Cost: 158026.00, Optimal: 137694.00, Gap: 14.7661%, Time: 24.391s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 59, mean time: 13.873s, mean gap: 12.5503%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 127, mean time: 7.790s, mean gap: 8.5083%
+--------------------------------------------------
+Execution time: 24.63261389732361 seconds predicted_tour_lens tensor([9455.], device='cuda:0') factor: 299.0
+Instance: pia3056, Dimension: 3056, Cost: 9455.00, Optimal: 8258.00, Gap: 14.4950%, Time: 24.633s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 60, mean time: 14.052s, mean gap: 12.5827%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 128, mean time: 7.922s, mean gap: 8.5551%
+--------------------------------------------------
+Execution time: 24.912862300872803 seconds predicted_tour_lens tensor([11745.], device='cuda:0') factor: 359.0
+Instance: dke3097, Dimension: 3097, Cost: 11745.00, Optimal: 10539.00, Gap: 11.4432%, Time: 24.913s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 61, mean time: 14.230s, mean gap: 12.5640%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 129, mean time: 8.053s, mean gap: 8.5775%
+--------------------------------------------------
+Execution time: 25.10450506210327 seconds predicted_tour_lens tensor([10387.], device='cuda:0') factor: 330.0
+Instance: lsn3119, Dimension: 3119, Cost: 10387.00, Optimal: 9114.00, Gap: 13.9675%, Time: 25.105s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 62, mean time: 14.406s, mean gap: 12.5866%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 130, mean time: 8.184s, mean gap: 8.6189%
+--------------------------------------------------
+Execution time: 25.318159580230713 seconds predicted_tour_lens tensor([10630.], device='cuda:0') factor: 348.0
+Instance: lta3140, Dimension: 3140, Cost: 10630.00, Optimal: 9517.00, Gap: 11.6949%, Time: 25.318s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 63, mean time: 14.579s, mean gap: 12.5725%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 131, mean time: 8.315s, mean gap: 8.6424%
+--------------------------------------------------
+Execution time: 25.541945457458496 seconds predicted_tour_lens tensor([26719016.], device='cuda:0') factor: 1046123.0
+Instance: portcgen-3162-3162, Dimension: 3162, Cost: 26719016.00, Optimal: 19198258.00, Gap: 39.1742%, Time: 25.542s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 64, mean time: 14.750s, mean gap: 12.9881%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 132, mean time: 8.446s, mean gap: 8.8737%
+--------------------------------------------------
+Execution time: 25.515990257263184 seconds predicted_tour_lens tensor([26848656.], device='cuda:0') factor: 1066253.0
+Instance: portcgen-3162-31621, Dimension: 3162, Cost: 26848656.00, Optimal: 19017805.00, Gap: 41.1764%, Time: 25.516s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 65, mean time: 14.916s, mean gap: 13.4218%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 133, mean time: 8.574s, mean gap: 9.1166%
+--------------------------------------------------
+Execution time: 25.325093507766724 seconds predicted_tour_lens tensor([28245156.], device='cuda:0') factor: 1098637.0
+Instance: portcgen-3162-31622, Dimension: 3162, Cost: 28245156.00, Optimal: 19547551.00, Gap: 44.4946%, Time: 25.325s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 66, mean time: 15.074s, mean gap: 13.8926%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 134, mean time: 8.699s, mean gap: 9.3806%
+--------------------------------------------------
+Execution time: 25.280527353286743 seconds predicted_tour_lens tensor([26288424.], device='cuda:0') factor: 1086423.0
+Instance: portcgen-3162-31623, Dimension: 3162, Cost: 26288424.00, Optimal: 19108508.00, Gap: 37.5744%, Time: 25.281s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 67, mean time: 15.226s, mean gap: 14.2461%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 135, mean time: 8.822s, mean gap: 9.5894%
+--------------------------------------------------
+Execution time: 25.42269492149353 seconds predicted_tour_lens tensor([27232364.], device='cuda:0') factor: 1073447.0
+Instance: portcgen-3162-31624, Dimension: 3162, Cost: 27232364.00, Optimal: 18864046.00, Gap: 44.3612%, Time: 25.423s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 68, mean time: 15.376s, mean gap: 14.6889%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 136, mean time: 8.944s, mean gap: 9.8451%
+--------------------------------------------------
+Execution time: 26.29435086250305 seconds predicted_tour_lens tensor([11950.], device='cuda:0') factor: 385.0
+Instance: fdp3256, Dimension: 3256, Cost: 11950.00, Optimal: 10008.00, Gap: 19.4045%, Time: 26.294s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 69, mean time: 15.534s, mean gap: 14.7573%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 137, mean time: 9.071s, mean gap: 9.9149%
+--------------------------------------------------
+Execution time: 26.553875207901 seconds predicted_tour_lens tensor([11321.], device='cuda:0') factor: 402.0
+Instance: beg3293, Dimension: 3293, Cost: 11321.00, Optimal: 9772.00, Gap: 15.8514%, Time: 26.554s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 70, mean time: 15.692s, mean gap: 14.7729%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 138, mean time: 9.197s, mean gap: 9.9579%
+--------------------------------------------------
+Execution time: 27.41059422492981 seconds predicted_tour_lens tensor([12607.], device='cuda:0') factor: 339.0
+Instance: dhb3386, Dimension: 3386, Cost: 12607.00, Optimal: 11137.00, Gap: 13.1992%, Time: 27.411s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 71, mean time: 15.857s, mean gap: 14.7507%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 139, mean time: 9.328s, mean gap: 9.9812%
+--------------------------------------------------
+Execution time: 28.101714372634888 seconds predicted_tour_lens tensor([1153551.], device='cuda:0') factor: 76883.3333
+Instance: nu3496, Dimension: 3496, Cost: 1153551.00, Optimal: 96132.00, Gap: 1099.9657%, Time: 28.102s
+  -> Gap 1099.97% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 71, mean time: 15.857s, mean gap: 14.7507%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 139, mean time: 9.328s, mean gap: 9.9812%
+--------------------------------------------------
+Execution time: 29.41336226463318 seconds predicted_tour_lens tensor([33122.], device='cuda:0') factor: 1136.0
+Instance: fjs3649, Dimension: 3649, Cost: 33122.00, Optimal: 9272.00, Gap: 257.2261%, Time: 29.413s
+  -> Gap 257.23% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 71, mean time: 15.857s, mean gap: 14.7507%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 139, mean time: 9.328s, mean gap: 9.9812%
+--------------------------------------------------
+Execution time: 29.568055629730225 seconds predicted_tour_lens tensor([38462.], device='cuda:0') factor: 1232.0
+Instance: fjr3672, Dimension: 3672, Cost: 38462.00, Optimal: 9601.00, Gap: 300.6041%, Time: 29.568s
+  -> Gap 300.60% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 71, mean time: 15.857s, mean gap: 14.7507%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 139, mean time: 9.328s, mean gap: 9.9812%
+--------------------------------------------------
+Execution time: 29.844358444213867 seconds predicted_tour_lens tensor([12538.], device='cuda:0') factor: 332.0
+Instance: dlb3694, Dimension: 3694, Cost: 12538.00, Optimal: 10959.00, Gap: 14.4082%, Time: 29.844s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 72, mean time: 16.051s, mean gap: 14.7460%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 140, mean time: 9.475s, mean gap: 10.0128%
+--------------------------------------------------
+Execution time: 30.10389733314514 seconds predicted_tour_lens tensor([15204.], device='cuda:0') factor: 549.0
+Instance: ltb3729, Dimension: 3729, Cost: 15204.00, Optimal: 11821.00, Gap: 28.6186%, Time: 30.104s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 73, mean time: 16.244s, mean gap: 14.9360%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 141, mean time: 9.621s, mean gap: 10.1448%
+--------------------------------------------------
+Execution time: 30.802642583847046 seconds predicted_tour_lens tensor([38173.], device='cuda:0') factor: 2104.61
+Instance: fl3795, Dimension: 3795, Cost: 38173.00, Optimal: 28772.00, Gap: 32.6741%, Time: 30.803s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 74, mean time: 16.440s, mean gap: 15.1757%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 142, mean time: 9.770s, mean gap: 10.3035%
+--------------------------------------------------
+Execution time: 31.43947124481201 seconds predicted_tour_lens tensor([14502.], device='cuda:0') factor: 382.0
+Instance: xqe3891, Dimension: 3891, Cost: 14502.00, Optimal: 11995.00, Gap: 20.9004%, Time: 31.439s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 75, mean time: 16.640s, mean gap: 15.2520%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 143, mean time: 9.922s, mean gap: 10.3776%
+--------------------------------------------------
+Execution time: 31.79042673110962 seconds predicted_tour_lens tensor([13107.], device='cuda:0') factor: 358.0
+Instance: xua3937, Dimension: 3937, Cost: 13107.00, Optimal: 11239.00, Gap: 16.6207%, Time: 31.790s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 76, mean time: 16.840s, mean gap: 15.2701%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 144, mean time: 10.074s, mean gap: 10.4209%
+--------------------------------------------------
+Execution time: 31.833945989608765 seconds predicted_tour_lens tensor([19629.], device='cuda:0') factor: 720.0
+Instance: dkc3938, Dimension: 3938, Cost: 19629.00, Optimal: 12503.00, Gap: 56.9943%, Time: 31.834s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 77, mean time: 17.034s, mean gap: 15.8119%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 145, mean time: 10.224s, mean gap: 10.7421%
+--------------------------------------------------
+Execution time: 32.07816195487976 seconds predicted_tour_lens tensor([14668.], device='cuda:0') factor: 359.0
+Instance: dkf3954, Dimension: 3954, Cost: 14668.00, Optimal: 12538.00, Gap: 16.9884%, Time: 32.078s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 78, mean time: 17.227s, mean gap: 15.8270%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 146, mean time: 10.374s, mean gap: 10.7849%
+--------------------------------------------------
+Execution time: 35.56854248046875 seconds predicted_tour_lens tensor([14932.], device='cuda:0') factor: 380.0
+Instance: bgb4355, Dimension: 4355, Cost: 14932.00, Optimal: 12723.00, Gap: 17.3623%, Time: 35.569s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 79, mean time: 17.459s, mean gap: 15.8464%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 147, mean time: 10.545s, mean gap: 10.8296%
+--------------------------------------------------
+Execution time: 35.94458484649658 seconds predicted_tour_lens tensor([19984.], device='cuda:0') factor: 676.0
+Instance: bgd4396, Dimension: 4396, Cost: 19984.00, Optimal: 13009.00, Gap: 53.6167%, Time: 35.945s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 80, mean time: 17.690s, mean gap: 16.3186%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 148, mean time: 10.717s, mean gap: 11.1187%
+--------------------------------------------------
+Execution time: 36.12701630592346 seconds predicted_tour_lens tensor([14778.], device='cuda:0') factor: 455.0
+Instance: frv4410, Dimension: 4410, Cost: 14778.00, Optimal: 10711.00, Gap: 37.9703%, Time: 36.127s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 81, mean time: 17.918s, mean gap: 16.5859%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 149, mean time: 10.887s, mean gap: 11.2990%
+--------------------------------------------------
+Execution time: 36.60719013214111 seconds predicted_tour_lens tensor([216055.], device='cuda:0') factor: 5036.0
+Instance: fnl4461, Dimension: 4461, Cost: 216055.00, Optimal: 182566.00, Gap: 18.3435%, Time: 36.607s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 82, mean time: 18.146s, mean gap: 16.6073%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 150, mean time: 11.059s, mean gap: 11.3459%
+--------------------------------------------------
+Execution time: 36.65196514129639 seconds predicted_tour_lens tensor([18476.], device='cuda:0') factor: 672.0
+Instance: bgf4475, Dimension: 4475, Cost: 18476.00, Optimal: 13221.00, Gap: 39.7474%, Time: 36.652s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 83, mean time: 18.369s, mean gap: 16.8861%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 151, mean time: 11.228s, mean gap: 11.5340%
+--------------------------------------------------
+Execution time: 38.36548638343811 seconds predicted_tour_lens tensor([2967614.], device='cuda:0') factor: 99183.3333
+Instance: ca4663, Dimension: 4663, Cost: 2967614.00, Optimal: 1290319.00, Gap: 129.9907%, Time: 38.365s
+  -> Gap 129.99% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 83, mean time: 18.369s, mean gap: 16.8861%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 151, mean time: 11.228s, mean gap: 11.5340%
+--------------------------------------------------
+Execution time: 41.101128816604614 seconds predicted_tour_lens tensor([50755.], device='cuda:0') factor: 1299.0
+Instance: xqd4966, Dimension: 4966, Cost: 50755.00, Optimal: 15316.00, Gap: 231.3855%, Time: 41.101s
+  -> Gap 231.39% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 83, mean time: 18.369s, mean gap: 16.8861%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 151, mean time: 11.228s, mean gap: 11.5340%
+--------------------------------------------------
+Execution time: 42.20930504798889 seconds predicted_tour_lens tensor([40920.], device='cuda:0') factor: 1115.0
+Instance: fqm5087, Dimension: 5087, Cost: 40920.00, Optimal: 13029.00, Gap: 214.0686%, Time: 42.209s
+  -> Gap 214.07% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 83, mean time: 18.369s, mean gap: 16.8861%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 151, mean time: 11.228s, mean gap: 11.5340%
+--------------------------------------------------
+Execution time: 46.4913125038147 seconds predicted_tour_lens tensor([20252.], device='cuda:0') factor: 534.0
+Instance: fea5557, Dimension: 5557, Cost: 20252.00, Optimal: 15445.00, Gap: 31.1233%, Time: 46.491s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 84, mean time: 18.704s, mean gap: 17.0556%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 152, mean time: 11.460s, mean gap: 11.6629%
+--------------------------------------------------
+Execution time: 49.813805103302 seconds predicted_tour_lens tensor([719480.], device='cuda:0') factor: 19010.0
+Instance: rl5915, Dimension: 5915, Cost: 719480.00, Optimal: 565530.00, Gap: 27.2223%, Time: 49.814s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 85, mean time: 19.070s, mean gap: 17.1752%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 153, mean time: 11.711s, mean gap: 11.7646%
+--------------------------------------------------
+Execution time: 50.27627086639404 seconds predicted_tour_lens tensor([740597.], device='cuda:0') factor: 18976.0
+Instance: rl5934, Dimension: 5934, Cost: 740597.00, Optimal: 556045.00, Gap: 33.1901%, Time: 50.276s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 86, mean time: 19.433s, mean gap: 17.3614%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 154, mean time: 11.961s, mean gap: 11.9037%
+--------------------------------------------------
+Execution time: 51.99768829345703 seconds predicted_tour_lens tensor([2538877.], device='cuda:0') factor: 39427.2222
+Instance: tz6117, Dimension: 6117, Cost: 2538877.00, Optimal: 394718.00, Gap: 543.2129%, Time: 51.998s
+  -> Gap 543.21% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 86, mean time: 19.433s, mean gap: 17.3614%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 154, mean time: 11.961s, mean gap: 11.9037%
+--------------------------------------------------
+Execution time: 59.526774406433105 seconds predicted_tour_lens tensor([27936.], device='cuda:0') factor: 539.0
+Instance: xsc6880, Dimension: 6880, Cost: 27936.00, Optimal: 21535.00, Gap: 29.7237%, Time: 59.527s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 87, mean time: 19.893s, mean gap: 17.5035%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 155, mean time: 12.268s, mean gap: 12.0187%
+--------------------------------------------------
+Execution time: 62.7080979347229 seconds predicted_tour_lens tensor([867478.], device='cuda:0') factor: 13267.5
+Instance: eg7146, Dimension: 7146, Cost: 867478.00, Optimal: 172386.00, Gap: 403.2184%, Time: 62.708s
+  -> Gap 403.22% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 87, mean time: 19.893s, mean gap: 17.5035%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 155, mean time: 12.268s, mean gap: 12.0187%
+--------------------------------------------------
+Execution time: 62.5909469127655 seconds predicted_tour_lens tensor([30450.], device='cuda:0') factor: 580.0
+Instance: bnd7168, Dimension: 7168, Cost: 30450.00, Optimal: 21834.00, Gap: 39.4614%, Time: 62.591s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 88, mean time: 20.379s, mean gap: 17.7530%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 156, mean time: 12.591s, mean gap: 12.1946%
+--------------------------------------------------
+Execution time: 65.01758742332458 seconds predicted_tour_lens tensor([39815316.], device='cuda:0') factor: 627925.0
+Instance: pla7397, Dimension: 7397, Cost: 39815316.00, Optimal: 23260728.00, Gap: 71.1697%, Time: 65.018s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 89, mean time: 20.880s, mean gap: 18.3532%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 157, mean time: 12.925s, mean gap: 12.5702%
+--------------------------------------------------
+Execution time: 65.78399682044983 seconds predicted_tour_lens tensor([26545.], device='cuda:0') factor: 532.0
+Instance: lap7454, Dimension: 7454, Cost: 26545.00, Optimal: 19535.00, Gap: 35.8843%, Time: 65.784s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 90, mean time: 21.379s, mean gap: 18.5480%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 158, mean time: 13.259s, mean gap: 12.7178%
+--------------------------------------------------
+Execution time: 68.06109714508057 seconds predicted_tour_lens tensor([2185703.], device='cuda:0') factor: 42266.6667
+Instance: ym7663, Dimension: 7663, Cost: 2185703.00, Optimal: 238314.00, Gap: 817.1526%, Time: 68.061s
+  -> Gap 817.15% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 90, mean time: 21.379s, mean gap: 18.5480%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 158, mean time: 13.259s, mean gap: 12.7178%
+--------------------------------------------------
+Execution time: 73.04566359519958 seconds predicted_tour_lens tensor([1414591.], device='cuda:0') factor: 75683.3333
+Instance: pm8079, Dimension: 8079, Cost: 1414591.00, Optimal: 114855.00, Gap: 1131.6321%, Time: 73.046s
+  -> Gap 1131.63% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 90, mean time: 21.379s, mean gap: 18.5480%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 158, mean time: 13.259s, mean gap: 12.7178%
+--------------------------------------------------
+Execution time: 74.26725387573242 seconds predicted_tour_lens tensor([31082.], device='cuda:0') factor: 543.0
+Instance: ida8197, Dimension: 8197, Cost: 31082.00, Optimal: 22338.00, Gap: 39.1441%, Time: 74.267s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 91, mean time: 21.960s, mean gap: 18.7744%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 159, mean time: 13.643s, mean gap: 12.8840%
+--------------------------------------------------
+Execution time: 74.69627571105957 seconds predicted_tour_lens tensor([2226976.], device='cuda:0') factor: 49357.5
+Instance: ei8246, Dimension: 8246, Cost: 2226976.00, Optimal: 206171.00, Gap: 980.1597%, Time: 74.696s
+  -> Gap 980.16% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 91, mean time: 21.960s, mean gap: 18.7744%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 159, mean time: 13.643s, mean gap: 12.8840%
+--------------------------------------------------
+Execution time: 86.14866304397583 seconds predicted_tour_lens tensor([5225093.], device='cuda:0') factor: 50900.0
+Instance: ar9152, Dimension: 9152, Cost: 5225093.00, Optimal: 837479.00, Gap: 523.9073%, Time: 86.149s
+  -> Gap 523.91% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 91, mean time: 21.960s, mean gap: 18.7744%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 159, mean time: 13.643s, mean gap: 12.8840%
+--------------------------------------------------
+Execution time: 93.2699065208435 seconds predicted_tour_lens tensor([39409.], device='cuda:0') factor: 618.0
+Instance: dga9698, Dimension: 9698, Cost: 39409.00, Optimal: 27724.00, Gap: 42.1476%, Time: 93.270s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 95.0682270526886 seconds predicted_tour_lens tensor([4844656.], device='cuda:0') factor: 121883.3333
+Instance: ja9847, Dimension: 9847, Cost: 4844656.00, Optimal: 491924.00, Gap: 884.8383%, Time: 95.068s
+  -> Gap 884.84% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 95.93244743347168 seconds predicted_tour_lens tensor([2430181.], device='cuda:0') factor: 22333.333400000003
+Instance: gr9882, Dimension: 9882, Cost: 2430181.00, Optimal: 300899.00, Gap: 707.6401%, Time: 95.932s
+  -> Gap 707.64% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 97.42498922348022 seconds predicted_tour_lens tensor([3978306.], device='cuda:0') factor: 46450.0
+Instance: kz9976, Dimension: 9976, Cost: 3978306.00, Optimal: 1061881.00, Gap: 274.6471%, Time: 97.425s
+  -> Gap 274.65% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 97.73185563087463 seconds predicted_tour_lens tensor([68228192.], device='cuda:0') factor: 1035865.0
+Instance: portcgen-10000-10000, Dimension: 10000, Cost: 68228192.00, Optimal: 33001034.00, Gap: 106.7456%, Time: 97.732s
+  -> Gap 106.75% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 97.1342031955719 seconds predicted_tour_lens tensor([85048256.], device='cuda:0') factor: 1056163.0
+Instance: portcgen-10000-100001, Dimension: 10000, Cost: 85048256.00, Optimal: 33186248.00, Gap: 156.2756%, Time: 97.134s
+  -> Gap 156.28% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 97.18961215019226 seconds predicted_tour_lens tensor([89265216.], device='cuda:0') factor: 1047706.0
+Instance: portcgen-10000-100002, Dimension: 10000, Cost: 89265216.00, Optimal: 33155424.00, Gap: 169.2326%, Time: 97.190s
+  -> Gap 169.23% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 0, mean time: NaN s, mean gap: NaN %
+[Total] count: 160, mean time: 14.140s, mean gap: 13.0669%
+--------------------------------------------------
+Execution time: 99.49246740341187 seconds predicted_tour_lens tensor([38648.], device='cuda:0') factor: 599.0
+Instance: xmc10150, Dimension: 10150, Cost: 38648.00, Optimal: 28387.00, Gap: 36.1468%, Time: 99.492s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 1, mean time: 99.492s, mean gap: 36.1468%
+[Total] count: 161, mean time: 14.671s, mean gap: 13.2102%
+--------------------------------------------------
+Execution time: 105.97425246238708 seconds predicted_tour_lens tensor([4761668.], device='cuda:0') factor: 50550.0
+Instance: fi10639, Dimension: 10639, Cost: 4761668.00, Optimal: 520527.00, Gap: 814.7783%, Time: 105.974s
+  -> Gap 814.78% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 1, mean time: 99.492s, mean gap: 36.1468%
+[Total] count: 161, mean time: 14.671s, mean gap: 13.2102%
+--------------------------------------------------
+Execution time: 124.8923544883728 seconds predicted_tour_lens tensor([1334021.], device='cuda:0') factor: 19040.0
+Instance: rl11849, Dimension: 11849, Cost: 1334021.00, Optimal: 923288.00, Gap: 44.4859%, Time: 124.892s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 2, mean time: 112.192s, mean gap: 40.3164%
+[Total] count: 162, mean time: 15.351s, mean gap: 13.4033%
+--------------------------------------------------
+Execution time: 154.8114800453186 seconds predicted_tour_lens tensor([1.5351e+08], device='cuda:0') factor: 999408.3330000001
+Instance: usa13509, Dimension: 13509, Cost: 153513696.00, Optimal: 19982859.00, Gap: 668.2269%, Time: 154.811s
+  -> Gap 668.23% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 2, mean time: 112.192s, mean gap: 40.3164%
+[Total] count: 162, mean time: 15.351s, mean gap: 13.4033%
+--------------------------------------------------
+Execution time: 155.90067720413208 seconds predicted_tour_lens tensor([57788.], device='cuda:0') factor: 599.0
+Instance: xvb13584, Dimension: 13584, Cost: 57788.00, Optimal: 37083.00, Gap: 55.8342%, Time: 155.901s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 165.55853033065796 seconds predicted_tour_lens tensor([1143953.], device='cuda:0') factor: 8559.0
+Instance: brd14051, Dimension: 14051, Cost: 1143953.00, Optimal: 469385.00, Gap: 143.7132%, Time: 165.559s
+  -> Gap 143.71% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 168.0615270137787 seconds predicted_tour_lens tensor([4411432.], device='cuda:0') factor: 34885.555499999995
+Instance: mo14185, Dimension: 14185, Cost: 4411432.00, Optimal: 427377.00, Gap: 932.2109%, Time: 168.062s
+  -> Gap 932.21% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 169.476655960083 seconds predicted_tour_lens tensor([97147.], device='cuda:0') factor: 866.0
+Instance: xrb14233, Dimension: 14233, Cost: 97147.00, Optimal: 45462.00, Gap: 113.6884%, Time: 169.477s
+  -> Gap 113.69% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 174.05021357536316 seconds predicted_tour_lens tensor([2581153.], device='cuda:0') factor: 76316.6666
+Instance: ho14473, Dimension: 14473, Cost: 2581153.00, Optimal: 177092.00, Gap: 1357.5209%, Time: 174.050s
+  -> Gap 1357.52% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 188.76068019866943 seconds predicted_tour_lens tensor([4294908.], device='cuda:0') factor: 23878.0
+Instance: d15112, Dimension: 15112, Cost: 4294908.00, Optimal: 1573084.00, Gap: 173.0247%, Time: 188.761s
+  -> Gap 173.02% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 230.952317237854 seconds predicted_tour_lens tensor([5546674.], device='cuda:0') factor: 40366.6667
+Instance: it16862, Dimension: 16862, Cost: 5546674.00, Optimal: 557315.00, Gap: 895.2494%, Time: 230.952s
+  -> Gap 895.25% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 232.70947885513306 seconds predicted_tour_lens tensor([335293.], device='cuda:0') factor: 1390.0
+Instance: xia16928, Dimension: 16928, Cost: 335293.00, Optimal: 52850.00, Gap: 534.4238%, Time: 232.709s
+  -> Gap 534.42% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 257.65690302848816 seconds predicted_tour_lens tensor([164218.], device='cuda:0') factor: 892.0
+Instance: pjh17845, Dimension: 17845, Cost: 164218.00, Optimal: 48092.00, Gap: 241.4664%, Time: 257.657s
+  -> Gap 241.47% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 277.42169857025146 seconds predicted_tour_lens tensor([1466041.], device='cuda:0') factor: 8559.0
+Instance: d18512, Dimension: 18512, Cost: 1466041.00, Optimal: 645238.00, Gap: 127.2093%, Time: 277.422s
+  -> Gap 127.21% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 302.30315017700195 seconds predicted_tour_lens tensor([129442.], device='cuda:0') factor: 808.0
+Instance: frh19289, Dimension: 19289, Cost: 129442.00, Optimal: 55798.00, Gap: 131.9832%, Time: 302.303s
+  -> Gap 131.98% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 306.19427490234375 seconds predicted_tour_lens tensor([199085.], device='cuda:0') factor: 980.0
+Instance: fnc19402, Dimension: 19402, Cost: 199085.00, Optimal: 59287.00, Gap: 235.7987%, Time: 306.194s
+  -> Gap 235.80% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 3, mean time: 126.762s, mean gap: 45.4890%
+[Total] count: 163, mean time: 16.213s, mean gap: 13.6636%
+--------------------------------------------------
+Execution time: 370.95960450172424 seconds predicted_tour_lens tensor([108941.], device='cuda:0') factor: 719.0
+Instance: ido21215, Dimension: 21215, Cost: 108941.00, Optimal: 63517.00, Gap: 71.5147%, Time: 370.960s
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 384.25271224975586 seconds predicted_tour_lens tensor([411097.], device='cuda:0') factor: 1365.0
+Instance: fma21553, Dimension: 21553, Cost: 411097.00, Optimal: 66527.00, Gap: 517.9401%, Time: 384.253s
+  -> Gap 517.94% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 435.36411237716675 seconds predicted_tour_lens tensor([6176685.], device='cuda:0') factor: 100850.0
+Instance: vm22775, Dimension: 22775, Cost: 6176685.00, Optimal: 569288.00, Gap: 984.9842%, Time: 435.364s
+  -> Gap 984.98% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 435.4679117202759 seconds predicted_tour_lens tensor([142824.], device='cuda:0') factor: 754.0
+Instance: lsb22777, Dimension: 22777, Cost: 142824.00, Optimal: 60977.00, Gap: 134.2260%, Time: 435.468s
+  -> Gap 134.23% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 495.0930104255676 seconds predicted_tour_lens tensor([408262.], device='cuda:0') factor: 1223.0
+Instance: xrh24104, Dimension: 24104, Cost: 408262.00, Optimal: 69294.00, Gap: 489.1737%, Time: 495.093s
+  -> Gap 489.17% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 537.4638841152191 seconds predicted_tour_lens tensor([8989897.], device='cuda:0') factor: 57933.3334
+Instance: sw24978, Dimension: 24978, Cost: 8989897.00, Optimal: 855597.00, Gap: 950.7163%, Time: 537.464s
+  -> Gap 950.72% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 550.067129611969 seconds predicted_tour_lens tensor([213899.], device='cuda:0') factor: 849.0
+Instance: bbz25234, Dimension: 25234, Cost: 213899.00, Optimal: 69335.00, Gap: 208.5008%, Time: 550.067s
+  -> Gap 208.50% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 722.0416820049286 seconds predicted_tour_lens tensor([620425.], device='cuda:0') factor: 1287.0
+Instance: irx28268, Dimension: 28268, Cost: 620425.00, Optimal: 72607.00, Gap: 754.4975%, Time: 722.042s
+  -> Gap 754.50% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 740.3396019935608 seconds predicted_tour_lens tensor([194049.], device='cuda:0') factor: 837.0
+Instance: fyg28534, Dimension: 28534, Cost: 194049.00, Optimal: 78562.00, Gap: 147.0011%, Time: 740.340s
+  -> Gap 147.00% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 750.3761937618256 seconds predicted_tour_lens tensor([437928.], device='cuda:0') factor: 1020.0
+Instance: icx28698, Dimension: 28698, Cost: 437928.00, Optimal: 78087.00, Gap: 460.8206%, Time: 750.376s
+  -> Gap 460.82% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 763.6454508304596 seconds predicted_tour_lens tensor([796801.], device='cuda:0') factor: 1539.0
+Instance: boa28924, Dimension: 28924, Cost: 796801.00, Optimal: 79622.00, Gap: 900.7297%, Time: 763.645s
+  -> Gap 900.73% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 803.4937014579773 seconds predicted_tour_lens tensor([310863.], device='cuda:0') factor: 888.0
+Instance: ird29514, Dimension: 29514, Cost: 310863.00, Optimal: 80353.00, Gap: 286.8717%, Time: 803.494s
+  -> Gap 286.87% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 868.4570798873901 seconds predicted_tour_lens tensor([605723.], device='cuda:0') factor: 1321.0
+Instance: pbh30440, Dimension: 30440, Cost: 605723.00, Optimal: 88313.00, Gap: 585.8820%, Time: 868.457s
+  -> Gap 585.88% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 960.7129652500153 seconds predicted_tour_lens tensor([2.7450e+08], device='cuda:0') factor: 1028240.0
+Instance: portcgen-31623-31623, Dimension: 31623, Cost: 274498432.00, Optimal: 59545390.00, Gap: 360.9902%, Time: 960.713s
+  -> Gap 360.99% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 960.5039939880371 seconds predicted_tour_lens tensor([2.5188e+08], device='cuda:0') factor: 1025185.0
+Instance: portcgen-31623-316231, Dimension: 31623, Cost: 251877520.00, Optimal: 59293266.00, Gap: 324.7995%, Time: 960.504s
+  -> Gap 324.80% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 1062.550537109375 seconds predicted_tour_lens tensor([729912.], device='cuda:0') factor: 1371.0
+Instance: xib32892, Dimension: 32892, Cost: 729912.00, Optimal: 96757.00, Gap: 654.3764%, Time: 1062.551s
+  -> Gap 654.38% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 1090.3426525592804 seconds predicted_tour_lens tensor([781795.], device='cuda:0') factor: 1483.0
+Instance: fry33203, Dimension: 33203, Cost: 781795.00, Optimal: 97240.00, Gap: 703.9850%, Time: 1090.343s
+  -> Gap 703.98% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 1134.9164264202118 seconds predicted_tour_lens tensor([10913780.], device='cuda:0') factor: 91133.3334
+Instance: bm33708, Dimension: 33708, Cost: 10913780.00, Optimal: 959289.00, Gap: 1037.6947%, Time: 1134.916s
+  -> Gap 1037.69% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 1145.452665567398 seconds predicted_tour_lens tensor([3.9967e+08], device='cuda:0') factor: 697900.0
+Instance: pla33810, Dimension: 33810, Cost: 399673024.00, Optimal: 66048945.00, Gap: 505.1164%, Time: 1145.453s
+  -> Gap 505.12% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 1219.84508061409 seconds predicted_tour_lens tensor([466996.], device='cuda:0') factor: 969.0
+Instance: bby34656, Dimension: 34656, Cost: 466996.00, Optimal: 99159.00, Gap: 370.9567%, Time: 1219.845s
+  -> Gap 370.96% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Execution time: 1626.3126215934753 seconds predicted_tour_lens tensor([735843.], device='cuda:0') factor: 1199.0
+Instance: pba38478, Dimension: 38478, Cost: 735843.00, Optimal: 108318.00, Gap: 579.3358%, Time: 1626.313s
+  -> Gap 579.34% > 100%, excluded from statistics.
+[0-1000] count: 68, mean time: 2.512s, mean gap: 5.0013%
+[1000-10000] count: 92, mean time: 22.735s, mean gap: 19.0284%
+[10000-100000] count: 4, mean time: 187.811s, mean gap: 51.9954%
+[Total] count: 164, mean time: 18.376s, mean gap: 14.0164%
+--------------------------------------------------
+Error processing batch 218, instance ics39603: CUDA out of memory. Tried to allocate 5.84 GiB (GPU 0; 23.59 GiB total capacity; 17.55 GiB already allocated; 5.71 GiB free; 17.57 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Error processing batch 219, instance rbz43748: CUDA out of memory. Tried to allocate 7.13 GiB (GPU 0; 23.59 GiB total capacity; 17.55 GiB already allocated; 5.71 GiB free; 17.57 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Error processing batch 220, instance fht47608: CUDA out of memory. Tried to allocate 8.44 GiB (GPU 0; 23.59 GiB total capacity; 16.91 GiB already allocated; 6.35 GiB free; 16.93 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

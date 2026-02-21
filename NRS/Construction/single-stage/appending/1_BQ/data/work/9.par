@@ -1,0 +1,4 @@
+PROBLEM_FILE = work\9.vrp
+RUNS = 10
+TIME_LIMIT = 10
+TOUR_FILE = work\9.sol
