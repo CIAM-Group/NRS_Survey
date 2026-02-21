@@ -1,0 +1,2 @@
+step,test/guided_gap,test/gap,epoch,test/solved_cost,test/gt_cost,test/rewrite_ratio,test/guided_solved_cost
+0,0.5887988649506196,1.141193624247201,0,23.382156026514235,23.118199625317846,0.20000019669532776,23.254355010454606
