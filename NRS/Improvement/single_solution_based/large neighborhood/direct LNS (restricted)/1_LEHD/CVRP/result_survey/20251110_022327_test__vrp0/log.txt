@@ -1,0 +1,319 @@
+[2025-11-10 01:23:28] test_cvrp_survey.py(146) : DEBUG_MODE: False
+[2025-11-10 01:23:28] test_cvrp_survey.py(147) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-11-10 01:23:28] test_cvrp_survey.py(148) : env_params{'mode': 'test', 'test_in_vrplib': True, 'vrplib_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/data/vrplib_192instances.txt', 'data_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/data/vrplib_192instances.txt', 'sub_path': False, 'RRC_budget': 1000}
+[2025-11-10 01:23:28] test_cvrp_survey.py(148) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512}
+[2025-11-10 01:23:28] test_cvrp_survey.py(148) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'begin_index': 0, 'test_episodes': 262, 'test_batch_size': 1}
+[2025-11-10 01:23:28] test_cvrp_survey.py(148) : logger_params{'log_file': {'desc': 'test__vrp0', 'filename': 'log.txt', 'filepath': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/result_survey/20251110_022327_test__vrp0'}}
+[2025-11-10 01:23:30] Tester_inCVRPlib.py(599) : Greedy, name:X-n101-k25, gap:10.952847 %, Elapsed[0.02m], stu_l:30613.000000 , opt_l:27591.000000
+[2025-11-10 01:26:40] Tester_inCVRPlib.py(497) : ep   1/110, Elapsed[3.18m], Remain[5.78h], Dim:  100, Teacher:27591.0000, Student:28279.0000, Gap:2.494%, Time:190.842s
+[2025-11-10 01:26:40] Tester_inCVRPlib.py(599) : Greedy, name:X-n106-k14, gap:3.728852 %, Elapsed[3.19m], stu_l:27345.000000 , opt_l:26362.000000
+[2025-11-10 01:30:06] Tester_inCVRPlib.py(497) : ep   2/110, Elapsed[6.61m], Remain[5.95h], Dim:  105, Teacher:26362.0000, Student:26900.0000, Gap:2.041%, Time:205.870s
+[2025-11-10 01:30:06] Tester_inCVRPlib.py(599) : Greedy, name:X-n110-k13, gap:1.830205 %, Elapsed[6.62m], stu_l:15245.000000 , opt_l:14971.000000
+[2025-11-10 01:33:41] Tester_inCVRPlib.py(497) : ep   3/110, Elapsed[10.20m], Remain[6.06h], Dim:  109, Teacher:14971.0000, Student:14971.0000, Gap:0.000%, Time:215.054s
+[2025-11-10 01:33:41] Tester_inCVRPlib.py(599) : Greedy, name:X-n115-k10, gap:9.390445 %, Elapsed[10.20m], stu_l:13944.000000 , opt_l:12747.000000
+[2025-11-10 01:37:22] Tester_inCVRPlib.py(497) : ep   4/110, Elapsed[13.88m], Remain[6.13h], Dim:  114, Teacher:12747.0000, Student:12819.0000, Gap:0.565%, Time:220.958s
+[2025-11-10 01:37:22] Tester_inCVRPlib.py(599) : Greedy, name:X-n120-k6, gap:3.885388 %, Elapsed[13.89m], stu_l:13850.000000 , opt_l:13332.000000
+[2025-11-10 01:41:14] Tester_inCVRPlib.py(497) : ep   5/110, Elapsed[17.75m], Remain[6.21h], Dim:  119, Teacher:13332.0000, Student:13333.0000, Gap:0.008%, Time:231.993s
+[2025-11-10 01:41:14] Tester_inCVRPlib.py(599) : Greedy, name:X-n125-k30, gap:16.030177 %, Elapsed[17.75m], stu_l:64442.000000 , opt_l:55539.000000
+[2025-11-10 01:45:17] Tester_inCVRPlib.py(497) : ep   6/110, Elapsed[21.79m], Remain[6.29h], Dim:  124, Teacher:55539.0000, Student:58153.0000, Gap:4.707%, Time:242.600s
+[2025-11-10 01:45:17] Tester_inCVRPlib.py(599) : Greedy, name:X-n129-k18, gap:3.994471 %, Elapsed[21.80m], stu_l:30096.000000 , opt_l:28940.000000
+[2025-11-10 01:49:31] Tester_inCVRPlib.py(497) : ep   7/110, Elapsed[26.03m], Remain[6.38h], Dim:  128, Teacher:28940.0000, Student:29064.0000, Gap:0.428%, Time:254.514s
+[2025-11-10 01:49:32] Tester_inCVRPlib.py(599) : Greedy, name:X-n134-k13, gap:11.707585 %, Elapsed[26.04m], stu_l:12194.000000 , opt_l:10916.000000
+[2025-11-10 01:53:57] Tester_inCVRPlib.py(497) : ep   8/110, Elapsed[30.47m], Remain[6.47h], Dim:  133, Teacher:10916.0000, Student:11134.0000, Gap:1.997%, Time:266.129s
+[2025-11-10 01:53:58] Tester_inCVRPlib.py(599) : Greedy, name:X-n139-k10, gap:3.068433 %, Elapsed[30.47m], stu_l:14007.000000 , opt_l:13590.000000
+[2025-11-10 01:58:30] Tester_inCVRPlib.py(497) : ep   9/110, Elapsed[35.01m], Remain[6.55h], Dim:  138, Teacher:13590.0000, Student:13605.0000, Gap:0.110%, Time:272.549s
+[2025-11-10 01:58:30] Tester_inCVRPlib.py(599) : Greedy, name:X-n143-k7, gap:14.000000 %, Elapsed[35.02m], stu_l:17898.000000 , opt_l:15700.000000
+[2025-11-10 02:02:57] Tester_inCVRPlib.py(497) : ep  10/110, Elapsed[39.47m], Remain[6.58h], Dim:  142, Teacher:15700.0000, Student:15879.0000, Gap:1.140%, Time:267.759s
+[2025-11-10 02:02:58] Tester_inCVRPlib.py(599) : Greedy, name:X-n148-k46, gap:27.158904 %, Elapsed[39.48m], stu_l:55248.000000 , opt_l:43448.000000
+[2025-11-10 02:07:44] Tester_inCVRPlib.py(497) : ep  11/110, Elapsed[44.26m], Remain[6.64h], Dim:  147, Teacher:43448.0000, Student:45415.0000, Gap:4.527%, Time:287.033s
+[2025-11-10 02:07:45] Tester_inCVRPlib.py(599) : Greedy, name:X-n153-k22, gap:25.716305 %, Elapsed[44.26m], stu_l:26677.000000 , opt_l:21220.000000
+[2025-11-10 02:12:40] Tester_inCVRPlib.py(497) : ep  12/110, Elapsed[49.19m], Remain[6.69h], Dim:  152, Teacher:21220.0000, Student:22683.0000, Gap:6.894%, Time:295.859s
+[2025-11-10 02:12:41] Tester_inCVRPlib.py(599) : Greedy, name:X-n157-k13, gap:4.941930 %, Elapsed[49.20m], stu_l:17710.000000 , opt_l:16876.000000
+[2025-11-10 02:18:01] Tester_inCVRPlib.py(497) : ep  13/110, Elapsed[54.53m], Remain[6.78h], Dim:  156, Teacher:16876.0000, Student:16928.0000, Gap:0.308%, Time:320.375s
+[2025-11-10 02:18:01] Tester_inCVRPlib.py(599) : Greedy, name:X-n162-k11, gap:3.444617 %, Elapsed[54.54m], stu_l:14625.000000 , opt_l:14138.000000
+[2025-11-10 02:23:30] Tester_inCVRPlib.py(497) : ep  14/110, Elapsed[1.00h], Remain[6.86h], Dim:  161, Teacher:14138.0000, Student:14184.0000, Gap:0.325%, Time:328.782s
+[2025-11-10 02:23:30] Tester_inCVRPlib.py(599) : Greedy, name:X-n167-k10, gap:5.025052 %, Elapsed[1.00h], stu_l:21590.000000 , opt_l:20557.000000
+[2025-11-10 02:28:50] Tester_inCVRPlib.py(497) : ep  15/110, Elapsed[1.09h], Remain[6.90h], Dim:  166, Teacher:20557.0000, Student:20680.0000, Gap:0.598%, Time:320.676s
+[2025-11-10 02:28:51] Tester_inCVRPlib.py(599) : Greedy, name:X-n172-k51, gap:33.275592 %, Elapsed[1.09h], stu_l:60783.000000 , opt_l:45607.000000
+[2025-11-10 02:34:26] Tester_inCVRPlib.py(497) : ep  16/110, Elapsed[1.18h], Remain[6.95h], Dim:  171, Teacher:45607.0000, Student:48994.0000, Gap:7.426%, Time:335.757s
+[2025-11-10 02:34:27] Tester_inCVRPlib.py(599) : Greedy, name:X-n176-k26, gap:27.012047 %, Elapsed[1.18h], stu_l:60727.000000 , opt_l:47812.000000
+[2025-11-10 02:40:05] Tester_inCVRPlib.py(497) : ep  17/110, Elapsed[1.28h], Remain[6.98h], Dim:  175, Teacher:47812.0000, Student:50447.0000, Gap:5.511%, Time:339.326s
+[2025-11-10 02:40:06] Tester_inCVRPlib.py(599) : Greedy, name:X-n181-k23, gap:1.224139 %, Elapsed[1.28h], stu_l:25882.000000 , opt_l:25569.000000
+[2025-11-10 02:46:05] Tester_inCVRPlib.py(497) : ep  18/110, Elapsed[1.38h], Remain[7.04h], Dim:  180, Teacher:25569.0000, Student:25679.0000, Gap:0.430%, Time:359.594s
+[2025-11-10 02:46:06] Tester_inCVRPlib.py(599) : Greedy, name:X-n186-k15, gap:6.854421 %, Elapsed[1.38h], stu_l:25800.000000 , opt_l:24145.000000
+[2025-11-10 02:52:04] Tester_inCVRPlib.py(497) : ep  19/110, Elapsed[1.48h], Remain[7.07h], Dim:  185, Teacher:24145.0000, Student:24340.0000, Gap:0.808%, Time:358.992s
+[2025-11-10 02:52:05] Tester_inCVRPlib.py(599) : Greedy, name:X-n190-k8, gap:5.388692 %, Elapsed[1.48h], stu_l:17895.000000 , opt_l:16980.000000
+[2025-11-10 02:58:21] Tester_inCVRPlib.py(497) : ep  20/110, Elapsed[1.58h], Remain[7.11h], Dim:  189, Teacher:16980.0000, Student:17232.0000, Gap:1.484%, Time:376.677s
+[2025-11-10 02:58:21] Tester_inCVRPlib.py(599) : Greedy, name:X-n195-k51, gap:20.352742 %, Elapsed[1.58h], stu_l:53226.000000 , opt_l:44225.000000
+[2025-11-10 03:04:35] Tester_inCVRPlib.py(497) : ep  21/110, Elapsed[1.68h], Remain[7.14h], Dim:  194, Teacher:44225.0000, Student:46201.0000, Gap:4.468%, Time:374.626s
+[2025-11-10 03:04:36] Tester_inCVRPlib.py(599) : Greedy, name:X-n200-k36, gap:10.252996 %, Elapsed[1.69h], stu_l:64584.000000 , opt_l:58578.000000
+[2025-11-10 03:11:15] Tester_inCVRPlib.py(497) : ep  22/110, Elapsed[1.80h], Remain[7.18h], Dim:  199, Teacher:58578.0000, Student:60479.0000, Gap:3.245%, Time:399.562s
+[2025-11-10 03:11:16] Tester_inCVRPlib.py(599) : Greedy, name:X-n204-k19, gap:2.662919 %, Elapsed[1.80h], stu_l:20086.000000 , opt_l:19565.000000
+[2025-11-10 03:17:59] Tester_inCVRPlib.py(497) : ep  23/110, Elapsed[1.91h], Remain[7.22h], Dim:  203, Teacher:19565.0000, Student:19795.0000, Gap:1.176%, Time:404.229s
+[2025-11-10 03:18:00] Tester_inCVRPlib.py(599) : Greedy, name:X-n209-k16, gap:3.862213 %, Elapsed[1.91h], stu_l:31840.000000 , opt_l:30656.000000
+[2025-11-10 03:24:48] Tester_inCVRPlib.py(497) : ep  24/110, Elapsed[2.02h], Remain[7.24h], Dim:  208, Teacher:30656.0000, Student:30855.0000, Gap:0.649%, Time:408.902s
+[2025-11-10 03:24:49] Tester_inCVRPlib.py(599) : Greedy, name:X-n214-k11, gap:6.328297 %, Elapsed[2.02h], stu_l:11543.000000 , opt_l:10856.000000
+[2025-11-10 03:31:38] Tester_inCVRPlib.py(497) : ep  25/110, Elapsed[2.14h], Remain[7.26h], Dim:  213, Teacher:10856.0000, Student:11100.0000, Gap:2.248%, Time:410.370s
+[2025-11-10 03:31:39] Tester_inCVRPlib.py(599) : Greedy, name:X-n219-k73, gap:15.514265 %, Elapsed[2.14h], stu_l:135839.000000 , opt_l:117595.000000
+[2025-11-10 03:38:58] Tester_inCVRPlib.py(497) : ep  26/110, Elapsed[2.26h], Remain[7.30h], Dim:  218, Teacher:117595.0000, Student:121453.0000, Gap:3.281%, Time:440.131s
+[2025-11-10 03:38:59] Tester_inCVRPlib.py(599) : Greedy, name:X-n223-k34, gap:5.203155 %, Elapsed[2.26h], stu_l:42541.000000 , opt_l:40437.000000
+[2025-11-10 03:46:08] Tester_inCVRPlib.py(497) : ep  27/110, Elapsed[2.38h], Remain[7.31h], Dim:  222, Teacher:40437.0000, Student:40754.0000, Gap:0.784%, Time:430.109s
+[2025-11-10 03:46:09] Tester_inCVRPlib.py(599) : Greedy, name:X-n228-k23, gap:11.044208 %, Elapsed[2.38h], stu_l:28585.000000 , opt_l:25742.000000
+[2025-11-10 03:53:17] Tester_inCVRPlib.py(497) : ep  28/110, Elapsed[2.50h], Remain[7.31h], Dim:  227, Teacher:25742.0000, Student:26872.0000, Gap:4.390%, Time:428.275s
+[2025-11-10 03:53:18] Tester_inCVRPlib.py(599) : Greedy, name:X-n233-k16, gap:5.600624 %, Elapsed[2.50h], stu_l:20307.000000 , opt_l:19230.000000
+[2025-11-10 04:00:45] Tester_inCVRPlib.py(497) : ep  29/110, Elapsed[2.62h], Remain[7.32h], Dim:  232, Teacher:19230.0000, Student:19347.0000, Gap:0.608%, Time:447.986s
+[2025-11-10 04:00:46] Tester_inCVRPlib.py(599) : Greedy, name:X-n237-k14, gap:4.045559 %, Elapsed[2.62h], stu_l:28136.000000 , opt_l:27042.000000
+[2025-11-10 04:08:16] Tester_inCVRPlib.py(497) : ep  30/110, Elapsed[2.75h], Remain[7.32h], Dim:  236, Teacher:27042.0000, Student:27162.0000, Gap:0.444%, Time:451.724s
+[2025-11-10 04:08:17] Tester_inCVRPlib.py(599) : Greedy, name:X-n242-k48, gap:6.012012 %, Elapsed[2.75h], stu_l:87726.000000 , opt_l:82751.000000
+[2025-11-10 04:15:45] Tester_inCVRPlib.py(497) : ep  31/110, Elapsed[2.87h], Remain[7.32h], Dim:  241, Teacher:82751.0000, Student:85020.0000, Gap:2.742%, Time:448.148s
+[2025-11-10 04:15:46] Tester_inCVRPlib.py(599) : Greedy, name:X-n247-k50, gap:61.466438 %, Elapsed[2.87h], stu_l:60185.000000 , opt_l:37274.000000
+[2025-11-10 04:23:35] Tester_inCVRPlib.py(497) : ep  32/110, Elapsed[3.00h], Remain[7.32h], Dim:  246, Teacher:37274.0000, Student:41654.0000, Gap:11.751%, Time:470.396s
+[2025-11-10 04:23:36] Tester_inCVRPlib.py(599) : Greedy, name:X-n251-k28, gap:2.455796 %, Elapsed[3.00h], stu_l:39634.000000 , opt_l:38684.000000
+[2025-11-10 04:31:30] Tester_inCVRPlib.py(497) : ep  33/110, Elapsed[3.13h], Remain[7.31h], Dim:  250, Teacher:38684.0000, Student:39008.0000, Gap:0.838%, Time:474.571s
+[2025-11-10 04:31:31] Tester_inCVRPlib.py(599) : Greedy, name:X-n256-k16, gap:5.493922 %, Elapsed[3.13h], stu_l:19874.000000 , opt_l:18839.000000
+[2025-11-10 04:39:36] Tester_inCVRPlib.py(497) : ep  34/110, Elapsed[3.27h], Remain[7.31h], Dim:  255, Teacher:18839.0000, Student:18971.0000, Gap:0.701%, Time:486.728s
+[2025-11-10 04:39:37] Tester_inCVRPlib.py(599) : Greedy, name:X-n261-k13, gap:8.784547 %, Elapsed[3.27h], stu_l:28891.000000 , opt_l:26558.000000
+[2025-11-10 04:48:18] Tester_inCVRPlib.py(497) : ep  35/110, Elapsed[3.41h], Remain[7.31h], Dim:  260, Teacher:26558.0000, Student:26692.0000, Gap:0.505%, Time:522.094s
+[2025-11-10 04:48:19] Tester_inCVRPlib.py(599) : Greedy, name:X-n266-k58, gap:7.399507 %, Elapsed[3.41h], stu_l:81063.000000 , opt_l:75478.000000
+[2025-11-10 04:56:55] Tester_inCVRPlib.py(497) : ep  36/110, Elapsed[3.56h], Remain[7.31h], Dim:  265, Teacher:75478.0000, Student:78017.0000, Gap:3.364%, Time:516.591s
+[2025-11-10 04:56:56] Tester_inCVRPlib.py(599) : Greedy, name:X-n270-k35, gap:3.989686 %, Elapsed[3.56h], stu_l:36699.000000 , opt_l:35291.000000
+[2025-11-10 05:05:38] Tester_inCVRPlib.py(497) : ep  37/110, Elapsed[3.70h], Remain[7.30h], Dim:  269, Teacher:35291.0000, Student:35888.0000, Gap:1.692%, Time:523.134s
+[2025-11-10 05:05:39] Tester_inCVRPlib.py(599) : Greedy, name:X-n275-k28, gap:3.026594 %, Elapsed[3.70h], stu_l:21888.000000 , opt_l:21245.000000
+[2025-11-10 05:14:25] Tester_inCVRPlib.py(497) : ep  38/110, Elapsed[3.85h], Remain[7.29h], Dim:  274, Teacher:21245.0000, Student:21487.0000, Gap:1.139%, Time:526.745s
+[2025-11-10 05:14:26] Tester_inCVRPlib.py(599) : Greedy, name:X-n280-k17, gap:9.640928 %, Elapsed[3.85h], stu_l:36733.000000 , opt_l:33503.000000
+[2025-11-10 05:23:15] Tester_inCVRPlib.py(497) : ep  39/110, Elapsed[4.00h], Remain[7.27h], Dim:  279, Teacher:33503.0000, Student:34030.0000, Gap:1.573%, Time:530.371s
+[2025-11-10 05:23:16] Tester_inCVRPlib.py(599) : Greedy, name:X-n284-k15, gap:5.413824 %, Elapsed[4.00h], stu_l:21321.000000 , opt_l:20226.000000
+[2025-11-10 05:32:31] Tester_inCVRPlib.py(497) : ep  40/110, Elapsed[4.15h], Remain[7.26h], Dim:  283, Teacher:20226.0000, Student:20655.0000, Gap:2.121%, Time:556.234s
+[2025-11-10 05:32:33] Tester_inCVRPlib.py(599) : Greedy, name:X-n289-k60, gap:9.883238 %, Elapsed[4.15h], stu_l:104555.000000 , opt_l:95151.000000
+[2025-11-10 05:41:35] Tester_inCVRPlib.py(497) : ep  41/110, Elapsed[4.30h], Remain[7.24h], Dim:  288, Teacher:95151.0000, Student:98579.0000, Gap:3.603%, Time:543.733s
+[2025-11-10 05:41:36] Tester_inCVRPlib.py(599) : Greedy, name:X-n294-k50, gap:9.673247 %, Elapsed[4.30h], stu_l:51723.000000 , opt_l:47161.000000
+[2025-11-10 05:51:38] Tester_inCVRPlib.py(497) : ep  42/110, Elapsed[4.47h], Remain[7.24h], Dim:  293, Teacher:47161.0000, Student:48286.0000, Gap:2.385%, Time:602.631s
+[2025-11-10 05:51:39] Tester_inCVRPlib.py(599) : Greedy, name:X-n298-k31, gap:7.598376 %, Elapsed[4.47h], stu_l:36832.000000 , opt_l:34231.000000
+[2025-11-10 06:01:09] Tester_inCVRPlib.py(497) : ep  43/110, Elapsed[4.63h], Remain[7.21h], Dim:  297, Teacher:34231.0000, Student:34596.0000, Gap:1.066%, Time:571.606s
+[2025-11-10 06:01:11] Tester_inCVRPlib.py(599) : Greedy, name:X-n303-k21, gap:2.778800 %, Elapsed[4.63h], stu_l:22340.000000 , opt_l:21736.000000
+[2025-11-10 06:10:52] Tester_inCVRPlib.py(497) : ep  44/110, Elapsed[4.79h], Remain[7.18h], Dim:  302, Teacher:21736.0000, Student:22085.0000, Gap:1.606%, Time:582.531s
+[2025-11-10 06:10:53] Tester_inCVRPlib.py(599) : Greedy, name:X-n308-k13, gap:4.416258 %, Elapsed[4.79h], stu_l:27001.000000 , opt_l:25859.000000
+[2025-11-10 06:20:48] Tester_inCVRPlib.py(497) : ep  45/110, Elapsed[4.96h], Remain[7.16h], Dim:  307, Teacher:25859.0000, Student:26436.0000, Gap:2.231%, Time:596.196s
+[2025-11-10 06:20:49] Tester_inCVRPlib.py(599) : Greedy, name:X-n313-k71, gap:14.316855 %, Elapsed[4.96h], stu_l:107507.000000 , opt_l:94043.000000
+[2025-11-10 06:31:00] Tester_inCVRPlib.py(497) : ep  46/110, Elapsed[5.13h], Remain[7.13h], Dim:  312, Teacher:94043.0000, Student:100019.0000, Gap:6.355%, Time:611.673s
+[2025-11-10 06:31:01] Tester_inCVRPlib.py(599) : Greedy, name:X-n317-k53, gap:3.864463 %, Elapsed[5.13h], stu_l:81383.000000 , opt_l:78355.000000
+[2025-11-10 06:41:28] Tester_inCVRPlib.py(497) : ep  47/110, Elapsed[5.30h], Remain[7.10h], Dim:  316, Teacher:78355.0000, Student:78983.0000, Gap:0.801%, Time:627.781s
+[2025-11-10 06:41:29] Tester_inCVRPlib.py(599) : Greedy, name:X-n322-k28, gap:6.204331 %, Elapsed[5.30h], stu_l:31685.000000 , opt_l:29834.000000
+[2025-11-10 06:52:18] Tester_inCVRPlib.py(497) : ep  48/110, Elapsed[5.48h], Remain[7.08h], Dim:  321, Teacher:29834.0000, Student:30318.0000, Gap:1.622%, Time:649.958s
+[2025-11-10 06:52:19] Tester_inCVRPlib.py(599) : Greedy, name:X-n327-k20, gap:10.711172 %, Elapsed[5.48h], stu_l:30481.000000 , opt_l:27532.000000
+[2025-11-10 07:02:37] Tester_inCVRPlib.py(497) : ep  49/110, Elapsed[5.65h], Remain[7.04h], Dim:  326, Teacher:27532.0000, Student:28046.0000, Gap:1.867%, Time:619.678s
+[2025-11-10 07:02:39] Tester_inCVRPlib.py(599) : Greedy, name:X-n331-k15, gap:3.330975 %, Elapsed[5.65h], stu_l:32138.000000 , opt_l:31102.000000
+[2025-11-10 07:13:26] Tester_inCVRPlib.py(497) : ep  50/110, Elapsed[5.83h], Remain[7.00h], Dim:  330, Teacher:31102.0000, Student:31344.0000, Gap:0.778%, Time:648.282s
+[2025-11-10 07:13:27] Tester_inCVRPlib.py(599) : Greedy, name:X-n336-k84, gap:18.777092 %, Elapsed[5.83h], stu_l:165232.000000 , opt_l:139111.000000
+[2025-11-10 07:24:07] Tester_inCVRPlib.py(497) : ep  51/110, Elapsed[6.01h], Remain[6.95h], Dim:  335, Teacher:139111.0000, Student:150045.0000, Gap:7.860%, Time:641.824s
+[2025-11-10 07:24:09] Tester_inCVRPlib.py(599) : Greedy, name:X-n344-k43, gap:3.900119 %, Elapsed[6.01h], stu_l:43690.000000 , opt_l:42050.000000
+[2025-11-10 07:35:47] Tester_inCVRPlib.py(497) : ep  52/110, Elapsed[6.21h], Remain[6.92h], Dim:  343, Teacher:42050.0000, Student:42541.0000, Gap:1.168%, Time:700.113s
+[2025-11-10 07:35:49] Tester_inCVRPlib.py(599) : Greedy, name:X-n351-k40, gap:6.977911 %, Elapsed[6.21h], stu_l:27703.000000 , opt_l:25896.000000
+[2025-11-10 07:47:06] Tester_inCVRPlib.py(497) : ep  53/110, Elapsed[6.39h], Remain[6.88h], Dim:  350, Teacher:25896.0000, Student:26687.0000, Gap:3.055%, Time:678.562s
+[2025-11-10 07:47:07] Tester_inCVRPlib.py(599) : Greedy, name:X-n359-k29, gap:2.778371 %, Elapsed[6.39h], stu_l:52936.000000 , opt_l:51505.000000
+[2025-11-10 07:59:18] Tester_inCVRPlib.py(497) : ep  54/110, Elapsed[6.60h], Remain[6.84h], Dim:  358, Teacher:51505.0000, Student:52159.0000, Gap:1.270%, Time:732.454s
+[2025-11-10 07:59:20] Tester_inCVRPlib.py(599) : Greedy, name:X-n367-k17, gap:9.608135 %, Elapsed[6.60h], stu_l:25006.000000 , opt_l:22814.000000
+[2025-11-10 08:11:07] Tester_inCVRPlib.py(497) : ep  55/110, Elapsed[6.79h], Remain[6.79h], Dim:  366, Teacher:22814.0000, Student:23394.0000, Gap:2.542%, Time:708.451s
+[2025-11-10 08:11:08] Tester_inCVRPlib.py(599) : Greedy, name:X-n376-k94, gap:5.446372 %, Elapsed[6.79h], stu_l:155758.000000 , opt_l:147713.000000
+[2025-11-10 08:23:44] Tester_inCVRPlib.py(497) : ep  56/110, Elapsed[7.00h], Remain[6.75h], Dim:  375, Teacher:147713.0000, Student:150096.0000, Gap:1.613%, Time:757.231s
+[2025-11-10 08:23:46] Tester_inCVRPlib.py(599) : Greedy, name:X-n384-k52, gap:7.779800 %, Elapsed[7.00h], stu_l:71070.000000 , opt_l:65940.000000
+[2025-11-10 08:36:13] Tester_inCVRPlib.py(497) : ep  57/110, Elapsed[7.21h], Remain[6.71h], Dim:  383, Teacher:65940.0000, Student:67546.0000, Gap:2.436%, Time:749.053s
+[2025-11-10 08:36:15] Tester_inCVRPlib.py(599) : Greedy, name:X-n393-k38, gap:4.451124 %, Elapsed[7.21h], stu_l:39963.000000 , opt_l:38260.000000
+[2025-11-10 08:48:48] Tester_inCVRPlib.py(497) : ep  58/110, Elapsed[7.42h], Remain[6.65h], Dim:  392, Teacher:38260.0000, Student:38760.0000, Gap:1.307%, Time:754.492s
+[2025-11-10 08:48:49] Tester_inCVRPlib.py(599) : Greedy, name:X-n401-k29, gap:5.538592 %, Elapsed[7.42h], stu_l:69818.000000 , opt_l:66154.000000
+[2025-11-10 09:01:48] Tester_inCVRPlib.py(497) : ep  59/110, Elapsed[7.64h], Remain[6.60h], Dim:  400, Teacher:66154.0000, Student:67663.0000, Gap:2.281%, Time:780.199s
+[2025-11-10 09:01:50] Tester_inCVRPlib.py(599) : Greedy, name:X-n411-k19, gap:7.081980 %, Elapsed[7.64h], stu_l:21108.000000 , opt_l:19712.000000
+[2025-11-10 09:15:00] Tester_inCVRPlib.py(497) : ep  60/110, Elapsed[7.86h], Remain[6.55h], Dim:  410, Teacher:19712.0000, Student:20489.0000, Gap:3.942%, Time:791.703s
+[2025-11-10 09:15:01] Tester_inCVRPlib.py(599) : Greedy, name:X-n420-k130, gap:61.629158 %, Elapsed[7.86h], stu_l:174233.000000 , opt_l:107798.000000
+[2025-11-10 09:28:46] Tester_inCVRPlib.py(497) : ep  61/110, Elapsed[8.09h], Remain[6.50h], Dim:  419, Teacher:107798.0000, Student:125050.0000, Gap:16.004%, Time:826.220s
+[2025-11-10 09:28:48] Tester_inCVRPlib.py(599) : Greedy, name:X-n429-k61, gap:6.162050 %, Elapsed[8.09h], stu_l:69482.000000 , opt_l:65449.000000
+[2025-11-10 09:43:23] Tester_inCVRPlib.py(497) : ep  62/110, Elapsed[8.33h], Remain[6.45h], Dim:  428, Teacher:65449.0000, Student:67435.0000, Gap:3.034%, Time:876.847s
+[2025-11-10 09:43:24] Tester_inCVRPlib.py(599) : Greedy, name:X-n439-k37, gap:1.967520 %, Elapsed[8.33h], stu_l:37107.000000 , opt_l:36391.000000
+[2025-11-10 09:57:43] Tester_inCVRPlib.py(497) : ep  63/110, Elapsed[8.57h], Remain[6.39h], Dim:  438, Teacher:36391.0000, Student:36654.0000, Gap:0.723%, Time:860.148s
+[2025-11-10 09:57:45] Tester_inCVRPlib.py(599) : Greedy, name:X-n449-k29, gap:7.171437 %, Elapsed[8.57h], stu_l:59194.000000 , opt_l:55233.000000
+[2025-11-10 10:12:35] Tester_inCVRPlib.py(497) : ep  64/110, Elapsed[8.82h], Remain[6.34h], Dim:  448, Teacher:55233.0000, Student:56966.0000, Gap:3.138%, Time:892.379s
+[2025-11-10 10:12:37] Tester_inCVRPlib.py(599) : Greedy, name:X-n459-k26, gap:6.619993 %, Elapsed[8.82h], stu_l:25737.000000 , opt_l:24139.000000
+[2025-11-10 10:27:18] Tester_inCVRPlib.py(497) : ep  65/110, Elapsed[9.06h], Remain[6.27h], Dim:  458, Teacher:24139.0000, Student:24988.0000, Gap:3.517%, Time:882.752s
+[2025-11-10 10:27:20] Tester_inCVRPlib.py(599) : Greedy, name:X-n469-k138, gap:28.317946 %, Elapsed[9.06h], stu_l:284640.000000 , opt_l:221824.000000
+[2025-11-10 10:42:36] Tester_inCVRPlib.py(497) : ep  66/110, Elapsed[9.32h], Remain[6.21h], Dim:  468, Teacher:221824.0000, Student:242280.0000, Gap:9.222%, Time:917.790s
+[2025-11-10 10:42:38] Tester_inCVRPlib.py(599) : Greedy, name:X-n480-k70, gap:3.570750 %, Elapsed[9.32h], stu_l:92643.000000 , opt_l:89449.000000
+[2025-11-10 10:58:10] Tester_inCVRPlib.py(497) : ep  67/110, Elapsed[9.58h], Remain[6.15h], Dim:  479, Teacher:89449.0000, Student:91594.0000, Gap:2.398%, Time:934.120s
+[2025-11-10 10:58:12] Tester_inCVRPlib.py(599) : Greedy, name:X-n491-k59, gap:5.059940 %, Elapsed[9.58h], stu_l:69847.000000 , opt_l:66483.000000
+[2025-11-10 11:14:28] Tester_inCVRPlib.py(497) : ep  68/110, Elapsed[9.85h], Remain[6.08h], Dim:  490, Teacher:66483.0000, Student:68511.0000, Gap:3.050%, Time:978.412s
+[2025-11-10 11:14:30] Tester_inCVRPlib.py(599) : Greedy, name:X-n502-k39, gap:3.264669 %, Elapsed[9.85h], stu_l:71486.000000 , opt_l:69226.000000
+[2025-11-10 11:31:14] Tester_inCVRPlib.py(497) : ep  69/110, Elapsed[10.13h], Remain[6.02h], Dim:  501, Teacher:69226.0000, Student:70114.0000, Gap:1.283%, Time:1005.828s
+[2025-11-10 11:31:16] Tester_inCVRPlib.py(599) : Greedy, name:X-n513-k21, gap:4.900624 %, Elapsed[10.13h], stu_l:25387.000000 , opt_l:24201.000000
+[2025-11-10 11:47:38] Tester_inCVRPlib.py(497) : ep  70/110, Elapsed[10.40h], Remain[5.94h], Dim:  512, Teacher:24201.0000, Student:24772.0000, Gap:2.359%, Time:983.502s
+[2025-11-10 11:47:40] Tester_inCVRPlib.py(599) : Greedy, name:X-n524-k153, gap:78.654921 %, Elapsed[10.40h], stu_l:276188.000000 , opt_l:154593.000000
+[2025-11-10 12:04:24] Tester_inCVRPlib.py(497) : ep  71/110, Elapsed[10.68h], Remain[5.87h], Dim:  523, Teacher:154593.0000, Student:186701.0000, Gap:20.769%, Time:1006.231s
+[2025-11-10 12:04:26] Tester_inCVRPlib.py(599) : Greedy, name:X-n536-k96, gap:14.523543 %, Elapsed[10.68h], stu_l:108621.000000 , opt_l:94846.000000
+[2025-11-10 12:22:22] Tester_inCVRPlib.py(497) : ep  72/110, Elapsed[10.98h], Remain[5.80h], Dim:  535, Teacher:94846.0000, Student:100378.0000, Gap:5.833%, Time:1078.202s
+[2025-11-10 12:22:24] Tester_inCVRPlib.py(599) : Greedy, name:X-n548-k50, gap:3.306805 %, Elapsed[10.98h], stu_l:89567.000000 , opt_l:86700.000000
+[2025-11-10 12:40:11] Tester_inCVRPlib.py(497) : ep  73/110, Elapsed[11.28h], Remain[5.72h], Dim:  547, Teacher:86700.0000, Student:87462.0000, Gap:0.879%, Time:1069.202s
+[2025-11-10 12:40:13] Tester_inCVRPlib.py(599) : Greedy, name:X-n561-k42, gap:5.815015 %, Elapsed[11.28h], stu_l:45201.000000 , opt_l:42717.000000
+[2025-11-10 12:58:47] Tester_inCVRPlib.py(497) : ep  74/110, Elapsed[11.59h], Remain[5.64h], Dim:  560, Teacher:42717.0000, Student:43474.0000, Gap:1.772%, Time:1115.644s
+[2025-11-10 12:58:49] Tester_inCVRPlib.py(599) : Greedy, name:X-n573-k30, gap:11.313717 %, Elapsed[11.59h], stu_l:56406.000000 , opt_l:50673.000000
+[2025-11-10 13:17:35] Tester_inCVRPlib.py(497) : ep  75/110, Elapsed[11.90h], Remain[5.55h], Dim:  572, Teacher:50673.0000, Student:52473.0000, Gap:3.552%, Time:1128.449s
+[2025-11-10 13:17:38] Tester_inCVRPlib.py(599) : Greedy, name:X-n586-k159, gap:20.141239 %, Elapsed[11.90h], stu_l:228648.000000 , opt_l:190316.000000
+[2025-11-10 13:36:25] Tester_inCVRPlib.py(497) : ep  76/110, Elapsed[12.22h], Remain[5.46h], Dim:  585, Teacher:190316.0000, Student:203888.0000, Gap:7.131%, Time:1129.209s
+[2025-11-10 13:36:27] Tester_inCVRPlib.py(599) : Greedy, name:X-n599-k92, gap:7.983329 %, Elapsed[12.22h], stu_l:117109.000000 , opt_l:108451.000000
+[2025-11-10 13:55:16] Tester_inCVRPlib.py(497) : ep  77/110, Elapsed[12.53h], Remain[5.37h], Dim:  598, Teacher:108451.0000, Student:113651.0000, Gap:4.795%, Time:1131.185s
+[2025-11-10 13:55:18] Tester_inCVRPlib.py(599) : Greedy, name:X-n613-k62, gap:7.928109 %, Elapsed[12.53h], stu_l:64255.000000 , opt_l:59535.000000
+[2025-11-10 14:14:50] Tester_inCVRPlib.py(497) : ep  78/110, Elapsed[12.86h], Remain[5.27h], Dim:  612, Teacher:59535.0000, Student:61497.0000, Gap:3.296%, Time:1174.396s
+[2025-11-10 14:14:53] Tester_inCVRPlib.py(599) : Greedy, name:X-n627-k43, gap:5.448491 %, Elapsed[12.86h], stu_l:65551.000000 , opt_l:62164.000000
+[2025-11-10 14:35:21] Tester_inCVRPlib.py(497) : ep  79/110, Elapsed[13.20h], Remain[5.18h], Dim:  626, Teacher:62164.0000, Student:64023.0000, Gap:2.990%, Time:1231.247s
+[2025-11-10 14:35:24] Tester_inCVRPlib.py(599) : Greedy, name:X-n641-k35, gap:5.635639 %, Elapsed[13.20h], stu_l:67273.000000 , opt_l:63684.000000
+[2025-11-10 14:56:14] Tester_inCVRPlib.py(497) : ep  80/110, Elapsed[13.55h], Remain[5.08h], Dim:  640, Teacher:63684.0000, Student:65557.0000, Gap:2.941%, Time:1253.113s
+[2025-11-10 14:56:17] Tester_inCVRPlib.py(599) : Greedy, name:X-n655-k131, gap:7.149279 %, Elapsed[13.55h], stu_l:114414.000000 , opt_l:106780.000000
+[2025-11-10 15:17:28] Tester_inCVRPlib.py(497) : ep  81/110, Elapsed[13.90h], Remain[4.98h], Dim:  654, Teacher:106780.0000, Student:109339.0000, Gap:2.397%, Time:1273.547s
+[2025-11-10 15:17:31] Tester_inCVRPlib.py(599) : Greedy, name:X-n670-k130, gap:98.294288 %, Elapsed[13.90h], stu_l:290168.000000 , opt_l:146332.000000
+[2025-11-10 15:39:20] Tester_inCVRPlib.py(497) : ep  82/110, Elapsed[14.26h], Remain[4.87h], Dim:  669, Teacher:146332.0000, Student:179086.0000, Gap:22.383%, Time:1311.620s
+[2025-11-10 15:39:22] Tester_inCVRPlib.py(599) : Greedy, name:X-n685-k75, gap:8.317572 %, Elapsed[14.26h], stu_l:73878.000000 , opt_l:68205.000000
+[2025-11-10 16:01:18] Tester_inCVRPlib.py(497) : ep  83/110, Elapsed[14.63h], Remain[4.76h], Dim:  684, Teacher:68205.0000, Student:70375.0000, Gap:3.182%, Time:1318.436s
+[2025-11-10 16:01:21] Tester_inCVRPlib.py(599) : Greedy, name:X-n701-k44, gap:4.096530 %, Elapsed[14.63h], stu_l:85279.000000 , opt_l:81923.000000
+[2025-11-10 16:24:00] Tester_inCVRPlib.py(497) : ep  84/110, Elapsed[15.01h], Remain[4.65h], Dim:  700, Teacher:81923.0000, Student:83932.0000, Gap:2.452%, Time:1362.140s
+[2025-11-10 16:24:03] Tester_inCVRPlib.py(599) : Greedy, name:X-n716-k35, gap:8.415373 %, Elapsed[15.01h], stu_l:47023.000000 , opt_l:43373.000000
+[2025-11-10 16:47:07] Tester_inCVRPlib.py(497) : ep  85/110, Elapsed[15.39h], Remain[4.53h], Dim:  715, Teacher:43373.0000, Student:45280.0000, Gap:4.397%, Time:1386.308s
+[2025-11-10 16:47:09] Tester_inCVRPlib.py(599) : Greedy, name:X-n733-k159, gap:13.829514 %, Elapsed[15.39h], stu_l:155021.000000 , opt_l:136187.000000
+[2025-11-10 17:10:24] Tester_inCVRPlib.py(497) : ep  86/110, Elapsed[15.78h], Remain[4.40h], Dim:  732, Teacher:136187.0000, Student:144718.0000, Gap:6.264%, Time:1397.036s
+[2025-11-10 17:10:27] Tester_inCVRPlib.py(599) : Greedy, name:X-n749-k98, gap:9.579521 %, Elapsed[15.78h], stu_l:84671.000000 , opt_l:77269.000000
+[2025-11-10 17:34:22] Tester_inCVRPlib.py(497) : ep  87/110, Elapsed[16.18h], Remain[4.28h], Dim:  748, Teacher:77269.0000, Student:81324.0000, Gap:5.248%, Time:1438.142s
+[2025-11-10 17:34:25] Tester_inCVRPlib.py(599) : Greedy, name:X-n766-k71, gap:15.480217 %, Elapsed[16.18h], stu_l:132129.000000 , opt_l:114417.000000
+[2025-11-10 17:59:28] Tester_inCVRPlib.py(497) : ep  88/110, Elapsed[16.60h], Remain[4.15h], Dim:  765, Teacher:114417.0000, Student:122303.0000, Gap:6.892%, Time:1506.748s
+[2025-11-10 17:59:32] Tester_inCVRPlib.py(599) : Greedy, name:X-n783-k48, gap:5.608819 %, Elapsed[16.60h], stu_l:76446.000000 , opt_l:72386.000000
+[2025-11-10 18:24:55] Tester_inCVRPlib.py(497) : ep  89/110, Elapsed[17.02h], Remain[4.02h], Dim:  782, Teacher:72386.0000, Student:74748.0000, Gap:3.263%, Time:1526.275s
+[2025-11-10 18:24:58] Tester_inCVRPlib.py(599) : Greedy, name:X-n801-k40, gap:3.437411 %, Elapsed[17.02h], stu_l:75831.000000 , opt_l:73311.000000
+[2025-11-10 18:51:03] Tester_inCVRPlib.py(497) : ep  90/110, Elapsed[17.46h], Remain[3.88h], Dim:  800, Teacher:73311.0000, Student:74744.0000, Gap:1.955%, Time:1568.640s
+[2025-11-10 18:51:07] Tester_inCVRPlib.py(599) : Greedy, name:X-n819-k171, gap:12.198886 %, Elapsed[17.46h], stu_l:177410.000000 , opt_l:158121.000000
+[2025-11-10 19:16:57] Tester_inCVRPlib.py(497) : ep  91/110, Elapsed[17.89h], Remain[3.74h], Dim:  818, Teacher:158121.0000, Student:168974.0000, Gap:6.864%, Time:1553.817s
+[2025-11-10 19:17:01] Tester_inCVRPlib.py(599) : Greedy, name:X-n837-k142, gap:6.338490 %, Elapsed[17.89h], stu_l:206017.000000 , opt_l:193737.000000
+[2025-11-10 19:44:42] Tester_inCVRPlib.py(497) : ep  92/110, Elapsed[18.35h], Remain[3.59h], Dim:  836, Teacher:193737.0000, Student:200638.0000, Gap:3.562%, Time:1664.682s
+[2025-11-10 19:44:45] Tester_inCVRPlib.py(599) : Greedy, name:X-n856-k95, gap:3.277693 %, Elapsed[18.35h], stu_l:91881.000000 , opt_l:88965.000000
+[2025-11-10 20:12:44] Tester_inCVRPlib.py(497) : ep  93/110, Elapsed[18.82h], Remain[3.44h], Dim:  855, Teacher:88965.0000, Student:90258.0000, Gap:1.453%, Time:1682.375s
+[2025-11-10 20:12:48] Tester_inCVRPlib.py(599) : Greedy, name:X-n876-k59, gap:7.267948 %, Elapsed[18.82h], stu_l:106516.000000 , opt_l:99299.000000
+[2025-11-10 20:41:56] Tester_inCVRPlib.py(497) : ep  94/110, Elapsed[19.31h], Remain[3.29h], Dim:  875, Teacher:99299.0000, Student:103538.0000, Gap:4.269%, Time:1751.704s
+[2025-11-10 20:42:00] Tester_inCVRPlib.py(599) : Greedy, name:X-n895-k37, gap:8.635351 %, Elapsed[19.31h], stu_l:58511.000000 , opt_l:53860.000000
+[2025-11-10 21:10:26] Tester_inCVRPlib.py(497) : ep  95/110, Elapsed[19.78h], Remain[3.12h], Dim:  894, Teacher:53860.0000, Student:55812.0000, Gap:3.624%, Time:1709.861s
+[2025-11-10 21:10:29] Tester_inCVRPlib.py(599) : Greedy, name:X-n916-k207, gap:15.358210 %, Elapsed[19.78h], stu_l:379735.000000 , opt_l:329179.000000
+[2025-11-10 21:41:03] Tester_inCVRPlib.py(497) : ep  96/110, Elapsed[20.29h], Remain[2.96h], Dim:  915, Teacher:329179.0000, Student:352315.0000, Gap:7.028%, Time:1837.411s
+[2025-11-10 21:41:07] Tester_inCVRPlib.py(599) : Greedy, name:X-n936-k151, gap:139.403987 %, Elapsed[20.29h], stu_l:317725.000000 , opt_l:132715.000000
+[2025-11-10 22:12:51] Tester_inCVRPlib.py(497) : ep  97/110, Elapsed[20.82h], Remain[2.79h], Dim:  935, Teacher:132715.0000, Student:166891.0000, Gap:25.751%, Time:1907.547s
+[2025-11-10 22:12:55] Tester_inCVRPlib.py(599) : Greedy, name:X-n957-k87, gap:3.813257 %, Elapsed[20.82h], stu_l:88724.000000 , opt_l:85465.000000
+[2025-11-10 22:44:27] Tester_inCVRPlib.py(497) : ep  98/110, Elapsed[21.35h], Remain[2.61h], Dim:  956, Teacher:85465.0000, Student:87078.0000, Gap:1.887%, Time:1896.307s
+[2025-11-10 22:44:31] Tester_inCVRPlib.py(599) : Greedy, name:X-n979-k58, gap:19.753563 %, Elapsed[21.35h], stu_l:142478.000000 , opt_l:118976.000000
+[2025-11-10 23:17:08] Tester_inCVRPlib.py(497) : ep  99/110, Elapsed[21.89h], Remain[2.43h], Dim:  978, Teacher:118976.0000, Student:123655.0000, Gap:3.933%, Time:1961.098s
+[2025-11-10 23:17:12] Tester_inCVRPlib.py(599) : Greedy, name:X-n1001-k43, gap:7.533688 %, Elapsed[21.90h], stu_l:77806.000000 , opt_l:72355.000000
+[2025-11-10 23:49:20] Tester_inCVRPlib.py(497) : ep 100/110, Elapsed[22.43h], Remain[2.24h], Dim: 1000, Teacher:72355.0000, Student:74918.0000, Gap:3.542%, Time:1931.524s
+[2025-11-10 23:49:46] Tester_inCVRPlib.py(599) : Greedy, name:Leuven1, gap:16.545154 %, Elapsed[22.44h], stu_l:224755.000000 , opt_l:192848.000000
+[2025-11-11 00:22:01] Tester_inCVRPlib.py(497) : ep 101/110, Elapsed[22.98h], Remain[2.05h], Dim: 3000, Teacher:192848.0000, Student:212279.0000, Gap:10.076%, Time:1960.866s
+[2025-11-11 00:22:54] Tester_inCVRPlib.py(599) : Greedy, name:Leuven2, gap:34.715202 %, Elapsed[22.99h], stu_l:150066.000000 , opt_l:111395.000000
+[2025-11-11 00:55:22] Tester_inCVRPlib.py(497) : ep 102/110, Elapsed[23.53h], Remain[1.85h], Dim: 4000, Teacher:111395.0000, Student:134846.0000, Gap:21.052%, Time:2001.840s
+[2025-11-11 00:58:04] Tester_inCVRPlib.py(599) : Greedy, name:Antwerp1, gap:14.621697 %, Elapsed[23.58h], stu_l:547063.000000 , opt_l:477277.000000
+[2025-11-11 01:30:42] Tester_inCVRPlib.py(497) : ep 103/110, Elapsed[24.12h], Remain[1.64h], Dim: 6000, Teacher:477277.0000, Student:519600.0000, Gap:8.868%, Time:2119.354s
+[2025-11-11 01:34:51] Tester_inCVRPlib.py(599) : Greedy, name:Antwerp2, gap:22.683370 %, Elapsed[24.19h], stu_l:357438.000000 , opt_l:291350.000000
+[2025-11-11 02:07:27] Tester_inCVRPlib.py(497) : ep 104/110, Elapsed[24.73h], Remain[1.43h], Dim: 7000, Teacher:291350.0000, Student:335336.0000, Gap:15.097%, Time:2205.127s
+[2025-11-11 02:19:29] Tester_inCVRPlib.py(599) : Greedy, name:Ghent1, gap:27.155396 %, Elapsed[24.93h], stu_l:597034.000000 , opt_l:469531.000000
+[2025-11-11 02:52:21] Tester_inCVRPlib.py(497) : ep 105/110, Elapsed[25.48h], Remain[1.21h], Dim:10000, Teacher:469531.0000, Student:550592.0000, Gap:17.264%, Time:2693.767s
+[2025-11-11 03:08:38] Tester_inCVRPlib.py(599) : Greedy, name:Ghent2, gap:38.445929 %, Elapsed[25.75h], stu_l:356843.000000 , opt_l:257749.000000
+[2025-11-11 03:41:27] Tester_inCVRPlib.py(497) : ep 106/110, Elapsed[26.30h], Remain[59.55m], Dim:11000, Teacher:257749.0000, Student:326579.0000, Gap:26.704%, Time:2946.786s
+[2025-11-11 03:41:28] Tester_inCVRPlib.py(508) : [Error] instance 'Brussels1' (size 15000) failed: CUDA out of memory. Tried to allocate 6.71 GiB (GPU 0; 23.59 GiB total capacity; 13.49 GiB already allocated; 3.06 GiB free; 20.21 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 456, in run_lib
+    score_teacher, score_student, problems_size, vrpname = self._test_one_batch(
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 578, in _test_one_batch
+    self.model(state, self.env.selected_node_list, self.env.solution, current_step,
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 64, in forward
+    probs = self.decoder(self.encoded_nodes, selected_node_list,self.capacity, remaining_capacity)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 248, in forward
+    out = layer(out)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 303, in forward
+    out_concat = multi_head_attention(q, k, v)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 338, in multi_head_attention
+    weights = nn.Softmax(dim=3)(score_scaled)  # shape: (B, head_num, n, n)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 1482, in forward
+    return F.softmax(input, self.dim, _stacklevel=5)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/functional.py", line 1843, in softmax
+    ret = input.softmax(dim)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 6.71 GiB (GPU 0; 23.59 GiB total capacity; 13.49 GiB already allocated; 3.06 GiB free; 20.21 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-11-11 03:41:29] Tester_inCVRPlib.py(508) : [Error] instance 'Brussels2' (size 16000) failed: CUDA out of memory. Tried to allocate 7.63 GiB (GPU 0; 23.59 GiB total capacity; 15.34 GiB already allocated; 299.12 MiB free; 22.98 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 456, in run_lib
+    score_teacher, score_student, problems_size, vrpname = self._test_one_batch(
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 578, in _test_one_batch
+    self.model(state, self.env.selected_node_list, self.env.solution, current_step,
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 64, in forward
+    probs = self.decoder(self.encoded_nodes, selected_node_list,self.capacity, remaining_capacity)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 248, in forward
+    out = layer(out)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 303, in forward
+    out_concat = multi_head_attention(q, k, v)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 338, in multi_head_attention
+    weights = nn.Softmax(dim=3)(score_scaled)  # shape: (B, head_num, n, n)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/activation.py", line 1482, in forward
+    return F.softmax(input, self.dim, _stacklevel=5)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/functional.py", line 1843, in softmax
+    ret = input.softmax(dim)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 7.63 GiB (GPU 0; 23.59 GiB total capacity; 15.34 GiB already allocated; 299.12 MiB free; 22.98 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(508) : [Error] instance 'Flanders1' (size 20000) failed: CUDA out of memory. Tried to allocate 11.92 GiB (GPU 0; 23.59 GiB total capacity; 11.98 GiB already allocated; 3.65 GiB free; 19.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 456, in run_lib
+    score_teacher, score_student, problems_size, vrpname = self._test_one_batch(
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 578, in _test_one_batch
+    self.model(state, self.env.selected_node_list, self.env.solution, current_step,
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 61, in forward
+    self.encoded_nodes = self.encoder(state.problems,self.capacity)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 108, in forward
+    out = layer(out)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 137, in forward
+    out_concat = multi_head_attention(q, k, v)  # shape: (B, n, head_num*key_dim)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 336, in multi_head_attention
+    score_scaled = score / torch.sqrt(torch.tensor(key_dim, dtype=torch.float))
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 11.92 GiB (GPU 0; 23.59 GiB total capacity; 11.98 GiB already allocated; 3.65 GiB free; 19.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(508) : [Error] instance 'Flanders2' (size 30000) failed: CUDA out of memory. Tried to allocate 26.82 GiB (GPU 0; 23.59 GiB total capacity; 81.43 MiB already allocated; 15.58 GiB free; 7.70 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+Traceback (most recent call last):
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 456, in run_lib
+    score_teacher, score_student, problems_size, vrpname = self._test_one_batch(
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/Tester_inCVRPlib.py", line 578, in _test_one_batch
+    self.model(state, self.env.selected_node_list, self.env.solution, current_step,
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 61, in forward
+    self.encoded_nodes = self.encoder(state.problems,self.capacity)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 108, in forward
+    out = layer(out)
+  File "/public/home/bayp/anaconda3/envs/survey/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 137, in forward
+    out_concat = multi_head_attention(q, k, v)  # shape: (B, n, head_num*key_dim)
+  File "/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/1_LEHD/CVRP/../CVRP/VRPModel.py", line 334, in multi_head_attention
+    score = torch.matmul(q, k.transpose(2, 3))  # shape: (B, head_num, n, n)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 26.82 GiB (GPU 0; 23.59 GiB total capacity; 81.43 MiB already allocated; 15.58 GiB free; 7.70 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(515) :  *** Test Done *** 
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(516) : Solved 106/110 instances, total time: 94680.83s, avg time per solved: 893.22s
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(527) : [0,1000)  num:99, avg gap(no aug): 3.584%, avg time/inst: 796.151s
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(527) : [1000,10000)  num:5, avg gap(no aug): 11.727%, avg time/inst: 2043.742s
+[2025-11-11 03:41:30] Tester_inCVRPlib.py(527) : [10000,100001]  num:2, avg gap(no aug): 21.984%, avg time/inst: 2820.276s
