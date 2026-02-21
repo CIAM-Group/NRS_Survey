@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^/public/home/bayp/anaconda3/envs/survey/bin/python /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/3_SIL/CVRP/Test_All/test_survey_just_random_insertion\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

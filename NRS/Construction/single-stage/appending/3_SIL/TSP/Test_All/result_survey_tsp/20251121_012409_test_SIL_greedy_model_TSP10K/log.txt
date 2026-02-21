@@ -1,0 +1,696 @@
+[2025-11-21 01:24:09] test_survey_10k.py(143) : DEBUG_MODE: False
+[2025-11-21 01:24:09] test_survey_10k.py(144) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-11-21 01:24:09] test_survey_10k.py(145) : env_params{'pomo_size': 1, 'k_nearest': 1, 'beam_width': 16, 'decode_method': 'greedy', 'mode': 'test', 'test_in_tsplib': True, 'tsplib_path': '/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/3_SIL/TSP/data/test_set/TSPlib_scale_ge_1K_n33_ascending.txt', 'data_path': '/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/3_SIL/TSP/data/test_set/TSPlib_scale_ge_1K_n33_ascending.txt', 'load_way': 'allin', 'sub_path': False, 'budget': 0, 'PRC': False, 'repair_max_sub_length': 1000, 'random_insertion': False}
+[2025-11-21 01:24:09] test_survey_10k.py(145) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'use_k_nearest': False, 'k_nearest_num': 1000}
+[2025-11-21 01:24:09] test_survey_10k.py(145) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': './result/checkpoint-tsp10k.pt'}, 'test_episodes': 33, 'test_batch_size': 1}
+[2025-11-21 01:24:09] test_survey_10k.py(145) : logger_params{'log_file': {'desc': 'test_random_insertion_False_PRC_False_budget_0', 'filename': 'log.txt', 'filepath': './result_survey_tsp/20251121_012409_test_random_insertion_False_PRC_False_budget_0'}}
+[2025-11-21 01:24:13] TSPTester.py(726) : greedy, name:['national_wi29'], gap:0.710068 %,  Elapsed[0.009244m], stu_l:27799.000000 , opt_l:27603.000000
+[2025-11-21 01:24:13] TSPTester.py(553) : [OK] inst:national_wi29, n:29, gap:0.710%, time:0.555s
+[2025-11-21 01:24:13] TSPTester.py(574) : episode   1/228, Elapsed[0.009258m], Remain[2.101484m], score:27603.000,Score_studetnt: 27799.0000, aug_score:27799.000
+[2025-11-21 01:24:13] TSPTester.py(726) : greedy, name:['national_dj38'], gap:0.766226 %,  Elapsed[0.012356m], stu_l:6707.000000 , opt_l:6656.000000
+[2025-11-21 01:24:13] TSPTester.py(553) : [OK] inst:national_dj38, n:38, gap:0.766%, time:0.186s
+[2025-11-21 01:24:13] TSPTester.py(574) : episode   2/228, Elapsed[0.012367m], Remain[1.397456m], score:17129.500,Score_studetnt: 17253.0000, aug_score:17253.000
+[2025-11-21 01:24:13] TSPTester.py(726) : greedy, name:['tsplib_euc_eil51'], gap:4.694836 %,  Elapsed[0.016570m], stu_l:446.000000 , opt_l:426.000000
+[2025-11-21 01:24:13] TSPTester.py(553) : [OK] inst:tsplib_euc_eil51, n:51, gap:4.695%, time:0.253s
+[2025-11-21 01:24:13] TSPTester.py(574) : episode   3/228, Elapsed[0.016581m], Remain[1.243584m], score:11561.667,Score_studetnt: 11650.6667, aug_score:11650.667
+[2025-11-21 01:24:13] TSPTester.py(726) : greedy, name:['tsplib_euc_berlin52'], gap:5.409706 %,  Elapsed[0.020891m], stu_l:7950.000000 , opt_l:7542.000000
+[2025-11-21 01:24:13] TSPTester.py(553) : [OK] inst:tsplib_euc_berlin52, n:52, gap:5.410%, time:0.259s
+[2025-11-21 01:24:13] TSPTester.py(574) : episode   4/228, Elapsed[0.020902m], Remain[1.170522m], score:10556.750,Score_studetnt: 10725.5000, aug_score:10725.500
+[2025-11-21 01:24:14] TSPTester.py(726) : greedy, name:['tsplib_euc_st70'], gap:1.333333 %,  Elapsed[0.026753m], stu_l:684.000000 , opt_l:675.000000
+[2025-11-21 01:24:14] TSPTester.py(553) : [OK] inst:tsplib_euc_st70, n:70, gap:1.333%, time:0.352s
+[2025-11-21 01:24:14] TSPTester.py(574) : episode   5/228, Elapsed[0.026764m], Remain[1.193686m], score:8580.400,Score_studetnt: 8717.2000, aug_score:8717.200
+[2025-11-21 01:24:14] TSPTester.py(726) : greedy, name:['tsplib_euc_pr76'], gap:13.456115 %,  Elapsed[0.033108m], stu_l:122713.000000 , opt_l:108159.000000
+[2025-11-21 01:24:14] TSPTester.py(553) : [OK] inst:tsplib_euc_pr76, n:76, gap:13.456%, time:0.381s
+[2025-11-21 01:24:14] TSPTester.py(574) : episode   6/228, Elapsed[0.033119m], Remain[1.225387m], score:25176.833,Score_studetnt: 27716.5000, aug_score:27716.500
+[2025-11-21 01:24:15] TSPTester.py(726) : greedy, name:['tsplib_euc_eil76'], gap:4.275093 %,  Elapsed[0.039447m], stu_l:561.000000 , opt_l:538.000000
+[2025-11-21 01:24:15] TSPTester.py(553) : [OK] inst:tsplib_euc_eil76, n:76, gap:4.275%, time:0.380s
+[2025-11-21 01:24:15] TSPTester.py(574) : episode   7/228, Elapsed[0.039458m], Remain[1.245732m], score:21657.000,Score_studetnt: 23837.1429, aug_score:23837.143
+[2025-11-21 01:24:15] TSPTester.py(726) : greedy, name:['tsplib_euc_rat99'], gap:0.578035 %,  Elapsed[0.047740m], stu_l:1218.000000 , opt_l:1211.000000
+[2025-11-21 01:24:15] TSPTester.py(553) : [OK] inst:tsplib_euc_rat99, n:99, gap:0.578%, time:0.497s
+[2025-11-21 01:24:15] TSPTester.py(574) : episode   8/228, Elapsed[0.047751m], Remain[1.313142m], score:19101.250,Score_studetnt: 21009.7500, aug_score:21009.750
+[2025-11-21 01:24:16] TSPTester.py(726) : greedy, name:['tsplib_euc_kroE100'], gap:4.830524 %,  Elapsed[0.056122m], stu_l:23134.000000 , opt_l:22068.000000
+[2025-11-21 01:24:16] TSPTester.py(553) : [OK] inst:tsplib_euc_kroE100, n:100, gap:4.831%, time:0.503s
+[2025-11-21 01:24:16] TSPTester.py(574) : episode   9/228, Elapsed[0.056133m], Remain[1.365893m], score:19430.889,Score_studetnt: 21245.7778, aug_score:21245.778
+[2025-11-21 01:24:16] TSPTester.py(726) : greedy, name:['tsplib_euc_kroC100'], gap:0.655453 %,  Elapsed[0.064483m], stu_l:20885.000000 , opt_l:20749.000000
+[2025-11-21 01:24:16] TSPTester.py(553) : [OK] inst:tsplib_euc_kroC100, n:100, gap:0.655%, time:0.502s
+[2025-11-21 01:24:16] TSPTester.py(574) : episode  10/228, Elapsed[0.064494m], Remain[1.405972m], score:19562.700,Score_studetnt: 21209.7000, aug_score:21209.700
+[2025-11-21 01:24:17] TSPTester.py(726) : greedy, name:['tsplib_euc_kroB100'], gap:4.046791 %,  Elapsed[0.072847m], stu_l:23037.000000 , opt_l:22141.000000
+[2025-11-21 01:24:17] TSPTester.py(553) : [OK] inst:tsplib_euc_kroB100, n:100, gap:4.047%, time:0.502s
+[2025-11-21 01:24:17] TSPTester.py(574) : episode  11/228, Elapsed[0.072857m], Remain[1.437270m], score:19797.091,Score_studetnt: 21375.8182, aug_score:21375.818
+[2025-11-21 01:24:17] TSPTester.py(726) : greedy, name:['tsplib_euc_kroA100'], gap:3.871816 %,  Elapsed[0.081189m], stu_l:22106.000000 , opt_l:21282.000000
+[2025-11-21 01:24:17] TSPTester.py(553) : [OK] inst:tsplib_euc_kroA100, n:100, gap:3.872%, time:0.500s
+[2025-11-21 01:24:17] TSPTester.py(574) : episode  12/228, Elapsed[0.081197m], Remain[1.461554m], score:19920.833,Score_studetnt: 21436.6667, aug_score:21436.667
+[2025-11-21 01:24:18] TSPTester.py(726) : greedy, name:['tsplib_euc_rd100'], gap:5.069532 %,  Elapsed[0.089552m], stu_l:8311.000000 , opt_l:7910.000000
+[2025-11-21 01:24:18] TSPTester.py(553) : [OK] inst:tsplib_euc_rd100, n:100, gap:5.070%, time:0.502s
+[2025-11-21 01:24:18] TSPTester.py(574) : episode  13/228, Elapsed[0.089560m], Remain[1.481179m], score:18996.923,Score_studetnt: 20427.0000, aug_score:20427.000
+[2025-11-21 01:24:18] TSPTester.py(726) : greedy, name:['tsplib_euc_kroD100'], gap:0.619893 %,  Elapsed[0.097895m], stu_l:21426.000000 , opt_l:21294.000000
+[2025-11-21 01:24:18] TSPTester.py(553) : [OK] inst:tsplib_euc_kroD100, n:100, gap:0.620%, time:0.500s
+[2025-11-21 01:24:18] TSPTester.py(574) : episode  14/228, Elapsed[0.097902m], Remain[1.496502m], score:19161.000,Score_studetnt: 20498.3571, aug_score:20498.357
+[2025-11-21 01:24:19] TSPTester.py(726) : greedy, name:['tsplib_euc_eil101'], gap:3.020668 %,  Elapsed[0.106315m], stu_l:648.000000 , opt_l:629.000000
+[2025-11-21 01:24:19] TSPTester.py(553) : [OK] inst:tsplib_euc_eil101, n:101, gap:3.021%, time:0.505s
+[2025-11-21 01:24:19] TSPTester.py(574) : episode  15/228, Elapsed[0.106322m], Remain[1.509769m], score:17925.533,Score_studetnt: 19175.0000, aug_score:19175.000
+[2025-11-21 01:24:19] TSPTester.py(726) : greedy, name:['tsplib_euc_lin105'], gap:6.662494 %,  Elapsed[0.115071m], stu_l:15337.000000 , opt_l:14379.000000
+[2025-11-21 01:24:19] TSPTester.py(553) : [OK] inst:tsplib_euc_lin105, n:105, gap:6.662%, time:0.525s
+[2025-11-21 01:24:19] TSPTester.py(574) : episode  16/228, Elapsed[0.115080m], Remain[1.524814m], score:17703.875,Score_studetnt: 18935.1250, aug_score:18935.125
+[2025-11-21 01:24:20] TSPTester.py(726) : greedy, name:['tsplib_euc_pr107'], gap:14.696521 %,  Elapsed[0.123998m], stu_l:50814.000000 , opt_l:44303.000000
+[2025-11-21 01:24:20] TSPTester.py(553) : [OK] inst:tsplib_euc_pr107, n:107, gap:14.697%, time:0.535s
+[2025-11-21 01:24:20] TSPTester.py(574) : episode  17/228, Elapsed[0.124006m], Remain[1.539137m], score:19268.529,Score_studetnt: 20810.3529, aug_score:20810.353
+[2025-11-21 01:24:20] TSPTester.py(726) : greedy, name:['tsplib_euc_pr124'], gap:7.765543 %,  Elapsed[0.134387m], stu_l:63614.000000 , opt_l:59030.000000
+[2025-11-21 01:24:20] TSPTester.py(553) : [OK] inst:tsplib_euc_pr124, n:124, gap:7.766%, time:0.623s
+[2025-11-21 01:24:20] TSPTester.py(574) : episode  18/228, Elapsed[0.134395m], Remain[1.567938m], score:21477.500,Score_studetnt: 23188.3333, aug_score:23188.333
+[2025-11-21 01:24:21] TSPTester.py(726) : greedy, name:['tsplib_euc_bier127'], gap:6.875940 %,  Elapsed[0.145055m], stu_l:126415.000000 , opt_l:118282.000000
+[2025-11-21 01:24:21] TSPTester.py(553) : [OK] inst:tsplib_euc_bier127, n:127, gap:6.876%, time:0.640s
+[2025-11-21 01:24:21] TSPTester.py(574) : episode  19/228, Elapsed[0.145062m], Remain[1.595681m], score:26572.474,Score_studetnt: 28621.3158, aug_score:28621.316
+[2025-11-21 01:24:22] TSPTester.py(726) : greedy, name:['tsplib_euc_ch130'], gap:5.941080 %,  Elapsed[0.155995m], stu_l:6473.000000 , opt_l:6110.000000
+[2025-11-21 01:24:22] TSPTester.py(553) : [OK] inst:tsplib_euc_ch130, n:130, gap:5.941%, time:0.656s
+[2025-11-21 01:24:22] TSPTester.py(574) : episode  20/228, Elapsed[0.156005m], Remain[1.622457m], score:25549.350,Score_studetnt: 27513.9000, aug_score:27513.900
+[2025-11-21 01:24:22] TSPTester.py(726) : greedy, name:['vlsi_xqf131'], gap:6.560283 %,  Elapsed[0.167027m], stu_l:601.000000 , opt_l:564.000000
+[2025-11-21 01:24:22] TSPTester.py(553) : [OK] inst:vlsi_xqf131, n:131, gap:6.560%, time:0.662s
+[2025-11-21 01:24:22] TSPTester.py(574) : episode  21/228, Elapsed[0.167037m], Remain[1.646511m], score:24359.571,Score_studetnt: 26232.3333, aug_score:26232.333
+[2025-11-21 01:24:23] TSPTester.py(726) : greedy, name:['tsplib_euc_pr136'], gap:4.566403 %,  Elapsed[0.178577m], stu_l:101191.000000 , opt_l:96772.000000
+[2025-11-21 01:24:23] TSPTester.py(553) : [OK] inst:tsplib_euc_pr136, n:136, gap:4.566%, time:0.693s
+[2025-11-21 01:24:23] TSPTester.py(574) : episode  22/228, Elapsed[0.178587m], Remain[1.672225m], score:27651.045,Score_studetnt: 29639.5455, aug_score:29639.545
+[2025-11-21 01:24:24] TSPTester.py(726) : greedy, name:['tsplib_euc_pr144'], gap:1.631447 %,  Elapsed[0.191265m], stu_l:59492.000000 , opt_l:58537.000000
+[2025-11-21 01:24:24] TSPTester.py(553) : [OK] inst:tsplib_euc_pr144, n:144, gap:1.631%, time:0.761s
+[2025-11-21 01:24:24] TSPTester.py(574) : episode  23/228, Elapsed[0.191276m], Remain[1.704850m], score:28993.913,Score_studetnt: 30937.4783, aug_score:30937.478
+[2025-11-21 01:24:24] TSPTester.py(726) : greedy, name:['tsplib_euc_kroB150'], gap:1.106008 %,  Elapsed[0.203960m], stu_l:26419.000000 , opt_l:26130.000000
+[2025-11-21 01:24:24] TSPTester.py(553) : [OK] inst:tsplib_euc_kroB150, n:150, gap:1.106%, time:0.762s
+[2025-11-21 01:24:24] TSPTester.py(574) : episode  24/228, Elapsed[0.203971m], Remain[1.733750m], score:28874.583,Score_studetnt: 30749.2083, aug_score:30749.208
+[2025-11-21 01:24:25] TSPTester.py(726) : greedy, name:['tsplib_euc_ch150'], gap:14.368872 %,  Elapsed[0.216664m], stu_l:7466.000000 , opt_l:6528.000000
+[2025-11-21 01:24:25] TSPTester.py(553) : [OK] inst:tsplib_euc_ch150, n:150, gap:14.369%, time:0.762s
+[2025-11-21 01:24:25] TSPTester.py(574) : episode  25/228, Elapsed[0.216674m], Remain[1.759396m], score:27980.720,Score_studetnt: 29817.8800, aug_score:29817.880
+[2025-11-21 01:24:26] TSPTester.py(726) : greedy, name:['tsplib_euc_kroA150'], gap:4.708943 %,  Elapsed[0.229370m], stu_l:27773.000000 , opt_l:26524.000000
+[2025-11-21 01:24:26] TSPTester.py(553) : [OK] inst:tsplib_euc_kroA150, n:150, gap:4.709%, time:0.762s
+[2025-11-21 01:24:26] TSPTester.py(574) : episode  26/228, Elapsed[0.229381m], Remain[1.782113m], score:27924.692,Score_studetnt: 29739.2308, aug_score:29739.231
+[2025-11-21 01:24:27] TSPTester.py(726) : greedy, name:['tsplib_euc_pr152'], gap:13.630195 %,  Elapsed[0.242254m], stu_l:83725.000000 , opt_l:73682.000000
+[2025-11-21 01:24:27] TSPTester.py(553) : [OK] inst:tsplib_euc_pr152, n:152, gap:13.630%, time:0.773s
+[2025-11-21 01:24:27] TSPTester.py(574) : episode  27/228, Elapsed[0.242265m], Remain[1.803527m], score:29619.407,Score_studetnt: 31738.7037, aug_score:31738.704
+[2025-11-21 01:24:28] TSPTester.py(726) : greedy, name:['tsplib_euc_u159'], gap:2.937262 %,  Elapsed[0.255770m], stu_l:43316.000000 , opt_l:42080.000000
+[2025-11-21 01:24:28] TSPTester.py(553) : [OK] inst:tsplib_euc_u159, n:159, gap:2.937%, time:0.811s
+[2025-11-21 01:24:28] TSPTester.py(574) : episode  28/228, Elapsed[0.255781m], Remain[1.827004m], score:30064.429,Score_studetnt: 32152.1786, aug_score:32152.179
+[2025-11-21 01:24:29] TSPTester.py(726) : greedy, name:['national_qa194'], gap:9.687767 %,  Elapsed[0.272302m], stu_l:10258.000000 , opt_l:9352.000000
+[2025-11-21 01:24:29] TSPTester.py(553) : [OK] inst:national_qa194, n:194, gap:9.688%, time:0.992s
+[2025-11-21 01:24:29] TSPTester.py(574) : episode  29/228, Elapsed[0.272313m], Remain[1.868631m], score:29350.207,Score_studetnt: 31397.2069, aug_score:31397.207
+[2025-11-21 01:24:30] TSPTester.py(726) : greedy, name:['tsplib_euc_rat195'], gap:0.817908 %,  Elapsed[0.288920m], stu_l:2342.000000 , opt_l:2323.000000
+[2025-11-21 01:24:30] TSPTester.py(553) : [OK] inst:tsplib_euc_rat195, n:195, gap:0.818%, time:0.997s
+[2025-11-21 01:24:30] TSPTester.py(574) : episode  30/228, Elapsed[0.288931m], Remain[1.906942m], score:28449.300,Score_studetnt: 30428.7000, aug_score:30428.700
+[2025-11-21 01:24:31] TSPTester.py(726) : greedy, name:['tsplib_euc_d198'], gap:8.891001 %,  Elapsed[0.305804m], stu_l:17183.000000 , opt_l:15780.000000
+[2025-11-21 01:24:31] TSPTester.py(553) : [OK] inst:tsplib_euc_d198, n:198, gap:8.891%, time:1.013s
+[2025-11-21 01:24:31] TSPTester.py(574) : episode  31/228, Elapsed[0.305815m], Remain[1.943405m], score:28040.613,Score_studetnt: 30001.4194, aug_score:30001.419
+[2025-11-21 01:24:32] TSPTester.py(726) : greedy, name:['tsplib_euc_kroA200'], gap:3.221193 %,  Elapsed[0.322902m], stu_l:30314.000000 , opt_l:29368.000000
+[2025-11-21 01:24:32] TSPTester.py(553) : [OK] inst:tsplib_euc_kroA200, n:200, gap:3.221%, time:1.026s
+[2025-11-21 01:24:32] TSPTester.py(574) : episode  32/228, Elapsed[0.322913m], Remain[1.977844m], score:28082.094,Score_studetnt: 30011.1875, aug_score:30011.188
+[2025-11-21 01:24:33] TSPTester.py(726) : greedy, name:['tsplib_euc_kroB200'], gap:0.924007 %,  Elapsed[0.340030m], stu_l:29709.000000 , opt_l:29437.000000
+[2025-11-21 01:24:33] TSPTester.py(553) : [OK] inst:tsplib_euc_kroB200, n:200, gap:0.924%, time:1.027s
+[2025-11-21 01:24:33] TSPTester.py(574) : episode  33/228, Elapsed[0.340040m], Remain[2.009330m], score:28123.152,Score_studetnt: 30002.0303, aug_score:30002.030
+[2025-11-21 01:24:34] TSPTester.py(726) : greedy, name:['tsplib_euc_ts225'], gap:5.334681 %,  Elapsed[0.359333m], stu_l:133399.000000 , opt_l:126643.000000
+[2025-11-21 01:24:34] TSPTester.py(553) : [OK] inst:tsplib_euc_ts225, n:225, gap:5.335%, time:1.158s
+[2025-11-21 01:24:34] TSPTester.py(574) : episode  34/228, Elapsed[0.359342m], Remain[2.050366m], score:31020.794,Score_studetnt: 33043.1176, aug_score:33043.118
+[2025-11-21 01:24:35] TSPTester.py(726) : greedy, name:['tsplib_euc_tsp225'], gap:3.677222 %,  Elapsed[0.378658m], stu_l:4060.000000 , opt_l:3916.000000
+[2025-11-21 01:24:35] TSPTester.py(553) : [OK] inst:tsplib_euc_tsp225, n:225, gap:3.677%, time:1.159s
+[2025-11-21 01:24:35] TSPTester.py(574) : episode  35/228, Elapsed[0.378670m], Remain[2.088096m], score:30246.371,Score_studetnt: 32215.0286, aug_score:32215.029
+[2025-11-21 01:24:36] TSPTester.py(726) : greedy, name:['tsplib_euc_pr226'], gap:14.032774 %,  Elapsed[0.398005m], stu_l:91647.000000 , opt_l:80369.000000
+[2025-11-21 01:24:36] TSPTester.py(553) : [OK] inst:tsplib_euc_pr226, n:226, gap:14.033%, time:1.161s
+[2025-11-21 01:24:36] TSPTester.py(574) : episode  36/228, Elapsed[0.398016m], Remain[2.122754m], score:31638.667,Score_studetnt: 33865.9167, aug_score:33865.917
+[2025-11-21 01:24:37] TSPTester.py(726) : greedy, name:['vlsi_xqg237'], gap:1.079490 %,  Elapsed[0.418365m], stu_l:1030.000000 , opt_l:1019.000000
+[2025-11-21 01:24:37] TSPTester.py(553) : [OK] inst:vlsi_xqg237, n:237, gap:1.079%, time:1.221s
+[2025-11-21 01:24:37] TSPTester.py(574) : episode  37/228, Elapsed[0.418377m], Remain[2.159728m], score:30811.108,Score_studetnt: 32978.4595, aug_score:32978.459
+[2025-11-21 01:24:39] TSPTester.py(726) : greedy, name:['tsplib_euc_gil262'], gap:1.640034 %,  Elapsed[0.440888m], stu_l:2417.000000 , opt_l:2378.000000
+[2025-11-21 01:24:39] TSPTester.py(553) : [OK] inst:tsplib_euc_gil262, n:262, gap:1.640%, time:1.351s
+[2025-11-21 01:24:39] TSPTester.py(574) : episode  38/228, Elapsed[0.440899m], Remain[2.204494m], score:30062.868,Score_studetnt: 32174.2105, aug_score:32174.211
+[2025-11-21 01:24:40] TSPTester.py(726) : greedy, name:['tsplib_euc_pr264'], gap:10.145517 %,  Elapsed[0.463724m], stu_l:54120.000000 , opt_l:49135.000000
+[2025-11-21 01:24:40] TSPTester.py(553) : [OK] inst:tsplib_euc_pr264, n:264, gap:10.146%, time:1.370s
+[2025-11-21 01:24:40] TSPTester.py(574) : episode  39/228, Elapsed[0.463736m], Remain[2.247335m], score:30551.897,Score_studetnt: 32736.9231, aug_score:32736.923
+[2025-11-21 01:24:42] TSPTester.py(726) : greedy, name:['tsplib_euc_a280'], gap:2.248934 %,  Elapsed[0.487881m], stu_l:2637.000000 , opt_l:2579.000000
+[2025-11-21 01:24:42] TSPTester.py(553) : [OK] inst:tsplib_euc_a280, n:280, gap:2.249%, time:1.449s
+[2025-11-21 01:24:42] TSPTester.py(574) : episode  40/228, Elapsed[0.487892m], Remain[2.293090m], score:29852.575,Score_studetnt: 31984.4250, aug_score:31984.425
+[2025-11-21 01:24:43] TSPTester.py(726) : greedy, name:['tsplib_euc_pr299'], gap:1.828142 %,  Elapsed[0.513640m], stu_l:49072.000000 , opt_l:48191.000000
+[2025-11-21 01:24:43] TSPTester.py(553) : [OK] inst:tsplib_euc_pr299, n:299, gap:1.828%, time:1.545s
+[2025-11-21 01:24:43] TSPTester.py(574) : episode  41/228, Elapsed[0.513651m], Remain[2.342751m], score:30299.854,Score_studetnt: 32401.1951, aug_score:32401.195
+[2025-11-21 01:24:45] TSPTester.py(726) : greedy, name:['tsplib_euc_lin318'], gap:2.583930 %,  Elapsed[0.541085m], stu_l:43115.000000 , opt_l:42029.000000
+[2025-11-21 01:24:45] TSPTester.py(553) : [OK] inst:tsplib_euc_lin318, n:318, gap:2.584%, time:1.647s
+[2025-11-21 01:24:45] TSPTester.py(574) : episode  42/228, Elapsed[0.541096m], Remain[2.396283m], score:30579.119,Score_studetnt: 32656.2857, aug_score:32656.286
+[2025-11-21 01:24:46] TSPTester.py(726) : greedy, name:['vlsi_pma343'], gap:3.216374 %,  Elapsed[0.570744m], stu_l:1412.000000 , opt_l:1368.000000
+[2025-11-21 01:24:46] TSPTester.py(553) : [OK] inst:vlsi_pma343, n:343, gap:3.216%, time:1.779s
+[2025-11-21 01:24:46] TSPTester.py(574) : episode  43/228, Elapsed[0.570756m], Remain[2.455579m], score:29899.791,Score_studetnt: 31929.6744, aug_score:31929.674
+[2025-11-21 01:24:48] TSPTester.py(726) : greedy, name:['vlsi_pka379'], gap:1.951952 %,  Elapsed[0.603503m], stu_l:1358.000000 , opt_l:1332.000000
+[2025-11-21 01:24:48] TSPTester.py(553) : [OK] inst:vlsi_pka379, n:379, gap:1.952%, time:1.965s
+[2025-11-21 01:24:48] TSPTester.py(574) : episode  44/228, Elapsed[0.603514m], Remain[2.523785m], score:29250.523,Score_studetnt: 31234.8636, aug_score:31234.864
+[2025-11-21 01:24:50] TSPTester.py(726) : greedy, name:['vlsi_bcl380'], gap:2.344232 %,  Elapsed[0.636319m], stu_l:1659.000000 , opt_l:1621.000000
+[2025-11-21 01:24:50] TSPTester.py(553) : [OK] inst:vlsi_bcl380, n:380, gap:2.344%, time:1.969s
+[2025-11-21 01:24:50] TSPTester.py(574) : episode  45/228, Elapsed[0.636330m], Remain[2.587742m], score:28636.533,Score_studetnt: 30577.6222, aug_score:30577.622
+[2025-11-21 01:24:52] TSPTester.py(726) : greedy, name:['vlsi_pbl395'], gap:2.654176 %,  Elapsed[0.670804m], stu_l:1315.000000 , opt_l:1281.000000
+[2025-11-21 01:24:52] TSPTester.py(553) : [OK] inst:vlsi_pbl395, n:395, gap:2.654%, time:2.069s
+[2025-11-21 01:24:52] TSPTester.py(574) : episode  46/228, Elapsed[0.670815m], Remain[2.654095m], score:28041.848,Score_studetnt: 29941.4783, aug_score:29941.478
+[2025-11-21 01:24:55] TSPTester.py(726) : greedy, name:['tsplib_euc_rd400'], gap:3.219685 %,  Elapsed[0.705553m], stu_l:15773.000000 , opt_l:15281.000000
+[2025-11-21 01:24:55] TSPTester.py(553) : [OK] inst:tsplib_euc_rd400, n:400, gap:3.220%, time:2.085s
+[2025-11-21 01:24:55] TSPTester.py(574) : episode  47/228, Elapsed[0.705564m], Remain[2.717172m], score:27770.340,Score_studetnt: 29640.0213, aug_score:29640.021
+[2025-11-21 01:24:57] TSPTester.py(726) : greedy, name:['vlsi_pbk411'], gap:0.372301 %,  Elapsed[0.741164m], stu_l:1348.000000 , opt_l:1343.000000
+[2025-11-21 01:24:57] TSPTester.py(553) : [OK] inst:vlsi_pbk411, n:411, gap:0.372%, time:2.136s
+[2025-11-21 01:24:57] TSPTester.py(574) : episode  48/228, Elapsed[0.741175m], Remain[2.779405m], score:27219.771,Score_studetnt: 29050.6042, aug_score:29050.604
+[2025-11-21 01:24:59] TSPTester.py(726) : greedy, name:['tsplib_euc_fl417'], gap:10.926566 %,  Elapsed[0.777266m], stu_l:13157.000000 , opt_l:11861.000000
+[2025-11-21 01:24:59] TSPTester.py(553) : [OK] inst:tsplib_euc_fl417, n:417, gap:10.927%, time:2.166s
+[2025-11-21 01:24:59] TSPTester.py(574) : episode  49/228, Elapsed[0.777277m], Remain[2.839439m], score:26906.327,Score_studetnt: 28726.2449, aug_score:28726.245
+[2025-11-21 01:25:01] TSPTester.py(726) : greedy, name:['vlsi_pbn423'], gap:11.062271 %,  Elapsed[0.814107m], stu_l:1516.000000 , opt_l:1365.000000
+[2025-11-21 01:25:01] TSPTester.py(553) : [OK] inst:vlsi_pbn423, n:423, gap:11.062%, time:2.210s
+[2025-11-21 01:25:01] TSPTester.py(574) : episode  50/228, Elapsed[0.814119m], Remain[2.898263m], score:26395.500,Score_studetnt: 28182.0400, aug_score:28182.040
+[2025-11-21 01:25:03] TSPTester.py(726) : greedy, name:['vlsi_pbm436'], gap:3.049203 %,  Elapsed[0.851977m], stu_l:1487.000000 , opt_l:1443.000000
+[2025-11-21 01:25:03] TSPTester.py(553) : [OK] inst:vlsi_pbm436, n:436, gap:3.049%, time:2.272s
+[2025-11-21 01:25:03] TSPTester.py(574) : episode  51/228, Elapsed[0.851987m], Remain[2.956897m], score:25906.235,Score_studetnt: 27658.6078, aug_score:27658.608
+[2025-11-21 01:25:06] TSPTester.py(726) : greedy, name:['tsplib_euc_pr439'], gap:17.970099 %,  Elapsed[0.890136m], stu_l:126484.000000 , opt_l:107217.000000
+[2025-11-21 01:25:06] TSPTester.py(553) : [OK] inst:tsplib_euc_pr439, n:439, gap:17.970%, time:2.289s
+[2025-11-21 01:25:06] TSPTester.py(574) : episode  52/228, Elapsed[0.890147m], Remain[3.012805m], score:27469.904,Score_studetnt: 29559.0962, aug_score:29559.096
+[2025-11-21 01:25:08] TSPTester.py(726) : greedy, name:['tsplib_euc_pcb442'], gap:1.506558 %,  Elapsed[0.928548m], stu_l:51543.000000 , opt_l:50778.000000
+[2025-11-21 01:25:08] TSPTester.py(553) : [OK] inst:tsplib_euc_pcb442, n:442, gap:1.507%, time:2.305s
+[2025-11-21 01:25:08] TSPTester.py(574) : episode  53/228, Elapsed[0.928559m], Remain[3.065996m], score:27909.679,Score_studetnt: 29973.8868, aug_score:29973.887
+[2025-11-21 01:25:11] TSPTester.py(726) : greedy, name:['tsplib_euc_d493'], gap:2.896977 %,  Elapsed[0.971473m], stu_l:36016.000000 , opt_l:35002.000000
+[2025-11-21 01:25:11] TSPTester.py(553) : [OK] inst:tsplib_euc_d493, n:493, gap:2.897%, time:2.575s
+[2025-11-21 01:25:11] TSPTester.py(574) : episode  54/228, Elapsed[0.971484m], Remain[3.130338m], score:28041.019,Score_studetnt: 30085.7778, aug_score:30085.778
+[2025-11-21 01:25:14] TSPTester.py(726) : greedy, name:['tsplib_euc_u574'], gap:2.687983 %,  Elapsed[1.021900m], stu_l:37897.000000 , opt_l:36905.000000
+[2025-11-21 01:25:14] TSPTester.py(553) : [OK] inst:tsplib_euc_u574, n:574, gap:2.688%, time:3.025s
+[2025-11-21 01:25:14] TSPTester.py(574) : episode  55/228, Elapsed[1.021911m], Remain[3.214374m], score:28202.182,Score_studetnt: 30227.8000, aug_score:30227.800
+[2025-11-21 01:25:17] TSPTester.py(726) : greedy, name:['tsplib_euc_rat575'], gap:2.022737 %,  Elapsed[1.072236m], stu_l:6910.000000 , opt_l:6773.000000
+[2025-11-21 01:25:17] TSPTester.py(553) : [OK] inst:tsplib_euc_rat575, n:575, gap:2.023%, time:3.020s
+[2025-11-21 01:25:17] TSPTester.py(574) : episode  56/228, Elapsed[1.072247m], Remain[3.293329m], score:27819.518,Score_studetnt: 29811.4107, aug_score:29811.411
+[2025-11-21 01:25:20] TSPTester.py(726) : greedy, name:['tsplib_euc_p654'], gap:16.499726 %,  Elapsed[1.129356m], stu_l:40359.000000 , opt_l:34643.000000
+[2025-11-21 01:25:20] TSPTester.py(553) : [OK] inst:tsplib_euc_p654, n:654, gap:16.500%, time:3.427s
+[2025-11-21 01:25:20] TSPTester.py(574) : episode  57/228, Elapsed[1.129366m], Remain[3.388098m], score:27939.228,Score_studetnt: 29996.4561, aug_score:29996.456
+[2025-11-21 01:25:23] TSPTester.py(726) : greedy, name:['tsplib_euc_d657'], gap:6.446271 %,  Elapsed[1.186949m], stu_l:52065.000000 , opt_l:48912.000000
+[2025-11-21 01:25:23] TSPTester.py(553) : [OK] inst:tsplib_euc_d657, n:657, gap:6.446%, time:3.455s
+[2025-11-21 01:25:23] TSPTester.py(574) : episode  58/228, Elapsed[1.186959m], Remain[3.479018m], score:28300.828,Score_studetnt: 30376.9483, aug_score:30376.948
+[2025-11-21 01:25:27] TSPTester.py(726) : greedy, name:['vlsi_xql662'], gap:4.576204 %,  Elapsed[1.244554m], stu_l:2628.000000 , opt_l:2513.000000
+[2025-11-21 01:25:27] TSPTester.py(553) : [OK] inst:vlsi_xql662, n:662, gap:4.576%, time:3.456s
+[2025-11-21 01:25:27] TSPTester.py(574) : episode  59/228, Elapsed[1.244565m], Remain[3.564939m], score:27863.746,Score_studetnt: 29906.6271, aug_score:29906.627
+[2025-11-21 01:25:31] TSPTester.py(726) : greedy, name:['vlsi_rbx711'], gap:2.536116 %,  Elapsed[1.306497m], stu_l:3194.000000 , opt_l:3115.000000
+[2025-11-21 01:25:31] TSPTester.py(553) : [OK] inst:vlsi_rbx711, n:711, gap:2.536%, time:3.716s
+[2025-11-21 01:25:31] TSPTester.py(574) : episode  60/228, Elapsed[1.306507m], Remain[3.658219m], score:27451.267,Score_studetnt: 29461.4167, aug_score:29461.417
+[2025-11-21 01:25:34] TSPTester.py(726) : greedy, name:['tsplib_euc_u724'], gap:1.281317 %,  Elapsed[1.369515m], stu_l:42447.000000 , opt_l:41910.000000
+[2025-11-21 01:25:34] TSPTester.py(553) : [OK] inst:tsplib_euc_u724, n:724, gap:1.281%, time:3.781s
+[2025-11-21 01:25:34] TSPTester.py(574) : episode  61/228, Elapsed[1.369525m], Remain[3.749356m], score:27688.295,Score_studetnt: 29674.2951, aug_score:29674.295
+[2025-11-21 01:25:38] TSPTester.py(726) : greedy, name:['national_uy734'], gap:3.142301 %,  Elapsed[1.433452m], stu_l:81600.000000 , opt_l:79114.000000
+[2025-11-21 01:25:38] TSPTester.py(553) : [OK] inst:national_uy734, n:734, gap:3.142%, time:3.836s
+[2025-11-21 01:25:38] TSPTester.py(574) : episode  62/228, Elapsed[1.433462m], Remain[3.837979m], score:28517.742,Score_studetnt: 30511.8065, aug_score:30511.806
+[2025-11-21 01:25:42] TSPTester.py(726) : greedy, name:['vlsi_rbu737'], gap:1.237176 %,  Elapsed[1.497793m], stu_l:3355.000000 , opt_l:3314.000000
+[2025-11-21 01:25:42] TSPTester.py(553) : [OK] inst:vlsi_rbu737, n:737, gap:1.237%, time:3.860s
+[2025-11-21 01:25:42] TSPTester.py(574) : episode  63/228, Elapsed[1.497804m], Remain[3.922820m], score:28117.683,Score_studetnt: 30080.7460, aug_score:30080.746
+[2025-11-21 01:25:46] TSPTester.py(726) : greedy, name:['tsplib_euc_rat783'], gap:1.748808 %,  Elapsed[1.565987m], stu_l:8960.000000 , opt_l:8806.000000
+[2025-11-21 01:25:46] TSPTester.py(553) : [OK] inst:tsplib_euc_rat783, n:783, gap:1.749%, time:4.091s
+[2025-11-21 01:25:46] TSPTester.py(574) : episode  64/228, Elapsed[1.565998m], Remain[4.012869m], score:27815.938,Score_studetnt: 29750.7344, aug_score:29750.734
+[2025-11-21 01:25:50] TSPTester.py(726) : greedy, name:['vlsi_dkg813'], gap:5.658018 %,  Elapsed[1.636753m], stu_l:3380.000000 , opt_l:3199.000000
+[2025-11-21 01:25:50] TSPTester.py(553) : [OK] inst:vlsi_dkg813, n:813, gap:5.658%, time:4.246s
+[2025-11-21 01:25:50] TSPTester.py(574) : episode  65/228, Elapsed[1.636764m], Remain[4.104501m], score:27437.215,Score_studetnt: 29345.0308, aug_score:29345.031
+[2025-11-21 01:25:55] TSPTester.py(726) : greedy, name:['national_zi929'], gap:3.369867 %,  Elapsed[1.717707m], stu_l:98558.000000 , opt_l:95345.000000
+[2025-11-21 01:25:55] TSPTester.py(553) : [OK] inst:national_zi929, n:929, gap:3.370%, time:4.857s
+[2025-11-21 01:25:55] TSPTester.py(574) : episode  66/228, Elapsed[1.717718m], Remain[4.216216m], score:28466.121,Score_studetnt: 30393.7121, aug_score:30393.712
+[2025-11-21 01:26:00] TSPTester.py(726) : greedy, name:['vlsi_lim963'], gap:4.374328 %,  Elapsed[1.801601m], stu_l:2911.000000 , opt_l:2789.000000
+[2025-11-21 01:26:00] TSPTester.py(553) : [OK] inst:vlsi_lim963, n:963, gap:4.374%, time:5.033s
+[2025-11-21 01:26:00] TSPTester.py(574) : episode  67/228, Elapsed[1.801612m], Remain[4.329246m], score:28082.881,Score_studetnt: 29983.5224, aug_score:29983.522
+[2025-11-21 01:26:05] TSPTester.py(726) : greedy, name:['national_lu980'], gap:91.578484 %,  Elapsed[1.886873m], stu_l:21725.000000 , opt_l:11340.000000
+[2025-11-21 01:26:05] TSPTester.py(553) : [OK] inst:national_lu980, n:980, gap:91.578%, time:5.116s
+[2025-11-21 01:26:05] TSPTester.py(574) : episode  68/228, Elapsed[1.886885m], Remain[4.439728m], score:27836.662,Score_studetnt: 29862.0735, aug_score:29862.074
+[2025-11-21 01:26:11] TSPTester.py(726) : greedy, name:['vlsi_pbd984'], gap:2.645692 %,  Elapsed[1.972618m], stu_l:2871.000000 , opt_l:2797.000000
+[2025-11-21 01:26:11] TSPTester.py(553) : [OK] inst:vlsi_pbd984, n:984, gap:2.646%, time:5.145s
+[2025-11-21 01:26:11] TSPTester.py(574) : episode  69/228, Elapsed[1.972629m], Remain[4.545624m], score:27473.768,Score_studetnt: 29470.8986, aug_score:29470.899
+[2025-11-21 01:26:16] TSPTester.py(726) : greedy, name:['challenge8_C1k.3'], gap:3.517979 %,  Elapsed[2.059819m], stu_l:12304620.000000 , opt_l:11886457.000000
+[2025-11-21 01:26:16] TSPTester.py(553) : [OK] inst:challenge8_C1k.3, n:1000, gap:3.518%, time:5.232s
+[2025-11-21 01:26:16] TSPTester.py(574) : episode  70/228, Elapsed[2.059832m], Remain[4.649334m], score:196887.814,Score_studetnt: 204830.1714, aug_score:204830.171
+[2025-11-21 01:26:21] TSPTester.py(726) : greedy, name:['challenge8_C1k.4'], gap:11.955513 %,  Elapsed[2.146995m], stu_l:12874837.000000 , opt_l:11499958.000000
+[2025-11-21 01:26:21] TSPTester.py(553) : [OK] inst:challenge8_C1k.4, n:1000, gap:11.956%, time:5.230s
+[2025-11-21 01:26:21] TSPTester.py(574) : episode  71/228, Elapsed[2.147006m], Remain[4.747606m], score:356085.986,Score_studetnt: 383280.9718, aug_score:383280.972
+[2025-11-21 01:26:26] TSPTester.py(726) : greedy, name:['challenge8_C1k.5'], gap:8.232140 %,  Elapsed[2.234228m], stu_l:12332956.000000 , opt_l:11394911.000000
+[2025-11-21 01:26:26] TSPTester.py(553) : [OK] inst:challenge8_C1k.5, n:1000, gap:8.232%, time:5.234s
+[2025-11-21 01:26:26] TSPTester.py(574) : episode  72/228, Elapsed[2.234238m], Remain[4.840849m], score:509403.000,Score_studetnt: 549248.6806, aug_score:549248.681
+[2025-11-21 01:26:32] TSPTester.py(726) : greedy, name:['challenge8_C1k.8'], gap:3.536031 %,  Elapsed[2.321250m], stu_l:12016105.000000 , opt_l:11605723.000000
+[2025-11-21 01:26:32] TSPTester.py(553) : [OK] inst:challenge8_C1k.8, n:1000, gap:3.536%, time:5.221s
+[2025-11-21 01:26:32] TSPTester.py(574) : episode  73/228, Elapsed[2.321262m], Remain[4.928706m], score:661407.384,Score_studetnt: 706328.9041, aug_score:706328.904
+[2025-11-21 01:26:37] TSPTester.py(726) : greedy, name:['challenge8_C1k.2'], gap:12.248687 %,  Elapsed[2.408456m], stu_l:12184632.000000 , opt_l:10855033.000000
+[2025-11-21 01:26:37] TSPTester.py(553) : [OK] inst:challenge8_C1k.2, n:1000, gap:12.249%, time:5.232s
+[2025-11-21 01:26:37] TSPTester.py(574) : episode  74/228, Elapsed[2.408467m], Remain[5.012216m], score:799159.081,Score_studetnt: 861441.1081, aug_score:861441.108
+[2025-11-21 01:26:42] TSPTester.py(726) : greedy, name:['challenge8_C1k.6'], gap:11.603892 %,  Elapsed[2.495575m], stu_l:11346434.000000 , opt_l:10166701.000000
+[2025-11-21 01:26:42] TSPTester.py(553) : [OK] inst:challenge8_C1k.6, n:1000, gap:11.604%, time:5.227s
+[2025-11-21 01:26:42] TSPTester.py(574) : episode  75/228, Elapsed[2.495585m], Remain[5.090993m], score:924059.640,Score_studetnt: 1001241.0133, aug_score:1001241.013
+[2025-11-21 01:26:47] TSPTester.py(726) : greedy, name:['challenge8_C1k.7'], gap:11.651810 %,  Elapsed[2.582853m], stu_l:11907286.000000 , opt_l:10664660.000000
+[2025-11-21 01:26:47] TSPTester.py(553) : [OK] inst:challenge8_C1k.7, n:1000, gap:11.652%, time:5.237s
+[2025-11-21 01:26:47] TSPTester.py(574) : episode  76/228, Elapsed[2.582865m], Remain[5.165730m], score:1052225.434,Score_studetnt: 1144741.6053, aug_score:1144741.605
+[2025-11-21 01:26:52] TSPTester.py(726) : greedy, name:['challenge8_C1k.9'], gap:6.512957 %,  Elapsed[2.669963m], stu_l:11617365.000000 , opt_l:10906997.000000
+[2025-11-21 01:26:52] TSPTester.py(553) : [OK] inst:challenge8_C1k.9, n:1000, gap:6.513%, time:5.226s
+[2025-11-21 01:26:52] TSPTester.py(574) : episode  77/228, Elapsed[2.669974m], Remain[5.235923m], score:1180209.481,Score_studetnt: 1280749.7013, aug_score:1280749.701
+[2025-11-21 01:26:58] TSPTester.py(726) : greedy, name:['challenge8_C1k.0'], gap:9.310880 %,  Elapsed[2.757101m], stu_l:12447700.000000 , opt_l:11387430.000000
+[2025-11-21 01:26:58] TSPTester.py(553) : [OK] inst:challenge8_C1k.0, n:1000, gap:9.311%, time:5.228s
+[2025-11-21 01:26:58] TSPTester.py(574) : episode  78/228, Elapsed[2.757112m], Remain[5.302139m], score:1311071.282,Score_studetnt: 1423915.7308, aug_score:1423915.731
+[2025-11-21 01:27:03] TSPTester.py(726) : greedy, name:['challenge8_C1k.1'], gap:9.672934 %,  Elapsed[2.844200m], stu_l:12477199.000000 , opt_l:11376735.000000
+[2025-11-21 01:27:03] TSPTester.py(553) : [OK] inst:challenge8_C1k.1, n:1000, gap:9.673%, time:5.226s
+[2025-11-21 01:27:03] TSPTester.py(574) : episode  79/228, Elapsed[2.844210m], Remain[5.364397m], score:1438484.747,Score_studetnt: 1563830.7089, aug_score:1563830.709
+[2025-11-21 01:27:08] TSPTester.py(726) : greedy, name:['tsplib_ceil_dsj1000'], gap:6.005781 %,  Elapsed[2.931368m], stu_l:19780878.000000 , opt_l:18660188.000000
+[2025-11-21 01:27:08] TSPTester.py(553) : [OK] inst:tsplib_ceil_dsj1000, n:1000, gap:6.006%, time:5.230s
+[2025-11-21 01:27:08] TSPTester.py(574) : episode  80/228, Elapsed[2.931379m], Remain[5.423052m], score:1653756.038,Score_studetnt: 1791543.8000, aug_score:1791543.800
+[2025-11-21 01:27:13] TSPTester.py(726) : greedy, name:['tsplib_euc_pr1002'], gap:7.786678 %,  Elapsed[3.018647m], stu_l:279216.000000 , opt_l:259045.000000
+[2025-11-21 01:27:13] TSPTester.py(553) : [OK] inst:tsplib_euc_pr1002, n:1002, gap:7.787%, time:5.237s
+[2025-11-21 01:27:13] TSPTester.py(574) : episode  81/228, Elapsed[3.018660m], Remain[5.478308m], score:1636537.383,Score_studetnt: 1772873.0864, aug_score:1772873.086
+[2025-11-21 01:27:19] TSPTester.py(726) : greedy, name:['tsplib_euc_u1060'], gap:11.448767 %,  Elapsed[3.111042m], stu_l:249750.000000 , opt_l:224094.000000
+[2025-11-21 01:27:19] TSPTester.py(553) : [OK] inst:tsplib_euc_u1060, n:1060, gap:11.449%, time:5.543s
+[2025-11-21 01:27:19] TSPTester.py(574) : episode  82/228, Elapsed[3.111054m], Remain[5.539193m], score:1619312.463,Score_studetnt: 1754298.4146, aug_score:1754298.415
+[2025-11-21 01:27:25] TSPTester.py(726) : greedy, name:['vlsi_xit1083'], gap:5.845981 %,  Elapsed[3.205524m], stu_l:3766.000000 , opt_l:3558.000000
+[2025-11-21 01:27:25] TSPTester.py(553) : [OK] inst:vlsi_xit1083, n:1083, gap:5.846%, time:5.669s
+[2025-11-21 01:27:25] TSPTester.py(574) : episode  83/228, Elapsed[3.205535m], Remain[5.600030m], score:1599845.542,Score_studetnt: 1733207.6627, aug_score:1733207.663
+[2025-11-21 01:27:30] TSPTester.py(726) : greedy, name:['tsplib_euc_vm1084'], gap:1.935670 %,  Elapsed[3.300086m], stu_l:243929.000000 , opt_l:239297.000000
+[2025-11-21 01:27:30] TSPTester.py(553) : [OK] inst:tsplib_euc_vm1084, n:1084, gap:1.936%, time:5.674s
+[2025-11-21 01:27:30] TSPTester.py(574) : episode  84/228, Elapsed[3.300097m], Remain[5.657309m], score:1583648.536,Score_studetnt: 1715478.1548, aug_score:1715478.155
+[2025-11-21 01:27:36] TSPTester.py(726) : greedy, name:['tsplib_euc_pcb1173'], gap:3.374815 %,  Elapsed[3.402544m], stu_l:58812.000000 , opt_l:56892.000000
+[2025-11-21 01:27:36] TSPTester.py(553) : [OK] inst:tsplib_euc_pcb1173, n:1173, gap:3.375%, time:6.147s
+[2025-11-21 01:27:36] TSPTester.py(574) : episode  85/228, Elapsed[3.402553m], Remain[5.724295m], score:1565686.694,Score_studetnt: 1695987.9647, aug_score:1695987.965
+[2025-11-21 01:27:43] TSPTester.py(726) : greedy, name:['tsplib_euc_d1291'], gap:13.777289 %,  Elapsed[3.515360m], stu_l:57800.000000 , opt_l:50801.000000
+[2025-11-21 01:27:43] TSPTester.py(553) : [OK] inst:tsplib_euc_d1291, n:1291, gap:13.777%, time:6.769s
+[2025-11-21 01:27:43] TSPTester.py(574) : episode  86/228, Elapsed[3.515371m], Remain[5.804449m], score:1548071.744,Score_studetnt: 1676939.2674, aug_score:1676939.267
+[2025-11-21 01:27:50] TSPTester.py(726) : greedy, name:['tsplib_euc_rl1304'], gap:5.656894 %,  Elapsed[3.629305m], stu_l:267257.000000 , opt_l:252948.000000
+[2025-11-21 01:27:50] TSPTester.py(553) : [OK] inst:tsplib_euc_rl1304, n:1304, gap:5.657%, time:6.837s
+[2025-11-21 01:27:50] TSPTester.py(574) : episode  87/228, Elapsed[3.629317m], Remain[5.881997m], score:1533185.264,Score_studetnt: 1660736.0230, aug_score:1660736.023
+[2025-11-21 01:27:57] TSPTester.py(726) : greedy, name:['tsplib_euc_rl1323'], gap:8.053694 %,  Elapsed[3.744845m], stu_l:291960.000000 , opt_l:270199.000000
+[2025-11-21 01:27:57] TSPTester.py(553) : [OK] inst:tsplib_euc_rl1323, n:1323, gap:8.054%, time:6.932s
+[2025-11-21 01:27:57] TSPTester.py(574) : episode  88/228, Elapsed[3.744857m], Remain[5.957727m], score:1518833.148,Score_studetnt: 1645181.7500, aug_score:1645181.750
+[2025-11-21 01:28:04] TSPTester.py(726) : greedy, name:['vlsi_dka1376'], gap:2.700386 %,  Elapsed[3.865194m], stu_l:4792.000000 , opt_l:4666.000000
+[2025-11-21 01:28:04] TSPTester.py(553) : [OK] inst:vlsi_dka1376, n:1376, gap:2.700%, time:7.221s
+[2025-11-21 01:28:04] TSPTester.py(574) : episode  89/228, Elapsed[3.865205m], Remain[6.036669m], score:1501820.034,Score_studetnt: 1626750.4045, aug_score:1626750.404
+[2025-11-21 01:28:11] TSPTester.py(726) : greedy, name:['tsplib_euc_nrw1379'], gap:3.112751 %,  Elapsed[3.985793m], stu_l:58401.000000 , opt_l:56638.000000
+[2025-11-21 01:28:11] TSPTester.py(553) : [OK] inst:tsplib_euc_nrw1379, n:1379, gap:3.113%, time:7.236s
+[2025-11-21 01:28:11] TSPTester.py(574) : episode  90/228, Elapsed[3.985804m], Remain[6.111566m], score:1485762.456,Score_studetnt: 1609324.3000, aug_score:1609324.300
+[2025-11-21 01:28:19] TSPTester.py(726) : greedy, name:['vlsi_dca1389'], gap:2.654867 %,  Elapsed[4.107204m], stu_l:5220.000000 , opt_l:5085.000000
+[2025-11-21 01:28:19] TSPTester.py(553) : [OK] inst:vlsi_dca1389, n:1389, gap:2.655%, time:7.284s
+[2025-11-21 01:28:19] TSPTester.py(574) : episode  91/228, Elapsed[4.107215m], Remain[6.183390m], score:1469491.275,Score_studetnt: 1591696.7802, aug_score:1591696.780
+[2025-11-21 01:28:26] TSPTester.py(726) : greedy, name:['tsplib_euc_fl1400'], gap:9.350623 %,  Elapsed[4.229595m], stu_l:22009.000000 , opt_l:20127.000000
+[2025-11-21 01:28:26] TSPTester.py(553) : [OK] inst:tsplib_euc_fl1400, n:1400, gap:9.351%, time:7.343s
+[2025-11-21 01:28:26] TSPTester.py(574) : episode  92/228, Elapsed[4.229606m], Remain[6.252461m], score:1453737.315,Score_studetnt: 1574634.9565, aug_score:1574634.957
+[2025-11-21 01:28:34] TSPTester.py(726) : greedy, name:['tsplib_euc_u1432'], gap:2.331176 %,  Elapsed[4.354814m], stu_l:156536.000000 , opt_l:152970.000000
+[2025-11-21 01:28:34] TSPTester.py(553) : [OK] inst:tsplib_euc_u1432, n:1432, gap:2.331%, time:7.513s
+[2025-11-21 01:28:34] TSPTester.py(574) : episode  93/228, Elapsed[4.354825m], Remain[6.321520m], score:1439750.570,Score_studetnt: 1559386.5806, aug_score:1559386.581
+[2025-11-21 01:28:41] TSPTester.py(726) : greedy, name:['vlsi_dja1436'], gap:5.078942 %,  Elapsed[4.480252m], stu_l:5524.000000 , opt_l:5257.000000
+[2025-11-21 01:28:41] TSPTester.py(553) : [OK] inst:vlsi_dja1436, n:1436, gap:5.079%, time:7.526s
+[2025-11-21 01:28:41] TSPTester.py(574) : episode  94/228, Elapsed[4.480264m], Remain[6.386760m], score:1424490.000,Score_studetnt: 1542856.1277, aug_score:1542856.128
+[2025-11-21 01:28:49] TSPTester.py(726) : greedy, name:['vlsi_icw1483'], gap:7.563406 %,  Elapsed[4.609936m], stu_l:4750.000000 , opt_l:4416.000000
+[2025-11-21 01:28:49] TSPTester.py(553) : [OK] inst:vlsi_icw1483, n:1483, gap:7.563%, time:7.781s
+[2025-11-21 01:28:49] TSPTester.py(574) : episode  95/228, Elapsed[4.609948m], Remain[6.453927m], score:1409541.853,Score_studetnt: 1526665.5368, aug_score:1526665.537
+[2025-11-21 01:28:57] TSPTester.py(726) : greedy, name:['vlsi_fra1488'], gap:4.807692 %,  Elapsed[4.740119m], stu_l:4469.000000 , opt_l:4264.000000
+[2025-11-21 01:28:57] TSPTester.py(553) : [OK] inst:vlsi_fra1488, n:1488, gap:4.808%, time:7.811s
+[2025-11-21 01:28:57] TSPTester.py(574) : episode  96/228, Elapsed[4.740129m], Remain[6.517678m], score:1394903.542,Score_studetnt: 1510809.3229, aug_score:1510809.323
+[2025-11-21 01:29:05] TSPTester.py(726) : greedy, name:['tsplib_euc_fl1577'], gap:12.094925 %,  Elapsed[4.877940m], stu_l:24940.000000 , opt_l:22249.000000
+[2025-11-21 01:29:05] TSPTester.py(553) : [OK] inst:tsplib_euc_fl1577, n:1577, gap:12.095%, time:8.269s
+[2025-11-21 01:29:05] TSPTester.py(574) : episode  97/228, Elapsed[4.877953m], Remain[6.587751m], score:1380752.464,Score_studetnt: 1495491.0825, aug_score:1495491.082
+[2025-11-21 01:29:13] TSPTester.py(726) : greedy, name:['vlsi_rbv1583'], gap:3.861147 %,  Elapsed[5.016335m], stu_l:5595.000000 , opt_l:5387.000000
+[2025-11-21 01:29:13] TSPTester.py(553) : [OK] inst:vlsi_rbv1583, n:1583, gap:3.861%, time:8.303s
+[2025-11-21 01:29:13] TSPTester.py(574) : episode  98/228, Elapsed[5.016346m], Remain[6.654336m], score:1366718.122,Score_studetnt: 1480288.0612, aug_score:1480288.061
+[2025-11-21 01:29:22] TSPTester.py(726) : greedy, name:['vlsi_rby1599'], gap:5.620821 %,  Elapsed[5.156167m], stu_l:5844.000000 , opt_l:5533.000000
+[2025-11-21 01:29:22] TSPTester.py(553) : [OK] inst:vlsi_rby1599, n:1599, gap:5.621%, time:8.390s
+[2025-11-21 01:29:22] TSPTester.py(574) : episode  99/228, Elapsed[5.156179m], Remain[6.718658m], score:1352968.778,Score_studetnt: 1465394.6869, aug_score:1465394.687
+[2025-11-21 01:29:30] TSPTester.py(726) : greedy, name:['vlsi_fnb1615'], gap:8.817594 %,  Elapsed[5.297305m], stu_l:5393.000000 , opt_l:4956.000000
+[2025-11-21 01:29:30] TSPTester.py(553) : [OK] inst:vlsi_fnb1615, n:1615, gap:8.818%, time:8.468s
+[2025-11-21 01:29:30] TSPTester.py(574) : episode 100/228, Elapsed[5.297317m], Remain[6.780565m], score:1339488.650,Score_studetnt: 1450794.6700, aug_score:1450794.670
+[2025-11-21 01:29:39] TSPTester.py(726) : greedy, name:['national_rw1621'], gap:40.654871 %,  Elapsed[5.439073m], stu_l:36642.000000 , opt_l:26051.000000
+[2025-11-21 01:29:39] TSPTester.py(553) : [OK] inst:national_rw1621, n:1621, gap:40.655%, time:8.506s
+[2025-11-21 01:29:39] TSPTester.py(574) : episode 101/228, Elapsed[5.439084m], Remain[6.839245m], score:1326484.317,Score_studetnt: 1436793.1584, aug_score:1436793.158
+[2025-11-21 01:29:47] TSPTester.py(726) : greedy, name:['tsplib_euc_d1655'], gap:7.817731 %,  Elapsed[5.583624m], stu_l:66985.000000 , opt_l:62128.000000
+[2025-11-21 01:29:47] TSPTester.py(553) : [OK] inst:tsplib_euc_d1655, n:1655, gap:7.818%, time:8.673s
+[2025-11-21 01:29:47] TSPTester.py(574) : episode 102/228, Elapsed[5.583636m], Remain[6.897432m], score:1314088.667,Score_studetnt: 1423363.6667, aug_score:1423363.667
+[2025-11-21 01:29:56] TSPTester.py(726) : greedy, name:['tsplib_euc_vm1748'], gap:2.769227 %,  Elapsed[5.736514m], stu_l:345876.000000 , opt_l:336556.000000
+[2025-11-21 01:29:56] TSPTester.py(553) : [OK] inst:tsplib_euc_vm1748, n:1748, gap:2.769%, time:9.173s
+[2025-11-21 01:29:56] TSPTester.py(574) : episode 103/228, Elapsed[5.736526m], Remain[6.961803m], score:1304598.058,Score_studetnt: 1412902.6214, aug_score:1412902.621
+[2025-11-21 01:30:06] TSPTester.py(726) : greedy, name:['vlsi_djc1785'], gap:4.791496 %,  Elapsed[5.892672m], stu_l:6408.000000 , opt_l:6115.000000
+[2025-11-21 01:30:06] TSPTester.py(553) : [OK] inst:vlsi_djc1785, n:1785, gap:4.791%, time:9.369s
+[2025-11-21 01:30:06] TSPTester.py(574) : episode 104/228, Elapsed[5.892683m], Remain[7.025892m], score:1292112.644,Score_studetnt: 1399378.6346, aug_score:1399378.635
+[2025-11-21 01:30:15] TSPTester.py(726) : greedy, name:['tsplib_euc_u1817'], gap:4.082097 %,  Elapsed[6.051500m], stu_l:59536.000000 , opt_l:57201.000000
+[2025-11-21 01:30:15] TSPTester.py(553) : [OK] inst:tsplib_euc_u1817, n:1817, gap:4.082%, time:9.529s
+[2025-11-21 01:30:15] TSPTester.py(574) : episode 105/228, Elapsed[6.051512m], Remain[7.088914m], score:1280351.581,Score_studetnt: 1386618.2286, aug_score:1386618.229
+[2025-11-21 01:30:25] TSPTester.py(726) : greedy, name:['tsplib_euc_rl1889'], gap:3.798936 %,  Elapsed[6.216650m], stu_l:328561.000000 , opt_l:316536.000000
+[2025-11-21 01:30:25] TSPTester.py(553) : [OK] inst:tsplib_euc_rl1889, n:1889, gap:3.799%, time:9.909s
+[2025-11-21 01:30:25] TSPTester.py(574) : episode 106/228, Elapsed[6.216661m], Remain[7.155025m], score:1271258.981,Score_studetnt: 1376636.5566, aug_score:1376636.557
+[2025-11-21 01:30:35] TSPTester.py(726) : greedy, name:['vlsi_dcc1911'], gap:3.486554 %,  Elapsed[6.383928m], stu_l:6619.000000 , opt_l:6396.000000
+[2025-11-21 01:30:35] TSPTester.py(553) : [OK] inst:vlsi_dcc1911, n:1911, gap:3.487%, time:10.036s
+[2025-11-21 01:30:35] TSPTester.py(574) : episode 107/228, Elapsed[6.383939m], Remain[7.219221m], score:1259437.832,Score_studetnt: 1363832.6542, aug_score:1363832.654
+[2025-11-21 01:30:46] TSPTester.py(726) : greedy, name:['vlsi_dkd1973'], gap:4.422987 %,  Elapsed[6.556530m], stu_l:6705.000000 , opt_l:6421.000000
+[2025-11-21 01:30:46] TSPTester.py(553) : [OK] inst:vlsi_dkd1973, n:1973, gap:4.423%, time:10.356s
+[2025-11-21 01:30:46] TSPTester.py(574) : episode 108/228, Elapsed[6.556542m], Remain[7.285046m], score:1247835.824,Score_studetnt: 1351266.6574, aug_score:1351266.657
+[2025-11-21 01:30:56] TSPTester.py(726) : greedy, name:['national_mu1979'], gap:16.970687 %,  Elapsed[6.729902m], stu_l:101637.000000 , opt_l:86891.000000
+[2025-11-21 01:30:56] TSPTester.py(553) : [OK] inst:national_mu1979, n:1979, gap:16.971%, time:10.402s
+[2025-11-21 01:30:56] TSPTester.py(574) : episode 109/228, Elapsed[6.729913m], Remain[7.347336m], score:1237184.954,Score_studetnt: 1339802.1651, aug_score:1339802.165
+[2025-11-21 01:31:07] TSPTester.py(726) : greedy, name:['vlsi_djb2036'], gap:3.098273 %,  Elapsed[6.908117m], stu_l:6389.000000 , opt_l:6197.000000
+[2025-11-21 01:31:07] TSPTester.py(553) : [OK] inst:vlsi_djb2036, n:2036, gap:3.098%, time:10.693s
+[2025-11-21 01:31:07] TSPTester.py(574) : episode 110/228, Elapsed[6.908128m], Remain[7.410538m], score:1225994.155,Score_studetnt: 1327680.2273, aug_score:1327680.227
+[2025-11-21 01:31:18] TSPTester.py(726) : greedy, name:['vlsi_dcb2086'], gap:8.212122 %,  Elapsed[7.090975m], stu_l:7142.000000 , opt_l:6600.000000
+[2025-11-21 01:31:18] TSPTester.py(553) : [OK] inst:vlsi_dcb2086, n:2086, gap:8.212%, time:10.971s
+[2025-11-21 01:31:18] TSPTester.py(574) : episode 111/228, Elapsed[7.090987m], Remain[7.474283m], score:1215008.622,Score_studetnt: 1315783.4865, aug_score:1315783.486
+[2025-11-21 01:31:29] TSPTester.py(726) : greedy, name:['tsplib_euc_d2103'], gap:10.181479 %,  Elapsed[7.275085m], stu_l:88641.000000 , opt_l:80450.000000
+[2025-11-21 01:31:29] TSPTester.py(553) : [OK] inst:tsplib_euc_d2103, n:2103, gap:10.181%, time:11.046s
+[2025-11-21 01:31:29] TSPTester.py(574) : episode 112/228, Elapsed[7.275097m], Remain[7.534921m], score:1204878.634,Score_studetnt: 1304826.8571, aug_score:1304826.857
+[2025-11-21 01:31:40] TSPTester.py(726) : greedy, name:['vlsi_bva2144'], gap:10.358502 %,  Elapsed[7.463008m], stu_l:6957.000000 , opt_l:6304.000000
+[2025-11-21 01:31:40] TSPTester.py(553) : [OK] inst:vlsi_bva2144, n:2144, gap:10.359%, time:11.275s
+[2025-11-21 01:31:40] TSPTester.py(574) : episode 113/228, Elapsed[7.463019m], Remain[7.595108m], score:1194271.779,Score_studetnt: 1293341.2832, aug_score:1293341.283
+[2025-11-21 01:31:51] TSPTester.py(726) : greedy, name:['tsplib_euc_u2152'], gap:7.254136 %,  Elapsed[7.651358m], stu_l:68914.000000 , opt_l:64253.000000
+[2025-11-21 01:31:51] TSPTester.py(553) : [OK] inst:tsplib_euc_u2152, n:2152, gap:7.254%, time:11.301s
+[2025-11-21 01:31:51] TSPTester.py(574) : episode 114/228, Elapsed[7.651370m], Remain[7.651370m], score:1184359.333,Score_studetnt: 1282600.6930, aug_score:1282600.693
+[2025-11-21 01:32:03] TSPTester.py(726) : greedy, name:['vlsi_xqc2175'], gap:3.660322 %,  Elapsed[7.841717m], stu_l:7080.000000 , opt_l:6830.000000
+[2025-11-21 01:32:03] TSPTester.py(553) : [OK] inst:vlsi_xqc2175, n:2175, gap:3.660%, time:11.421s
+[2025-11-21 01:32:03] TSPTester.py(574) : episode 115/228, Elapsed[7.841728m], Remain[7.705350m], score:1174119.948,Score_studetnt: 1271509.2087, aug_score:1271509.209
+[2025-11-21 01:32:14] TSPTester.py(726) : greedy, name:['vlsi_bck2217'], gap:3.370786 %,  Elapsed[8.035993m], stu_l:6992.000000 , opt_l:6764.000000
+[2025-11-21 01:32:14] TSPTester.py(553) : [OK] inst:vlsi_bck2217, n:2217, gap:3.371%, time:11.656s
+[2025-11-21 01:32:14] TSPTester.py(574) : episode 116/228, Elapsed[8.036006m], Remain[7.758902m], score:1164056.534,Score_studetnt: 1260608.1983, aug_score:1260608.198
+[2025-11-21 01:32:27] TSPTester.py(726) : greedy, name:['vlsi_xpr2308'], gap:5.679457 %,  Elapsed[8.237990m], stu_l:7629.000000 , opt_l:7219.000000
+[2025-11-21 01:32:27] TSPTester.py(553) : [OK] inst:vlsi_xpr2308, n:2308, gap:5.679%, time:12.119s
+[2025-11-21 01:32:27] TSPTester.py(574) : episode 117/228, Elapsed[8.238003m], Remain[7.815541m], score:1154169.034,Score_studetnt: 1249898.9744, aug_score:1249898.974
+[2025-11-21 01:32:39] TSPTester.py(726) : greedy, name:['tsplib_euc_u2319'], gap:0.690697 %,  Elapsed[8.441181m], stu_l:235874.000000 , opt_l:234256.000000
+[2025-11-21 01:32:39] TSPTester.py(553) : [OK] inst:tsplib_euc_u2319, n:2319, gap:0.691%, time:12.191s
+[2025-11-21 01:32:39] TSPTester.py(574) : episode 118/228, Elapsed[8.441193m], Remain[7.868909m], score:1146373.161,Score_studetnt: 1241305.5424, aug_score:1241305.542
+[2025-11-21 01:32:51] TSPTester.py(726) : greedy, name:['vlsi_ley2323'], gap:5.591475 %,  Elapsed[8.644272m], stu_l:8819.000000 , opt_l:8352.000000
+[2025-11-21 01:32:51] TSPTester.py(553) : [OK] inst:vlsi_ley2323, n:2323, gap:5.591%, time:12.185s
+[2025-11-21 01:32:51] TSPTester.py(574) : episode 119/228, Elapsed[8.644284m], Remain[7.917874m], score:1136809.958,Score_studetnt: 1230948.5126, aug_score:1230948.513
+[2025-11-21 01:33:03] TSPTester.py(726) : greedy, name:['vlsi_dea2382'], gap:4.066359 %,  Elapsed[8.852599m], stu_l:8343.000000 , opt_l:8017.000000
+[2025-11-21 01:33:03] TSPTester.py(553) : [OK] inst:vlsi_dea2382, n:2382, gap:4.066%, time:12.499s
+[2025-11-21 01:33:03] TSPTester.py(574) : episode 120/228, Elapsed[8.852610m], Remain[7.967349m], score:1127403.350,Score_studetnt: 1220760.1333, aug_score:1220760.133
+[2025-11-21 01:33:16] TSPTester.py(726) : greedy, name:['tsplib_euc_pr2392'], gap:6.010867 %,  Elapsed[9.062012m], stu_l:400755.000000 , opt_l:378032.000000
+[2025-11-21 01:33:16] TSPTester.py(553) : [OK] inst:tsplib_euc_pr2392, n:2392, gap:6.011%, time:12.565s
+[2025-11-21 01:33:16] TSPTester.py(574) : episode 121/228, Elapsed[9.062024m], Remain[8.013525m], score:1121210.198,Score_studetnt: 1213983.2314, aug_score:1213983.231
+[2025-11-21 01:33:29] TSPTester.py(726) : greedy, name:['vlsi_rbw2481'], gap:5.696530 %,  Elapsed[9.279507m], stu_l:8164.000000 , opt_l:7724.000000
+[2025-11-21 01:33:29] TSPTester.py(553) : [OK] inst:vlsi_rbw2481, n:2481, gap:5.697%, time:13.049s
+[2025-11-21 01:33:29] TSPTester.py(574) : episode 122/228, Elapsed[9.279518m], Remain[8.062532m], score:1112083.262,Score_studetnt: 1204099.4672, aug_score:1204099.467
+[2025-11-21 01:33:42] TSPTester.py(726) : greedy, name:['vlsi_pds2566'], gap:3.297134 %,  Elapsed[9.504318m], stu_l:7895.000000 , opt_l:7643.000000
+[2025-11-21 01:33:42] TSPTester.py(553) : [OK] inst:vlsi_pds2566, n:2566, gap:3.297%, time:13.488s
+[2025-11-21 01:33:42] TSPTester.py(574) : episode 123/228, Elapsed[9.504330m], Remain[8.113452m], score:1103104.073,Score_studetnt: 1194374.2276, aug_score:1194374.228
+[2025-11-21 01:33:56] TSPTester.py(726) : greedy, name:['vlsi_mlt2597'], gap:5.377277 %,  Elapsed[9.731938m], stu_l:8505.000000 , opt_l:8071.000000
+[2025-11-21 01:33:56] TSPTester.py(553) : [OK] inst:vlsi_mlt2597, n:2597, gap:5.377%, time:13.657s
+[2025-11-21 01:33:56] TSPTester.py(574) : episode 124/228, Elapsed[9.731949m], Remain[8.162280m], score:1094273.161,Score_studetnt: 1184810.7661, aug_score:1184810.766
+[2025-11-21 01:34:11] TSPTester.py(726) : greedy, name:['vlsi_bch2762'], gap:5.513724 %,  Elapsed[9.973994m], stu_l:8688.000000 , opt_l:8234.000000
+[2025-11-21 01:34:11] TSPTester.py(553) : [OK] inst:vlsi_bch2762, n:2762, gap:5.514%, time:14.523s
+[2025-11-21 01:34:11] TSPTester.py(574) : episode 125/228, Elapsed[9.974006m], Remain[8.218581m], score:1085584.848,Score_studetnt: 1175401.7840, aug_score:1175401.784
+[2025-11-21 01:34:25] TSPTester.py(726) : greedy, name:['vlsi_irw2802'], gap:7.099608 %,  Elapsed[10.219483m], stu_l:9021.000000 , opt_l:8423.000000
+[2025-11-21 01:34:25] TSPTester.py(553) : [OK] inst:vlsi_irw2802, n:2802, gap:7.100%, time:14.729s
+[2025-11-21 01:34:25] TSPTester.py(574) : episode 126/228, Elapsed[10.219496m], Remain[8.272925m], score:1077035.944,Score_studetnt: 1166144.7937, aug_score:1166144.794
+[2025-11-21 01:34:40] TSPTester.py(726) : greedy, name:['vlsi_lsm2854'], gap:4.829049 %,  Elapsed[10.469954m], stu_l:8401.000000 , opt_l:8014.000000
+[2025-11-21 01:34:40] TSPTester.py(553) : [OK] inst:vlsi_lsm2854, n:2854, gap:4.829%, time:15.028s
+[2025-11-21 01:34:40] TSPTester.py(574) : episode 127/228, Elapsed[10.469966m], Remain[8.326508m], score:1068618.449,Score_studetnt: 1157028.7008, aug_score:1157028.701
+[2025-11-21 01:34:56] TSPTester.py(726) : greedy, name:['vlsi_dbj2924'], gap:7.138626 %,  Elapsed[10.726604m], stu_l:10851.000000 , opt_l:10128.000000
+[2025-11-21 01:34:56] TSPTester.py(553) : [OK] inst:vlsi_dbj2924, n:2924, gap:7.139%, time:15.399s
+[2025-11-21 01:34:56] TSPTester.py(574) : episode 128/228, Elapsed[10.726615m], Remain[8.380168m], score:1060348.992,Score_studetnt: 1148074.1875, aug_score:1148074.188
+[2025-11-21 01:35:12] TSPTester.py(726) : greedy, name:['vlsi_xva2993'], gap:4.592558 %,  Elapsed[10.989120m], stu_l:8882.000000 , opt_l:8492.000000
+[2025-11-21 01:35:12] TSPTester.py(553) : [OK] inst:vlsi_xva2993, n:2993, gap:4.593%, time:15.751s
+[2025-11-21 01:35:12] TSPTester.py(574) : episode 129/228, Elapsed[10.989131m], Remain[8.433519m], score:1052195.062,Score_studetnt: 1139243.2403, aug_score:1139243.240
+[2025-11-21 01:35:28] TSPTester.py(726) : greedy, name:['tsplib_euc_pcb3038'], gap:4.424303 %,  Elapsed[11.255728m], stu_l:143786.000000 , opt_l:137694.000000
+[2025-11-21 01:35:28] TSPTester.py(553) : [OK] inst:tsplib_euc_pcb3038, n:3038, gap:4.424%, time:15.996s
+[2025-11-21 01:35:28] TSPTester.py(574) : episode 130/228, Elapsed[11.255739m], Remain[8.485096m], score:1045160.438,Score_studetnt: 1131585.8769, aug_score:1131585.877
+[2025-11-21 01:35:44] TSPTester.py(726) : greedy, name:['vlsi_pia3056'], gap:11.080164 %,  Elapsed[11.523730m], stu_l:9173.000000 , opt_l:8258.000000
+[2025-11-21 01:35:44] TSPTester.py(553) : [OK] inst:vlsi_pia3056, n:3056, gap:11.080%, time:16.080s
+[2025-11-21 01:35:44] TSPTester.py(574) : episode 131/228, Elapsed[11.523743m], Remain[8.532848m], score:1037245.153,Score_studetnt: 1123017.8397, aug_score:1123017.840
+[2025-11-21 01:36:00] TSPTester.py(726) : greedy, name:['vlsi_dke3097'], gap:4.981497 %,  Elapsed[11.795240m], stu_l:11064.000000 , opt_l:10539.000000
+[2025-11-21 01:36:00] TSPTester.py(553) : [OK] inst:vlsi_dke3097, n:3097, gap:4.981%, time:16.290s
+[2025-11-21 01:36:00] TSPTester.py(574) : episode 132/228, Elapsed[11.795251m], Remain[8.578364m], score:1029467.076,Score_studetnt: 1114593.9470, aug_score:1114593.947
+[2025-11-21 01:36:16] TSPTester.py(726) : greedy, name:['vlsi_lsn3119'], gap:5.595787 %,  Elapsed[12.069320m], stu_l:9624.000000 , opt_l:9114.000000
+[2025-11-21 01:36:16] TSPTester.py(553) : [OK] inst:vlsi_lsn3119, n:3119, gap:5.596%, time:16.445s
+[2025-11-21 01:36:16] TSPTester.py(574) : episode 133/228, Elapsed[12.069332m], Remain[8.620951m], score:1021795.248,Score_studetnt: 1106285.9023, aug_score:1106285.902
+[2025-11-21 01:36:33] TSPTester.py(726) : greedy, name:['vlsi_lta3140'], gap:6.399076 %,  Elapsed[12.345622m], stu_l:10126.000000 , opt_l:9517.000000
+[2025-11-21 01:36:33] TSPTester.py(553) : [OK] inst:vlsi_lta3140, n:3140, gap:6.399%, time:16.578s
+[2025-11-21 01:36:33] TSPTester.py(574) : episode 134/228, Elapsed[12.345633m], Remain[8.660369m], score:1014240.933,Score_studetnt: 1098105.6045, aug_score:1098105.604
+[2025-11-21 01:36:50] TSPTester.py(726) : greedy, name:['challenge8_C3k.4'], gap:8.260190 %,  Elapsed[12.623137m], stu_l:20422252.000000 , opt_l:18864046.000000
+[2025-11-21 01:36:50] TSPTester.py(553) : [OK] inst:challenge8_C3k.4, n:3162, gap:8.260%, time:16.651s
+[2025-11-21 01:36:50] TSPTester.py(574) : episode 135/228, Elapsed[12.623147m], Remain[8.695946m], score:1146461.711,Score_studetnt: 1241247.4296, aug_score:1241247.430
+[2025-11-21 01:37:06] TSPTester.py(726) : greedy, name:['challenge8_C3k.3'], gap:12.004998 %,  Elapsed[12.901736m], stu_l:21402484.000000 , opt_l:19108508.000000
+[2025-11-21 01:37:06] TSPTester.py(553) : [OK] inst:challenge8_C3k.3, n:3162, gap:12.005%, time:16.716s
+[2025-11-21 01:37:06] TSPTester.py(574) : episode 136/228, Elapsed[12.901747m], Remain[8.727652m], score:1278535.581,Score_studetnt: 1389491.8162, aug_score:1389491.816
+[2025-11-21 01:37:23] TSPTester.py(726) : greedy, name:['challenge8_C3k.2'], gap:5.237546 %,  Elapsed[13.179710m], stu_l:20571364.000000 , opt_l:19547551.000000
+[2025-11-21 01:37:23] TSPTester.py(553) : [OK] inst:challenge8_C3k.2, n:3162, gap:5.238%, time:16.678s
+[2025-11-21 01:37:23] TSPTester.py(574) : episode 137/228, Elapsed[13.179721m], Remain[8.754414m], score:1411886.058,Score_studetnt: 1529505.4818, aug_score:1529505.482
+[2025-11-21 01:37:40] TSPTester.py(726) : greedy, name:['challenge8_C3k.1'], gap:9.237639 %,  Elapsed[13.457889m], stu_l:20774600.000000 , opt_l:19017805.000000
+[2025-11-21 01:37:40] TSPTester.py(553) : [OK] inst:challenge8_C3k.1, n:3162, gap:9.238%, time:16.691s
+[2025-11-21 01:37:40] TSPTester.py(574) : episode 138/228, Elapsed[13.457901m], Remain[8.776892m], score:1539465.181,Score_studetnt: 1668962.6884, aug_score:1668962.688
+[2025-11-21 01:37:56] TSPTester.py(726) : greedy, name:['challenge8_C3k.0'], gap:4.466228 %,  Elapsed[13.735873m], stu_l:20055696.000000 , opt_l:19198258.000000
+[2025-11-21 01:37:56] TSPTester.py(553) : [OK] inst:challenge8_C3k.0, n:3162, gap:4.466%, time:16.679s
+[2025-11-21 01:37:56] TSPTester.py(574) : episode 139/228, Elapsed[13.735884m], Remain[8.794919m], score:1666506.856,Score_studetnt: 1801241.3453, aug_score:1801241.345
+[2025-11-21 01:38:14] TSPTester.py(726) : greedy, name:['vlsi_fdp3256'], gap:2.448042 %,  Elapsed[14.021843m], stu_l:10253.000000 , opt_l:10008.000000
+[2025-11-21 01:38:14] TSPTester.py(553) : [OK] inst:vlsi_fdp3256, n:3256, gap:2.448%, time:17.158s
+[2025-11-21 01:38:14] TSPTester.py(574) : episode 140/228, Elapsed[14.021854m], Remain[8.813737m], score:1654674.721,Score_studetnt: 1788448.5714, aug_score:1788448.571
+[2025-11-21 01:38:31] TSPTester.py(726) : greedy, name:['vlsi_beg3293'], gap:7.695456 %,  Elapsed[14.311312m], stu_l:10524.000000 , opt_l:9772.000000
+[2025-11-21 01:38:31] TSPTester.py(553) : [OK] inst:vlsi_beg3293, n:3293, gap:7.695%, time:17.368s
+[2025-11-21 01:38:31] TSPTester.py(574) : episode 141/228, Elapsed[14.311324m], Remain[8.830391m], score:1643008.745,Score_studetnt: 1775839.1773, aug_score:1775839.177
+[2025-11-21 01:38:49] TSPTester.py(726) : greedy, name:['vlsi_dhb3386'], gap:5.001347 %,  Elapsed[14.608832m], stu_l:11694.000000 , opt_l:11137.000000
+[2025-11-21 01:38:49] TSPTester.py(553) : [OK] inst:vlsi_dhb3386, n:3386, gap:5.001%, time:17.851s
+[2025-11-21 01:38:49] TSPTester.py(574) : episode 142/228, Elapsed[14.608844m], Remain[8.847609m], score:1631516.690,Score_studetnt: 1763415.6197, aug_score:1763415.620
+[2025-11-21 01:39:07] TSPTester.py(726) : greedy, name:['national_nu3496'], gap:46.331090 %,  Elapsed[14.916474m], stu_l:140671.000000 , opt_l:96132.000000
+[2025-11-21 01:39:07] TSPTester.py(553) : [OK] inst:national_nu3496, n:3496, gap:46.331%, time:18.458s
+[2025-11-21 01:39:07] TSPTester.py(574) : episode 143/228, Elapsed[14.916486m], Remain[8.866443m], score:1620779.734,Score_studetnt: 1752067.7552, aug_score:1752067.755
+[2025-11-21 01:39:27] TSPTester.py(726) : greedy, name:['vlsi_fjs3649'], gap:10.321398 %,  Elapsed[15.237805m], stu_l:10229.000000 , opt_l:9272.000000
+[2025-11-21 01:39:27] TSPTester.py(553) : [OK] inst:vlsi_fjs3649, n:3649, gap:10.321%, time:19.280s
+[2025-11-21 01:39:27] TSPTester.py(574) : episode 144/228, Elapsed[15.237818m], Remain[8.888727m], score:1609588.708,Score_studetnt: 1739971.6528, aug_score:1739971.653
+[2025-11-21 01:39:46] TSPTester.py(726) : greedy, name:['vlsi_fjr3672'], gap:10.936361 %,  Elapsed[15.560810m], stu_l:10651.000000 , opt_l:9601.000000
+[2025-11-21 01:39:46] TSPTester.py(553) : [OK] inst:vlsi_fjr3672, n:3672, gap:10.936%, time:19.380s
+[2025-11-21 01:39:46] TSPTester.py(574) : episode 145/228, Elapsed[15.560821m], Remain[8.907229m], score:1598554.310,Score_studetnt: 1728045.3034, aug_score:1728045.303
+[2025-11-21 01:40:05] TSPTester.py(726) : greedy, name:['vlsi_dlb3694'], gap:3.759467 %,  Elapsed[15.886080m], stu_l:11371.000000 , opt_l:10959.000000
+[2025-11-21 01:40:05] TSPTester.py(553) : [OK] inst:vlsi_dlb3694, n:3694, gap:3.759%, time:19.516s
+[2025-11-21 01:40:05] TSPTester.py(574) : episode 146/228, Elapsed[15.886092m], Remain[8.922326m], score:1587680.370,Score_studetnt: 1716287.2603, aug_score:1716287.260
+[2025-11-21 01:40:25] TSPTester.py(726) : greedy, name:['vlsi_ltb3729'], gap:8.408764 %,  Elapsed[16.214147m], stu_l:12815.000000 , opt_l:11821.000000
+[2025-11-21 01:40:25] TSPTester.py(553) : [OK] inst:vlsi_ltb3729, n:3729, gap:8.409%, time:19.684s
+[2025-11-21 01:40:25] TSPTester.py(574) : episode 147/228, Elapsed[16.214159m], Remain[8.934332m], score:1576960.238,Score_studetnt: 1704699.0136, aug_score:1704699.014
+[2025-11-21 01:40:45] TSPTester.py(726) : greedy, name:['tsplib_euc_fl3795'], gap:16.102460 %,  Elapsed[16.548724m], stu_l:33405.000000 , opt_l:28772.000000
+[2025-11-21 01:40:45] TSPTester.py(553) : [OK] inst:tsplib_euc_fl3795, n:3795, gap:16.102%, time:20.074s
+[2025-11-21 01:40:45] TSPTester.py(574) : episode 148/228, Elapsed[16.548735m], Remain[8.945262m], score:1566499.507,Score_studetnt: 1693406.4865, aug_score:1693406.486
+[2025-11-21 01:41:06] TSPTester.py(726) : greedy, name:['vlsi_xqe3891'], gap:7.744893 %,  Elapsed[16.890728m], stu_l:12924.000000 , opt_l:11995.000000
+[2025-11-21 01:41:06] TSPTester.py(553) : [OK] inst:vlsi_xqe3891, n:3891, gap:7.745%, time:20.520s
+[2025-11-21 01:41:06] TSPTester.py(574) : episode 149/228, Elapsed[16.890741m], Remain[8.955493m], score:1556066.591,Score_studetnt: 1682128.0805, aug_score:1682128.081
+[2025-11-21 01:41:27] TSPTester.py(726) : greedy, name:['vlsi_xua3937'], gap:3.825963 %,  Elapsed[17.238394m], stu_l:11669.000000 , opt_l:11239.000000
+[2025-11-21 01:41:27] TSPTester.py(553) : [OK] inst:vlsi_xua3937, n:3937, gap:3.826%, time:20.860s
+[2025-11-21 01:41:27] TSPTester.py(574) : episode 150/228, Elapsed[17.238405m], Remain[8.963971m], score:1545767.740,Score_studetnt: 1670991.6867, aug_score:1670991.687
+[2025-11-21 01:41:47] TSPTester.py(726) : greedy, name:['vlsi_dkc3938'], gap:11.509237 %,  Elapsed[17.585216m], stu_l:13942.000000 , opt_l:12503.000000
+[2025-11-21 01:41:47] TSPTester.py(553) : [OK] inst:vlsi_dkc3938, n:3938, gap:11.509%, time:20.809s
+[2025-11-21 01:41:47] TSPTester.py(574) : episode 151/228, Elapsed[17.585228m], Remain[8.967302m], score:1535613.669,Score_studetnt: 1660017.8477, aug_score:1660017.848
+[2025-11-21 01:42:08] TSPTester.py(726) : greedy, name:['vlsi_dkf3954'], gap:3.365768 %,  Elapsed[17.934573m], stu_l:12960.000000 , opt_l:12538.000000
+[2025-11-21 01:42:08] TSPTester.py(553) : [OK] inst:vlsi_dkf3954, n:3954, gap:3.366%, time:20.961s
+[2025-11-21 01:42:08] TSPTester.py(574) : episode 152/228, Elapsed[17.934584m], Remain[8.967292m], score:1525593.434,Score_studetnt: 1649181.9408, aug_score:1649181.941
+[2025-11-21 01:42:31] TSPTester.py(726) : greedy, name:['vlsi_bgb4355'], gap:5.100998 %,  Elapsed[18.319953m], stu_l:13372.000000 , opt_l:12723.000000
+[2025-11-21 01:42:31] TSPTester.py(553) : [OK] inst:vlsi_bgb4355, n:4355, gap:5.101%, time:23.123s
+[2025-11-21 01:42:31] TSPTester.py(574) : episode 153/228, Elapsed[18.319965m], Remain[8.980375m], score:1515705.392,Score_studetnt: 1638490.3725, aug_score:1638490.373
+[2025-11-21 01:42:55] TSPTester.py(726) : greedy, name:['vlsi_bgd4396'], gap:10.315935 %,  Elapsed[18.709522m], stu_l:14351.000000 , opt_l:13009.000000
+[2025-11-21 01:42:55] TSPTester.py(553) : [OK] inst:vlsi_bgd4396, n:4396, gap:10.316%, time:23.374s
+[2025-11-21 01:42:55] TSPTester.py(574) : episode 154/228, Elapsed[18.709534m], Remain[8.990296m], score:1505947.623,Score_studetnt: 1627944.0130, aug_score:1627944.013
+[2025-11-21 01:43:18] TSPTester.py(726) : greedy, name:['vlsi_frv4410'], gap:7.235552 %,  Elapsed[19.100014m], stu_l:11486.000000 , opt_l:10711.000000
+[2025-11-21 01:43:18] TSPTester.py(553) : [OK] inst:vlsi_frv4410, n:4410, gap:7.236%, time:23.429s
+[2025-11-21 01:43:18] TSPTester.py(574) : episode 155/228, Elapsed[19.100025m], Remain[8.995496m], score:1496300.935,Score_studetnt: 1617515.2516, aug_score:1617515.252
+[2025-11-21 01:43:42] TSPTester.py(726) : greedy, name:['tsplib_euc_fnl4461'], gap:2.967146 %,  Elapsed[19.494590m], stu_l:187983.000000 , opt_l:182566.000000
+[2025-11-21 01:43:42] TSPTester.py(553) : [OK] inst:tsplib_euc_fnl4461, n:4461, gap:2.967%, time:23.674s
+[2025-11-21 01:43:42] TSPTester.py(574) : episode 156/228, Elapsed[19.494601m], Remain[8.997508m], score:1487879.558,Score_studetnt: 1608351.5833, aug_score:1608351.583
+[2025-11-21 01:44:06] TSPTester.py(726) : greedy, name:['vlsi_bgf4475'], gap:6.951063 %,  Elapsed[19.890829m], stu_l:14140.000000 , opt_l:13221.000000
+[2025-11-21 01:44:06] TSPTester.py(553) : [OK] inst:vlsi_bgf4475, n:4475, gap:6.951%, time:23.774s
+[2025-11-21 01:44:06] TSPTester.py(574) : episode 157/228, Elapsed[19.890841m], Remain[8.995221m], score:1478486.828,Score_studetnt: 1598197.3694, aug_score:1598197.369
+[2025-11-21 01:44:31] TSPTester.py(726) : greedy, name:['national_ca4663'], gap:10.912340 %,  Elapsed[20.304922m], stu_l:1431123.000000 , opt_l:1290319.000000
+[2025-11-21 01:44:31] TSPTester.py(553) : [OK] inst:national_ca4663, n:4663, gap:10.912%, time:24.845s
+[2025-11-21 01:44:31] TSPTester.py(574) : episode 158/228, Elapsed[20.304935m], Remain[8.995857m], score:1477295.892,Score_studetnt: 1597139.9367, aug_score:1597139.937
+[2025-11-21 01:44:57] TSPTester.py(726) : greedy, name:['vlsi_xqd4966'], gap:11.073387 %,  Elapsed[20.746808m], stu_l:17012.000000 , opt_l:15316.000000
+[2025-11-21 01:44:57] TSPTester.py(553) : [OK] inst:vlsi_xqd4966, n:4966, gap:11.073%, time:26.513s
+[2025-11-21 01:44:57] TSPTester.py(574) : episode 159/228, Elapsed[20.746820m], Remain[9.003337m], score:1468101.050,Score_studetnt: 1587202.0252, aug_score:1587202.025
+[2025-11-21 01:45:24] TSPTester.py(726) : greedy, name:['vlsi_fqm5087'], gap:12.280297 %,  Elapsed[21.199727m], stu_l:14629.000000 , opt_l:13029.000000
+[2025-11-21 01:45:24] TSPTester.py(553) : [OK] inst:vlsi_fqm5087, n:5087, gap:12.280%, time:27.175s
+[2025-11-21 01:45:24] TSPTester.py(574) : episode 160/228, Elapsed[21.199739m], Remain[9.009889m], score:1459006.850,Score_studetnt: 1577373.4438, aug_score:1577373.444
+[2025-11-21 01:45:54] TSPTester.py(726) : greedy, name:['vlsi_fea5557'], gap:5.555196 %,  Elapsed[21.698758m], stu_l:16303.000000 , opt_l:15445.000000
+[2025-11-21 01:45:54] TSPTester.py(553) : [OK] inst:vlsi_fea5557, n:5557, gap:5.555%, time:29.942s
+[2025-11-21 01:45:54] TSPTester.py(574) : episode 161/228, Elapsed[21.698769m], Remain[9.029923m], score:1450040.627,Score_studetnt: 1567677.3540, aug_score:1567677.354
+[2025-11-21 01:46:26] TSPTester.py(726) : greedy, name:['tsplib_euc_rl5915'], gap:6.019663 %,  Elapsed[22.232865m], stu_l:599573.000000 , opt_l:565530.000000
+[2025-11-21 01:46:26] TSPTester.py(553) : [OK] inst:tsplib_euc_rl5915, n:5915, gap:6.020%, time:32.046s
+[2025-11-21 01:46:26] TSPTester.py(574) : episode 162/228, Elapsed[22.232877m], Remain[9.057839m], score:1444580.685,Score_studetnt: 1561701.4012, aug_score:1561701.401
+[2025-11-21 01:46:58] TSPTester.py(726) : greedy, name:['tsplib_euc_rl5934'], gap:5.101026 %,  Elapsed[22.769054m], stu_l:584409.000000 , opt_l:556045.000000
+[2025-11-21 01:46:58] TSPTester.py(553) : [OK] inst:tsplib_euc_rl5934, n:5934, gap:5.101%, time:32.171s
+[2025-11-21 01:46:58] TSPTester.py(574) : episode 163/228, Elapsed[22.769065m], Remain[9.079688m], score:1439129.546,Score_studetnt: 1555705.7423, aug_score:1555705.742
+[2025-11-21 01:47:32] TSPTester.py(726) : greedy, name:['national_tz6117'], gap:19.483024 %,  Elapsed[23.323937m], stu_l:471621.000000 , opt_l:394718.000000
+[2025-11-21 01:47:32] TSPTester.py(553) : [OK] inst:national_tz6117, n:6117, gap:19.483%, time:33.293s
+[2025-11-21 01:47:32] TSPTester.py(574) : episode 164/228, Elapsed[23.323949m], Remain[9.102029m], score:1432761.183,Score_studetnt: 1549095.4695, aug_score:1549095.470
+[2025-11-21 01:48:10] TSPTester.py(726) : greedy, name:['vlsi_xsc6880'], gap:5.549106 %,  Elapsed[23.956962m], stu_l:22730.000000 , opt_l:21535.000000
+[2025-11-21 01:48:10] TSPTester.py(553) : [OK] inst:vlsi_xsc6880, n:6880, gap:5.549%, time:37.981s
+[2025-11-21 01:48:10] TSPTester.py(574) : episode 165/228, Elapsed[23.956973m], Remain[9.147208m], score:1424208.297,Score_studetnt: 1539844.7697, aug_score:1539844.770
+[2025-11-21 01:48:49] TSPTester.py(726) : greedy, name:['national_eg7146'], gap:22.368406 %,  Elapsed[24.616882m], stu_l:210946.000000 , opt_l:172386.000000
+[2025-11-21 01:48:49] TSPTester.py(553) : [OK] inst:national_eg7146, n:7146, gap:22.368%, time:39.595s
+[2025-11-21 01:48:49] TSPTester.py(574) : episode 166/228, Elapsed[24.616895m], Remain[9.194262m], score:1416667.199,Score_studetnt: 1531839.3554, aug_score:1531839.355
+[2025-11-21 01:49:29] TSPTester.py(726) : greedy, name:['vlsi_bnd7168'], gap:3.796830 %,  Elapsed[25.281232m], stu_l:22663.000000 , opt_l:21834.000000
+[2025-11-21 01:49:29] TSPTester.py(553) : [OK] inst:vlsi_bnd7168, n:7168, gap:3.797%, time:39.861s
+[2025-11-21 01:49:29] TSPTester.py(574) : episode 167/228, Elapsed[25.281245m], Remain[9.234467m], score:1408314.904,Score_studetnt: 1522802.3713, aug_score:1522802.371
+[2025-11-21 01:50:10] TSPTester.py(726) : greedy, name:['tsplib_ceil_pla7397'], gap:5.632085 %,  Elapsed[25.968082m], stu_l:24570792.000000 , opt_l:23260728.000000
+[2025-11-21 01:50:10] TSPTester.py(553) : [OK] inst:tsplib_ceil_pla7397, n:7397, gap:5.632%, time:41.211s
+[2025-11-21 01:50:10] TSPTester.py(574) : episode 168/228, Elapsed[25.968095m], Remain[9.274320m], score:1538388.792,Score_studetnt: 1659992.7857, aug_score:1659992.786
+[2025-11-21 01:50:52] TSPTester.py(726) : greedy, name:['vlsi_lap7454'], gap:4.468902 %,  Elapsed[26.661845m], stu_l:20408.000000 , opt_l:19535.000000
+[2025-11-21 01:50:52] TSPTester.py(553) : [OK] inst:vlsi_lap7454, n:7454, gap:4.469%, time:41.625s
+[2025-11-21 01:50:52] TSPTester.py(574) : episode 169/228, Elapsed[26.661859m], Remain[9.307986m], score:1529401.491,Score_studetnt: 1650291.1006, aug_score:1650291.101
+[2025-11-21 01:51:35] TSPTester.py(726) : greedy, name:['national_ym7663'], gap:33.253190 %,  Elapsed[27.376882m], stu_l:317561.000000 , opt_l:238314.000000
+[2025-11-21 01:51:35] TSPTester.py(553) : [OK] inst:national_ym7663, n:7663, gap:33.253%, time:42.902s
+[2025-11-21 01:51:35] TSPTester.py(574) : episode 170/228, Elapsed[27.376896m], Remain[9.340353m], score:1521806.859,Score_studetnt: 1642451.5118, aug_score:1642451.512
+[2025-11-21 01:52:20] TSPTester.py(726) : greedy, name:['national_pm8079'], gap:67.665315 %,  Elapsed[28.137310m], stu_l:192572.000000 , opt_l:114855.000000
+[2025-11-21 01:52:20] TSPTester.py(553) : [OK] inst:national_pm8079, n:8079, gap:67.665%, time:45.625s
+[2025-11-21 01:52:20] TSPTester.py(574) : episode 171/228, Elapsed[28.137322m], Remain[9.379107m], score:1513579.070,Score_studetnt: 1633972.6842, aug_score:1633972.684
+[2025-11-21 01:53:07] TSPTester.py(726) : greedy, name:['vlsi_ida8197'], gap:7.247739 %,  Elapsed[28.912162m], stu_l:23957.000000 , opt_l:22338.000000
+[2025-11-21 01:53:07] TSPTester.py(553) : [OK] inst:vlsi_ida8197, n:8197, gap:7.248%, time:46.491s
+[2025-11-21 01:53:07] TSPTester.py(574) : episode 172/228, Elapsed[28.912173m], Remain[9.413266m], score:1504909.064,Score_studetnt: 1624612.1279, aug_score:1624612.128
+[2025-11-21 01:53:54] TSPTester.py(726) : greedy, name:['national_ei8246'], gap:87.534130 %,  Elapsed[29.692069m], stu_l:386641.000000 , opt_l:206171.000000
+[2025-11-21 01:53:54] TSPTester.py(553) : [OK] inst:national_ei8246, n:8246, gap:87.534%, time:46.794s
+[2025-11-21 01:53:54] TSPTester.py(574) : episode 173/228, Elapsed[29.692081m], Remain[9.439679m], score:1497401.908,Score_studetnt: 1617456.2254, aug_score:1617456.225
+[2025-11-21 01:54:47] TSPTester.py(726) : greedy, name:['national_ar9152'], gap:10.208973 %,  Elapsed[30.576570m], stu_l:922977.000000 , opt_l:837479.000000
+[2025-11-21 01:54:47] TSPTester.py(553) : [OK] inst:national_ar9152, n:9152, gap:10.209%, time:53.070s
+[2025-11-21 01:54:47] TSPTester.py(574) : episode 174/228, Elapsed[30.576584m], Remain[9.489285m], score:1493609.247,Score_studetnt: 1613464.9655, aug_score:1613464.966
+[2025-11-21 01:55:44] TSPTester.py(726) : greedy, name:['vlsi_dga9698'], gap:5.652143 %,  Elapsed[31.525756m], stu_l:29291.000000 , opt_l:27724.000000
+[2025-11-21 01:55:44] TSPTester.py(553) : [OK] inst:vlsi_dga9698, n:9698, gap:5.652%, time:56.951s
+[2025-11-21 01:55:44] TSPTester.py(574) : episode 175/228, Elapsed[31.525768m], Remain[9.547804m], score:1485232.760,Score_studetnt: 1604412.5429, aug_score:1604412.543
+[2025-11-21 01:56:42] TSPTester.py(726) : greedy, name:['national_ja9847'], gap:55.105263 %,  Elapsed[32.490066m], stu_l:763000.000000 , opt_l:491924.000000
+[2025-11-21 01:56:42] TSPTester.py(553) : [OK] inst:national_ja9847, n:9847, gap:55.105%, time:57.858s
+[2025-11-21 01:56:42] TSPTester.py(574) : episode 176/228, Elapsed[32.490079m], Remain[9.599342m], score:1479588.960,Score_studetnt: 1599631.7898, aug_score:1599631.790
+[2025-11-21 01:57:40] TSPTester.py(726) : greedy, name:['national_gr9882'], gap:36.749873 %,  Elapsed[33.459852m], stu_l:411479.000000 , opt_l:300899.000000
+[2025-11-21 01:57:40] TSPTester.py(553) : [OK] inst:national_gr9882, n:9882, gap:36.750%, time:58.187s
+[2025-11-21 01:57:40] TSPTester.py(574) : episode 177/228, Elapsed[33.459864m], Remain[9.640978m], score:1472929.695,Score_studetnt: 1592919.0621, aug_score:1592919.062
+[2025-11-21 01:58:39] TSPTester.py(726) : greedy, name:['national_kz9976'], gap:11.070355 %,  Elapsed[34.439757m], stu_l:1179435.000000 , opt_l:1061881.000000
+[2025-11-21 01:58:39] TSPTester.py(553) : [OK] inst:national_kz9976, n:9976, gap:11.070%, time:58.794s
+[2025-11-21 01:58:39] TSPTester.py(574) : episode 178/228, Elapsed[34.439770m], Remain[9.674093m], score:1470620.433,Score_studetnt: 1590596.1180, aug_score:1590596.118
+[2025-11-21 01:59:38] TSPTester.py(726) : greedy, name:['challenge8_C10k.2'], gap:12.719922 %,  Elapsed[35.422383m], stu_l:37372768.000000 , opt_l:33155424.000000
+[2025-11-21 01:59:38] TSPTester.py(553) : [OK] inst:challenge8_C10k.2, n:10000, gap:12.720%, time:58.957s
+[2025-11-21 01:59:38] TSPTester.py(574) : episode 179/228, Elapsed[35.422395m], Remain[9.696633m], score:1647630.508,Score_studetnt: 1790496.5196, aug_score:1790496.520
+[2025-11-21 02:00:37] TSPTester.py(726) : greedy, name:['challenge8_C10k.0'], gap:14.383155 %,  Elapsed[36.405955m], stu_l:37747624.000000 , opt_l:33001034.000000
+[2025-11-21 02:00:37] TSPTester.py(553) : [OK] inst:challenge8_C10k.0, n:10000, gap:14.383%, time:59.014s
+[2025-11-21 02:00:37] TSPTester.py(574) : episode 180/228, Elapsed[36.405967m], Remain[9.708258m], score:1821816.083,Score_studetnt: 1990258.3389, aug_score:1990258.339
+[2025-11-21 02:01:36] TSPTester.py(726) : greedy, name:['challenge8_C10k.1'], gap:14.875776 %,  Elapsed[37.390507m], stu_l:38122960.000000 , opt_l:33186248.000000
+[2025-11-21 02:01:36] TSPTester.py(553) : [OK] inst:challenge8_C10k.1, n:10000, gap:14.876%, time:59.073s
+[2025-11-21 02:01:36] TSPTester.py(574) : episode 181/228, Elapsed[37.390517m], Remain[9.709140m], score:1995100.238,Score_studetnt: 2189886.5249, aug_score:2189886.525
+[2025-11-21 02:02:36] TSPTester.py(726) : greedy, name:['vlsi_xmc10150'], gap:7.390707 %,  Elapsed[38.391691m], stu_l:30485.000000 , opt_l:28387.000000
+[2025-11-21 02:02:36] TSPTester.py(553) : [OK] inst:vlsi_xmc10150, n:10150, gap:7.391%, time:60.071s
+[2025-11-21 02:02:36] TSPTester.py(574) : episode 182/228, Elapsed[38.391703m], Remain[9.703397m], score:1984294.121,Score_studetnt: 2178021.6813, aug_score:2178021.681
+[2025-11-21 02:03:39] TSPTester.py(726) : greedy, name:['national_fi10639'], gap:50.123048 %,  Elapsed[39.453898m], stu_l:781431.000000 , opt_l:520527.000000
+[2025-11-21 02:03:39] TSPTester.py(553) : [OK] inst:national_fi10639, n:10639, gap:50.123%, time:63.732s
+[2025-11-21 02:03:39] TSPTester.py(574) : episode 183/228, Elapsed[39.453910m], Remain[9.701781m], score:1976295.393,Score_studetnt: 2170390.0383, aug_score:2170390.038
+[2025-11-21 02:04:53] TSPTester.py(726) : greedy, name:['tsplib_euc_rl11849'], gap:8.078086 %,  Elapsed[40.673137m], stu_l:997872.000000 , opt_l:923288.000000
+[2025-11-21 02:04:53] TSPTester.py(553) : [OK] inst:tsplib_euc_rl11849, n:11849, gap:8.078%, time:73.154s
+[2025-11-21 02:04:53] TSPTester.py(574) : episode 184/228, Elapsed[40.673149m], Remain[9.726188m], score:1970572.527,Score_studetnt: 2164017.6576, aug_score:2164017.658
+[2025-11-21 02:06:19] TSPTester.py(726) : greedy, name:['tsplib_euc_usa13509'], gap:15.610617 %,  Elapsed[42.119804m], stu_l:23102308.000000 , opt_l:19982859.000000
+[2025-11-21 02:06:19] TSPTester.py(553) : [OK] inst:tsplib_euc_usa13509, n:13509, gap:15.611%, time:86.800s
+[2025-11-21 02:06:19] TSPTester.py(574) : episode 185/228, Elapsed[42.119816m], Remain[9.790011m], score:2067936.238,Score_studetnt: 2277197.6054, aug_score:2277197.605
+[2025-11-21 02:07:47] TSPTester.py(726) : greedy, name:['vlsi_xvb13584'], gap:4.686784 %,  Elapsed[43.575116m], stu_l:38821.000000 , opt_l:37083.000000
+[2025-11-21 02:07:47] TSPTester.py(553) : [OK] inst:vlsi_xvb13584, n:13584, gap:4.687%, time:87.318s
+[2025-11-21 02:07:47] TSPTester.py(574) : episode 186/228, Elapsed[43.575129m], Remain[9.839545m], score:2057017.672,Score_studetnt: 2265163.3226, aug_score:2265163.323
+[2025-11-21 02:09:18] TSPTester.py(726) : greedy, name:['tsplib_euc_brd14051'], gap:7.649158 %,  Elapsed[45.100636m], stu_l:505289.000000 , opt_l:469385.000000
+[2025-11-21 02:09:18] TSPTester.py(553) : [OK] inst:tsplib_euc_brd14051, n:14051, gap:7.649%, time:91.531s
+[2025-11-21 02:09:18] TSPTester.py(574) : episode 187/228, Elapsed[45.100648m], Remain[9.888377m], score:2048527.658,Score_studetnt: 2255752.2299, aug_score:2255752.230
+[2025-11-21 02:10:51] TSPTester.py(726) : greedy, name:['national_mo14185'], gap:48.489976 %,  Elapsed[46.642643m], stu_l:634612.000000 , opt_l:427377.000000
+[2025-11-21 02:10:51] TSPTester.py(553) : [OK] inst:national_mo14185, n:14185, gap:48.490%, time:92.520s
+[2025-11-21 02:10:51] TSPTester.py(574) : episode 188/228, Elapsed[46.642655m], Remain[9.923969m], score:2039904.516,Score_studetnt: 2247129.1436, aug_score:2247129.144
+[2025-11-21 02:12:24] TSPTester.py(726) : greedy, name:['vlsi_xrb14233'], gap:6.348159 %,  Elapsed[48.193780m], stu_l:48348.000000 , opt_l:45462.000000
+[2025-11-21 02:12:24] TSPTester.py(553) : [OK] inst:vlsi_xrb14233, n:14233, gap:6.348%, time:93.068s
+[2025-11-21 02:12:24] TSPTester.py(574) : episode 189/228, Elapsed[48.193792m], Remain[9.944751m], score:2029351.910,Score_studetnt: 2235495.3810, aug_score:2235495.381
+[2025-11-21 02:13:59] TSPTester.py(726) : greedy, name:['national_ho14473'], gap:82.362276 %,  Elapsed[49.778854m], stu_l:322949.000000 , opt_l:177092.000000
+[2025-11-21 02:13:59] TSPTester.py(553) : [OK] inst:national_ho14473, n:14473, gap:82.362%, time:95.104s
+[2025-11-21 02:13:59] TSPTester.py(574) : episode 190/228, Elapsed[49.778866m], Remain[9.955773m], score:2019603.174,Score_studetnt: 2225429.3474, aug_score:2225429.347
+[2025-11-21 02:15:40] TSPTester.py(726) : greedy, name:['tsplib_euc_d15112'], gap:5.891421 %,  Elapsed[51.464760m], stu_l:1665761.000000 , opt_l:1573084.000000
+[2025-11-21 02:15:40] TSPTester.py(553) : [OK] inst:tsplib_euc_d15112, n:15112, gap:5.891%, time:101.154s
+[2025-11-21 02:15:40] TSPTester.py(574) : episode 191/228, Elapsed[51.464771m], Remain[9.969615m], score:2017265.377,Score_studetnt: 2222499.1466, aug_score:2222499.147
+[2025-11-21 02:17:38] TSPTester.py(726) : greedy, name:['national_it16862'], gap:59.964114 %,  Elapsed[53.434876m], stu_l:891504.000000 , opt_l:557315.000000
+[2025-11-21 02:17:38] TSPTester.py(553) : [OK] inst:national_it16862, n:16862, gap:59.964%, time:118.207s
+[2025-11-21 02:17:38] TSPTester.py(574) : episode 192/228, Elapsed[53.434888m], Remain[10.019041m], score:2009661.469,Score_studetnt: 2215566.8802, aug_score:2215566.880
+[2025-11-21 02:19:37] TSPTester.py(726) : greedy, name:['vlsi_xia16928'], gap:13.583727 %,  Elapsed[55.417997m], stu_l:60029.000000 , opt_l:52850.000000
+[2025-11-21 02:19:37] TSPTester.py(553) : [OK] inst:vlsi_xia16928, n:16928, gap:13.584%, time:118.987s
+[2025-11-21 02:19:37] TSPTester.py(574) : episode 193/228, Elapsed[55.418009m], Remain[10.049898m], score:1999522.549,Score_studetnt: 2204398.2902, aug_score:2204398.290
+[2025-11-21 02:21:46] TSPTester.py(726) : greedy, name:['vlsi_pjh17845'], gap:8.982783 %,  Elapsed[57.561172m], stu_l:52412.000000 , opt_l:48092.000000
+[2025-11-21 02:21:46] TSPTester.py(553) : [OK] inst:vlsi_pjh17845, n:17845, gap:8.983%, time:128.590s
+[2025-11-21 02:21:46] TSPTester.py(574) : episode 194/228, Elapsed[57.561184m], Remain[10.088043m], score:1989463.629,Score_studetnt: 2193305.5773, aug_score:2193305.577
+[2025-11-21 02:24:02] TSPTester.py(726) : greedy, name:['tsplib_euc_d18512'], gap:6.260636 %,  Elapsed[59.830348m], stu_l:685634.000000 , opt_l:645238.000000
+[2025-11-21 02:24:02] TSPTester.py(553) : [OK] inst:tsplib_euc_d18512, n:18512, gap:6.261%, time:136.150s
+[2025-11-21 02:24:02] TSPTester.py(574) : episode 195/228, Elapsed[59.830360m], Remain[10.125138m], score:1982570.164,Score_studetnt: 2185573.9282, aug_score:2185573.928
+[2025-11-21 02:26:27] TSPTester.py(726) : greedy, name:['vlsi_frh19289'], gap:7.523567 %,  Elapsed[1.037395h], stu_l:59996.000000 , opt_l:55798.000000
+[2025-11-21 02:26:27] TSPTester.py(553) : [OK] inst:vlsi_frh19289, n:19289, gap:7.524%, time:144.802s
+[2025-11-21 02:26:27] TSPTester.py(574) : episode 196/228, Elapsed[1.037396h], Remain[10.162242m], score:1972739.694,Score_studetnt: 2174729.1429, aug_score:2174729.143
+[2025-11-21 02:28:52] TSPTester.py(726) : greedy, name:['vlsi_fnc19402'], gap:8.254761 %,  Elapsed[1.077762h], stu_l:64181.000000 , opt_l:59287.000000
+[2025-11-21 02:28:52] TSPTester.py(553) : [OK] inst:vlsi_fnc19402, n:19402, gap:8.255%, time:145.320s
+[2025-11-21 02:28:52] TSPTester.py(574) : episode 197/228, Elapsed[1.077762h], Remain[10.175826m], score:1963026.736,Score_studetnt: 2164015.7005, aug_score:2164015.701
+[2025-11-21 02:31:39] TSPTester.py(726) : greedy, name:['vlsi_ido21215'], gap:7.191776 %,  Elapsed[1.124058h], stu_l:68085.000000 , opt_l:63517.000000
+[2025-11-21 02:31:39] TSPTester.py(553) : [OK] inst:vlsi_ido21215, n:21215, gap:7.192%, time:166.666s
+[2025-11-21 02:31:39] TSPTester.py(574) : episode 198/228, Elapsed[1.124059h], Remain[10.218714m], score:1953433.253,Score_studetnt: 2153430.1919, aug_score:2153430.192
+[2025-11-21 02:34:29] TSPTester.py(726) : greedy, name:['vlsi_fma21553'], gap:12.241646 %,  Elapsed[1.171456h], stu_l:74671.000000 , opt_l:66527.000000
+[2025-11-21 02:34:29] TSPTester.py(553) : [OK] inst:vlsi_fma21553, n:21553, gap:12.242%, time:170.632s
+[2025-11-21 02:34:29] TSPTester.py(574) : episode 199/228, Elapsed[1.171456h], Remain[10.242886m], score:1943951.312,Score_studetnt: 2142984.1658, aug_score:2142984.166
+[2025-11-21 02:37:35] TSPTester.py(726) : greedy, name:['national_vm22775'], gap:78.229296 %,  Elapsed[1.223124h], stu_l:1014638.000000 , opt_l:569288.000000
+[2025-11-21 02:37:35] TSPTester.py(553) : [OK] inst:national_vm22775, n:22775, gap:78.229%, time:186.005s
+[2025-11-21 02:37:35] TSPTester.py(574) : episode 200/228, Elapsed[1.223125h], Remain[10.274247m], score:1937077.995,Score_studetnt: 2137342.4350, aug_score:2137342.435
+[2025-11-21 02:40:43] TSPTester.py(726) : greedy, name:['vlsi_lsb22777'], gap:6.945242 %,  Elapsed[1.275079h], stu_l:65212.000000 , opt_l:60977.000000
+[2025-11-21 02:40:43] TSPTester.py(553) : [OK] inst:vlsi_lsb22777, n:22777, gap:6.945%, time:187.035s
+[2025-11-21 02:40:43] TSPTester.py(574) : episode 201/228, Elapsed[1.275079h], Remain[10.276755m], score:1927744.159,Score_studetnt: 2127033.3284, aug_score:2127033.328
+[2025-11-21 02:44:07] TSPTester.py(726) : greedy, name:['vlsi_xrh24104'], gap:11.810546 %,  Elapsed[1.332016h], stu_l:77478.000000 , opt_l:69294.000000
+[2025-11-21 02:44:07] TSPTester.py(553) : [OK] inst:vlsi_xrh24104, n:24104, gap:11.811%, time:204.973s
+[2025-11-21 02:44:07] TSPTester.py(574) : episode 202/228, Elapsed[1.332016h], Remain[10.286855m], score:1918543.911,Score_studetnt: 2116887.0149, aug_score:2116887.015
+[2025-11-21 02:47:45] TSPTester.py(726) : greedy, name:['national_sw24978'], gap:73.617721 %,  Elapsed[1.392408h], stu_l:1485468.000000 , opt_l:855597.000000
+[2025-11-21 02:47:45] TSPTester.py(553) : [OK] inst:national_sw24978, n:24978, gap:73.618%, time:217.411s
+[2025-11-21 02:47:45] TSPTester.py(574) : episode 203/228, Elapsed[1.392408h], Remain[10.288728m], score:1913307.719,Score_studetnt: 2113776.5764, aug_score:2113776.576
+[2025-11-21 02:51:26] TSPTester.py(726) : greedy, name:['vlsi_bbz25234'], gap:8.300281 %,  Elapsed[1.453948h], stu_l:75090.000000 , opt_l:69335.000000
+[2025-11-21 02:51:26] TSPTester.py(553) : [OK] inst:vlsi_bbz25234, n:25234, gap:8.300%, time:221.543s
+[2025-11-21 02:51:26] TSPTester.py(574) : episode 204/228, Elapsed[1.453948h], Remain[10.263161m], score:1904268.637,Score_studetnt: 2103783.0147, aug_score:2103783.015
+[2025-11-21 02:55:54] TSPTester.py(726) : greedy, name:['vlsi_irx28268'], gap:15.494373 %,  Elapsed[1.528310h], stu_l:83857.000000 , opt_l:72607.000000
+[2025-11-21 02:55:54] TSPTester.py(553) : [OK] inst:vlsi_irx28268, n:28268, gap:15.494%, time:267.704s
+[2025-11-21 02:55:54] TSPTester.py(574) : episode 205/228, Elapsed[1.528310h], Remain[10.288137m], score:1895333.702,Score_studetnt: 2093929.7171, aug_score:2093929.717
+[2025-11-21 03:00:26] TSPTester.py(726) : greedy, name:['vlsi_fyg28534'], gap:7.744202 %,  Elapsed[1.603887h], stu_l:84646.000000 , opt_l:78562.000000
+[2025-11-21 03:00:26] TSPTester.py(553) : [OK] inst:vlsi_fyg28534, n:28534, gap:7.744%, time:272.078s
+[2025-11-21 03:00:26] TSPTester.py(574) : episode 206/228, Elapsed[1.603887h], Remain[10.277336m], score:1886514.422,Score_studetnt: 2084175.9126, aug_score:2084175.913
+[2025-11-21 03:04:59] TSPTester.py(726) : greedy, name:['vlsi_icx28698'], gap:10.348714 %,  Elapsed[1.679550h], stu_l:86168.000000 , opt_l:78087.000000
+[2025-11-21 03:04:59] TSPTester.py(553) : [OK] inst:vlsi_icx28698, n:28698, gap:10.349%, time:272.385s
+[2025-11-21 03:04:59] TSPTester.py(574) : episode 207/228, Elapsed[1.679550h], Remain[10.223347m], score:1877778.058,Score_studetnt: 2074523.7005, aug_score:2074523.700
+[2025-11-21 03:09:34] TSPTester.py(726) : greedy, name:['vlsi_boa28924'], gap:14.084047 %,  Elapsed[1.755920h], stu_l:90836.000000 , opt_l:79622.000000
+[2025-11-21 03:09:34] TSPTester.py(553) : [OK] inst:vlsi_boa28924, n:28924, gap:14.084%, time:274.935s
+[2025-11-21 03:09:34] TSPTester.py(574) : episode 208/228, Elapsed[1.755921h], Remain[10.130311m], score:1869133.077,Score_studetnt: 2064986.7404, aug_score:2064986.740
+[2025-11-21 03:14:19] TSPTester.py(726) : greedy, name:['vlsi_ird29514'], gap:9.331325 %,  Elapsed[1.835223h], stu_l:87851.000000 , opt_l:80353.000000
+[2025-11-21 03:14:19] TSPTester.py(553) : [OK] inst:vlsi_ird29514, n:29514, gap:9.331%, time:285.488s
+[2025-11-21 03:14:19] TSPTester.py(574) : episode 209/228, Elapsed[1.835223h], Remain[10.010306m], score:1860574.321,Score_studetnt: 2055526.7608, aug_score:2055526.761
+[2025-11-21 03:19:21] TSPTester.py(726) : greedy, name:['vlsi_pbh30440'], gap:11.210127 %,  Elapsed[1.919147h], stu_l:98213.000000 , opt_l:88313.000000
+[2025-11-21 03:19:21] TSPTester.py(553) : [OK] inst:vlsi_pbh30440, n:30440, gap:11.210%, time:302.127s
+[2025-11-21 03:19:21] TSPTester.py(574) : episode 210/228, Elapsed[1.919147h], Remain[9.869900m], score:1852134.981,Score_studetnt: 2046206.2190, aug_score:2046206.219
+[2025-11-21 03:24:45] TSPTester.py(726) : greedy, name:['challenge8_C31k.0'], gap:23.695724 %,  Elapsed[2.009103h], stu_l:73655104.000000 , opt_l:59545390.000000
+[2025-11-21 03:24:45] TSPTester.py(553) : [OK] inst:challenge8_C31k.0, n:31623, gap:23.696%, time:323.842s
+[2025-11-21 03:24:45] TSPTester.py(574) : episode 211/228, Elapsed[2.009103h], Remain[9.712253m], score:2125562.730,Score_studetnt: 2385584.8815, aug_score:2385584.882
+[2025-11-21 03:30:10] TSPTester.py(726) : greedy, name:['challenge8_C31k.1'], gap:18.898199 %,  Elapsed[2.099269h], stu_l:70498624.000000 , opt_l:59293266.000000
+[2025-11-21 03:30:10] TSPTester.py(553) : [OK] inst:challenge8_C31k.1, n:31623, gap:18.898%, time:324.595s
+[2025-11-21 03:30:10] TSPTester.py(574) : episode 212/228, Elapsed[2.099269h], Remain[9.506123m], score:2395221.708,Score_studetnt: 2706872.8019, aug_score:2706872.802
+[2025-11-21 03:35:54] TSPTester.py(726) : greedy, name:['vlsi_xib32892'], gap:13.519435 %,  Elapsed[2.194994h], stu_l:109838.000000 , opt_l:96757.000000
+[2025-11-21 03:35:54] TSPTester.py(553) : [OK] inst:vlsi_xib32892, n:32892, gap:13.519%, time:344.610s
+[2025-11-21 03:35:54] TSPTester.py(574) : episode 213/228, Elapsed[2.194994h], Remain[9.274622m], score:2384430.793,Score_studetnt: 2694680.1502, aug_score:2694680.150
+[2025-11-21 03:41:42] TSPTester.py(726) : greedy, name:['vlsi_fry33203'], gap:12.540106 %,  Elapsed[2.291473h], stu_l:109434.000000 , opt_l:97240.000000
+[2025-11-21 03:41:42] TSPTester.py(553) : [OK] inst:vlsi_fry33203, n:33203, gap:12.540%, time:347.325s
+[2025-11-21 03:41:42] TSPTester.py(574) : episode 214/228, Elapsed[2.291473h], Remain[8.994568m], score:2373742.986,Score_studetnt: 2682599.5607, aug_score:2682599.561
+[2025-11-21 03:47:39] TSPTester.py(726) : greedy, name:['national_bm33708'], gap:83.914131 %,  Elapsed[2.390772h], stu_l:1764268.000000 , opt_l:959289.000000
+[2025-11-21 03:47:39] TSPTester.py(553) : [OK] inst:national_bm33708, n:33708, gap:83.914%, time:357.475s
+[2025-11-21 03:47:39] TSPTester.py(574) : episode 215/228, Elapsed[2.390772h], Remain[8.673498m], score:2367164.130,Score_studetnt: 2678328.2512, aug_score:2678328.251
+[2025-11-21 03:53:40] TSPTester.py(726) : greedy, name:['tsplib_ceil_pla33810'], gap:8.853265 %,  Elapsed[2.491000h], stu_l:71896432.000000 , opt_l:66048945.000000
+[2025-11-21 03:53:40] TSPTester.py(553) : [OK] inst:tsplib_ceil_pla33810, n:33810, gap:8.853%, time:360.821s
+[2025-11-21 03:53:40] TSPTester.py(574) : episode 216/228, Elapsed[2.491000h], Remain[8.303333m], score:2661987.190,Score_studetnt: 2998782.4352, aug_score:2998782.435
+[2025-11-21 03:59:58] TSPTester.py(726) : greedy, name:['vlsi_bby34656'], gap:9.754031 %,  Elapsed[2.596178h], stu_l:108831.000000 , opt_l:99159.000000
+[2025-11-21 03:59:58] TSPTester.py(553) : [OK] inst:vlsi_bby34656, n:34656, gap:9.754%, time:378.641s
+[2025-11-21 03:59:58] TSPTester.py(574) : episode 217/228, Elapsed[2.596178h], Remain[7.896210m], score:2650176.922,Score_studetnt: 2985464.6866, aug_score:2985464.687
+[2025-11-21 04:07:33] TSPTester.py(726) : greedy, name:['vlsi_pba38478'], gap:11.771820 %,  Elapsed[2.722568h], stu_l:121069.000000 , opt_l:108318.000000
+[2025-11-21 04:07:33] TSPTester.py(553) : [OK] inst:vlsi_pba38478, n:38478, gap:11.772%, time:455.004s
+[2025-11-21 04:07:33] TSPTester.py(574) : episode 218/228, Elapsed[2.722568h], Remain[7.493307m], score:2638517.018,Score_studetnt: 2972325.2569, aug_score:2972325.257
+[2025-11-21 04:15:26] TSPTester.py(726) : greedy, name:['vlsi_ics39603'], gap:12.944327 %,  Elapsed[2.853803h], stu_l:120646.000000 , opt_l:106819.000000
+[2025-11-21 04:15:26] TSPTester.py(553) : [OK] inst:vlsi_ics39603, n:39603, gap:12.944%, time:472.445s
+[2025-11-21 04:15:26] TSPTester.py(574) : episode 219/228, Elapsed[2.853803h], Remain[7.036775m], score:2626956.753,Score_studetnt: 2959303.8904, aug_score:2959303.890
+[2025-11-21 04:24:52] TSPTester.py(726) : greedy, name:['vlsi_rbz43748'], gap:12.920284 %,  Elapsed[3.011037h], stu_l:141357.000000 , opt_l:125183.000000
+[2025-11-21 04:24:52] TSPTester.py(553) : [OK] inst:vlsi_rbz43748, n:43748, gap:12.920%, time:566.041s
+[2025-11-21 04:24:52] TSPTester.py(574) : episode 220/228, Elapsed[3.011037h], Remain[6.569535m], score:2615585.055,Score_studetnt: 2946495.0409, aug_score:2946495.041
+[2025-11-21 04:35:57] TSPTester.py(726) : greedy, name:['vlsi_fht47608'], gap:14.665399 %,  Elapsed[3.195741h], stu_l:143451.000000 , opt_l:125104.000000
+[2025-11-21 04:35:57] TSPTester.py(553) : [OK] inst:vlsi_fht47608, n:47608, gap:14.665%, time:664.937s
+[2025-11-21 04:35:57] TSPTester.py(574) : episode 221/228, Elapsed[3.195742h], Remain[6.073355m], score:2604315.910,Score_studetnt: 2933811.5837, aug_score:2933811.584
+[2025-11-21 04:48:52] TSPTester.py(726) : greedy, name:['vlsi_fna52057'], gap:14.455745 %,  Elapsed[3.411159h], stu_l:169153.000000 , opt_l:147789.000000
+[2025-11-21 04:48:52] TSPTester.py(553) : [OK] inst:vlsi_fna52057, n:52057, gap:14.456%, time:775.503s
+[2025-11-21 04:48:52] TSPTester.py(574) : episode 222/228, Elapsed[3.411159h], Remain[5.531609m], score:2593250.473,Score_studetnt: 2921358.1667, aug_score:2921358.167
+[2025-11-21 05:04:03] TSPTester.py(726) : greedy, name:['vlsi_bna56769'], gap:12.183858 %,  Elapsed[3.664108h], stu_l:177338.000000 , opt_l:158078.000000
+[2025-11-21 05:04:03] TSPTester.py(553) : [OK] inst:vlsi_bna56769, n:56769, gap:12.184%, time:910.615s
+[2025-11-21 05:04:03] TSPTester.py(574) : episode 223/228, Elapsed[3.664108h], Remain[4.929293m], score:2582330.417,Score_studetnt: 2909053.1435, aug_score:2909053.143
+[2025-11-21 05:20:31] TSPTester.py(726) : greedy, name:['vlsi_dan59296'], gap:13.233276 %,  Elapsed[3.938575h], stu_l:187255.000000 , opt_l:165371.000000
+[2025-11-21 05:20:31] TSPTester.py(553) : [OK] inst:vlsi_dan59296, n:59296, gap:13.233%, time:988.083s
+[2025-11-21 05:20:31] TSPTester.py(574) : episode 224/228, Elapsed[3.938576h], Remain[4.219902m], score:2571540.420,Score_studetnt: 2896902.2589, aug_score:2896902.259
+[2025-11-21 05:43:30] TSPTester.py(726) : greedy, name:['national_ch71009'], gap:49.923748 %,  Elapsed[4.321494h], stu_l:6846277.000000 , opt_l:4566506.000000
+[2025-11-21 05:43:30] TSPTester.py(553) : [OK] inst:national_ch71009, n:71009, gap:49.924%, time:1378.506s
+[2025-11-21 05:43:30] TSPTester.py(574) : episode 225/228, Elapsed[4.321494h], Remain[3.457195m], score:2580406.933,Score_studetnt: 2914455.0356, aug_score:2914455.036
+[2025-11-21 06:16:17] TSPTester.py(726) : greedy, name:['tsplib_ceil_pla85900'], gap:13.325995 %,  Elapsed[4.868067h], stu_l:161356544.000000 , opt_l:142382641.000000
+[2025-11-21 06:16:17] TSPTester.py(553) : [OK] inst:tsplib_ceil_pla85900, n:85900, gap:13.326%, time:1967.664s
+[2025-11-21 06:16:17] TSPTester.py(574) : episode 226/228, Elapsed[4.868067h], Remain[2.584815m], score:3199000.889,Score_studetnt: 3615526.2257, aug_score:3615526.226
+[2025-11-21 07:00:20] TSPTester.py(726) : greedy, name:['challenge8_C100k.0'], gap:36.425474 %,  Elapsed[5.602081h], stu_l:142725264.000000 , opt_l:104617752.000000
+[2025-11-21 07:00:20] TSPTester.py(553) : [OK] inst:challenge8_C100k.0, n:100000, gap:36.425%, time:2642.449s
+[2025-11-21 07:00:20] TSPTester.py(574) : episode 227/228, Elapsed[5.602081h], Remain[1.480726m], score:3645779.529,Score_studetnt: 4228344.4537, aug_score:4228344.454
+[2025-11-21 07:44:17] TSPTester.py(726) : greedy, name:['challenge8_C100k.1'], gap:29.693353 %,  Elapsed[6.334759h], stu_l:136684832.000000 , opt_l:105390777.000000
+[2025-11-21 07:44:17] TSPTester.py(553) : [OK] inst:challenge8_C100k.1, n:100000, gap:29.693%, time:2637.639s
+[2025-11-21 07:44:17] TSPTester.py(574) : episode 228/228, Elapsed[6.334759h], Remain[0.000000m], score:4092029.518,Score_studetnt: 4809293.9605, aug_score:4809293.961
+[2025-11-21 07:44:17] TSPTester.py(591) : #################  Summary  #################
+[2025-11-21 07:44:17] TSPTester.py(592) : All instances: 228/228 solved, total time: 22805.13s, avg time/inst: 100.02s
+[2025-11-21 07:44:17] TSPTester.py(595) : [0,1000): count=69, avg_gap=6.114%, avg_time=1.715s
+[2025-11-21 07:44:17] TSPTester.py(598) : [1000,10000): count=109, avg_gap=9.991%, avg_time=17.872s
+[2025-11-21 07:44:17] TSPTester.py(601) : [10000,100000]: count=50, avg_gap=20.849%, avg_time=414.775s
+[2025-11-21 07:44:17] TSPTester.py(604) : Overall avg gap (no aug): 11.199%
