@@ -1,0 +1,245 @@
+from logging import getLogger
+
+import torch
+from torch.optim import Adam as Optimizer
+from torch.optim.lr_scheduler import MultiStepLR as Scheduler
+import random
+from L2C_Insert.TSP.Train.TSPModel import TSPModel as Model
+from L2C_Insert.TSP.Train.test import main_test
+from L2C_Insert.TSP.Train.TSPEnv import TSPEnv as Env
+from L2C_Insert.TSP.utils.utils import *
+import torch.nn as nn
+
+
+class TSPTrainer:
+    def __init__(self,
+                 env_params,
+                 model_params,
+                 optimizer_params,
+                 trainer_params):
+
+        self.env_params = env_params
+        self.model_params = model_params
+        self.optimizer_params = optimizer_params
+        self.trainer_params = trainer_params
+
+        # result folder, logger
+        self.logger = getLogger(name='trainer')
+        self.result_folder = get_result_folder()
+        self.result_log = LogData()
+
+        # cuda
+        USE_CUDA = self.trainer_params['use_cuda']  # True
+        if USE_CUDA:
+            cuda_device_num = self.trainer_params['cuda_device_num']
+            torch.cuda.set_device(cuda_device_num)
+            device = torch.device('cuda', cuda_device_num)
+            torch.set_default_tensor_type('torch.cuda.FloatTensor')
+        else:
+            device = torch.device('cpu')
+            torch.set_default_tensor_type('torch.FloatTensor')
+
+        seed = 123
+        random.seed(seed)
+        np.random.seed(seed)
+        torch.manual_seed(seed)
+        torch.cuda.manual_seed(seed)
+        torch.cuda.manual_seed_all(seed)
+
+        # Main Components
+        self.model = Model(**self.model_params)
+
+        total_params = sum(p.numel() for p in self.model.parameters())
+        self.logger.info(f"总参数量: {total_params / 1e6:.2f}M")
+
+        self.env = Env(**self.env_params)
+
+        self.optimizer = Optimizer(self.model.parameters(), **self.optimizer_params['optimizer'])
+        self.scheduler = Scheduler(self.optimizer, **self.optimizer_params['scheduler'])
+
+        # Restore
+        self.start_epoch = 1
+        model_load = trainer_params['model_load']
+        if model_load['enable']:
+            checkpoint_fullname = '{path}/checkpoint-{epoch}.pt'.format(**model_load)
+            checkpoint = torch.load(checkpoint_fullname, map_location=device)
+            self.model.load_state_dict(checkpoint['model_state_dict'])
+            self.start_epoch = 1 + model_load['epoch']
+            self.result_log.set_raw_data(checkpoint['result_log'])
+            self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
+            self.scheduler.last_epoch = model_load['epoch'] - 1
+            self.logger.info('Saved Model Loaded !!')
+        self.optimizer.param_groups[0]['capturable'] = True
+        # utility
+        self.time_estimator = TimeEstimator()
+
+    def run(self):
+
+        self.time_estimator.reset(self.start_epoch)
+
+        self.env.load_raw_data(self.trainer_params['train_episodes'])
+
+        save_gap = []
+        for epoch in range(self.start_epoch, self.trainer_params['epochs'] + 1):
+            self.logger.info('=================================================================')
+            self.env.shuffle_data()
+            # Train
+            train_score, train_student_score, train_loss = self._train_one_epoch(epoch)
+            self.result_log.append('train_score', epoch, train_score)
+            self.result_log.append('train_student_score', epoch, train_student_score)
+            self.result_log.append('train_loss', epoch, train_loss)
+            self.scheduler.step()
+
+            ############################
+            # Logs & Checkpoint
+            ############################
+            elapsed_time_str, remain_time_str = self.time_estimator.get_est_string(epoch, self.trainer_params['epochs'])
+            self.logger.info("Epoch {:3d}/{:3d}: Time Est.: Elapsed[{}], Remain[{}]".format(
+                epoch, self.trainer_params['epochs'], elapsed_time_str, remain_time_str))
+
+            all_done = (epoch == self.trainer_params['epochs'])
+            model_save_interval = self.trainer_params['logging']['model_save_interval']
+            img_save_interval = self.trainer_params['logging']['img_save_interval']
+
+            if epoch > 1:  # save latest images, every epoch
+                self.logger.info("Saving log_image")
+                image_prefix = '{}/latest'.format(self.result_folder)
+                util_save_log_image_with_label(image_prefix, self.trainer_params['logging']['log_image_params_1'],
+                                               self.result_log, labels=['train_score'])
+                util_save_log_image_with_label(image_prefix, self.trainer_params['logging']['log_image_params_2'],
+                                               self.result_log, labels=['train_loss'])
+
+            if all_done or (epoch % model_save_interval) == 0:
+                self.logger.info("Saving trained_model")
+                checkpoint_dict = {
+                    'epoch': epoch,
+                    'model_state_dict': self.model.state_dict(),
+                    'optimizer_state_dict': self.optimizer.state_dict(),
+                    'scheduler_state_dict': self.scheduler.state_dict(),
+                    'result_log': self.result_log.get_raw_data()
+                }
+                torch.save(checkpoint_dict, '{}/checkpoint-{}.pt'.format(self.result_folder, epoch))
+
+                score_optimal, score_student, gap = main_test(epoch, self.result_folder,
+                                                              use_RRC=False,
+                                                              cuda_num=self.trainer_params['cuda_device_num'])
+
+                save_gap.append([score_optimal, score_student, gap])
+                np.savetxt(self.result_folder + '/gap.txt', save_gap, delimiter=',', fmt='%s')
+
+            if all_done or (epoch % img_save_interval) == 0:
+                image_prefix = '{}/img/checkpoint-{}'.format(self.result_folder, epoch)
+                util_save_log_image_with_label(image_prefix, self.trainer_params['logging']['log_image_params_1'],
+                                               self.result_log, labels=['train_score'])
+                util_save_log_image_with_label(image_prefix, self.trainer_params['logging']['log_image_params_2'],
+                                               self.result_log, labels=['train_loss'])
+
+            if all_done:
+                self.logger.info(" *** Training Done *** ")
+                self.logger.info("Now, printing log array...")
+                util_print_log_array(self.logger, self.result_log)
+
+    def _train_one_epoch(self, epoch):
+
+        score_AM = AverageMeter()
+        score_student_AM = AverageMeter()
+        loss_AM = AverageMeter()
+
+        train_num_episode = self.trainer_params['train_episodes']
+        episode = 0
+        loop_cnt = 0
+        while episode < train_num_episode:
+            remaining = train_num_episode - episode
+            batch_size = min(self.trainer_params['train_batch_size'], remaining)
+
+            avg_score, score_student_mean, avg_loss = self._train_one_batch(episode, batch_size, epoch)
+
+            score_AM.update(avg_score, batch_size)
+            score_student_AM.update(score_student_mean, batch_size)
+            loss_AM.update(avg_loss, batch_size)
+
+            episode += batch_size
+
+            loop_cnt += 1
+            self.logger.info(
+                'Epoch {:3d}: Train {:3d}/{:3d}({:1.1f}%)  Score: {:.4f}, Score_studetnt: {:.4f},  Loss: {:.4f}'
+                    .format(epoch, episode, train_num_episode, 100. * episode / train_num_episode,
+                            score_AM.avg, score_student_AM.avg, loss_AM.avg))
+
+        # Log Once, for each epoch
+        self.logger.info('Epoch {:3d}: Train ({:3.0f}%)  Score: {:.4f}, Score_studetnt: {:.4f}, Loss: {:.4f}'
+                         .format(epoch, 100. * episode / train_num_episode,
+                                 score_AM.avg, score_student_AM.avg, loss_AM.avg))
+
+        return score_AM.avg, score_student_AM.avg, loss_AM.avg
+
+    def _train_one_batch(self, episode, batch_size, epoch):
+
+        ###############################################
+        self.model.train()
+
+        self.env.load_problems(episode, batch_size)
+        #  abs_scatter_solu_1, abs_partial_solu_2, rela_scatter_solu_1, rela_partial_solu_2, \
+        #  scatter_node_coors, partial_sol_node_coors
+
+        reset_state, _, _ = self.env.reset(self.env_params['mode'])
+
+        prob_list = torch.ones(size=(batch_size, 0))
+
+        state, reward, reward_student, done = self.env.pre_step()
+
+        current_step = 0
+
+        last_node_index = self.env.abs_partial_solu_2[:, [-1]]
+        self.model.mode = 'train'
+        while not done:
+            partial_end_node_coor = self.model.decoder._get_encoding(state.data, last_node_index)
+
+            scatter_node_coors = self.model.decoder._get_encoding(state.data, self.env.abs_scatter_solu_1)
+
+            Manhattan_Distance = manhattan_distance(scatter_node_coors, partial_end_node_coor)
+
+            # print(Manhattan_Distance.shape)
+            random_index = torch.argmin(Manhattan_Distance, dim=1).reshape(batch_size, 1)  # [B]
+            # print(index.shape)
+
+            # random_index = torch.randint(low=0, high=len_1, size=[1])[0]  # in [0,N)
+
+            # print('******************************************************************************')
+            # print(f'************************ current step {current_step} ************************')
+            # print('******************************************************************************')
+
+            prob, unselect_list, abs_scatter_solu_1_unseleted, abs_scatter_solu_1_seleted = self.model(state.data,
+                                                                                                       self.env.solution,
+                                                                                                       self.env.abs_scatter_solu_1,
+                                                                                                       self.env.abs_partial_solu_2,
+                                                                                                       random_index,
+                                                                                                       current_step,
+                                                                                                       last_node_index)
+
+            last_node_index = abs_scatter_solu_1_seleted
+
+            loss_mean = - prob.log().mean()
+            self.model.zero_grad()
+            loss_mean.backward()
+            # nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=10, norm_type=2)
+            self.optimizer.step()
+            current_step += 1
+
+            state, reward, reward_student, done = self.env.step(abs_scatter_solu_1_unseleted, unselect_list,
+                                                                mode='train')
+
+            prob_list = torch.cat((prob_list, prob), dim=1)
+
+        loss_mean = -prob_list.log().mean()
+
+        return 0, 0, loss_mean.item()
+
+
+def manhattan_distance(x, y):
+    # x: [B,seq,2]
+    # y: [B, 1, 2]
+    # difference = torch.abs(x - y).sum(2)
+    difference = torch.norm(x - y, p=2, dim=-1)
+
+    return difference
