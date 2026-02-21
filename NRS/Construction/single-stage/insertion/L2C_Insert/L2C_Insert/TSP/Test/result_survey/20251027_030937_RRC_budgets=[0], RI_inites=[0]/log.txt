@@ -1,0 +1,708 @@
+[2025-10-27 02:09:38] test_survey.py(195) : DEBUG_MODE: False
+[2025-10-27 02:09:38] test_survey.py(196) : USE_CUDA: True, CUDA_DEVICE_NUM: None
+[2025-10-27 02:09:38] test_survey.py(197) : env_params{'mode': 'test', 'test_in_tsplib': 1, 'tsplib_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp', 'data_path': '/public/home/bayp/exp_survey_202509/Construction/single-stage/insertion/L2C_Insert/data/TSP/TSPlib_scale_leq_1K_n49.txt', 'sub_path': False, 'RRC_budget': 0, 'max_RRC_range': 200, 'mix_sample_strategy': False, 'turn_to_cluster_strategy': True, 'random_insertion': 0}
+[2025-10-27 02:09:38] test_survey.py(197) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 9, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'knearest': 1, 'k_nearest_edges': 100, 'k_nearest_scatter': 100, 'coor_norm': 0}
+[2025-10-27 02:09:38] test_survey.py(197) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'test_episodes': 49, 'test_batch_size': 1, 'model_load': {'path': './result/pretrain/tsp_model.pt'}}
+[2025-10-27 02:09:38] test_survey.py(197) : logger_params{'log_file': {'desc': 'RRC_budgets=[0], RI_inites=[0], coords_norms=[0], knearest=[1], rrc_ranges=[200], k_edge_nums=[100], k_scatter_nums=[100]', 'filename': 'log.txt', 'filepath': '/public/home/bayp/exp_survey_202509/Construction/single-stage/insertion/L2C_Insert/L2C_Insert/TSP/Test/result_survey/20251027_030937_RRC_budgets=[0], RI_inites=[0], coords_norms=[0], knearest=[1], rrc_ranges=[200], k_edge_nums=[100], k_scatter_nums=[100]'}}
+[2025-10-27 02:09:38] TSPTester_repair.py(161) : [TSPLIB] total files: 228
+[2025-10-27 02:09:38] TSPTester_repair.py(164) : [TSPLIB] sorted DIMENSIONs: [29, 38, 51, 52, 70, 76, 76, 99, 100, 100, 100, 100, 100, 100, 101, 105, 107, 124, 127, 130, 131, 136, 144, 150, 150, 150, 152, 159, 194, 195, 198, 200, 200, 225, 225, 226, 237, 262, 264, 280, 299, 318, 343, 379, 380, 395, 400, 411, 417, 423, 436, 439, 442, 493, 574, 575, 654, 657, 662, 711, 724, 734, 737, 783, 813, 929, 963, 980, 984, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1002, 1060, 1083, 1084, 1173, 1291, 1304, 1323, 1376, 1379, 1389, 1400, 1432, 1436, 1483, 1488, 1577, 1583, 1599, 1615, 1621, 1655, 1748, 1785, 1817, 1889, 1911, 1973, 1979, 2036, 2086, 2103, 2144, 2152, 2175, 2217, 2308, 2319, 2323, 2382, 2392, 2481, 2566, 2597, 2762, 2802, 2854, 2924, 2993, 3038, 3056, 3097, 3119, 3140, 3162, 3162, 3162, 3162, 3162, 3256, 3293, 3386, 3496, 3649, 3672, 3694, 3729, 3795, 3891, 3937, 3938, 3954, 4355, 4396, 4410, 4461, 4475, 4663, 4966, 5087, 5557, 5915, 5934, 6117, 6880, 7146, 7168, 7397, 7454, 7663, 8079, 8197, 8246, 9152, 9698, 9847, 9882, 9976, 10000, 10000, 10000, 10150, 10639, 11849, 13509, 13584, 14051, 14185, 14233, 14473, 15112, 16862, 16928, 17845, 18512, 19289, 19402, 21215, 21553, 22775, 22777, 24104, 24978, 25234, 28268, 28534, 28698, 28924, 29514, 30440, 31623, 31623, 32892, 33203, 33708, 33810, 34656, 38478, 39603, 43748, 47608, 52057, 56769, 59296, 71009, 85900, 100000, 100000]
+[2025-10-27 02:09:39] TSPTester_repair.py(567) : greedy, name:wi29, gap:0.047096 %,  Elapsed[0.01m], stu_l:27616.000000 , opt_l:27603.000000
+[2025-10-27 02:09:39] TSPTester_repair.py(270) : Instance: wi29, dim: 29, teacher: 27603.000000, student: 27616.000000, gap: 0.047%, time: 0.524s
+[2025-10-27 02:09:39] TSPTester_repair.py(279) : episode   1/228, Elapsed[0.01m], Remain[2.04m]
+[2025-10-27 02:09:39] TSPTester_repair.py(567) : greedy, name:dj38, gap:4.041466 %,  Elapsed[0.01m], stu_l:6925.000000 , opt_l:6656.000000
+[2025-10-27 02:09:39] TSPTester_repair.py(270) : Instance: dj38, dim: 38, teacher: 6656.000000, student: 6925.000000, gap: 4.041%, time: 0.162s
+[2025-10-27 02:09:39] TSPTester_repair.py(279) : episode   2/228, Elapsed[0.01m], Remain[1.32m]
+[2025-10-27 02:09:39] TSPTester_repair.py(567) : greedy, name:eil51, gap:0.938967 %,  Elapsed[0.02m], stu_l:430.000000 , opt_l:426.000000
+[2025-10-27 02:09:39] TSPTester_repair.py(270) : Instance: eil51, dim: 51, teacher: 426.000000, student: 430.000000, gap: 0.939%, time: 0.218s
+[2025-10-27 02:09:39] TSPTester_repair.py(279) : episode   3/228, Elapsed[0.02m], Remain[1.15m]
+[2025-10-27 02:09:40] TSPTester_repair.py(567) : greedy, name:berlin52, gap:0.013259 %,  Elapsed[0.02m], stu_l:7543.000000 , opt_l:7542.000000
+[2025-10-27 02:09:40] TSPTester_repair.py(270) : Instance: berlin52, dim: 52, teacher: 7542.000000, student: 7543.000000, gap: 0.013%, time: 0.221s
+[2025-10-27 02:09:40] TSPTester_repair.py(279) : episode   4/228, Elapsed[0.02m], Remain[1.06m]
+[2025-10-27 02:09:40] TSPTester_repair.py(567) : greedy, name:st70, gap:0.148148 %,  Elapsed[0.02m], stu_l:676.000000 , opt_l:675.000000
+[2025-10-27 02:09:40] TSPTester_repair.py(270) : Instance: st70, dim: 70, teacher: 675.000000, student: 676.000000, gap: 0.148%, time: 0.300s
+[2025-10-27 02:09:40] TSPTester_repair.py(279) : episode   5/228, Elapsed[0.02m], Remain[1.07m]
+[2025-10-27 02:09:40] TSPTester_repair.py(567) : greedy, name:pr76, gap:1.617988 %,  Elapsed[0.03m], stu_l:109909.000000 , opt_l:108159.000000
+[2025-10-27 02:09:40] TSPTester_repair.py(270) : Instance: pr76, dim: 76, teacher: 108159.000000, student: 109909.000000, gap: 1.618%, time: 0.326s
+[2025-10-27 02:09:40] TSPTester_repair.py(279) : episode   6/228, Elapsed[0.03m], Remain[1.09m]
+[2025-10-27 02:09:40] TSPTester_repair.py(567) : greedy, name:eil76, gap:0.557621 %,  Elapsed[0.03m], stu_l:541.000000 , opt_l:538.000000
+[2025-10-27 02:09:40] TSPTester_repair.py(270) : Instance: eil76, dim: 76, teacher: 538.000000, student: 541.000000, gap: 0.558%, time: 0.326s
+[2025-10-27 02:09:40] TSPTester_repair.py(279) : episode   7/228, Elapsed[0.03m], Remain[1.10m]
+[2025-10-27 02:09:41] TSPTester_repair.py(567) : greedy, name:rat99, gap:0.000000 %,  Elapsed[0.04m], stu_l:1211.000000 , opt_l:1211.000000
+[2025-10-27 02:09:41] TSPTester_repair.py(270) : Instance: rat99, dim: 99, teacher: 1211.000000, student: 1211.000000, gap: 0.000%, time: 0.425s
+[2025-10-27 02:09:41] TSPTester_repair.py(279) : episode   8/228, Elapsed[0.04m], Remain[1.15m]
+[2025-10-27 02:09:41] TSPTester_repair.py(567) : greedy, name:kroA100, gap:0.061084 %,  Elapsed[0.05m], stu_l:21295.000000 , opt_l:21282.000000
+[2025-10-27 02:09:41] TSPTester_repair.py(270) : Instance: kroA100, dim: 100, teacher: 21282.000000, student: 21295.000000, gap: 0.061%, time: 0.429s
+[2025-10-27 02:09:41] TSPTester_repair.py(279) : episode   9/228, Elapsed[0.05m], Remain[1.20m]
+[2025-10-27 02:09:42] TSPTester_repair.py(567) : greedy, name:kroC100, gap:0.110849 %,  Elapsed[0.06m], stu_l:20772.000000 , opt_l:20749.000000
+[2025-10-27 02:09:42] TSPTester_repair.py(270) : Instance: kroC100, dim: 100, teacher: 20749.000000, student: 20772.000000, gap: 0.111%, time: 0.429s
+[2025-10-27 02:09:42] TSPTester_repair.py(279) : episode  10/228, Elapsed[0.06m], Remain[1.23m]
+[2025-10-27 02:09:42] TSPTester_repair.py(567) : greedy, name:kroD100, gap:0.070442 %,  Elapsed[0.06m], stu_l:21309.000000 , opt_l:21294.000000
+[2025-10-27 02:09:42] TSPTester_repair.py(270) : Instance: kroD100, dim: 100, teacher: 21294.000000, student: 21309.000000, gap: 0.070%, time: 0.428s
+[2025-10-27 02:09:42] TSPTester_repair.py(279) : episode  11/228, Elapsed[0.06m], Remain[1.25m]
+[2025-10-27 02:09:43] TSPTester_repair.py(567) : greedy, name:rd100, gap:0.050569 %,  Elapsed[0.07m], stu_l:7914.000000 , opt_l:7910.000000
+[2025-10-27 02:09:43] TSPTester_repair.py(270) : Instance: rd100, dim: 100, teacher: 7910.000000, student: 7914.000000, gap: 0.051%, time: 0.427s
+[2025-10-27 02:09:43] TSPTester_repair.py(279) : episode  12/228, Elapsed[0.07m], Remain[1.27m]
+[2025-10-27 02:09:43] TSPTester_repair.py(567) : greedy, name:kroB100, gap:0.194210 %,  Elapsed[0.08m], stu_l:22184.000000 , opt_l:22141.000000
+[2025-10-27 02:09:43] TSPTester_repair.py(270) : Instance: kroB100, dim: 100, teacher: 22141.000000, student: 22184.000000, gap: 0.194%, time: 0.428s
+[2025-10-27 02:09:43] TSPTester_repair.py(279) : episode  13/228, Elapsed[0.08m], Remain[1.28m]
+[2025-10-27 02:09:43] TSPTester_repair.py(567) : greedy, name:kroE100, gap:0.244698 %,  Elapsed[0.08m], stu_l:22122.000000 , opt_l:22068.000000
+[2025-10-27 02:09:43] TSPTester_repair.py(270) : Instance: kroE100, dim: 100, teacher: 22068.000000, student: 22122.000000, gap: 0.245%, time: 0.431s
+[2025-10-27 02:09:43] TSPTester_repair.py(279) : episode  14/228, Elapsed[0.08m], Remain[1.30m]
+[2025-10-27 02:09:44] TSPTester_repair.py(567) : greedy, name:eil101, gap:0.000000 %,  Elapsed[0.09m], stu_l:629.000000 , opt_l:629.000000
+[2025-10-27 02:09:44] TSPTester_repair.py(270) : Instance: eil101, dim: 101, teacher: 629.000000, student: 629.000000, gap: 0.000%, time: 0.434s
+[2025-10-27 02:09:44] TSPTester_repair.py(279) : episode  15/228, Elapsed[0.09m], Remain[1.31m]
+[2025-10-27 02:09:44] TSPTester_repair.py(567) : greedy, name:lin105, gap:0.312956 %,  Elapsed[0.10m], stu_l:14424.000000 , opt_l:14379.000000
+[2025-10-27 02:09:44] TSPTester_repair.py(270) : Instance: lin105, dim: 105, teacher: 14379.000000, student: 14424.000000, gap: 0.313%, time: 0.453s
+[2025-10-27 02:09:44] TSPTester_repair.py(279) : episode  16/228, Elapsed[0.10m], Remain[1.32m]
+[2025-10-27 02:09:45] TSPTester_repair.py(567) : greedy, name:pr107, gap:3.187143 %,  Elapsed[0.11m], stu_l:45715.000000 , opt_l:44303.000000
+[2025-10-27 02:09:45] TSPTester_repair.py(270) : Instance: pr107, dim: 107, teacher: 44303.000000, student: 45715.000000, gap: 3.187%, time: 0.462s
+[2025-10-27 02:09:45] TSPTester_repair.py(279) : episode  17/228, Elapsed[0.11m], Remain[1.33m]
+[2025-10-27 02:09:45] TSPTester_repair.py(567) : greedy, name:pr124, gap:0.365916 %,  Elapsed[0.12m], stu_l:59246.000000 , opt_l:59030.000000
+[2025-10-27 02:09:45] TSPTester_repair.py(270) : Instance: pr124, dim: 124, teacher: 59030.000000, student: 59246.000000, gap: 0.366%, time: 0.543s
+[2025-10-27 02:09:45] TSPTester_repair.py(279) : episode  18/228, Elapsed[0.12m], Remain[1.36m]
+[2025-10-27 02:09:46] TSPTester_repair.py(567) : greedy, name:bier127, gap:1.042424 %,  Elapsed[0.13m], stu_l:119515.000000 , opt_l:118282.000000
+[2025-10-27 02:09:46] TSPTester_repair.py(270) : Instance: bier127, dim: 127, teacher: 118282.000000, student: 119515.000000, gap: 1.042%, time: 0.553s
+[2025-10-27 02:09:46] TSPTester_repair.py(279) : episode  19/228, Elapsed[0.13m], Remain[1.38m]
+[2025-10-27 02:09:46] TSPTester_repair.py(567) : greedy, name:ch130, gap:1.358429 %,  Elapsed[0.14m], stu_l:6193.000000 , opt_l:6110.000000
+[2025-10-27 02:09:46] TSPTester_repair.py(270) : Instance: ch130, dim: 130, teacher: 6110.000000, student: 6193.000000, gap: 1.358%, time: 0.569s
+[2025-10-27 02:09:46] TSPTester_repair.py(279) : episode  20/228, Elapsed[0.14m], Remain[1.41m]
+[2025-10-27 02:09:47] TSPTester_repair.py(567) : greedy, name:xqf131, gap:0.886525 %,  Elapsed[0.14m], stu_l:569.000000 , opt_l:564.000000
+[2025-10-27 02:09:47] TSPTester_repair.py(270) : Instance: xqf131, dim: 131, teacher: 564.000000, student: 569.000000, gap: 0.887%, time: 0.574s
+[2025-10-27 02:09:47] TSPTester_repair.py(279) : episode  21/228, Elapsed[0.14m], Remain[1.43m]
+[2025-10-27 02:09:48] TSPTester_repair.py(567) : greedy, name:pr136, gap:0.639648 %,  Elapsed[0.15m], stu_l:97391.000000 , opt_l:96772.000000
+[2025-10-27 02:09:48] TSPTester_repair.py(270) : Instance: pr136, dim: 136, teacher: 96772.000000, student: 97391.000000, gap: 0.640%, time: 0.599s
+[2025-10-27 02:09:48] TSPTester_repair.py(279) : episode  22/228, Elapsed[0.15m], Remain[1.45m]
+[2025-10-27 02:09:48] TSPTester_repair.py(567) : greedy, name:pr144, gap:0.114458 %,  Elapsed[0.17m], stu_l:58604.000000 , opt_l:58537.000000
+[2025-10-27 02:09:48] TSPTester_repair.py(270) : Instance: pr144, dim: 144, teacher: 58537.000000, student: 58604.000000, gap: 0.114%, time: 0.636s
+[2025-10-27 02:09:48] TSPTester_repair.py(279) : episode  23/228, Elapsed[0.17m], Remain[1.47m]
+[2025-10-27 02:09:49] TSPTester_repair.py(567) : greedy, name:kroB150, gap:0.271718 %,  Elapsed[0.18m], stu_l:26201.000000 , opt_l:26130.000000
+[2025-10-27 02:09:49] TSPTester_repair.py(270) : Instance: kroB150, dim: 150, teacher: 26130.000000, student: 26201.000000, gap: 0.272%, time: 0.664s
+[2025-10-27 02:09:49] TSPTester_repair.py(279) : episode  24/228, Elapsed[0.18m], Remain[1.50m]
+[2025-10-27 02:09:50] TSPTester_repair.py(567) : greedy, name:ch150, gap:0.719975 %,  Elapsed[0.19m], stu_l:6575.000000 , opt_l:6528.000000
+[2025-10-27 02:09:50] TSPTester_repair.py(270) : Instance: ch150, dim: 150, teacher: 6528.000000, student: 6575.000000, gap: 0.720%, time: 0.665s
+[2025-10-27 02:09:50] TSPTester_repair.py(279) : episode  25/228, Elapsed[0.19m], Remain[1.52m]
+[2025-10-27 02:09:50] TSPTester_repair.py(567) : greedy, name:kroA150, gap:0.433570 %,  Elapsed[0.20m], stu_l:26639.000000 , opt_l:26524.000000
+[2025-10-27 02:09:50] TSPTester_repair.py(270) : Instance: kroA150, dim: 150, teacher: 26524.000000, student: 26639.000000, gap: 0.434%, time: 0.665s
+[2025-10-27 02:09:50] TSPTester_repair.py(279) : episode  26/228, Elapsed[0.20m], Remain[1.54m]
+[2025-10-27 02:09:51] TSPTester_repair.py(567) : greedy, name:pr152, gap:1.236394 %,  Elapsed[0.21m], stu_l:74593.000000 , opt_l:73682.000000
+[2025-10-27 02:09:51] TSPTester_repair.py(270) : Instance: pr152, dim: 152, teacher: 73682.000000, student: 74593.000000, gap: 1.236%, time: 0.674s
+[2025-10-27 02:09:51] TSPTester_repair.py(279) : episode  27/228, Elapsed[0.21m], Remain[1.56m]
+[2025-10-27 02:09:52] TSPTester_repair.py(567) : greedy, name:u159, gap:0.579848 %,  Elapsed[0.22m], stu_l:42324.000000 , opt_l:42080.000000
+[2025-10-27 02:09:52] TSPTester_repair.py(270) : Instance: u159, dim: 159, teacher: 42080.000000, student: 42324.000000, gap: 0.580%, time: 0.707s
+[2025-10-27 02:09:52] TSPTester_repair.py(279) : episode  28/228, Elapsed[0.22m], Remain[1.58m]
+[2025-10-27 02:09:53] TSPTester_repair.py(567) : greedy, name:qa194, gap:18.092386 %,  Elapsed[0.24m], stu_l:11044.000000 , opt_l:9352.000000
+[2025-10-27 02:09:53] TSPTester_repair.py(270) : Instance: qa194, dim: 194, teacher: 9352.000000, student: 11044.000000, gap: 18.092%, time: 0.871s
+[2025-10-27 02:09:53] TSPTester_repair.py(279) : episode  29/228, Elapsed[0.24m], Remain[1.62m]
+[2025-10-27 02:09:53] TSPTester_repair.py(567) : greedy, name:rat195, gap:2.755058 %,  Elapsed[0.25m], stu_l:2387.000000 , opt_l:2323.000000
+[2025-10-27 02:09:53] TSPTester_repair.py(270) : Instance: rat195, dim: 195, teacher: 2323.000000, student: 2387.000000, gap: 2.755%, time: 0.876s
+[2025-10-27 02:09:53] TSPTester_repair.py(279) : episode  30/228, Elapsed[0.25m], Remain[1.65m]
+[2025-10-27 02:09:54] TSPTester_repair.py(567) : greedy, name:d198, gap:4.968314 %,  Elapsed[0.27m], stu_l:16564.000000 , opt_l:15780.000000
+[2025-10-27 02:09:54] TSPTester_repair.py(270) : Instance: d198, dim: 198, teacher: 15780.000000, student: 16564.000000, gap: 4.968%, time: 0.886s
+[2025-10-27 02:09:54] TSPTester_repair.py(279) : episode  31/228, Elapsed[0.27m], Remain[1.69m]
+[2025-10-27 02:09:55] TSPTester_repair.py(567) : greedy, name:kroA200, gap:0.125987 %,  Elapsed[0.28m], stu_l:29405.000000 , opt_l:29368.000000
+[2025-10-27 02:09:55] TSPTester_repair.py(270) : Instance: kroA200, dim: 200, teacher: 29368.000000, student: 29405.000000, gap: 0.126%, time: 0.896s
+[2025-10-27 02:09:55] TSPTester_repair.py(279) : episode  32/228, Elapsed[0.28m], Remain[1.72m]
+[2025-10-27 02:09:56] TSPTester_repair.py(567) : greedy, name:kroB200, gap:1.688351 %,  Elapsed[0.30m], stu_l:29934.000000 , opt_l:29437.000000
+[2025-10-27 02:09:56] TSPTester_repair.py(270) : Instance: kroB200, dim: 200, teacher: 29437.000000, student: 29934.000000, gap: 1.688%, time: 0.892s
+[2025-10-27 02:09:56] TSPTester_repair.py(279) : episode  33/228, Elapsed[0.30m], Remain[1.75m]
+[2025-10-27 02:09:57] TSPTester_repair.py(567) : greedy, name:tsp225, gap:2.374872 %,  Elapsed[0.31m], stu_l:4009.000000 , opt_l:3916.000000
+[2025-10-27 02:09:57] TSPTester_repair.py(270) : Instance: tsp225, dim: 225, teacher: 3916.000000, student: 4009.000000, gap: 2.375%, time: 1.010s
+[2025-10-27 02:09:57] TSPTester_repair.py(279) : episode  34/228, Elapsed[0.31m], Remain[1.78m]
+[2025-10-27 02:09:58] TSPTester_repair.py(567) : greedy, name:ts225, gap:36.559463 %,  Elapsed[0.33m], stu_l:172943.000000 , opt_l:126643.000000
+[2025-10-27 02:09:58] TSPTester_repair.py(270) : Instance: ts225, dim: 225, teacher: 126643.000000, student: 172943.000000, gap: 36.559%, time: 1.015s
+[2025-10-27 02:09:58] TSPTester_repair.py(279) : episode  35/228, Elapsed[0.33m], Remain[1.81m]
+[2025-10-27 02:09:59] TSPTester_repair.py(567) : greedy, name:pr226, gap:0.981722 %,  Elapsed[0.35m], stu_l:81158.000000 , opt_l:80369.000000
+[2025-10-27 02:09:59] TSPTester_repair.py(270) : Instance: pr226, dim: 226, teacher: 80369.000000, student: 81158.000000, gap: 0.982%, time: 1.022s
+[2025-10-27 02:09:59] TSPTester_repair.py(279) : episode  36/228, Elapsed[0.35m], Remain[1.85m]
+[2025-10-27 02:10:00] TSPTester_repair.py(567) : greedy, name:xqg237, gap:1.962708 %,  Elapsed[0.36m], stu_l:1039.000000 , opt_l:1019.000000
+[2025-10-27 02:10:00] TSPTester_repair.py(270) : Instance: xqg237, dim: 237, teacher: 1019.000000, student: 1039.000000, gap: 1.963%, time: 1.073s
+[2025-10-27 02:10:00] TSPTester_repair.py(279) : episode  37/228, Elapsed[0.36m], Remain[1.88m]
+[2025-10-27 02:10:01] TSPTester_repair.py(567) : greedy, name:gil262, gap:1.682086 %,  Elapsed[0.38m], stu_l:2418.000000 , opt_l:2378.000000
+[2025-10-27 02:10:01] TSPTester_repair.py(270) : Instance: gil262, dim: 262, teacher: 2378.000000, student: 2418.000000, gap: 1.682%, time: 1.190s
+[2025-10-27 02:10:01] TSPTester_repair.py(279) : episode  38/228, Elapsed[0.38m], Remain[1.92m]
+[2025-10-27 02:10:03] TSPTester_repair.py(567) : greedy, name:pr264, gap:2.837081 %,  Elapsed[0.40m], stu_l:50529.000000 , opt_l:49135.000000
+[2025-10-27 02:10:03] TSPTester_repair.py(270) : Instance: pr264, dim: 264, teacher: 49135.000000, student: 50529.000000, gap: 2.837%, time: 1.198s
+[2025-10-27 02:10:03] TSPTester_repair.py(279) : episode  39/228, Elapsed[0.40m], Remain[1.96m]
+[2025-10-27 02:10:04] TSPTester_repair.py(567) : greedy, name:a280, gap:0.891819 %,  Elapsed[0.43m], stu_l:2602.000000 , opt_l:2579.000000
+[2025-10-27 02:10:04] TSPTester_repair.py(270) : Instance: a280, dim: 280, teacher: 2579.000000, student: 2602.000000, gap: 0.892%, time: 1.274s
+[2025-10-27 02:10:04] TSPTester_repair.py(279) : episode  40/228, Elapsed[0.43m], Remain[2.00m]
+[2025-10-27 02:10:05] TSPTester_repair.py(567) : greedy, name:pr299, gap:1.379926 %,  Elapsed[0.45m], stu_l:48856.000000 , opt_l:48191.000000
+[2025-10-27 02:10:05] TSPTester_repair.py(270) : Instance: pr299, dim: 299, teacher: 48191.000000, student: 48856.000000, gap: 1.380%, time: 1.365s
+[2025-10-27 02:10:05] TSPTester_repair.py(279) : episode  41/228, Elapsed[0.45m], Remain[2.04m]
+[2025-10-27 02:10:07] TSPTester_repair.py(567) : greedy, name:lin318, gap:1.287206 %,  Elapsed[0.47m], stu_l:42570.000000 , opt_l:42029.000000
+[2025-10-27 02:10:07] TSPTester_repair.py(270) : Instance: lin318, dim: 318, teacher: 42029.000000, student: 42570.000000, gap: 1.287%, time: 1.451s
+[2025-10-27 02:10:07] TSPTester_repair.py(279) : episode  42/228, Elapsed[0.47m], Remain[2.09m]
+[2025-10-27 02:10:08] TSPTester_repair.py(567) : greedy, name:pma343, gap:5.847953 %,  Elapsed[0.50m], stu_l:1448.000000 , opt_l:1368.000000
+[2025-10-27 02:10:08] TSPTester_repair.py(270) : Instance: pma343, dim: 343, teacher: 1368.000000, student: 1448.000000, gap: 5.848%, time: 1.569s
+[2025-10-27 02:10:08] TSPTester_repair.py(279) : episode  43/228, Elapsed[0.50m], Remain[2.14m]
+[2025-10-27 02:10:10] TSPTester_repair.py(567) : greedy, name:pka379, gap:5.555556 %,  Elapsed[0.53m], stu_l:1406.000000 , opt_l:1332.000000
+[2025-10-27 02:10:10] TSPTester_repair.py(270) : Instance: pka379, dim: 379, teacher: 1332.000000, student: 1406.000000, gap: 5.556%, time: 1.736s
+[2025-10-27 02:10:10] TSPTester_repair.py(279) : episode  44/228, Elapsed[0.53m], Remain[2.20m]
+[2025-10-27 02:10:12] TSPTester_repair.py(567) : greedy, name:bcl380, gap:6.724244 %,  Elapsed[0.56m], stu_l:1730.000000 , opt_l:1621.000000
+[2025-10-27 02:10:12] TSPTester_repair.py(270) : Instance: bcl380, dim: 380, teacher: 1621.000000, student: 1730.000000, gap: 6.724%, time: 1.743s
+[2025-10-27 02:10:12] TSPTester_repair.py(279) : episode  45/228, Elapsed[0.56m], Remain[2.26m]
+[2025-10-27 02:10:14] TSPTester_repair.py(567) : greedy, name:pbl395, gap:1.092896 %,  Elapsed[0.59m], stu_l:1295.000000 , opt_l:1281.000000
+[2025-10-27 02:10:14] TSPTester_repair.py(270) : Instance: pbl395, dim: 395, teacher: 1281.000000, student: 1295.000000, gap: 1.093%, time: 1.814s
+[2025-10-27 02:10:14] TSPTester_repair.py(279) : episode  46/228, Elapsed[0.59m], Remain[2.32m]
+[2025-10-27 02:10:15] TSPTester_repair.py(567) : greedy, name:rd400, gap:4.332177 %,  Elapsed[0.62m], stu_l:15943.000000 , opt_l:15281.000000
+[2025-10-27 02:10:15] TSPTester_repair.py(270) : Instance: rd400, dim: 400, teacher: 15281.000000, student: 15943.000000, gap: 4.332%, time: 1.834s
+[2025-10-27 02:10:15] TSPTester_repair.py(279) : episode  47/228, Elapsed[0.62m], Remain[2.38m]
+[2025-10-27 02:10:17] TSPTester_repair.py(567) : greedy, name:pbk411, gap:2.308265 %,  Elapsed[0.65m], stu_l:1374.000000 , opt_l:1343.000000
+[2025-10-27 02:10:17] TSPTester_repair.py(270) : Instance: pbk411, dim: 411, teacher: 1343.000000, student: 1374.000000, gap: 2.308%, time: 1.890s
+[2025-10-27 02:10:17] TSPTester_repair.py(279) : episode  48/228, Elapsed[0.65m], Remain[2.43m]
+[2025-10-27 02:10:19] TSPTester_repair.py(567) : greedy, name:fl417, gap:7.832392 %,  Elapsed[0.68m], stu_l:12790.000000 , opt_l:11861.000000
+[2025-10-27 02:10:19] TSPTester_repair.py(270) : Instance: fl417, dim: 417, teacher: 11861.000000, student: 12790.000000, gap: 7.832%, time: 1.920s
+[2025-10-27 02:10:19] TSPTester_repair.py(279) : episode  49/228, Elapsed[0.68m], Remain[2.49m]
+[2025-10-27 02:10:21] TSPTester_repair.py(567) : greedy, name:pbn423, gap:3.076923 %,  Elapsed[0.71m], stu_l:1407.000000 , opt_l:1365.000000
+[2025-10-27 02:10:21] TSPTester_repair.py(270) : Instance: pbn423, dim: 423, teacher: 1365.000000, student: 1407.000000, gap: 3.077%, time: 1.947s
+[2025-10-27 02:10:21] TSPTester_repair.py(279) : episode  50/228, Elapsed[0.71m], Remain[2.54m]
+[2025-10-27 02:10:23] TSPTester_repair.py(567) : greedy, name:pbm436, gap:3.811504 %,  Elapsed[0.75m], stu_l:1498.000000 , opt_l:1443.000000
+[2025-10-27 02:10:23] TSPTester_repair.py(270) : Instance: pbm436, dim: 436, teacher: 1443.000000, student: 1498.000000, gap: 3.812%, time: 2.008s
+[2025-10-27 02:10:23] TSPTester_repair.py(279) : episode  51/228, Elapsed[0.75m], Remain[2.59m]
+[2025-10-27 02:10:25] TSPTester_repair.py(567) : greedy, name:pr439, gap:7.204081 %,  Elapsed[0.78m], stu_l:114941.000000 , opt_l:107217.000000
+[2025-10-27 02:10:25] TSPTester_repair.py(270) : Instance: pr439, dim: 439, teacher: 107217.000000, student: 114941.000000, gap: 7.204%, time: 2.020s
+[2025-10-27 02:10:25] TSPTester_repair.py(279) : episode  52/228, Elapsed[0.78m], Remain[2.64m]
+[2025-10-27 02:10:27] TSPTester_repair.py(567) : greedy, name:pcb442, gap:4.381819 %,  Elapsed[0.81m], stu_l:53003.000000 , opt_l:50778.000000
+[2025-10-27 02:10:27] TSPTester_repair.py(270) : Instance: pcb442, dim: 442, teacher: 50778.000000, student: 53003.000000, gap: 4.382%, time: 2.034s
+[2025-10-27 02:10:27] TSPTester_repair.py(279) : episode  53/228, Elapsed[0.81m], Remain[2.69m]
+[2025-10-27 02:10:29] TSPTester_repair.py(567) : greedy, name:d493, gap:11.816467 %,  Elapsed[0.85m], stu_l:39138.000000 , opt_l:35002.000000
+[2025-10-27 02:10:29] TSPTester_repair.py(270) : Instance: d493, dim: 493, teacher: 35002.000000, student: 39138.000000, gap: 11.816%, time: 2.271s
+[2025-10-27 02:10:29] TSPTester_repair.py(279) : episode  54/228, Elapsed[0.85m], Remain[2.74m]
+[2025-10-27 02:10:32] TSPTester_repair.py(567) : greedy, name:u574, gap:1.530958 %,  Elapsed[0.90m], stu_l:37470.000000 , opt_l:36905.000000
+[2025-10-27 02:10:32] TSPTester_repair.py(270) : Instance: u574, dim: 574, teacher: 36905.000000, student: 37470.000000, gap: 1.531%, time: 2.681s
+[2025-10-27 02:10:32] TSPTester_repair.py(279) : episode  55/228, Elapsed[0.90m], Remain[2.82m]
+[2025-10-27 02:10:35] TSPTester_repair.py(567) : greedy, name:rat575, gap:3.646833 %,  Elapsed[0.94m], stu_l:7020.000000 , opt_l:6773.000000
+[2025-10-27 02:10:35] TSPTester_repair.py(270) : Instance: rat575, dim: 575, teacher: 6773.000000, student: 7020.000000, gap: 3.647%, time: 2.653s
+[2025-10-27 02:10:35] TSPTester_repair.py(279) : episode  56/228, Elapsed[0.94m], Remain[2.89m]
+[2025-10-27 02:10:38] TSPTester_repair.py(567) : greedy, name:p654, gap:17.668793 %,  Elapsed[0.99m], stu_l:40764.000000 , opt_l:34643.000000
+[2025-10-27 02:10:38] TSPTester_repair.py(270) : Instance: p654, dim: 654, teacher: 34643.000000, student: 40764.000000, gap: 17.669%, time: 3.020s
+[2025-10-27 02:10:38] TSPTester_repair.py(279) : episode  57/228, Elapsed[0.99m], Remain[2.97m]
+[2025-10-27 02:10:41] TSPTester_repair.py(567) : greedy, name:d657, gap:5.293180 %,  Elapsed[1.04m], stu_l:51501.000000 , opt_l:48912.000000
+[2025-10-27 02:10:41] TSPTester_repair.py(270) : Instance: d657, dim: 657, teacher: 48912.000000, student: 51501.000000, gap: 5.293%, time: 3.035s
+[2025-10-27 02:10:41] TSPTester_repair.py(279) : episode  58/228, Elapsed[1.04m], Remain[3.05m]
+[2025-10-27 02:10:44] TSPTester_repair.py(567) : greedy, name:xql662, gap:9.271786 %,  Elapsed[1.09m], stu_l:2746.000000 , opt_l:2513.000000
+[2025-10-27 02:10:44] TSPTester_repair.py(270) : Instance: xql662, dim: 662, teacher: 2513.000000, student: 2746.000000, gap: 9.272%, time: 3.067s
+[2025-10-27 02:10:44] TSPTester_repair.py(279) : episode  59/228, Elapsed[1.09m], Remain[3.13m]
+[2025-10-27 02:10:47] TSPTester_repair.py(567) : greedy, name:rbx711, gap:3.916533 %,  Elapsed[1.15m], stu_l:3237.000000 , opt_l:3115.000000
+[2025-10-27 02:10:47] TSPTester_repair.py(270) : Instance: rbx711, dim: 711, teacher: 3115.000000, student: 3237.000000, gap: 3.917%, time: 3.296s
+[2025-10-27 02:10:47] TSPTester_repair.py(279) : episode  60/228, Elapsed[1.15m], Remain[3.21m]
+[2025-10-27 02:10:51] TSPTester_repair.py(567) : greedy, name:u724, gap:3.760439 %,  Elapsed[1.20m], stu_l:43486.000000 , opt_l:41910.000000
+[2025-10-27 02:10:51] TSPTester_repair.py(270) : Instance: u724, dim: 724, teacher: 41910.000000, student: 43486.000000, gap: 3.760%, time: 3.362s
+[2025-10-27 02:10:51] TSPTester_repair.py(279) : episode  61/228, Elapsed[1.20m], Remain[3.30m]
+[2025-10-27 02:10:54] TSPTester_repair.py(567) : greedy, name:uy734, gap:20.309933 %,  Elapsed[1.26m], stu_l:95182.000000 , opt_l:79114.000000
+[2025-10-27 02:10:54] TSPTester_repair.py(270) : Instance: uy734, dim: 734, teacher: 79114.000000, student: 95182.000000, gap: 20.310%, time: 3.403s
+[2025-10-27 02:10:54] TSPTester_repair.py(279) : episode  62/228, Elapsed[1.26m], Remain[3.37m]
+[2025-10-27 02:10:57] TSPTester_repair.py(567) : greedy, name:rbu737, gap:7.181653 %,  Elapsed[1.32m], stu_l:3552.000000 , opt_l:3314.000000
+[2025-10-27 02:10:57] TSPTester_repair.py(270) : Instance: rbu737, dim: 737, teacher: 3314.000000, student: 3552.000000, gap: 7.182%, time: 3.417s
+[2025-10-27 02:10:57] TSPTester_repair.py(279) : episode  63/228, Elapsed[1.32m], Remain[3.45m]
+[2025-10-27 02:11:01] TSPTester_repair.py(567) : greedy, name:rat783, gap:3.985919 %,  Elapsed[1.38m], stu_l:9157.000000 , opt_l:8806.000000
+[2025-10-27 02:11:01] TSPTester_repair.py(270) : Instance: rat783, dim: 783, teacher: 8806.000000, student: 9157.000000, gap: 3.986%, time: 3.632s
+[2025-10-27 02:11:01] TSPTester_repair.py(279) : episode  64/228, Elapsed[1.38m], Remain[3.53m]
+[2025-10-27 02:11:05] TSPTester_repair.py(567) : greedy, name:dkg813, gap:7.314786 %,  Elapsed[1.44m], stu_l:3433.000000 , opt_l:3199.000000
+[2025-10-27 02:11:05] TSPTester_repair.py(270) : Instance: dkg813, dim: 813, teacher: 3199.000000, student: 3433.000000, gap: 7.315%, time: 3.771s
+[2025-10-27 02:11:05] TSPTester_repair.py(279) : episode  65/228, Elapsed[1.44m], Remain[3.61m]
+[2025-10-27 02:11:09] TSPTester_repair.py(567) : greedy, name:zi929, gap:17.188106 %,  Elapsed[1.51m], stu_l:111733.000000 , opt_l:95345.000000
+[2025-10-27 02:11:09] TSPTester_repair.py(270) : Instance: zi929, dim: 929, teacher: 95345.000000, student: 111733.000000, gap: 17.188%, time: 4.324s
+[2025-10-27 02:11:09] TSPTester_repair.py(279) : episode  66/228, Elapsed[1.51m], Remain[3.71m]
+[2025-10-27 02:11:14] TSPTester_repair.py(567) : greedy, name:lim963, gap:4.912155 %,  Elapsed[1.59m], stu_l:2926.000000 , opt_l:2789.000000
+[2025-10-27 02:11:14] TSPTester_repair.py(270) : Instance: lim963, dim: 963, teacher: 2789.000000, student: 2926.000000, gap: 4.912%, time: 4.475s
+[2025-10-27 02:11:14] TSPTester_repair.py(279) : episode  67/228, Elapsed[1.59m], Remain[3.81m]
+[2025-10-27 02:11:18] TSPTester_repair.py(567) : greedy, name:lu980, gap:28.880072 %,  Elapsed[1.66m], stu_l:14615.000000 , opt_l:11340.000000
+[2025-10-27 02:11:18] TSPTester_repair.py(270) : Instance: lu980, dim: 980, teacher: 11340.000000, student: 14615.000000, gap: 28.880%, time: 4.554s
+[2025-10-27 02:11:18] TSPTester_repair.py(279) : episode  68/228, Elapsed[1.66m], Remain[3.91m]
+[2025-10-27 02:11:23] TSPTester_repair.py(567) : greedy, name:pbd984, gap:7.150518 %,  Elapsed[1.74m], stu_l:2997.000000 , opt_l:2797.000000
+[2025-10-27 02:11:23] TSPTester_repair.py(270) : Instance: pbd984, dim: 984, teacher: 2797.000000, student: 2997.000000, gap: 7.151%, time: 4.573s
+[2025-10-27 02:11:23] TSPTester_repair.py(279) : episode  69/228, Elapsed[1.74m], Remain[4.01m]
+[2025-10-27 02:11:27] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10008, gap:12.515032 %,  Elapsed[1.82m], stu_l:13058183.000000 , opt_l:11605723.000000
+[2025-10-27 02:11:27] TSPTester_repair.py(270) : Instance: portcgen-1000-10008, dim: 1000, teacher: 11605723.000000, student: 13058183.000000, gap: 12.515%, time: 4.643s
+[2025-10-27 02:11:27] TSPTester_repair.py(279) : episode  70/228, Elapsed[1.82m], Remain[4.10m]
+[2025-10-27 02:11:32] TSPTester_repair.py(567) : greedy, name:dsj1000, gap:6.195200 %,  Elapsed[1.89m], stu_l:19816224.000000 , opt_l:18660188.000000
+[2025-10-27 02:11:32] TSPTester_repair.py(270) : Instance: dsj1000, dim: 1000, teacher: 18660188.000000, student: 19816224.000000, gap: 6.195%, time: 4.641s
+[2025-10-27 02:11:32] TSPTester_repair.py(279) : episode  71/228, Elapsed[1.89m], Remain[4.19m]
+[2025-10-27 02:11:37] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10005, gap:19.196254 %,  Elapsed[1.97m], stu_l:13582307.000000 , opt_l:11394911.000000
+[2025-10-27 02:11:37] TSPTester_repair.py(270) : Instance: portcgen-1000-10005, dim: 1000, teacher: 11394911.000000, student: 13582307.000000, gap: 19.196%, time: 4.643s
+[2025-10-27 02:11:37] TSPTester_repair.py(279) : episode  72/228, Elapsed[1.97m], Remain[4.27m]
+[2025-10-27 02:11:41] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10002, gap:14.280362 %,  Elapsed[2.05m], stu_l:12405171.000000 , opt_l:10855033.000000
+[2025-10-27 02:11:41] TSPTester_repair.py(270) : Instance: portcgen-1000-10002, dim: 1000, teacher: 10855033.000000, student: 12405171.000000, gap: 14.280%, time: 4.647s
+[2025-10-27 02:11:41] TSPTester_repair.py(279) : episode  73/228, Elapsed[2.05m], Remain[4.35m]
+[2025-10-27 02:11:46] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10006, gap:9.962367 %,  Elapsed[2.13m], stu_l:11179545.000000 , opt_l:10166701.000000
+[2025-10-27 02:11:46] TSPTester_repair.py(270) : Instance: portcgen-1000-10006, dim: 1000, teacher: 10166701.000000, student: 11179545.000000, gap: 9.962%, time: 4.643s
+[2025-10-27 02:11:46] TSPTester_repair.py(279) : episode  74/228, Elapsed[2.13m], Remain[4.43m]
+[2025-10-27 02:11:51] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10003, gap:14.956509 %,  Elapsed[2.20m], stu_l:13664256.000000 , opt_l:11886457.000000
+[2025-10-27 02:11:51] TSPTester_repair.py(270) : Instance: portcgen-1000-10003, dim: 1000, teacher: 11886457.000000, student: 13664256.000000, gap: 14.957%, time: 4.651s
+[2025-10-27 02:11:51] TSPTester_repair.py(279) : episode  75/228, Elapsed[2.20m], Remain[4.50m]
+[2025-10-27 02:11:55] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10004, gap:8.361639 %,  Elapsed[2.28m], stu_l:12461543.000000 , opt_l:11499958.000000
+[2025-10-27 02:11:55] TSPTester_repair.py(270) : Instance: portcgen-1000-10004, dim: 1000, teacher: 11499958.000000, student: 12461543.000000, gap: 8.362%, time: 4.645s
+[2025-10-27 02:11:55] TSPTester_repair.py(279) : episode  76/228, Elapsed[2.28m], Remain[4.56m]
+[2025-10-27 02:12:00] TSPTester_repair.py(567) : greedy, name:portcgen-1000-1000, gap:14.144298 %,  Elapsed[2.36m], stu_l:12998102.000000 , opt_l:11387430.000000
+[2025-10-27 02:12:00] TSPTester_repair.py(270) : Instance: portcgen-1000-1000, dim: 1000, teacher: 11387430.000000, student: 12998102.000000, gap: 14.144%, time: 4.650s
+[2025-10-27 02:12:00] TSPTester_repair.py(279) : episode  77/228, Elapsed[2.36m], Remain[4.63m]
+[2025-10-27 02:12:05] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10009, gap:15.140960 %,  Elapsed[2.44m], stu_l:12558421.000000 , opt_l:10906997.000000
+[2025-10-27 02:12:05] TSPTester_repair.py(270) : Instance: portcgen-1000-10009, dim: 1000, teacher: 10906997.000000, student: 12558421.000000, gap: 15.141%, time: 4.664s
+[2025-10-27 02:12:05] TSPTester_repair.py(279) : episode  78/228, Elapsed[2.44m], Remain[4.69m]
+[2025-10-27 02:12:09] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10007, gap:11.284673 %,  Elapsed[2.51m], stu_l:11868132.000000 , opt_l:10664660.000000
+[2025-10-27 02:12:09] TSPTester_repair.py(270) : Instance: portcgen-1000-10007, dim: 1000, teacher: 10664660.000000, student: 11868132.000000, gap: 11.285%, time: 4.647s
+[2025-10-27 02:12:09] TSPTester_repair.py(279) : episode  79/228, Elapsed[2.51m], Remain[4.74m]
+[2025-10-27 02:12:14] TSPTester_repair.py(567) : greedy, name:portcgen-1000-10001, gap:19.316605 %,  Elapsed[2.59m], stu_l:13574334.000000 , opt_l:11376735.000000
+[2025-10-27 02:12:14] TSPTester_repair.py(270) : Instance: portcgen-1000-10001, dim: 1000, teacher: 11376735.000000, student: 13574334.000000, gap: 19.317%, time: 4.674s
+[2025-10-27 02:12:14] TSPTester_repair.py(279) : episode  80/228, Elapsed[2.59m], Remain[4.80m]
+[2025-10-27 02:12:19] TSPTester_repair.py(567) : greedy, name:pr1002, gap:6.703468 %,  Elapsed[2.67m], stu_l:276410.000000 , opt_l:259045.000000
+[2025-10-27 02:12:19] TSPTester_repair.py(270) : Instance: pr1002, dim: 1002, teacher: 259045.000000, student: 276410.000000, gap: 6.703%, time: 4.651s
+[2025-10-27 02:12:19] TSPTester_repair.py(279) : episode  81/228, Elapsed[2.67m], Remain[4.84m]
+[2025-10-27 02:12:23] TSPTester_repair.py(567) : greedy, name:u1060, gap:9.472810 %,  Elapsed[2.75m], stu_l:245322.000000 , opt_l:224094.000000
+[2025-10-27 02:12:23] TSPTester_repair.py(270) : Instance: u1060, dim: 1060, teacher: 224094.000000, student: 245322.000000, gap: 9.473%, time: 4.919s
+[2025-10-27 02:12:23] TSPTester_repair.py(279) : episode  82/228, Elapsed[2.75m], Remain[4.90m]
+[2025-10-27 02:12:28] TSPTester_repair.py(567) : greedy, name:xit1083, gap:6.267566 %,  Elapsed[2.84m], stu_l:3781.000000 , opt_l:3558.000000
+[2025-10-27 02:12:28] TSPTester_repair.py(270) : Instance: xit1083, dim: 1083, teacher: 3558.000000, student: 3781.000000, gap: 6.268%, time: 5.032s
+[2025-10-27 02:12:28] TSPTester_repair.py(279) : episode  83/228, Elapsed[2.84m], Remain[4.95m]
+[2025-10-27 02:12:34] TSPTester_repair.py(567) : greedy, name:vm1084, gap:6.582615 %,  Elapsed[2.92m], stu_l:255049.000000 , opt_l:239297.000000
+[2025-10-27 02:12:34] TSPTester_repair.py(270) : Instance: vm1084, dim: 1084, teacher: 239297.000000, student: 255049.000000, gap: 6.583%, time: 5.030s
+[2025-10-27 02:12:34] TSPTester_repair.py(279) : episode  84/228, Elapsed[2.92m], Remain[5.00m]
+[2025-10-27 02:12:39] TSPTester_repair.py(567) : greedy, name:pcb1173, gap:9.240315 %,  Elapsed[3.01m], stu_l:62149.000000 , opt_l:56892.000000
+[2025-10-27 02:12:39] TSPTester_repair.py(270) : Instance: pcb1173, dim: 1173, teacher: 56892.000000, student: 62149.000000, gap: 9.240%, time: 5.438s
+[2025-10-27 02:12:39] TSPTester_repair.py(279) : episode  85/228, Elapsed[3.01m], Remain[5.06m]
+[2025-10-27 02:12:45] TSPTester_repair.py(567) : greedy, name:d1291, gap:10.682861 %,  Elapsed[3.11m], stu_l:56228.000000 , opt_l:50801.000000
+[2025-10-27 02:12:45] TSPTester_repair.py(270) : Instance: d1291, dim: 1291, teacher: 50801.000000, student: 56228.000000, gap: 10.683%, time: 5.999s
+[2025-10-27 02:12:45] TSPTester_repair.py(279) : episode  86/228, Elapsed[3.11m], Remain[5.13m]
+[2025-10-27 02:12:51] TSPTester_repair.py(567) : greedy, name:rl1304, gap:11.196768 %,  Elapsed[3.21m], stu_l:281270.000000 , opt_l:252948.000000
+[2025-10-27 02:12:51] TSPTester_repair.py(270) : Instance: rl1304, dim: 1304, teacher: 252948.000000, student: 281270.000000, gap: 11.197%, time: 6.050s
+[2025-10-27 02:12:51] TSPTester_repair.py(279) : episode  87/228, Elapsed[3.21m], Remain[5.20m]
+[2025-10-27 02:12:57] TSPTester_repair.py(567) : greedy, name:rl1323, gap:8.389002 %,  Elapsed[3.31m], stu_l:292866.000000 , opt_l:270199.000000
+[2025-10-27 02:12:57] TSPTester_repair.py(270) : Instance: rl1323, dim: 1323, teacher: 270199.000000, student: 292866.000000, gap: 8.389%, time: 6.142s
+[2025-10-27 02:12:57] TSPTester_repair.py(279) : episode  88/228, Elapsed[3.31m], Remain[5.27m]
+[2025-10-27 02:13:04] TSPTester_repair.py(567) : greedy, name:dka1376, gap:8.508358 %,  Elapsed[3.42m], stu_l:5063.000000 , opt_l:4666.000000
+[2025-10-27 02:13:04] TSPTester_repair.py(270) : Instance: dka1376, dim: 1376, teacher: 4666.000000, student: 5063.000000, gap: 8.508%, time: 6.390s
+[2025-10-27 02:13:04] TSPTester_repair.py(279) : episode  89/228, Elapsed[3.42m], Remain[5.34m]
+[2025-10-27 02:13:10] TSPTester_repair.py(567) : greedy, name:nrw1379, gap:14.998764 %,  Elapsed[3.53m], stu_l:65133.000000 , opt_l:56638.000000
+[2025-10-27 02:13:10] TSPTester_repair.py(270) : Instance: nrw1379, dim: 1379, teacher: 56638.000000, student: 65133.000000, gap: 14.999%, time: 6.400s
+[2025-10-27 02:13:10] TSPTester_repair.py(279) : episode  90/228, Elapsed[3.53m], Remain[5.41m]
+[2025-10-27 02:13:16] TSPTester_repair.py(567) : greedy, name:dca1389, gap:12.625369 %,  Elapsed[3.63m], stu_l:5727.000000 , opt_l:5085.000000
+[2025-10-27 02:13:16] TSPTester_repair.py(270) : Instance: dca1389, dim: 1389, teacher: 5085.000000, student: 5727.000000, gap: 12.625%, time: 6.452s
+[2025-10-27 02:13:16] TSPTester_repair.py(279) : episode  91/228, Elapsed[3.63m], Remain[5.47m]
+[2025-10-27 02:13:23] TSPTester_repair.py(567) : greedy, name:fl1400, gap:16.679087 %,  Elapsed[3.74m], stu_l:23484.000000 , opt_l:20127.000000
+[2025-10-27 02:13:23] TSPTester_repair.py(270) : Instance: fl1400, dim: 1400, teacher: 20127.000000, student: 23484.000000, gap: 16.679%, time: 6.509s
+[2025-10-27 02:13:23] TSPTester_repair.py(279) : episode  92/228, Elapsed[3.74m], Remain[5.53m]
+[2025-10-27 02:13:30] TSPTester_repair.py(567) : greedy, name:u1432, gap:9.708440 %,  Elapsed[3.85m], stu_l:167821.000000 , opt_l:152970.000000
+[2025-10-27 02:13:30] TSPTester_repair.py(270) : Instance: u1432, dim: 1432, teacher: 152970.000000, student: 167821.000000, gap: 9.708%, time: 6.656s
+[2025-10-27 02:13:30] TSPTester_repair.py(279) : episode  93/228, Elapsed[3.85m], Remain[5.59m]
+[2025-10-27 02:13:36] TSPTester_repair.py(567) : greedy, name:dja1436, gap:14.114514 %,  Elapsed[3.96m], stu_l:5999.000000 , opt_l:5257.000000
+[2025-10-27 02:13:36] TSPTester_repair.py(270) : Instance: dja1436, dim: 1436, teacher: 5257.000000, student: 5999.000000, gap: 14.115%, time: 6.669s
+[2025-10-27 02:13:36] TSPTester_repair.py(279) : episode  94/228, Elapsed[3.96m], Remain[5.65m]
+[2025-10-27 02:13:43] TSPTester_repair.py(567) : greedy, name:icw1483, gap:13.088769 %,  Elapsed[4.08m], stu_l:4994.000000 , opt_l:4416.000000
+[2025-10-27 02:13:43] TSPTester_repair.py(270) : Instance: icw1483, dim: 1483, teacher: 4416.000000, student: 4994.000000, gap: 13.089%, time: 6.888s
+[2025-10-27 02:13:43] TSPTester_repair.py(279) : episode  95/228, Elapsed[4.08m], Remain[5.71m]
+[2025-10-27 02:13:50] TSPTester_repair.py(567) : greedy, name:fra1488, gap:10.999062 %,  Elapsed[4.19m], stu_l:4733.000000 , opt_l:4264.000000
+[2025-10-27 02:13:50] TSPTester_repair.py(270) : Instance: fra1488, dim: 1488, teacher: 4264.000000, student: 4733.000000, gap: 10.999%, time: 6.912s
+[2025-10-27 02:13:50] TSPTester_repair.py(279) : episode  96/228, Elapsed[4.19m], Remain[5.77m]
+[2025-10-27 02:13:57] TSPTester_repair.py(567) : greedy, name:fl1577, gap:16.985033 %,  Elapsed[4.32m], stu_l:26028.000000 , opt_l:22249.000000
+[2025-10-27 02:13:57] TSPTester_repair.py(270) : Instance: fl1577, dim: 1577, teacher: 22249.000000, student: 26028.000000, gap: 16.985%, time: 7.331s
+[2025-10-27 02:13:57] TSPTester_repair.py(279) : episode  97/228, Elapsed[4.32m], Remain[5.83m]
+[2025-10-27 02:14:05] TSPTester_repair.py(567) : greedy, name:rbv1583, gap:9.689994 %,  Elapsed[4.44m], stu_l:5909.000000 , opt_l:5387.000000
+[2025-10-27 02:14:05] TSPTester_repair.py(270) : Instance: rbv1583, dim: 1583, teacher: 5387.000000, student: 5909.000000, gap: 9.690%, time: 7.367s
+[2025-10-27 02:14:05] TSPTester_repair.py(279) : episode  98/228, Elapsed[4.44m], Remain[5.89m]
+[2025-10-27 02:14:12] TSPTester_repair.py(567) : greedy, name:rby1599, gap:9.831917 %,  Elapsed[4.56m], stu_l:6077.000000 , opt_l:5533.000000
+[2025-10-27 02:14:12] TSPTester_repair.py(270) : Instance: rby1599, dim: 1599, teacher: 5533.000000, student: 6077.000000, gap: 9.832%, time: 7.474s
+[2025-10-27 02:14:12] TSPTester_repair.py(279) : episode  99/228, Elapsed[4.56m], Remain[5.95m]
+[2025-10-27 02:14:20] TSPTester_repair.py(567) : greedy, name:fnb1615, gap:15.899919 %,  Elapsed[4.69m], stu_l:5744.000000 , opt_l:4956.000000
+[2025-10-27 02:14:20] TSPTester_repair.py(270) : Instance: fnb1615, dim: 1615, teacher: 4956.000000, student: 5744.000000, gap: 15.900%, time: 7.501s
+[2025-10-27 02:14:20] TSPTester_repair.py(279) : episode 100/228, Elapsed[4.69m], Remain[6.00m]
+[2025-10-27 02:14:27] TSPTester_repair.py(567) : greedy, name:rw1621, gap:39.545506 %,  Elapsed[4.81m], stu_l:36353.000000 , opt_l:26051.000000
+[2025-10-27 02:14:27] TSPTester_repair.py(270) : Instance: rw1621, dim: 1621, teacher: 26051.000000, student: 36353.000000, gap: 39.546%, time: 7.526s
+[2025-10-27 02:14:27] TSPTester_repair.py(279) : episode 101/228, Elapsed[4.81m], Remain[6.05m]
+[2025-10-27 02:14:35] TSPTester_repair.py(567) : greedy, name:d1655, gap:14.082217 %,  Elapsed[4.94m], stu_l:70877.000000 , opt_l:62128.000000
+[2025-10-27 02:14:35] TSPTester_repair.py(270) : Instance: d1655, dim: 1655, teacher: 62128.000000, student: 70877.000000, gap: 14.082%, time: 7.686s
+[2025-10-27 02:14:35] TSPTester_repair.py(279) : episode 102/228, Elapsed[4.94m], Remain[6.11m]
+[2025-10-27 02:14:43] TSPTester_repair.py(567) : greedy, name:vm1748, gap:11.982850 %,  Elapsed[5.08m], stu_l:376885.000000 , opt_l:336556.000000
+[2025-10-27 02:14:43] TSPTester_repair.py(270) : Instance: vm1748, dim: 1748, teacher: 336556.000000, student: 376885.000000, gap: 11.983%, time: 8.124s
+[2025-10-27 02:14:43] TSPTester_repair.py(279) : episode 103/228, Elapsed[5.08m], Remain[6.16m]
+[2025-10-27 02:14:51] TSPTester_repair.py(567) : greedy, name:djc1785, gap:14.112838 %,  Elapsed[5.22m], stu_l:6978.000000 , opt_l:6115.000000
+[2025-10-27 02:14:51] TSPTester_repair.py(270) : Instance: djc1785, dim: 1785, teacher: 6115.000000, student: 6978.000000, gap: 14.113%, time: 8.298s
+[2025-10-27 02:14:51] TSPTester_repair.py(279) : episode 104/228, Elapsed[5.22m], Remain[6.22m]
+[2025-10-27 02:15:00] TSPTester_repair.py(567) : greedy, name:u1817, gap:12.342442 %,  Elapsed[5.36m], stu_l:64261.000000 , opt_l:57201.000000
+[2025-10-27 02:15:00] TSPTester_repair.py(270) : Instance: u1817, dim: 1817, teacher: 57201.000000, student: 64261.000000, gap: 12.342%, time: 8.452s
+[2025-10-27 02:15:00] TSPTester_repair.py(279) : episode 105/228, Elapsed[5.36m], Remain[6.28m]
+[2025-10-27 02:15:09] TSPTester_repair.py(567) : greedy, name:rl1889, gap:17.582518 %,  Elapsed[5.50m], stu_l:372191.000000 , opt_l:316536.000000
+[2025-10-27 02:15:09] TSPTester_repair.py(270) : Instance: rl1889, dim: 1889, teacher: 316536.000000, student: 372191.000000, gap: 17.583%, time: 8.778s
+[2025-10-27 02:15:09] TSPTester_repair.py(279) : episode 106/228, Elapsed[5.50m], Remain[6.33m]
+[2025-10-27 02:15:17] TSPTester_repair.py(567) : greedy, name:dcc1911, gap:12.101313 %,  Elapsed[5.65m], stu_l:7170.000000 , opt_l:6396.000000
+[2025-10-27 02:15:17] TSPTester_repair.py(270) : Instance: dcc1911, dim: 1911, teacher: 6396.000000, student: 7170.000000, gap: 12.101%, time: 8.885s
+[2025-10-27 02:15:17] TSPTester_repair.py(279) : episode 107/228, Elapsed[5.65m], Remain[6.39m]
+[2025-10-27 02:15:27] TSPTester_repair.py(567) : greedy, name:dkd1973, gap:15.106681 %,  Elapsed[5.80m], stu_l:7391.000000 , opt_l:6421.000000
+[2025-10-27 02:15:27] TSPTester_repair.py(270) : Instance: dkd1973, dim: 1973, teacher: 6421.000000, student: 7391.000000, gap: 15.107%, time: 9.173s
+[2025-10-27 02:15:27] TSPTester_repair.py(279) : episode 108/228, Elapsed[5.80m], Remain[6.45m]
+[2025-10-27 02:15:36] TSPTester_repair.py(567) : greedy, name:mu1979, gap:31.809968 %,  Elapsed[5.96m], stu_l:114531.000000 , opt_l:86891.000000
+[2025-10-27 02:15:36] TSPTester_repair.py(270) : Instance: mu1979, dim: 1979, teacher: 86891.000000, student: 114531.000000, gap: 31.810%, time: 9.196s
+[2025-10-27 02:15:36] TSPTester_repair.py(279) : episode 109/228, Elapsed[5.96m], Remain[6.50m]
+[2025-10-27 02:15:45] TSPTester_repair.py(567) : greedy, name:djb2036, gap:14.248830 %,  Elapsed[6.12m], stu_l:7080.000000 , opt_l:6197.000000
+[2025-10-27 02:15:45] TSPTester_repair.py(270) : Instance: djb2036, dim: 2036, teacher: 6197.000000, student: 7080.000000, gap: 14.249%, time: 9.461s
+[2025-10-27 02:15:45] TSPTester_repair.py(279) : episode 110/228, Elapsed[6.12m], Remain[6.56m]
+[2025-10-27 02:15:55] TSPTester_repair.py(567) : greedy, name:dcb2086, gap:10.303030 %,  Elapsed[6.28m], stu_l:7280.000000 , opt_l:6600.000000
+[2025-10-27 02:15:55] TSPTester_repair.py(270) : Instance: dcb2086, dim: 2086, teacher: 6600.000000, student: 7280.000000, gap: 10.303%, time: 9.697s
+[2025-10-27 02:15:55] TSPTester_repair.py(279) : episode 111/228, Elapsed[6.28m], Remain[6.62m]
+[2025-10-27 02:16:05] TSPTester_repair.py(567) : greedy, name:d2103, gap:5.863269 %,  Elapsed[6.44m], stu_l:85167.000000 , opt_l:80450.000000
+[2025-10-27 02:16:05] TSPTester_repair.py(270) : Instance: d2103, dim: 2103, teacher: 80450.000000, student: 85167.000000, gap: 5.863%, time: 9.774s
+[2025-10-27 02:16:05] TSPTester_repair.py(279) : episode 112/228, Elapsed[6.44m], Remain[6.67m]
+[2025-10-27 02:16:15] TSPTester_repair.py(567) : greedy, name:bva2144, gap:14.149746 %,  Elapsed[6.61m], stu_l:7196.000000 , opt_l:6304.000000
+[2025-10-27 02:16:15] TSPTester_repair.py(270) : Instance: bva2144, dim: 2144, teacher: 6304.000000, student: 7196.000000, gap: 14.150%, time: 9.963s
+[2025-10-27 02:16:15] TSPTester_repair.py(279) : episode 113/228, Elapsed[6.61m], Remain[6.72m]
+[2025-10-27 02:16:25] TSPTester_repair.py(567) : greedy, name:u2152, gap:12.796290 %,  Elapsed[6.77m], stu_l:72475.000000 , opt_l:64253.000000
+[2025-10-27 02:16:25] TSPTester_repair.py(270) : Instance: u2152, dim: 2152, teacher: 64253.000000, student: 72475.000000, gap: 12.796%, time: 9.995s
+[2025-10-27 02:16:25] TSPTester_repair.py(279) : episode 114/228, Elapsed[6.77m], Remain[6.77m]
+[2025-10-27 02:16:35] TSPTester_repair.py(567) : greedy, name:xqc2175, gap:13.396779 %,  Elapsed[6.94m], stu_l:7745.000000 , opt_l:6830.000000
+[2025-10-27 02:16:35] TSPTester_repair.py(270) : Instance: xqc2175, dim: 2175, teacher: 6830.000000, student: 7745.000000, gap: 13.397%, time: 10.107s
+[2025-10-27 02:16:35] TSPTester_repair.py(279) : episode 115/228, Elapsed[6.94m], Remain[6.82m]
+[2025-10-27 02:16:45] TSPTester_repair.py(567) : greedy, name:bck2217, gap:11.457717 %,  Elapsed[7.11m], stu_l:7539.000000 , opt_l:6764.000000
+[2025-10-27 02:16:45] TSPTester_repair.py(270) : Instance: bck2217, dim: 2217, teacher: 6764.000000, student: 7539.000000, gap: 11.458%, time: 10.300s
+[2025-10-27 02:16:45] TSPTester_repair.py(279) : episode 116/228, Elapsed[7.11m], Remain[6.87m]
+[2025-10-27 02:16:56] TSPTester_repair.py(567) : greedy, name:xpr2308, gap:9.987533 %,  Elapsed[7.29m], stu_l:7940.000000 , opt_l:7219.000000
+[2025-10-27 02:16:56] TSPTester_repair.py(270) : Instance: xpr2308, dim: 2308, teacher: 7219.000000, student: 7940.000000, gap: 9.988%, time: 10.726s
+[2025-10-27 02:16:56] TSPTester_repair.py(279) : episode 117/228, Elapsed[7.29m], Remain[6.92m]
+[2025-10-27 02:17:07] TSPTester_repair.py(567) : greedy, name:u2319, gap:8.084745 %,  Elapsed[7.47m], stu_l:253195.000000 , opt_l:234256.000000
+[2025-10-27 02:17:07] TSPTester_repair.py(270) : Instance: u2319, dim: 2319, teacher: 234256.000000, student: 253195.000000, gap: 8.085%, time: 10.776s
+[2025-10-27 02:17:07] TSPTester_repair.py(279) : episode 118/228, Elapsed[7.47m], Remain[6.96m]
+[2025-10-27 02:17:17] TSPTester_repair.py(567) : greedy, name:ley2323, gap:15.948276 %,  Elapsed[7.65m], stu_l:9684.000000 , opt_l:8352.000000
+[2025-10-27 02:17:17] TSPTester_repair.py(270) : Instance: ley2323, dim: 2323, teacher: 8352.000000, student: 9684.000000, gap: 15.948%, time: 10.803s
+[2025-10-27 02:17:17] TSPTester_repair.py(279) : episode 119/228, Elapsed[7.65m], Remain[7.01m]
+[2025-10-27 02:17:29] TSPTester_repair.py(567) : greedy, name:dea2382, gap:22.414869 %,  Elapsed[7.84m], stu_l:9814.000000 , opt_l:8017.000000
+[2025-10-27 02:17:29] TSPTester_repair.py(270) : Instance: dea2382, dim: 2382, teacher: 8017.000000, student: 9814.000000, gap: 22.415%, time: 11.072s
+[2025-10-27 02:17:29] TSPTester_repair.py(279) : episode 120/228, Elapsed[7.84m], Remain[7.05m]
+[2025-10-27 02:17:40] TSPTester_repair.py(567) : greedy, name:pr2392, gap:12.976150 %,  Elapsed[8.02m], stu_l:427086.000000 , opt_l:378032.000000
+[2025-10-27 02:17:40] TSPTester_repair.py(270) : Instance: pr2392, dim: 2392, teacher: 378032.000000, student: 427086.000000, gap: 12.976%, time: 11.130s
+[2025-10-27 02:17:40] TSPTester_repair.py(279) : episode 121/228, Elapsed[8.02m], Remain[7.09m]
+[2025-10-27 02:17:51] TSPTester_repair.py(567) : greedy, name:rbw2481, gap:15.937339 %,  Elapsed[8.21m], stu_l:8955.000000 , opt_l:7724.000000
+[2025-10-27 02:17:51] TSPTester_repair.py(270) : Instance: rbw2481, dim: 2481, teacher: 7724.000000, student: 8955.000000, gap: 15.937%, time: 11.527s
+[2025-10-27 02:17:51] TSPTester_repair.py(279) : episode 122/228, Elapsed[8.21m], Remain[7.14m]
+[2025-10-27 02:18:03] TSPTester_repair.py(567) : greedy, name:pds2566, gap:14.496925 %,  Elapsed[8.41m], stu_l:8751.000000 , opt_l:7643.000000
+[2025-10-27 02:18:03] TSPTester_repair.py(270) : Instance: pds2566, dim: 2566, teacher: 7643.000000, student: 8751.000000, gap: 14.497%, time: 11.929s
+[2025-10-27 02:18:03] TSPTester_repair.py(279) : episode 123/228, Elapsed[8.41m], Remain[7.18m]
+[2025-10-27 02:18:15] TSPTester_repair.py(567) : greedy, name:mlt2597, gap:18.585058 %,  Elapsed[8.61m], stu_l:9571.000000 , opt_l:8071.000000
+[2025-10-27 02:18:15] TSPTester_repair.py(270) : Instance: mlt2597, dim: 2597, teacher: 8071.000000, student: 9571.000000, gap: 18.585%, time: 12.067s
+[2025-10-27 02:18:15] TSPTester_repair.py(279) : episode 124/228, Elapsed[8.61m], Remain[7.22m]
+[2025-10-27 02:18:28] TSPTester_repair.py(567) : greedy, name:bch2762, gap:10.820986 %,  Elapsed[8.83m], stu_l:9125.000000 , opt_l:8234.000000
+[2025-10-27 02:18:28] TSPTester_repair.py(270) : Instance: bch2762, dim: 2762, teacher: 8234.000000, student: 9125.000000, gap: 10.821%, time: 12.833s
+[2025-10-27 02:18:28] TSPTester_repair.py(279) : episode 125/228, Elapsed[8.83m], Remain[7.27m]
+[2025-10-27 02:18:41] TSPTester_repair.py(567) : greedy, name:irw2802, gap:18.603823 %,  Elapsed[9.04m], stu_l:9990.000000 , opt_l:8423.000000
+[2025-10-27 02:18:41] TSPTester_repair.py(270) : Instance: irw2802, dim: 2802, teacher: 8423.000000, student: 9990.000000, gap: 18.604%, time: 13.029s
+[2025-10-27 02:18:41] TSPTester_repair.py(279) : episode 126/228, Elapsed[9.04m], Remain[7.32m]
+[2025-10-27 02:18:54] TSPTester_repair.py(567) : greedy, name:lsm2854, gap:15.759920 %,  Elapsed[9.27m], stu_l:9277.000000 , opt_l:8014.000000
+[2025-10-27 02:18:54] TSPTester_repair.py(270) : Instance: lsm2854, dim: 2854, teacher: 8014.000000, student: 9277.000000, gap: 15.760%, time: 13.272s
+[2025-10-27 02:18:54] TSPTester_repair.py(279) : episode 127/228, Elapsed[9.27m], Remain[7.37m]
+[2025-10-27 02:19:08] TSPTester_repair.py(567) : greedy, name:dbj2924, gap:13.141786 %,  Elapsed[9.49m], stu_l:11459.000000 , opt_l:10128.000000
+[2025-10-27 02:19:08] TSPTester_repair.py(270) : Instance: dbj2924, dim: 2924, teacher: 10128.000000, student: 11459.000000, gap: 13.142%, time: 13.597s
+[2025-10-27 02:19:08] TSPTester_repair.py(279) : episode 128/228, Elapsed[9.49m], Remain[7.42m]
+[2025-10-27 02:19:22] TSPTester_repair.py(567) : greedy, name:xva2993, gap:15.873763 %,  Elapsed[9.72m], stu_l:9840.000000 , opt_l:8492.000000
+[2025-10-27 02:19:22] TSPTester_repair.py(270) : Instance: xva2993, dim: 2993, teacher: 8492.000000, student: 9840.000000, gap: 15.874%, time: 13.911s
+[2025-10-27 02:19:22] TSPTester_repair.py(279) : episode 129/228, Elapsed[9.72m], Remain[7.46m]
+[2025-10-27 02:19:36] TSPTester_repair.py(567) : greedy, name:pcb3038, gap:12.962076 %,  Elapsed[9.96m], stu_l:155542.000000 , opt_l:137694.000000
+[2025-10-27 02:19:36] TSPTester_repair.py(270) : Instance: pcb3038, dim: 3038, teacher: 137694.000000, student: 155542.000000, gap: 12.962%, time: 14.128s
+[2025-10-27 02:19:36] TSPTester_repair.py(279) : episode 130/228, Elapsed[9.96m], Remain[7.51m]
+[2025-10-27 02:19:50] TSPTester_repair.py(567) : greedy, name:pia3056, gap:15.621215 %,  Elapsed[10.20m], stu_l:9548.000000 , opt_l:8258.000000
+[2025-10-27 02:19:50] TSPTester_repair.py(270) : Instance: pia3056, dim: 3056, teacher: 8258.000000, student: 9548.000000, gap: 15.621%, time: 14.215s
+[2025-10-27 02:19:50] TSPTester_repair.py(279) : episode 131/228, Elapsed[10.20m], Remain[7.55m]
+[2025-10-27 02:20:05] TSPTester_repair.py(567) : greedy, name:dke3097, gap:15.675111 %,  Elapsed[10.44m], stu_l:12191.000000 , opt_l:10539.000000
+[2025-10-27 02:20:05] TSPTester_repair.py(270) : Instance: dke3097, dim: 3097, teacher: 10539.000000, student: 12191.000000, gap: 15.675%, time: 14.397s
+[2025-10-27 02:20:05] TSPTester_repair.py(279) : episode 132/228, Elapsed[10.44m], Remain[7.59m]
+[2025-10-27 02:20:19] TSPTester_repair.py(567) : greedy, name:lsn3119, gap:14.208910 %,  Elapsed[10.68m], stu_l:10409.000000 , opt_l:9114.000000
+[2025-10-27 02:20:19] TSPTester_repair.py(270) : Instance: lsn3119, dim: 3119, teacher: 9114.000000, student: 10409.000000, gap: 14.209%, time: 14.503s
+[2025-10-27 02:20:19] TSPTester_repair.py(279) : episode 133/228, Elapsed[10.68m], Remain[7.63m]
+[2025-10-27 02:20:34] TSPTester_repair.py(567) : greedy, name:lta3140, gap:16.486287 %,  Elapsed[10.92m], stu_l:11086.000000 , opt_l:9517.000000
+[2025-10-27 02:20:34] TSPTester_repair.py(270) : Instance: lta3140, dim: 3140, teacher: 9517.000000, student: 11086.000000, gap: 16.486%, time: 14.607s
+[2025-10-27 02:20:34] TSPTester_repair.py(279) : episode 134/228, Elapsed[10.92m], Remain[7.66m]
+[2025-10-27 02:20:48] TSPTester_repair.py(567) : greedy, name:portcgen-3162-31622, gap:21.105875 %,  Elapsed[11.17m], stu_l:23673234.000000 , opt_l:19547552.000000
+[2025-10-27 02:20:48] TSPTester_repair.py(270) : Instance: portcgen-3162-31622, dim: 3162, teacher: 19547552.000000, student: 23673234.000000, gap: 21.106%, time: 14.704s
+[2025-10-27 02:20:48] TSPTester_repair.py(279) : episode 135/228, Elapsed[11.17m], Remain[7.69m]
+[2025-10-27 02:21:03] TSPTester_repair.py(567) : greedy, name:portcgen-3162-3162, gap:21.363240 %,  Elapsed[11.41m], stu_l:23299628.000000 , opt_l:19198258.000000
+[2025-10-27 02:21:03] TSPTester_repair.py(270) : Instance: portcgen-3162-3162, dim: 3162, teacher: 19198258.000000, student: 23299628.000000, gap: 21.363%, time: 14.709s
+[2025-10-27 02:21:03] TSPTester_repair.py(279) : episode 136/228, Elapsed[11.41m], Remain[7.72m]
+[2025-10-27 02:21:18] TSPTester_repair.py(567) : greedy, name:portcgen-3162-31621, gap:20.948707 %,  Elapsed[11.66m], stu_l:23001788.000000 , opt_l:19017804.000000
+[2025-10-27 02:21:18] TSPTester_repair.py(270) : Instance: portcgen-3162-31621, dim: 3162, teacher: 19017804.000000, student: 23001788.000000, gap: 20.949%, time: 14.695s
+[2025-10-27 02:21:18] TSPTester_repair.py(279) : episode 137/228, Elapsed[11.66m], Remain[7.74m]
+[2025-10-27 02:21:32] TSPTester_repair.py(567) : greedy, name:portcgen-3162-31623, gap:23.493640 %,  Elapsed[11.90m], stu_l:23597792.000000 , opt_l:19108508.000000
+[2025-10-27 02:21:32] TSPTester_repair.py(270) : Instance: portcgen-3162-31623, dim: 3162, teacher: 19108508.000000, student: 23597792.000000, gap: 23.494%, time: 14.702s
+[2025-10-27 02:21:32] TSPTester_repair.py(279) : episode 138/228, Elapsed[11.90m], Remain[7.76m]
+[2025-10-27 02:21:47] TSPTester_repair.py(567) : greedy, name:portcgen-3162-31624, gap:19.002806 %,  Elapsed[12.15m], stu_l:22448744.000000 , opt_l:18864046.000000
+[2025-10-27 02:21:47] TSPTester_repair.py(270) : Instance: portcgen-3162-31624, dim: 3162, teacher: 18864046.000000, student: 22448744.000000, gap: 19.003%, time: 14.705s
+[2025-10-27 02:21:47] TSPTester_repair.py(279) : episode 139/228, Elapsed[12.15m], Remain[7.78m]
+[2025-10-27 02:22:02] TSPTester_repair.py(567) : greedy, name:fdp3256, gap:21.922462 %,  Elapsed[12.40m], stu_l:12202.000000 , opt_l:10008.000000
+[2025-10-27 02:22:02] TSPTester_repair.py(270) : Instance: fdp3256, dim: 3256, teacher: 10008.000000, student: 12202.000000, gap: 21.922%, time: 15.142s
+[2025-10-27 02:22:02] TSPTester_repair.py(279) : episode 140/228, Elapsed[12.40m], Remain[7.79m]
+[2025-10-27 02:22:18] TSPTester_repair.py(567) : greedy, name:beg3293, gap:22.370037 %,  Elapsed[12.65m], stu_l:11958.000000 , opt_l:9772.000000
+[2025-10-27 02:22:18] TSPTester_repair.py(270) : Instance: beg3293, dim: 3293, teacher: 9772.000000, student: 11958.000000, gap: 22.370%, time: 15.309s
+[2025-10-27 02:22:18] TSPTester_repair.py(279) : episode 141/228, Elapsed[12.65m], Remain[7.81m]
+[2025-10-27 02:22:33] TSPTester_repair.py(567) : greedy, name:dhb3386, gap:16.683128 %,  Elapsed[12.92m], stu_l:12995.000000 , opt_l:11137.000000
+[2025-10-27 02:22:33] TSPTester_repair.py(270) : Instance: dhb3386, dim: 3386, teacher: 11137.000000, student: 12995.000000, gap: 16.683%, time: 15.747s
+[2025-10-27 02:22:33] TSPTester_repair.py(279) : episode 142/228, Elapsed[12.92m], Remain[7.82m]
+[2025-10-27 02:22:50] TSPTester_repair.py(567) : greedy, name:nu3496, gap:37.447467 %,  Elapsed[13.19m], stu_l:132131.000000 , opt_l:96132.000000
+[2025-10-27 02:22:50] TSPTester_repair.py(270) : Instance: nu3496, dim: 3496, teacher: 96132.000000, student: 132131.000000, gap: 37.447%, time: 16.254s
+[2025-10-27 02:22:50] TSPTester_repair.py(279) : episode 143/228, Elapsed[13.19m], Remain[7.84m]
+[2025-10-27 02:23:07] TSPTester_repair.py(567) : greedy, name:fjs3649, gap:30.726919 %,  Elapsed[13.47m], stu_l:12121.000000 , opt_l:9272.000000
+[2025-10-27 02:23:07] TSPTester_repair.py(270) : Instance: fjs3649, dim: 3649, teacher: 9272.000000, student: 12121.000000, gap: 30.727%, time: 16.975s
+[2025-10-27 02:23:07] TSPTester_repair.py(279) : episode 144/228, Elapsed[13.47m], Remain[7.86m]
+[2025-10-27 02:23:24] TSPTester_repair.py(567) : greedy, name:fjr3672, gap:26.893032 %,  Elapsed[13.76m], stu_l:12183.000000 , opt_l:9601.000000
+[2025-10-27 02:23:24] TSPTester_repair.py(270) : Instance: fjr3672, dim: 3672, teacher: 9601.000000, student: 12183.000000, gap: 26.893%, time: 17.082s
+[2025-10-27 02:23:24] TSPTester_repair.py(279) : episode 145/228, Elapsed[13.76m], Remain[7.87m]
+[2025-10-27 02:23:41] TSPTester_repair.py(567) : greedy, name:dlb3694, gap:18.998083 %,  Elapsed[14.04m], stu_l:13041.000000 , opt_l:10959.000000
+[2025-10-27 02:23:41] TSPTester_repair.py(270) : Instance: dlb3694, dim: 3694, teacher: 10959.000000, student: 13041.000000, gap: 18.998%, time: 17.178s
+[2025-10-27 02:23:41] TSPTester_repair.py(279) : episode 146/228, Elapsed[14.04m], Remain[7.89m]
+[2025-10-27 02:23:58] TSPTester_repair.py(567) : greedy, name:ltb3729, gap:20.108283 %,  Elapsed[14.33m], stu_l:14198.000000 , opt_l:11821.000000
+[2025-10-27 02:23:58] TSPTester_repair.py(270) : Instance: ltb3729, dim: 3729, teacher: 11821.000000, student: 14198.000000, gap: 20.108%, time: 17.361s
+[2025-10-27 02:23:58] TSPTester_repair.py(279) : episode 147/228, Elapsed[14.33m], Remain[7.90m]
+[2025-10-27 02:24:16] TSPTester_repair.py(567) : greedy, name:fl3795, gap:20.325316 %,  Elapsed[14.63m], stu_l:34620.000000 , opt_l:28772.000000
+[2025-10-27 02:24:16] TSPTester_repair.py(270) : Instance: fl3795, dim: 3795, teacher: 28772.000000, student: 34620.000000, gap: 20.325%, time: 17.661s
+[2025-10-27 02:24:16] TSPTester_repair.py(279) : episode 148/228, Elapsed[14.63m], Remain[7.91m]
+[2025-10-27 02:24:34] TSPTester_repair.py(567) : greedy, name:xqe3891, gap:20.733640 %,  Elapsed[14.93m], stu_l:14482.000000 , opt_l:11995.000000
+[2025-10-27 02:24:34] TSPTester_repair.py(270) : Instance: xqe3891, dim: 3891, teacher: 11995.000000, student: 14482.000000, gap: 20.734%, time: 18.108s
+[2025-10-27 02:24:34] TSPTester_repair.py(279) : episode 149/228, Elapsed[14.93m], Remain[7.91m]
+[2025-10-27 02:24:52] TSPTester_repair.py(567) : greedy, name:xua3937, gap:19.903906 %,  Elapsed[15.23m], stu_l:13476.000000 , opt_l:11239.000000
+[2025-10-27 02:24:52] TSPTester_repair.py(270) : Instance: xua3937, dim: 3937, teacher: 11239.000000, student: 13476.000000, gap: 19.904%, time: 18.317s
+[2025-10-27 02:24:52] TSPTester_repair.py(279) : episode 150/228, Elapsed[15.23m], Remain[7.92m]
+[2025-10-27 02:25:11] TSPTester_repair.py(567) : greedy, name:dkc3938, gap:21.250899 %,  Elapsed[15.54m], stu_l:15160.000000 , opt_l:12503.000000
+[2025-10-27 02:25:11] TSPTester_repair.py(270) : Instance: dkc3938, dim: 3938, teacher: 12503.000000, student: 15160.000000, gap: 21.251%, time: 18.324s
+[2025-10-27 02:25:11] TSPTester_repair.py(279) : episode 151/228, Elapsed[15.54m], Remain[7.92m]
+[2025-10-27 02:25:29] TSPTester_repair.py(567) : greedy, name:dkf3954, gap:17.020258 %,  Elapsed[15.84m], stu_l:14672.000000 , opt_l:12538.000000
+[2025-10-27 02:25:29] TSPTester_repair.py(270) : Instance: dkf3954, dim: 3954, teacher: 12538.000000, student: 14672.000000, gap: 17.020%, time: 18.400s
+[2025-10-27 02:25:29] TSPTester_repair.py(279) : episode 152/228, Elapsed[15.84m], Remain[7.92m]
+[2025-10-27 02:25:49] TSPTester_repair.py(567) : greedy, name:bgb4355, gap:19.350782 %,  Elapsed[16.18m], stu_l:15185.000000 , opt_l:12723.000000
+[2025-10-27 02:25:49] TSPTester_repair.py(270) : Instance: bgb4355, dim: 4355, teacher: 12723.000000, student: 15185.000000, gap: 19.351%, time: 20.267s
+[2025-10-27 02:25:49] TSPTester_repair.py(279) : episode 153/228, Elapsed[16.18m], Remain[7.93m]
+[2025-10-27 02:26:10] TSPTester_repair.py(567) : greedy, name:bgd4396, gap:27.442539 %,  Elapsed[16.52m], stu_l:16579.000000 , opt_l:13009.000000
+[2025-10-27 02:26:10] TSPTester_repair.py(270) : Instance: bgd4396, dim: 4396, teacher: 13009.000000, student: 16579.000000, gap: 27.443%, time: 20.445s
+[2025-10-27 02:26:10] TSPTester_repair.py(279) : episode 154/228, Elapsed[16.52m], Remain[7.94m]
+[2025-10-27 02:26:30] TSPTester_repair.py(567) : greedy, name:frv4410, gap:19.671366 %,  Elapsed[16.86m], stu_l:12818.000000 , opt_l:10711.000000
+[2025-10-27 02:26:30] TSPTester_repair.py(270) : Instance: frv4410, dim: 4410, teacher: 10711.000000, student: 12818.000000, gap: 19.671%, time: 20.525s
+[2025-10-27 02:26:30] TSPTester_repair.py(279) : episode 155/228, Elapsed[16.86m], Remain[7.94m]
+[2025-10-27 02:26:51] TSPTester_repair.py(567) : greedy, name:fnl4461, gap:16.607693 %,  Elapsed[17.21m], stu_l:212886.000000 , opt_l:182566.000000
+[2025-10-27 02:26:51] TSPTester_repair.py(270) : Instance: fnl4461, dim: 4461, teacher: 182566.000000, student: 212886.000000, gap: 16.608%, time: 20.779s
+[2025-10-27 02:26:51] TSPTester_repair.py(279) : episode 156/228, Elapsed[17.21m], Remain[7.94m]
+[2025-10-27 02:27:12] TSPTester_repair.py(567) : greedy, name:bgf4475, gap:23.258452 %,  Elapsed[17.56m], stu_l:16296.000000 , opt_l:13221.000000
+[2025-10-27 02:27:12] TSPTester_repair.py(270) : Instance: bgf4475, dim: 4475, teacher: 13221.000000, student: 16296.000000, gap: 23.258%, time: 20.836s
+[2025-10-27 02:27:12] TSPTester_repair.py(279) : episode 157/228, Elapsed[17.56m], Remain[7.94m]
+[2025-10-27 02:27:34] TSPTester_repair.py(567) : greedy, name:ca4663, gap:25.236472 %,  Elapsed[17.92m], stu_l:1615950.000000 , opt_l:1290319.000000
+[2025-10-27 02:27:34] TSPTester_repair.py(270) : Instance: ca4663, dim: 4663, teacher: 1290319.000000, student: 1615950.000000, gap: 25.236%, time: 21.686s
+[2025-10-27 02:27:34] TSPTester_repair.py(279) : episode 158/228, Elapsed[17.92m], Remain[7.94m]
+[2025-10-27 02:27:57] TSPTester_repair.py(567) : greedy, name:xqd4966, gap:23.700705 %,  Elapsed[18.30m], stu_l:18946.000000 , opt_l:15316.000000
+[2025-10-27 02:27:57] TSPTester_repair.py(270) : Instance: xqd4966, dim: 4966, teacher: 15316.000000, student: 18946.000000, gap: 23.701%, time: 23.106s
+[2025-10-27 02:27:57] TSPTester_repair.py(279) : episode 159/228, Elapsed[18.30m], Remain[7.94m]
+[2025-10-27 02:28:20] TSPTester_repair.py(567) : greedy, name:fqm5087, gap:23.071609 %,  Elapsed[18.70m], stu_l:16035.000000 , opt_l:13029.000000
+[2025-10-27 02:28:20] TSPTester_repair.py(270) : Instance: fqm5087, dim: 5087, teacher: 13029.000000, student: 16035.000000, gap: 23.072%, time: 23.676s
+[2025-10-27 02:28:20] TSPTester_repair.py(279) : episode 160/228, Elapsed[18.70m], Remain[7.95m]
+[2025-10-27 02:28:46] TSPTester_repair.py(567) : greedy, name:fea5557, gap:21.146002 %,  Elapsed[19.13m], stu_l:18711.000000 , opt_l:15445.000000
+[2025-10-27 02:28:46] TSPTester_repair.py(270) : Instance: fea5557, dim: 5557, teacher: 15445.000000, student: 18711.000000, gap: 21.146%, time: 25.878s
+[2025-10-27 02:28:46] TSPTester_repair.py(279) : episode 161/228, Elapsed[19.13m], Remain[7.96m]
+[2025-10-27 02:29:14] TSPTester_repair.py(567) : greedy, name:rl5915, gap:19.481902 %,  Elapsed[19.59m], stu_l:675706.000000 , opt_l:565530.000000
+[2025-10-27 02:29:14] TSPTester_repair.py(270) : Instance: rl5915, dim: 5915, teacher: 565530.000000, student: 675706.000000, gap: 19.482%, time: 27.539s
+[2025-10-27 02:29:14] TSPTester_repair.py(279) : episode 162/228, Elapsed[19.59m], Remain[7.98m]
+[2025-10-27 02:29:41] TSPTester_repair.py(567) : greedy, name:rl5934, gap:22.927640 %,  Elapsed[20.05m], stu_l:683533.000000 , opt_l:556045.000000
+[2025-10-27 02:29:41] TSPTester_repair.py(270) : Instance: rl5934, dim: 5934, teacher: 556045.000000, student: 683533.000000, gap: 22.928%, time: 27.641s
+[2025-10-27 02:29:41] TSPTester_repair.py(279) : episode 163/228, Elapsed[20.05m], Remain[8.00m]
+[2025-10-27 02:30:10] TSPTester_repair.py(567) : greedy, name:tz6117, gap:34.542382 %,  Elapsed[20.53m], stu_l:531063.000000 , opt_l:394718.000000
+[2025-10-27 02:30:10] TSPTester_repair.py(270) : Instance: tz6117, dim: 6117, teacher: 394718.000000, student: 531063.000000, gap: 34.542%, time: 28.509s
+[2025-10-27 02:30:10] TSPTester_repair.py(279) : episode 164/228, Elapsed[20.53m], Remain[8.01m]
+[2025-10-27 02:30:42] TSPTester_repair.py(567) : greedy, name:xsc6880, gap:19.661017 %,  Elapsed[21.06m], stu_l:25769.000000 , opt_l:21535.000000
+[2025-10-27 02:30:42] TSPTester_repair.py(270) : Instance: xsc6880, dim: 6880, teacher: 21535.000000, student: 25769.000000, gap: 19.661%, time: 32.049s
+[2025-10-27 02:30:42] TSPTester_repair.py(279) : episode 165/228, Elapsed[21.06m], Remain[8.04m]
+[2025-10-27 02:31:15] TSPTester_repair.py(567) : greedy, name:eg7146, gap:29.435685 %,  Elapsed[21.62m], stu_l:223129.000000 , opt_l:172386.000000
+[2025-10-27 02:31:15] TSPTester_repair.py(270) : Instance: eg7146, dim: 7146, teacher: 172386.000000, student: 223129.000000, gap: 29.436%, time: 33.312s
+[2025-10-27 02:31:15] TSPTester_repair.py(279) : episode 166/228, Elapsed[21.62m], Remain[8.07m]
+[2025-10-27 02:31:49] TSPTester_repair.py(567) : greedy, name:bnd7168, gap:21.145919 %,  Elapsed[22.17m], stu_l:26451.000000 , opt_l:21834.000000
+[2025-10-27 02:31:49] TSPTester_repair.py(270) : Instance: bnd7168, dim: 7168, teacher: 21834.000000, student: 26451.000000, gap: 21.146%, time: 33.423s
+[2025-10-27 02:31:49] TSPTester_repair.py(279) : episode 167/228, Elapsed[22.17m], Remain[8.10m]
+[2025-10-27 02:32:23] TSPTester_repair.py(567) : greedy, name:pla7397, gap:18.433456 %,  Elapsed[22.75m], stu_l:27548484.000000 , opt_l:23260728.000000
+[2025-10-27 02:32:23] TSPTester_repair.py(270) : Instance: pla7397, dim: 7397, teacher: 23260728.000000, student: 27548484.000000, gap: 18.433%, time: 34.496s
+[2025-10-27 02:32:23] TSPTester_repair.py(279) : episode 168/228, Elapsed[22.75m], Remain[8.12m]
+[2025-10-27 02:32:58] TSPTester_repair.py(567) : greedy, name:lap7454, gap:24.857947 %,  Elapsed[23.33m], stu_l:24391.000000 , opt_l:19535.000000
+[2025-10-27 02:32:58] TSPTester_repair.py(270) : Instance: lap7454, dim: 7454, teacher: 19535.000000, student: 24391.000000, gap: 24.858%, time: 34.745s
+[2025-10-27 02:32:58] TSPTester_repair.py(279) : episode 169/228, Elapsed[23.33m], Remain[8.14m]
+[2025-10-27 02:33:34] TSPTester_repair.py(567) : greedy, name:ym7663, gap:39.800012 %,  Elapsed[23.92m], stu_l:333163.000000 , opt_l:238314.000000
+[2025-10-27 02:33:34] TSPTester_repair.py(270) : Instance: ym7663, dim: 7663, teacher: 238314.000000, student: 333163.000000, gap: 39.800%, time: 35.734s
+[2025-10-27 02:33:34] TSPTester_repair.py(279) : episode 170/228, Elapsed[23.92m], Remain[8.16m]
+[2025-10-27 02:34:11] TSPTester_repair.py(567) : greedy, name:pm8079, gap:34.582734 %,  Elapsed[24.55m], stu_l:154575.000000 , opt_l:114855.000000
+[2025-10-27 02:34:11] TSPTester_repair.py(270) : Instance: pm8079, dim: 8079, teacher: 114855.000000, student: 154575.000000, gap: 34.583%, time: 37.690s
+[2025-10-27 02:34:11] TSPTester_repair.py(279) : episode 171/228, Elapsed[24.55m], Remain[8.18m]
+[2025-10-27 02:34:50] TSPTester_repair.py(567) : greedy, name:ida8197, gap:25.924432 %,  Elapsed[25.19m], stu_l:28129.000000 , opt_l:22338.000000
+[2025-10-27 02:34:50] TSPTester_repair.py(270) : Instance: ida8197, dim: 8197, teacher: 22338.000000, student: 28129.000000, gap: 25.924%, time: 38.272s
+[2025-10-27 02:34:50] TSPTester_repair.py(279) : episode 172/228, Elapsed[25.19m], Remain[8.20m]
+[2025-10-27 02:35:28] TSPTester_repair.py(567) : greedy, name:ei8246, gap:44.213298 %,  Elapsed[25.83m], stu_l:297326.000000 , opt_l:206171.000000
+[2025-10-27 02:35:28] TSPTester_repair.py(270) : Instance: ei8246, dim: 8246, teacher: 206171.000000, student: 297326.000000, gap: 44.213%, time: 38.503s
+[2025-10-27 02:35:28] TSPTester_repair.py(279) : episode 173/228, Elapsed[25.83m], Remain[8.21m]
+[2025-10-27 02:36:11] TSPTester_repair.py(567) : greedy, name:ar9152, gap:33.446091 %,  Elapsed[26.54m], stu_l:1117583.000000 , opt_l:837479.000000
+[2025-10-27 02:36:11] TSPTester_repair.py(270) : Instance: ar9152, dim: 9152, teacher: 837479.000000, student: 1117583.000000, gap: 33.446%, time: 42.780s
+[2025-10-27 02:36:11] TSPTester_repair.py(279) : episode 174/228, Elapsed[26.54m], Remain[8.24m]
+[2025-10-27 02:36:56] TSPTester_repair.py(567) : greedy, name:dga9698, gap:24.487808 %,  Elapsed[27.30m], stu_l:34513.000000 , opt_l:27724.000000
+[2025-10-27 02:36:56] TSPTester_repair.py(270) : Instance: dga9698, dim: 9698, teacher: 27724.000000, student: 34513.000000, gap: 24.488%, time: 45.350s
+[2025-10-27 02:36:56] TSPTester_repair.py(279) : episode 175/228, Elapsed[27.30m], Remain[8.27m]
+[2025-10-27 02:37:42] TSPTester_repair.py(567) : greedy, name:ja9847, gap:35.988891 %,  Elapsed[28.07m], stu_l:668962.000000 , opt_l:491924.000000
+[2025-10-27 02:37:42] TSPTester_repair.py(270) : Instance: ja9847, dim: 9847, teacher: 491924.000000, student: 668962.000000, gap: 35.989%, time: 46.002s
+[2025-10-27 02:37:42] TSPTester_repair.py(279) : episode 176/228, Elapsed[28.07m], Remain[8.29m]
+[2025-10-27 02:38:28] TSPTester_repair.py(567) : greedy, name:gr9882, gap:31.402895 %,  Elapsed[28.83m], stu_l:395390.000000 , opt_l:300899.000000
+[2025-10-27 02:38:28] TSPTester_repair.py(270) : Instance: gr9882, dim: 9882, teacher: 300899.000000, student: 395390.000000, gap: 31.403%, time: 46.196s
+[2025-10-27 02:38:28] TSPTester_repair.py(279) : episode 177/228, Elapsed[28.83m], Remain[8.31m]
+[2025-10-27 02:39:15] TSPTester_repair.py(567) : greedy, name:kz9976, gap:29.136410 %,  Elapsed[29.61m], stu_l:1371275.000000 , opt_l:1061881.000000
+[2025-10-27 02:39:15] TSPTester_repair.py(270) : Instance: kz9976, dim: 9976, teacher: 1061881.000000, student: 1371275.000000, gap: 29.136%, time: 46.608s
+[2025-10-27 02:39:15] TSPTester_repair.py(279) : episode 178/228, Elapsed[29.61m], Remain[8.32m]
+[2025-10-27 02:40:02] TSPTester_repair.py(567) : greedy, name:portcgen-10000-100002, gap:30.676997 %,  Elapsed[30.39m], stu_l:43326512.000000 , opt_l:33155424.000000
+[2025-10-27 02:40:02] TSPTester_repair.py(270) : Instance: portcgen-10000-100002, dim: 10000, teacher: 33155424.000000, student: 43326512.000000, gap: 30.677%, time: 46.705s
+[2025-10-27 02:40:02] TSPTester_repair.py(279) : episode 179/228, Elapsed[30.39m], Remain[8.32m]
+[2025-10-27 02:40:49] TSPTester_repair.py(567) : greedy, name:portcgen-10000-100001, gap:28.653267 %,  Elapsed[31.17m], stu_l:42695192.000000 , opt_l:33186248.000000
+[2025-10-27 02:40:49] TSPTester_repair.py(270) : Instance: portcgen-10000-100001, dim: 10000, teacher: 33186248.000000, student: 42695192.000000, gap: 28.653%, time: 46.719s
+[2025-10-27 02:40:49] TSPTester_repair.py(279) : episode 180/228, Elapsed[31.17m], Remain[8.31m]
+[2025-10-27 02:41:35] TSPTester_repair.py(567) : greedy, name:portcgen-10000-10000, gap:30.488300 %,  Elapsed[31.95m], stu_l:43062488.000000 , opt_l:33001034.000000
+[2025-10-27 02:41:35] TSPTester_repair.py(270) : Instance: portcgen-10000-10000, dim: 10000, teacher: 33001034.000000, student: 43062488.000000, gap: 30.488%, time: 46.731s
+[2025-10-27 02:41:35] TSPTester_repair.py(279) : episode 181/228, Elapsed[31.95m], Remain[8.30m]
+[2025-10-27 02:42:23] TSPTester_repair.py(567) : greedy, name:xmc10150, gap:23.612921 %,  Elapsed[32.74m], stu_l:35090.000000 , opt_l:28387.000000
+[2025-10-27 02:42:23] TSPTester_repair.py(270) : Instance: xmc10150, dim: 10150, teacher: 28387.000000, student: 35090.000000, gap: 23.613%, time: 47.414s
+[2025-10-27 02:42:23] TSPTester_repair.py(279) : episode 182/228, Elapsed[32.74m], Remain[8.27m]
+[2025-10-27 02:43:12] TSPTester_repair.py(567) : greedy, name:fi10639, gap:36.196202 %,  Elapsed[33.57m], stu_l:708938.000000 , opt_l:520527.000000
+[2025-10-27 02:43:12] TSPTester_repair.py(270) : Instance: fi10639, dim: 10639, teacher: 520527.000000, student: 708938.000000, gap: 36.196%, time: 49.707s
+[2025-10-27 02:43:12] TSPTester_repair.py(279) : episode 183/228, Elapsed[33.57m], Remain[8.25m]
+[2025-10-27 02:44:08] TSPTester_repair.py(567) : greedy, name:rl11849, gap:24.072553 %,  Elapsed[34.49m], stu_l:1145547.000000 , opt_l:923288.000000
+[2025-10-27 02:44:08] TSPTester_repair.py(270) : Instance: rl11849, dim: 11849, teacher: 923288.000000, student: 1145547.000000, gap: 24.073%, time: 55.358s
+[2025-10-27 02:44:08] TSPTester_repair.py(279) : episode 184/228, Elapsed[34.49m], Remain[8.25m]
+[2025-10-27 02:45:11] TSPTester_repair.py(567) : greedy, name:usa13509, gap:33.611804 %,  Elapsed[35.54m], stu_l:26699460.000000 , opt_l:19982860.000000
+[2025-10-27 02:45:11] TSPTester_repair.py(270) : Instance: usa13509, dim: 13509, teacher: 19982860.000000, student: 26699460.000000, gap: 33.612%, time: 63.097s
+[2025-10-27 02:45:11] TSPTester_repair.py(279) : episode 185/228, Elapsed[35.54m], Remain[8.26m]
+[2025-10-27 02:46:14] TSPTester_repair.py(567) : greedy, name:xvb13584, gap:22.738183 %,  Elapsed[36.60m], stu_l:45515.000000 , opt_l:37083.000000
+[2025-10-27 02:46:14] TSPTester_repair.py(270) : Instance: xvb13584, dim: 13584, teacher: 37083.000000, student: 45515.000000, gap: 22.738%, time: 63.441s
+[2025-10-27 02:46:14] TSPTester_repair.py(279) : episode 186/228, Elapsed[36.60m], Remain[8.26m]
+[2025-10-27 02:47:20] TSPTester_repair.py(567) : greedy, name:brd14051, gap:24.519958 %,  Elapsed[37.69m], stu_l:584478.000000 , opt_l:469385.000000
+[2025-10-27 02:47:20] TSPTester_repair.py(270) : Instance: brd14051, dim: 14051, teacher: 469385.000000, student: 584478.000000, gap: 24.520%, time: 65.517s
+[2025-10-27 02:47:20] TSPTester_repair.py(279) : episode 187/228, Elapsed[37.69m], Remain[8.26m]
+[2025-10-27 02:48:26] TSPTester_repair.py(567) : greedy, name:mo14185, gap:39.283350 %,  Elapsed[38.79m], stu_l:595265.000000 , opt_l:427377.000000
+[2025-10-27 02:48:26] TSPTester_repair.py(270) : Instance: mo14185, dim: 14185, teacher: 427377.000000, student: 595265.000000, gap: 39.283%, time: 66.007s
+[2025-10-27 02:48:26] TSPTester_repair.py(279) : episode 188/228, Elapsed[38.79m], Remain[8.25m]
+[2025-10-27 02:49:32] TSPTester_repair.py(567) : greedy, name:xrb14233, gap:27.262330 %,  Elapsed[39.90m], stu_l:57856.000000 , opt_l:45462.000000
+[2025-10-27 02:49:32] TSPTester_repair.py(270) : Instance: xrb14233, dim: 14233, teacher: 45462.000000, student: 57856.000000, gap: 27.262%, time: 66.493s
+[2025-10-27 02:49:32] TSPTester_repair.py(279) : episode 189/228, Elapsed[39.90m], Remain[8.23m]
+[2025-10-27 02:50:40] TSPTester_repair.py(567) : greedy, name:ho14473, gap:37.601361 %,  Elapsed[41.03m], stu_l:243681.000000 , opt_l:177092.000000
+[2025-10-27 02:50:40] TSPTester_repair.py(270) : Instance: ho14473, dim: 14473, teacher: 177092.000000, student: 243681.000000, gap: 37.601%, time: 67.634s
+[2025-10-27 02:50:40] TSPTester_repair.py(279) : episode 190/228, Elapsed[41.03m], Remain[8.21m]
+[2025-10-27 02:51:51] TSPTester_repair.py(567) : greedy, name:d15112, gap:24.470466 %,  Elapsed[42.20m], stu_l:1958025.000000 , opt_l:1573084.000000
+[2025-10-27 02:51:51] TSPTester_repair.py(270) : Instance: d15112, dim: 15112, teacher: 1573084.000000, student: 1958025.000000, gap: 24.470%, time: 70.608s
+[2025-10-27 02:51:51] TSPTester_repair.py(279) : episode 191/228, Elapsed[42.20m], Remain[8.18m]
+[2025-10-27 02:53:09] TSPTester_repair.py(567) : greedy, name:it16862, gap:41.005895 %,  Elapsed[43.52m], stu_l:785847.000000 , opt_l:557315.000000
+[2025-10-27 02:53:09] TSPTester_repair.py(270) : Instance: it16862, dim: 16862, teacher: 557315.000000, student: 785847.000000, gap: 41.006%, time: 78.984s
+[2025-10-27 02:53:09] TSPTester_repair.py(279) : episode 192/228, Elapsed[43.52m], Remain[8.16m]
+[2025-10-27 02:54:29] TSPTester_repair.py(567) : greedy, name:xia16928, gap:27.366132 %,  Elapsed[44.84m], stu_l:67313.000000 , opt_l:52850.000000
+[2025-10-27 02:54:29] TSPTester_repair.py(270) : Instance: xia16928, dim: 16928, teacher: 52850.000000, student: 67313.000000, gap: 27.366%, time: 79.223s
+[2025-10-27 02:54:29] TSPTester_repair.py(279) : episode 193/228, Elapsed[44.84m], Remain[8.13m]
+[2025-10-27 02:55:52] TSPTester_repair.py(567) : greedy, name:pjh17845, gap:27.459869 %,  Elapsed[46.23m], stu_l:61298.000000 , opt_l:48092.000000
+[2025-10-27 02:55:52] TSPTester_repair.py(270) : Instance: pjh17845, dim: 17845, teacher: 48092.000000, student: 61298.000000, gap: 27.460%, time: 83.585s
+[2025-10-27 02:55:52] TSPTester_repair.py(279) : episode 194/228, Elapsed[46.23m], Remain[8.10m]
+[2025-10-27 02:57:19] TSPTester_repair.py(567) : greedy, name:d18512, gap:24.920417 %,  Elapsed[47.68m], stu_l:806034.000000 , opt_l:645238.000000
+[2025-10-27 02:57:19] TSPTester_repair.py(270) : Instance: d18512, dim: 18512, teacher: 645238.000000, student: 806034.000000, gap: 24.920%, time: 86.706s
+[2025-10-27 02:57:19] TSPTester_repair.py(279) : episode 195/228, Elapsed[47.68m], Remain[8.07m]
+[2025-10-27 02:58:49] TSPTester_repair.py(567) : greedy, name:frh19289, gap:27.260834 %,  Elapsed[49.18m], stu_l:71009.000000 , opt_l:55798.000000
+[2025-10-27 02:58:49] TSPTester_repair.py(270) : Instance: frh19289, dim: 19289, teacher: 55798.000000, student: 71009.000000, gap: 27.261%, time: 90.315s
+[2025-10-27 02:58:49] TSPTester_repair.py(279) : episode 196/228, Elapsed[49.18m], Remain[8.03m]
+[2025-10-27 03:00:20] TSPTester_repair.py(567) : greedy, name:fnc19402, gap:27.911684 %,  Elapsed[50.70m], stu_l:75835.000000 , opt_l:59287.000000
+[2025-10-27 03:00:20] TSPTester_repair.py(270) : Instance: fnc19402, dim: 19402, teacher: 59287.000000, student: 75835.000000, gap: 27.912%, time: 90.886s
+[2025-10-27 03:00:20] TSPTester_repair.py(279) : episode 197/228, Elapsed[50.70m], Remain[7.98m]
+[2025-10-27 03:02:00] TSPTester_repair.py(567) : greedy, name:ido21215, gap:25.890705 %,  Elapsed[52.36m], stu_l:79962.000000 , opt_l:63517.000000
+[2025-10-27 03:02:00] TSPTester_repair.py(270) : Instance: ido21215, dim: 21215, teacher: 63517.000000, student: 79962.000000, gap: 25.891%, time: 99.559s
+[2025-10-27 03:02:00] TSPTester_repair.py(279) : episode 198/228, Elapsed[52.36m], Remain[7.93m]
+[2025-10-27 03:03:41] TSPTester_repair.py(567) : greedy, name:fma21553, gap:28.334361 %,  Elapsed[54.04m], stu_l:85377.000000 , opt_l:66527.000000
+[2025-10-27 03:03:41] TSPTester_repair.py(270) : Instance: fma21553, dim: 21553, teacher: 66527.000000, student: 85377.000000, gap: 28.334%, time: 101.297s
+[2025-10-27 03:03:41] TSPTester_repair.py(279) : episode 199/228, Elapsed[54.04m], Remain[7.88m]
+[2025-10-27 03:05:28] TSPTester_repair.py(567) : greedy, name:vm22775, gap:36.245099 %,  Elapsed[55.83m], stu_l:775627.000000 , opt_l:569288.000000
+[2025-10-27 03:05:28] TSPTester_repair.py(270) : Instance: vm22775, dim: 22775, teacher: 569288.000000, student: 775627.000000, gap: 36.245%, time: 107.235s
+[2025-10-27 03:05:28] TSPTester_repair.py(279) : episode 200/228, Elapsed[55.83m], Remain[7.82m]
+[2025-10-27 03:07:15] TSPTester_repair.py(567) : greedy, name:lsb22777, gap:27.933484 %,  Elapsed[57.62m], stu_l:78010.000000 , opt_l:60977.000000
+[2025-10-27 03:07:15] TSPTester_repair.py(270) : Instance: lsb22777, dim: 22777, teacher: 60977.000000, student: 78010.000000, gap: 27.933%, time: 107.159s
+[2025-10-27 03:07:15] TSPTester_repair.py(279) : episode 201/228, Elapsed[57.62m], Remain[7.74m]
+[2025-10-27 03:09:09] TSPTester_repair.py(567) : greedy, name:xrh24104, gap:26.980692 %,  Elapsed[59.51m], stu_l:87990.000000 , opt_l:69294.000000
+[2025-10-27 03:09:09] TSPTester_repair.py(270) : Instance: xrh24104, dim: 24104, teacher: 69294.000000, student: 87990.000000, gap: 26.981%, time: 113.540s
+[2025-10-27 03:09:09] TSPTester_repair.py(279) : episode 202/228, Elapsed[59.51m], Remain[7.66m]
+[2025-10-27 03:11:07] TSPTester_repair.py(567) : greedy, name:sw24978, gap:39.617249 %,  Elapsed[1.02h], stu_l:1194561.000000 , opt_l:855597.000000
+[2025-10-27 03:11:07] TSPTester_repair.py(270) : Instance: sw24978, dim: 24978, teacher: 855597.000000, student: 1194561.000000, gap: 39.617%, time: 117.633s
+[2025-10-27 03:11:07] TSPTester_repair.py(279) : episode 203/228, Elapsed[1.02h], Remain[7.57m]
+[2025-10-27 03:13:06] TSPTester_repair.py(567) : greedy, name:bbz25234, gap:27.517128 %,  Elapsed[1.06h], stu_l:88414.000000 , opt_l:69335.000000
+[2025-10-27 03:13:06] TSPTester_repair.py(270) : Instance: bbz25234, dim: 25234, teacher: 69335.000000, student: 88414.000000, gap: 27.517%, time: 118.894s
+[2025-10-27 03:13:06] TSPTester_repair.py(279) : episode 204/228, Elapsed[1.06h], Remain[7.47m]
+[2025-10-27 03:15:19] TSPTester_repair.py(567) : greedy, name:irx28268, gap:26.250914 %,  Elapsed[1.09h], stu_l:91667.000000 , opt_l:72607.000000
+[2025-10-27 03:15:19] TSPTester_repair.py(270) : Instance: irx28268, dim: 28268, teacher: 72607.000000, student: 91667.000000, gap: 26.251%, time: 133.697s
+[2025-10-27 03:15:19] TSPTester_repair.py(279) : episode 205/228, Elapsed[1.09h], Remain[7.37m]
+[2025-10-27 03:17:34] TSPTester_repair.py(567) : greedy, name:fyg28534, gap:29.319519 %,  Elapsed[1.13h], stu_l:101596.000000 , opt_l:78562.000000
+[2025-10-27 03:17:34] TSPTester_repair.py(270) : Instance: fyg28534, dim: 28534, teacher: 78562.000000, student: 101596.000000, gap: 29.320%, time: 134.851s
+[2025-10-27 03:17:34] TSPTester_repair.py(279) : episode 206/228, Elapsed[1.13h], Remain[7.25m]
+[2025-10-27 03:19:50] TSPTester_repair.py(567) : greedy, name:icx28698, gap:28.970250 %,  Elapsed[1.17h], stu_l:100709.000000 , opt_l:78087.000000
+[2025-10-27 03:19:50] TSPTester_repair.py(270) : Instance: icx28698, dim: 28698, teacher: 78087.000000, student: 100709.000000, gap: 28.970%, time: 135.731s
+[2025-10-27 03:19:50] TSPTester_repair.py(279) : episode 207/228, Elapsed[1.17h], Remain[7.12m]
+[2025-10-27 03:22:06] TSPTester_repair.py(567) : greedy, name:boa28924, gap:31.841701 %,  Elapsed[1.21h], stu_l:104975.000000 , opt_l:79622.000000
+[2025-10-27 03:22:06] TSPTester_repair.py(270) : Instance: boa28924, dim: 28924, teacher: 79622.000000, student: 104975.000000, gap: 31.842%, time: 136.657s
+[2025-10-27 03:22:06] TSPTester_repair.py(279) : episode 208/228, Elapsed[1.21h], Remain[6.97m]
+[2025-10-27 03:24:26] TSPTester_repair.py(567) : greedy, name:ird29514, gap:30.149466 %,  Elapsed[1.25h], stu_l:104579.000000 , opt_l:80353.000000
+[2025-10-27 03:24:26] TSPTester_repair.py(270) : Instance: ird29514, dim: 29514, teacher: 80353.000000, student: 104579.000000, gap: 30.149%, time: 139.433s
+[2025-10-27 03:24:26] TSPTester_repair.py(279) : episode 209/228, Elapsed[1.25h], Remain[6.80m]
+[2025-10-27 03:26:50] TSPTester_repair.py(567) : greedy, name:pbh30440, gap:30.228844 %,  Elapsed[1.29h], stu_l:115009.000000 , opt_l:88313.000000
+[2025-10-27 03:26:50] TSPTester_repair.py(270) : Instance: pbh30440, dim: 30440, teacher: 88313.000000, student: 115009.000000, gap: 30.229%, time: 143.870s
+[2025-10-27 03:26:50] TSPTester_repair.py(279) : episode 210/228, Elapsed[1.29h], Remain[6.62m]
+[2025-10-27 03:29:19] TSPTester_repair.py(567) : greedy, name:portcgen-31623-31623, gap:37.107879 %,  Elapsed[1.33h], stu_l:81641424.000000 , opt_l:59545392.000000
+[2025-10-27 03:29:19] TSPTester_repair.py(270) : Instance: portcgen-31623-31623, dim: 31623, teacher: 59545392.000000, student: 81641424.000000, gap: 37.108%, time: 149.368s
+[2025-10-27 03:29:19] TSPTester_repair.py(279) : episode 211/228, Elapsed[1.33h], Remain[6.42m]
+[2025-10-27 03:31:49] TSPTester_repair.py(567) : greedy, name:portcgen-31623-316231, gap:38.781956 %,  Elapsed[1.37h], stu_l:82288352.000000 , opt_l:59293264.000000
+[2025-10-27 03:31:49] TSPTester_repair.py(270) : Instance: portcgen-31623-316231, dim: 31623, teacher: 59293264.000000, student: 82288352.000000, gap: 38.782%, time: 149.485s
+[2025-10-27 03:31:49] TSPTester_repair.py(279) : episode 212/228, Elapsed[1.37h], Remain[6.20m]
+[2025-10-27 03:34:24] TSPTester_repair.py(567) : greedy, name:xib32892, gap:32.964024 %,  Elapsed[1.41h], stu_l:128652.000000 , opt_l:96757.000000
+[2025-10-27 03:34:24] TSPTester_repair.py(270) : Instance: xib32892, dim: 32892, teacher: 96757.000000, student: 128652.000000, gap: 32.964%, time: 155.746s
+[2025-10-27 03:34:24] TSPTester_repair.py(279) : episode 213/228, Elapsed[1.41h], Remain[5.97m]
+[2025-10-27 03:37:02] TSPTester_repair.py(567) : greedy, name:fry33203, gap:30.941999 %,  Elapsed[1.46h], stu_l:127328.000000 , opt_l:97240.000000
+[2025-10-27 03:37:02] TSPTester_repair.py(270) : Instance: fry33203, dim: 33203, teacher: 97240.000000, student: 127328.000000, gap: 30.942%, time: 157.191s
+[2025-10-27 03:37:02] TSPTester_repair.py(279) : episode 214/228, Elapsed[1.46h], Remain[5.72m]
+[2025-10-27 03:39:41] TSPTester_repair.py(567) : greedy, name:bm33708, gap:36.811638 %,  Elapsed[1.50h], stu_l:1312419.000000 , opt_l:959289.000000
+[2025-10-27 03:39:41] TSPTester_repair.py(270) : Instance: bm33708, dim: 33708, teacher: 959289.000000, student: 1312419.000000, gap: 36.812%, time: 159.479s
+[2025-10-27 03:39:41] TSPTester_repair.py(279) : episode 215/228, Elapsed[1.50h], Remain[5.44m]
+[2025-10-27 03:42:21] TSPTester_repair.py(567) : greedy, name:pla33810, gap:29.744777 %,  Elapsed[1.55h], stu_l:85695056.000000 , opt_l:66048944.000000
+[2025-10-27 03:42:21] TSPTester_repair.py(270) : Instance: pla33810, dim: 33810, teacher: 66048944.000000, student: 85695056.000000, gap: 29.745%, time: 160.216s
+[2025-10-27 03:42:21] TSPTester_repair.py(279) : episode 216/228, Elapsed[1.55h], Remain[5.15m]
+[2025-10-27 03:45:05] TSPTester_repair.py(567) : greedy, name:bby34656, gap:30.213091 %,  Elapsed[1.59h], stu_l:129118.000000 , opt_l:99159.000000
+[2025-10-27 03:45:05] TSPTester_repair.py(270) : Instance: bby34656, dim: 34656, teacher: 99159.000000, student: 129118.000000, gap: 30.213%, time: 164.225s
+[2025-10-27 03:45:05] TSPTester_repair.py(279) : episode 217/228, Elapsed[1.59h], Remain[4.84m]
+[2025-10-27 03:48:08] TSPTester_repair.py(567) : greedy, name:pba38478, gap:29.998708 %,  Elapsed[1.64h], stu_l:140812.000000 , opt_l:108318.000000
+[2025-10-27 03:48:08] TSPTester_repair.py(270) : Instance: pba38478, dim: 38478, teacher: 108318.000000, student: 140812.000000, gap: 29.999%, time: 182.534s
+[2025-10-27 03:48:08] TSPTester_repair.py(279) : episode 218/228, Elapsed[1.64h], Remain[4.52m]
+[2025-10-27 03:51:16] TSPTester_repair.py(567) : greedy, name:ics39603, gap:29.052883 %,  Elapsed[1.69h], stu_l:137853.000000 , opt_l:106819.000000
+[2025-10-27 03:51:16] TSPTester_repair.py(270) : Instance: ics39603, dim: 39603, teacher: 106819.000000, student: 137853.000000, gap: 29.053%, time: 187.988s
+[2025-10-27 03:51:16] TSPTester_repair.py(279) : episode 219/228, Elapsed[1.69h], Remain[4.18m]
+[2025-10-27 03:54:44] TSPTester_repair.py(567) : greedy, name:rbz43748, gap:32.054672 %,  Elapsed[1.75h], stu_l:165310.000000 , opt_l:125183.000000
+[2025-10-27 03:54:44] TSPTester_repair.py(270) : Instance: rbz43748, dim: 43748, teacher: 125183.000000, student: 165310.000000, gap: 32.055%, time: 207.780s
+[2025-10-27 03:54:44] TSPTester_repair.py(279) : episode 220/228, Elapsed[1.75h], Remain[3.82m]
+[2025-10-27 03:58:30] TSPTester_repair.py(567) : greedy, name:fht47608, gap:34.141195 %,  Elapsed[1.81h], stu_l:167816.000000 , opt_l:125104.000000
+[2025-10-27 03:58:30] TSPTester_repair.py(270) : Instance: fht47608, dim: 47608, teacher: 125104.000000, student: 167816.000000, gap: 34.141%, time: 226.361s
+[2025-10-27 03:58:30] TSPTester_repair.py(279) : episode 221/228, Elapsed[1.81h], Remain[3.45m]
+[2025-10-27 04:02:38] TSPTester_repair.py(567) : greedy, name:fna52057, gap:31.090271 %,  Elapsed[1.88h], stu_l:193737.000000 , opt_l:147789.000000
+[2025-10-27 04:02:38] TSPTester_repair.py(270) : Instance: fna52057, dim: 52057, teacher: 147789.000000, student: 193737.000000, gap: 31.090%, time: 247.496s
+[2025-10-27 04:02:38] TSPTester_repair.py(279) : episode 222/228, Elapsed[1.88h], Remain[3.05m]
+[2025-10-27 04:07:07] TSPTester_repair.py(567) : greedy, name:bna56769, gap:30.362859 %,  Elapsed[1.96h], stu_l:206075.000000 , opt_l:158078.000000
+[2025-10-27 04:07:07] TSPTester_repair.py(270) : Instance: bna56769, dim: 56769, teacher: 158078.000000, student: 206075.000000, gap: 30.363%, time: 269.726s
+[2025-10-27 04:07:07] TSPTester_repair.py(279) : episode 223/228, Elapsed[1.96h], Remain[2.63m]
+[2025-10-27 04:11:50] TSPTester_repair.py(567) : greedy, name:dan59296, gap:32.059431 %,  Elapsed[2.04h], stu_l:218388.000000 , opt_l:165371.000000
+[2025-10-27 04:11:50] TSPTester_repair.py(270) : Instance: dan59296, dim: 59296, teacher: 165371.000000, student: 218388.000000, gap: 32.059%, time: 282.523s
+[2025-10-27 04:11:50] TSPTester_repair.py(279) : episode 224/228, Elapsed[2.04h], Remain[2.18m]
+[2025-10-27 04:17:28] TSPTester_repair.py(567) : greedy, name:ch71009, gap:34.395117 %,  Elapsed[2.13h], stu_l:6137161.000000 , opt_l:4566506.000000
+[2025-10-27 04:17:28] TSPTester_repair.py(270) : Instance: ch71009, dim: 71009, teacher: 4566506.000000, student: 6137161.000000, gap: 34.395%, time: 338.521s
+[2025-10-27 04:17:28] TSPTester_repair.py(279) : episode 225/228, Elapsed[2.13h], Remain[1.70m]
+[2025-10-27 04:24:18] TSPTester_repair.py(567) : greedy, name:pla85900, gap:24.645971 %,  Elapsed[2.24h], stu_l:177474224.000000 , opt_l:142382640.000000
+[2025-10-27 04:24:18] TSPTester_repair.py(270) : Instance: pla85900, dim: 85900, teacher: 142382640.000000, student: 177474224.000000, gap: 24.646%, time: 409.838s
+[2025-10-27 04:24:18] TSPTester_repair.py(279) : episode 226/228, Elapsed[2.24h], Remain[1.19m]
+[2025-10-27 04:32:16] TSPTester_repair.py(567) : greedy, name:portcgen-100000-100000, gap:42.114282 %,  Elapsed[2.38h], stu_l:148676768.000000 , opt_l:104617752.000000
+[2025-10-27 04:32:16] TSPTester_repair.py(270) : Instance: portcgen-100000-100000, dim: 100000, teacher: 104617752.000000, student: 148676768.000000, gap: 42.114%, time: 477.568s
+[2025-10-27 04:32:16] TSPTester_repair.py(279) : episode 227/228, Elapsed[2.38h], Remain[0.63m]
+[2025-10-27 04:40:13] TSPTester_repair.py(567) : greedy, name:portcgen-100000-1000001, gap:41.876492 %,  Elapsed[2.51h], stu_l:149524736.000000 , opt_l:105390776.000000
+[2025-10-27 04:40:13] TSPTester_repair.py(270) : Instance: portcgen-100000-1000001, dim: 100000, teacher: 105390776.000000, student: 149524736.000000, gap: 41.876%, time: 477.607s
+[2025-10-27 04:40:13] TSPTester_repair.py(279) : episode 228/228, Elapsed[2.51h], Remain[0.00m]
+[2025-10-27 04:40:13] TSPTester_repair.py(310) :  *** Test Done *** 
+[2025-10-27 04:40:13] TSPTester_repair.py(311) : Solved instances: 228/228, failed: 0, total time: 9034.99s, avg time per solved: 39.63s
+[2025-10-27 04:40:13] TSPTester_repair.py(319) : [0, 1000): count: 69, avg gap: 4.389%, avg time: 1.512s
+[2025-10-27 04:40:13] TSPTester_repair.py(324) : [1000, 10000): count: 109, avg gap: 18.117%, avg time: 15.342s
+[2025-10-27 04:40:13] TSPTester_repair.py(329) : [10000, 100000]: count: 50, avg gap: 30.935%, avg time: 145.167s
+[2025-10-27 04:40:13] TSPTester_repair.py(336) : All instances: count: 228, avg gap: 16.773%, avg time: 39.627s
+[2025-10-27 04:40:13] TSPTester_repair.py(343) : ===============================================================
+[2025-10-27 04:40:13] TSPTester_repair.py(344) : instance: ['wi29', 'dj38', 'eil51', 'berlin52', 'st70', 'pr76', 'eil76', 'rat99', 'kroA100', 'kroC100', 'kroD100', 'rd100', 'kroB100', 'kroE100', 'eil101', 'lin105', 'pr107', 'pr124', 'bier127', 'ch130', 'xqf131', 'pr136', 'pr144', 'kroB150', 'ch150', 'kroA150', 'pr152', 'u159', 'qa194', 'rat195', 'd198', 'kroA200', 'kroB200', 'tsp225', 'ts225', 'pr226', 'xqg237', 'gil262', 'pr264', 'a280', 'pr299', 'lin318', 'pma343', 'pka379', 'bcl380', 'pbl395', 'rd400', 'pbk411', 'fl417', 'pbn423', 'pbm436', 'pr439', 'pcb442', 'd493', 'u574', 'rat575', 'p654', 'd657', 'xql662', 'rbx711', 'u724', 'uy734', 'rbu737', 'rat783', 'dkg813', 'zi929', 'lim963', 'lu980', 'pbd984', 'portcgen-1000-10008', 'dsj1000', 'portcgen-1000-10005', 'portcgen-1000-10002', 'portcgen-1000-10006', 'portcgen-1000-10003', 'portcgen-1000-10004', 'portcgen-1000-1000', 'portcgen-1000-10009', 'portcgen-1000-10007', 'portcgen-1000-10001', 'pr1002', 'u1060', 'xit1083', 'vm1084', 'pcb1173', 'd1291', 'rl1304', 'rl1323', 'dka1376', 'nrw1379', 'dca1389', 'fl1400', 'u1432', 'dja1436', 'icw1483', 'fra1488', 'fl1577', 'rbv1583', 'rby1599', 'fnb1615', 'rw1621', 'd1655', 'vm1748', 'djc1785', 'u1817', 'rl1889', 'dcc1911', 'dkd1973', 'mu1979', 'djb2036', 'dcb2086', 'd2103', 'bva2144', 'u2152', 'xqc2175', 'bck2217', 'xpr2308', 'u2319', 'ley2323', 'dea2382', 'pr2392', 'rbw2481', 'pds2566', 'mlt2597', 'bch2762', 'irw2802', 'lsm2854', 'dbj2924', 'xva2993', 'pcb3038', 'pia3056', 'dke3097', 'lsn3119', 'lta3140', 'portcgen-3162-31622', 'portcgen-3162-3162', 'portcgen-3162-31621', 'portcgen-3162-31623', 'portcgen-3162-31624', 'fdp3256', 'beg3293', 'dhb3386', 'nu3496', 'fjs3649', 'fjr3672', 'dlb3694', 'ltb3729', 'fl3795', 'xqe3891', 'xua3937', 'dkc3938', 'dkf3954', 'bgb4355', 'bgd4396', 'frv4410', 'fnl4461', 'bgf4475', 'ca4663', 'xqd4966', 'fqm5087', 'fea5557', 'rl5915', 'rl5934', 'tz6117', 'xsc6880', 'eg7146', 'bnd7168', 'pla7397', 'lap7454', 'ym7663', 'pm8079', 'ida8197', 'ei8246', 'ar9152', 'dga9698', 'ja9847', 'gr9882', 'kz9976', 'portcgen-10000-100002', 'portcgen-10000-100001', 'portcgen-10000-10000', 'xmc10150', 'fi10639', 'rl11849', 'usa13509', 'xvb13584', 'brd14051', 'mo14185', 'xrb14233', 'ho14473', 'd15112', 'it16862', 'xia16928', 'pjh17845', 'd18512', 'frh19289', 'fnc19402', 'ido21215', 'fma21553', 'vm22775', 'lsb22777', 'xrh24104', 'sw24978', 'bbz25234', 'irx28268', 'fyg28534', 'icx28698', 'boa28924', 'ird29514', 'pbh30440', 'portcgen-31623-31623', 'portcgen-31623-316231', 'xib32892', 'fry33203', 'bm33708', 'pla33810', 'bby34656', 'pba38478', 'ics39603', 'rbz43748', 'fht47608', 'fna52057', 'bna56769', 'dan59296', 'ch71009', 'pla85900', 'portcgen-100000-100000', 'portcgen-100000-1000001']
+[2025-10-27 04:40:13] TSPTester_repair.py(345) : optimal: [27603.0, 6656.0, 426.0, 7542.0, 675.0, 108159.0, 538.0, 1211.0, 21282.0, 20749.0, 21294.0, 7910.0, 22141.0, 22068.0, 629.0, 14379.0, 44303.0, 59030.0, 118282.0, 6110.0, 564.0, 96772.0, 58537.0, 26130.0, 6528.0, 26524.0, 73682.0, 42080.0, 9352.0, 2323.0, 15780.0, 29368.0, 29437.0, 3916.0, 126643.0, 80369.0, 1019.0, 2378.0, 49135.0, 2579.0, 48191.0, 42029.0, 1368.0, 1332.0, 1621.0, 1281.0, 15281.0, 1343.0, 11861.0, 1365.0, 1443.0, 107217.0, 50778.0, 35002.0, 36905.0, 6773.0, 34643.0, 48912.0, 2513.0, 3115.0, 41910.0, 79114.0, 3314.0, 8806.0, 3199.0, 95345.0, 2789.0, 11340.0, 2797.0, 11605723.0, 18660188.0, 11394911.0, 10855033.0, 10166701.0, 11886457.0, 11499958.0, 11387430.0, 10906997.0, 10664660.0, 11376735.0, 259045.0, 224094.0, 3558.0, 239297.0, 56892.0, 50801.0, 252948.0, 270199.0, 4666.0, 56638.0, 5085.0, 20127.0, 152970.0, 5257.0, 4416.0, 4264.0, 22249.0, 5387.0, 5533.0, 4956.0, 26051.0, 62128.0, 336556.0, 6115.0, 57201.0, 316536.0, 6396.0, 6421.0, 86891.0, 6197.0, 6600.0, 80450.0, 6304.0, 64253.0, 6830.0, 6764.0, 7219.0, 234256.0, 8352.0, 8017.0, 378032.0, 7724.0, 7643.0, 8071.0, 8234.0, 8423.0, 8014.0, 10128.0, 8492.0, 137694.0, 8258.0, 10539.0, 9114.0, 9517.0, 19547552.0, 19198258.0, 19017804.0, 19108508.0, 18864046.0, 10008.0, 9772.0, 11137.0, 96132.0, 9272.0, 9601.0, 10959.0, 11821.0, 28772.0, 11995.0, 11239.0, 12503.0, 12538.0, 12723.0, 13009.0, 10711.0, 182566.0, 13221.0, 1290319.0, 15316.0, 13029.0, 15445.0, 565530.0, 556045.0, 394718.0, 21535.0, 172386.0, 21834.0, 23260728.0, 19535.0, 238314.0, 114855.0, 22338.0, 206171.0, 837479.0, 27724.0, 491924.0, 300899.0, 1061881.0, 33155424.0, 33186248.0, 33001034.0, 28387.0, 520527.0, 923288.0, 19982860.0, 37083.0, 469385.0, 427377.0, 45462.0, 177092.0, 1573084.0, 557315.0, 52850.0, 48092.0, 645238.0, 55798.0, 59287.0, 63517.0, 66527.0, 569288.0, 60977.0, 69294.0, 855597.0, 69335.0, 72607.0, 78562.0, 78087.0, 79622.0, 80353.0, 88313.0, 59545392.0, 59293264.0, 96757.0, 97240.0, 959289.0, 66048944.0, 99159.0, 108318.0, 106819.0, 125183.0, 125104.0, 147789.0, 158078.0, 165371.0, 4566506.0, 142382640.0, 104617752.0, 105390776.0]
+[2025-10-27 04:40:13] TSPTester_repair.py(346) : problem_size: [29, 38, 51, 52, 70, 76, 76, 99, 100, 100, 100, 100, 100, 100, 101, 105, 107, 124, 127, 130, 131, 136, 144, 150, 150, 150, 152, 159, 194, 195, 198, 200, 200, 225, 225, 226, 237, 262, 264, 280, 299, 318, 343, 379, 380, 395, 400, 411, 417, 423, 436, 439, 442, 493, 574, 575, 654, 657, 662, 711, 724, 734, 737, 783, 813, 929, 963, 980, 984, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1002, 1060, 1083, 1084, 1173, 1291, 1304, 1323, 1376, 1379, 1389, 1400, 1432, 1436, 1483, 1488, 1577, 1583, 1599, 1615, 1621, 1655, 1748, 1785, 1817, 1889, 1911, 1973, 1979, 2036, 2086, 2103, 2144, 2152, 2175, 2217, 2308, 2319, 2323, 2382, 2392, 2481, 2566, 2597, 2762, 2802, 2854, 2924, 2993, 3038, 3056, 3097, 3119, 3140, 3162, 3162, 3162, 3162, 3162, 3256, 3293, 3386, 3496, 3649, 3672, 3694, 3729, 3795, 3891, 3937, 3938, 3954, 4355, 4396, 4410, 4461, 4475, 4663, 4966, 5087, 5557, 5915, 5934, 6117, 6880, 7146, 7168, 7397, 7454, 7663, 8079, 8197, 8246, 9152, 9698, 9847, 9882, 9976, 10000, 10000, 10000, 10150, 10639, 11849, 13509, 13584, 14051, 14185, 14233, 14473, 15112, 16862, 16928, 17845, 18512, 19289, 19402, 21215, 21553, 22775, 22777, 24104, 24978, 25234, 28268, 28534, 28698, 28924, 29514, 30440, 31623, 31623, 32892, 33203, 33708, 33810, 34656, 38478, 39603, 43748, 47608, 52057, 56769, 59296, 71009, 85900, 100000, 100000]
+[2025-10-27 04:40:13] TSPTester_repair.py(347) : no_aug_score: [27603.0, 6656.0, 426.0, 7542.0, 675.0, 108159.0, 538.0, 1211.0, 21282.0, 20749.0, 21294.0, 7910.0, 22141.0, 22068.0, 629.0, 14379.0, 44303.0, 59030.0, 118282.0, 6110.0, 564.0, 96772.0, 58537.0, 26130.0, 6528.0, 26524.0, 73682.0, 42080.0, 9352.0, 2323.0, 15780.0, 29368.0, 29437.0, 3916.0, 126643.0, 80369.0, 1019.0, 2378.0, 49135.0, 2579.0, 48191.0, 42029.0, 1368.0, 1332.0, 1621.0, 1281.0, 15281.0, 1343.0, 11861.0, 1365.0, 1443.0, 107217.0, 50778.0, 35002.0, 36905.0, 6773.0, 34643.0, 48912.0, 2513.0, 3115.0, 41910.0, 79114.0, 3314.0, 8806.0, 3199.0, 95345.0, 2789.0, 11340.0, 2797.0, 11605723.0, 18660188.0, 11394911.0, 10855033.0, 10166701.0, 11886457.0, 11499958.0, 11387430.0, 10906997.0, 10664660.0, 11376735.0, 259045.0, 224094.0, 3558.0, 239297.0, 56892.0, 50801.0, 252948.0, 270199.0, 4666.0, 56638.0, 5085.0, 20127.0, 152970.0, 5257.0, 4416.0, 4264.0, 22249.0, 5387.0, 5533.0, 4956.0, 26051.0, 62128.0, 336556.0, 6115.0, 57201.0, 316536.0, 6396.0, 6421.0, 86891.0, 6197.0, 6600.0, 80450.0, 6304.0, 64253.0, 6830.0, 6764.0, 7219.0, 234256.0, 8352.0, 8017.0, 378032.0, 7724.0, 7643.0, 8071.0, 8234.0, 8423.0, 8014.0, 10128.0, 8492.0, 137694.0, 8258.0, 10539.0, 9114.0, 9517.0, 19547552.0, 19198258.0, 19017804.0, 19108508.0, 18864046.0, 10008.0, 9772.0, 11137.0, 96132.0, 9272.0, 9601.0, 10959.0, 11821.0, 28772.0, 11995.0, 11239.0, 12503.0, 12538.0, 12723.0, 13009.0, 10711.0, 182566.0, 13221.0, 1290319.0, 15316.0, 13029.0, 15445.0, 565530.0, 556045.0, 394718.0, 21535.0, 172386.0, 21834.0, 23260728.0, 19535.0, 238314.0, 114855.0, 22338.0, 206171.0, 837479.0, 27724.0, 491924.0, 300899.0, 1061881.0, 33155424.0, 33186248.0, 33001034.0, 28387.0, 520527.0, 923288.0, 19982860.0, 37083.0, 469385.0, 427377.0, 45462.0, 177092.0, 1573084.0, 557315.0, 52850.0, 48092.0, 645238.0, 55798.0, 59287.0, 63517.0, 66527.0, 569288.0, 60977.0, 69294.0, 855597.0, 69335.0, 72607.0, 78562.0, 78087.0, 79622.0, 80353.0, 88313.0, 59545392.0, 59293264.0, 96757.0, 97240.0, 959289.0, 66048944.0, 99159.0, 108318.0, 106819.0, 125183.0, 125104.0, 147789.0, 158078.0, 165371.0, 4566506.0, 142382640.0, 104617752.0, 105390776.0]
+[2025-10-27 04:40:13] TSPTester_repair.py(348) : aug_score: [27616.0, 6925.0, 430.0, 7543.0, 676.0, 109909.0, 541.0, 1211.0, 21295.0, 20772.0, 21309.0, 7914.0, 22184.0, 22122.0, 629.0, 14424.0, 45715.0, 59246.0, 119515.0, 6193.0, 569.0, 97391.0, 58604.0, 26201.0, 6575.0, 26639.0, 74593.0, 42324.0, 11044.0, 2387.0, 16564.0, 29405.0, 29934.0, 4009.0, 172943.0, 81158.0, 1039.0, 2418.0, 50529.0, 2602.0, 48856.0, 42570.0, 1448.0, 1406.0, 1730.0, 1295.0, 15943.0, 1374.0, 12790.0, 1407.0, 1498.0, 114941.0, 53003.0, 39138.0, 37470.0, 7020.0, 40764.0, 51501.0, 2746.0, 3237.0, 43486.0, 95182.0, 3552.0, 9157.0, 3433.0, 111733.0, 2926.0, 14615.0, 2997.0, 13058183.0, 19816224.0, 13582307.0, 12405171.0, 11179545.0, 13664256.0, 12461543.0, 12998102.0, 12558421.0, 11868132.0, 13574334.0, 276410.0, 245322.0, 3781.0, 255049.0, 62149.0, 56228.0, 281270.0, 292866.0, 5063.0, 65133.0, 5727.0, 23484.0, 167821.0, 5999.0, 4994.0, 4733.0, 26028.0, 5909.0, 6077.0, 5744.0, 36353.0, 70877.0, 376885.0, 6978.0, 64261.0, 372191.0, 7170.0, 7391.0, 114531.0, 7080.0, 7280.0, 85167.0, 7196.0, 72475.0, 7745.0, 7539.0, 7940.0, 253195.0, 9684.0, 9814.0, 427086.0, 8955.0, 8751.0, 9571.0, 9125.0, 9990.0, 9277.0, 11459.0, 9840.0, 155542.0, 9548.0, 12191.0, 10409.0, 11086.0, 23673234.0, 23299628.0, 23001788.0, 23597792.0, 22448744.0, 12202.0, 11958.0, 12995.0, 132131.0, 12121.0, 12183.0, 13041.0, 14198.0, 34620.0, 14482.0, 13476.0, 15160.0, 14672.0, 15185.0, 16579.0, 12818.0, 212886.0, 16296.0, 1615950.0, 18946.0, 16035.0, 18711.0, 675706.0, 683533.0, 531063.0, 25769.0, 223129.0, 26451.0, 27548484.0, 24391.0, 333163.0, 154575.0, 28129.0, 297326.0, 1117583.0, 34513.0, 668962.0, 395390.0, 1371275.0, 43326512.0, 42695192.0, 43062488.0, 35090.0, 708938.0, 1145547.0, 26699460.0, 45515.0, 584478.0, 595265.0, 57856.0, 243681.0, 1958025.0, 785847.0, 67313.0, 61298.0, 806034.0, 71009.0, 75835.0, 79962.0, 85377.0, 775627.0, 78010.0, 87990.0, 1194561.0, 88414.0, 91667.0, 101596.0, 100709.0, 104975.0, 104579.0, 115009.0, 81641424.0, 82288352.0, 128652.0, 127328.0, 1312419.0, 85695056.0, 129118.0, 140812.0, 137853.0, 165310.0, 167816.0, 193737.0, 206075.0, 218388.0, 6137161.0, 177474224.0, 148676768.0, 149524736.0]
+[2025-10-27 04:40:13] TSPTester_repair.py(349) : no_aug_gap: [0.04709633010904612, 4.041466346153846, 0.9389671361502347, 0.013259082471492973, 0.14814814814814814, 1.6179883319927144, 0.5576208178438662, 0.0, 0.061084484540926604, 0.11084871560075184, 0.07044237813468583, 0.05056890012642225, 0.19420983695406713, 0.24469820554649266, 0.0, 0.31295639474233256, 3.1871430828612057, 0.36591563611722855, 1.0424240374697755, 1.358428805237316, 0.8865248226950354, 0.6396478320175257, 0.11445752259254831, 0.27171833141982393, 0.7199754901960784, 0.43356959734580003, 1.2363942346841834, 0.5798479087452472, 18.092386655260906, 2.755058114507103, 4.968314321926489, 0.12598746935439933, 1.688351394503516, 2.3748723186925433, 36.55946242587431, 0.9817218081598627, 1.9627085377821394, 1.682085786375105, 2.837081510125165, 0.8918185343156262, 1.379925712269926, 1.28720645268743, 5.847953216374269, 5.555555555555555, 6.7242442936458975, 1.092896174863388, 4.3321772135331456, 2.308265078183172, 7.832391872523396, 3.076923076923077, 3.8115038115038113, 7.204081442308589, 4.38181889794793, 11.81646763042112, 1.5309578647879691, 3.6468330134357005, 17.668793118378893, 5.293179587831207, 9.271786709112614, 3.9165329052969504, 3.760439036029587, 20.309932502464797, 7.181653590826795, 3.9859186918010447, 7.314785870584558, 17.188106350621428, 4.912154894227322, 28.880070546737212, 7.150518412584913, 12.515032454246926, 6.195200176975709, 19.19625348543749, 14.280361929807123, 9.962366356598862, 14.956508907574394, 8.361639233812854, 14.144297703696093, 15.140959514337448, 11.284672929094786, 19.316605335362034, 6.703468509332355, 9.472810517015182, 6.267566048341765, 6.582614909505761, 9.240314982774379, 10.682860573610755, 11.1967677151035, 8.389002179874833, 8.508358336905273, 14.998764080652565, 12.625368731563421, 16.679087792517514, 9.708439563313068, 14.11451398135819, 13.08876811594203, 10.99906191369606, 16.985033035192593, 9.689994431037682, 9.831917585396711, 15.899919289749798, 39.54550689033051, 14.082217357713109, 11.982849808055718, 14.11283728536386, 12.342441565706894, 17.5825182601663, 12.101313320825517, 15.106681202304937, 31.809968811499466, 14.248830079070517, 10.303030303030303, 5.863269111249223, 14.149746192893401, 12.796289667408526, 13.396778916544656, 11.45771732702543, 9.98753289929353, 8.08474489447442, 15.948275862068966, 22.41486840464014, 12.976150167181615, 15.937338166752978, 14.496925291116053, 18.585057613678604, 10.820986154967208, 18.603822865962247, 15.759920139755428, 13.14178515007899, 15.873763542157324, 12.962075326448502, 15.621215790748366, 15.675111490653762, 14.208909370199693, 16.486287695702426, 21.105875559251615, 21.3632403523278, 20.94870680126896, 23.493639587140976, 19.002805654735997, 21.922462030375698, 22.37003683995088, 16.683128311035286, 37.44746806474431, 30.726919758412425, 26.89303197583585, 18.998083766767042, 20.10828187124609, 20.32531627971639, 20.733639016256774, 19.903906041462765, 21.25089978405183, 17.020258414420162, 19.35078204825906, 27.442539780152202, 19.671365885538233, 16.60769256049867, 23.258452461992285, 25.236472531211273, 23.70070514494646, 23.071609486530047, 21.146001942376174, 19.4819019327003, 22.927640748500572, 34.542382156374934, 19.661016949152543, 29.435685032427227, 21.145919208573783, 18.433455737068936, 24.85794727412337, 39.80001174920483, 34.58273475251404, 25.924433700420806, 44.213298669551, 33.44609237962982, 24.487808397056703, 35.9888925931648, 31.402895988354896, 29.136409823699644, 30.676995715693458, 28.653266256553014, 30.488299245411522, 23.612921407686617, 36.196201157672895, 24.072553742710834, 33.6118053171568, 22.738181916241945, 24.519956964964795, 39.28334936133671, 27.2623289780476, 37.601359745217174, 24.470466929928726, 41.0058943326485, 27.36613055818354, 27.459868585211677, 24.920416962423168, 27.260833721638768, 27.911683843000993, 25.89070642505156, 28.33436048521653, 36.245099141383626, 27.93348311658494, 26.980690968915056, 39.61724970985172, 27.517126992139612, 26.25091244645833, 29.319518342201064, 28.970251130149705, 31.841702042149155, 30.14946548355382, 30.228845130388503, 37.107878977436236, 38.78195674975829, 32.964023274801825, 30.941999177293294, 36.81163861985283, 29.74477835709228, 30.213092104599685, 29.998707509370558, 29.05288385025136, 32.0546719602502, 34.14119452615424, 31.09027058847411, 30.362858841837575, 32.0594300088891, 34.395115215002455, 24.64597088521466, 42.11428286090491, 41.87649211350337]
+[2025-10-27 04:40:13] TSPTester_repair.py(350) : aug_gap: [0.04709633010904612, 4.041466346153846, 0.9389671361502347, 0.013259082471492973, 0.14814814814814814, 1.6179883319927144, 0.5576208178438662, 0.0, 0.061084484540926604, 0.11084871560075184, 0.07044237813468583, 0.05056890012642225, 0.19420983695406713, 0.24469820554649266, 0.0, 0.31295639474233256, 3.1871430828612057, 0.36591563611722855, 1.0424240374697755, 1.358428805237316, 0.8865248226950354, 0.6396478320175257, 0.11445752259254831, 0.27171833141982393, 0.7199754901960784, 0.43356959734580003, 1.2363942346841834, 0.5798479087452472, 18.092386655260906, 2.755058114507103, 4.968314321926489, 0.12598746935439933, 1.688351394503516, 2.3748723186925433, 36.55946242587431, 0.9817218081598627, 1.9627085377821394, 1.682085786375105, 2.837081510125165, 0.8918185343156262, 1.379925712269926, 1.28720645268743, 5.847953216374269, 5.555555555555555, 6.7242442936458975, 1.092896174863388, 4.3321772135331456, 2.308265078183172, 7.832391872523396, 3.076923076923077, 3.8115038115038113, 7.204081442308589, 4.38181889794793, 11.81646763042112, 1.5309578647879691, 3.6468330134357005, 17.668793118378893, 5.293179587831207, 9.271786709112614, 3.9165329052969504, 3.760439036029587, 20.309932502464797, 7.181653590826795, 3.9859186918010447, 7.314785870584558, 17.188106350621428, 4.912154894227322, 28.880070546737212, 7.150518412584913, 12.515032454246926, 6.195200176975709, 19.19625348543749, 14.280361929807123, 9.962366356598862, 14.956508907574394, 8.361639233812854, 14.144297703696093, 15.140959514337448, 11.284672929094786, 19.316605335362034, 6.703468509332355, 9.472810517015182, 6.267566048341765, 6.582614909505761, 9.240314982774379, 10.682860573610755, 11.1967677151035, 8.389002179874833, 8.508358336905273, 14.998764080652565, 12.625368731563421, 16.679087792517514, 9.708439563313068, 14.11451398135819, 13.08876811594203, 10.99906191369606, 16.985033035192593, 9.689994431037682, 9.831917585396711, 15.899919289749798, 39.54550689033051, 14.082217357713109, 11.982849808055718, 14.11283728536386, 12.342441565706894, 17.5825182601663, 12.101313320825517, 15.106681202304937, 31.809968811499466, 14.248830079070517, 10.303030303030303, 5.863269111249223, 14.149746192893401, 12.796289667408526, 13.396778916544656, 11.45771732702543, 9.98753289929353, 8.08474489447442, 15.948275862068966, 22.41486840464014, 12.976150167181615, 15.937338166752978, 14.496925291116053, 18.585057613678604, 10.820986154967208, 18.603822865962247, 15.759920139755428, 13.14178515007899, 15.873763542157324, 12.962075326448502, 15.621215790748366, 15.675111490653762, 14.208909370199693, 16.486287695702426, 21.105875559251615, 21.3632403523278, 20.94870680126896, 23.493639587140976, 19.002805654735997, 21.922462030375698, 22.37003683995088, 16.683128311035286, 37.44746806474431, 30.726919758412425, 26.89303197583585, 18.998083766767042, 20.10828187124609, 20.32531627971639, 20.733639016256774, 19.903906041462765, 21.25089978405183, 17.020258414420162, 19.35078204825906, 27.442539780152202, 19.671365885538233, 16.60769256049867, 23.258452461992285, 25.236472531211273, 23.70070514494646, 23.071609486530047, 21.146001942376174, 19.4819019327003, 22.927640748500572, 34.542382156374934, 19.661016949152543, 29.435685032427227, 21.145919208573783, 18.433455737068936, 24.85794727412337, 39.80001174920483, 34.58273475251404, 25.924433700420806, 44.213298669551, 33.44609237962982, 24.487808397056703, 35.9888925931648, 31.402895988354896, 29.136409823699644, 30.676995715693458, 28.653266256553014, 30.488299245411522, 23.612921407686617, 36.196201157672895, 24.072553742710834, 33.6118053171568, 22.738181916241945, 24.519956964964795, 39.28334936133671, 27.2623289780476, 37.601359745217174, 24.470466929928726, 41.0058943326485, 27.36613055818354, 27.459868585211677, 24.920416962423168, 27.260833721638768, 27.911683843000993, 25.89070642505156, 28.33436048521653, 36.245099141383626, 27.93348311658494, 26.980690968915056, 39.61724970985172, 27.517126992139612, 26.25091244645833, 29.319518342201064, 28.970251130149705, 31.841702042149155, 30.14946548355382, 30.228845130388503, 37.107878977436236, 38.78195674975829, 32.964023274801825, 30.941999177293294, 36.81163861985283, 29.74477835709228, 30.213092104599685, 29.998707509370558, 29.05288385025136, 32.0546719602502, 34.14119452615424, 31.09027058847411, 30.362858841837575, 32.0594300088891, 34.395115215002455, 24.64597088521466, 42.11428286090491, 41.87649211350337]
+[2025-10-27 04:40:13] TSPTester_repair.py(351) : inst_time_sec: [0.523730993270874, 0.16155242919921875, 0.21806979179382324, 0.22109079360961914, 0.2995123863220215, 0.3262948989868164, 0.32599568367004395, 0.4251258373260498, 0.4293649196624756, 0.4291844367980957, 0.4281952381134033, 0.42736172676086426, 0.42789554595947266, 0.43089842796325684, 0.43394947052001953, 0.45340466499328613, 0.4622642993927002, 0.5428509712219238, 0.5533370971679688, 0.5687084197998047, 0.5742959976196289, 0.5991635322570801, 0.6363952159881592, 0.6644763946533203, 0.6647689342498779, 0.6650617122650146, 0.6737761497497559, 0.706763744354248, 0.8711121082305908, 0.876389741897583, 0.8855910301208496, 0.8958690166473389, 0.8923783302307129, 1.0102219581604004, 1.015035629272461, 1.021958589553833, 1.0726039409637451, 1.1896812915802002, 1.1980369091033936, 1.2739088535308838, 1.3649423122406006, 1.4512767791748047, 1.568568229675293, 1.73588228225708, 1.7430109977722168, 1.813565969467163, 1.8342535495758057, 1.8899855613708496, 1.9203760623931885, 1.946878433227539, 2.007658004760742, 2.0203969478607178, 2.033844470977783, 2.2713656425476074, 2.6806466579437256, 2.6530871391296387, 3.0201919078826904, 3.0346996784210205, 3.0669033527374268, 3.295654296875, 3.3622469902038574, 3.40274715423584, 3.417067050933838, 3.632483959197998, 3.7710602283477783, 4.323887586593628, 4.474594354629517, 4.553915023803711, 4.572693347930908, 4.643132925033569, 4.640887260437012, 4.642573356628418, 4.64683198928833, 4.643020391464233, 4.650677680969238, 4.645052433013916, 4.649896621704102, 4.664348125457764, 4.647115468978882, 4.673658847808838, 4.65074610710144, 4.918924331665039, 5.032251596450806, 5.029877185821533, 5.43821120262146, 5.998547315597534, 6.05028772354126, 6.141796112060547, 6.3902747631073, 6.399718999862671, 6.45157790184021, 6.50873589515686, 6.6556713581085205, 6.669122695922852, 6.887744188308716, 6.912047624588013, 7.331171989440918, 7.366507530212402, 7.474455833435059, 7.500721216201782, 7.526379108428955, 7.686354875564575, 8.12431287765503, 8.297704458236694, 8.45213532447815, 8.778110027313232, 8.885399103164673, 9.17259693145752, 9.195984125137329, 9.460835695266724, 9.696758270263672, 9.773921728134155, 9.962985515594482, 9.995303392410278, 10.106621503829956, 10.300010442733765, 10.726003885269165, 10.775583267211914, 10.803051710128784, 11.071794509887695, 11.13041353225708, 11.527079343795776, 11.928910255432129, 12.066668033599854, 12.833198308944702, 13.028538227081299, 13.272046327590942, 13.596970558166504, 13.910741329193115, 14.128347396850586, 14.21479082107544, 14.397412776947021, 14.503498315811157, 14.607438564300537, 14.703811883926392, 14.709475040435791, 14.695267915725708, 14.702222347259521, 14.704782247543335, 15.141757726669312, 15.308749437332153, 15.74653172492981, 16.254459619522095, 16.97490167617798, 17.081852674484253, 17.17814540863037, 17.361440896987915, 17.661251306533813, 18.107937335968018, 18.31728982925415, 18.323943614959717, 18.400147438049316, 20.266764640808105, 20.445271968841553, 20.525246620178223, 20.778619050979614, 20.836196422576904, 21.686126470565796, 23.105621576309204, 23.676105499267578, 25.87832546234131, 27.539283990859985, 27.64113426208496, 28.50860285758972, 32.0487265586853, 33.312331676483154, 33.42296481132507, 34.49552941322327, 34.74453163146973, 35.73417830467224, 37.68976020812988, 38.272204637527466, 38.503175258636475, 42.78019380569458, 45.35048818588257, 46.00211954116821, 46.1960391998291, 46.60751748085022, 46.70466876029968, 46.71888256072998, 46.73053240776062, 47.41415619850159, 49.706804513931274, 55.358198404312134, 63.096903562545776, 63.441049098968506, 65.51652646064758, 66.0071530342102, 66.49275636672974, 67.63413524627686, 70.60786747932434, 78.98362803459167, 79.2234525680542, 83.585373878479, 86.70557355880737, 90.31484055519104, 90.8860833644867, 99.55863928794861, 101.29693651199341, 107.23458909988403, 107.15892887115479, 113.53967189788818, 117.63291549682617, 118.8937041759491, 133.69695329666138, 134.85141158103943, 135.73100805282593, 136.65654063224792, 139.43339014053345, 143.86983799934387, 149.36774730682373, 149.48494338989258, 155.7455017566681, 157.19142293930054, 159.47925758361816, 160.21568512916565, 164.22522926330566, 182.53374910354614, 187.9882538318634, 207.77958226203918, 226.36130952835083, 247.4961838722229, 269.72587180137634, 282.5233075618744, 338.5212182998657, 409.8383345603943, 477.56800508499146, 477.6073911190033]
+[2025-10-27 04:40:13] TSPTester_repair.py(352) : ===============================================================

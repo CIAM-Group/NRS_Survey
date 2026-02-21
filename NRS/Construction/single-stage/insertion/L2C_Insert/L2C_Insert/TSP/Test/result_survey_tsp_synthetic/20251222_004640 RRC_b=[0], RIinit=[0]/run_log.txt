@@ -1,0 +1,42 @@
+[2025-12-22 00:46:41] test_synthetic.py(203) : DEBUG_MODE: False
+[2025-12-22 00:46:41] test_synthetic.py(204) : USE_CUDA: True, CUDA_DEVICE_NUM: None
+[2025-12-22 00:46:41] test_synthetic.py(205) : env_params{'mode': 'test', 'test_in_tsplib': 0, 'tsplib_path': None, 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt', 'sub_path': False, 'RRC_budget': 0, 'max_RRC_range': 300, 'mix_sample_strategy': False, 'turn_to_cluster_strategy': True, 'random_insertion': 0}
+[2025-12-22 00:46:41] test_synthetic.py(205) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 9, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'knearest': 0, 'k_nearest_edges': 100, 'k_nearest_scatter': 100, 'coor_norm': 0}
+[2025-12-22 00:46:41] test_synthetic.py(205) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'test_episodes': 10000, 'test_batch_size': 10000, 'model_load': {'path': './result/pretrain/tsp_model.pt'}}
+[2025-12-22 00:46:41] test_synthetic.py(205) : logger_params{'log_file': {'desc': 'scales=[100, 1000, 10000], RRC_b=[0], RIinit=[0], norms=[0], k_if=[1], rrc_ranges=[300], k_edges=[100], k_scatters=[100]', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251222_004640_scales=[100, 1000, 10000], RRC_b=[0], RIinit=[0], norms=[0], k_if=[1], rrc_ranges=[300], k_edges=[100], k_scatters=[100]'}}
+[2025-12-22 00:46:41] TSPTester_repair_synthetic.py(68) :  ***** Test Start ***** 
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(355) : greedy, name:TSP_visual_1100, gap:0.458219 %,  Elapsed[1.24m], stu_l:7.798889 , opt_l:7.763255
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(120) : episode 10000/10000, Elapsed[1.24m], Remain[0.00m], Score_teacher:7.7633,Score_studetnt: 7.7989,
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(130) :  *** Test Done *** 
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(131) :  Teacher SCORE: 7.7633 
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(132) :  Student SCORE: 7.7989 
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(133) :  Gap: 0.4582%
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(142) :  Total Test Time: 74.45 sec, 1.24 min, 0.02 hr 
+[2025-12-22 00:47:56] test_synthetic.py(203) : DEBUG_MODE: False
+[2025-12-22 00:47:56] test_synthetic.py(204) : USE_CUDA: True, CUDA_DEVICE_NUM: None
+[2025-12-22 00:47:56] test_synthetic.py(205) : env_params{'mode': 'test', 'test_in_tsplib': 0, 'tsplib_path': None, 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt', 'sub_path': False, 'RRC_budget': 0, 'max_RRC_range': 300, 'mix_sample_strategy': False, 'turn_to_cluster_strategy': True, 'random_insertion': 0}
+[2025-12-22 00:47:56] test_synthetic.py(205) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 9, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'knearest': 1, 'k_nearest_edges': 100, 'k_nearest_scatter': 100, 'coor_norm': 0}
+[2025-12-22 00:47:56] test_synthetic.py(205) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'test_episodes': 128, 'test_batch_size': 128, 'model_load': {'path': './result/pretrain/tsp_model.pt'}}
+[2025-12-22 00:47:56] test_synthetic.py(205) : logger_params{'log_file': {'desc': 'scales=[100, 1000, 10000], RRC_b=[0], RIinit=[0], norms=[0], k_if=[1], rrc_ranges=[300], k_edges=[100], k_scatters=[100]', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251222_004640_scales=[100, 1000, 10000], RRC_b=[0], RIinit=[0], norms=[0], k_if=[1], rrc_ranges=[300], k_edges=[100], k_scatters=[100]'}}
+[2025-12-22 00:47:56] TSPTester_repair_synthetic.py(68) :  ***** Test Start ***** 
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(355) : greedy, name:TSP_visual_11000, gap:4.756330 %,  Elapsed[0.55m], stu_l:24.218033 , opt_l:23.118198
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(120) : episode 128/128, Elapsed[0.55m], Remain[0.00m], Score_teacher:23.1182,Score_studetnt: 24.2180,
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(130) :  *** Test Done *** 
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(131) :  Teacher SCORE: 23.1182 
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(132) :  Student SCORE: 24.2180 
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(133) :  Gap: 4.7563%
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(142) :  Total Test Time: 32.98 sec, 0.55 min, 0.01 hr 
+[2025-12-22 00:48:29] test_synthetic.py(203) : DEBUG_MODE: False
+[2025-12-22 00:48:29] test_synthetic.py(204) : USE_CUDA: True, CUDA_DEVICE_NUM: None
+[2025-12-22 00:48:29] test_synthetic.py(205) : env_params{'mode': 'test', 'test_in_tsplib': 0, 'tsplib_path': None, 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp10000_n16_lkh.txt', 'sub_path': False, 'RRC_budget': 0, 'max_RRC_range': 300, 'mix_sample_strategy': False, 'turn_to_cluster_strategy': True, 'random_insertion': 0}
+[2025-12-22 00:48:29] test_synthetic.py(205) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 9, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'knearest': 1, 'k_nearest_edges': 100, 'k_nearest_scatter': 100, 'coor_norm': 1}
+[2025-12-22 00:48:29] test_synthetic.py(205) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'test_episodes': 16, 'test_batch_size': 16, 'model_load': {'path': './result/pretrain/tsp_model.pt'}}
+[2025-12-22 00:48:29] test_synthetic.py(205) : logger_params{'log_file': {'desc': 'scales=[100, 1000, 10000], RRC_b=[0], RIinit=[0], norms=[0], k_if=[1], rrc_ranges=[300], k_edges=[100], k_scatters=[100]', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251222_004640_scales=[100, 1000, 10000], RRC_b=[0], RIinit=[0], norms=[0], k_if=[1], rrc_ranges=[300], k_edges=[100], k_scatters=[100]'}}
+[2025-12-22 00:48:29] TSPTester_repair_synthetic.py(68) :  ***** Test Start ***** 
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(355) : greedy, name:TSP_visual_110000, gap:7.760088 %,  Elapsed[1.11m], stu_l:77.343437 , opt_l:71.772919
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(120) : episode  16/ 16, Elapsed[1.11m], Remain[0.00m], Score_teacher:71.7729,Score_studetnt: 77.3434,
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(130) :  *** Test Done *** 
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(131) :  Teacher SCORE: 71.7729 
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(132) :  Student SCORE: 77.3434 
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(133) :  Gap: 7.7601%
+[2025-12-22 00:49:36] TSPTester_repair_synthetic.py(142) :  Total Test Time: 66.59 sec, 1.11 min, 0.02 hr 

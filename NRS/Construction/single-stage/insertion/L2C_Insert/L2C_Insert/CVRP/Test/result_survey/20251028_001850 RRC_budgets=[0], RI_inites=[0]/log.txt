@@ -1,0 +1,231 @@
+[2025-10-27 23:18:51] test_lib.py(169) : DEBUG_MODE: False
+[2025-10-27 23:18:51] test_lib.py(170) : USE_CUDA: True, CUDA_DEVICE_NUM: None
+[2025-10-27 23:18:51] test_lib.py(171) : env_params{'mode': 'test', 'test_in_vrplib': 1, 'vrplib_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp', 'data_path': '/public/home/bayp/exp_survey_202509/Construction/single-stage/insertion/L2C_Insert/data/CVRP/vrplib_instances_set_X.txt', 'sub_path': False, 'RRC_budget': 0, 'RRC_range': 100, 'random_insertion': 0, 'max_RRC_range': 1000}
+[2025-10-27 23:18:51] test_lib.py(171) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 9, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'knearest': 0, 'k_nearest_edges': 200, 'k_nearest_scatter': 100, 'coor_norm': 0}
+[2025-10-27 23:18:51] test_lib.py(171) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'begin_index': 0, 'test_episodes': 110, 'test_batch_size': 1, 'model_load': {'path': '././result/pretrain/cvrp_model.pt'}}
+[2025-10-27 23:18:51] test_lib.py(171) : logger_params{'log_file': {'desc': 'scales=[0], RRC_budgets=[0], RI_inites=[0], coords_norms=[0], knearest=[0], rrc_ranges=[1000], k_edge_nums=[200], k_scatter_nums=[100]', 'filename': 'log.txt', 'filepath': '/public/home/bayp/exp_survey_202509/Construction/single-stage/insertion/L2C_Insert/L2C_Insert/CVRP/Test/result_survey/20251028_001850_scales=[0], RRC_budgets=[0], RI_inites=[0], coords_norms=[0], knearest=[0], rrc_ranges=[1000], k_edge_nums=[200], k_scatter_nums=[100]'}}
+[2025-10-27 23:18:53] Tester_lib.py(237) : [Inst] name:X-n101-k25, size:100, time:1.105s, gap:7.807%, score_teacher:27591.0000, score_student:29745.0000
+[2025-10-27 23:18:53] Tester_lib.py(269) : episode   1/110
+[2025-10-27 23:18:54] Tester_lib.py(237) : [Inst] name:X-n106-k14, size:105, time:0.655s, gap:10.822%, score_teacher:26362.0000, score_student:29215.0000
+[2025-10-27 23:18:54] Tester_lib.py(269) : episode   2/110
+[2025-10-27 23:18:55] Tester_lib.py(237) : [Inst] name:X-n110-k13, size:109, time:0.677s, gap:2.398%, score_teacher:14971.0000, score_student:15330.0000
+[2025-10-27 23:18:55] Tester_lib.py(269) : episode   3/110
+[2025-10-27 23:18:56] Tester_lib.py(237) : [Inst] name:X-n115-k10, size:114, time:0.709s, gap:11.995%, score_teacher:12747.0000, score_student:14276.0000
+[2025-10-27 23:18:56] Tester_lib.py(269) : episode   4/110
+[2025-10-27 23:18:56] Tester_lib.py(237) : [Inst] name:X-n120-k6, size:119, time:0.739s, gap:1.170%, score_teacher:13332.0000, score_student:13488.0000
+[2025-10-27 23:18:56] Tester_lib.py(269) : episode   5/110
+[2025-10-27 23:18:57] Tester_lib.py(237) : [Inst] name:X-n125-k30, size:124, time:0.787s, gap:5.492%, score_teacher:55539.0000, score_student:58589.0000
+[2025-10-27 23:18:57] Tester_lib.py(269) : episode   6/110
+[2025-10-27 23:18:58] Tester_lib.py(237) : [Inst] name:X-n129-k18, size:128, time:0.811s, gap:1.831%, score_teacher:28940.0000, score_student:29470.0000
+[2025-10-27 23:18:58] Tester_lib.py(269) : episode   7/110
+[2025-10-27 23:18:59] Tester_lib.py(237) : [Inst] name:X-n134-k13, size:133, time:0.842s, gap:9.427%, score_teacher:10916.0000, score_student:11945.0000
+[2025-10-27 23:18:59] Tester_lib.py(269) : episode   8/110
+[2025-10-27 23:19:00] Tester_lib.py(237) : [Inst] name:X-n139-k10, size:138, time:0.870s, gap:1.405%, score_teacher:13590.0000, score_student:13781.0000
+[2025-10-27 23:19:00] Tester_lib.py(269) : episode   9/110
+[2025-10-27 23:19:00] Tester_lib.py(237) : [Inst] name:X-n143-k7, size:142, time:0.890s, gap:4.503%, score_teacher:15700.0000, score_student:16407.0000
+[2025-10-27 23:19:00] Tester_lib.py(269) : episode  10/110
+[2025-10-27 23:19:01] Tester_lib.py(237) : [Inst] name:X-n148-k46, size:147, time:0.923s, gap:8.373%, score_teacher:43448.0000, score_student:47086.0000
+[2025-10-27 23:19:01] Tester_lib.py(269) : episode  11/110
+[2025-10-27 23:19:02] Tester_lib.py(237) : [Inst] name:X-n153-k22, size:152, time:0.954s, gap:13.803%, score_teacher:21220.0000, score_student:24149.0000
+[2025-10-27 23:19:02] Tester_lib.py(269) : episode  12/110
+[2025-10-27 23:19:03] Tester_lib.py(237) : [Inst] name:X-n157-k13, size:156, time:0.978s, gap:9.066%, score_teacher:16876.0000, score_student:18406.0000
+[2025-10-27 23:19:03] Tester_lib.py(269) : episode  13/110
+[2025-10-27 23:19:04] Tester_lib.py(237) : [Inst] name:X-n162-k11, size:161, time:1.011s, gap:6.811%, score_teacher:14138.0000, score_student:15101.0000
+[2025-10-27 23:19:04] Tester_lib.py(269) : episode  14/110
+[2025-10-27 23:19:05] Tester_lib.py(237) : [Inst] name:X-n167-k10, size:166, time:1.043s, gap:4.305%, score_teacher:20557.0000, score_student:21442.0000
+[2025-10-27 23:19:05] Tester_lib.py(269) : episode  15/110
+[2025-10-27 23:19:06] Tester_lib.py(237) : [Inst] name:X-n172-k51, size:171, time:1.076s, gap:6.161%, score_teacher:45607.0000, score_student:48417.0000
+[2025-10-27 23:19:06] Tester_lib.py(269) : episode  16/110
+[2025-10-27 23:19:08] Tester_lib.py(237) : [Inst] name:X-n176-k26, size:175, time:1.100s, gap:14.034%, score_teacher:47812.0000, score_student:54522.0000
+[2025-10-27 23:19:08] Tester_lib.py(269) : episode  17/110
+[2025-10-27 23:19:09] Tester_lib.py(237) : [Inst] name:X-n181-k23, size:180, time:1.132s, gap:1.482%, score_teacher:25569.0000, score_student:25948.0000
+[2025-10-27 23:19:09] Tester_lib.py(269) : episode  18/110
+[2025-10-27 23:19:10] Tester_lib.py(237) : [Inst] name:X-n186-k15, size:185, time:1.165s, gap:3.765%, score_teacher:24145.0000, score_student:25054.0000
+[2025-10-27 23:19:10] Tester_lib.py(269) : episode  19/110
+[2025-10-27 23:19:11] Tester_lib.py(237) : [Inst] name:X-n190-k8, size:189, time:1.191s, gap:3.604%, score_teacher:16980.0000, score_student:17592.0000
+[2025-10-27 23:19:11] Tester_lib.py(269) : episode  20/110
+[2025-10-27 23:19:12] Tester_lib.py(237) : [Inst] name:X-n195-k51, size:194, time:1.224s, gap:7.778%, score_teacher:44225.0000, score_student:47665.0000
+[2025-10-27 23:19:12] Tester_lib.py(269) : episode  21/110
+[2025-10-27 23:19:13] Tester_lib.py(237) : [Inst] name:X-n200-k36, size:199, time:1.254s, gap:6.571%, score_teacher:58578.0000, score_student:62427.0000
+[2025-10-27 23:19:13] Tester_lib.py(269) : episode  22/110
+[2025-10-27 23:19:15] Tester_lib.py(237) : [Inst] name:X-n204-k19, size:203, time:1.279s, gap:4.120%, score_teacher:19565.0000, score_student:20371.0000
+[2025-10-27 23:19:15] Tester_lib.py(269) : episode  23/110
+[2025-10-27 23:19:16] Tester_lib.py(237) : [Inst] name:X-n209-k16, size:208, time:1.312s, gap:7.278%, score_teacher:30656.0000, score_student:32887.0000
+[2025-10-27 23:19:16] Tester_lib.py(269) : episode  24/110
+[2025-10-27 23:19:17] Tester_lib.py(237) : [Inst] name:X-n214-k11, size:213, time:1.342s, gap:8.373%, score_teacher:10856.0000, score_student:11765.0000
+[2025-10-27 23:19:17] Tester_lib.py(269) : episode  25/110
+[2025-10-27 23:19:19] Tester_lib.py(237) : [Inst] name:X-n219-k73, size:218, time:1.377s, gap:3.065%, score_teacher:117595.0000, score_student:121199.0000
+[2025-10-27 23:19:19] Tester_lib.py(269) : episode  26/110
+[2025-10-27 23:19:20] Tester_lib.py(237) : [Inst] name:X-n223-k34, size:222, time:1.400s, gap:6.850%, score_teacher:40437.0000, score_student:43207.0000
+[2025-10-27 23:19:20] Tester_lib.py(269) : episode  27/110
+[2025-10-27 23:19:22] Tester_lib.py(237) : [Inst] name:X-n228-k23, size:227, time:1.432s, gap:12.757%, score_teacher:25742.0000, score_student:29026.0000
+[2025-10-27 23:19:22] Tester_lib.py(269) : episode  28/110
+[2025-10-27 23:19:23] Tester_lib.py(237) : [Inst] name:X-n233-k16, size:232, time:1.462s, gap:11.321%, score_teacher:19230.0000, score_student:21407.0000
+[2025-10-27 23:19:23] Tester_lib.py(269) : episode  29/110
+[2025-10-27 23:19:25] Tester_lib.py(237) : [Inst] name:X-n237-k14, size:236, time:1.488s, gap:7.729%, score_teacher:27042.0000, score_student:29132.0000
+[2025-10-27 23:19:25] Tester_lib.py(269) : episode  30/110
+[2025-10-27 23:19:26] Tester_lib.py(237) : [Inst] name:X-n242-k48, size:241, time:1.523s, gap:3.637%, score_teacher:82751.0000, score_student:85761.0000
+[2025-10-27 23:19:26] Tester_lib.py(269) : episode  31/110
+[2025-10-27 23:19:28] Tester_lib.py(237) : [Inst] name:X-n247-k50, size:246, time:1.556s, gap:13.843%, score_teacher:37274.0000, score_student:42434.0000
+[2025-10-27 23:19:28] Tester_lib.py(269) : episode  32/110
+[2025-10-27 23:19:29] Tester_lib.py(237) : [Inst] name:X-n251-k28, size:250, time:1.576s, gap:4.353%, score_teacher:38684.0000, score_student:40368.0000
+[2025-10-27 23:19:29] Tester_lib.py(269) : episode  33/110
+[2025-10-27 23:19:31] Tester_lib.py(237) : [Inst] name:X-n256-k16, size:255, time:1.611s, gap:5.223%, score_teacher:18839.0000, score_student:19823.0000
+[2025-10-27 23:19:31] Tester_lib.py(269) : episode  34/110
+[2025-10-27 23:19:32] Tester_lib.py(237) : [Inst] name:X-n261-k13, size:260, time:1.641s, gap:5.049%, score_teacher:26558.0000, score_student:27899.0000
+[2025-10-27 23:19:32] Tester_lib.py(269) : episode  35/110
+[2025-10-27 23:19:34] Tester_lib.py(237) : [Inst] name:X-n266-k58, size:265, time:1.678s, gap:5.013%, score_teacher:75478.0000, score_student:79262.0000
+[2025-10-27 23:19:34] Tester_lib.py(269) : episode  36/110
+[2025-10-27 23:19:36] Tester_lib.py(237) : [Inst] name:X-n270-k35, size:269, time:1.700s, gap:4.933%, score_teacher:35291.0000, score_student:37032.0000
+[2025-10-27 23:19:36] Tester_lib.py(269) : episode  37/110
+[2025-10-27 23:19:38] Tester_lib.py(237) : [Inst] name:X-n275-k28, size:274, time:1.731s, gap:3.154%, score_teacher:21245.0000, score_student:21915.0000
+[2025-10-27 23:19:38] Tester_lib.py(269) : episode  38/110
+[2025-10-27 23:19:39] Tester_lib.py(237) : [Inst] name:X-n280-k17, size:279, time:1.761s, gap:8.662%, score_teacher:33503.0000, score_student:36405.0000
+[2025-10-27 23:19:39] Tester_lib.py(269) : episode  39/110
+[2025-10-27 23:19:41] Tester_lib.py(237) : [Inst] name:X-n284-k15, size:283, time:1.788s, gap:5.018%, score_teacher:20226.0000, score_student:21241.0000
+[2025-10-27 23:19:41] Tester_lib.py(269) : episode  40/110
+[2025-10-27 23:19:43] Tester_lib.py(237) : [Inst] name:X-n289-k60, size:288, time:1.821s, gap:5.116%, score_teacher:95151.0000, score_student:100019.0000
+[2025-10-27 23:19:43] Tester_lib.py(269) : episode  41/110
+[2025-10-27 23:19:45] Tester_lib.py(237) : [Inst] name:X-n294-k50, size:293, time:1.854s, gap:7.127%, score_teacher:47161.0000, score_student:50522.0000
+[2025-10-27 23:19:45] Tester_lib.py(269) : episode  42/110
+[2025-10-27 23:19:47] Tester_lib.py(237) : [Inst] name:X-n298-k31, size:297, time:1.878s, gap:5.650%, score_teacher:34231.0000, score_student:36165.0000
+[2025-10-27 23:19:47] Tester_lib.py(269) : episode  43/110
+[2025-10-27 23:19:49] Tester_lib.py(237) : [Inst] name:X-n303-k21, size:302, time:1.910s, gap:5.774%, score_teacher:21736.0000, score_student:22991.0000
+[2025-10-27 23:19:49] Tester_lib.py(269) : episode  44/110
+[2025-10-27 23:19:51] Tester_lib.py(237) : [Inst] name:X-n308-k13, size:307, time:1.943s, gap:9.393%, score_teacher:25859.0000, score_student:28288.0000
+[2025-10-27 23:19:51] Tester_lib.py(269) : episode  45/110
+[2025-10-27 23:19:53] Tester_lib.py(237) : [Inst] name:X-n313-k71, size:312, time:1.977s, gap:6.607%, score_teacher:94043.0000, score_student:100256.0000
+[2025-10-27 23:19:53] Tester_lib.py(269) : episode  46/110
+[2025-10-27 23:19:55] Tester_lib.py(237) : [Inst] name:X-n317-k53, size:316, time:1.998s, gap:2.059%, score_teacher:78355.0000, score_student:79968.0000
+[2025-10-27 23:19:55] Tester_lib.py(269) : episode  47/110
+[2025-10-27 23:19:57] Tester_lib.py(237) : [Inst] name:X-n322-k28, size:321, time:2.028s, gap:5.326%, score_teacher:29834.0000, score_student:31423.0000
+[2025-10-27 23:19:57] Tester_lib.py(269) : episode  48/110
+[2025-10-27 23:19:59] Tester_lib.py(237) : [Inst] name:X-n327-k20, size:326, time:2.060s, gap:5.503%, score_teacher:27532.0000, score_student:29047.0000
+[2025-10-27 23:19:59] Tester_lib.py(269) : episode  49/110
+[2025-10-27 23:20:01] Tester_lib.py(237) : [Inst] name:X-n331-k15, size:330, time:2.084s, gap:7.958%, score_teacher:31102.0000, score_student:33577.0000
+[2025-10-27 23:20:01] Tester_lib.py(269) : episode  50/110
+[2025-10-27 23:20:03] Tester_lib.py(237) : [Inst] name:X-n336-k84, size:335, time:2.121s, gap:7.178%, score_teacher:139111.0000, score_student:149096.0000
+[2025-10-27 23:20:03] Tester_lib.py(269) : episode  51/110
+[2025-10-27 23:20:05] Tester_lib.py(237) : [Inst] name:X-n344-k43, size:343, time:2.169s, gap:4.747%, score_teacher:42050.0000, score_student:44046.0000
+[2025-10-27 23:20:05] Tester_lib.py(269) : episode  52/110
+[2025-10-27 23:20:07] Tester_lib.py(237) : [Inst] name:X-n351-k40, size:350, time:2.214s, gap:8.368%, score_teacher:25896.0000, score_student:28063.0000
+[2025-10-27 23:20:07] Tester_lib.py(269) : episode  53/110
+[2025-10-27 23:20:09] Tester_lib.py(237) : [Inst] name:X-n359-k29, size:358, time:2.264s, gap:6.518%, score_teacher:51505.0000, score_student:54862.0000
+[2025-10-27 23:20:09] Tester_lib.py(269) : episode  54/110
+[2025-10-27 23:20:12] Tester_lib.py(237) : [Inst] name:X-n367-k17, size:366, time:2.315s, gap:10.274%, score_teacher:22814.0000, score_student:25158.0000
+[2025-10-27 23:20:12] Tester_lib.py(269) : episode  55/110
+[2025-10-27 23:20:14] Tester_lib.py(237) : [Inst] name:X-n376-k94, size:375, time:2.380s, gap:2.219%, score_teacher:147713.0000, score_student:150991.0000
+[2025-10-27 23:20:14] Tester_lib.py(269) : episode  56/110
+[2025-10-27 23:20:17] Tester_lib.py(237) : [Inst] name:X-n384-k52, size:383, time:2.427s, gap:5.993%, score_teacher:65940.0000, score_student:69892.0000
+[2025-10-27 23:20:17] Tester_lib.py(269) : episode  57/110
+[2025-10-27 23:20:19] Tester_lib.py(237) : [Inst] name:X-n393-k38, size:392, time:2.483s, gap:5.638%, score_teacher:38260.0000, score_student:40417.0000
+[2025-10-27 23:20:19] Tester_lib.py(269) : episode  58/110
+[2025-10-27 23:20:22] Tester_lib.py(237) : [Inst] name:X-n401-k29, size:400, time:2.529s, gap:3.150%, score_teacher:66154.0000, score_student:68238.0000
+[2025-10-27 23:20:22] Tester_lib.py(269) : episode  59/110
+[2025-10-27 23:20:24] Tester_lib.py(237) : [Inst] name:X-n411-k19, size:410, time:2.597s, gap:8.731%, score_teacher:19712.0000, score_student:21433.0000
+[2025-10-27 23:20:24] Tester_lib.py(269) : episode  60/110
+[2025-10-27 23:20:27] Tester_lib.py(237) : [Inst] name:X-n420-k130, size:419, time:2.665s, gap:8.457%, score_teacher:107798.0000, score_student:116915.0000
+[2025-10-27 23:20:27] Tester_lib.py(269) : episode  61/110
+[2025-10-27 23:20:30] Tester_lib.py(237) : [Inst] name:X-n429-k61, size:428, time:2.716s, gap:5.896%, score_teacher:65449.0000, score_student:69308.0000
+[2025-10-27 23:20:30] Tester_lib.py(269) : episode  62/110
+[2025-10-27 23:20:32] Tester_lib.py(237) : [Inst] name:X-n439-k37, size:438, time:2.776s, gap:3.465%, score_teacher:36391.0000, score_student:37652.0000
+[2025-10-27 23:20:32] Tester_lib.py(269) : episode  63/110
+[2025-10-27 23:20:35] Tester_lib.py(237) : [Inst] name:X-n449-k29, size:448, time:2.840s, gap:6.308%, score_teacher:55233.0000, score_student:58717.0000
+[2025-10-27 23:20:35] Tester_lib.py(269) : episode  64/110
+[2025-10-27 23:20:38] Tester_lib.py(237) : [Inst] name:X-n459-k26, size:458, time:2.905s, gap:12.250%, score_teacher:24139.0000, score_student:27096.0000
+[2025-10-27 23:20:38] Tester_lib.py(269) : episode  65/110
+[2025-10-27 23:20:41] Tester_lib.py(237) : [Inst] name:X-n469-k138, size:468, time:2.983s, gap:8.226%, score_teacher:221824.0000, score_student:240072.0000
+[2025-10-27 23:20:41] Tester_lib.py(269) : episode  66/110
+[2025-10-27 23:20:44] Tester_lib.py(237) : [Inst] name:X-n480-k70, size:479, time:3.046s, gap:3.961%, score_teacher:89449.0000, score_student:92992.0000
+[2025-10-27 23:20:44] Tester_lib.py(269) : episode  67/110
+[2025-10-27 23:20:47] Tester_lib.py(237) : [Inst] name:X-n491-k59, size:490, time:3.113s, gap:8.689%, score_teacher:66483.0000, score_student:72260.0000
+[2025-10-27 23:20:47] Tester_lib.py(269) : episode  68/110
+[2025-10-27 23:20:50] Tester_lib.py(237) : [Inst] name:X-n502-k39, size:501, time:3.184s, gap:1.780%, score_teacher:69226.0000, score_student:70458.0000
+[2025-10-27 23:20:50] Tester_lib.py(269) : episode  69/110
+[2025-10-27 23:20:54] Tester_lib.py(237) : [Inst] name:X-n513-k21, size:512, time:3.255s, gap:5.401%, score_teacher:24201.0000, score_student:25508.0000
+[2025-10-27 23:20:54] Tester_lib.py(269) : episode  70/110
+[2025-10-27 23:20:57] Tester_lib.py(237) : [Inst] name:X-n524-k153, size:523, time:3.341s, gap:12.521%, score_teacher:154593.0000, score_student:173949.0000
+[2025-10-27 23:20:57] Tester_lib.py(269) : episode  71/110
+[2025-10-27 23:21:00] Tester_lib.py(237) : [Inst] name:X-n536-k96, size:535, time:3.410s, gap:7.817%, score_teacher:94846.0000, score_student:102260.0000
+[2025-10-27 23:21:00] Tester_lib.py(269) : episode  72/110
+[2025-10-27 23:21:04] Tester_lib.py(237) : [Inst] name:X-n548-k50, size:547, time:3.487s, gap:4.044%, score_teacher:86700.0000, score_student:90206.0000
+[2025-10-27 23:21:04] Tester_lib.py(269) : episode  73/110
+[2025-10-27 23:21:08] Tester_lib.py(237) : [Inst] name:X-n561-k42, size:560, time:3.569s, gap:6.026%, score_teacher:42717.0000, score_student:45291.0000
+[2025-10-27 23:21:08] Tester_lib.py(269) : episode  74/110
+[2025-10-27 23:21:11] Tester_lib.py(237) : [Inst] name:X-n573-k30, size:572, time:3.650s, gap:8.093%, score_teacher:50673.0000, score_student:54774.0000
+[2025-10-27 23:21:11] Tester_lib.py(269) : episode  75/110
+[2025-10-27 23:21:15] Tester_lib.py(237) : [Inst] name:X-n586-k159, size:585, time:3.763s, gap:8.082%, score_teacher:190316.0000, score_student:205697.0000
+[2025-10-27 23:21:15] Tester_lib.py(269) : episode  76/110
+[2025-10-27 23:21:19] Tester_lib.py(237) : [Inst] name:X-n599-k92, size:598, time:3.828s, gap:5.711%, score_teacher:108451.0000, score_student:114645.0000
+[2025-10-27 23:21:19] Tester_lib.py(269) : episode  77/110
+[2025-10-27 23:21:23] Tester_lib.py(237) : [Inst] name:X-n613-k62, size:612, time:3.915s, gap:7.799%, score_teacher:59535.0000, score_student:64178.0000
+[2025-10-27 23:21:23] Tester_lib.py(269) : episode  78/110
+[2025-10-27 23:21:27] Tester_lib.py(237) : [Inst] name:X-n627-k43, size:626, time:4.005s, gap:8.071%, score_teacher:62164.0000, score_student:67181.0000
+[2025-10-27 23:21:27] Tester_lib.py(269) : episode  79/110
+[2025-10-27 23:21:31] Tester_lib.py(237) : [Inst] name:X-n641-k35, size:640, time:4.100s, gap:8.434%, score_teacher:63684.0000, score_student:69055.0000
+[2025-10-27 23:21:31] Tester_lib.py(269) : episode  80/110
+[2025-10-27 23:21:35] Tester_lib.py(237) : [Inst] name:X-n655-k131, size:654, time:4.269s, gap:4.149%, score_teacher:106780.0000, score_student:111210.0000
+[2025-10-27 23:21:35] Tester_lib.py(269) : episode  81/110
+[2025-10-27 23:21:39] Tester_lib.py(237) : [Inst] name:X-n670-k130, size:669, time:4.404s, gap:13.663%, score_teacher:146332.0000, score_student:166326.0000
+[2025-10-27 23:21:39] Tester_lib.py(269) : episode  82/110
+[2025-10-27 23:21:44] Tester_lib.py(237) : [Inst] name:X-n685-k75, size:684, time:4.441s, gap:8.313%, score_teacher:68205.0000, score_student:73875.0000
+[2025-10-27 23:21:44] Tester_lib.py(269) : episode  83/110
+[2025-10-27 23:21:48] Tester_lib.py(237) : [Inst] name:X-n701-k44, size:700, time:4.531s, gap:5.443%, score_teacher:81923.0000, score_student:86382.0000
+[2025-10-27 23:21:48] Tester_lib.py(269) : episode  84/110
+[2025-10-27 23:21:53] Tester_lib.py(237) : [Inst] name:X-n716-k35, size:715, time:4.644s, gap:10.269%, score_teacher:43373.0000, score_student:47827.0000
+[2025-10-27 23:21:53] Tester_lib.py(269) : episode  85/110
+[2025-10-27 23:21:58] Tester_lib.py(237) : [Inst] name:X-n733-k159, size:732, time:5.067s, gap:5.910%, score_teacher:136187.0000, score_student:144236.0000
+[2025-10-27 23:21:58] Tester_lib.py(269) : episode  86/110
+[2025-10-27 23:22:03] Tester_lib.py(237) : [Inst] name:X-n749-k98, size:748, time:5.116s, gap:6.792%, score_teacher:77269.0000, score_student:82517.0000
+[2025-10-27 23:22:03] Tester_lib.py(269) : episode  87/110
+[2025-10-27 23:22:08] Tester_lib.py(237) : [Inst] name:X-n766-k71, size:765, time:5.207s, gap:10.959%, score_teacher:114417.0000, score_student:126956.0000
+[2025-10-27 23:22:08] Tester_lib.py(269) : episode  88/110
+[2025-10-27 23:22:14] Tester_lib.py(237) : [Inst] name:X-n783-k48, size:782, time:5.371s, gap:10.404%, score_teacher:72386.0000, score_student:79917.0000
+[2025-10-27 23:22:14] Tester_lib.py(269) : episode  89/110
+[2025-10-27 23:22:19] Tester_lib.py(237) : [Inst] name:X-n801-k40, size:800, time:5.550s, gap:6.923%, score_teacher:73311.0000, score_student:78386.0000
+[2025-10-27 23:22:19] Tester_lib.py(269) : episode  90/110
+[2025-10-27 23:22:25] Tester_lib.py(237) : [Inst] name:X-n819-k171, size:818, time:6.113s, gap:7.663%, score_teacher:158121.0000, score_student:170238.0000
+[2025-10-27 23:22:25] Tester_lib.py(269) : episode  91/110
+[2025-10-27 23:22:32] Tester_lib.py(237) : [Inst] name:X-n837-k142, size:836, time:6.249s, gap:4.785%, score_teacher:193737.0000, score_student:203007.0000
+[2025-10-27 23:22:32] Tester_lib.py(269) : episode  92/110
+[2025-10-27 23:22:38] Tester_lib.py(237) : [Inst] name:X-n856-k95, size:855, time:6.329s, gap:4.279%, score_teacher:88965.0000, score_student:92772.0000
+[2025-10-27 23:22:38] Tester_lib.py(269) : episode  93/110
+[2025-10-27 23:22:45] Tester_lib.py(237) : [Inst] name:X-n876-k59, size:875, time:6.495s, gap:4.946%, score_teacher:99299.0000, score_student:104210.0000
+[2025-10-27 23:22:45] Tester_lib.py(269) : episode  94/110
+[2025-10-27 23:22:51] Tester_lib.py(237) : [Inst] name:X-n895-k37, size:894, time:6.684s, gap:11.023%, score_teacher:53860.0000, score_student:59797.0000
+[2025-10-27 23:22:51] Tester_lib.py(269) : episode  95/110
+[2025-10-27 23:22:59] Tester_lib.py(237) : [Inst] name:X-n916-k207, size:915, time:7.639s, gap:6.241%, score_teacher:329179.0000, score_student:349724.0000
+[2025-10-27 23:22:59] Tester_lib.py(269) : episode  96/110
+[2025-10-27 23:23:07] Tester_lib.py(237) : [Inst] name:X-n936-k151, size:935, time:7.787s, gap:17.712%, score_teacher:132715.0000, score_student:156221.0000
+[2025-10-27 23:23:07] Tester_lib.py(269) : episode  97/110
+[2025-10-27 23:23:14] Tester_lib.py(237) : [Inst] name:X-n957-k87, size:956, time:7.774s, gap:5.393%, score_teacher:85465.0000, score_student:90074.0000
+[2025-10-27 23:23:14] Tester_lib.py(269) : episode  98/110
+[2025-10-27 23:23:22] Tester_lib.py(237) : [Inst] name:X-n979-k58, size:978, time:8.026s, gap:7.689%, score_teacher:118976.0000, score_student:128124.0000
+[2025-10-27 23:23:22] Tester_lib.py(269) : episode  99/110
+[2025-10-27 23:23:31] Tester_lib.py(237) : [Inst] name:X-n1001-k43, size:1000, time:8.332s, gap:9.350%, score_teacher:72355.0000, score_student:79120.0000
+[2025-10-27 23:23:31] Tester_lib.py(269) : episode 100/110
+[2025-10-27 23:25:48] Tester_lib.py(237) : [Inst] name:Leuven1, size:3000, time:137.303s, gap:13.288%, score_teacher:192848.0000, score_student:218473.0000
+[2025-10-27 23:25:48] Tester_lib.py(269) : episode 101/110
+[2025-10-27 23:30:51] Tester_lib.py(237) : [Inst] name:Leuven2, size:4000, time:302.577s, gap:39.337%, score_teacher:111395.0000, score_student:155214.0000
+[2025-10-27 23:30:51] Tester_lib.py(269) : episode 102/110
+[2025-10-27 23:48:04] Tester_lib.py(237) : [Inst] name:Antwerp1, size:6000, time:1033.487s, gap:14.724%, score_teacher:477277.0000, score_student:547552.0000
+[2025-10-27 23:48:04] Tester_lib.py(269) : episode 103/110
+[2025-10-28 00:14:46] Tester_lib.py(237) : [Inst] name:Antwerp2, size:7000, time:1602.031s, gap:35.133%, score_teacher:291350.0000, score_student:393710.0000
+[2025-10-28 00:14:46] Tester_lib.py(269) : episode 104/110
+[2025-10-28 01:35:25] Tester_lib.py(237) : [Inst] name:Ghent1, size:10000, time:4838.635s, gap:29.228%, score_teacher:469531.0000, score_student:606764.0000
+[2025-10-28 01:35:25] Tester_lib.py(269) : episode 105/110
+[2025-10-28 03:18:58] Tester_lib.py(237) : [Inst] name:Ghent2, size:11000, time:6212.789s, gap:69.589%, score_teacher:257749.0000, score_student:437113.0000
+[2025-10-28 03:18:58] Tester_lib.py(269) : episode 106/110
+[2025-10-28 03:18:59] Tester_lib.py(248) : [Inst-ERROR] episode:106, msg:CUDA out of memory. Tried to allocate 6.71 GiB (GPU 0; 23.59 GiB total capacity; 20.19 GiB already allocated; 2.80 GiB free; 20.47 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF. Skip this instance.
+[2025-10-28 03:18:59] Tester_lib.py(269) : episode 107/110
+[2025-10-28 03:19:00] Tester_lib.py(248) : [Inst-ERROR] episode:107, msg:CUDA out of memory. Tried to allocate 7.63 GiB (GPU 0; 23.59 GiB total capacity; 22.96 GiB already allocated; 31.12 MiB free; 23.25 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF. Skip this instance.
+[2025-10-28 03:19:00] Tester_lib.py(269) : episode 108/110
+[2025-10-28 03:19:00] Tester_lib.py(248) : [Inst-ERROR] episode:108, msg:CUDA out of memory. Tried to allocate 11.92 GiB (GPU 0; 23.59 GiB total capacity; 11.99 GiB already allocated; 11.01 GiB free; 12.27 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF. Skip this instance.
+[2025-10-28 03:19:00] Tester_lib.py(269) : episode 109/110
+[2025-10-28 03:19:01] Tester_lib.py(248) : [Inst-ERROR] episode:109, msg:CUDA out of memory. Tried to allocate 26.82 GiB (GPU 0; 23.59 GiB total capacity; 85.30 MiB already allocated; 22.94 GiB free; 344.00 MiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF. Skip this instance.
+[2025-10-28 03:19:01] Tester_lib.py(269) : episode 110/110
+[2025-10-28 03:19:01] Tester_lib.py(272) :  *** Test Done *** 
+[2025-10-28 03:19:01] Tester_lib.py(281) : [0, 1000)  num:99, avg gap:6.868%, avg time:2.728s
+[2025-10-28 03:19:01] Tester_lib.py(281) : [1000, 10000)  num:5, avg gap:22.366%, avg time:616.746s
+[2025-10-28 03:19:01] Tester_lib.py(281) : [10000, 100001)  num:2, avg gap:49.408%, avg time:5525.712s
+[2025-10-28 03:19:01] Tester_lib.py(287) : All instances: solved 106/110, avg gap:8.401%, avg time:135.899s
