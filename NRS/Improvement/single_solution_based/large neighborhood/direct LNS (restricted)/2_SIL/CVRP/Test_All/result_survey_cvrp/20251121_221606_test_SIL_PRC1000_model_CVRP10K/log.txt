@@ -1,0 +1,122 @@
+[2025-11-21 22:16:07] test_survey_10k.py(142) : DEBUG_MODE: False
+[2025-11-21 22:16:07] test_survey_10k.py(143) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-11-21 22:16:07] test_survey_10k.py(144) : env_params{'pomo_size': 1, 'k_nearest': 1, 'beam_width': 16, 'decode_method': 'greedy', 'mode': 'test', 'test_in_vrplib': True, 'vrplib_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/2_SIL/CVRP/data/test_set/CVRPlib_scale_larger_than1000_Li_X_XXL_n14.txt', 'data_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/large neighborhood/direct LNS (restricted)/2_SIL/CVRP/data/test_set/CVRPlib_scale_larger_than1000_Li_X_XXL_n14.txt', 'load_way': 'allin', 'sub_path': False, 'budget': 1000, 'PRC': True, 'repair_max_sub_length': 1000, 'random_insertion': True}
+[2025-11-21 22:16:07] test_survey_10k.py(144) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'use_k_nearest': True, 'k_nearest_num': 1000}
+[2025-11-21 22:16:07] test_survey_10k.py(144) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': './result/checkpoint-cvrp10k.pt'}, 'test_episodes': 14, 'test_batch_size': 1, 'augmentation_enable': False, 'aug_factor': 1, 'aug_batch_size': 100}
+[2025-11-21 22:16:07] test_survey_10k.py(144) : logger_params{'log_file': {'desc': 'test_random_insertion_True_PRC_True_budget_1000', 'filename': 'log.txt', 'filepath': './result_survey_cvrp/20251121_221606_test_random_insertion_True_PRC_True_budget_1000'}}
+[2025-11-21 22:21:29] Tester.py(428) : Episode   1/110 done.Instance: X-n101-k25, size: 100, opt: 27591.000, student: 34663.000, gap: 25.632%, time: 322.496s
+[2025-11-21 22:27:07] Tester.py(428) : Episode   2/110 done.Instance: X-n106-k14, size: 105, opt: 26362.000, student: 35761.000, gap: 35.654%, time: 337.160s
+[2025-11-21 22:32:55] Tester.py(428) : Episode   3/110 done.Instance: X-n110-k13, size: 109, opt: 14971.000, student: 17747.000, gap: 18.543%, time: 348.576s
+[2025-11-21 22:38:55] Tester.py(428) : Episode   4/110 done.Instance: X-n115-k10, size: 114, opt: 12747.000, student: 16858.000, gap: 32.251%, time: 360.260s
+[2025-11-21 22:45:18] Tester.py(428) : Episode   5/110 done.Instance: X-n120-k6, size: 119, opt: 13332.000, student: 13716.000, gap: 2.880%, time: 382.402s
+[2025-11-21 22:52:04] Tester.py(428) : Episode   6/110 done.Instance: X-n125-k30, size: 124, opt: 55539.000, student: 64250.000, gap: 15.684%, time: 405.796s
+[2025-11-21 22:58:55] Tester.py(428) : Episode   7/110 done.Instance: X-n129-k18, size: 128, opt: 28940.000, student: 43279.000, gap: 49.547%, time: 411.572s
+[2025-11-21 23:05:54] Tester.py(428) : Episode   8/110 done.Instance: X-n134-k13, size: 133, opt: 10916.000, student: 14362.000, gap: 31.568%, time: 418.990s
+[2025-11-21 23:13:21] Tester.py(428) : Episode   9/110 done.Instance: X-n139-k10, size: 138, opt: 13590.000, student: 14576.000, gap: 7.255%, time: 447.116s
+[2025-11-21 23:20:46] Tester.py(428) : Episode  10/110 done.Instance: X-n143-k7, size: 142, opt: 15700.000, student: 16784.000, gap: 6.904%, time: 444.930s
+[2025-11-21 23:28:38] Tester.py(428) : Episode  11/110 done.Instance: X-n148-k46, size: 147, opt: 43448.000, student: 52704.000, gap: 21.304%, time: 471.332s
+[2025-11-21 23:36:47] Tester.py(428) : Episode  12/110 done.Instance: X-n153-k22, size: 152, opt: 21220.000, student: 26851.000, gap: 26.536%, time: 489.335s
+[2025-11-21 23:45:17] Tester.py(428) : Episode  13/110 done.Instance: X-n157-k13, size: 156, opt: 16876.000, student: 17714.000, gap: 4.966%, time: 510.163s
+[2025-11-21 23:53:49] Tester.py(428) : Episode  14/110 done.Instance: X-n162-k11, size: 161, opt: 14138.000, student: 15140.000, gap: 7.087%, time: 512.463s
+[2025-11-22 00:02:43] Tester.py(428) : Episode  15/110 done.Instance: X-n167-k10, size: 166, opt: 20557.000, student: 21680.000, gap: 5.463%, time: 533.687s
+[2025-11-22 00:11:56] Tester.py(428) : Episode  16/110 done.Instance: X-n172-k51, size: 171, opt: 45607.000, student: 57773.000, gap: 26.676%, time: 552.702s
+[2025-11-22 00:21:05] Tester.py(428) : Episode  17/110 done.Instance: X-n176-k26, size: 175, opt: 47812.000, student: 59064.000, gap: 23.534%, time: 549.067s
+[2025-11-22 00:30:34] Tester.py(428) : Episode  18/110 done.Instance: X-n181-k23, size: 180, opt: 25569.000, student: 29358.000, gap: 14.819%, time: 569.503s
+[2025-11-22 00:40:28] Tester.py(428) : Episode  19/110 done.Instance: X-n186-k15, size: 185, opt: 24145.000, student: 26415.000, gap: 9.402%, time: 593.690s
+[2025-11-22 00:50:24] Tester.py(428) : Episode  20/110 done.Instance: X-n190-k8, size: 189, opt: 16980.000, student: 17583.000, gap: 3.551%, time: 595.554s
+[2025-11-22 01:01:00] Tester.py(428) : Episode  21/110 done.Instance: X-n195-k51, size: 194, opt: 44225.000, student: 56644.000, gap: 28.081%, time: 636.240s
+[2025-11-22 01:11:29] Tester.py(428) : Episode  22/110 done.Instance: X-n200-k36, size: 199, opt: 58578.000, student: 74711.000, gap: 27.541%, time: 628.922s
+[2025-11-22 01:22:15] Tester.py(428) : Episode  23/110 done.Instance: X-n204-k19, size: 203, opt: 19565.000, student: 22756.000, gap: 16.310%, time: 646.661s
+[2025-11-22 01:33:17] Tester.py(428) : Episode  24/110 done.Instance: X-n209-k16, size: 208, opt: 30656.000, student: 33198.000, gap: 8.292%, time: 661.667s
+[2025-11-22 01:44:34] Tester.py(428) : Episode  25/110 done.Instance: X-n214-k11, size: 213, opt: 10856.000, student: 11964.000, gap: 10.206%, time: 676.469s
+[2025-11-22 01:56:17] Tester.py(428) : Episode  26/110 done.Instance: X-n219-k73, size: 218, opt: 117595.000, student: 145717.000, gap: 23.914%, time: 703.722s
+[2025-11-22 02:08:08] Tester.py(428) : Episode  27/110 done.Instance: X-n223-k34, size: 222, opt: 40437.000, student: 53946.000, gap: 33.408%, time: 710.146s
+[2025-11-22 02:20:10] Tester.py(428) : Episode  28/110 done.Instance: X-n228-k23, size: 227, opt: 25742.000, student: 33630.000, gap: 30.643%, time: 722.461s
+[2025-11-22 02:32:34] Tester.py(428) : Episode  29/110 done.Instance: X-n233-k16, size: 232, opt: 19230.000, student: 22169.000, gap: 15.283%, time: 743.821s
+[2025-11-22 02:44:28] Tester.py(428) : Episode  30/110 done.Instance: X-n237-k14, size: 236, opt: 27042.000, student: 27785.000, gap: 2.748%, time: 714.330s
+[2025-11-22 02:57:02] Tester.py(428) : Episode  31/110 done.Instance: X-n242-k48, size: 241, opt: 82751.000, student: 106527.000, gap: 28.732%, time: 753.932s
+[2025-11-22 03:10:07] Tester.py(428) : Episode  32/110 done.Instance: X-n247-k50, size: 246, opt: 37274.000, student: 45965.000, gap: 23.317%, time: 785.209s
+[2025-11-22 03:23:23] Tester.py(428) : Episode  33/110 done.Instance: X-n251-k28, size: 250, opt: 38684.000, student: 44194.000, gap: 14.244%, time: 795.691s
+[2025-11-22 03:37:09] Tester.py(428) : Episode  34/110 done.Instance: X-n256-k16, size: 255, opt: 18839.000, student: 19244.000, gap: 2.150%, time: 826.149s
+[2025-11-22 03:51:08] Tester.py(428) : Episode  35/110 done.Instance: X-n261-k13, size: 260, opt: 26558.000, student: 28896.000, gap: 8.803%, time: 838.771s
+[2025-11-22 04:05:27] Tester.py(428) : Episode  36/110 done.Instance: X-n266-k58, size: 265, opt: 75478.000, student: 107752.000, gap: 42.759%, time: 859.547s
+[2025-11-22 04:20:03] Tester.py(428) : Episode  37/110 done.Instance: X-n270-k35, size: 269, opt: 35291.000, student: 42000.000, gap: 19.011%, time: 875.647s
+[2025-11-22 04:34:18] Tester.py(428) : Episode  38/110 done.Instance: X-n275-k28, size: 274, opt: 21245.000, student: 23661.000, gap: 11.372%, time: 854.974s
+[2025-11-22 04:48:29] Tester.py(428) : Episode  39/110 done.Instance: X-n280-k17, size: 279, opt: 33503.000, student: 44752.000, gap: 33.576%, time: 851.435s
+[2025-11-22 05:03:28] Tester.py(428) : Episode  40/110 done.Instance: X-n284-k15, size: 283, opt: 20226.000, student: 22032.000, gap: 8.929%, time: 898.350s
+[2025-11-22 05:19:26] Tester.py(428) : Episode  41/110 done.Instance: X-n289-k60, size: 288, opt: 95151.000, student: 130927.000, gap: 37.599%, time: 957.793s
+[2025-11-22 05:34:48] Tester.py(428) : Episode  42/110 done.Instance: X-n294-k50, size: 293, opt: 47161.000, student: 63659.000, gap: 34.982%, time: 922.364s
+[2025-11-22 05:50:29] Tester.py(428) : Episode  43/110 done.Instance: X-n298-k31, size: 297, opt: 34231.000, student: 50019.000, gap: 46.122%, time: 940.679s
+[2025-11-22 06:06:43] Tester.py(428) : Episode  44/110 done.Instance: X-n303-k21, size: 302, opt: 21736.000, student: 24811.000, gap: 14.147%, time: 974.327s
+[2025-11-22 06:23:16] Tester.py(428) : Episode  45/110 done.Instance: X-n308-k13, size: 307, opt: 25859.000, student: 37774.000, gap: 46.077%, time: 993.504s
+[2025-11-22 06:39:23] Tester.py(428) : Episode  46/110 done.Instance: X-n313-k71, size: 312, opt: 94043.000, student: 118777.000, gap: 26.301%, time: 966.363s
+[2025-11-22 06:56:25] Tester.py(428) : Episode  47/110 done.Instance: X-n317-k53, size: 316, opt: 78355.000, student: 96039.000, gap: 22.569%, time: 1022.085s
+[2025-11-22 07:13:38] Tester.py(428) : Episode  48/110 done.Instance: X-n322-k28, size: 321, opt: 29834.000, student: 33269.000, gap: 11.514%, time: 1033.401s
+[2025-11-22 07:31:05] Tester.py(428) : Episode  49/110 done.Instance: X-n327-k20, size: 326, opt: 27532.000, student: 29083.000, gap: 5.633%, time: 1046.635s
+[2025-11-22 07:48:35] Tester.py(428) : Episode  50/110 done.Instance: X-n331-k15, size: 330, opt: 31102.000, student: 32296.000, gap: 3.839%, time: 1049.731s
+[2025-11-22 08:07:04] Tester.py(428) : Episode  51/110 done.Instance: X-n336-k84, size: 335, opt: 139111.000, student: 190915.000, gap: 37.239%, time: 1108.826s
+[2025-11-22 08:25:21] Tester.py(428) : Episode  52/110 done.Instance: X-n344-k43, size: 343, opt: 42050.000, student: 52993.000, gap: 26.024%, time: 1097.579s
+[2025-11-22 08:44:10] Tester.py(428) : Episode  53/110 done.Instance: X-n351-k40, size: 350, opt: 25896.000, student: 36725.000, gap: 41.817%, time: 1128.870s
+[2025-11-22 09:03:24] Tester.py(428) : Episode  54/110 done.Instance: X-n359-k29, size: 358, opt: 51505.000, student: 65345.000, gap: 26.871%, time: 1154.229s
+[2025-11-22 09:23:08] Tester.py(428) : Episode  55/110 done.Instance: X-n367-k17, size: 366, opt: 22814.000, student: 32210.000, gap: 41.185%, time: 1184.180s
+[2025-11-22 09:42:34] Tester.py(428) : Episode  56/110 done.Instance: X-n376-k94, size: 375, opt: 147713.000, student: 191030.000, gap: 29.325%, time: 1165.617s
+[2025-11-22 10:03:19] Tester.py(428) : Episode  57/110 done.Instance: X-n384-k52, size: 383, opt: 65940.000, student: 87895.000, gap: 33.295%, time: 1245.230s
+[2025-11-22 10:24:38] Tester.py(428) : Episode  58/110 done.Instance: X-n393-k38, size: 392, opt: 38260.000, student: 43870.000, gap: 14.663%, time: 1279.128s
+[2025-11-22 10:46:16] Tester.py(428) : Episode  59/110 done.Instance: X-n401-k29, size: 400, opt: 66154.000, student: 73693.000, gap: 11.396%, time: 1297.258s
+[2025-11-22 11:07:51] Tester.py(428) : Episode  60/110 done.Instance: X-n411-k19, size: 410, opt: 19712.000, student: 26118.000, gap: 32.498%, time: 1295.822s
+[2025-11-22 11:30:02] Tester.py(428) : Episode  61/110 done.Instance: X-n420-k130, size: 419, opt: 107798.000, student: 132365.000, gap: 22.790%, time: 1330.819s
+[2025-11-22 11:53:00] Tester.py(428) : Episode  62/110 done.Instance: X-n429-k61, size: 428, opt: 65449.000, student: 84450.000, gap: 29.032%, time: 1377.907s
+[2025-11-22 12:17:00] Tester.py(428) : Episode  63/110 done.Instance: X-n439-k37, size: 438, opt: 36391.000, student: 39296.000, gap: 7.983%, time: 1439.835s
+[2025-11-22 12:41:05] Tester.py(428) : Episode  64/110 done.Instance: X-n449-k29, size: 448, opt: 55233.000, student: 66393.000, gap: 20.205%, time: 1445.213s
+[2025-11-22 13:05:25] Tester.py(428) : Episode  65/110 done.Instance: X-n459-k26, size: 458, opt: 24139.000, student: 25979.000, gap: 7.623%, time: 1459.525s
+[2025-11-22 13:30:36] Tester.py(428) : Episode  66/110 done.Instance: X-n469-k138, size: 468, opt: 221824.000, student: 297319.000, gap: 34.034%, time: 1511.529s
+[2025-11-22 13:56:25] Tester.py(428) : Episode  67/110 done.Instance: X-n480-k70, size: 479, opt: 89449.000, student: 123898.000, gap: 38.512%, time: 1548.744s
+[2025-11-22 14:23:14] Tester.py(428) : Episode  68/110 done.Instance: X-n491-k59, size: 490, opt: 66483.000, student: 96594.000, gap: 45.291%, time: 1609.037s
+[2025-11-22 14:50:56] Tester.py(428) : Episode  69/110 done.Instance: X-n502-k39, size: 501, opt: 69226.000, student: 71776.000, gap: 3.684%, time: 1661.974s
+[2025-11-22 15:19:06] Tester.py(428) : Episode  70/110 done.Instance: X-n513-k21, size: 512, opt: 24201.000, student: 25383.000, gap: 4.884%, time: 1689.713s
+[2025-11-22 15:46:54] Tester.py(428) : Episode  71/110 done.Instance: X-n524-k153, size: 523, opt: 154593.000, student: 178868.000, gap: 15.703%, time: 1668.121s
+[2025-11-22 16:16:09] Tester.py(428) : Episode  72/110 done.Instance: X-n536-k96, size: 535, opt: 94846.000, student: 136243.000, gap: 43.647%, time: 1755.388s
+[2025-11-22 16:46:01] Tester.py(428) : Episode  73/110 done.Instance: X-n548-k50, size: 547, opt: 86700.000, student: 96397.000, gap: 11.185%, time: 1791.586s
+[2025-11-22 17:15:49] Tester.py(428) : Episode  74/110 done.Instance: X-n561-k42, size: 560, opt: 42717.000, student: 51593.000, gap: 20.779%, time: 1788.648s
+[2025-11-22 17:45:44] Tester.py(428) : Episode  75/110 done.Instance: X-n573-k30, size: 572, opt: 50673.000, student: 67647.000, gap: 33.497%, time: 1794.757s
+[2025-11-22 18:16:17] Tester.py(428) : Episode  76/110 done.Instance: X-n586-k159, size: 585, opt: 190316.000, student: 253823.000, gap: 33.369%, time: 1832.681s
+[2025-11-22 18:47:20] Tester.py(428) : Episode  77/110 done.Instance: X-n599-k92, size: 598, opt: 108451.000, student: 149340.000, gap: 37.703%, time: 1863.025s
+[2025-11-22 19:19:56] Tester.py(428) : Episode  78/110 done.Instance: X-n613-k62, size: 612, opt: 59535.000, student: 84417.000, gap: 41.794%, time: 1956.396s
+[2025-11-22 19:53:08] Tester.py(428) : Episode  79/110 done.Instance: X-n627-k43, size: 626, opt: 62164.000, student: 66725.000, gap: 7.337%, time: 1991.571s
+[2025-11-22 20:26:04] Tester.py(428) : Episode  80/110 done.Instance: X-n641-k35, size: 640, opt: 63684.000, student: 67461.000, gap: 5.931%, time: 1975.729s
+[2025-11-22 21:00:16] Tester.py(428) : Episode  81/110 done.Instance: X-n655-k131, size: 654, opt: 106780.000, student: 125597.000, gap: 17.622%, time: 2052.728s
+[2025-11-22 21:34:21] Tester.py(428) : Episode  82/110 done.Instance: X-n670-k130, size: 669, opt: 146332.000, student: 188101.000, gap: 28.544%, time: 2044.465s
+[2025-11-22 22:09:51] Tester.py(428) : Episode  83/110 done.Instance: X-n685-k75, size: 684, opt: 68205.000, student: 95135.000, gap: 39.484%, time: 2129.854s
+[2025-11-22 22:45:49] Tester.py(428) : Episode  84/110 done.Instance: X-n701-k44, size: 700, opt: 81923.000, student: 92633.000, gap: 13.073%, time: 2158.209s
+[2025-11-22 23:24:18] Tester.py(428) : Episode  85/110 done.Instance: X-n716-k35, size: 715, opt: 43373.000, student: 46543.000, gap: 7.309%, time: 2309.225s
+[2025-11-23 00:03:02] Tester.py(428) : Episode  86/110 done.Instance: X-n733-k159, size: 732, opt: 136187.000, student: 183897.000, gap: 35.033%, time: 2323.901s
+[2025-11-23 00:42:13] Tester.py(428) : Episode  87/110 done.Instance: X-n749-k98, size: 748, opt: 77269.000, student: 117063.000, gap: 51.501%, time: 2351.353s
+[2025-11-23 01:23:25] Tester.py(428) : Episode  88/110 done.Instance: X-n766-k71, size: 765, opt: 114417.000, student: 152986.000, gap: 33.709%, time: 2471.163s
+[2025-11-23 02:04:14] Tester.py(428) : Episode  89/110 done.Instance: X-n783-k48, size: 782, opt: 72386.000, student: 82617.000, gap: 14.134%, time: 2449.813s
+[2025-11-23 02:46:11] Tester.py(428) : Episode  90/110 done.Instance: X-n801-k40, size: 800, opt: 73311.000, student: 76483.000, gap: 4.327%, time: 2516.702s
+[2025-11-23 03:30:03] Tester.py(428) : Episode  91/110 done.Instance: X-n819-k171, size: 818, opt: 158121.000, student: 201853.000, gap: 27.657%, time: 2631.555s
+[2025-11-23 04:14:39] Tester.py(428) : Episode  92/110 done.Instance: X-n837-k142, size: 836, opt: 193737.000, student: 270826.000, gap: 39.791%, time: 2675.954s
+[2025-11-23 04:59:13] Tester.py(428) : Episode  93/110 done.Instance: X-n856-k95, size: 855, opt: 88965.000, student: 100181.000, gap: 12.607%, time: 2674.291s
+[2025-11-23 05:47:08] Tester.py(428) : Episode  94/110 done.Instance: X-n876-k59, size: 875, opt: 99299.000, student: 115757.000, gap: 16.574%, time: 2874.687s
+[2025-11-23 06:35:43] Tester.py(428) : Episode  95/110 done.Instance: X-n895-k37, size: 894, opt: 53860.000, student: 56830.000, gap: 5.514%, time: 2915.720s
+[2025-11-23 07:24:57] Tester.py(428) : Episode  96/110 done.Instance: X-n916-k207, size: 915, opt: 329179.000, student: 443979.000, gap: 34.875%, time: 2953.800s
+[2025-11-23 08:14:32] Tester.py(428) : Episode  97/110 done.Instance: X-n936-k151, size: 935, opt: 132715.000, student: 170230.000, gap: 28.267%, time: 2974.658s
+[2025-11-23 09:06:08] Tester.py(428) : Episode  98/110 done.Instance: X-n957-k87, size: 956, opt: 85465.000, student: 94368.000, gap: 10.417%, time: 3095.843s
+[2025-11-23 09:56:58] Tester.py(428) : Episode  99/110 done.Instance: X-n979-k58, size: 978, opt: 118976.000, student: 126798.000, gap: 6.574%, time: 3049.936s
+[2025-11-23 10:51:06] Tester.py(428) : Episode 100/110 done.Instance: X-n1001-k43, size: 1000, opt: 72355.000, student: 77082.000, gap: 6.533%, time: 3248.555s
+[2025-11-23 11:48:38] Tester.py(428) : Episode 101/110 done.Instance: Leuven1, size: 3000, opt: 192848.000, student: 225042.000, gap: 16.694%, time: 3451.657s
+[2025-11-23 12:46:15] Tester.py(428) : Episode 102/110 done.Instance: Leuven2, size: 4000, opt: 111395.000, student: 117767.000, gap: 5.720%, time: 3457.023s
+[2025-11-23 13:44:49] Tester.py(428) : Episode 103/110 done.Instance: Antwerp1, size: 6000, opt: 477277.000, student: 525018.000, gap: 10.003%, time: 3514.095s
+[2025-11-23 14:43:49] Tester.py(428) : Episode 104/110 done.Instance: Antwerp2, size: 7000, opt: 291350.000, student: 314750.000, gap: 8.032%, time: 3539.775s
+[2025-11-23 15:45:33] Tester.py(428) : Episode 105/110 done.Instance: Ghent1, size: 10000, opt: 469531.000, student: 505303.000, gap: 7.619%, time: 3704.164s
+[2025-11-23 16:47:10] Tester.py(428) : Episode 106/110 done.Instance: Ghent2, size: 11000, opt: 257749.000, student: 277109.000, gap: 7.511%, time: 3697.584s
+[2025-11-23 17:55:10] Tester.py(428) : Episode 107/110 done.Instance: Brussels1, size: 15000, opt: 501719.000, student: 542389.000, gap: 8.106%, time: 4079.149s
+[2025-11-23 19:03:20] Tester.py(428) : Episode 108/110 done.Instance: Brussels2, size: 16000, opt: 345468.000, student: 373337.000, gap: 8.067%, time: 4090.339s
+[2025-11-23 20:18:48] Tester.py(428) : Episode 109/110 done.Instance: Flanders1, size: 20000, opt: 7240118.000, student: 7752425.000, gap: 7.076%, time: 4528.387s
+[2025-11-23 21:46:07] Tester.py(428) : Episode 110/110 done.Instance: Flanders2, size: 30000, opt: 4373244.000, student: 4934640.000, gap: 12.837%, time: 5238.418s
+[2025-11-23 21:46:07] Tester.py(454) : ################ Bucket Summary (gap%% / time s) ################
+[2025-11-23 21:46:07] Tester.py(459) : Bucket [0, 1000): count=99, avg_gap=22.158% avg_time=1297.481s
+[2025-11-23 21:46:07] Tester.py(459) : Bucket [1000, 10000): count=5, avg_gap=9.396% avg_time=3442.221s
+[2025-11-23 21:46:07] Tester.py(459) : Bucket [10000, 100001): count=6, avg_gap=8.536% avg_time=4223.007s
+[2025-11-23 21:46:07] Tester.py(465) : ################ Overall ################
+[2025-11-23 21:46:07] Tester.py(466) : All solved instances: 110/110, Overall avg gap: 20.835%

@@ -1,0 +1,39 @@
+[2025-12-22 20:34:05] test_PRC_synthetic.py(134) : DEBUG_MODE: False
+[2025-12-22 20:34:05] test_PRC_synthetic.py(135) : USE_CUDA: True, CUDA_DEVICE_NUM: 3
+[2025-12-22 20:34:05] test_PRC_synthetic.py(136) : env_params{'pomo_size': 1, 'k_nearest': 1, 'beam_width': 16, 'decode_method': 'greedy', 'mode': 'test', 'test_in_tsplib': False, 'tsplib_path': None, 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt', 'load_way': 'allin', 'sub_path': False, 'budget': 0, 'PRC': True, 'repair_max_sub_length': 1000, 'random_insertion': True}
+[2025-12-22 20:34:05] test_PRC_synthetic.py(136) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'use_k_nearest': True, 'k_nearest_num': 1000}
+[2025-12-22 20:34:05] test_PRC_synthetic.py(136) : tester_params{'use_cuda': True, 'cuda_device_num': 3, 'model_load': {'path': './result/checkpoint-tsp1k.pt'}, 'test_episodes': 10000, 'test_batch_size': 10000}
+[2025-12-22 20:34:05] test_PRC_synthetic.py(136) : logger_params{'log_file': {'desc': 'test_100_RandomInsertion_True_PRC_True_Budget0', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251222_203405_test_100_RandomInsertion_True_PRC_True_Budget0'}}
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(249) : curr00,  gap:9.672132 %, Elapsed[0.034008m], stu_l:8.513727 , opt_l:7.763255, Memory:72.973145MB
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(107) : episode 10000/10000, Elapsed[0.034020m], Remain[0.000000m], score:7.763,Score_studetnt: 8.5137, aug_score:8.514
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(114) :  *** Test_All Done *** 
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(115) :  NO-AUG SCORE: 7.7633 
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(116) :  NO-AUG SCORE student: 8.5137 
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(118) :  Gap: 9.6721%
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(119) :  Total Time: 2.041seconds, 0.034mins, 0.001hours 
+[2025-12-22 20:34:09] test_PRC_synthetic.py(134) : DEBUG_MODE: False
+[2025-12-22 20:34:09] test_PRC_synthetic.py(135) : USE_CUDA: True, CUDA_DEVICE_NUM: 3
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : env_params{'pomo_size': 1, 'k_nearest': 1, 'beam_width': 16, 'decode_method': 'greedy', 'mode': 'test', 'test_in_tsplib': False, 'tsplib_path': None, 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt', 'load_way': 'allin', 'sub_path': False, 'budget': 0, 'PRC': True, 'repair_max_sub_length': 1000, 'random_insertion': True}
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'use_k_nearest': True, 'k_nearest_num': 1000}
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : tester_params{'use_cuda': True, 'cuda_device_num': 3, 'model_load': {'path': './result/checkpoint-tsp1k.pt'}, 'test_episodes': 128, 'test_batch_size': 128}
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : logger_params{'log_file': {'desc': 'test_1000_RandomInsertion_True_PRC_True_Budget0', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251222_203405_test_100_RandomInsertion_True_PRC_True_Budget0'}}
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(249) : curr00,  gap:13.095772 %, Elapsed[0.007723m], stu_l:26.145069 , opt_l:23.118198, Memory:17.866211MB
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(107) : episode 128/128, Elapsed[0.007732m], Remain[0.000000m], score:23.118,Score_studetnt: 26.1451, aug_score:26.145
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(114) :  *** Test_All Done *** 
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(115) :  NO-AUG SCORE: 23.1182 
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(116) :  NO-AUG SCORE student: 26.1451 
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(118) :  Gap: 13.0958%
+[2025-12-22 20:34:09] TSPTester_Synthetic.py(119) :  Total Time: 0.464seconds, 0.008mins, 0.000hours 
+[2025-12-22 20:34:09] test_PRC_synthetic.py(134) : DEBUG_MODE: False
+[2025-12-22 20:34:09] test_PRC_synthetic.py(135) : USE_CUDA: True, CUDA_DEVICE_NUM: 3
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : env_params{'pomo_size': 1, 'k_nearest': 1, 'beam_width': 16, 'decode_method': 'greedy', 'mode': 'test', 'test_in_tsplib': False, 'tsplib_path': None, 'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp10000_n16_lkh.txt', 'load_way': 'allin', 'sub_path': False, 'budget': 0, 'PRC': True, 'repair_max_sub_length': 1000, 'random_insertion': True}
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'use_k_nearest': True, 'k_nearest_num': 1000}
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : tester_params{'use_cuda': True, 'cuda_device_num': 3, 'model_load': {'path': './result/checkpoint-tsp10k.pt'}, 'test_episodes': 16, 'test_batch_size': 16}
+[2025-12-22 20:34:09] test_PRC_synthetic.py(136) : logger_params{'log_file': {'desc': 'test_10000_RandomInsertion_True_PRC_True_Budget0', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251222_203405_test_100_RandomInsertion_True_PRC_True_Budget0'}}
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(249) : curr00,  gap:13.966185 %, Elapsed[0.077301m], stu_l:81.796753 , opt_l:71.772911, Memory:19.888184MB
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(107) : episode  16/ 16, Elapsed[0.077313m], Remain[0.000000m], score:71.773,Score_studetnt: 81.7968, aug_score:81.797
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(114) :  *** Test_All Done *** 
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(115) :  NO-AUG SCORE: 71.7729 
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(116) :  NO-AUG SCORE student: 81.7968 
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(118) :  Gap: 13.9662%
+[2025-12-22 20:34:14] TSPTester_Synthetic.py(119) :  Total Time: 4.639seconds, 0.077mins, 0.001hours 
