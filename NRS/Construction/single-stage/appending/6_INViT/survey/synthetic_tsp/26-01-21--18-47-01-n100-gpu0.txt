@@ -1,0 +1,320 @@
+26-01-21--18-47-01
+
+aug=mix
+bsz=128
+nb_nodes=100
+model_lr=0.0001
+nb_batch_per_epoch=300
+data_path=./
+checkpoint_model=24-04-24--14-34-54-n100-gpu0
+aug_num=16
+test_aug_num=16
+num_state_encoder=3
+dim_emb=128
+dim_ff=512
+nb_heads=8
+action_k=15
+nb_layers_state_encoder=2
+nb_layers_action_encoder=4
+nb_layers_decoder=3
+nb_epochs=400
+problem=tsp
+gamma=0.99
+dim_input_nodes=2
+batchnorm=False
+gpu_id=0
+loss_type=n
+train_joint=n
+nb_batch_eval=80
+if_use_local_mask=False
+if_agg_whole_graph=False
+tol=0.001
+state_k=[35, 50, 65]
+
+
+if_aug: True, aug method: mix, aug size: 64
+Batch size for problem size 100: 100
+dataset size: 10000, problem size: 100, num_instance to test: 10000
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 100/10000, score:7.844, gap:1.387%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 200/10000, score:7.840, gap:1.459%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 300/10000, score:7.902, gap:1.492%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 400/10000, score:7.859, gap:1.403%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 500/10000, score:7.882, gap:1.383%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 600/10000, score:7.875, gap:1.560%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 700/10000, score:7.879, gap:1.394%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 800/10000, score:7.862, gap:1.469%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 900/10000, score:7.856, gap:1.342%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1000/10000, score:7.866, gap:1.429%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1100/10000, score:7.865, gap:1.529%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1200/10000, score:7.878, gap:1.519%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1300/10000, score:7.835, gap:1.414%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1400/10000, score:7.876, gap:1.392%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1500/10000, score:7.825, gap:1.313%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1600/10000, score:7.894, gap:1.571%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1700/10000, score:7.869, gap:1.462%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1800/10000, score:7.915, gap:1.361%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 1900/10000, score:7.865, gap:1.403%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2000/10000, score:7.867, gap:1.514%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2100/10000, score:7.860, gap:1.444%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2200/10000, score:7.871, gap:1.343%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2300/10000, score:7.849, gap:1.468%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2400/10000, score:7.893, gap:1.437%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2500/10000, score:7.861, gap:1.452%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2600/10000, score:7.869, gap:1.392%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2700/10000, score:7.919, gap:1.421%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2800/10000, score:7.855, gap:1.392%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 2900/10000, score:7.855, gap:1.395%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3000/10000, score:7.854, gap:1.488%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3100/10000, score:7.887, gap:1.496%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3200/10000, score:7.874, gap:1.392%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3300/10000, score:7.840, gap:1.419%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3400/10000, score:7.873, gap:1.338%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3500/10000, score:7.914, gap:1.364%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3600/10000, score:7.874, gap:1.350%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3700/10000, score:7.844, gap:1.353%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3800/10000, score:7.886, gap:1.408%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 3900/10000, score:7.884, gap:1.409%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4000/10000, score:7.872, gap:1.342%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4100/10000, score:7.897, gap:1.517%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4200/10000, score:7.953, gap:1.463%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4300/10000, score:7.861, gap:1.408%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4400/10000, score:7.881, gap:1.388%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4500/10000, score:7.882, gap:1.445%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4600/10000, score:7.878, gap:1.386%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4700/10000, score:7.882, gap:1.430%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4800/10000, score:7.873, gap:1.434%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 4900/10000, score:7.863, gap:1.331%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5000/10000, score:7.851, gap:1.390%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5100/10000, score:7.868, gap:1.362%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5200/10000, score:7.894, gap:1.629%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5300/10000, score:7.864, gap:1.385%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5400/10000, score:7.900, gap:1.485%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5500/10000, score:7.917, gap:1.595%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5600/10000, score:7.838, gap:1.378%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5700/10000, score:7.860, gap:1.394%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5800/10000, score:7.842, gap:1.391%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 5900/10000, score:7.865, gap:1.370%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6000/10000, score:7.896, gap:1.438%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6100/10000, score:7.825, gap:1.351%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6200/10000, score:7.903, gap:1.448%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6300/10000, score:7.879, gap:1.511%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6400/10000, score:7.889, gap:1.395%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6500/10000, score:7.869, gap:1.381%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6600/10000, score:7.863, gap:1.438%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6700/10000, score:7.830, gap:1.351%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6800/10000, score:7.823, gap:1.395%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 6900/10000, score:7.865, gap:1.289%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7000/10000, score:7.871, gap:1.358%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7100/10000, score:7.883, gap:1.371%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7200/10000, score:7.827, gap:1.406%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7300/10000, score:7.861, gap:1.432%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7400/10000, score:7.878, gap:1.513%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7500/10000, score:7.846, gap:1.529%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7600/10000, score:7.893, gap:1.465%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7700/10000, score:7.884, gap:1.316%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7800/10000, score:7.879, gap:1.323%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 7900/10000, score:7.919, gap:1.456%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8000/10000, score:7.884, gap:1.377%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8100/10000, score:7.919, gap:1.477%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8200/10000, score:7.858, gap:1.320%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8300/10000, score:7.897, gap:1.427%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8400/10000, score:7.925, gap:1.418%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8500/10000, score:7.901, gap:1.395%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8600/10000, score:7.828, gap:1.406%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8700/10000, score:7.870, gap:1.528%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8800/10000, score:7.865, gap:1.319%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 8900/10000, score:7.917, gap:1.457%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9000/10000, score:7.866, gap:1.426%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9100/10000, score:7.820, gap:1.362%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9200/10000, score:7.910, gap:1.451%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9300/10000, score:7.904, gap:1.429%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9400/10000, score:7.875, gap:1.455%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9500/10000, score:7.844, gap:1.358%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9600/10000, score:7.893, gap:1.381%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9700/10000, score:7.876, gap:1.322%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9800/10000, score:7.912, gap:1.484%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 9900/10000, score:7.885, gap:1.474%
+X size: torch.Size([6400, 100, 2]), aug used: True, aug method: mix, aug size: 64
+ problem size  100, episode 10000/10000, score:7.862, gap:1.373%
+ All instances for problem size  100 done.
+ >>>>> problem size  100, all done, overall score:7.874, overall gap:1.419% <<<<<
+For uniform-tsp-100, optimal: 7.7633, model mean value: 7.8735, gap: 1.419%
+==================================================
+Time stats for problem size 100:
+data info and results:
+Number of instances: 10000
+Optimal mean length: 7.7633
+Model mean length: 7.8735
+Mean gap: 1.419%
+Total time: 1946.424 sec, 32.440 min, 0.541 hr
+Average time per instance: 0.194642 sec, 0.003244 min, 0.000054 hr
+==================================================
+if_aug: True, aug method: mix, aug size: 32
+Batch size for problem size 1000: 50
+dataset size: 128, problem size: 1000, num_instance to test: 128
+X size: torch.Size([1600, 1000, 2]), aug used: True, aug method: mix, aug size: 32
+ problem size 1000, episode  50/128, score:24.317, gap:5.184%
+X size: torch.Size([1600, 1000, 2]), aug used: True, aug method: mix, aug size: 32
+ problem size 1000, episode 100/128, score:24.315, gap:5.172%
+X size: torch.Size([896, 1000, 2]), aug used: True, aug method: mix, aug size: 32
+ problem size 1000, episode 128/128, score:24.286, gap:5.069%
+ All instances for problem size 1000 done.
+ >>>>> problem size 1000, all done, overall score:24.310, overall gap:5.154% <<<<<
+For uniform-tsp-1000, optimal: 23.1182, model mean value: 24.3096, gap: 5.154%
+==================================================
+Time stats for problem size 1000:
+data info and results:
+Number of instances: 128
+Optimal mean length: 23.1182
+Model mean length: 24.3096
+Mean gap: 5.154%
+Total time: 331.321 sec, 5.522 min, 0.092 hr
+Average time per instance: 2.588446 sec, 0.043141 min, 0.000719 hr
+==================================================
+if_aug: True, aug method: mix, aug size: 8
+Batch size for problem size 10000: 1
+dataset size: 16, problem size: 10000, num_instance to test: 16
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   1/ 16, score:76.668, gap:6.875%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   2/ 16, score:76.778, gap:6.643%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   3/ 16, score:76.969, gap:6.869%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   4/ 16, score:76.341, gap:6.553%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   5/ 16, score:76.910, gap:6.570%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   6/ 16, score:76.189, gap:6.505%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   7/ 16, score:76.508, gap:6.608%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   8/ 16, score:76.180, gap:6.578%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode   9/ 16, score:76.565, gap:6.753%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  10/ 16, score:76.954, gap:6.791%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  11/ 16, score:76.672, gap:6.807%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  12/ 16, score:76.154, gap:6.408%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  13/ 16, score:76.641, gap:6.899%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  14/ 16, score:76.675, gap:6.939%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  15/ 16, score:76.561, gap:6.600%
+X size: torch.Size([8, 10000, 2]), aug used: True, aug method: mix, aug size: 8
+ problem size 10000, episode  16/ 16, score:76.290, gap:6.449%
+ All instances for problem size 10000 done.
+ >>>>> problem size 10000, all done, overall score:76.566, overall gap:6.678% <<<<<
+For uniform-tsp-10000, optimal: 71.7729, model mean value: 76.5659, gap: 6.678%
+==================================================
+Time stats for problem size 10000:
+data info and results:
+Number of instances: 16
+Optimal mean length: 71.7729
+Model mean length: 76.5659
+Mean gap: 6.678%
+Total time: 4574.601 sec, 76.243 min, 1.271 hr
+Average time per instance: 285.912566 sec, 4.765209 min, 0.079420 hr
+==================================================

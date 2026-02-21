@@ -1,0 +1,1838 @@
+nohup: ignoring input
+GPU name: NVIDIA GeForce RTX 3090, gpu_id: 0
+cuda
+
+[Options]
+  action_k: 15
+  aug: mix
+  aug_num: 16
+  batchnorm: False
+  bsz: 128
+  checkpoint_model: 24-04-24--14-34-54-n100-gpu0
+  data_path: ./
+  dim_emb: 128
+  dim_ff: 512
+  dim_input_nodes: 2
+  gamma: 0.99
+  gpu_id: 0
+  if_agg_whole_graph: False
+  if_use_local_mask: False
+  loss_type: n
+  model_lr: 0.0001
+  nb_batch_eval: 80
+  nb_batch_per_epoch: 300
+  nb_epochs: 400
+  nb_heads: 8
+  nb_layers_action_encoder: 4
+  nb_layers_decoder: 3
+  nb_layers_state_encoder: 2
+  nb_nodes: 100
+  num_state_encoder: 3
+  problem: tsp
+  state_k: [35, 50, 65]
+  test_aug_num: 16
+  tol: 0.001
+  train_joint: n
+Model checkpoint loaded from ./ckpt/tsp/train/model/checkpoint_24-04-24--14-34-54-n100-gpu0.pkl
+{'aug': 'mix', 'bsz': 128, 'nb_nodes': 100, 'model_lr': 0.0001, 'nb_batch_per_epoch': 300, 'data_path': './', 'checkpoint_model': '24-04-24--14-34-54-n100-gpu0', 'aug_num': 16, 'test_aug_num': 16, 'num_state_encoder': 3, 'dim_emb': 128, 'dim_ff': 512, 'nb_heads': 8, 'action_k': 15, 'nb_layers_state_encoder': 2, 'nb_layers_action_encoder': 4, 'nb_layers_decoder': 3, 'nb_epochs': 400, 'problem': 'tsp', 'gamma': 0.99, 'dim_input_nodes': 2, 'batchnorm': False, 'gpu_id': 0, 'loss_type': 'n', 'train_joint': 'n', 'nb_batch_eval': 80, 'if_use_local_mask': False, 'if_agg_whole_graph': False, 'tol': 0.001, 'state_k': [35, 50, 65]}
+
+Evaluation with library benchmark datasets.
+#################  Start Testing  #################
+scale_range_all: [[0, 1000], [1000, 10000], [10000, 100001]]
+===============================================================
+#################  Test scale range: [0, 1000]  #################
+ordered instance list collected.
+Total instances in this scale range: 69
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_wi29.tsp**********
+===============================================================
+Instance name: wi29, problem_size: 29
+current all solved instance num: 1
+Already solved instance number: 1/1, failed instances number: 0
+Instance name: wi29, optimal score: 27603.0000
+score:27612.000, gap:0.033%
+Instance time: 0.684s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_dj38.tsp**********
+===============================================================
+Instance name: dj38, problem_size: 38
+current all solved instance num: 2
+Already solved instance number: 2/2, failed instances number: 0
+Instance name: dj38, optimal score: 6656.0000
+score:6665.000, gap:0.135%
+Instance time: 0.273s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil51.tsp**********
+===============================================================
+Instance name: eil51, problem_size: 51
+current all solved instance num: 3
+Already solved instance number: 3/3, failed instances number: 0
+Instance name: eil51, optimal score: 426.0000
+score:443.000, gap:3.991%
+Instance time: 0.372s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_berlin52.tsp**********
+===============================================================
+Instance name: berlin52, problem_size: 52
+current all solved instance num: 4
+Already solved instance number: 4/4, failed instances number: 0
+Instance name: berlin52, optimal score: 7542.0000
+score:8269.000, gap:9.639%
+Instance time: 0.380s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_st70.tsp**********
+===============================================================
+Instance name: st70, problem_size: 70
+current all solved instance num: 5
+Already solved instance number: 5/5, failed instances number: 0
+Instance name: st70, optimal score: 675.0000
+score:691.000, gap:2.370%
+Instance time: 0.521s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr76.tsp**********
+===============================================================
+Instance name: pr76, problem_size: 76
+current all solved instance num: 6
+Already solved instance number: 6/6, failed instances number: 0
+Instance name: pr76, optimal score: 108159.0000
+score:114541.000, gap:5.901%
+Instance time: 0.568s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil76.tsp**********
+===============================================================
+Instance name: eil76, problem_size: 76
+current all solved instance num: 7
+Already solved instance number: 7/7, failed instances number: 0
+Instance name: eil76, optimal score: 538.0000
+score:569.000, gap:5.762%
+Instance time: 0.569s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat99.tsp**********
+===============================================================
+Instance name: rat99, problem_size: 99
+current all solved instance num: 8
+Already solved instance number: 8/8, failed instances number: 0
+Instance name: rat99, optimal score: 1211.0000
+score:1304.000, gap:7.680%
+Instance time: 0.749s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA100.tsp**********
+===============================================================
+Instance name: kroA100, problem_size: 100
+current all solved instance num: 9
+Already solved instance number: 9/9, failed instances number: 0
+Instance name: kroA100, optimal score: 21282.0000
+score:21654.000, gap:1.748%
+Instance time: 0.753s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroC100.tsp**********
+===============================================================
+Instance name: kroC100, problem_size: 100
+current all solved instance num: 10
+Already solved instance number: 10/10, failed instances number: 0
+Instance name: kroC100, optimal score: 20749.0000
+score:22411.000, gap:8.010%
+Instance time: 0.754s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroD100.tsp**********
+===============================================================
+Instance name: kroD100, problem_size: 100
+current all solved instance num: 11
+Already solved instance number: 11/11, failed instances number: 0
+Instance name: kroD100, optimal score: 21294.0000
+score:22728.000, gap:6.734%
+Instance time: 0.753s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rd100.tsp**********
+===============================================================
+Instance name: rd100, problem_size: 100
+current all solved instance num: 12
+Already solved instance number: 12/12, failed instances number: 0
+Instance name: rd100, optimal score: 7910.0000
+score:8486.000, gap:7.282%
+Instance time: 0.754s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB100.tsp**********
+===============================================================
+Instance name: kroB100, problem_size: 100
+current all solved instance num: 13
+Already solved instance number: 13/13, failed instances number: 0
+Instance name: kroB100, optimal score: 22141.0000
+score:22953.000, gap:3.667%
+Instance time: 0.753s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroE100.tsp**********
+===============================================================
+Instance name: kroE100, problem_size: 100
+current all solved instance num: 14
+Already solved instance number: 14/14, failed instances number: 0
+Instance name: kroE100, optimal score: 22068.0000
+score:24249.000, gap:9.883%
+Instance time: 0.753s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil101.tsp**********
+===============================================================
+Instance name: eil101, problem_size: 101
+current all solved instance num: 15
+Already solved instance number: 15/15, failed instances number: 0
+Instance name: eil101, optimal score: 629.0000
+score:650.000, gap:3.339%
+Instance time: 0.759s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_lin105.tsp**********
+===============================================================
+Instance name: lin105, problem_size: 105
+current all solved instance num: 16
+Already solved instance number: 16/16, failed instances number: 0
+Instance name: lin105, optimal score: 14379.0000
+score:15693.000, gap:9.138%
+Instance time: 0.791s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr107.tsp**********
+===============================================================
+Instance name: pr107, problem_size: 107
+current all solved instance num: 17
+Already solved instance number: 17/17, failed instances number: 0
+Instance name: pr107, optimal score: 44303.0000
+score:45249.000, gap:2.135%
+Instance time: 0.806s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr124.tsp**********
+===============================================================
+Instance name: pr124, problem_size: 124
+current all solved instance num: 18
+Already solved instance number: 18/18, failed instances number: 0
+Instance name: pr124, optimal score: 59030.0000
+score:64391.000, gap:9.082%
+Instance time: 0.943s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_bier127.tsp**********
+===============================================================
+Instance name: bier127, problem_size: 127
+current all solved instance num: 19
+Already solved instance number: 19/19, failed instances number: 0
+Instance name: bier127, optimal score: 118282.0000
+score:137785.000, gap:16.489%
+Instance time: 0.967s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ch130.tsp**********
+===============================================================
+Instance name: ch130, problem_size: 130
+current all solved instance num: 20
+Already solved instance number: 20/20, failed instances number: 0
+Instance name: ch130, optimal score: 6110.0000
+score:6414.000, gap:4.975%
+Instance time: 0.990s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqf131.tsp**********
+===============================================================
+Instance name: xqf131, problem_size: 131
+current all solved instance num: 21
+Already solved instance number: 21/21, failed instances number: 0
+Instance name: xqf131, optimal score: 564.0000
+score:606.000, gap:7.447%
+Instance time: 0.998s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr136.tsp**********
+===============================================================
+Instance name: pr136, problem_size: 136
+current all solved instance num: 22
+Already solved instance number: 22/22, failed instances number: 0
+Instance name: pr136, optimal score: 96772.0000
+score:104929.000, gap:8.429%
+Instance time: 1.038s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr144.tsp**********
+===============================================================
+Instance name: pr144, problem_size: 144
+current all solved instance num: 23
+Already solved instance number: 23/23, failed instances number: 0
+Instance name: pr144, optimal score: 58537.0000
+score:62569.000, gap:6.888%
+Instance time: 1.107s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB150.tsp**********
+===============================================================
+Instance name: kroB150, problem_size: 150
+current all solved instance num: 24
+Already solved instance number: 24/24, failed instances number: 0
+Instance name: kroB150, optimal score: 26130.0000
+score:27536.000, gap:5.381%
+Instance time: 1.157s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ch150.tsp**********
+===============================================================
+Instance name: ch150, problem_size: 150
+current all solved instance num: 25
+Already solved instance number: 25/25, failed instances number: 0
+Instance name: ch150, optimal score: 6528.0000
+score:6814.000, gap:4.381%
+Instance time: 1.155s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA150.tsp**********
+===============================================================
+Instance name: kroA150, problem_size: 150
+current all solved instance num: 26
+Already solved instance number: 26/26, failed instances number: 0
+Instance name: kroA150, optimal score: 26524.0000
+score:27747.000, gap:4.611%
+Instance time: 1.154s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr152.tsp**********
+===============================================================
+Instance name: pr152, problem_size: 152
+current all solved instance num: 27
+Already solved instance number: 27/27, failed instances number: 0
+Instance name: pr152, optimal score: 73682.0000
+score:85849.000, gap:16.513%
+Instance time: 1.170s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u159.tsp**********
+===============================================================
+Instance name: u159, problem_size: 159
+current all solved instance num: 28
+Already solved instance number: 28/28, failed instances number: 0
+Instance name: u159, optimal score: 42080.0000
+score:42922.000, gap:2.001%
+Instance time: 1.230s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_qa194.tsp**********
+===============================================================
+Instance name: qa194, problem_size: 194
+current all solved instance num: 29
+Already solved instance number: 29/29, failed instances number: 0
+Instance name: qa194, optimal score: 9352.0000
+score:10267.000, gap:9.784%
+Instance time: 1.512s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat195.tsp**********
+===============================================================
+Instance name: rat195, problem_size: 195
+current all solved instance num: 30
+Already solved instance number: 30/30, failed instances number: 0
+Instance name: rat195, optimal score: 2323.0000
+score:2456.000, gap:5.725%
+Instance time: 1.524s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d198.tsp**********
+===============================================================
+Instance name: d198, problem_size: 198
+current all solved instance num: 31
+Already solved instance number: 31/31, failed instances number: 0
+Instance name: d198, optimal score: 15780.0000
+score:18361.000, gap:16.356%
+Instance time: 1.546s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA200.tsp**********
+===============================================================
+Instance name: kroA200, problem_size: 200
+current all solved instance num: 32
+Already solved instance number: 32/32, failed instances number: 0
+Instance name: kroA200, optimal score: 29368.0000
+score:32388.000, gap:10.283%
+Instance time: 1.564s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB200.tsp**********
+===============================================================
+Instance name: kroB200, problem_size: 200
+current all solved instance num: 33
+Already solved instance number: 33/33, failed instances number: 0
+Instance name: kroB200, optimal score: 29437.0000
+score:30501.000, gap:3.614%
+Instance time: 1.562s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_tsp225.tsp**********
+===============================================================
+Instance name: tsp225, problem_size: 225
+current all solved instance num: 34
+Already solved instance number: 34/34, failed instances number: 0
+Instance name: tsp225, optimal score: 3916.0000
+score:4270.000, gap:9.040%
+Instance time: 1.770s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ts225.tsp**********
+===============================================================
+Instance name: ts225, problem_size: 225
+current all solved instance num: 35
+Already solved instance number: 35/35, failed instances number: 0
+Instance name: ts225, optimal score: 126643.0000
+score:138504.000, gap:9.366%
+Instance time: 1.767s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr226.tsp**********
+===============================================================
+Instance name: pr226, problem_size: 226
+current all solved instance num: 36
+Already solved instance number: 36/36, failed instances number: 0
+Instance name: pr226, optimal score: 80369.0000
+score:88250.000, gap:9.806%
+Instance time: 1.775s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqg237.tsp**********
+===============================================================
+Instance name: xqg237, problem_size: 237
+current all solved instance num: 37
+Already solved instance number: 37/37, failed instances number: 0
+Instance name: xqg237, optimal score: 1019.0000
+score:1103.000, gap:8.243%
+Instance time: 1.866s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_gil262.tsp**********
+===============================================================
+Instance name: gil262, problem_size: 262
+current all solved instance num: 38
+Already solved instance number: 38/38, failed instances number: 0
+Instance name: gil262, optimal score: 2378.0000
+score:2530.000, gap:6.392%
+Instance time: 2.080s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr264.tsp**********
+===============================================================
+Instance name: pr264, problem_size: 264
+current all solved instance num: 39
+Already solved instance number: 39/39, failed instances number: 0
+Instance name: pr264, optimal score: 49135.0000
+score:58069.000, gap:18.183%
+Instance time: 2.098s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_a280.tsp**********
+===============================================================
+Instance name: a280, problem_size: 280
+current all solved instance num: 40
+Already solved instance number: 40/40, failed instances number: 0
+Instance name: a280, optimal score: 2579.0000
+score:2814.000, gap:9.112%
+Instance time: 2.234s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr299.tsp**********
+===============================================================
+Instance name: pr299, problem_size: 299
+current all solved instance num: 41
+Already solved instance number: 41/41, failed instances number: 0
+Instance name: pr299, optimal score: 48191.0000
+score:52716.000, gap:9.390%
+Instance time: 2.397s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_lin318.tsp**********
+===============================================================
+Instance name: lin318, problem_size: 318
+current all solved instance num: 42
+Already solved instance number: 42/42, failed instances number: 0
+Instance name: lin318, optimal score: 42029.0000
+score:44649.000, gap:6.234%
+Instance time: 2.561s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pma343.tsp**********
+===============================================================
+Instance name: pma343, problem_size: 343
+current all solved instance num: 43
+Already solved instance number: 43/43, failed instances number: 0
+Instance name: pma343, optimal score: 1368.0000
+score:1446.000, gap:5.702%
+Instance time: 2.773s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pka379.tsp**********
+===============================================================
+Instance name: pka379, problem_size: 379
+current all solved instance num: 44
+Already solved instance number: 44/44, failed instances number: 0
+Instance name: pka379, optimal score: 1332.0000
+score:1449.000, gap:8.784%
+Instance time: 3.081s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bcl380.tsp**********
+===============================================================
+Instance name: bcl380, problem_size: 380
+current all solved instance num: 45
+Already solved instance number: 45/45, failed instances number: 0
+Instance name: bcl380, optimal score: 1621.0000
+score:1741.000, gap:7.403%
+Instance time: 3.099s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbl395.tsp**********
+===============================================================
+Instance name: pbl395, problem_size: 395
+current all solved instance num: 46
+Already solved instance number: 46/46, failed instances number: 0
+Instance name: pbl395, optimal score: 1281.0000
+score:1384.000, gap:8.041%
+Instance time: 3.230s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rd400.tsp**********
+===============================================================
+Instance name: rd400, problem_size: 400
+current all solved instance num: 47
+Already solved instance number: 47/47, failed instances number: 0
+Instance name: rd400, optimal score: 15281.0000
+score:15950.000, gap:4.378%
+Instance time: 3.278s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbk411.tsp**********
+===============================================================
+Instance name: pbk411, problem_size: 411
+current all solved instance num: 48
+Already solved instance number: 48/48, failed instances number: 0
+Instance name: pbk411, optimal score: 1343.0000
+score:1444.000, gap:7.520%
+Instance time: 3.369s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl417.tsp**********
+===============================================================
+Instance name: fl417, problem_size: 417
+current all solved instance num: 49
+Already solved instance number: 49/49, failed instances number: 0
+Instance name: fl417, optimal score: 11861.0000
+score:14331.000, gap:20.825%
+Instance time: 3.428s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbn423.tsp**********
+===============================================================
+Instance name: pbn423, problem_size: 423
+current all solved instance num: 50
+Already solved instance number: 50/50, failed instances number: 0
+Instance name: pbn423, optimal score: 1365.0000
+score:1508.000, gap:10.476%
+Instance time: 3.473s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbm436.tsp**********
+===============================================================
+Instance name: pbm436, problem_size: 436
+current all solved instance num: 51
+Already solved instance number: 51/51, failed instances number: 0
+Instance name: pbm436, optimal score: 1443.0000
+score:1581.000, gap:9.563%
+Instance time: 3.596s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr439.tsp**********
+===============================================================
+Instance name: pr439, problem_size: 439
+current all solved instance num: 52
+Already solved instance number: 52/52, failed instances number: 0
+Instance name: pr439, optimal score: 107217.0000
+score:120537.000, gap:12.423%
+Instance time: 3.618s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb442.tsp**********
+===============================================================
+Instance name: pcb442, problem_size: 442
+current all solved instance num: 53
+Already solved instance number: 53/53, failed instances number: 0
+Instance name: pcb442, optimal score: 50778.0000
+score:53094.000, gap:4.561%
+Instance time: 3.648s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d493.tsp**********
+===============================================================
+Instance name: d493, problem_size: 493
+current all solved instance num: 54
+Already solved instance number: 54/54, failed instances number: 0
+Instance name: d493, optimal score: 35002.0000
+score:36818.000, gap:5.188%
+Instance time: 4.112s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u574.tsp**********
+===============================================================
+Instance name: u574, problem_size: 574
+current all solved instance num: 55
+Already solved instance number: 55/55, failed instances number: 0
+Instance name: u574, optimal score: 36905.0000
+score:44191.000, gap:19.743%
+Instance time: 4.870s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat575.tsp**********
+===============================================================
+Instance name: rat575, problem_size: 575
+current all solved instance num: 56
+Already solved instance number: 56/56, failed instances number: 0
+Instance name: rat575, optimal score: 6773.0000
+score:7197.000, gap:6.260%
+Instance time: 4.870s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_p654.tsp**********
+===============================================================
+Instance name: p654, problem_size: 654
+current all solved instance num: 57
+Already solved instance number: 57/57, failed instances number: 0
+Instance name: p654, optimal score: 34643.0000
+score:41712.000, gap:20.405%
+Instance time: 5.645s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d657.tsp**********
+===============================================================
+Instance name: d657, problem_size: 657
+current all solved instance num: 58
+Already solved instance number: 58/58, failed instances number: 0
+Instance name: d657, optimal score: 48912.0000
+score:52997.000, gap:8.352%
+Instance time: 5.671s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xql662.tsp**********
+===============================================================
+Instance name: xql662, problem_size: 662
+current all solved instance num: 59
+Already solved instance number: 59/59, failed instances number: 0
+Instance name: xql662, optimal score: 2513.0000
+score:2723.000, gap:8.357%
+Instance time: 5.712s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbx711.tsp**********
+===============================================================
+Instance name: rbx711, problem_size: 711
+current all solved instance num: 60
+Already solved instance number: 60/60, failed instances number: 0
+Instance name: rbx711, optimal score: 3115.0000
+score:3402.000, gap:9.213%
+Instance time: 6.203s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u724.tsp**********
+===============================================================
+Instance name: u724, problem_size: 724
+current all solved instance num: 61
+Already solved instance number: 61/61, failed instances number: 0
+Instance name: u724, optimal score: 41910.0000
+score:44430.000, gap:6.013%
+Instance time: 6.333s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_uy734.tsp**********
+===============================================================
+Instance name: uy734, problem_size: 734
+current all solved instance num: 62
+Already solved instance number: 62/62, failed instances number: 0
+Instance name: uy734, optimal score: 79114.0000
+score:84289.000, gap:6.541%
+Instance time: 6.433s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbu737.tsp**********
+===============================================================
+Instance name: rbu737, problem_size: 737
+current all solved instance num: 63
+Already solved instance number: 63/63, failed instances number: 0
+Instance name: rbu737, optimal score: 3314.0000
+score:3479.000, gap:4.979%
+Instance time: 6.452s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat783.tsp**********
+===============================================================
+Instance name: rat783, problem_size: 783
+current all solved instance num: 64
+Already solved instance number: 64/64, failed instances number: 0
+Instance name: rat783, optimal score: 8806.0000
+score:9332.000, gap:5.973%
+Instance time: 6.906s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkg813.tsp**********
+===============================================================
+Instance name: dkg813, problem_size: 813
+current all solved instance num: 65
+Already solved instance number: 65/65, failed instances number: 0
+Instance name: dkg813, optimal score: 3199.0000
+score:3465.000, gap:8.315%
+Instance time: 7.221s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_zi929.tsp**********
+===============================================================
+Instance name: zi929, problem_size: 929
+current all solved instance num: 66
+Already solved instance number: 66/66, failed instances number: 0
+Instance name: zi929, optimal score: 95345.0000
+score:103643.000, gap:8.703%
+Instance time: 8.378s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lim963.tsp**********
+===============================================================
+Instance name: lim963, problem_size: 963
+current all solved instance num: 67
+Already solved instance number: 67/67, failed instances number: 0
+Instance name: lim963, optimal score: 2789.0000
+score:3043.000, gap:9.107%
+Instance time: 8.711s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_lu980.tsp**********
+===============================================================
+Instance name: lu980, problem_size: 980
+current all solved instance num: 68
+Already solved instance number: 68/68, failed instances number: 0
+Instance name: lu980, optimal score: 11340.0000
+score:12183.000, gap:7.434%
+Instance time: 8.924s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbd984.tsp**********
+===============================================================
+Instance name: pbd984, problem_size: 984
+current all solved instance num: 69
+Already solved instance number: 69/69, failed instances number: 0
+Instance name: pbd984, optimal score: 2797.0000
+score:3010.000, gap:7.615%
+Instance time: 8.939s
+ *** Test Done *** 
+scale_range: [0, 1000], instance number: 69, total time: 194.43s, avg time per instance (including failed instances): 2.82s
+===============================================================
+instance: ['wi29', 'dj38', 'eil51', 'berlin52', 'st70', 'pr76', 'eil76', 'rat99', 'kroA100', 'kroC100', 'kroD100', 'rd100', 'kroB100', 'kroE100', 'eil101', 'lin105', 'pr107', 'pr124', 'bier127', 'ch130', 'xqf131', 'pr136', 'pr144', 'kroB150', 'ch150', 'kroA150', 'pr152', 'u159', 'qa194', 'rat195', 'd198', 'kroA200', 'kroB200', 'tsp225', 'ts225', 'pr226', 'xqg237', 'gil262', 'pr264', 'a280', 'pr299', 'lin318', 'pma343', 'pka379', 'bcl380', 'pbl395', 'rd400', 'pbk411', 'fl417', 'pbn423', 'pbm436', 'pr439', 'pcb442', 'd493', 'u574', 'rat575', 'p654', 'd657', 'xql662', 'rbx711', 'u724', 'uy734', 'rbu737', 'rat783', 'dkg813', 'zi929', 'lim963', 'lu980', 'pbd984']
+optimal: [27603.0, 6656.0, 426.0, 7542.0, 675.0, 108159.0, 538.0, 1211.0, 21282.0, 20749.0, 21294.0, 7910.0, 22141.0, 22068.0, 629.0, 14379.0, 44303.0, 59030.0, 118282.0, 6110.0, 564.0, 96772.0, 58537.0, 26130.0, 6528.0, 26524.0, 73682.0, 42080.0, 9352.0, 2323.0, 15780.0, 29368.0, 29437.0, 3916.0, 126643.0, 80369.0, 1019.0, 2378.0, 49135.0, 2579.0, 48191.0, 42029.0, 1368.0, 1332.0, 1621.0, 1281.0, 15281.0, 1343.0, 11861.0, 1365.0, 1443.0, 107217.0, 50778.0, 35002.0, 36905.0, 6773.0, 34643.0, 48912.0, 2513.0, 3115.0, 41910.0, 79114.0, 3314.0, 8806.0, 3199.0, 95345.0, 2789.0, 11340.0, 2797.0]
+problem_size: [29, 38, 51, 52, 70, 76, 76, 99, 100, 100, 100, 100, 100, 100, 101, 105, 107, 124, 127, 130, 131, 136, 144, 150, 150, 150, 152, 159, 194, 195, 198, 200, 200, 225, 225, 226, 237, 262, 264, 280, 299, 318, 343, 379, 380, 395, 400, 411, 417, 423, 436, 439, 442, 493, 574, 575, 654, 657, 662, 711, 724, 734, 737, 783, 813, 929, 963, 980, 984]
+score: [27612.0, 6665.0, 443.0, 8269.0, 691.0, 114541.0, 569.0, 1304.0, 21654.0, 22411.0, 22728.0, 8486.0, 22953.0, 24249.0, 650.0, 15693.0, 45249.0, 64391.0, 137785.0, 6414.0, 606.0, 104929.0, 62569.0, 27536.0, 6814.0, 27747.0, 85849.0, 42922.0, 10267.0, 2456.0, 18361.0, 32388.0, 30501.0, 4270.0, 138504.0, 88250.0, 1103.0, 2530.0, 58069.0, 2814.0, 52716.0, 44649.0, 1446.0, 1449.0, 1741.0, 1384.0, 15950.0, 1444.0, 14331.0, 1508.0, 1581.0, 120537.0, 53094.0, 36818.0, 44191.0, 7197.0, 41712.0, 52997.0, 2723.0, 3402.0, 44430.0, 84289.0, 3479.0, 9332.0, 3465.0, 103643.0, 3043.0, 12183.0, 3010.0]
+gap: [0.032605151613955004, 0.13521634615384615, 3.9906103286384975, 9.639352956775392, 2.3703703703703702, 5.900572305587145, 5.762081784386617, 7.679603633360859, 1.7479560191711305, 8.010024579497808, 6.734291349675965, 7.281921618204804, 3.6674043629465696, 9.883088635127788, 3.338632750397456, 9.13832672647611, 2.13529557817755, 9.081822801965103, 16.488561235014625, 4.975450081833061, 7.446808510638298, 8.429091059397347, 6.8879512103455935, 5.380788365862993, 4.381127450980392, 4.610918413512291, 16.512852528432997, 2.0009505703422055, 9.784003421727972, 5.725355144210073, 16.35614702154626, 10.283301552710434, 3.6144987600638654, 9.039836567926455, 9.365697275017174, 9.806019733977031, 8.243375858684985, 6.3919259882254, 18.182558257860997, 9.112058937572703, 9.389720072212654, 6.2337909538651886, 5.701754385964913, 8.783783783783784, 7.402837754472547, 8.040593286494925, 4.377985733917937, 7.520476545048399, 20.824551049658545, 10.476190476190476, 9.563409563409563, 12.423403005120457, 4.5610303674819805, 5.188274955716816, 19.742582305920607, 6.2601505979624985, 20.405276679271427, 8.351733725875041, 8.356545961002785, 9.213483146067416, 6.012884753042234, 6.541193720454029, 4.978877489438744, 5.97320009084715, 8.315098468271335, 8.703130735749122, 9.107206884187882, 7.4338624338624335, 7.615302109402932]
+===============================================================
+===============================================================
+Solved instances number: 69/69, min_dimension: 29, max_dimension: 984, avg gap: 7.928%
+Avg time per instance (excluding failed instances): 2.82s
+#################  Test scale range: [1000, 10000]  #################
+ordered instance list collected.
+Total instances in this scale range: 109
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.8.tsp**********
+===============================================================
+Instance name: portcgen-1000-10008, problem_size: 1000
+current all solved instance num: 70
+Already solved instance number: 1/1, failed instances number: 0
+Instance name: portcgen-1000-10008, optimal score: 11605723.0000
+score:13625807.000, gap:17.406%
+Instance time: 9.152s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_dsj1000.tsp**********
+===============================================================
+Instance name: dsj1000, problem_size: 1000
+current all solved instance num: 71
+Already solved instance number: 2/2, failed instances number: 0
+Instance name: dsj1000, optimal score: 18660188.0000
+score:21138384.000, gap:13.281%
+Instance time: 9.132s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.5.tsp**********
+===============================================================
+Instance name: portcgen-1000-10005, problem_size: 1000
+current all solved instance num: 72
+Already solved instance number: 3/3, failed instances number: 0
+Instance name: portcgen-1000-10005, optimal score: 11394911.0000
+score:13635964.000, gap:19.667%
+Instance time: 9.134s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.2.tsp**********
+===============================================================
+Instance name: portcgen-1000-10002, problem_size: 1000
+current all solved instance num: 73
+Already solved instance number: 4/4, failed instances number: 0
+Instance name: portcgen-1000-10002, optimal score: 10855033.0000
+score:12190996.000, gap:12.307%
+Instance time: 9.133s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.6.tsp**********
+===============================================================
+Instance name: portcgen-1000-10006, problem_size: 1000
+current all solved instance num: 74
+Already solved instance number: 5/5, failed instances number: 0
+Instance name: portcgen-1000-10006, optimal score: 10166701.0000
+score:11953225.000, gap:17.572%
+Instance time: 9.160s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.3.tsp**********
+===============================================================
+Instance name: portcgen-1000-10003, problem_size: 1000
+current all solved instance num: 75
+Already solved instance number: 6/6, failed instances number: 0
+Instance name: portcgen-1000-10003, optimal score: 11886457.0000
+score:13850801.000, gap:16.526%
+Instance time: 9.133s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.4.tsp**********
+===============================================================
+Instance name: portcgen-1000-10004, problem_size: 1000
+current all solved instance num: 76
+Already solved instance number: 7/7, failed instances number: 0
+Instance name: portcgen-1000-10004, optimal score: 11499958.0000
+score:13230413.000, gap:15.047%
+Instance time: 9.139s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.0.tsp**********
+===============================================================
+Instance name: portcgen-1000-1000, problem_size: 1000
+current all solved instance num: 77
+Already solved instance number: 8/8, failed instances number: 0
+Instance name: portcgen-1000-1000, optimal score: 11387430.0000
+score:13075977.000, gap:14.828%
+Instance time: 9.127s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.9.tsp**********
+===============================================================
+Instance name: portcgen-1000-10009, problem_size: 1000
+current all solved instance num: 78
+Already solved instance number: 9/9, failed instances number: 0
+Instance name: portcgen-1000-10009, optimal score: 10906997.0000
+score:12906752.000, gap:18.335%
+Instance time: 9.131s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.7.tsp**********
+===============================================================
+Instance name: portcgen-1000-10007, problem_size: 1000
+current all solved instance num: 79
+Already solved instance number: 10/10, failed instances number: 0
+Instance name: portcgen-1000-10007, optimal score: 10664660.0000
+score:12576899.000, gap:17.931%
+Instance time: 9.128s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.1.tsp**********
+===============================================================
+Instance name: portcgen-1000-10001, problem_size: 1000
+current all solved instance num: 80
+Already solved instance number: 11/11, failed instances number: 0
+Instance name: portcgen-1000-10001, optimal score: 11376735.0000
+score:12878636.000, gap:13.202%
+Instance time: 9.124s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr1002.tsp**********
+===============================================================
+Instance name: pr1002, problem_size: 1002
+current all solved instance num: 81
+Already solved instance number: 12/12, failed instances number: 0
+Instance name: pr1002, optimal score: 259045.0000
+score:281951.000, gap:8.842%
+Instance time: 9.132s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1060.tsp**********
+===============================================================
+Instance name: u1060, problem_size: 1060
+current all solved instance num: 82
+Already solved instance number: 13/13, failed instances number: 0
+Instance name: u1060, optimal score: 224094.0000
+score:277312.000, gap:23.748%
+Instance time: 9.741s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xit1083.tsp**********
+===============================================================
+Instance name: xit1083, problem_size: 1083
+current all solved instance num: 83
+Already solved instance number: 14/14, failed instances number: 0
+Instance name: xit1083, optimal score: 3558.0000
+score:3805.000, gap:6.942%
+Instance time: 9.966s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_vm1084.tsp**********
+===============================================================
+Instance name: vm1084, problem_size: 1084
+current all solved instance num: 84
+Already solved instance number: 15/15, failed instances number: 0
+Instance name: vm1084, optimal score: 239297.0000
+score:260438.000, gap:8.835%
+Instance time: 10.022s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb1173.tsp**********
+===============================================================
+Instance name: pcb1173, problem_size: 1173
+current all solved instance num: 85
+Already solved instance number: 16/16, failed instances number: 0
+Instance name: pcb1173, optimal score: 56892.0000
+score:60813.000, gap:6.892%
+Instance time: 10.980s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d1291.tsp**********
+===============================================================
+Instance name: d1291, problem_size: 1291
+current all solved instance num: 86
+Already solved instance number: 17/17, failed instances number: 0
+Instance name: d1291, optimal score: 50801.0000
+score:55121.000, gap:8.504%
+Instance time: 12.317s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1304.tsp**********
+===============================================================
+Instance name: rl1304, problem_size: 1304
+current all solved instance num: 87
+Already solved instance number: 18/18, failed instances number: 0
+Instance name: rl1304, optimal score: 252948.0000
+score:277878.000, gap:9.856%
+Instance time: 12.561s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1323.tsp**********
+===============================================================
+Instance name: rl1323, problem_size: 1323
+current all solved instance num: 88
+Already solved instance number: 19/19, failed instances number: 0
+Instance name: rl1323, optimal score: 270199.0000
+score:294899.000, gap:9.141%
+Instance time: 12.725s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dka1376.tsp**********
+===============================================================
+Instance name: dka1376, problem_size: 1376
+current all solved instance num: 89
+Already solved instance number: 20/20, failed instances number: 0
+Instance name: dka1376, optimal score: 4666.0000
+score:5089.000, gap:9.066%
+Instance time: 13.327s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_nrw1379.tsp**********
+===============================================================
+Instance name: nrw1379, problem_size: 1379
+current all solved instance num: 90
+Already solved instance number: 21/21, failed instances number: 0
+Instance name: nrw1379, optimal score: 56638.0000
+score:59381.000, gap:4.843%
+Instance time: 13.291s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dca1389.tsp**********
+===============================================================
+Instance name: dca1389, problem_size: 1389
+current all solved instance num: 91
+Already solved instance number: 22/22, failed instances number: 0
+Instance name: dca1389, optimal score: 5085.0000
+score:5729.000, gap:12.665%
+Instance time: 13.446s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl1400.tsp**********
+===============================================================
+Instance name: fl1400, problem_size: 1400
+current all solved instance num: 92
+Already solved instance number: 23/23, failed instances number: 0
+Instance name: fl1400, optimal score: 20127.0000
+score:25202.000, gap:25.215%
+Instance time: 13.610s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1432.tsp**********
+===============================================================
+Instance name: u1432, problem_size: 1432
+current all solved instance num: 93
+Already solved instance number: 24/24, failed instances number: 0
+Instance name: u1432, optimal score: 152970.0000
+score:161314.000, gap:5.455%
+Instance time: 13.939s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dja1436.tsp**********
+===============================================================
+Instance name: dja1436, problem_size: 1436
+current all solved instance num: 94
+Already solved instance number: 25/25, failed instances number: 0
+Instance name: dja1436, optimal score: 5257.0000
+score:5723.000, gap:8.864%
+Instance time: 13.940s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_icw1483.tsp**********
+===============================================================
+Instance name: icw1483, problem_size: 1483
+current all solved instance num: 95
+Already solved instance number: 26/26, failed instances number: 0
+Instance name: icw1483, optimal score: 4416.0000
+score:4750.000, gap:7.563%
+Instance time: 14.565s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fra1488.tsp**********
+===============================================================
+Instance name: fra1488, problem_size: 1488
+current all solved instance num: 96
+Already solved instance number: 27/27, failed instances number: 0
+Instance name: fra1488, optimal score: 4264.0000
+score:4626.000, gap:8.490%
+Instance time: 14.556s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl1577.tsp**********
+===============================================================
+Instance name: fl1577, problem_size: 1577
+current all solved instance num: 97
+Already solved instance number: 28/28, failed instances number: 0
+Instance name: fl1577, optimal score: 22249.0000
+score:25488.000, gap:14.558%
+Instance time: 15.713s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbv1583.tsp**********
+===============================================================
+Instance name: rbv1583, problem_size: 1583
+current all solved instance num: 98
+Already solved instance number: 29/29, failed instances number: 0
+Instance name: rbv1583, optimal score: 5387.0000
+score:5990.000, gap:11.194%
+Instance time: 15.738s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rby1599.tsp**********
+===============================================================
+Instance name: rby1599, problem_size: 1599
+current all solved instance num: 99
+Already solved instance number: 30/30, failed instances number: 0
+Instance name: rby1599, optimal score: 5533.0000
+score:6283.000, gap:13.555%
+Instance time: 15.926s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fnb1615.tsp**********
+===============================================================
+Instance name: fnb1615, problem_size: 1615
+current all solved instance num: 100
+Already solved instance number: 31/31, failed instances number: 0
+Instance name: fnb1615, optimal score: 4956.0000
+score:5948.000, gap:20.016%
+Instance time: 16.087s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_rw1621.tsp**********
+===============================================================
+Instance name: rw1621, problem_size: 1621
+current all solved instance num: 101
+Already solved instance number: 32/32, failed instances number: 0
+Instance name: rw1621, optimal score: 26051.0000
+score:28835.000, gap:10.687%
+Instance time: 16.264s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d1655.tsp**********
+===============================================================
+Instance name: d1655, problem_size: 1655
+current all solved instance num: 102
+Already solved instance number: 33/33, failed instances number: 0
+Instance name: d1655, optimal score: 62128.0000
+score:70829.000, gap:14.005%
+Instance time: 16.674s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_vm1748.tsp**********
+===============================================================
+Instance name: vm1748, problem_size: 1748
+current all solved instance num: 103
+Already solved instance number: 34/34, failed instances number: 0
+Instance name: vm1748, optimal score: 336556.0000
+score:363540.000, gap:8.018%
+Instance time: 17.878s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_djc1785.tsp**********
+===============================================================
+Instance name: djc1785, problem_size: 1785
+current all solved instance num: 104
+Already solved instance number: 35/35, failed instances number: 0
+Instance name: djc1785, optimal score: 6115.0000
+score:6609.000, gap:8.078%
+Instance time: 18.271s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1817.tsp**********
+===============================================================
+Instance name: u1817, problem_size: 1817
+current all solved instance num: 105
+Already solved instance number: 36/36, failed instances number: 0
+Instance name: u1817, optimal score: 57201.0000
+score:63129.000, gap:10.363%
+Instance time: 18.693s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1889.tsp**********
+===============================================================
+Instance name: rl1889, problem_size: 1889
+current all solved instance num: 106
+Already solved instance number: 37/37, failed instances number: 0
+Instance name: rl1889, optimal score: 316536.0000
+score:362958.000, gap:14.666%
+Instance time: 19.689s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dcc1911.tsp**********
+===============================================================
+Instance name: dcc1911, problem_size: 1911
+current all solved instance num: 107
+Already solved instance number: 38/38, failed instances number: 0
+Instance name: dcc1911, optimal score: 6396.0000
+score:7030.000, gap:9.912%
+Instance time: 19.848s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkd1973.tsp**********
+===============================================================
+Instance name: dkd1973, problem_size: 1973
+current all solved instance num: 108
+Already solved instance number: 39/39, failed instances number: 0
+Instance name: dkd1973, optimal score: 6421.0000
+score:6912.000, gap:7.647%
+Instance time: 20.613s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_mu1979.tsp**********
+===============================================================
+Instance name: mu1979, problem_size: 1979
+current all solved instance num: 109
+Already solved instance number: 40/40, failed instances number: 0
+Instance name: mu1979, optimal score: 86891.0000
+score:104379.000, gap:20.126%
+Instance time: 20.830s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_djb2036.tsp**********
+===============================================================
+Instance name: djb2036, problem_size: 2036
+current all solved instance num: 110
+Already solved instance number: 41/41, failed instances number: 0
+Instance name: djb2036, optimal score: 6197.0000
+score:6758.000, gap:9.053%
+Instance time: 21.599s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dcb2086.tsp**********
+===============================================================
+Instance name: dcb2086, problem_size: 2086
+current all solved instance num: 111
+Already solved instance number: 42/42, failed instances number: 0
+Instance name: dcb2086, optimal score: 6600.0000
+score:7210.000, gap:9.242%
+Instance time: 22.292s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d2103.tsp**********
+===============================================================
+Instance name: d2103, problem_size: 2103
+current all solved instance num: 112
+Already solved instance number: 43/43, failed instances number: 0
+Instance name: d2103, optimal score: 80450.0000
+score:86809.000, gap:7.904%
+Instance time: 22.567s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bva2144.tsp**********
+===============================================================
+Instance name: bva2144, problem_size: 2144
+current all solved instance num: 113
+Already solved instance number: 44/44, failed instances number: 0
+Instance name: bva2144, optimal score: 6304.0000
+score:6969.000, gap:10.549%
+Instance time: 22.946s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u2152.tsp**********
+===============================================================
+Instance name: u2152, problem_size: 2152
+current all solved instance num: 114
+Already solved instance number: 45/45, failed instances number: 0
+Instance name: u2152, optimal score: 64253.0000
+score:73060.000, gap:13.707%
+Instance time: 23.197s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqc2175.tsp**********
+===============================================================
+Instance name: xqc2175, problem_size: 2175
+current all solved instance num: 115
+Already solved instance number: 46/46, failed instances number: 0
+Instance name: xqc2175, optimal score: 6830.0000
+score:7350.000, gap:7.613%
+Instance time: 23.444s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bck2217.tsp**********
+===============================================================
+Instance name: bck2217, problem_size: 2217
+current all solved instance num: 116
+Already solved instance number: 47/47, failed instances number: 0
+Instance name: bck2217, optimal score: 6764.0000
+score:7279.000, gap:7.614%
+Instance time: 23.983s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xpr2308.tsp**********
+===============================================================
+Instance name: xpr2308, problem_size: 2308
+current all solved instance num: 117
+Already solved instance number: 48/48, failed instances number: 0
+Instance name: xpr2308, optimal score: 7219.0000
+score:7898.000, gap:9.406%
+Instance time: 25.340s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u2319.tsp**********
+===============================================================
+Instance name: u2319, problem_size: 2319
+current all solved instance num: 118
+Already solved instance number: 49/49, failed instances number: 0
+Instance name: u2319, optimal score: 234256.0000
+score:236136.000, gap:0.803%
+Instance time: 25.624s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ley2323.tsp**********
+===============================================================
+Instance name: ley2323, problem_size: 2323
+current all solved instance num: 119
+Already solved instance number: 50/50, failed instances number: 0
+Instance name: ley2323, optimal score: 8352.0000
+score:9715.000, gap:16.319%
+Instance time: 25.687s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dea2382.tsp**********
+===============================================================
+Instance name: dea2382, problem_size: 2382
+current all solved instance num: 120
+Already solved instance number: 51/51, failed instances number: 0
+Instance name: dea2382, optimal score: 8017.0000
+score:8737.000, gap:8.981%
+Instance time: 26.502s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr2392.tsp**********
+===============================================================
+Instance name: pr2392, problem_size: 2392
+current all solved instance num: 121
+Already solved instance number: 52/52, failed instances number: 0
+Instance name: pr2392, optimal score: 378032.0000
+score:423341.000, gap:11.985%
+Instance time: 26.606s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbw2481.tsp**********
+===============================================================
+Instance name: rbw2481, problem_size: 2481
+current all solved instance num: 122
+Already solved instance number: 53/53, failed instances number: 0
+Instance name: rbw2481, optimal score: 7724.0000
+score:8980.000, gap:16.261%
+Instance time: 27.923s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pds2566.tsp**********
+===============================================================
+Instance name: pds2566, problem_size: 2566
+current all solved instance num: 123
+Already solved instance number: 54/54, failed instances number: 0
+Instance name: pds2566, optimal score: 7643.0000
+score:8319.000, gap:8.845%
+Instance time: 29.123s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_mlt2597.tsp**********
+===============================================================
+Instance name: mlt2597, problem_size: 2597
+current all solved instance num: 124
+Already solved instance number: 55/55, failed instances number: 0
+Instance name: mlt2597, optimal score: 8071.0000
+score:9319.000, gap:15.463%
+Instance time: 29.704s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bch2762.tsp**********
+===============================================================
+Instance name: bch2762, problem_size: 2762
+current all solved instance num: 125
+Already solved instance number: 56/56, failed instances number: 0
+Instance name: bch2762, optimal score: 8234.0000
+score:8829.000, gap:7.226%
+Instance time: 32.165s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_irw2802.tsp**********
+===============================================================
+Instance name: irw2802, problem_size: 2802
+current all solved instance num: 126
+Already solved instance number: 57/57, failed instances number: 0
+Instance name: irw2802, optimal score: 8423.0000
+score:9101.000, gap:8.049%
+Instance time: 32.902s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsm2854.tsp**********
+===============================================================
+Instance name: lsm2854, problem_size: 2854
+current all solved instance num: 127
+Already solved instance number: 58/58, failed instances number: 0
+Instance name: lsm2854, optimal score: 8014.0000
+score:9054.000, gap:12.977%
+Instance time: 33.687s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dbj2924.tsp**********
+===============================================================
+Instance name: dbj2924, problem_size: 2924
+current all solved instance num: 128
+Already solved instance number: 59/59, failed instances number: 0
+Instance name: dbj2924, optimal score: 10128.0000
+score:10931.000, gap:7.929%
+Instance time: 34.770s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xva2993.tsp**********
+===============================================================
+Instance name: xva2993, problem_size: 2993
+current all solved instance num: 129
+Already solved instance number: 60/60, failed instances number: 0
+Instance name: xva2993, optimal score: 8492.0000
+score:9207.000, gap:8.420%
+Instance time: 35.862s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb3038.tsp**********
+===============================================================
+Instance name: pcb3038, problem_size: 3038
+current all solved instance num: 130
+Already solved instance number: 61/61, failed instances number: 0
+Instance name: pcb3038, optimal score: 137694.0000
+score:148074.000, gap:7.538%
+Instance time: 36.688s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pia3056.tsp**********
+===============================================================
+Instance name: pia3056, problem_size: 3056
+current all solved instance num: 131
+Already solved instance number: 62/62, failed instances number: 0
+Instance name: pia3056, optimal score: 8258.0000
+score:8982.000, gap:8.767%
+Instance time: 36.820s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dke3097.tsp**********
+===============================================================
+Instance name: dke3097, problem_size: 3097
+current all solved instance num: 132
+Already solved instance number: 63/63, failed instances number: 0
+Instance name: dke3097, optimal score: 10539.0000
+score:11596.000, gap:10.029%
+Instance time: 37.570s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsn3119.tsp**********
+===============================================================
+Instance name: lsn3119, problem_size: 3119
+current all solved instance num: 133
+Already solved instance number: 64/64, failed instances number: 0
+Instance name: lsn3119, optimal score: 9114.0000
+score:10499.000, gap:15.196%
+Instance time: 38.067s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lta3140.tsp**********
+===============================================================
+Instance name: lta3140, problem_size: 3140
+current all solved instance num: 134
+Already solved instance number: 65/65, failed instances number: 0
+Instance name: lta3140, optimal score: 9517.0000
+score:10359.000, gap:8.847%
+Instance time: 38.497s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.2.tsp**********
+===============================================================
+Instance name: portcgen-3162-31622, problem_size: 3162
+current all solved instance num: 135
+Already solved instance number: 66/66, failed instances number: 0
+Instance name: portcgen-3162-31622, optimal score: 19547551.0000
+score:22303104.000, gap:14.097%
+Instance time: 38.929s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.0.tsp**********
+===============================================================
+Instance name: portcgen-3162-3162, problem_size: 3162
+current all solved instance num: 136
+Already solved instance number: 67/67, failed instances number: 0
+Instance name: portcgen-3162-3162, optimal score: 19198258.0000
+score:22356768.000, gap:16.452%
+Instance time: 38.941s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.1.tsp**********
+===============================================================
+Instance name: portcgen-3162-31621, problem_size: 3162
+current all solved instance num: 137
+Already solved instance number: 68/68, failed instances number: 0
+Instance name: portcgen-3162-31621, optimal score: 19017805.0000
+score:22440540.000, gap:17.998%
+Instance time: 38.952s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.3.tsp**********
+===============================================================
+Instance name: portcgen-3162-31623, problem_size: 3162
+current all solved instance num: 138
+Already solved instance number: 69/69, failed instances number: 0
+Instance name: portcgen-3162-31623, optimal score: 19108508.0000
+score:22857112.000, gap:19.617%
+Instance time: 38.903s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.4.tsp**********
+===============================================================
+Instance name: portcgen-3162-31624, problem_size: 3162
+current all solved instance num: 139
+Already solved instance number: 70/70, failed instances number: 0
+Instance name: portcgen-3162-31624, optimal score: 18864046.0000
+score:22899162.000, gap:21.391%
+Instance time: 38.899s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fdp3256.tsp**********
+===============================================================
+Instance name: fdp3256, problem_size: 3256
+current all solved instance num: 140
+Already solved instance number: 71/71, failed instances number: 0
+Instance name: fdp3256, optimal score: 10008.0000
+score:10964.000, gap:9.552%
+Instance time: 40.419s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_beg3293.tsp**********
+===============================================================
+Instance name: beg3293, problem_size: 3293
+current all solved instance num: 141
+Already solved instance number: 72/72, failed instances number: 0
+Instance name: beg3293, optimal score: 9772.0000
+score:11132.000, gap:13.917%
+Instance time: 40.999s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dhb3386.tsp**********
+===============================================================
+Instance name: dhb3386, problem_size: 3386
+current all solved instance num: 142
+Already solved instance number: 73/73, failed instances number: 0
+Instance name: dhb3386, optimal score: 11137.0000
+score:12065.000, gap:8.333%
+Instance time: 42.575s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_nu3496.tsp**********
+===============================================================
+Instance name: nu3496, problem_size: 3496
+current all solved instance num: 143
+Already solved instance number: 74/74, failed instances number: 0
+Instance name: nu3496, optimal score: 96132.0000
+score:112604.000, gap:17.135%
+Instance time: 44.764s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fjs3649.tsp**********
+===============================================================
+Instance name: fjs3649, problem_size: 3649
+current all solved instance num: 144
+Already solved instance number: 75/75, failed instances number: 0
+Instance name: fjs3649, optimal score: 9272.0000
+score:10957.000, gap:18.173%
+Instance time: 47.508s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fjr3672.tsp**********
+===============================================================
+Instance name: fjr3672, problem_size: 3672
+current all solved instance num: 145
+Already solved instance number: 76/76, failed instances number: 0
+Instance name: fjr3672, optimal score: 9601.0000
+score:11173.000, gap:16.373%
+Instance time: 47.924s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dlb3694.tsp**********
+===============================================================
+Instance name: dlb3694, problem_size: 3694
+current all solved instance num: 146
+Already solved instance number: 77/77, failed instances number: 0
+Instance name: dlb3694, optimal score: 10959.0000
+score:11781.000, gap:7.501%
+Instance time: 48.165s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ltb3729.tsp**********
+===============================================================
+Instance name: ltb3729, problem_size: 3729
+current all solved instance num: 147
+Already solved instance number: 78/78, failed instances number: 0
+Instance name: ltb3729, optimal score: 11821.0000
+score:13356.000, gap:12.985%
+Instance time: 48.369s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl3795.tsp**********
+===============================================================
+Instance name: fl3795, problem_size: 3795
+current all solved instance num: 148
+Already solved instance number: 79/79, failed instances number: 0
+Instance name: fl3795, optimal score: 28772.0000
+score:33304.000, gap:15.751%
+Instance time: 50.170s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqe3891.tsp**********
+===============================================================
+Instance name: xqe3891, problem_size: 3891
+current all solved instance num: 149
+Already solved instance number: 80/80, failed instances number: 0
+Instance name: xqe3891, optimal score: 11995.0000
+score:13559.000, gap:13.039%
+Instance time: 51.797s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xua3937.tsp**********
+===============================================================
+Instance name: xua3937, problem_size: 3937
+current all solved instance num: 150
+Already solved instance number: 81/81, failed instances number: 0
+Instance name: xua3937, optimal score: 11239.0000
+score:12265.000, gap:9.129%
+Instance time: 52.783s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkc3938.tsp**********
+===============================================================
+Instance name: dkc3938, problem_size: 3938
+current all solved instance num: 151
+Already solved instance number: 82/82, failed instances number: 0
+Instance name: dkc3938, optimal score: 12503.0000
+score:13721.000, gap:9.742%
+Instance time: 52.115s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkf3954.tsp**********
+===============================================================
+Instance name: dkf3954, problem_size: 3954
+current all solved instance num: 152
+Already solved instance number: 83/83, failed instances number: 0
+Instance name: dkf3954, optimal score: 12538.0000
+score:13601.000, gap:8.478%
+Instance time: 52.958s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgb4355.tsp**********
+===============================================================
+Instance name: bgb4355, problem_size: 4355
+current all solved instance num: 153
+Already solved instance number: 84/84, failed instances number: 0
+Instance name: bgb4355, optimal score: 12723.0000
+score:13754.000, gap:8.103%
+Instance time: 61.012s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgd4396.tsp**********
+===============================================================
+Instance name: bgd4396, problem_size: 4396
+current all solved instance num: 154
+Already solved instance number: 85/85, failed instances number: 0
+Instance name: bgd4396, optimal score: 13009.0000
+score:15212.000, gap:16.934%
+Instance time: 62.073s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_frv4410.tsp**********
+===============================================================
+Instance name: frv4410, problem_size: 4410
+current all solved instance num: 155
+Already solved instance number: 86/86, failed instances number: 0
+Instance name: frv4410, optimal score: 10711.0000
+score:11755.000, gap:9.747%
+Instance time: 61.792s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fnl4461.tsp**********
+===============================================================
+Instance name: fnl4461, problem_size: 4461
+current all solved instance num: 156
+Already solved instance number: 87/87, failed instances number: 0
+Instance name: fnl4461, optimal score: 182566.0000
+score:197044.000, gap:7.930%
+Instance time: 63.127s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgf4475.tsp**********
+===============================================================
+Instance name: bgf4475, problem_size: 4475
+current all solved instance num: 157
+Already solved instance number: 88/88, failed instances number: 0
+Instance name: bgf4475, optimal score: 13221.0000
+score:14559.000, gap:10.120%
+Instance time: 63.636s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ca4663.tsp**********
+===============================================================
+Instance name: ca4663, problem_size: 4663
+current all solved instance num: 158
+Already solved instance number: 89/89, failed instances number: 0
+Instance name: ca4663, optimal score: 1290319.0000
+score:1497129.000, gap:16.028%
+Instance time: 67.647s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqd4966.tsp**********
+===============================================================
+Instance name: xqd4966, problem_size: 4966
+current all solved instance num: 159
+Already solved instance number: 90/90, failed instances number: 0
+Instance name: xqd4966, optimal score: 15316.0000
+score:16544.000, gap:8.018%
+Instance time: 72.623s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fqm5087.tsp**********
+===============================================================
+Instance name: fqm5087, problem_size: 5087
+current all solved instance num: 160
+Already solved instance number: 91/91, failed instances number: 0
+Instance name: fqm5087, optimal score: 13029.0000
+score:15077.000, gap:15.719%
+Instance time: 75.354s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fea5557.tsp**********
+===============================================================
+Instance name: fea5557, problem_size: 5557
+current all solved instance num: 161
+Already solved instance number: 92/92, failed instances number: 0
+Instance name: fea5557, optimal score: 15445.0000
+score:16887.000, gap:9.336%
+Instance time: 87.857s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl5915.tsp**********
+===============================================================
+Instance name: rl5915, problem_size: 5915
+current all solved instance num: 162
+Already solved instance number: 93/93, failed instances number: 0
+Instance name: rl5915, optimal score: 565530.0000
+score:632944.000, gap:11.920%
+Instance time: 97.073s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl5934.tsp**********
+===============================================================
+Instance name: rl5934, problem_size: 5934
+current all solved instance num: 163
+Already solved instance number: 94/94, failed instances number: 0
+Instance name: rl5934, optimal score: 556045.0000
+score:629584.000, gap:13.225%
+Instance time: 97.535s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_tz6117.tsp**********
+===============================================================
+Instance name: tz6117, problem_size: 6117
+current all solved instance num: 164
+Already solved instance number: 95/95, failed instances number: 0
+Instance name: tz6117, optimal score: 394718.0000
+score:450182.000, gap:14.052%
+Instance time: 101.568s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xsc6880.tsp**********
+===============================================================
+Instance name: xsc6880, problem_size: 6880
+current all solved instance num: 165
+Already solved instance number: 96/96, failed instances number: 0
+Instance name: xsc6880, optimal score: 21535.0000
+score:23596.000, gap:9.570%
+Instance time: 121.596s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_eg7146.tsp**********
+===============================================================
+Instance name: eg7146, problem_size: 7146
+current all solved instance num: 166
+Already solved instance number: 97/97, failed instances number: 0
+Instance name: eg7146, optimal score: 172386.0000
+score:203162.000, gap:17.853%
+Instance time: 129.209s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bnd7168.tsp**********
+===============================================================
+Instance name: bnd7168, problem_size: 7168
+current all solved instance num: 167
+Already solved instance number: 98/98, failed instances number: 0
+Instance name: bnd7168, optimal score: 21834.0000
+score:23780.000, gap:8.913%
+Instance time: 130.472s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla7397.tsp**********
+===============================================================
+Instance name: pla7397, problem_size: 7397
+current all solved instance num: 168
+Already solved instance number: 99/99, failed instances number: 0
+Instance name: pla7397, optimal score: 23260728.0000
+score:25588784.000, gap:10.009%
+Instance time: 137.676s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lap7454.tsp**********
+===============================================================
+Instance name: lap7454, problem_size: 7454
+current all solved instance num: 169
+Already solved instance number: 100/100, failed instances number: 0
+Instance name: lap7454, optimal score: 19535.0000
+score:21334.000, gap:9.209%
+Instance time: 138.763s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ym7663.tsp**********
+===============================================================
+Instance name: ym7663, problem_size: 7663
+current all solved instance num: 170
+Already solved instance number: 101/101, failed instances number: 0
+Instance name: ym7663, optimal score: 238314.0000
+score:267716.000, gap:12.338%
+Instance time: 144.779s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_pm8079.tsp**********
+===============================================================
+Instance name: pm8079, problem_size: 8079
+current all solved instance num: 171
+Already solved instance number: 102/102, failed instances number: 0
+Instance name: pm8079, optimal score: 114855.0000
+score:132090.000, gap:15.006%
+Instance time: 158.620s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ida8197.tsp**********
+===============================================================
+Instance name: ida8197, problem_size: 8197
+current all solved instance num: 172
+Already solved instance number: 103/103, failed instances number: 0
+Instance name: ida8197, optimal score: 22338.0000
+score:24933.000, gap:11.617%
+Instance time: 161.659s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ei8246.tsp**********
+===============================================================
+Instance name: ei8246, problem_size: 8246
+current all solved instance num: 173
+Already solved instance number: 104/104, failed instances number: 0
+Instance name: ei8246, optimal score: 206171.0000
+score:222284.000, gap:7.815%
+Instance time: 162.950s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ar9152.tsp**********
+===============================================================
+Instance name: ar9152, problem_size: 9152
+current all solved instance num: 174
+Already solved instance number: 105/105, failed instances number: 0
+Instance name: ar9152, optimal score: 837479.0000
+score:946437.000, gap:13.010%
+Instance time: 194.419s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dga9698.tsp**********
+===============================================================
+Instance name: dga9698, problem_size: 9698
+current all solved instance num: 175
+Already solved instance number: 106/106, failed instances number: 0
+Instance name: dga9698, optimal score: 27724.0000
+score:30459.000, gap:9.865%
+Instance time: 212.779s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ja9847.tsp**********
+===============================================================
+Instance name: ja9847, problem_size: 9847
+current all solved instance num: 176
+Already solved instance number: 107/107, failed instances number: 0
+Instance name: ja9847, optimal score: 491924.0000
+score:586185.000, gap:19.162%
+Instance time: 218.210s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_gr9882.tsp**********
+===============================================================
+Instance name: gr9882, problem_size: 9882
+current all solved instance num: 177
+Already solved instance number: 108/108, failed instances number: 0
+Instance name: gr9882, optimal score: 300899.0000
+score:345540.000, gap:14.836%
+Instance time: 219.404s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_kz9976.tsp**********
+===============================================================
+Instance name: kz9976, problem_size: 9976
+current all solved instance num: 178
+Already solved instance number: 109/109, failed instances number: 0
+Instance name: kz9976, optimal score: 1061881.0000
+score:1209684.000, gap:13.919%
+Instance time: 223.282s
+ *** Test Done *** 
+scale_range: [1000, 10000], instance number: 109, total time: 5354.80s, avg time per instance (including failed instances): 49.13s
+===============================================================
+instance: ['portcgen-1000-10008', 'dsj1000', 'portcgen-1000-10005', 'portcgen-1000-10002', 'portcgen-1000-10006', 'portcgen-1000-10003', 'portcgen-1000-10004', 'portcgen-1000-1000', 'portcgen-1000-10009', 'portcgen-1000-10007', 'portcgen-1000-10001', 'pr1002', 'u1060', 'xit1083', 'vm1084', 'pcb1173', 'd1291', 'rl1304', 'rl1323', 'dka1376', 'nrw1379', 'dca1389', 'fl1400', 'u1432', 'dja1436', 'icw1483', 'fra1488', 'fl1577', 'rbv1583', 'rby1599', 'fnb1615', 'rw1621', 'd1655', 'vm1748', 'djc1785', 'u1817', 'rl1889', 'dcc1911', 'dkd1973', 'mu1979', 'djb2036', 'dcb2086', 'd2103', 'bva2144', 'u2152', 'xqc2175', 'bck2217', 'xpr2308', 'u2319', 'ley2323', 'dea2382', 'pr2392', 'rbw2481', 'pds2566', 'mlt2597', 'bch2762', 'irw2802', 'lsm2854', 'dbj2924', 'xva2993', 'pcb3038', 'pia3056', 'dke3097', 'lsn3119', 'lta3140', 'portcgen-3162-31622', 'portcgen-3162-3162', 'portcgen-3162-31621', 'portcgen-3162-31623', 'portcgen-3162-31624', 'fdp3256', 'beg3293', 'dhb3386', 'nu3496', 'fjs3649', 'fjr3672', 'dlb3694', 'ltb3729', 'fl3795', 'xqe3891', 'xua3937', 'dkc3938', 'dkf3954', 'bgb4355', 'bgd4396', 'frv4410', 'fnl4461', 'bgf4475', 'ca4663', 'xqd4966', 'fqm5087', 'fea5557', 'rl5915', 'rl5934', 'tz6117', 'xsc6880', 'eg7146', 'bnd7168', 'pla7397', 'lap7454', 'ym7663', 'pm8079', 'ida8197', 'ei8246', 'ar9152', 'dga9698', 'ja9847', 'gr9882', 'kz9976']
+optimal: [11605723.0, 18660188.0, 11394911.0, 10855033.0, 10166701.0, 11886457.0, 11499958.0, 11387430.0, 10906997.0, 10664660.0, 11376735.0, 259045.0, 224094.0, 3558.0, 239297.0, 56892.0, 50801.0, 252948.0, 270199.0, 4666.0, 56638.0, 5085.0, 20127.0, 152970.0, 5257.0, 4416.0, 4264.0, 22249.0, 5387.0, 5533.0, 4956.0, 26051.0, 62128.0, 336556.0, 6115.0, 57201.0, 316536.0, 6396.0, 6421.0, 86891.0, 6197.0, 6600.0, 80450.0, 6304.0, 64253.0, 6830.0, 6764.0, 7219.0, 234256.0, 8352.0, 8017.0, 378032.0, 7724.0, 7643.0, 8071.0, 8234.0, 8423.0, 8014.0, 10128.0, 8492.0, 137694.0, 8258.0, 10539.0, 9114.0, 9517.0, 19547551.0, 19198258.0, 19017805.0, 19108508.0, 18864046.0, 10008.0, 9772.0, 11137.0, 96132.0, 9272.0, 9601.0, 10959.0, 11821.0, 28772.0, 11995.0, 11239.0, 12503.0, 12538.0, 12723.0, 13009.0, 10711.0, 182566.0, 13221.0, 1290319.0, 15316.0, 13029.0, 15445.0, 565530.0, 556045.0, 394718.0, 21535.0, 172386.0, 21834.0, 23260728.0, 19535.0, 238314.0, 114855.0, 22338.0, 206171.0, 837479.0, 27724.0, 491924.0, 300899.0, 1061881.0]
+problem_size: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1002, 1060, 1083, 1084, 1173, 1291, 1304, 1323, 1376, 1379, 1389, 1400, 1432, 1436, 1483, 1488, 1577, 1583, 1599, 1615, 1621, 1655, 1748, 1785, 1817, 1889, 1911, 1973, 1979, 2036, 2086, 2103, 2144, 2152, 2175, 2217, 2308, 2319, 2323, 2382, 2392, 2481, 2566, 2597, 2762, 2802, 2854, 2924, 2993, 3038, 3056, 3097, 3119, 3140, 3162, 3162, 3162, 3162, 3162, 3256, 3293, 3386, 3496, 3649, 3672, 3694, 3729, 3795, 3891, 3937, 3938, 3954, 4355, 4396, 4410, 4461, 4475, 4663, 4966, 5087, 5557, 5915, 5934, 6117, 6880, 7146, 7168, 7397, 7454, 7663, 8079, 8197, 8246, 9152, 9698, 9847, 9882, 9976]
+score: [13625807.0, 21138384.0, 13635964.0, 12190996.0, 11953225.0, 13850801.0, 13230413.0, 13075977.0, 12906752.0, 12576899.0, 12878636.0, 281951.0, 277312.0, 3805.0, 260438.0, 60813.0, 55121.0, 277878.0, 294899.0, 5089.0, 59381.0, 5729.0, 25202.0, 161314.0, 5723.0, 4750.0, 4626.0, 25488.0, 5990.0, 6283.0, 5948.0, 28835.0, 70829.0, 363540.0, 6609.0, 63129.0, 362958.0, 7030.0, 6912.0, 104379.0, 6758.0, 7210.0, 86809.0, 6969.0, 73060.0, 7350.0, 7279.0, 7898.0, 236136.0, 9715.0, 8737.0, 423341.0, 8980.0, 8319.0, 9319.0, 8829.0, 9101.0, 9054.0, 10931.0, 9207.0, 148074.0, 8982.0, 11596.0, 10499.0, 10359.0, 22303104.0, 22356768.0, 22440540.0, 22857112.0, 22899162.0, 10964.0, 11132.0, 12065.0, 112604.0, 10957.0, 11173.0, 11781.0, 13356.0, 33304.0, 13559.0, 12265.0, 13721.0, 13601.0, 13754.0, 15212.0, 11755.0, 197044.0, 14559.0, 1497129.0, 16544.0, 15077.0, 16887.0, 632944.0, 629584.0, 450182.0, 23596.0, 203162.0, 23780.0, 25588784.0, 21334.0, 267716.0, 132090.0, 24933.0, 222284.0, 946437.0, 30459.0, 586185.0, 345540.0, 1209684.0]
+gap: [17.4059298158331, 13.280659337408604, 19.667139129037515, 12.307314035802563, 17.572307870566863, 16.525900022184913, 15.047489738658175, 14.828165793335282, 18.33460667496287, 17.930613821725213, 13.201511681514951, 8.842479105946843, 23.748070006336626, 6.942102304665543, 8.834628098137461, 6.89200590592702, 8.503769610834432, 9.85578063475497, 9.141410589972576, 9.06558079725675, 4.843038242875807, 12.664700098328417, 25.214885477219656, 5.454664313264039, 8.864371314437893, 7.563405797101449, 8.48968105065666, 14.557957661018472, 11.193614256543531, 13.555033435749142, 20.016142050040354, 10.686729876012437, 14.004957507082153, 8.017685021214895, 8.078495502861815, 10.363455184349924, 14.665630449617105, 9.912445278298938, 7.646783990032705, 20.1263652161904, 9.05276746812974, 9.242424242424242, 7.904288377874456, 10.548857868020304, 13.70675299207819, 7.613469985358711, 7.613837965700768, 9.405734866324975, 0.802540810053958, 16.319444444444443, 8.980915554446801, 11.9854932915732, 16.261004660797514, 8.844694491691744, 15.462767934580597, 7.226135535584163, 8.049388578891131, 12.977289742949838, 7.928515007898894, 8.419689119170984, 7.538454834633318, 8.767255994187455, 10.02941455546067, 15.196401141101601, 8.847325837974152, 14.096666124569774, 16.452065598868398, 17.997529157544733, 19.617460452694683, 21.390511876402336, 9.552358113509193, 13.917314776913631, 8.332585076771123, 17.13477302043024, 18.172993960310613, 16.37329444849495, 7.500684369011771, 12.985365028339396, 15.751424996524399, 13.038766152563568, 9.12892606103746, 9.741662001119732, 8.47822619237518, 8.103434724514658, 16.934430009993083, 9.746989076650173, 7.930282747061336, 10.12026321760835, 16.02781947719905, 8.017759206059024, 15.718781180443626, 9.33635480738103, 11.920499354587731, 13.225368450395202, 14.05155072735472, 9.570466682145344, 17.852957896812967, 8.912704955573876, 10.00852595843088, 9.2091118505247, 12.337504301048197, 15.005876975316705, 11.616975557346226, 7.815357154982999, 13.010236674591244, 9.86509883133747, 19.161699774761956, 14.83587516076823, 13.918979622010376]
+===============================================================
+===============================================================
+Solved instances number: 109/109, min_dimension: 1000, max_dimension: 9976, avg gap: 12.078%
+Avg time per instance (excluding failed instances): 49.13s
+#################  Test scale range: [10000, 100001]  #################
+ordered instance list collected.
+Total instances in this scale range: 50
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.2.tsp**********
+===============================================================
+Instance name: portcgen-10000-100002, problem_size: 10000
+current all solved instance num: 179
+Already solved instance number: 1/1, failed instances number: 0
+Instance name: portcgen-10000-100002, optimal score: 33155424.0000
+score:39814128.000, gap:20.083%
+Instance time: 225.265s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.1.tsp**********
+===============================================================
+Instance name: portcgen-10000-100001, problem_size: 10000
+current all solved instance num: 180
+Already solved instance number: 2/2, failed instances number: 0
+Instance name: portcgen-10000-100001, optimal score: 33186248.0000
+score:40687064.000, gap:22.602%
+Instance time: 225.227s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.0.tsp**********
+===============================================================
+Instance name: portcgen-10000-10000, problem_size: 10000
+current all solved instance num: 181
+Already solved instance number: 3/3, failed instances number: 0
+Instance name: portcgen-10000-10000, optimal score: 33001034.0000
+score:39927372.000, gap:20.988%
+Instance time: 225.101s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xmc10150.tsp**********
+===============================================================
+Instance name: xmc10150, problem_size: 10150
+current all solved instance num: 182
+Already solved instance number: 4/4, failed instances number: 0
+Instance name: xmc10150, optimal score: 28387.0000
+score:32242.000, gap:13.580%
+Instance time: 228.626s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_fi10639.tsp**********
+===============================================================
+Instance name: fi10639, problem_size: 10639
+current all solved instance num: 183
+Already solved instance number: 5/5, failed instances number: 0
+Instance name: fi10639, optimal score: 520527.0000
+score:564177.000, gap:8.386%
+Instance time: 248.175s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl11849.tsp**********
+===============================================================
+Instance name: rl11849, problem_size: 11849
+current all solved instance num: 184
+Already solved instance number: 6/6, failed instances number: 0
+Instance name: rl11849, optimal score: 923288.0000
+score:1039813.000, gap:12.621%
+Instance time: 299.684s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_usa13509.tsp**********
+===============================================================
+Instance name: usa13509, problem_size: 13509
+current all solved instance num: 185
+Already solved instance number: 7/7, failed instances number: 0
+Instance name: usa13509, optimal score: 19982859.0000
+score:22165652.000, gap:10.923%
+Instance time: 373.207s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xvb13584.tsp**********
+===============================================================
+Instance name: xvb13584, problem_size: 13584
+current all solved instance num: 186
+Already solved instance number: 8/8, failed instances number: 0
+Instance name: xvb13584, optimal score: 37083.0000
+score:40362.000, gap:8.842%
+Instance time: 375.433s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_brd14051.tsp**********
+===============================================================
+Instance name: brd14051, problem_size: 14051
+current all solved instance num: 187
+Already solved instance number: 9/9, failed instances number: 0
+Instance name: brd14051, optimal score: 469385.0000
+score:510494.000, gap:8.758%
+Instance time: 399.578s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_mo14185.tsp**********
+===============================================================
+Instance name: mo14185, problem_size: 14185
+current all solved instance num: 188
+Already solved instance number: 10/10, failed instances number: 0
+Instance name: mo14185, optimal score: 427377.0000
+score:470630.000, gap:10.121%
+Instance time: 405.882s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xrb14233.tsp**********
+===============================================================
+Instance name: xrb14233, problem_size: 14233
+current all solved instance num: 189
+Already solved instance number: 11/11, failed instances number: 0
+Instance name: xrb14233, optimal score: 45462.0000
+score:49156.000, gap:8.125%
+Instance time: 408.797s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ho14473.tsp**********
+===============================================================
+Instance name: ho14473, problem_size: 14473
+current all solved instance num: 190
+Already solved instance number: 12/12, failed instances number: 0
+Instance name: ho14473, optimal score: 177092.0000
+score:203061.000, gap:14.664%
+Instance time: 422.902s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d15112.tsp**********
+===============================================================
+Instance name: d15112, problem_size: 15112
+current all solved instance num: 191
+Already solved instance number: 13/13, failed instances number: 0
+Instance name: d15112, optimal score: 1573084.0000
+score:1692101.000, gap:7.566%
+Instance time: 455.956s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_it16862.tsp**********
+===============================================================
+Instance name: it16862, problem_size: 16862
+current all solved instance num: 192
+Already solved instance number: 14/14, failed instances number: 0
+Instance name: it16862, optimal score: 557315.0000
+score:610046.000, gap:9.462%
+Instance time: 548.548s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xia16928.tsp**********
+===============================================================
+Instance name: xia16928, problem_size: 16928
+current all solved instance num: 193
+Already solved instance number: 15/15, failed instances number: 0
+Instance name: xia16928, optimal score: 52850.0000
+score:58256.000, gap:10.229%
+Instance time: 545.587s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pjh17845.tsp**********
+===============================================================
+Instance name: pjh17845, problem_size: 17845
+current all solved instance num: 194
+Already solved instance number: 16/16, failed instances number: 0
+Instance name: pjh17845, optimal score: 48092.0000
+score:52344.000, gap:8.841%
+Instance time: 603.972s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d18512.tsp**********
+===============================================================
+Instance name: d18512, problem_size: 18512
+current all solved instance num: 195
+Already solved instance number: 17/17, failed instances number: 0
+Instance name: d18512, optimal score: 645238.0000
+score:692393.000, gap:7.308%
+Instance time: 650.207s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_frh19289.tsp**********
+===============================================================
+Instance name: frh19289, problem_size: 19289
+current all solved instance num: 196
+Already solved instance number: 18/18, failed instances number: 0
+Instance name: frh19289, optimal score: 55798.0000
+score:62936.000, gap:12.793%
+Instance time: 702.031s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fnc19402.tsp**********
+===============================================================
+Instance name: fnc19402, problem_size: 19402
+current all solved instance num: 197
+Already solved instance number: 19/19, failed instances number: 0
+Instance name: fnc19402, optimal score: 59287.0000
+score:65874.000, gap:11.110%
+Instance time: 709.662s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ido21215.tsp**********
+===============================================================
+Instance name: ido21215, problem_size: 21215
+current all solved instance num: 198
+Already solved instance number: 20/20, failed instances number: 0
+Instance name: ido21215, optimal score: 63517.0000
+score:69326.000, gap:9.146%
+Instance time: 833.674s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fma21553.tsp**********
+===============================================================
+Instance name: fma21553, problem_size: 21553
+current all solved instance num: 199
+Already solved instance number: 21/21, failed instances number: 0
+Instance name: fma21553, optimal score: 66527.0000
+score:74336.000, gap:11.738%
+Instance time: 850.182s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_vm22775.tsp**********
+===============================================================
+Instance name: vm22775, problem_size: 22775
+current all solved instance num: 200
+Already solved instance number: 22/22, failed instances number: 0
+Instance name: vm22775, optimal score: 569288.0000
+score:639921.000, gap:12.407%
+Instance time: 937.148s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsb22777.tsp**********
+===============================================================
+Instance name: lsb22777, problem_size: 22777
+current all solved instance num: 201
+Already solved instance number: 23/23, failed instances number: 0
+Instance name: lsb22777, optimal score: 60977.0000
+score:68403.000, gap:12.178%
+Instance time: 948.508s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xrh24104.tsp**********
+===============================================================
+Instance name: xrh24104, problem_size: 24104
+current all solved instance num: 202
+Already solved instance number: 24/24, failed instances number: 0
+Instance name: xrh24104, optimal score: 69294.0000
+score:77324.000, gap:11.588%
+Instance time: 1048.079s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_sw24978.tsp**********
+===============================================================
+Instance name: sw24978, problem_size: 24978
+current all solved instance num: 203
+Already solved instance number: 25/25, failed instances number: 0
+Instance name: sw24978, optimal score: 855597.0000
+score:942593.000, gap:10.168%
+Instance time: 1117.947s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bbz25234.tsp**********
+===============================================================
+Instance name: bbz25234, problem_size: 25234
+current all solved instance num: 204
+Already solved instance number: 26/26, failed instances number: 0
+Instance name: bbz25234, optimal score: 69335.0000
+score:76434.000, gap:10.239%
+Instance time: 1137.807s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_irx28268.tsp**********
+===============================================================
+Instance name: irx28268, problem_size: 28268
+current all solved instance num: 205
+Already solved instance number: 27/27, failed instances number: 0
+Instance name: irx28268, optimal score: 72607.0000
+score:78857.000, gap:8.608%
+Instance time: 1399.779s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fyg28534.tsp**********
+===============================================================
+Instance name: fyg28534, problem_size: 28534
+current all solved instance num: 206
+Already solved instance number: 28/28, failed instances number: 0
+Instance name: fyg28534, optimal score: 78562.0000
+score:87298.000, gap:11.120%
+Instance time: 1429.980s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_icx28698.tsp**********
+===============================================================
+Instance name: icx28698, problem_size: 28698
+current all solved instance num: 207
+Already solved instance number: 29/29, failed instances number: 0
+Instance name: icx28698, optimal score: 78087.0000
+score:86428.000, gap:10.682%
+Instance time: 1447.328s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_boa28924.tsp**********
+===============================================================
+Instance name: boa28924, problem_size: 28924
+current all solved instance num: 208
+Already solved instance number: 30/30, failed instances number: 0
+Instance name: boa28924, optimal score: 79622.0000
+score:87033.000, gap:9.308%
+Instance time: 1471.628s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ird29514.tsp**********
+===============================================================
+Instance name: ird29514, problem_size: 29514
+current all solved instance num: 209
+Already solved instance number: 31/31, failed instances number: 0
+Instance name: ird29514, optimal score: 80353.0000
+score:87543.000, gap:8.948%
+Instance time: 1522.631s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbh30440.tsp**********
+===============================================================
+Instance name: pbh30440, problem_size: 30440
+current all solved instance num: 210
+Already solved instance number: 32/32, failed instances number: 0
+Instance name: pbh30440, optimal score: 88313.0000
+score:97469.000, gap:10.368%
+Instance time: 1615.455s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C31k.0.tsp**********
+===============================================================
+Instance name: portcgen-31623-31623, problem_size: 31623
+current all solved instance num: 211
+Already solved instance number: 33/33, failed instances number: 0
+Instance name: portcgen-31623-31623, optimal score: 59545390.0000
+score:71177248.000, gap:19.534%
+Instance time: 1740.984s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C31k.1.tsp**********
+===============================================================
+Instance name: portcgen-31623-316231, problem_size: 31623
+current all solved instance num: 212
+Already solved instance number: 34/34, failed instances number: 0
+Instance name: portcgen-31623-316231, optimal score: 59293266.0000
+score:71552008.000, gap:20.675%
+Instance time: 1740.849s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xib32892.tsp**********
+===============================================================
+Instance name: xib32892, problem_size: 32892
+current all solved instance num: 213
+Already solved instance number: 35/35, failed instances number: 0
+Instance name: xib32892, optimal score: 96757.0000
+score:106280.000, gap:9.842%
+Instance time: 1866.627s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fry33203.tsp**********
+===============================================================
+Instance name: fry33203, problem_size: 33203
+current all solved instance num: 214
+Already solved instance number: 36/36, failed instances number: 0
+Instance name: fry33203, optimal score: 97240.0000
+score:106503.000, gap:9.526%
+Instance time: 1898.645s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_bm33708.tsp**********
+===============================================================
+Instance name: bm33708, problem_size: 33708
+current all solved instance num: 215
+Already solved instance number: 37/37, failed instances number: 0
+Instance name: bm33708, optimal score: 959289.0000
+score:1072329.000, gap:11.784%
+Instance time: 1936.872s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla33810.tsp**********
+===============================================================
+Instance name: pla33810, problem_size: 33810
+current all solved instance num: 216
+Already solved instance number: 38/38, failed instances number: 0
+Instance name: pla33810, optimal score: 66048945.0000
+score:71222560.000, gap:7.833%
+Instance time: 1969.967s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bby34656.tsp**********
+===============================================================
+Instance name: bby34656, problem_size: 34656
+current all solved instance num: 217
+Already solved instance number: 39/39, failed instances number: 0
+Instance name: bby34656, optimal score: 99159.0000
+score:109543.000, gap:10.472%
+Instance time: 2049.291s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pba38478.tsp**********
+===============================================================
+Instance name: pba38478, problem_size: 38478
+current all solved instance num: 218
+Already solved instance number: 40/40, failed instances number: 0
+Instance name: pba38478, optimal score: 108318.0000
+score:119547.000, gap:10.367%
+Instance time: 2490.095s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ics39603.tsp**********
+===============================================================
+Instance name: ics39603, problem_size: 39603
+current all solved instance num: 219
+Already solved instance number: 41/41, failed instances number: 0
+Instance name: ics39603, optimal score: 106819.0000
+score:118683.000, gap:11.107%
+Instance time: 2643.066s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbz43748.tsp**********
+===============================================================
+Instance name: rbz43748, problem_size: 43748
+current all solved instance num: 220
+Already solved instance number: 42/42, failed instances number: 0
+Instance name: rbz43748, optimal score: 125183.0000
+score:136901.000, gap:9.361%
+Instance time: 3188.588s
+**********当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fht47608.tsp**********
+===============================================================
+Instance name: fht47608, problem_size: 47608

@@ -1,0 +1,35 @@
+26-01-15--10-32-21
+
+aug=mix
+bsz=128
+nb_nodes=100
+model_lr=0.0001
+nb_batch_per_epoch=300
+data_path=./
+checkpoint_model=24-04-18--14-14-20-n100-gpu0
+aug_num=16
+test_aug_num=16
+num_state_encoder=3
+dim_emb=128
+dim_ff=512
+nb_heads=8
+action_k=15
+nb_layers_state_encoder=2
+nb_layers_action_encoder=2
+nb_layers_decoder=3
+nb_epochs=400
+problem=cvrp
+gamma=0.99
+dim_input_nodes=2
+batchnorm=False
+gpu_id=0
+loss_type=n
+train_joint=n
+nb_batch_eval=80
+if_use_local_mask=False
+if_agg_whole_graph=False
+tol=0.001
+state_k=[35, 50, 65]
+CAPACITIES={10: 20.0, 20: 30.0, 50: 40.0, 100: 50.0}
+
+
