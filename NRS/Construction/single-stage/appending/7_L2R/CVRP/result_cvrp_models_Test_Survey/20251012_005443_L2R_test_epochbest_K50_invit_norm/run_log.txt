@@ -1,0 +1,720 @@
+[2025-10-12 00:54:43] cvrp_test_main_lib_survey.py(141) : DEBUG_MODE: False
+[2025-10-12 00:54:43] cvrp_test_main_lib_survey.py(142) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-10-12 00:54:43] cvrp_test_main_lib_survey.py(143) : env_params{'problem_size': None, 'lower_neighbors_num': 50, 'reduction_percentage': 0.1, 'test_in_vrplib': True, 'lib_norm': 'invit_norm', 'cvrplib_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp', 'repair_max_sub_length': 1000, 'budget': 0}
+[2025-10-12 00:54:43] cvrp_test_main_lib_survey.py(143) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'logit_clipping': 10, 'decoder_layer_num': 6, 'ff_hidden_dim': 512, 'eval_type': 'greedy'}
+[2025-10-12 00:54:43] cvrp_test_main_lib_survey.py(143) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/7_L2R/000_CVRP_Test_L2R_FixedC50_TwoMask/result_cvrp_models_L2R/20250422_110455_rollout_Adam_FC50_LD_Upper98_Lower98_NoReLD_ComTrain_weighted1_UpperLowerAlpha_reduction10_k50_cvrp100_bs60_Longtrain100', 'epoch': 'best'}, 'test_episodes': 1, 'test_batch_size': 1, 'test_data_load': {'enable': False, 'filename': None}}
+[2025-10-12 00:54:43] cvrp_test_main_lib_survey.py(143) : logger_params{'log_file': {'desc': 'L2R_test_epochbest_K50_invit_norm', 'filename': 'run_log.txt', 'filepath': './result_cvrp_models_Test_Survey/20251012_005443_L2R_test_epochbest_K50_invit_norm'}}
+[2025-10-12 00:54:44] CVRPTester_LIB_Survey.py(65) : Model loaded successfully!!!
+[2025-10-12 00:54:44] CVRPTester_LIB_Survey.py(66) : Model loaded from: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/7_L2R/000_CVRP_Test_L2R_FixedC50_TwoMask/result_cvrp_models_L2R/20250422_110455_rollout_Adam_FC50_LD_Upper98_Lower98_NoReLD_ComTrain_weighted1_UpperLowerAlpha_reduction10_k50_cvrp100_bs60_Longtrain100/best_model.pt
+[2025-10-12 00:54:44] CVRPTester_LIB_Survey.py(69) : Number of parameters: 1.17M
+[2025-10-12 00:54:44] CVRPTester_LIB_Survey.py(100) : #################  Test scale range: [0, 1000]  #################
+[2025-10-12 00:54:44] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:54:44] CVRPTester_LIB_Survey.py(173) : Instance name: X-n120-k6, problem_size: 119
+[2025-10-12 00:54:45] CVRPTester_LIB_Survey.py(238) : Instance name: X-n120-k6, optimal score: 13332.0000
+[2025-10-12 00:54:45] CVRPTester_LIB_Survey.py(239) : No aug score:14287.000, No aug gap:7.163%
+[2025-10-12 00:54:45] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.107s
+[2025-10-12 00:54:45] CVRPTester_LIB_Survey.py(243) : Aug score:14287.000, Aug gap:7.163%
+[2025-10-12 00:54:45] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:54:45] CVRPTester_LIB_Survey.py(173) : Instance name: X-n459-k26, problem_size: 458
+[2025-10-12 00:54:48] CVRPTester_LIB_Survey.py(238) : Instance name: X-n459-k26, optimal score: 24139.0000
+[2025-10-12 00:54:48] CVRPTester_LIB_Survey.py(239) : No aug score:25676.000, No aug gap:6.367%
+[2025-10-12 00:54:48] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.681s
+[2025-10-12 00:54:48] CVRPTester_LIB_Survey.py(243) : Aug score:25676.000, Aug gap:6.367%
+[2025-10-12 00:54:48] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:54:48] CVRPTester_LIB_Survey.py(173) : Instance name: X-n237-k14, problem_size: 236
+[2025-10-12 00:54:49] CVRPTester_LIB_Survey.py(238) : Instance name: X-n237-k14, optimal score: 27042.0000
+[2025-10-12 00:54:49] CVRPTester_LIB_Survey.py(239) : No aug score:28864.000, No aug gap:6.738%
+[2025-10-12 00:54:49] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.370s
+[2025-10-12 00:54:49] CVRPTester_LIB_Survey.py(243) : Aug score:28864.000, Aug gap:6.738%
+[2025-10-12 00:54:49] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:54:49] CVRPTester_LIB_Survey.py(173) : Instance name: X-n200-k36, problem_size: 199
+[2025-10-12 00:54:51] CVRPTester_LIB_Survey.py(238) : Instance name: X-n200-k36, optimal score: 58578.0000
+[2025-10-12 00:54:51] CVRPTester_LIB_Survey.py(239) : No aug score:62006.000, No aug gap:5.852%
+[2025-10-12 00:54:51] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.277s
+[2025-10-12 00:54:51] CVRPTester_LIB_Survey.py(243) : Aug score:62006.000, Aug gap:5.852%
+[2025-10-12 00:54:51] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:54:51] CVRPTester_LIB_Survey.py(173) : Instance name: X-n733-k159, problem_size: 732
+[2025-10-12 00:54:56] CVRPTester_LIB_Survey.py(238) : Instance name: X-n733-k159, optimal score: 136187.0000
+[2025-10-12 00:54:56] CVRPTester_LIB_Survey.py(239) : No aug score:147735.000, No aug gap:8.480%
+[2025-10-12 00:54:56] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.858s
+[2025-10-12 00:54:56] CVRPTester_LIB_Survey.py(243) : Aug score:147735.000, Aug gap:8.480%
+[2025-10-12 00:54:56] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:54:56] CVRPTester_LIB_Survey.py(173) : Instance name: X-n801-k40, problem_size: 800
+[2025-10-12 00:55:00] CVRPTester_LIB_Survey.py(238) : Instance name: X-n801-k40, optimal score: 73311.0000
+[2025-10-12 00:55:00] CVRPTester_LIB_Survey.py(239) : No aug score:80554.000, No aug gap:9.880%
+[2025-10-12 00:55:00] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.601s
+[2025-10-12 00:55:00] CVRPTester_LIB_Survey.py(243) : Aug score:80554.000, Aug gap:9.880%
+[2025-10-12 00:55:00] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:00] CVRPTester_LIB_Survey.py(173) : Instance name: X-n536-k96, problem_size: 535
+[2025-10-12 00:55:04] CVRPTester_LIB_Survey.py(238) : Instance name: X-n536-k96, optimal score: 94846.0000
+[2025-10-12 00:55:04] CVRPTester_LIB_Survey.py(239) : No aug score:101074.000, No aug gap:6.566%
+[2025-10-12 00:55:04] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.444s
+[2025-10-12 00:55:04] CVRPTester_LIB_Survey.py(243) : Aug score:101074.000, Aug gap:6.566%
+[2025-10-12 00:55:04] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:04] CVRPTester_LIB_Survey.py(173) : Instance name: X-n317-k53, problem_size: 316
+[2025-10-12 00:55:06] CVRPTester_LIB_Survey.py(238) : Instance name: X-n317-k53, optimal score: 78355.0000
+[2025-10-12 00:55:06] CVRPTester_LIB_Survey.py(239) : No aug score:79503.000, No aug gap:1.465%
+[2025-10-12 00:55:06] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.994s
+[2025-10-12 00:55:06] CVRPTester_LIB_Survey.py(243) : Aug score:79503.000, Aug gap:1.465%
+[2025-10-12 00:55:06] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:06] CVRPTester_LIB_Survey.py(173) : Instance name: X-n655-k131, problem_size: 654
+[2025-10-12 00:55:10] CVRPTester_LIB_Survey.py(238) : Instance name: X-n655-k131, optimal score: 106780.0000
+[2025-10-12 00:55:10] CVRPTester_LIB_Survey.py(239) : No aug score:108438.000, No aug gap:1.553%
+[2025-10-12 00:55:10] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.251s
+[2025-10-12 00:55:10] CVRPTester_LIB_Survey.py(243) : Aug score:108438.000, Aug gap:1.553%
+[2025-10-12 00:55:10] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:10] CVRPTester_LIB_Survey.py(173) : Instance name: X-n176-k26, problem_size: 175
+[2025-10-12 00:55:11] CVRPTester_LIB_Survey.py(238) : Instance name: X-n176-k26, optimal score: 47812.0000
+[2025-10-12 00:55:11] CVRPTester_LIB_Survey.py(239) : No aug score:56290.000, No aug gap:17.732%
+[2025-10-12 00:55:11] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.099s
+[2025-10-12 00:55:11] CVRPTester_LIB_Survey.py(243) : Aug score:56290.000, Aug gap:17.732%
+[2025-10-12 00:55:11] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:11] CVRPTester_LIB_Survey.py(173) : Instance name: X-n449-k29, problem_size: 448
+[2025-10-12 00:55:14] CVRPTester_LIB_Survey.py(238) : Instance name: X-n449-k29, optimal score: 55233.0000
+[2025-10-12 00:55:14] CVRPTester_LIB_Survey.py(239) : No aug score:60588.000, No aug gap:9.695%
+[2025-10-12 00:55:14] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.602s
+[2025-10-12 00:55:14] CVRPTester_LIB_Survey.py(243) : Aug score:60588.000, Aug gap:9.695%
+[2025-10-12 00:55:14] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:14] CVRPTester_LIB_Survey.py(173) : Instance name: X-n502-k39, problem_size: 501
+[2025-10-12 00:55:17] CVRPTester_LIB_Survey.py(238) : Instance name: X-n502-k39, optimal score: 69226.0000
+[2025-10-12 00:55:17] CVRPTester_LIB_Survey.py(239) : No aug score:71302.000, No aug gap:2.999%
+[2025-10-12 00:55:17] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.944s
+[2025-10-12 00:55:17] CVRPTester_LIB_Survey.py(243) : Aug score:71302.000, Aug gap:2.999%
+[2025-10-12 00:55:17] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:17] CVRPTester_LIB_Survey.py(173) : Instance name: X-n336-k84, problem_size: 335
+[2025-10-12 00:55:19] CVRPTester_LIB_Survey.py(238) : Instance name: X-n336-k84, optimal score: 139111.0000
+[2025-10-12 00:55:19] CVRPTester_LIB_Survey.py(239) : No aug score:152821.000, No aug gap:9.855%
+[2025-10-12 00:55:19] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.291s
+[2025-10-12 00:55:19] CVRPTester_LIB_Survey.py(243) : Aug score:152821.000, Aug gap:9.855%
+[2025-10-12 00:55:19] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:19] CVRPTester_LIB_Survey.py(173) : Instance name: X-n766-k71, problem_size: 765
+[2025-10-12 00:55:23] CVRPTester_LIB_Survey.py(238) : Instance name: X-n766-k71, optimal score: 114417.0000
+[2025-10-12 00:55:23] CVRPTester_LIB_Survey.py(239) : No aug score:128633.000, No aug gap:12.425%
+[2025-10-12 00:55:23] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.598s
+[2025-10-12 00:55:23] CVRPTester_LIB_Survey.py(243) : Aug score:128633.000, Aug gap:12.425%
+[2025-10-12 00:55:23] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:23] CVRPTester_LIB_Survey.py(173) : Instance name: X-n359-k29, problem_size: 358
+[2025-10-12 00:55:26] CVRPTester_LIB_Survey.py(238) : Instance name: X-n359-k29, optimal score: 51505.0000
+[2025-10-12 00:55:26] CVRPTester_LIB_Survey.py(239) : No aug score:54019.000, No aug gap:4.881%
+[2025-10-12 00:55:26] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.097s
+[2025-10-12 00:55:26] CVRPTester_LIB_Survey.py(243) : Aug score:54019.000, Aug gap:4.881%
+[2025-10-12 00:55:26] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:26] CVRPTester_LIB_Survey.py(173) : Instance name: X-n284-k15, problem_size: 283
+[2025-10-12 00:55:27] CVRPTester_LIB_Survey.py(238) : Instance name: X-n284-k15, optimal score: 20226.0000
+[2025-10-12 00:55:27] CVRPTester_LIB_Survey.py(239) : No aug score:21471.000, No aug gap:6.155%
+[2025-10-12 00:55:27] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.619s
+[2025-10-12 00:55:27] CVRPTester_LIB_Survey.py(243) : Aug score:21471.000, Aug gap:6.155%
+[2025-10-12 00:55:27] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:27] CVRPTester_LIB_Survey.py(173) : Instance name: X-n148-k46, problem_size: 147
+[2025-10-12 00:55:28] CVRPTester_LIB_Survey.py(238) : Instance name: X-n148-k46, optimal score: 43448.0000
+[2025-10-12 00:55:28] CVRPTester_LIB_Survey.py(239) : No aug score:48810.000, No aug gap:12.341%
+[2025-10-12 00:55:28] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.051s
+[2025-10-12 00:55:28] CVRPTester_LIB_Survey.py(243) : Aug score:48810.000, Aug gap:12.341%
+[2025-10-12 00:55:28] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:28] CVRPTester_LIB_Survey.py(173) : Instance name: X-n261-k13, problem_size: 260
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(238) : Instance name: X-n261-k13, optimal score: 26558.0000
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(239) : No aug score:29038.000, No aug gap:9.338%
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.484s
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(243) : Aug score:29038.000, Aug gap:9.338%
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(173) : Instance name: X-n134-k13, problem_size: 133
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(238) : Instance name: X-n134-k13, optimal score: 10916.0000
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(239) : No aug score:11909.000, No aug gap:9.097%
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.793s
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(243) : Aug score:11909.000, Aug gap:9.097%
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:30] CVRPTester_LIB_Survey.py(173) : Instance name: X-n294-k50, problem_size: 293
+[2025-10-12 00:55:32] CVRPTester_LIB_Survey.py(238) : Instance name: X-n294-k50, optimal score: 47161.0000
+[2025-10-12 00:55:32] CVRPTester_LIB_Survey.py(239) : No aug score:50202.000, No aug gap:6.448%
+[2025-10-12 00:55:32] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.861s
+[2025-10-12 00:55:32] CVRPTester_LIB_Survey.py(243) : Aug score:50202.000, Aug gap:6.448%
+[2025-10-12 00:55:32] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:32] CVRPTester_LIB_Survey.py(173) : Instance name: X-n586-k159, problem_size: 585
+[2025-10-12 00:55:36] CVRPTester_LIB_Survey.py(238) : Instance name: X-n586-k159, optimal score: 190316.0000
+[2025-10-12 00:55:36] CVRPTester_LIB_Survey.py(239) : No aug score:201832.000, No aug gap:6.051%
+[2025-10-12 00:55:36] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.053s
+[2025-10-12 00:55:36] CVRPTester_LIB_Survey.py(243) : Aug score:201832.000, Aug gap:6.051%
+[2025-10-12 00:55:36] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:36] CVRPTester_LIB_Survey.py(173) : Instance name: X-n266-k58, problem_size: 265
+[2025-10-12 00:55:38] CVRPTester_LIB_Survey.py(238) : Instance name: X-n266-k58, optimal score: 75478.0000
+[2025-10-12 00:55:38] CVRPTester_LIB_Survey.py(239) : No aug score:81221.000, No aug gap:7.609%
+[2025-10-12 00:55:38] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.758s
+[2025-10-12 00:55:38] CVRPTester_LIB_Survey.py(243) : Aug score:81221.000, Aug gap:7.609%
+[2025-10-12 00:55:38] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:38] CVRPTester_LIB_Survey.py(173) : Instance name: X-n153-k22, problem_size: 152
+[2025-10-12 00:55:39] CVRPTester_LIB_Survey.py(238) : Instance name: X-n153-k22, optimal score: 21220.0000
+[2025-10-12 00:55:39] CVRPTester_LIB_Survey.py(239) : No aug score:26016.000, No aug gap:22.601%
+[2025-10-12 00:55:39] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.949s
+[2025-10-12 00:55:39] CVRPTester_LIB_Survey.py(243) : Aug score:26016.000, Aug gap:22.601%
+[2025-10-12 00:55:39] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:39] CVRPTester_LIB_Survey.py(173) : Instance name: X-n270-k35, problem_size: 269
+[2025-10-12 00:55:41] CVRPTester_LIB_Survey.py(238) : Instance name: X-n270-k35, optimal score: 35291.0000
+[2025-10-12 00:55:41] CVRPTester_LIB_Survey.py(239) : No aug score:36996.000, No aug gap:4.831%
+[2025-10-12 00:55:41] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.653s
+[2025-10-12 00:55:41] CVRPTester_LIB_Survey.py(243) : Aug score:36996.000, Aug gap:4.831%
+[2025-10-12 00:55:41] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:41] CVRPTester_LIB_Survey.py(173) : Instance name: X-n916-k207, problem_size: 915
+[2025-10-12 00:55:47] CVRPTester_LIB_Survey.py(238) : Instance name: X-n916-k207, optimal score: 329179.0000
+[2025-10-12 00:55:47] CVRPTester_LIB_Survey.py(239) : No aug score:351052.000, No aug gap:6.645%
+[2025-10-12 00:55:47] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.117s
+[2025-10-12 00:55:47] CVRPTester_LIB_Survey.py(243) : Aug score:351052.000, Aug gap:6.645%
+[2025-10-12 00:55:47] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:47] CVRPTester_LIB_Survey.py(173) : Instance name: X-n247-k50, problem_size: 246
+[2025-10-12 00:55:49] CVRPTester_LIB_Survey.py(238) : Instance name: X-n247-k50, optimal score: 37274.0000
+[2025-10-12 00:55:49] CVRPTester_LIB_Survey.py(239) : No aug score:44038.000, No aug gap:18.147%
+[2025-10-12 00:55:49] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.613s
+[2025-10-12 00:55:49] CVRPTester_LIB_Survey.py(243) : Aug score:44038.000, Aug gap:18.147%
+[2025-10-12 00:55:49] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:49] CVRPTester_LIB_Survey.py(173) : Instance name: X-n613-k62, problem_size: 612
+[2025-10-12 00:55:52] CVRPTester_LIB_Survey.py(238) : Instance name: X-n613-k62, optimal score: 59535.0000
+[2025-10-12 00:55:52] CVRPTester_LIB_Survey.py(239) : No aug score:65424.000, No aug gap:9.892%
+[2025-10-12 00:55:52] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.668s
+[2025-10-12 00:55:52] CVRPTester_LIB_Survey.py(243) : Aug score:65424.000, Aug gap:9.892%
+[2025-10-12 00:55:52] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:52] CVRPTester_LIB_Survey.py(173) : Instance name: X-n783-k48, problem_size: 782
+[2025-10-12 00:55:57] CVRPTester_LIB_Survey.py(238) : Instance name: X-n783-k48, optimal score: 72386.0000
+[2025-10-12 00:55:57] CVRPTester_LIB_Survey.py(239) : No aug score:79472.000, No aug gap:9.789%
+[2025-10-12 00:55:57] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.534s
+[2025-10-12 00:55:57] CVRPTester_LIB_Survey.py(243) : Aug score:79472.000, Aug gap:9.789%
+[2025-10-12 00:55:57] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:57] CVRPTester_LIB_Survey.py(173) : Instance name: X-n303-k21, problem_size: 302
+[2025-10-12 00:55:58] CVRPTester_LIB_Survey.py(238) : Instance name: X-n303-k21, optimal score: 21736.0000
+[2025-10-12 00:55:58] CVRPTester_LIB_Survey.py(239) : No aug score:22765.000, No aug gap:4.734%
+[2025-10-12 00:55:58] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.751s
+[2025-10-12 00:55:58] CVRPTester_LIB_Survey.py(243) : Aug score:22765.000, Aug gap:4.734%
+[2025-10-12 00:55:58] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:55:58] CVRPTester_LIB_Survey.py(173) : Instance name: X-n219-k73, problem_size: 218
+[2025-10-12 00:56:00] CVRPTester_LIB_Survey.py(238) : Instance name: X-n219-k73, optimal score: 117595.0000
+[2025-10-12 00:56:00] CVRPTester_LIB_Survey.py(239) : No aug score:120907.000, No aug gap:2.816%
+[2025-10-12 00:56:00] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.556s
+[2025-10-12 00:56:00] CVRPTester_LIB_Survey.py(243) : Aug score:120907.000, Aug gap:2.816%
+[2025-10-12 00:56:00] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:00] CVRPTester_LIB_Survey.py(173) : Instance name: X-n331-k15, problem_size: 330
+[2025-10-12 00:56:02] CVRPTester_LIB_Survey.py(238) : Instance name: X-n331-k15, optimal score: 31102.0000
+[2025-10-12 00:56:02] CVRPTester_LIB_Survey.py(239) : No aug score:32943.000, No aug gap:5.919%
+[2025-10-12 00:56:02] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.879s
+[2025-10-12 00:56:02] CVRPTester_LIB_Survey.py(243) : Aug score:32943.000, Aug gap:5.919%
+[2025-10-12 00:56:02] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:02] CVRPTester_LIB_Survey.py(173) : Instance name: X-n401-k29, problem_size: 400
+[2025-10-12 00:56:04] CVRPTester_LIB_Survey.py(238) : Instance name: X-n401-k29, optimal score: 66154.0000
+[2025-10-12 00:56:04] CVRPTester_LIB_Survey.py(239) : No aug score:71310.000, No aug gap:7.794%
+[2025-10-12 00:56:04] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.340s
+[2025-10-12 00:56:04] CVRPTester_LIB_Survey.py(243) : Aug score:71310.000, Aug gap:7.794%
+[2025-10-12 00:56:04] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:04] CVRPTester_LIB_Survey.py(173) : Instance name: X-n204-k19, problem_size: 203
+[2025-10-12 00:56:05] CVRPTester_LIB_Survey.py(238) : Instance name: X-n204-k19, optimal score: 19565.0000
+[2025-10-12 00:56:05] CVRPTester_LIB_Survey.py(239) : No aug score:20443.000, No aug gap:4.488%
+[2025-10-12 00:56:05] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.202s
+[2025-10-12 00:56:05] CVRPTester_LIB_Survey.py(243) : Aug score:20443.000, Aug gap:4.488%
+[2025-10-12 00:56:05] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:05] CVRPTester_LIB_Survey.py(173) : Instance name: X-n384-k52, problem_size: 383
+[2025-10-12 00:56:08] CVRPTester_LIB_Survey.py(238) : Instance name: X-n384-k52, optimal score: 65940.0000
+[2025-10-12 00:56:08] CVRPTester_LIB_Survey.py(239) : No aug score:70595.000, No aug gap:7.059%
+[2025-10-12 00:56:08] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.368s
+[2025-10-12 00:56:08] CVRPTester_LIB_Survey.py(243) : Aug score:70595.000, Aug gap:7.059%
+[2025-10-12 00:56:08] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:08] CVRPTester_LIB_Survey.py(173) : Instance name: X-n186-k15, problem_size: 185
+[2025-10-12 00:56:09] CVRPTester_LIB_Survey.py(238) : Instance name: X-n186-k15, optimal score: 24145.0000
+[2025-10-12 00:56:09] CVRPTester_LIB_Survey.py(239) : No aug score:25388.000, No aug gap:5.148%
+[2025-10-12 00:56:09] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.081s
+[2025-10-12 00:56:09] CVRPTester_LIB_Survey.py(243) : Aug score:25388.000, Aug gap:5.148%
+[2025-10-12 00:56:09] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:09] CVRPTester_LIB_Survey.py(173) : Instance name: X-n599-k92, problem_size: 598
+[2025-10-12 00:56:13] CVRPTester_LIB_Survey.py(238) : Instance name: X-n599-k92, optimal score: 108451.0000
+[2025-10-12 00:56:13] CVRPTester_LIB_Survey.py(239) : No aug score:117507.000, No aug gap:8.350%
+[2025-10-12 00:56:13] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.766s
+[2025-10-12 00:56:13] CVRPTester_LIB_Survey.py(243) : Aug score:117507.000, Aug gap:8.350%
+[2025-10-12 00:56:13] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:13] CVRPTester_LIB_Survey.py(173) : Instance name: X-n716-k35, problem_size: 715
+[2025-10-12 00:56:17] CVRPTester_LIB_Survey.py(238) : Instance name: X-n716-k35, optimal score: 43373.0000
+[2025-10-12 00:56:17] CVRPTester_LIB_Survey.py(239) : No aug score:46574.000, No aug gap:7.380%
+[2025-10-12 00:56:17] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.091s
+[2025-10-12 00:56:17] CVRPTester_LIB_Survey.py(243) : Aug score:46574.000, Aug gap:7.380%
+[2025-10-12 00:56:17] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:17] CVRPTester_LIB_Survey.py(173) : Instance name: X-n749-k98, problem_size: 748
+[2025-10-12 00:56:21] CVRPTester_LIB_Survey.py(238) : Instance name: X-n749-k98, optimal score: 77269.0000
+[2025-10-12 00:56:21] CVRPTester_LIB_Survey.py(239) : No aug score:84780.000, No aug gap:9.721%
+[2025-10-12 00:56:21] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.613s
+[2025-10-12 00:56:21] CVRPTester_LIB_Survey.py(243) : Aug score:84780.000, Aug gap:9.721%
+[2025-10-12 00:56:21] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:21] CVRPTester_LIB_Survey.py(173) : Instance name: X-n979-k58, problem_size: 978
+[2025-10-12 00:56:27] CVRPTester_LIB_Survey.py(238) : Instance name: X-n979-k58, optimal score: 118976.0000
+[2025-10-12 00:56:27] CVRPTester_LIB_Survey.py(239) : No aug score:128645.000, No aug gap:8.127%
+[2025-10-12 00:56:27] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.684s
+[2025-10-12 00:56:27] CVRPTester_LIB_Survey.py(243) : Aug score:128645.000, Aug gap:8.127%
+[2025-10-12 00:56:27] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:27] CVRPTester_LIB_Survey.py(173) : Instance name: X-n524-k153, problem_size: 523
+[2025-10-12 00:56:31] CVRPTester_LIB_Survey.py(238) : Instance name: X-n524-k153, optimal score: 154593.0000
+[2025-10-12 00:56:31] CVRPTester_LIB_Survey.py(239) : No aug score:178668.000, No aug gap:15.573%
+[2025-10-12 00:56:31] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.706s
+[2025-10-12 00:56:31] CVRPTester_LIB_Survey.py(243) : Aug score:178668.000, Aug gap:15.573%
+[2025-10-12 00:56:31] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:31] CVRPTester_LIB_Survey.py(173) : Instance name: X-n429-k61, problem_size: 428
+[2025-10-12 00:56:33] CVRPTester_LIB_Survey.py(238) : Instance name: X-n429-k61, optimal score: 65449.0000
+[2025-10-12 00:56:33] CVRPTester_LIB_Survey.py(239) : No aug score:70283.000, No aug gap:7.386%
+[2025-10-12 00:56:33] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.663s
+[2025-10-12 00:56:33] CVRPTester_LIB_Survey.py(243) : Aug score:70283.000, Aug gap:7.386%
+[2025-10-12 00:56:33] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:33] CVRPTester_LIB_Survey.py(173) : Instance name: X-n957-k87, problem_size: 956
+[2025-10-12 00:56:39] CVRPTester_LIB_Survey.py(238) : Instance name: X-n957-k87, optimal score: 85465.0000
+[2025-10-12 00:56:39] CVRPTester_LIB_Survey.py(239) : No aug score:91109.000, No aug gap:6.604%
+[2025-10-12 00:56:39] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.695s
+[2025-10-12 00:56:39] CVRPTester_LIB_Survey.py(243) : Aug score:91109.000, Aug gap:6.604%
+[2025-10-12 00:56:39] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:39] CVRPTester_LIB_Survey.py(173) : Instance name: X-n233-k16, problem_size: 232
+[2025-10-12 00:56:41] CVRPTester_LIB_Survey.py(238) : Instance name: X-n233-k16, optimal score: 19230.0000
+[2025-10-12 00:56:41] CVRPTester_LIB_Survey.py(239) : No aug score:20667.000, No aug gap:7.473%
+[2025-10-12 00:56:41] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.354s
+[2025-10-12 00:56:41] CVRPTester_LIB_Survey.py(243) : Aug score:20667.000, Aug gap:7.473%
+[2025-10-12 00:56:41] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:41] CVRPTester_LIB_Survey.py(173) : Instance name: X-n190-k8, problem_size: 189
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(238) : Instance name: X-n190-k8, optimal score: 16980.0000
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(239) : No aug score:17597.000, No aug gap:3.634%
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.065s
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(243) : Aug score:17597.000, Aug gap:3.634%
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(173) : Instance name: X-n101-k25, problem_size: 100
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(238) : Instance name: X-n101-k25, optimal score: 27591.0000
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(239) : No aug score:30433.000, No aug gap:10.300%
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.678s
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(243) : Aug score:30433.000, Aug gap:10.300%
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:42] CVRPTester_LIB_Survey.py(173) : Instance name: X-n895-k37, problem_size: 894
+[2025-10-12 00:56:47] CVRPTester_LIB_Survey.py(238) : Instance name: X-n895-k37, optimal score: 53860.0000
+[2025-10-12 00:56:47] CVRPTester_LIB_Survey.py(239) : No aug score:59852.000, No aug gap:11.125%
+[2025-10-12 00:56:47] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.109s
+[2025-10-12 00:56:47] CVRPTester_LIB_Survey.py(243) : Aug score:59852.000, Aug gap:11.125%
+[2025-10-12 00:56:47] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:47] CVRPTester_LIB_Survey.py(173) : Instance name: X-n936-k151, problem_size: 935
+[2025-10-12 00:56:53] CVRPTester_LIB_Survey.py(238) : Instance name: X-n936-k151, optimal score: 132715.0000
+[2025-10-12 00:56:53] CVRPTester_LIB_Survey.py(239) : No aug score:161471.000, No aug gap:21.667%
+[2025-10-12 00:56:53] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.044s
+[2025-10-12 00:56:53] CVRPTester_LIB_Survey.py(243) : Aug score:161471.000, Aug gap:21.667%
+[2025-10-12 00:56:54] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:54] CVRPTester_LIB_Survey.py(173) : Instance name: X-n223-k34, problem_size: 222
+[2025-10-12 00:56:55] CVRPTester_LIB_Survey.py(238) : Instance name: X-n223-k34, optimal score: 40437.0000
+[2025-10-12 00:56:55] CVRPTester_LIB_Survey.py(239) : No aug score:43932.000, No aug gap:8.643%
+[2025-10-12 00:56:55] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.390s
+[2025-10-12 00:56:55] CVRPTester_LIB_Survey.py(243) : Aug score:43932.000, Aug gap:8.643%
+[2025-10-12 00:56:55] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:55] CVRPTester_LIB_Survey.py(173) : Instance name: X-n561-k42, problem_size: 560
+[2025-10-12 00:56:58] CVRPTester_LIB_Survey.py(238) : Instance name: X-n561-k42, optimal score: 42717.0000
+[2025-10-12 00:56:58] CVRPTester_LIB_Survey.py(239) : No aug score:45967.000, No aug gap:7.608%
+[2025-10-12 00:56:58] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.287s
+[2025-10-12 00:56:58] CVRPTester_LIB_Survey.py(243) : Aug score:45967.000, Aug gap:7.608%
+[2025-10-12 00:56:58] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:56:58] CVRPTester_LIB_Survey.py(173) : Instance name: X-n627-k43, problem_size: 626
+[2025-10-12 00:57:02] CVRPTester_LIB_Survey.py(238) : Instance name: X-n627-k43, optimal score: 62164.0000
+[2025-10-12 00:57:02] CVRPTester_LIB_Survey.py(239) : No aug score:66671.000, No aug gap:7.250%
+[2025-10-12 00:57:02] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.655s
+[2025-10-12 00:57:02] CVRPTester_LIB_Survey.py(243) : Aug score:66671.000, Aug gap:7.250%
+[2025-10-12 00:57:02] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:02] CVRPTester_LIB_Survey.py(173) : Instance name: X-n298-k31, problem_size: 297
+[2025-10-12 00:57:04] CVRPTester_LIB_Survey.py(238) : Instance name: X-n298-k31, optimal score: 34231.0000
+[2025-10-12 00:57:04] CVRPTester_LIB_Survey.py(239) : No aug score:37545.000, No aug gap:9.681%
+[2025-10-12 00:57:04] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.787s
+[2025-10-12 00:57:04] CVRPTester_LIB_Survey.py(243) : Aug score:37545.000, Aug gap:9.681%
+[2025-10-12 00:57:04] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:04] CVRPTester_LIB_Survey.py(173) : Instance name: X-n367-k17, problem_size: 366
+[2025-10-12 00:57:06] CVRPTester_LIB_Survey.py(238) : Instance name: X-n367-k17, optimal score: 22814.0000
+[2025-10-12 00:57:06] CVRPTester_LIB_Survey.py(239) : No aug score:25182.000, No aug gap:10.380%
+[2025-10-12 00:57:06] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.087s
+[2025-10-12 00:57:06] CVRPTester_LIB_Survey.py(243) : Aug score:25182.000, Aug gap:10.380%
+[2025-10-12 00:57:06] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:06] CVRPTester_LIB_Survey.py(173) : Instance name: X-n351-k40, problem_size: 350
+[2025-10-12 00:57:08] CVRPTester_LIB_Survey.py(238) : Instance name: X-n351-k40, optimal score: 25896.0000
+[2025-10-12 00:57:08] CVRPTester_LIB_Survey.py(239) : No aug score:29013.000, No aug gap:12.037%
+[2025-10-12 00:57:08] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.120s
+[2025-10-12 00:57:08] CVRPTester_LIB_Survey.py(243) : Aug score:29013.000, Aug gap:12.037%
+[2025-10-12 00:57:08] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:08] CVRPTester_LIB_Survey.py(173) : Instance name: X-n280-k17, problem_size: 279
+[2025-10-12 00:57:09] CVRPTester_LIB_Survey.py(238) : Instance name: X-n280-k17, optimal score: 33503.0000
+[2025-10-12 00:57:09] CVRPTester_LIB_Survey.py(239) : No aug score:36038.000, No aug gap:7.566%
+[2025-10-12 00:57:09] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.613s
+[2025-10-12 00:57:09] CVRPTester_LIB_Survey.py(243) : Aug score:36038.000, Aug gap:7.566%
+[2025-10-12 00:57:09] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:09] CVRPTester_LIB_Survey.py(173) : Instance name: X-n308-k13, problem_size: 307
+[2025-10-12 00:57:11] CVRPTester_LIB_Survey.py(238) : Instance name: X-n308-k13, optimal score: 25859.0000
+[2025-10-12 00:57:11] CVRPTester_LIB_Survey.py(239) : No aug score:27616.000, No aug gap:6.795%
+[2025-10-12 00:57:11] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.735s
+[2025-10-12 00:57:11] CVRPTester_LIB_Survey.py(243) : Aug score:27616.000, Aug gap:6.795%
+[2025-10-12 00:57:11] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:11] CVRPTester_LIB_Survey.py(173) : Instance name: X-n172-k51, problem_size: 171
+[2025-10-12 00:57:12] CVRPTester_LIB_Survey.py(238) : Instance name: X-n172-k51, optimal score: 45607.0000
+[2025-10-12 00:57:12] CVRPTester_LIB_Survey.py(239) : No aug score:50746.000, No aug gap:11.268%
+[2025-10-12 00:57:12] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.202s
+[2025-10-12 00:57:12] CVRPTester_LIB_Survey.py(243) : Aug score:50746.000, Aug gap:11.268%
+[2025-10-12 00:57:12] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:12] CVRPTester_LIB_Survey.py(173) : Instance name: X-n256-k16, problem_size: 255
+[2025-10-12 00:57:14] CVRPTester_LIB_Survey.py(238) : Instance name: X-n256-k16, optimal score: 18839.0000
+[2025-10-12 00:57:14] CVRPTester_LIB_Survey.py(239) : No aug score:20363.000, No aug gap:8.090%
+[2025-10-12 00:57:14] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.459s
+[2025-10-12 00:57:14] CVRPTester_LIB_Survey.py(243) : Aug score:20363.000, Aug gap:8.090%
+[2025-10-12 00:57:14] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:14] CVRPTester_LIB_Survey.py(173) : Instance name: X-n275-k28, problem_size: 274
+[2025-10-12 00:57:16] CVRPTester_LIB_Survey.py(238) : Instance name: X-n275-k28, optimal score: 21245.0000
+[2025-10-12 00:57:16] CVRPTester_LIB_Survey.py(239) : No aug score:22108.000, No aug gap:4.062%
+[2025-10-12 00:57:16] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.619s
+[2025-10-12 00:57:16] CVRPTester_LIB_Survey.py(243) : Aug score:22108.000, Aug gap:4.062%
+[2025-10-12 00:57:16] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:16] CVRPTester_LIB_Survey.py(173) : Instance name: X-n289-k60, problem_size: 288
+[2025-10-12 00:57:17] CVRPTester_LIB_Survey.py(238) : Instance name: X-n289-k60, optimal score: 95151.0000
+[2025-10-12 00:57:17] CVRPTester_LIB_Survey.py(239) : No aug score:102890.000, No aug gap:8.133%
+[2025-10-12 00:57:17] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.875s
+[2025-10-12 00:57:17] CVRPTester_LIB_Survey.py(243) : Aug score:102890.000, Aug gap:8.133%
+[2025-10-12 00:57:17] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:17] CVRPTester_LIB_Survey.py(173) : Instance name: X-n856-k95, problem_size: 855
+[2025-10-12 00:57:23] CVRPTester_LIB_Survey.py(238) : Instance name: X-n856-k95, optimal score: 88965.0000
+[2025-10-12 00:57:23] CVRPTester_LIB_Survey.py(239) : No aug score:94262.000, No aug gap:5.954%
+[2025-10-12 00:57:23] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.167s
+[2025-10-12 00:57:23] CVRPTester_LIB_Survey.py(243) : Aug score:94262.000, Aug gap:5.954%
+[2025-10-12 00:57:23] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:23] CVRPTester_LIB_Survey.py(173) : Instance name: X-n313-k71, problem_size: 312
+[2025-10-12 00:57:25] CVRPTester_LIB_Survey.py(238) : Instance name: X-n313-k71, optimal score: 94043.0000
+[2025-10-12 00:57:25] CVRPTester_LIB_Survey.py(239) : No aug score:100748.000, No aug gap:7.130%
+[2025-10-12 00:57:25] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.058s
+[2025-10-12 00:57:25] CVRPTester_LIB_Survey.py(243) : Aug score:100748.000, Aug gap:7.130%
+[2025-10-12 00:57:25] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:25] CVRPTester_LIB_Survey.py(173) : Instance name: X-n327-k20, problem_size: 326
+[2025-10-12 00:57:26] CVRPTester_LIB_Survey.py(238) : Instance name: X-n327-k20, optimal score: 27532.0000
+[2025-10-12 00:57:26] CVRPTester_LIB_Survey.py(239) : No aug score:30737.000, No aug gap:11.641%
+[2025-10-12 00:57:26] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.857s
+[2025-10-12 00:57:26] CVRPTester_LIB_Survey.py(243) : Aug score:30737.000, Aug gap:11.641%
+[2025-10-12 00:57:26] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:26] CVRPTester_LIB_Survey.py(173) : Instance name: X-n125-k30, problem_size: 124
+[2025-10-12 00:57:27] CVRPTester_LIB_Survey.py(238) : Instance name: X-n125-k30, optimal score: 55539.0000
+[2025-10-12 00:57:27] CVRPTester_LIB_Survey.py(239) : No aug score:59300.000, No aug gap:6.772%
+[2025-10-12 00:57:27] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.810s
+[2025-10-12 00:57:27] CVRPTester_LIB_Survey.py(243) : Aug score:59300.000, Aug gap:6.772%
+[2025-10-12 00:57:27] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:27] CVRPTester_LIB_Survey.py(173) : Instance name: X-n573-k30, problem_size: 572
+[2025-10-12 00:57:31] CVRPTester_LIB_Survey.py(238) : Instance name: X-n573-k30, optimal score: 50673.0000
+[2025-10-12 00:57:31] CVRPTester_LIB_Survey.py(239) : No aug score:56788.000, No aug gap:12.068%
+[2025-10-12 00:57:31] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.289s
+[2025-10-12 00:57:31] CVRPTester_LIB_Survey.py(243) : Aug score:56788.000, Aug gap:12.068%
+[2025-10-12 00:57:31] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:31] CVRPTester_LIB_Survey.py(173) : Instance name: X-n344-k43, problem_size: 343
+[2025-10-12 00:57:33] CVRPTester_LIB_Survey.py(238) : Instance name: X-n344-k43, optimal score: 42050.0000
+[2025-10-12 00:57:33] CVRPTester_LIB_Survey.py(239) : No aug score:45230.000, No aug gap:7.562%
+[2025-10-12 00:57:33] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.076s
+[2025-10-12 00:57:33] CVRPTester_LIB_Survey.py(243) : Aug score:45230.000, Aug gap:7.562%
+[2025-10-12 00:57:33] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:33] CVRPTester_LIB_Survey.py(173) : Instance name: X-n322-k28, problem_size: 321
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(238) : Instance name: X-n322-k28, optimal score: 29834.0000
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(239) : No aug score:31986.000, No aug gap:7.213%
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.875s
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(243) : Aug score:31986.000, Aug gap:7.213%
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(173) : Instance name: X-n143-k7, problem_size: 142
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(238) : Instance name: X-n143-k7, optimal score: 15700.0000
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(239) : No aug score:16932.000, No aug gap:7.847%
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.795s
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(243) : Aug score:16932.000, Aug gap:7.847%
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:35] CVRPTester_LIB_Survey.py(173) : Instance name: X-n251-k28, problem_size: 250
+[2025-10-12 00:57:37] CVRPTester_LIB_Survey.py(238) : Instance name: X-n251-k28, optimal score: 38684.0000
+[2025-10-12 00:57:37] CVRPTester_LIB_Survey.py(239) : No aug score:41015.000, No aug gap:6.026%
+[2025-10-12 00:57:37] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.485s
+[2025-10-12 00:57:37] CVRPTester_LIB_Survey.py(243) : Aug score:41015.000, Aug gap:6.026%
+[2025-10-12 00:57:37] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:37] CVRPTester_LIB_Survey.py(173) : Instance name: X-n480-k70, problem_size: 479
+[2025-10-12 00:57:40] CVRPTester_LIB_Survey.py(238) : Instance name: X-n480-k70, optimal score: 89449.0000
+[2025-10-12 00:57:40] CVRPTester_LIB_Survey.py(239) : No aug score:94752.000, No aug gap:5.929%
+[2025-10-12 00:57:40] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.943s
+[2025-10-12 00:57:40] CVRPTester_LIB_Survey.py(243) : Aug score:94752.000, Aug gap:5.929%
+[2025-10-12 00:57:40] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:40] CVRPTester_LIB_Survey.py(173) : Instance name: X-n701-k44, problem_size: 700
+[2025-10-12 00:57:44] CVRPTester_LIB_Survey.py(238) : Instance name: X-n701-k44, optimal score: 81923.0000
+[2025-10-12 00:57:44] CVRPTester_LIB_Survey.py(239) : No aug score:88361.000, No aug gap:7.859%
+[2025-10-12 00:57:44] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.006s
+[2025-10-12 00:57:44] CVRPTester_LIB_Survey.py(243) : Aug score:88361.000, Aug gap:7.859%
+[2025-10-12 00:57:44] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:44] CVRPTester_LIB_Survey.py(173) : Instance name: X-n876-k59, problem_size: 875
+[2025-10-12 00:57:49] CVRPTester_LIB_Survey.py(238) : Instance name: X-n876-k59, optimal score: 99299.0000
+[2025-10-12 00:57:49] CVRPTester_LIB_Survey.py(239) : No aug score:106768.000, No aug gap:7.522%
+[2025-10-12 00:57:49] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.041s
+[2025-10-12 00:57:49] CVRPTester_LIB_Survey.py(243) : Aug score:106768.000, Aug gap:7.522%
+[2025-10-12 00:57:49] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:49] CVRPTester_LIB_Survey.py(173) : Instance name: X-n376-k94, problem_size: 375
+[2025-10-12 00:57:51] CVRPTester_LIB_Survey.py(238) : Instance name: X-n376-k94, optimal score: 147713.0000
+[2025-10-12 00:57:51] CVRPTester_LIB_Survey.py(239) : No aug score:151587.000, No aug gap:2.623%
+[2025-10-12 00:57:51] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.497s
+[2025-10-12 00:57:51] CVRPTester_LIB_Survey.py(243) : Aug score:151587.000, Aug gap:2.623%
+[2025-10-12 00:57:51] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:51] CVRPTester_LIB_Survey.py(173) : Instance name: X-n641-k35, problem_size: 640
+[2025-10-12 00:57:55] CVRPTester_LIB_Survey.py(238) : Instance name: X-n641-k35, optimal score: 63684.0000
+[2025-10-12 00:57:55] CVRPTester_LIB_Survey.py(239) : No aug score:68902.000, No aug gap:8.194%
+[2025-10-12 00:57:55] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.671s
+[2025-10-12 00:57:55] CVRPTester_LIB_Survey.py(243) : Aug score:68902.000, Aug gap:8.194%
+[2025-10-12 00:57:55] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:55] CVRPTester_LIB_Survey.py(173) : Instance name: X-n167-k10, problem_size: 166
+[2025-10-12 00:57:56] CVRPTester_LIB_Survey.py(238) : Instance name: X-n167-k10, optimal score: 20557.0000
+[2025-10-12 00:57:56] CVRPTester_LIB_Survey.py(239) : No aug score:21402.000, No aug gap:4.111%
+[2025-10-12 00:57:56] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.945s
+[2025-10-12 00:57:56] CVRPTester_LIB_Survey.py(243) : Aug score:21402.000, Aug gap:4.111%
+[2025-10-12 00:57:56] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:56] CVRPTester_LIB_Survey.py(173) : Instance name: X-n469-k138, problem_size: 468
+[2025-10-12 00:57:59] CVRPTester_LIB_Survey.py(238) : Instance name: X-n469-k138, optimal score: 221824.0000
+[2025-10-12 00:57:59] CVRPTester_LIB_Survey.py(239) : No aug score:240182.000, No aug gap:8.276%
+[2025-10-12 00:57:59] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.301s
+[2025-10-12 00:57:59] CVRPTester_LIB_Survey.py(243) : Aug score:240182.000, Aug gap:8.276%
+[2025-10-12 00:57:59] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:57:59] CVRPTester_LIB_Survey.py(173) : Instance name: X-n513-k21, problem_size: 512
+[2025-10-12 00:58:02] CVRPTester_LIB_Survey.py(238) : Instance name: X-n513-k21, optimal score: 24201.0000
+[2025-10-12 00:58:02] CVRPTester_LIB_Survey.py(239) : No aug score:26557.000, No aug gap:9.735%
+[2025-10-12 00:58:02] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.900s
+[2025-10-12 00:58:02] CVRPTester_LIB_Survey.py(243) : Aug score:26557.000, Aug gap:9.735%
+[2025-10-12 00:58:02] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:02] CVRPTester_LIB_Survey.py(173) : Instance name: X-n181-k23, problem_size: 180
+[2025-10-12 00:58:03] CVRPTester_LIB_Survey.py(238) : Instance name: X-n181-k23, optimal score: 25569.0000
+[2025-10-12 00:58:03] CVRPTester_LIB_Survey.py(239) : No aug score:26076.000, No aug gap:1.983%
+[2025-10-12 00:58:03] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.091s
+[2025-10-12 00:58:03] CVRPTester_LIB_Survey.py(243) : Aug score:26076.000, Aug gap:1.983%
+[2025-10-12 00:58:03] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:03] CVRPTester_LIB_Survey.py(173) : Instance name: X-n106-k14, problem_size: 105
+[2025-10-12 00:58:04] CVRPTester_LIB_Survey.py(238) : Instance name: X-n106-k14, optimal score: 26362.0000
+[2025-10-12 00:58:04] CVRPTester_LIB_Survey.py(239) : No aug score:27324.000, No aug gap:3.649%
+[2025-10-12 00:58:04] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.634s
+[2025-10-12 00:58:04] CVRPTester_LIB_Survey.py(243) : Aug score:27324.000, Aug gap:3.649%
+[2025-10-12 00:58:04] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:04] CVRPTester_LIB_Survey.py(173) : Instance name: X-n162-k11, problem_size: 161
+[2025-10-12 00:58:05] CVRPTester_LIB_Survey.py(238) : Instance name: X-n162-k11, optimal score: 14138.0000
+[2025-10-12 00:58:05] CVRPTester_LIB_Survey.py(239) : No aug score:14843.000, No aug gap:4.987%
+[2025-10-12 00:58:05] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.926s
+[2025-10-12 00:58:05] CVRPTester_LIB_Survey.py(243) : Aug score:14843.000, Aug gap:4.987%
+[2025-10-12 00:58:05] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:05] CVRPTester_LIB_Survey.py(173) : Instance name: X-n195-k51, problem_size: 194
+[2025-10-12 00:58:06] CVRPTester_LIB_Survey.py(238) : Instance name: X-n195-k51, optimal score: 44225.0000
+[2025-10-12 00:58:06] CVRPTester_LIB_Survey.py(239) : No aug score:48190.000, No aug gap:8.966%
+[2025-10-12 00:58:06] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.319s
+[2025-10-12 00:58:06] CVRPTester_LIB_Survey.py(243) : Aug score:48190.000, Aug gap:8.966%
+[2025-10-12 00:58:06] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:06] CVRPTester_LIB_Survey.py(173) : Instance name: X-n411-k19, problem_size: 410
+[2025-10-12 00:58:09] CVRPTester_LIB_Survey.py(238) : Instance name: X-n411-k19, optimal score: 19712.0000
+[2025-10-12 00:58:09] CVRPTester_LIB_Survey.py(239) : No aug score:22939.000, No aug gap:16.371%
+[2025-10-12 00:58:09] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.329s
+[2025-10-12 00:58:09] CVRPTester_LIB_Survey.py(243) : Aug score:22939.000, Aug gap:16.371%
+[2025-10-12 00:58:09] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:09] CVRPTester_LIB_Survey.py(173) : Instance name: X-n439-k37, problem_size: 438
+[2025-10-12 00:58:11] CVRPTester_LIB_Survey.py(238) : Instance name: X-n439-k37, optimal score: 36391.0000
+[2025-10-12 00:58:11] CVRPTester_LIB_Survey.py(239) : No aug score:38049.000, No aug gap:4.556%
+[2025-10-12 00:58:11] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.571s
+[2025-10-12 00:58:11] CVRPTester_LIB_Survey.py(243) : Aug score:38049.000, Aug gap:4.556%
+[2025-10-12 00:58:11] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:11] CVRPTester_LIB_Survey.py(173) : Instance name: X-n139-k10, problem_size: 138
+[2025-10-12 00:58:12] CVRPTester_LIB_Survey.py(238) : Instance name: X-n139-k10, optimal score: 13590.0000
+[2025-10-12 00:58:12] CVRPTester_LIB_Survey.py(239) : No aug score:14121.000, No aug gap:3.907%
+[2025-10-12 00:58:12] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.794s
+[2025-10-12 00:58:12] CVRPTester_LIB_Survey.py(243) : Aug score:14121.000, Aug gap:3.907%
+[2025-10-12 00:58:12] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:12] CVRPTester_LIB_Survey.py(173) : Instance name: X-n209-k16, problem_size: 208
+[2025-10-12 00:58:13] CVRPTester_LIB_Survey.py(238) : Instance name: X-n209-k16, optimal score: 30656.0000
+[2025-10-12 00:58:13] CVRPTester_LIB_Survey.py(239) : No aug score:32403.000, No aug gap:5.699%
+[2025-10-12 00:58:13] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.214s
+[2025-10-12 00:58:13] CVRPTester_LIB_Survey.py(243) : Aug score:32403.000, Aug gap:5.699%
+[2025-10-12 00:58:13] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:13] CVRPTester_LIB_Survey.py(173) : Instance name: X-n837-k142, problem_size: 836
+[2025-10-12 00:58:19] CVRPTester_LIB_Survey.py(238) : Instance name: X-n837-k142, optimal score: 193737.0000
+[2025-10-12 00:58:19] CVRPTester_LIB_Survey.py(239) : No aug score:206919.000, No aug gap:6.804%
+[2025-10-12 00:58:19] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.328s
+[2025-10-12 00:58:19] CVRPTester_LIB_Survey.py(243) : Aug score:206919.000, Aug gap:6.804%
+[2025-10-12 00:58:19] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:19] CVRPTester_LIB_Survey.py(173) : Instance name: X-n420-k130, problem_size: 419
+[2025-10-12 00:58:21] CVRPTester_LIB_Survey.py(238) : Instance name: X-n420-k130, optimal score: 107798.0000
+[2025-10-12 00:58:21] CVRPTester_LIB_Survey.py(239) : No aug score:118067.000, No aug gap:9.526%
+[2025-10-12 00:58:21] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.957s
+[2025-10-12 00:58:21] CVRPTester_LIB_Survey.py(243) : Aug score:118067.000, Aug gap:9.526%
+[2025-10-12 00:58:21] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:21] CVRPTester_LIB_Survey.py(173) : Instance name: X-n819-k171, problem_size: 818
+[2025-10-12 00:58:27] CVRPTester_LIB_Survey.py(238) : Instance name: X-n819-k171, optimal score: 158121.0000
+[2025-10-12 00:58:27] CVRPTester_LIB_Survey.py(239) : No aug score:170494.000, No aug gap:7.825%
+[2025-10-12 00:58:27] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.369s
+[2025-10-12 00:58:27] CVRPTester_LIB_Survey.py(243) : Aug score:170494.000, Aug gap:7.825%
+[2025-10-12 00:58:27] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:27] CVRPTester_LIB_Survey.py(173) : Instance name: X-n214-k11, problem_size: 213
+[2025-10-12 00:58:28] CVRPTester_LIB_Survey.py(238) : Instance name: X-n214-k11, optimal score: 10856.0000
+[2025-10-12 00:58:28] CVRPTester_LIB_Survey.py(239) : No aug score:12256.000, No aug gap:12.896%
+[2025-10-12 00:58:28] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.214s
+[2025-10-12 00:58:28] CVRPTester_LIB_Survey.py(243) : Aug score:12256.000, Aug gap:12.896%
+[2025-10-12 00:58:28] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:28] CVRPTester_LIB_Survey.py(173) : Instance name: X-n393-k38, problem_size: 392
+[2025-10-12 00:58:30] CVRPTester_LIB_Survey.py(238) : Instance name: X-n393-k38, optimal score: 38260.0000
+[2025-10-12 00:58:30] CVRPTester_LIB_Survey.py(239) : No aug score:41151.000, No aug gap:7.556%
+[2025-10-12 00:58:30] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.329s
+[2025-10-12 00:58:30] CVRPTester_LIB_Survey.py(243) : Aug score:41151.000, Aug gap:7.556%
+[2025-10-12 00:58:30] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:30] CVRPTester_LIB_Survey.py(173) : Instance name: X-n157-k13, problem_size: 156
+[2025-10-12 00:58:31] CVRPTester_LIB_Survey.py(238) : Instance name: X-n157-k13, optimal score: 16876.0000
+[2025-10-12 00:58:31] CVRPTester_LIB_Survey.py(239) : No aug score:17660.000, No aug gap:4.646%
+[2025-10-12 00:58:31] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.909s
+[2025-10-12 00:58:31] CVRPTester_LIB_Survey.py(243) : Aug score:17660.000, Aug gap:4.646%
+[2025-10-12 00:58:31] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:31] CVRPTester_LIB_Survey.py(173) : Instance name: X-n491-k59, problem_size: 490
+[2025-10-12 00:58:34] CVRPTester_LIB_Survey.py(238) : Instance name: X-n491-k59, optimal score: 66483.0000
+[2025-10-12 00:58:34] CVRPTester_LIB_Survey.py(239) : No aug score:71398.000, No aug gap:7.393%
+[2025-10-12 00:58:34] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.972s
+[2025-10-12 00:58:34] CVRPTester_LIB_Survey.py(243) : Aug score:71398.000, Aug gap:7.393%
+[2025-10-12 00:58:34] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:34] CVRPTester_LIB_Survey.py(173) : Instance name: X-n548-k50, problem_size: 547
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(238) : Instance name: X-n548-k50, optimal score: 86700.0000
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(239) : No aug score:91005.000, No aug gap:4.965%
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.230s
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(243) : Aug score:91005.000, Aug gap:4.965%
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(173) : Instance name: X-n115-k10, problem_size: 114
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(238) : Instance name: X-n115-k10, optimal score: 12747.0000
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(239) : No aug score:15070.000, No aug gap:18.224%
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.668s
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(243) : Aug score:15070.000, Aug gap:18.224%
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:38] CVRPTester_LIB_Survey.py(173) : Instance name: X-n670-k130, problem_size: 669
+[2025-10-12 00:58:43] CVRPTester_LIB_Survey.py(238) : Instance name: X-n670-k130, optimal score: 146332.0000
+[2025-10-12 00:58:43] CVRPTester_LIB_Survey.py(239) : No aug score:171932.000, No aug gap:17.494%
+[2025-10-12 00:58:43] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.358s
+[2025-10-12 00:58:43] CVRPTester_LIB_Survey.py(243) : Aug score:171932.000, Aug gap:17.494%
+[2025-10-12 00:58:43] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:43] CVRPTester_LIB_Survey.py(173) : Instance name: X-n242-k48, problem_size: 241
+[2025-10-12 00:58:44] CVRPTester_LIB_Survey.py(238) : Instance name: X-n242-k48, optimal score: 82751.0000
+[2025-10-12 00:58:44] CVRPTester_LIB_Survey.py(239) : No aug score:86905.000, No aug gap:5.020%
+[2025-10-12 00:58:44] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.547s
+[2025-10-12 00:58:44] CVRPTester_LIB_Survey.py(243) : Aug score:86905.000, Aug gap:5.020%
+[2025-10-12 00:58:44] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:44] CVRPTester_LIB_Survey.py(173) : Instance name: X-n110-k13, problem_size: 109
+[2025-10-12 00:58:45] CVRPTester_LIB_Survey.py(238) : Instance name: X-n110-k13, optimal score: 14971.0000
+[2025-10-12 00:58:45] CVRPTester_LIB_Survey.py(239) : No aug score:15781.000, No aug gap:5.410%
+[2025-10-12 00:58:45] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.651s
+[2025-10-12 00:58:45] CVRPTester_LIB_Survey.py(243) : Aug score:15781.000, Aug gap:5.410%
+[2025-10-12 00:58:45] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:45] CVRPTester_LIB_Survey.py(173) : Instance name: X-n228-k23, problem_size: 227
+[2025-10-12 00:58:46] CVRPTester_LIB_Survey.py(238) : Instance name: X-n228-k23, optimal score: 25742.0000
+[2025-10-12 00:58:46] CVRPTester_LIB_Survey.py(239) : No aug score:28395.000, No aug gap:10.306%
+[2025-10-12 00:58:46] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.348s
+[2025-10-12 00:58:46] CVRPTester_LIB_Survey.py(243) : Aug score:28395.000, Aug gap:10.306%
+[2025-10-12 00:58:46] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:46] CVRPTester_LIB_Survey.py(173) : Instance name: X-n685-k75, problem_size: 684
+[2025-10-12 00:58:50] CVRPTester_LIB_Survey.py(238) : Instance name: X-n685-k75, optimal score: 68205.0000
+[2025-10-12 00:58:50] CVRPTester_LIB_Survey.py(239) : No aug score:76651.000, No aug gap:12.383%
+[2025-10-12 00:58:50] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.124s
+[2025-10-12 00:58:50] CVRPTester_LIB_Survey.py(243) : Aug score:76651.000, Aug gap:12.383%
+[2025-10-12 00:58:50] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:50] CVRPTester_LIB_Survey.py(173) : Instance name: X-n129-k18, problem_size: 128
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(238) : Instance name: X-n129-k18, optimal score: 28940.0000
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(239) : No aug score:29882.000, No aug gap:3.255%
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.777s
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(243) : Aug score:29882.000, Aug gap:3.255%
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(248) :  *** Test Done *** 
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(249) : scale_range: [0, 1000], instance number: 99, total time: 246.80s, avg time per instance: 2.49s
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(251) : ===============================================================
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(253) : instance: ['X-n120-k6', 'X-n459-k26', 'X-n237-k14', 'X-n200-k36', 'X-n733-k159', 'X-n801-k40', 'X-n536-k96', 'X-n317-k53', 'X-n655-k131', 'X-n176-k26', 'X-n449-k29', 'X-n502-k39', 'X-n336-k84', 'X-n766-k71', 'X-n359-k29', 'X-n284-k15', 'X-n148-k46', 'X-n261-k13', 'X-n134-k13', 'X-n294-k50', 'X-n586-k159', 'X-n266-k58', 'X-n153-k22', 'X-n270-k35', 'X-n916-k207', 'X-n247-k50', 'X-n613-k62', 'X-n783-k48', 'X-n303-k21', 'X-n219-k73', 'X-n331-k15', 'X-n401-k29', 'X-n204-k19', 'X-n384-k52', 'X-n186-k15', 'X-n599-k92', 'X-n716-k35', 'X-n749-k98', 'X-n979-k58', 'X-n524-k153', 'X-n429-k61', 'X-n957-k87', 'X-n233-k16', 'X-n190-k8', 'X-n101-k25', 'X-n895-k37', 'X-n936-k151', 'X-n223-k34', 'X-n561-k42', 'X-n627-k43', 'X-n298-k31', 'X-n367-k17', 'X-n351-k40', 'X-n280-k17', 'X-n308-k13', 'X-n172-k51', 'X-n256-k16', 'X-n275-k28', 'X-n289-k60', 'X-n856-k95', 'X-n313-k71', 'X-n327-k20', 'X-n125-k30', 'X-n573-k30', 'X-n344-k43', 'X-n322-k28', 'X-n143-k7', 'X-n251-k28', 'X-n480-k70', 'X-n701-k44', 'X-n876-k59', 'X-n376-k94', 'X-n641-k35', 'X-n167-k10', 'X-n469-k138', 'X-n513-k21', 'X-n181-k23', 'X-n106-k14', 'X-n162-k11', 'X-n195-k51', 'X-n411-k19', 'X-n439-k37', 'X-n139-k10', 'X-n209-k16', 'X-n837-k142', 'X-n420-k130', 'X-n819-k171', 'X-n214-k11', 'X-n393-k38', 'X-n157-k13', 'X-n491-k59', 'X-n548-k50', 'X-n115-k10', 'X-n670-k130', 'X-n242-k48', 'X-n110-k13', 'X-n228-k23', 'X-n685-k75', 'X-n129-k18']
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(254) : optimal: [13332.0, 24139.0, 27042.0, 58578.0, 136187.0, 73311.0, 94846.0, 78355.0, 106780.0, 47812.0, 55233.0, 69226.0, 139111.0, 114417.0, 51505.0, 20226.0, 43448.0, 26558.0, 10916.0, 47161.0, 190316.0, 75478.0, 21220.0, 35291.0, 329179.0, 37274.0, 59535.0, 72386.0, 21736.0, 117595.0, 31102.0, 66154.0, 19565.0, 65940.0, 24145.0, 108451.0, 43373.0, 77269.0, 118976.0, 154593.0, 65449.0, 85465.0, 19230.0, 16980.0, 27591.0, 53860.0, 132715.0, 40437.0, 42717.0, 62164.0, 34231.0, 22814.0, 25896.0, 33503.0, 25859.0, 45607.0, 18839.0, 21245.0, 95151.0, 88965.0, 94043.0, 27532.0, 55539.0, 50673.0, 42050.0, 29834.0, 15700.0, 38684.0, 89449.0, 81923.0, 99299.0, 147713.0, 63684.0, 20557.0, 221824.0, 24201.0, 25569.0, 26362.0, 14138.0, 44225.0, 19712.0, 36391.0, 13590.0, 30656.0, 193737.0, 107798.0, 158121.0, 10856.0, 38260.0, 16876.0, 66483.0, 86700.0, 12747.0, 146332.0, 82751.0, 14971.0, 25742.0, 68205.0, 28940.0]
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(255) : problem_size: [119, 458, 236, 199, 732, 800, 535, 316, 654, 175, 448, 501, 335, 765, 358, 283, 147, 260, 133, 293, 585, 265, 152, 269, 915, 246, 612, 782, 302, 218, 330, 400, 203, 383, 185, 598, 715, 748, 978, 523, 428, 956, 232, 189, 100, 894, 935, 222, 560, 626, 297, 366, 350, 279, 307, 171, 255, 274, 288, 855, 312, 326, 124, 572, 343, 321, 142, 250, 479, 700, 875, 375, 640, 166, 468, 512, 180, 105, 161, 194, 410, 438, 138, 208, 836, 419, 818, 213, 392, 156, 490, 547, 114, 669, 241, 109, 227, 684, 128]
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(256) : no_aug_score: [14287.0, 25676.0, 28864.0, 62006.0, 147735.0, 80554.0, 101074.0, 79503.0, 108438.0, 56290.0, 60588.0, 71302.0, 152821.0, 128633.0, 54019.0, 21471.0, 48810.0, 29038.0, 11909.0, 50202.0, 201832.0, 81221.0, 26016.0, 36996.0, 351052.0, 44038.0, 65424.0, 79472.0, 22765.0, 120907.0, 32943.0, 71310.0, 20443.0, 70595.0, 25388.0, 117507.0, 46574.0, 84780.0, 128645.0, 178668.0, 70283.0, 91109.0, 20667.0, 17597.0, 30433.0, 59852.0, 161471.0, 43932.0, 45967.0, 66671.0, 37545.0, 25182.0, 29013.0, 36038.0, 27616.0, 50746.0, 20363.0, 22108.0, 102890.0, 94262.0, 100748.0, 30737.0, 59300.0, 56788.0, 45230.0, 31986.0, 16932.0, 41015.0, 94752.0, 88361.0, 106768.0, 151587.0, 68902.0, 21402.0, 240182.0, 26557.0, 26076.0, 27324.0, 14843.0, 48190.0, 22939.0, 38049.0, 14121.0, 32403.0, 206919.0, 118067.0, 170494.0, 12256.0, 41151.0, 17660.0, 71398.0, 91005.0, 15070.0, 171932.0, 86905.0, 15781.0, 28395.0, 76651.0, 29882.0]
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(257) : aug_score: [14287.0, 25676.0, 28864.0, 62006.0, 147735.0, 80554.0, 101074.0, 79503.0, 108438.0, 56290.0, 60588.0, 71302.0, 152821.0, 128633.0, 54019.0, 21471.0, 48810.0, 29038.0, 11909.0, 50202.0, 201832.0, 81221.0, 26016.0, 36996.0, 351052.0, 44038.0, 65424.0, 79472.0, 22765.0, 120907.0, 32943.0, 71310.0, 20443.0, 70595.0, 25388.0, 117507.0, 46574.0, 84780.0, 128645.0, 178668.0, 70283.0, 91109.0, 20667.0, 17597.0, 30433.0, 59852.0, 161471.0, 43932.0, 45967.0, 66671.0, 37545.0, 25182.0, 29013.0, 36038.0, 27616.0, 50746.0, 20363.0, 22108.0, 102890.0, 94262.0, 100748.0, 30737.0, 59300.0, 56788.0, 45230.0, 31986.0, 16932.0, 41015.0, 94752.0, 88361.0, 106768.0, 151587.0, 68902.0, 21402.0, 240182.0, 26557.0, 26076.0, 27324.0, 14843.0, 48190.0, 22939.0, 38049.0, 14121.0, 32403.0, 206919.0, 118067.0, 170494.0, 12256.0, 41151.0, 17660.0, 71398.0, 91005.0, 15070.0, 171932.0, 86905.0, 15781.0, 28395.0, 76651.0, 29882.0]
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(258) : no_aug_gap: [7.163216321632163, 6.367289448610133, 6.737667332297907, 5.852026358018368, 8.479517134528258, 9.879827038234371, 6.566434008814288, 1.4651266670920808, 1.5527252294437162, 17.73195013804066, 9.695290858725762, 2.998873255713171, 9.855439181660689, 12.424727094749906, 4.881079506843996, 6.155443488579056, 12.341189467869638, 9.338052564199112, 9.096738732136314, 6.448124509658404, 6.0509888816494675, 7.608839661888232, 22.601319509896324, 4.831260094641693, 6.644713058852479, 18.146697429843858, 9.891660367850845, 9.789185754151355, 4.7340817077659185, 2.816446277477784, 5.91923348980773, 7.793935362941016, 4.487605417837976, 7.059447983014862, 5.148063781321184, 8.350314888751603, 7.380167385239665, 9.720586522408729, 8.126849112426035, 15.57315014263259, 7.385903527937784, 6.603872930439361, 7.472698907956318, 3.6336866902237928, 10.30046029502374, 11.125139249907166, 21.667482952190785, 8.643074412048371, 7.60821218718543, 7.250176951290136, 9.681283047530016, 10.379591478916455, 12.03660797034291, 7.566486583291049, 6.794539618701419, 11.268007104172606, 8.089601358883169, 4.062132266415627, 8.133387983310739, 5.9540268644972745, 7.129717256999458, 11.640999564143542, 6.771818001764526, 12.067570501055789, 7.562425683709869, 7.213246631360193, 7.8471337579617835, 6.025747078895668, 5.92851792641617, 7.858598928261904, 7.5217273084321095, 2.6226533886658587, 8.193580805225803, 4.110521963321497, 8.275930467397577, 9.735134911780506, 1.9828698814971255, 3.649192018814961, 4.986561041165653, 8.96551724137931, 16.370738636363637, 4.556071556153994, 3.9072847682119205, 5.698721294363256, 6.804069434336239, 9.526150763465, 7.825020079559325, 12.896094325718497, 7.556194458964977, 4.645650628110927, 7.392867349548005, 4.965397923875432, 18.22389581862399, 17.494464642046854, 5.0198789138499835, 5.4104602230979895, 10.306114521016237, 12.383256359504434, 3.255010366275052]
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(259) : aug_gap: [7.163216321632163, 6.367289448610133, 6.737667332297907, 5.852026358018368, 8.479517134528258, 9.879827038234371, 6.566434008814288, 1.4651266670920808, 1.5527252294437162, 17.73195013804066, 9.695290858725762, 2.998873255713171, 9.855439181660689, 12.424727094749906, 4.881079506843996, 6.155443488579056, 12.341189467869638, 9.338052564199112, 9.096738732136314, 6.448124509658404, 6.0509888816494675, 7.608839661888232, 22.601319509896324, 4.831260094641693, 6.644713058852479, 18.146697429843858, 9.891660367850845, 9.789185754151355, 4.7340817077659185, 2.816446277477784, 5.91923348980773, 7.793935362941016, 4.487605417837976, 7.059447983014862, 5.148063781321184, 8.350314888751603, 7.380167385239665, 9.720586522408729, 8.126849112426035, 15.57315014263259, 7.385903527937784, 6.603872930439361, 7.472698907956318, 3.6336866902237928, 10.30046029502374, 11.125139249907166, 21.667482952190785, 8.643074412048371, 7.60821218718543, 7.250176951290136, 9.681283047530016, 10.379591478916455, 12.03660797034291, 7.566486583291049, 6.794539618701419, 11.268007104172606, 8.089601358883169, 4.062132266415627, 8.133387983310739, 5.9540268644972745, 7.129717256999458, 11.640999564143542, 6.771818001764526, 12.067570501055789, 7.562425683709869, 7.213246631360193, 7.8471337579617835, 6.025747078895668, 5.92851792641617, 7.858598928261904, 7.5217273084321095, 2.6226533886658587, 8.193580805225803, 4.110521963321497, 8.275930467397577, 9.735134911780506, 1.9828698814971255, 3.649192018814961, 4.986561041165653, 8.96551724137931, 16.370738636363637, 4.556071556153994, 3.9072847682119205, 5.698721294363256, 6.804069434336239, 9.526150763465, 7.825020079559325, 12.896094325718497, 7.556194458964977, 4.645650628110927, 7.392867349548005, 4.965397923875432, 18.22389581862399, 17.494464642046854, 5.0198789138499835, 5.4104602230979895, 10.306114521016237, 12.383256359504434, 3.255010366275052]
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(260) : ===============================================================
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(262) : ===============================================================
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(268) : Solved_ instances number: 99, min_dimension: 100, max_dimension: 978, avg gap(no aug): 8.158%, avg_gap(aug): 8.158%
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(270) : Avg time per instance: 2.49s
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(100) : #################  Test scale range: [1000, 10000]  #################
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:58:51] CVRPTester_LIB_Survey.py(173) : Instance name: Antwerp2, problem_size: 7000
+[2025-10-12 00:59:30] CVRPTester_LIB_Survey.py(238) : Instance name: Antwerp2, optimal score: 291350.0000
+[2025-10-12 00:59:30] CVRPTester_LIB_Survey.py(239) : No aug score:328772.000, No aug gap:12.844%
+[2025-10-12 00:59:30] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 39.368s
+[2025-10-12 00:59:30] CVRPTester_LIB_Survey.py(243) : Aug score:328772.000, Aug gap:12.844%
+[2025-10-12 00:59:30] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:59:30] CVRPTester_LIB_Survey.py(173) : Instance name: X-n1001-k43, problem_size: 1000
+[2025-10-12 00:59:36] CVRPTester_LIB_Survey.py(238) : Instance name: X-n1001-k43, optimal score: 72355.0000
+[2025-10-12 00:59:36] CVRPTester_LIB_Survey.py(239) : No aug score:79801.000, No aug gap:10.291%
+[2025-10-12 00:59:36] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.663s
+[2025-10-12 00:59:36] CVRPTester_LIB_Survey.py(243) : Aug score:79801.000, Aug gap:10.291%
+[2025-10-12 00:59:36] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 00:59:36] CVRPTester_LIB_Survey.py(173) : Instance name: Antwerp1, problem_size: 6000
+[2025-10-12 01:00:11] CVRPTester_LIB_Survey.py(238) : Instance name: Antwerp1, optimal score: 477277.0000
+[2025-10-12 01:00:11] CVRPTester_LIB_Survey.py(239) : No aug score:529736.000, No aug gap:10.991%
+[2025-10-12 01:00:11] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 34.897s
+[2025-10-12 01:00:11] CVRPTester_LIB_Survey.py(243) : Aug score:529736.000, Aug gap:10.991%
+[2025-10-12 01:00:11] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:00:11] CVRPTester_LIB_Survey.py(173) : Instance name: Leuven1, problem_size: 3000
+[2025-10-12 01:00:29] CVRPTester_LIB_Survey.py(238) : Instance name: Leuven1, optimal score: 192848.0000
+[2025-10-12 01:00:29] CVRPTester_LIB_Survey.py(239) : No aug score:214877.000, No aug gap:11.423%
+[2025-10-12 01:00:29] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 17.471s
+[2025-10-12 01:00:29] CVRPTester_LIB_Survey.py(243) : Aug score:214877.000, Aug gap:11.423%
+[2025-10-12 01:00:29] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:00:29] CVRPTester_LIB_Survey.py(173) : Instance name: Leuven2, problem_size: 4000
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(238) : Instance name: Leuven2, optimal score: 111395.0000
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(239) : No aug score:125355.000, No aug gap:12.532%
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 22.155s
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(243) : Aug score:125355.000, Aug gap:12.532%
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(248) :  *** Test Done *** 
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(249) : scale_range: [1000, 10000], instance number: 5, total time: 119.93s, avg time per instance: 23.99s
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(251) : ===============================================================
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(253) : instance: ['Antwerp2', 'X-n1001-k43', 'Antwerp1', 'Leuven1', 'Leuven2']
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(254) : optimal: [291350.0, 72355.0, 477277.0, 192848.0, 111395.0]
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(255) : problem_size: [7000, 1000, 6000, 3000, 4000]
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(256) : no_aug_score: [328772.0, 79801.0, 529736.0, 214877.0, 125355.0]
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(257) : aug_score: [328772.0, 79801.0, 529736.0, 214877.0, 125355.0]
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(258) : no_aug_gap: [12.8443452891711, 10.290926680948104, 10.991311125405163, 11.422985978594541, 12.53198078908389]
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(259) : aug_gap: [12.8443452891711, 10.290926680948104, 10.991311125405163, 11.422985978594541, 12.53198078908389]
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(260) : ===============================================================
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(262) : ===============================================================
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(268) : Solved_ instances number: 5, min_dimension: 1000, max_dimension: 7000, avg gap(no aug): 11.616%, avg_gap(aug): 11.616%
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(270) : Avg time per instance: 23.99s
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(100) : #################  Test scale range: [10000, 100001]  #################
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:00:51] CVRPTester_LIB_Survey.py(173) : Instance name: Brussels1, problem_size: 15000
+[2025-10-12 01:02:17] CVRPTester_LIB_Survey.py(238) : Instance name: Brussels1, optimal score: 501719.0000
+[2025-10-12 01:02:17] CVRPTester_LIB_Survey.py(239) : No aug score:564371.000, No aug gap:12.487%
+[2025-10-12 01:02:17] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 86.109s
+[2025-10-12 01:02:17] CVRPTester_LIB_Survey.py(243) : Aug score:564371.000, Aug gap:12.487%
+[2025-10-12 01:02:17] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:02:17] CVRPTester_LIB_Survey.py(173) : Instance name: Flanders2, problem_size: 30000
+[2025-10-12 01:05:08] CVRPTester_LIB_Survey.py(238) : Instance name: Flanders2, optimal score: 4373244.0000
+[2025-10-12 01:05:08] CVRPTester_LIB_Survey.py(239) : No aug score:4944686.000, No aug gap:13.067%
+[2025-10-12 01:05:08] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 170.684s
+[2025-10-12 01:05:08] CVRPTester_LIB_Survey.py(243) : Aug score:4944686.000, Aug gap:13.067%
+[2025-10-12 01:05:08] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:05:08] CVRPTester_LIB_Survey.py(173) : Instance name: Ghent2, problem_size: 11000
+[2025-10-12 01:06:10] CVRPTester_LIB_Survey.py(238) : Instance name: Ghent2, optimal score: 257749.0000
+[2025-10-12 01:06:10] CVRPTester_LIB_Survey.py(239) : No aug score:286213.000, No aug gap:11.043%
+[2025-10-12 01:06:10] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 61.728s
+[2025-10-12 01:06:10] CVRPTester_LIB_Survey.py(243) : Aug score:286213.000, Aug gap:11.043%
+[2025-10-12 01:06:10] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:06:10] CVRPTester_LIB_Survey.py(173) : Instance name: Ghent1, problem_size: 10000
+[2025-10-12 01:07:08] CVRPTester_LIB_Survey.py(238) : Instance name: Ghent1, optimal score: 469531.0000
+[2025-10-12 01:07:08] CVRPTester_LIB_Survey.py(239) : No aug score:516633.000, No aug gap:10.032%
+[2025-10-12 01:07:08] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 57.962s
+[2025-10-12 01:07:08] CVRPTester_LIB_Survey.py(243) : Aug score:516633.000, Aug gap:10.032%
+[2025-10-12 01:07:08] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:07:08] CVRPTester_LIB_Survey.py(173) : Instance name: Brussels2, problem_size: 16000
+[2025-10-12 01:08:38] CVRPTester_LIB_Survey.py(238) : Instance name: Brussels2, optimal score: 345468.0000
+[2025-10-12 01:08:38] CVRPTester_LIB_Survey.py(239) : No aug score:386993.000, No aug gap:12.020%
+[2025-10-12 01:08:38] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 90.270s
+[2025-10-12 01:08:38] CVRPTester_LIB_Survey.py(243) : Aug score:386993.000, Aug gap:12.020%
+[2025-10-12 01:08:38] CVRPTester_LIB_Survey.py(172) : ===============================================================
+[2025-10-12 01:08:38] CVRPTester_LIB_Survey.py(173) : Instance name: Flanders1, problem_size: 20000
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(238) : Instance name: Flanders1, optimal score: 7240118.0000
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(239) : No aug score:7807899.000, No aug gap:7.842%
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 115.530s
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(243) : Aug score:7807899.000, Aug gap:7.842%
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(248) :  *** Test Done *** 
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(249) : scale_range: [10000, 100001], instance number: 6, total time: 582.70s, avg time per instance: 97.12s
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(251) : ===============================================================
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(253) : instance: ['Brussels1', 'Flanders2', 'Ghent2', 'Ghent1', 'Brussels2', 'Flanders1']
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(254) : optimal: [501719.0, 4373244.0, 257749.0, 469531.0, 345468.0, 7240118.0]
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(255) : problem_size: [15000, 30000, 11000, 10000, 16000, 20000]
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(256) : no_aug_score: [564371.0, 4944686.0, 286213.0, 516633.0, 386993.0, 7807899.0]
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(257) : aug_score: [564371.0, 4944686.0, 286213.0, 516633.0, 386993.0, 7807899.0]
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(258) : no_aug_gap: [12.487468084724716, 13.066776059145111, 11.043301816883867, 10.03171249608652, 12.01992659233272, 7.842151191458481]
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(259) : aug_gap: [12.487468084724716, 13.066776059145111, 11.043301816883867, 10.03171249608652, 12.01992659233272, 7.842151191458481]
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(260) : ===============================================================
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(262) : ===============================================================
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(268) : Solved_ instances number: 6, min_dimension: 10000, max_dimension: 30000, avg gap(no aug): 11.082%, avg_gap(aug): 11.082%
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(270) : Avg time per instance: 97.12s
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(104) : All scale ranges done, solved instance number: 110/110, total time: 949.43s, avg time per instance: 8.63s
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(109) : [0, 1000), number: 99, avg gap(no aug): 8.158%, avg gap(aug): 8.158%
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(113) : [1000, 10000), number: 5, avg gap(no aug): 11.616%, avg gap(aug): 11.616%
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(117) : [10000, 100000], number: 6, avg gap(no aug): 11.082%, avg gap(aug): 11.082%
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(121) : #################  All Done  #################
+[2025-10-12 01:10:34] CVRPTester_LIB_Survey.py(122) : All solved instances, number: 110, avg gap(no aug): 8.475%, avg gap(aug): 8.475%

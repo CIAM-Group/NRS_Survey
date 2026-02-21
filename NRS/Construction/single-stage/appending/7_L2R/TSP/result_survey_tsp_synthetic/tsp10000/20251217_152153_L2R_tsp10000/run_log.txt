@@ -1,0 +1,26 @@
+[2025-12-17 15:21:53] tsp_test_main_synthetic.py(134) : DEBUG_MODE: False
+[2025-12-17 15:21:53] tsp_test_main_synthetic.py(135) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-12-17 15:21:53] tsp_test_main_synthetic.py(136) : env_params{'problem_size': 10000, 'lower_neighbors_num': 20, 'reduction_percentage': 0.1, 'distribution': 'uniform', 'test_in_tsplib': False, 'repair_max_sub_length': 1000, 'budget': 0}
+[2025-12-17 15:21:53] tsp_test_main_synthetic.py(136) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'logit_clipping': 10, 'decoder_layer_num': 6, 'ff_hidden_dim': 512, 'eval_type': 'greedy'}
+[2025-12-17 15:21:53] tsp_test_main_synthetic.py(136) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '/public/home/bayp/exp_survey_202509/Construction/single-stage/appending/7_L2R/000_Test_L2R_Adam_LN_TSP/result_tsp_models_L2R/20250418_103804_rollout_tsp100_C10_Longtrain100', 'epoch': 'best'}, 'test_episodes': 16, 'test_batch_size': 16, 'test_data_load': {'enable': True, 'filename': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp10000_n16_lkh.txt', 'solution_filename': None}}
+[2025-12-17 15:21:53] tsp_test_main_synthetic.py(136) : logger_params{'log_file': {'desc': 'L2R_test_uniform_epochbest_K20_tsp10000_PRC0', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/tsp10000/20251217_152153_L2R_test_uniform_epochbest_K20_tsp10000_PRC0'}}
+[2025-12-17 15:21:54] TSPTester.py(54) : Load model from: /public/home/bayp/exp_survey_202509/Construction/single-stage/appending/7_L2R/000_Test_L2R_Adam_LN_TSP/result_tsp_models_L2R/20250418_103804_rollout_tsp100_C10_Longtrain100/best_model.pt
+[2025-12-17 15:21:54] TSPTester.py(62) : Number of parameters: 1.19M
+[2025-12-17 15:21:54] TSPTester.py(80) : Saved dataset loaded successfully!!!
+[2025-12-17 15:21:54] TSPTester.py(81) : Data loaded from: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp10000_n16_lkh.txt
+[2025-12-17 15:21:54] TSPTester.py(83) : problem_size: 10000 ,optimal : 71.7729
+[2025-12-17 15:22:58] TSPTester.py(176) : batch_memory:540.81MB
+[2025-12-17 15:22:58] TSPTester.py(177) : batch_memory_GB:0.53GB
+[2025-12-17 15:22:58] TSPTester.py(178) : avg_memory:33.80MB
+[2025-12-17 15:22:58] TSPTester.py(107) :  episode  16/ 16, Elapsed[1.07m], Remain[0.00m], avg.score:75.235
+[2025-12-17 15:22:58] TSPTester.py(110) : All AVG.SCORE:75.2355 
+[2025-12-17 15:22:58] TSPTester.py(116) :  *** Test Done *** 
+[2025-12-17 15:22:58] TSPTester.py(130) : ===============================================================
+[2025-12-17 15:22:58] TSPTester.py(131) :  optimal score: 71.7729 
+[2025-12-17 15:22:58] TSPTester.py(132) : distribution: uniform
+[2025-12-17 15:22:58] TSPTester.py(134) :  SCORE:75.2355, 2 decimal places:75.24
+[2025-12-17 15:22:58] TSPTester.py(135) :  problem_size: 10000 ,model gap:4.824%, 2 decimal places:4.82%
+[2025-12-17 15:22:58] TSPTester.py(138) : total time: 63.93 sec
+[2025-12-17 15:22:58] TSPTester.py(139) : total time: 1.07 min
+[2025-12-17 15:22:58] TSPTester.py(140) : avg time: 4.00 sec
+[2025-12-17 15:22:58] TSPTester.py(141) : avg time: 0.07 mins
