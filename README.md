@@ -16,7 +16,7 @@ Neural routing solvers (NRSs) that leverage deep learning to tackle vehicle rout
 
 This experiment investigates the **in-problem** performance of representative NRSs, with a focus on their **zero-shot generalization** ability, a topic of significant interest in recent years. The conventional evaluation pipeline is first applied, which emphasizes scalability on synthetic instances and yields promising results. Nevertheless, this pipeline suffers from notable limitations, including a narrow range of test distributions, conflated in- and out-of-distribution comparisons, and inconsistent inference settings. Therefore, a new generalization-focused evaluation pipeline is introduced for single-model generalization across diverse benchmark instances, with unified inference and complementary metrics. Experimental results under this new pipeline reveal that NRSs trained on narrowly distributed data may be outperformed by even simple construction heuristics such as nearest neighbor and random insertion. This contrast suggests that the conventional pipeline can systematically lead to overly optimistic conclusions. Building on these findings, the advantages of the proposed pipeline are discussed, and principles for method selection are outlined. In particular, learning is argued to remain crucial for NRSs, even when their performance falls short of prior expectations.
 
-***<u>Beyond the NRSs already evaluated, we welcome benchmarking additional untested NRSs under both pipelines and comparing their results!</u>***
+<u>***Beyond the NRSs already evaluated, we welcome benchmarking additional untested NRSs under both pipelines and comparing their results!***</u>
 
 ### Selected Methods in the Experiments
 
