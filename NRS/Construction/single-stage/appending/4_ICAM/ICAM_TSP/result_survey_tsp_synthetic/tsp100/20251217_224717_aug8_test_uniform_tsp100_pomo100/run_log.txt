@@ -1,0 +1,29 @@
+[2025-12-17 22:47:17] tsp_test_survey_synthetic_100.py(123) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-12-17 22:47:17] tsp_test_survey_synthetic_100.py(124) : env_params{'problem_size': 100, 'pomo_size': 100, 'distribution': 'uniform'}
+[2025-12-17 22:47:17] tsp_test_survey_synthetic_100.py(124) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 12, 'logit_clipping': 50, 'ff_hidden_dim': 512, 'eval_type': 'greedy'}
+[2025-12-17 22:47:17] tsp_test_survey_synthetic_100.py(124) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '../pretrained', 'name': 'icam_tsp'}, 'test_episodes': 10000, 'test_batch_size': 1000, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 1000, 'test_data_load': {'enable': True, 'filename': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt', 'solution_filename': None}}
+[2025-12-17 22:47:17] tsp_test_survey_synthetic_100.py(124) : logger_params{'log_file': {'desc': 'aug8_test_uniform_tsp100_pomo100', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/tsp100/20251217_224717_aug8_test_uniform_tsp100_pomo100'}}
+[2025-12-17 22:47:18] TSPTester.py(59) : Model loaded successfully!!!
+[2025-12-17 22:47:18] TSPTester.py(60) : Model loaded from: ../pretrained/icam_tsp.pt
+[2025-12-17 22:47:18] TSPTester.py(63) : Number of parameters: 2.24M
+[2025-12-17 22:47:19] TSPTester.py(88) : Saved dataset loaded successfully!!!
+[2025-12-17 22:47:19] TSPTester.py(89) : Data loaded from: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt
+[2025-12-17 22:47:19] TSPTester.py(90) : problem_size: 100 ,optimal: 7.7633
+[2025-12-17 22:47:25] TSPTester.py(123) :  episode 1000/10000, Elapsed[0.13m], Remain[1.14m], single_greedy_score:7.820, score:7.790, aug_score:7.767
+[2025-12-17 22:47:30] TSPTester.py(123) :  episode 2000/10000, Elapsed[0.20m], Remain[0.79m], single_greedy_score:7.824, score:7.792, aug_score:7.768
+[2025-12-17 22:47:34] TSPTester.py(123) :  episode 3000/10000, Elapsed[0.27m], Remain[0.63m], single_greedy_score:7.825, score:7.792, aug_score:7.768
+[2025-12-17 22:47:38] TSPTester.py(123) :  episode 4000/10000, Elapsed[0.34m], Remain[0.51m], single_greedy_score:7.828, score:7.795, aug_score:7.771
+[2025-12-17 22:47:42] TSPTester.py(123) :  episode 5000/10000, Elapsed[0.41m], Remain[0.41m], single_greedy_score:7.831, score:7.798, aug_score:7.773
+[2025-12-17 22:47:47] TSPTester.py(123) :  episode 6000/10000, Elapsed[0.48m], Remain[0.32m], single_greedy_score:7.830, score:7.798, aug_score:7.773
+[2025-12-17 22:47:51] TSPTester.py(123) :  episode 7000/10000, Elapsed[0.55m], Remain[0.24m], single_greedy_score:7.830, score:7.797, aug_score:7.772
+[2025-12-17 22:47:55] TSPTester.py(123) :  episode 8000/10000, Elapsed[0.63m], Remain[0.16m], single_greedy_score:7.831, score:7.797, aug_score:7.773
+[2025-12-17 22:48:00] TSPTester.py(123) :  episode 9000/10000, Elapsed[0.70m], Remain[0.08m], single_greedy_score:7.832, score:7.798, aug_score:7.774
+[2025-12-17 22:48:04] TSPTester.py(123) :  episode 10000/10000, Elapsed[0.77m], Remain[0.00m], single_greedy_score:7.833, score:7.799, aug_score:7.775
+[2025-12-17 22:48:04] TSPTester.py(130) :  *** Test Done *** 
+[2025-12-17 22:48:04] TSPTester.py(131) : ===============================================================
+[2025-12-17 22:48:04] TSPTester.py(132) :  problem size: 100, pomo size: 100, distribution: uniform, optimal score: 7.7633 
+[2025-12-17 22:48:04] TSPTester.py(135) :  NO-AUG SINGLE GREEDY SCORE:7.8328, GAP:0.895%
+[2025-12-17 22:48:04] TSPTester.py(137) :  NO-AUG SCORE:7.7991, GAP:0.460%
+[2025-12-17 22:48:04] TSPTester.py(139) :  AUGMENTATION SCORE:7.7747, GAP:0.147%
+[2025-12-17 22:48:04] TSPTester.py(142) :  Total time: 44.663 sec, 0.744 min, 0.012 hr
+[2025-12-17 22:48:04] TSPTester.py(144) :  Avg time per episode: 0.00 sec

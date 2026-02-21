@@ -1,0 +1,1598 @@
+[2025-10-12 00:35:05] tsp_test_lib.py(113) : DEBUG_MODE: False
+[2025-10-12 00:35:05] tsp_test_lib.py(114) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2025-10-12 00:35:05] tsp_test_lib.py(115) : env_params{'problem_size': None, 'pomo_size': None}
+[2025-10-12 00:35:05] tsp_test_lib.py(115) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 12, 'logit_clipping': 50, 'ff_hidden_dim': 512, 'eval_type': 'greedy'}
+[2025-10-12 00:35:05] tsp_test_lib.py(115) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': '../pretrained', 'name': 'icam_tsp'}, 'filename': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp', 'test_episodes': 1, 'test_batch_size': 1, 'augmentation_enable': False, 'aug_factor': 8, 'aug_batch_size': 1, 'detailed_log': True}
+[2025-10-12 00:35:05] tsp_test_lib.py(115) : logger_params{'log_file': {'desc': 'no_aug_test_TSPLIB_Survey', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp/20251012_003505_no_aug_test_TSPLIB_Survey'}}
+[2025-10-12 00:35:05] TSPTester_LIB_Survey.py(60) : Model loaded successfully!!!
+[2025-10-12 00:35:05] TSPTester_LIB_Survey.py(61) : Model loaded from: ../pretrained/icam_tsp.pt
+[2025-10-12 00:35:05] TSPTester_LIB_Survey.py(64) : Number of parameters: 2.24M
+[2025-10-12 00:35:05] TSPTester_LIB_Survey.py(99) : #################  Test scale range: [0, 1000]  #################
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr144.tsp
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(174) : Instance name: pr144, problem_size: 144
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(239) : Instance name: pr144, optimal score: 58537.0000
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(240) : No aug score:59586.000, No aug gap:1.792%
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.598s
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(243) : Aug score:59586.000, Aug gap:1.792%
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pka379.tsp
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(174) : Instance name: pka379, problem_size: 379
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(239) : Instance name: pka379, optimal score: 1332.0000
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(240) : No aug score:1599.000, No aug gap:20.045%
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.221s
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(243) : Aug score:1599.000, Aug gap:20.045%
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr124.tsp
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:06] TSPTester_LIB_Survey.py(174) : Instance name: pr124, problem_size: 124
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(239) : Instance name: pr124, optimal score: 59030.0000
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(240) : No aug score:60172.000, No aug gap:1.935%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.066s
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(243) : Aug score:60172.000, Aug gap:1.935%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA100.tsp
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(174) : Instance name: kroA100, problem_size: 100
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(239) : Instance name: kroA100, optimal score: 21282.0000
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(240) : No aug score:22472.000, No aug gap:5.592%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.055s
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(243) : Aug score:22472.000, Aug gap:5.592%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d493.tsp
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(174) : Instance name: d493, problem_size: 493
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(239) : Instance name: d493, optimal score: 35002.0000
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(240) : No aug score:40820.000, No aug gap:16.622%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.286s
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(243) : Aug score:40820.000, Aug gap:16.622%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA200.tsp
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(174) : Instance name: kroA200, problem_size: 200
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(239) : Instance name: kroA200, optimal score: 29368.0000
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(240) : No aug score:30707.000, No aug gap:4.559%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.116s
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(243) : Aug score:30707.000, Aug gap:4.559%
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr439.tsp
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:07] TSPTester_LIB_Survey.py(174) : Instance name: pr439, problem_size: 439
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(239) : Instance name: pr439, optimal score: 107217.0000
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(240) : No aug score:112448.000, No aug gap:4.879%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.275s
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(243) : Aug score:112448.000, Aug gap:4.879%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_dj38.tsp
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(174) : Instance name: dj38, problem_size: 38
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(239) : Instance name: dj38, optimal score: 6656.0000
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(240) : No aug score:6656.000, No aug gap:0.000%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.026s
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(243) : Aug score:6656.000, Aug gap:0.000%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_uy734.tsp
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(174) : Instance name: uy734, problem_size: 734
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(239) : Instance name: uy734, optimal score: 79114.0000
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(240) : No aug score:82211.000, No aug gap:3.915%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.425s
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(243) : Aug score:82211.000, Aug gap:3.915%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqf131.tsp
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(174) : Instance name: xqf131, problem_size: 131
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(239) : Instance name: xqf131, optimal score: 564.0000
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(240) : No aug score:653.000, No aug gap:15.780%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.077s
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(243) : Aug score:653.000, Aug gap:15.780%
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil101.tsp
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:08] TSPTester_LIB_Survey.py(174) : Instance name: eil101, problem_size: 101
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(239) : Instance name: eil101, optimal score: 629.0000
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(240) : No aug score:636.000, No aug gap:1.113%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.054s
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(243) : Aug score:636.000, Aug gap:1.113%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr107.tsp
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(174) : Instance name: pr107, problem_size: 107
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(239) : Instance name: pr107, optimal score: 44303.0000
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(240) : No aug score:45205.000, No aug gap:2.036%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.057s
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(243) : Aug score:45205.000, Aug gap:2.036%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb442.tsp
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(174) : Instance name: pcb442, problem_size: 442
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(239) : Instance name: pcb442, optimal score: 50778.0000
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(240) : No aug score:52025.000, No aug gap:2.456%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.252s
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(243) : Aug score:52025.000, Aug gap:2.456%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbk411.tsp
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(174) : Instance name: pbk411, problem_size: 411
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(239) : Instance name: pbk411, optimal score: 1343.0000
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(240) : No aug score:1383.000, No aug gap:2.978%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.237s
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(243) : Aug score:1383.000, Aug gap:2.978%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_a280.tsp
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(174) : Instance name: a280, problem_size: 280
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(239) : Instance name: a280, optimal score: 2579.0000
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(240) : No aug score:2695.000, No aug gap:4.498%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.161s
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(243) : Aug score:2695.000, Aug gap:4.498%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB150.tsp
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(174) : Instance name: kroB150, problem_size: 150
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(239) : Instance name: kroB150, optimal score: 26130.0000
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(240) : No aug score:26759.000, No aug gap:2.407%
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.086s
+[2025-10-12 00:35:09] TSPTester_LIB_Survey.py(243) : Aug score:26759.000, Aug gap:2.407%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB200.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: kroB200, problem_size: 200
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(239) : Instance name: kroB200, optimal score: 29437.0000
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(240) : No aug score:30868.000, No aug gap:4.861%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.114s
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(243) : Aug score:30868.000, Aug gap:4.861%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr76.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: pr76, problem_size: 76
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(239) : Instance name: pr76, optimal score: 108159.0000
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(240) : No aug score:110998.000, No aug gap:2.625%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.043s
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(243) : Aug score:110998.000, Aug gap:2.625%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroC100.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: kroC100, problem_size: 100
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(239) : Instance name: kroC100, optimal score: 20749.0000
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(240) : No aug score:21272.000, No aug gap:2.521%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.054s
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(243) : Aug score:21272.000, Aug gap:2.521%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_qa194.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: qa194, problem_size: 194
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(239) : Instance name: qa194, optimal score: 9352.0000
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(240) : No aug score:10379.000, No aug gap:10.982%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.111s
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(243) : Aug score:10379.000, Aug gap:10.982%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbl395.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: pbl395, problem_size: 395
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(239) : Instance name: pbl395, optimal score: 1281.0000
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(240) : No aug score:1344.000, No aug gap:4.918%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.228s
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(243) : Aug score:1344.000, Aug gap:4.918%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_bier127.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: bier127, problem_size: 127
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(239) : Instance name: bier127, optimal score: 118282.0000
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(240) : No aug score:122602.000, No aug gap:3.652%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.066s
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(243) : Aug score:122602.000, Aug gap:3.652%
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbd984.tsp
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:10] TSPTester_LIB_Survey.py(174) : Instance name: pbd984, problem_size: 984
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(239) : Instance name: pbd984, optimal score: 2797.0000
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(240) : No aug score:2975.000, No aug gap:6.364%
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.582s
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(243) : Aug score:2975.000, Aug gap:6.364%
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rd400.tsp
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(174) : Instance name: rd400, problem_size: 400
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(239) : Instance name: rd400, optimal score: 15281.0000
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(240) : No aug score:15376.000, No aug gap:0.622%
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.229s
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(243) : Aug score:15376.000, Aug gap:0.622%
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr136.tsp
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(174) : Instance name: pr136, problem_size: 136
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(239) : Instance name: pr136, optimal score: 96772.0000
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(240) : No aug score:97495.000, No aug gap:0.747%
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.080s
+[2025-10-12 00:35:11] TSPTester_LIB_Survey.py(243) : Aug score:97495.000, Aug gap:0.747%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat195.tsp
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(174) : Instance name: rat195, problem_size: 195
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(239) : Instance name: rat195, optimal score: 2323.0000
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(240) : No aug score:2553.000, No aug gap:9.901%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.113s
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(243) : Aug score:2553.000, Aug gap:9.901%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d198.tsp
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(174) : Instance name: d198, problem_size: 198
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(239) : Instance name: d198, optimal score: 15780.0000
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(240) : No aug score:20738.000, No aug gap:31.420%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.113s
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(243) : Aug score:20738.000, Aug gap:31.420%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbn423.tsp
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(174) : Instance name: pbn423, problem_size: 423
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(239) : Instance name: pbn423, optimal score: 1365.0000
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(240) : No aug score:1386.000, No aug gap:1.538%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.244s
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(243) : Aug score:1386.000, Aug gap:1.538%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr226.tsp
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(174) : Instance name: pr226, problem_size: 226
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(239) : Instance name: pr226, optimal score: 80369.0000
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(240) : No aug score:81340.000, No aug gap:1.208%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.128s
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(243) : Aug score:81340.000, Aug gap:1.208%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroD100.tsp
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(174) : Instance name: kroD100, problem_size: 100
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(239) : Instance name: kroD100, optimal score: 21294.0000
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(240) : No aug score:21853.000, No aug gap:2.625%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.054s
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(243) : Aug score:21853.000, Aug gap:2.625%
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_tsp225.tsp
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:12] TSPTester_LIB_Survey.py(174) : Instance name: tsp225, problem_size: 225
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(239) : Instance name: tsp225, optimal score: 3916.0000
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(240) : No aug score:4226.000, No aug gap:7.916%
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.128s
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(243) : Aug score:4226.000, Aug gap:7.916%
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d657.tsp
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(174) : Instance name: d657, problem_size: 657
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(239) : Instance name: d657, optimal score: 48912.0000
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(240) : No aug score:55603.000, No aug gap:13.680%
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.376s
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(243) : Aug score:55603.000, Aug gap:13.680%
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbx711.tsp
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(174) : Instance name: rbx711, problem_size: 711
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(239) : Instance name: rbx711, optimal score: 3115.0000
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(240) : No aug score:3198.000, No aug gap:2.665%
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.408s
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(243) : Aug score:3198.000, Aug gap:2.665%
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lim963.tsp
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:13] TSPTester_LIB_Survey.py(174) : Instance name: lim963, problem_size: 963
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(239) : Instance name: lim963, optimal score: 2789.0000
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(240) : No aug score:2850.000, No aug gap:2.187%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.560s
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(243) : Aug score:2850.000, Aug gap:2.187%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ch150.tsp
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(174) : Instance name: ch150, problem_size: 150
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(239) : Instance name: ch150, optimal score: 6528.0000
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(240) : No aug score:6557.000, No aug gap:0.444%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.088s
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(243) : Aug score:6557.000, Aug gap:0.444%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rd100.tsp
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(174) : Instance name: rd100, problem_size: 100
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(239) : Instance name: rd100, optimal score: 7910.0000
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(240) : No aug score:7913.000, No aug gap:0.038%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.055s
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(243) : Aug score:7913.000, Aug gap:0.038%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u159.tsp
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(174) : Instance name: u159, problem_size: 159
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(239) : Instance name: u159, optimal score: 42080.0000
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(240) : No aug score:42853.000, No aug gap:1.837%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.092s
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(243) : Aug score:42853.000, Aug gap:1.837%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr264.tsp
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(174) : Instance name: pr264, problem_size: 264
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(239) : Instance name: pr264, optimal score: 49135.0000
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(240) : No aug score:51367.000, No aug gap:4.543%
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.153s
+[2025-10-12 00:35:14] TSPTester_LIB_Survey.py(243) : Aug score:51367.000, Aug gap:4.543%
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pma343.tsp
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(174) : Instance name: pma343, problem_size: 343
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(239) : Instance name: pma343, optimal score: 1368.0000
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(240) : No aug score:1749.000, No aug gap:27.851%
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.203s
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(243) : Aug score:1749.000, Aug gap:27.851%
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr152.tsp
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(174) : Instance name: pr152, problem_size: 152
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(239) : Instance name: pr152, optimal score: 73682.0000
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(240) : No aug score:76111.000, No aug gap:3.297%
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.089s
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(243) : Aug score:76111.000, Aug gap:3.297%
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat783.tsp
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(174) : Instance name: rat783, problem_size: 783
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(239) : Instance name: rat783, optimal score: 8806.0000
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(240) : No aug score:9881.000, No aug gap:12.208%
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.458s
+[2025-10-12 00:35:15] TSPTester_LIB_Survey.py(243) : Aug score:9881.000, Aug gap:12.208%
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_lin318.tsp
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(174) : Instance name: lin318, problem_size: 318
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(239) : Instance name: lin318, optimal score: 42029.0000
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(240) : No aug score:43226.000, No aug gap:2.848%
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.187s
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(243) : Aug score:43226.000, Aug gap:2.848%
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroB100.tsp
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(174) : Instance name: kroB100, problem_size: 100
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(239) : Instance name: kroB100, optimal score: 22141.0000
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(240) : No aug score:23352.000, No aug gap:5.469%
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.055s
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(243) : Aug score:23352.000, Aug gap:5.469%
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xql662.tsp
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(174) : Instance name: xql662, problem_size: 662
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(239) : Instance name: xql662, optimal score: 2513.0000
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(240) : No aug score:2878.000, No aug gap:14.524%
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.382s
+[2025-10-12 00:35:16] TSPTester_LIB_Survey.py(243) : Aug score:2878.000, Aug gap:14.524%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ts225.tsp
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(174) : Instance name: ts225, problem_size: 225
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(239) : Instance name: ts225, optimal score: 126643.0000
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(240) : No aug score:128778.000, No aug gap:1.686%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.129s
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(243) : Aug score:128778.000, Aug gap:1.686%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil51.tsp
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(174) : Instance name: eil51, problem_size: 51
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(239) : Instance name: eil51, optimal score: 426.0000
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(240) : No aug score:428.000, No aug gap:0.469%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.032s
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(243) : Aug score:428.000, Aug gap:0.469%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbm436.tsp
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(174) : Instance name: pbm436, problem_size: 436
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(239) : Instance name: pbm436, optimal score: 1443.0000
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(240) : No aug score:1479.000, No aug gap:2.495%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.255s
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(243) : Aug score:1479.000, Aug gap:2.495%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_st70.tsp
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(174) : Instance name: st70, problem_size: 70
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(239) : Instance name: st70, optimal score: 675.0000
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(240) : No aug score:675.000, No aug gap:0.000%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.041s
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(243) : Aug score:675.000, Aug gap:0.000%
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl417.tsp
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:17] TSPTester_LIB_Survey.py(174) : Instance name: fl417, problem_size: 417
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: fl417, optimal score: 11861.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:13221.000, No aug gap:11.466%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.245s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:13221.000, Aug gap:11.466%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_gil262.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: gil262, problem_size: 262
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: gil262, optimal score: 2378.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:2386.000, No aug gap:0.336%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.156s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:2386.000, Aug gap:0.336%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroA150.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: kroA150, problem_size: 150
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: kroA150, optimal score: 26524.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:27656.000, No aug gap:4.268%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.088s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:27656.000, Aug gap:4.268%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_eil76.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: eil76, problem_size: 76
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: eil76, optimal score: 538.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:541.000, No aug gap:0.558%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.044s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:541.000, Aug gap:0.558%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_wi29.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: wi29, problem_size: 29
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: wi29, optimal score: 27603.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:28874.000, No aug gap:4.605%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.021s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:28874.000, Aug gap:4.605%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_kroE100.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: kroE100, problem_size: 100
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: kroE100, optimal score: 22068.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:22506.000, No aug gap:1.985%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.055s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:22506.000, Aug gap:1.985%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqg237.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: xqg237, problem_size: 237
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: xqg237, optimal score: 1019.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:1098.000, No aug gap:7.753%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.140s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:1098.000, Aug gap:7.753%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_berlin52.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: berlin52, problem_size: 52
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(239) : Instance name: berlin52, optimal score: 7542.0000
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(240) : No aug score:7543.000, No aug gap:0.013%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.032s
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(243) : Aug score:7543.000, Aug gap:0.013%
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_lu980.tsp
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:18] TSPTester_LIB_Survey.py(174) : Instance name: lu980, problem_size: 980
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(239) : Instance name: lu980, optimal score: 11340.0000
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(240) : No aug score:12282.000, No aug gap:8.307%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.588s
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(243) : Aug score:12282.000, Aug gap:8.307%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bcl380.tsp
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(174) : Instance name: bcl380, problem_size: 380
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(239) : Instance name: bcl380, optimal score: 1621.0000
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(240) : No aug score:1726.000, No aug gap:6.477%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.221s
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(243) : Aug score:1726.000, Aug gap:6.477%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr299.tsp
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(174) : Instance name: pr299, problem_size: 299
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(239) : Instance name: pr299, optimal score: 48191.0000
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(240) : No aug score:52995.000, No aug gap:9.969%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.174s
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(243) : Aug score:52995.000, Aug gap:9.969%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat99.tsp
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(174) : Instance name: rat99, problem_size: 99
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(239) : Instance name: rat99, optimal score: 1211.0000
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(240) : No aug score:1336.000, No aug gap:10.322%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.054s
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(243) : Aug score:1336.000, Aug gap:10.322%
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u574.tsp
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:19] TSPTester_LIB_Survey.py(174) : Instance name: u574, problem_size: 574
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(239) : Instance name: u574, optimal score: 36905.0000
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(240) : No aug score:40505.000, No aug gap:9.755%
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.332s
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(243) : Aug score:40505.000, Aug gap:9.755%
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rat575.tsp
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(174) : Instance name: rat575, problem_size: 575
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(239) : Instance name: rat575, optimal score: 6773.0000
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(240) : No aug score:7555.000, No aug gap:11.546%
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.333s
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(243) : Aug score:7555.000, Aug gap:11.546%
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_lin105.tsp
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(174) : Instance name: lin105, problem_size: 105
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(239) : Instance name: lin105, optimal score: 14379.0000
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(240) : No aug score:15384.000, No aug gap:6.989%
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.057s
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(243) : Aug score:15384.000, Aug gap:6.989%
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_zi929.tsp
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:20] TSPTester_LIB_Survey.py(174) : Instance name: zi929, problem_size: 929
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(239) : Instance name: zi929, optimal score: 95345.0000
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(240) : No aug score:106768.000, No aug gap:11.981%
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.549s
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(243) : Aug score:106768.000, Aug gap:11.981%
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkg813.tsp
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(174) : Instance name: dkg813, problem_size: 813
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(239) : Instance name: dkg813, optimal score: 3199.0000
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(240) : No aug score:3815.000, No aug gap:19.256%
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.474s
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(243) : Aug score:3815.000, Aug gap:19.256%
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbu737.tsp
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(174) : Instance name: rbu737, problem_size: 737
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(239) : Instance name: rbu737, optimal score: 3314.0000
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(240) : No aug score:3831.000, No aug gap:15.600%
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.427s
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(243) : Aug score:3831.000, Aug gap:15.600%
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_ch130.tsp
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:21] TSPTester_LIB_Survey.py(174) : Instance name: ch130, problem_size: 130
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(239) : Instance name: ch130, optimal score: 6110.0000
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(240) : No aug score:6159.000, No aug gap:0.802%
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.077s
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(243) : Aug score:6159.000, Aug gap:0.802%
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_p654.tsp
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(174) : Instance name: p654, problem_size: 654
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(239) : Instance name: p654, optimal score: 34643.0000
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(240) : No aug score:41474.000, No aug gap:19.718%
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.379s
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(243) : Aug score:41474.000, Aug gap:19.718%
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u724.tsp
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(174) : Instance name: u724, problem_size: 724
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(239) : Instance name: u724, optimal score: 41910.0000
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(240) : No aug score:46074.000, No aug gap:9.936%
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.423s
+[2025-10-12 00:35:22] TSPTester_LIB_Survey.py(243) : Aug score:46074.000, Aug gap:9.936%
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(248) :  *** Test Done *** 
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(249) : scale_range: [0, 1000], instance number: 69, total time: 17.11s, avg time per instance: 0.25s
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(251) : ===============================================================
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(253) : instance: ['pr144', 'pka379', 'pr124', 'kroA100', 'd493', 'kroA200', 'pr439', 'dj38', 'uy734', 'xqf131', 'eil101', 'pr107', 'pcb442', 'pbk411', 'a280', 'kroB150', 'kroB200', 'pr76', 'kroC100', 'qa194', 'pbl395', 'bier127', 'pbd984', 'rd400', 'pr136', 'rat195', 'd198', 'pbn423', 'pr226', 'kroD100', 'tsp225', 'd657', 'rbx711', 'lim963', 'ch150', 'rd100', 'u159', 'pr264', 'pma343', 'pr152', 'rat783', 'lin318', 'kroB100', 'xql662', 'ts225', 'eil51', 'pbm436', 'st70', 'fl417', 'gil262', 'kroA150', 'eil76', 'wi29', 'kroE100', 'xqg237', 'berlin52', 'lu980', 'bcl380', 'pr299', 'rat99', 'u574', 'rat575', 'lin105', 'zi929', 'dkg813', 'rbu737', 'ch130', 'p654', 'u724']
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(254) : optimal: [58537.0, 1332.0, 59030.0, 21282.0, 35002.0, 29368.0, 107217.0, 6656.0, 79114.0, 564.0, 629.0, 44303.0, 50778.0, 1343.0, 2579.0, 26130.0, 29437.0, 108159.0, 20749.0, 9352.0, 1281.0, 118282.0, 2797.0, 15281.0, 96772.0, 2323.0, 15780.0, 1365.0, 80369.0, 21294.0, 3916.0, 48912.0, 3115.0, 2789.0, 6528.0, 7910.0, 42080.0, 49135.0, 1368.0, 73682.0, 8806.0, 42029.0, 22141.0, 2513.0, 126643.0, 426.0, 1443.0, 675.0, 11861.0, 2378.0, 26524.0, 538.0, 27603.0, 22068.0, 1019.0, 7542.0, 11340.0, 1621.0, 48191.0, 1211.0, 36905.0, 6773.0, 14379.0, 95345.0, 3199.0, 3314.0, 6110.0, 34643.0, 41910.0]
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(255) : problem_size: [144, 379, 124, 100, 493, 200, 439, 38, 734, 131, 101, 107, 442, 411, 280, 150, 200, 76, 100, 194, 395, 127, 984, 400, 136, 195, 198, 423, 226, 100, 225, 657, 711, 963, 150, 100, 159, 264, 343, 152, 783, 318, 100, 662, 225, 51, 436, 70, 417, 262, 150, 76, 29, 100, 237, 52, 980, 380, 299, 99, 574, 575, 105, 929, 813, 737, 130, 654, 724]
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(256) : no_aug_score: [59586.0, 1599.0, 60172.0, 22472.0, 40820.0, 30707.0, 112448.0, 6656.0, 82211.0, 653.0, 636.0, 45205.0, 52025.0, 1383.0, 2695.0, 26759.0, 30868.0, 110998.0, 21272.0, 10379.0, 1344.0, 122602.0, 2975.0, 15376.0, 97495.0, 2553.0, 20738.0, 1386.0, 81340.0, 21853.0, 4226.0, 55603.0, 3198.0, 2850.0, 6557.0, 7913.0, 42853.0, 51367.0, 1749.0, 76111.0, 9881.0, 43226.0, 23352.0, 2878.0, 128778.0, 428.0, 1479.0, 675.0, 13221.0, 2386.0, 27656.0, 541.0, 28874.0, 22506.0, 1098.0, 7543.0, 12282.0, 1726.0, 52995.0, 1336.0, 40505.0, 7555.0, 15384.0, 106768.0, 3815.0, 3831.0, 6159.0, 41474.0, 46074.0]
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(257) : aug_score: [59586.0, 1599.0, 60172.0, 22472.0, 40820.0, 30707.0, 112448.0, 6656.0, 82211.0, 653.0, 636.0, 45205.0, 52025.0, 1383.0, 2695.0, 26759.0, 30868.0, 110998.0, 21272.0, 10379.0, 1344.0, 122602.0, 2975.0, 15376.0, 97495.0, 2553.0, 20738.0, 1386.0, 81340.0, 21853.0, 4226.0, 55603.0, 3198.0, 2850.0, 6557.0, 7913.0, 42853.0, 51367.0, 1749.0, 76111.0, 9881.0, 43226.0, 23352.0, 2878.0, 128778.0, 428.0, 1479.0, 675.0, 13221.0, 2386.0, 27656.0, 541.0, 28874.0, 22506.0, 1098.0, 7543.0, 12282.0, 1726.0, 52995.0, 1336.0, 40505.0, 7555.0, 15384.0, 106768.0, 3815.0, 3831.0, 6159.0, 41474.0, 46074.0]
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(258) : no_aug_gap: [1.792028973128107, 20.045045045045047, 1.9346095205827545, 5.591579738746359, 16.621907319581737, 4.559384363933533, 4.878890474458341, 0.0, 3.914604241979928, 15.78014184397163, 1.1128775834658187, 2.0359795047739433, 2.4557879396589075, 2.9784065524944157, 4.497867390461419, 2.4071947952544965, 4.861229065461834, 2.624839356872752, 2.520603402573618, 10.981608212147135, 4.918032786885246, 3.65228859843425, 6.363961387200572, 0.6216870623650285, 0.7471169346505188, 9.900990099009901, 31.419518377693283, 1.5384615384615385, 1.2081772822854584, 2.625152625152625, 7.916241062308478, 13.679669610729473, 2.664526484751204, 2.187163858013625, 0.44424019607843135, 0.03792667509481669, 1.836977186311787, 4.542586750788644, 27.850877192982455, 3.296598897966939, 12.207585736997501, 2.848033500678103, 5.469490989566867, 14.524472741742937, 1.6858413019274654, 0.4694835680751174, 2.494802494802495, 0.0, 11.466149565803896, 0.33641715727502103, 4.267832906047353, 0.5576208178438662, 4.604571966815201, 1.984774333877107, 7.75269872423945, 0.013259082471492973, 8.306878306878307, 6.47748303516348, 9.968666348488307, 10.32204789430223, 9.754775775640157, 11.545843791525174, 6.98935948257876, 11.980701662383973, 19.25601750547046, 15.6004828002414, 0.8019639934533551, 19.718269203013595, 9.935576234788833]
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(259) : aug_gap: [1.792028973128107, 20.045045045045047, 1.9346095205827545, 5.591579738746359, 16.621907319581737, 4.559384363933533, 4.878890474458341, 0.0, 3.914604241979928, 15.78014184397163, 1.1128775834658187, 2.0359795047739433, 2.4557879396589075, 2.9784065524944157, 4.497867390461419, 2.4071947952544965, 4.861229065461834, 2.624839356872752, 2.520603402573618, 10.981608212147135, 4.918032786885246, 3.65228859843425, 6.363961387200572, 0.6216870623650285, 0.7471169346505188, 9.900990099009901, 31.419518377693283, 1.5384615384615385, 1.2081772822854584, 2.625152625152625, 7.916241062308478, 13.679669610729473, 2.664526484751204, 2.187163858013625, 0.44424019607843135, 0.03792667509481669, 1.836977186311787, 4.542586750788644, 27.850877192982455, 3.296598897966939, 12.207585736997501, 2.848033500678103, 5.469490989566867, 14.524472741742937, 1.6858413019274654, 0.4694835680751174, 2.494802494802495, 0.0, 11.466149565803896, 0.33641715727502103, 4.267832906047353, 0.5576208178438662, 4.604571966815201, 1.984774333877107, 7.75269872423945, 0.013259082471492973, 8.306878306878307, 6.47748303516348, 9.968666348488307, 10.32204789430223, 9.754775775640157, 11.545843791525174, 6.98935948257876, 11.980701662383973, 19.25601750547046, 15.6004828002414, 0.8019639934533551, 19.718269203013595, 9.935576234788833]
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(260) : ===============================================================
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(262) : ===============================================================
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(268) : Solved_ instances number: 69, min_dimension: 29, max_dimension: 984, avg gap(no aug): 6.527%, avg_gap(aug): 6.527%
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(270) : Avg time per instance: 0.25s
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(99) : #################  Test scale range: [1000, 10000]  #################
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fqm5087.tsp
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:23] TSPTester_LIB_Survey.py(174) : Instance name: fqm5087, problem_size: 5087
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(239) : Instance name: fqm5087, optimal score: 13029.0000
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(240) : No aug score:16139.000, No aug gap:23.870%
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 26.224s
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(243) : Aug score:16139.000, Aug gap:23.870%
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d2103.tsp
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:49] TSPTester_LIB_Survey.py(174) : Instance name: d2103, problem_size: 2103
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(239) : Instance name: d2103, optimal score: 80450.0000
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(240) : No aug score:87479.000, No aug gap:8.737%
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.479s
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(243) : Aug score:87479.000, Aug gap:8.737%
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ida8197.tsp
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:35:51] TSPTester_LIB_Survey.py(174) : Instance name: ida8197, problem_size: 8197
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(239) : Instance name: ida8197, optimal score: 22338.0000
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(240) : No aug score:26838.000, No aug gap:20.145%
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 111.332s
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(243) : Aug score:26838.000, Aug gap:20.145%
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pds2566.tsp
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:37:43] TSPTester_LIB_Survey.py(174) : Instance name: pds2566, problem_size: 2566
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(239) : Instance name: pds2566, optimal score: 7643.0000
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(240) : No aug score:8762.000, No aug gap:14.641%
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.972s
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(243) : Aug score:8762.000, Aug gap:14.641%
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqc2175.tsp
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:37:47] TSPTester_LIB_Survey.py(174) : Instance name: xqc2175, problem_size: 2175
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(239) : Instance name: xqc2175, optimal score: 6830.0000
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(240) : No aug score:7764.000, No aug gap:13.675%
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.680s
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(243) : Aug score:7764.000, Aug gap:13.675%
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_nrw1379.tsp
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:37:49] TSPTester_LIB_Survey.py(174) : Instance name: nrw1379, problem_size: 1379
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(239) : Instance name: nrw1379, optimal score: 56638.0000
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(240) : No aug score:62867.000, No aug gap:10.998%
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.019s
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(243) : Aug score:62867.000, Aug gap:10.998%
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ja9847.tsp
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:37:50] TSPTester_LIB_Survey.py(174) : Instance name: ja9847, problem_size: 9847
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(239) : Instance name: ja9847, optimal score: 491924.0000
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(240) : No aug score:609250.000, No aug gap:23.850%
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 189.117s
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(243) : Aug score:609250.000, Aug gap:23.850%
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dca1389.tsp
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:00] TSPTester_LIB_Survey.py(174) : Instance name: dca1389, problem_size: 1389
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(239) : Instance name: dca1389, optimal score: 5085.0000
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(240) : No aug score:5863.000, No aug gap:15.300%
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.037s
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(243) : Aug score:5863.000, Aug gap:15.300%
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1060.tsp
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(174) : Instance name: u1060, problem_size: 1060
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(239) : Instance name: u1060, optimal score: 224094.0000
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(240) : No aug score:256060.000, No aug gap:14.265%
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.621s
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(243) : Aug score:256060.000, Aug gap:14.265%
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lta3140.tsp
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:01] TSPTester_LIB_Survey.py(174) : Instance name: lta3140, problem_size: 3140
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(239) : Instance name: lta3140, optimal score: 9517.0000
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(240) : No aug score:10933.000, No aug gap:14.879%
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.879s
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(243) : Aug score:10933.000, Aug gap:14.879%
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dja1436.tsp
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:08] TSPTester_LIB_Survey.py(174) : Instance name: dja1436, problem_size: 1436
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(239) : Instance name: dja1436, optimal score: 5257.0000
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(240) : No aug score:6147.000, No aug gap:16.930%
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.110s
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(243) : Aug score:6147.000, Aug gap:16.930%
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1432.tsp
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:09] TSPTester_LIB_Survey.py(174) : Instance name: u1432, problem_size: 1432
+[2025-10-12 00:41:10] TSPTester_LIB_Survey.py(239) : Instance name: u1432, optimal score: 152970.0000
+[2025-10-12 00:41:10] TSPTester_LIB_Survey.py(240) : No aug score:163831.000, No aug gap:7.100%
+[2025-10-12 00:41:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.101s
+[2025-10-12 00:41:10] TSPTester_LIB_Survey.py(243) : Aug score:163831.000, Aug gap:7.100%
+[2025-10-12 00:41:11] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dka1376.tsp
+[2025-10-12 00:41:11] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:11] TSPTester_LIB_Survey.py(174) : Instance name: dka1376, problem_size: 1376
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(239) : Instance name: dka1376, optimal score: 4666.0000
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(240) : No aug score:5202.000, No aug gap:11.487%
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.019s
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(243) : Aug score:5202.000, Aug gap:11.487%
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rby1599.tsp
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:12] TSPTester_LIB_Survey.py(174) : Instance name: rby1599, problem_size: 1599
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(239) : Instance name: rby1599, optimal score: 5533.0000
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(240) : No aug score:5965.000, No aug gap:7.808%
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.354s
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(243) : Aug score:5965.000, Aug gap:7.808%
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u2152.tsp
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:13] TSPTester_LIB_Survey.py(174) : Instance name: u2152, problem_size: 2152
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(239) : Instance name: u2152, optimal score: 64253.0000
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(240) : No aug score:72180.000, No aug gap:12.337%
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.617s
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(243) : Aug score:72180.000, Aug gap:12.337%
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb1173.tsp
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(174) : Instance name: pcb1173, problem_size: 1173
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(239) : Instance name: pcb1173, optimal score: 56892.0000
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(240) : No aug score:64070.000, No aug gap:12.617%
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.736s
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(243) : Aug score:64070.000, Aug gap:12.617%
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr1002.tsp
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:16] TSPTester_LIB_Survey.py(174) : Instance name: pr1002, problem_size: 1002
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(239) : Instance name: pr1002, optimal score: 259045.0000
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(240) : No aug score:281727.000, No aug gap:8.756%
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.606s
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(243) : Aug score:281727.000, Aug gap:8.756%
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1889.tsp
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:17] TSPTester_LIB_Survey.py(174) : Instance name: rl1889, problem_size: 1889
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(239) : Instance name: rl1889, optimal score: 316536.0000
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(240) : No aug score:359272.000, No aug gap:13.501%
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.952s
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(243) : Aug score:359272.000, Aug gap:13.501%
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_djb2036.tsp
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:19] TSPTester_LIB_Survey.py(174) : Instance name: djb2036, problem_size: 2036
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(239) : Instance name: djb2036, optimal score: 6197.0000
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(240) : No aug score:6802.000, No aug gap:9.763%
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.310s
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(243) : Aug score:6802.000, Aug gap:9.763%
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d1291.tsp
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:21] TSPTester_LIB_Survey.py(174) : Instance name: d1291, problem_size: 1291
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(239) : Instance name: d1291, optimal score: 50801.0000
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(240) : No aug score:55406.000, No aug gap:9.065%
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.873s
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(243) : Aug score:55406.000, Aug gap:9.065%
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsm2854.tsp
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:22] TSPTester_LIB_Survey.py(174) : Instance name: lsm2854, problem_size: 2854
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(239) : Instance name: lsm2854, optimal score: 8014.0000
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(240) : No aug score:9180.000, No aug gap:14.550%
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.254s
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(243) : Aug score:9180.000, Aug gap:14.550%
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.8.tsp
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:27] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10008, problem_size: 1000
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10008, optimal score: 11605723.0000
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(240) : No aug score:13324791.000, No aug gap:14.812%
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.608s
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(243) : Aug score:13324791.000, Aug gap:14.812%
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_vm1748.tsp
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:28] TSPTester_LIB_Survey.py(174) : Instance name: vm1748, problem_size: 1748
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(239) : Instance name: vm1748, optimal score: 336556.0000
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(240) : No aug score:385609.000, No aug gap:14.575%
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.638s
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(243) : Aug score:385609.000, Aug gap:14.575%
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqd4966.tsp
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:30] TSPTester_LIB_Survey.py(174) : Instance name: xqd4966, problem_size: 4966
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(239) : Instance name: xqd4966, optimal score: 15316.0000
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(240) : No aug score:19005.000, No aug gap:24.086%
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 24.475s
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(243) : Aug score:19005.000, Aug gap:24.086%
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_dsj1000.tsp
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:54] TSPTester_LIB_Survey.py(174) : Instance name: dsj1000, problem_size: 1000
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(239) : Instance name: dsj1000, optimal score: 18660188.0000
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(240) : No aug score:20526688.000, No aug gap:10.003%
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.606s
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(243) : Aug score:20526688.000, Aug gap:10.003%
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.5.tsp
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:55] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10005, problem_size: 1000
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10005, optimal score: 11394911.0000
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(240) : No aug score:13058325.000, No aug gap:14.598%
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.609s
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(243) : Aug score:13058325.000, Aug gap:14.598%
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fra1488.tsp
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:56] TSPTester_LIB_Survey.py(174) : Instance name: fra1488, problem_size: 1488
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(239) : Instance name: fra1488, optimal score: 4264.0000
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(240) : No aug score:5055.000, No aug gap:18.551%
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.182s
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(243) : Aug score:5055.000, Aug gap:18.551%
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.2.tsp
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10002, problem_size: 1000
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10002, optimal score: 10855033.0000
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(240) : No aug score:12583624.000, No aug gap:15.924%
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.606s
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(243) : Aug score:12583624.000, Aug gap:15.924%
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl1577.tsp
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:57] TSPTester_LIB_Survey.py(174) : Instance name: fl1577, problem_size: 1577
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(239) : Instance name: fl1577, optimal score: 22249.0000
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(240) : No aug score:25031.000, No aug gap:12.504%
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.321s
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(243) : Aug score:25031.000, Aug gap:12.504%
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.6.tsp
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10006, problem_size: 1000
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10006, optimal score: 10166701.0000
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(240) : No aug score:12042378.000, No aug gap:18.449%
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.608s
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(243) : Aug score:12042378.000, Aug gap:18.449%
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xua3937.tsp
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:41:59] TSPTester_LIB_Survey.py(174) : Instance name: xua3937, problem_size: 3937
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(239) : Instance name: xua3937, optimal score: 11239.0000
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(240) : No aug score:13090.000, No aug gap:16.469%
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 12.776s
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(243) : Aug score:13090.000, Aug gap:16.469%
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dlb3694.tsp
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:42:12] TSPTester_LIB_Survey.py(174) : Instance name: dlb3694, problem_size: 3694
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(239) : Instance name: dlb3694, optimal score: 10959.0000
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(240) : No aug score:12730.000, No aug gap:16.160%
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 10.777s
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(243) : Aug score:12730.000, Aug gap:16.160%
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dcb2086.tsp
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:42:23] TSPTester_LIB_Survey.py(174) : Instance name: dcb2086, problem_size: 2086
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(239) : Instance name: dcb2086, optimal score: 6600.0000
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(240) : No aug score:7179.000, No aug gap:8.773%
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.434s
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(243) : Aug score:7179.000, Aug gap:8.773%
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bch2762.tsp
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:42:25] TSPTester_LIB_Survey.py(174) : Instance name: bch2762, problem_size: 2762
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(239) : Instance name: bch2762, optimal score: 8234.0000
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(240) : No aug score:9373.000, No aug gap:13.833%
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.832s
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(243) : Aug score:9373.000, Aug gap:13.833%
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xit1083.tsp
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:42:30] TSPTester_LIB_Survey.py(174) : Instance name: xit1083, problem_size: 1083
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(239) : Instance name: xit1083, optimal score: 3558.0000
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(240) : No aug score:4043.000, No aug gap:13.631%
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.642s
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(243) : Aug score:4043.000, Aug gap:13.631%
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.3.tsp
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10003, problem_size: 1000
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10003, optimal score: 11886457.0000
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(240) : No aug score:13575770.000, No aug gap:14.212%
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.606s
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(243) : Aug score:13575770.000, Aug gap:14.212%
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fea5557.tsp
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:42:31] TSPTester_LIB_Survey.py(174) : Instance name: fea5557, problem_size: 5557
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(239) : Instance name: fea5557, optimal score: 15445.0000
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(240) : No aug score:18486.000, No aug gap:19.689%
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 34.500s
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(243) : Aug score:18486.000, Aug gap:19.689%
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.2.tsp
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:43:06] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-3162-31622, problem_size: 3162
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-3162-31622, optimal score: 19547551.0000
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(240) : No aug score:23151150.000, No aug gap:18.435%
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.966s
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(243) : Aug score:23151150.000, Aug gap:18.435%
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xsc6880.tsp
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:43:13] TSPTester_LIB_Survey.py(174) : Instance name: xsc6880, problem_size: 6880
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(239) : Instance name: xsc6880, optimal score: 21535.0000
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(240) : No aug score:26025.000, No aug gap:20.850%
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 65.816s
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(243) : Aug score:26025.000, Aug gap:20.850%
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.0.tsp
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:44:19] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-3162-3162, problem_size: 3162
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-3162-3162, optimal score: 19198258.0000
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(240) : No aug score:22666922.000, No aug gap:18.068%
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.976s
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(243) : Aug score:22666922.000, Aug gap:18.068%
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dke3097.tsp
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:44:26] TSPTester_LIB_Survey.py(174) : Instance name: dke3097, problem_size: 3097
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(239) : Instance name: dke3097, optimal score: 10539.0000
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(240) : No aug score:12136.000, No aug gap:15.153%
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.535s
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(243) : Aug score:12136.000, Aug gap:15.153%
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fjs3649.tsp
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:44:33] TSPTester_LIB_Survey.py(174) : Instance name: fjs3649, problem_size: 3649
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(239) : Instance name: fjs3649, optimal score: 9272.0000
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(240) : No aug score:11899.000, No aug gap:28.333%
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 10.503s
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(243) : Aug score:11899.000, Aug gap:28.333%
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgf4475.tsp
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:44:43] TSPTester_LIB_Survey.py(174) : Instance name: bgf4475, problem_size: 4475
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(239) : Instance name: bgf4475, optimal score: 13221.0000
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(240) : No aug score:16243.000, No aug gap:22.858%
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 18.314s
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(243) : Aug score:16243.000, Aug gap:22.858%
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ar9152.tsp
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:45:01] TSPTester_LIB_Survey.py(174) : Instance name: ar9152, problem_size: 9152
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(239) : Instance name: ar9152, optimal score: 837479.0000
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(240) : No aug score:1029687.000, No aug gap:22.951%
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 154.027s
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(243) : Aug score:1029687.000, Aug gap:22.951%
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ley2323.tsp
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:47:35] TSPTester_LIB_Survey.py(174) : Instance name: ley2323, problem_size: 2323
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(239) : Instance name: ley2323, optimal score: 8352.0000
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(240) : No aug score:10566.000, No aug gap:26.509%
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.188s
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(243) : Aug score:10566.000, Aug gap:26.509%
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_pm8079.tsp
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:47:39] TSPTester_LIB_Survey.py(174) : Instance name: pm8079, problem_size: 8079
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(239) : Instance name: pm8079, optimal score: 114855.0000
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(240) : No aug score:138044.000, No aug gap:20.190%
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 105.053s
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(243) : Aug score:138044.000, Aug gap:20.190%
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_kz9976.tsp
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:49:24] TSPTester_LIB_Survey.py(174) : Instance name: kz9976, problem_size: 9976
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(239) : Instance name: kz9976, optimal score: 1061881.0000
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(240) : No aug score:1287977.000, No aug gap:21.292%
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 196.896s
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(243) : Aug score:1287977.000, Aug gap:21.292%
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.4.tsp
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10004, problem_size: 1000
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10004, optimal score: 11499958.0000
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(240) : No aug score:13353159.000, No aug gap:16.115%
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.603s
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(243) : Aug score:13353159.000, Aug gap:16.115%
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_eg7146.tsp
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:52:41] TSPTester_LIB_Survey.py(174) : Instance name: eg7146, problem_size: 7146
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(239) : Instance name: eg7146, optimal score: 172386.0000
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(240) : No aug score:251408.000, No aug gap:45.840%
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 72.410s
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(243) : Aug score:251408.000, Aug gap:45.840%
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xpr2308.tsp
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:53:54] TSPTester_LIB_Survey.py(174) : Instance name: xpr2308, problem_size: 2308
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(239) : Instance name: xpr2308, optimal score: 7219.0000
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(240) : No aug score:7914.000, No aug gap:9.627%
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.082s
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(243) : Aug score:7914.000, Aug gap:9.627%
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fjr3672.tsp
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:53:57] TSPTester_LIB_Survey.py(174) : Instance name: fjr3672, problem_size: 3672
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(239) : Instance name: fjr3672, optimal score: 9601.0000
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(240) : No aug score:12469.000, No aug gap:29.872%
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 10.699s
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(243) : Aug score:12469.000, Aug gap:29.872%
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl3795.tsp
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:54:08] TSPTester_LIB_Survey.py(174) : Instance name: fl3795, problem_size: 3795
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(239) : Instance name: fl3795, optimal score: 28772.0000
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(240) : No aug score:32599.000, No aug gap:13.301%
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 11.497s
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(243) : Aug score:32599.000, Aug gap:13.301%
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ltb3729.tsp
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:54:19] TSPTester_LIB_Survey.py(174) : Instance name: ltb3729, problem_size: 3729
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(239) : Instance name: ltb3729, optimal score: 11821.0000
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(240) : No aug score:14288.000, No aug gap:20.870%
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 11.056s
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(243) : Aug score:14288.000, Aug gap:20.870%
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fnb1615.tsp
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:54:30] TSPTester_LIB_Survey.py(174) : Instance name: fnb1615, problem_size: 1615
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(239) : Instance name: fnb1615, optimal score: 4956.0000
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(240) : No aug score:5817.000, No aug gap:17.373%
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.392s
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(243) : Aug score:5817.000, Aug gap:17.373%
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgb4355.tsp
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:54:32] TSPTester_LIB_Survey.py(174) : Instance name: bgb4355, problem_size: 4355
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(239) : Instance name: bgb4355, optimal score: 12723.0000
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(240) : No aug score:14976.000, No aug gap:17.708%
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 17.024s
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(243) : Aug score:14976.000, Aug gap:17.708%
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dga9698.tsp
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:54:49] TSPTester_LIB_Survey.py(174) : Instance name: dga9698, problem_size: 9698
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(239) : Instance name: dga9698, optimal score: 27724.0000
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(240) : No aug score:33493.000, No aug gap:20.809%
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 181.286s
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(243) : Aug score:33493.000, Aug gap:20.809%
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.0.tsp
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:57:50] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-1000, problem_size: 1000
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-1000, optimal score: 11387430.0000
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(240) : No aug score:13126301.000, No aug gap:15.270%
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.599s
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(243) : Aug score:13126301.000, Aug gap:15.270%
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xva2993.tsp
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:57:51] TSPTester_LIB_Survey.py(174) : Instance name: xva2993, problem_size: 2993
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(239) : Instance name: xva2993, optimal score: 8492.0000
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(240) : No aug score:9554.000, No aug gap:12.506%
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.928s
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(243) : Aug score:9554.000, Aug gap:12.506%
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsn3119.tsp
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:57:57] TSPTester_LIB_Survey.py(174) : Instance name: lsn3119, problem_size: 3119
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(239) : Instance name: lsn3119, optimal score: 9114.0000
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(240) : No aug score:10683.000, No aug gap:17.215%
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.629s
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(243) : Aug score:10683.000, Aug gap:17.215%
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lap7454.tsp
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:58:03] TSPTester_LIB_Survey.py(174) : Instance name: lap7454, problem_size: 7454
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(239) : Instance name: lap7454, optimal score: 19535.0000
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(240) : No aug score:23364.000, No aug gap:19.601%
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 81.997s
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(243) : Aug score:23364.000, Aug gap:19.601%
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1323.tsp
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:59:25] TSPTester_LIB_Survey.py(174) : Instance name: rl1323, problem_size: 1323
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(239) : Instance name: rl1323, optimal score: 270199.0000
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(240) : No aug score:297907.000, No aug gap:10.255%
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.942s
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(243) : Aug score:297907.000, Aug gap:10.255%
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_vm1084.tsp
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:59:26] TSPTester_LIB_Survey.py(174) : Instance name: vm1084, problem_size: 1084
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(239) : Instance name: vm1084, optimal score: 239297.0000
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(240) : No aug score:272502.000, No aug gap:13.876%
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.634s
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(243) : Aug score:272502.000, Aug gap:13.876%
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u1817.tsp
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:59:27] TSPTester_LIB_Survey.py(174) : Instance name: u1817, problem_size: 1817
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(239) : Instance name: u1817, optimal score: 57201.0000
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(240) : No aug score:64113.000, No aug gap:12.084%
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.810s
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(243) : Aug score:64113.000, Aug gap:12.084%
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl5934.tsp
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 00:59:29] TSPTester_LIB_Survey.py(174) : Instance name: rl5934, problem_size: 5934
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(239) : Instance name: rl5934, optimal score: 556045.0000
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(240) : No aug score:644139.000, No aug gap:15.843%
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 41.620s
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(243) : Aug score:644139.000, Aug gap:15.843%
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dhb3386.tsp
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:10] TSPTester_LIB_Survey.py(174) : Instance name: dhb3386, problem_size: 3386
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(239) : Instance name: dhb3386, optimal score: 11137.0000
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(240) : No aug score:12931.000, No aug gap:16.108%
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 8.539s
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(243) : Aug score:12931.000, Aug gap:16.108%
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.1.tsp
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:19] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-3162-31621, problem_size: 3162
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-3162-31621, optimal score: 19017805.0000
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(240) : No aug score:22309120.000, No aug gap:17.306%
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.950s
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(243) : Aug score:22309120.000, Aug gap:17.306%
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fnl4461.tsp
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:26] TSPTester_LIB_Survey.py(174) : Instance name: fnl4461, problem_size: 4461
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(239) : Instance name: fnl4461, optimal score: 182566.0000
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(240) : No aug score:210973.000, No aug gap:15.560%
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 18.085s
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(243) : Aug score:210973.000, Aug gap:15.560%
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dea2382.tsp
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:44] TSPTester_LIB_Survey.py(174) : Instance name: dea2382, problem_size: 2382
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(239) : Instance name: dea2382, optimal score: 8017.0000
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(240) : No aug score:9846.000, No aug gap:22.814%
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.321s
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(243) : Aug score:9846.000, Aug gap:22.814%
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbw2481.tsp
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:47] TSPTester_LIB_Survey.py(174) : Instance name: rbw2481, problem_size: 2481
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(239) : Instance name: rbw2481, optimal score: 7724.0000
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(240) : No aug score:8758.000, No aug gap:13.387%
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.659s
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(243) : Aug score:8758.000, Aug gap:13.387%
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pcb3038.tsp
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:51] TSPTester_LIB_Survey.py(174) : Instance name: pcb3038, problem_size: 3038
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(239) : Instance name: pcb3038, optimal score: 137694.0000
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(240) : No aug score:158177.000, No aug gap:14.876%
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.167s
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(243) : Aug score:158177.000, Aug gap:14.876%
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.9.tsp
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:57] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10009, problem_size: 1000
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10009, optimal score: 10906997.0000
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(240) : No aug score:12662590.000, No aug gap:16.096%
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.599s
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(243) : Aug score:12662590.000, Aug gap:16.096%
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkd1973.tsp
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:00:58] TSPTester_LIB_Survey.py(174) : Instance name: dkd1973, problem_size: 1973
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(239) : Instance name: dkd1973, optimal score: 6421.0000
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(240) : No aug score:7948.000, No aug gap:23.781%
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.130s
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(243) : Aug score:7948.000, Aug gap:23.781%
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dbj2924.tsp
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:01:00] TSPTester_LIB_Survey.py(174) : Instance name: dbj2924, problem_size: 2924
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(239) : Instance name: dbj2924, optimal score: 10128.0000
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(240) : No aug score:11375.000, No aug gap:12.312%
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.573s
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(243) : Aug score:11375.000, Aug gap:12.312%
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.3.tsp
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:01:06] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-3162-31623, problem_size: 3162
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-3162-31623, optimal score: 19108508.0000
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(240) : No aug score:22754448.000, No aug gap:19.080%
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.963s
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(243) : Aug score:22754448.000, Aug gap:19.080%
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.7.tsp
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10007, problem_size: 1000
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10007, optimal score: 10664660.0000
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(240) : No aug score:11956299.000, No aug gap:12.111%
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.600s
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(243) : Aug score:11956299.000, Aug gap:12.111%
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_tz6117.tsp
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:01:13] TSPTester_LIB_Survey.py(174) : Instance name: tz6117, problem_size: 6117
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(239) : Instance name: tz6117, optimal score: 394718.0000
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(240) : No aug score:472892.000, No aug gap:19.805%
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 45.495s
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(243) : Aug score:472892.000, Aug gap:19.805%
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_pr2392.tsp
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:01:59] TSPTester_LIB_Survey.py(174) : Instance name: pr2392, problem_size: 2392
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(239) : Instance name: pr2392, optimal score: 378032.0000
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(240) : No aug score:423719.000, No aug gap:12.085%
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.312s
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(243) : Aug score:423719.000, Aug gap:12.085%
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_djc1785.tsp
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:02] TSPTester_LIB_Survey.py(174) : Instance name: djc1785, problem_size: 1785
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(239) : Instance name: djc1785, optimal score: 6115.0000
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(240) : No aug score:6718.000, No aug gap:9.861%
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.725s
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(243) : Aug score:6718.000, Aug gap:9.861%
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_irw2802.tsp
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:04] TSPTester_LIB_Survey.py(174) : Instance name: irw2802, problem_size: 2802
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(239) : Instance name: irw2802, optimal score: 8423.0000
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(240) : No aug score:10016.000, No aug gap:18.913%
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 5.023s
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(243) : Aug score:10016.000, Aug gap:18.913%
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bgd4396.tsp
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:09] TSPTester_LIB_Survey.py(174) : Instance name: bgd4396, problem_size: 4396
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(239) : Instance name: bgd4396, optimal score: 13009.0000
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(240) : No aug score:15900.000, No aug gap:22.223%
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 17.419s
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(243) : Aug score:15900.000, Aug gap:22.223%
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkc3938.tsp
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:26] TSPTester_LIB_Survey.py(174) : Instance name: dkc3938, problem_size: 3938
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(239) : Instance name: dkc3938, optimal score: 12503.0000
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(240) : No aug score:15419.000, No aug gap:23.322%
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 12.717s
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(243) : Aug score:15419.000, Aug gap:23.322%
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_frv4410.tsp
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:39] TSPTester_LIB_Survey.py(174) : Instance name: frv4410, problem_size: 4410
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(239) : Instance name: frv4410, optimal score: 10711.0000
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(240) : No aug score:12845.000, No aug gap:19.923%
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 17.491s
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(243) : Aug score:12845.000, Aug gap:19.923%
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_rw1621.tsp
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:57] TSPTester_LIB_Survey.py(174) : Instance name: rw1621, problem_size: 1621
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(239) : Instance name: rw1621, optimal score: 26051.0000
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(240) : No aug score:28232.000, No aug gap:8.372%
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.407s
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(243) : Aug score:28232.000, Aug gap:8.372%
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_nu3496.tsp
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:02:58] TSPTester_LIB_Survey.py(174) : Instance name: nu3496, problem_size: 3496
+[2025-10-12 01:03:07] TSPTester_LIB_Survey.py(239) : Instance name: nu3496, optimal score: 96132.0000
+[2025-10-12 01:03:07] TSPTester_LIB_Survey.py(240) : No aug score:111112.000, No aug gap:15.583%
+[2025-10-12 01:03:07] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 9.310s
+[2025-10-12 01:03:07] TSPTester_LIB_Survey.py(243) : Aug score:111112.000, Aug gap:15.583%
+[2025-10-12 01:03:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xqe3891.tsp
+[2025-10-12 01:03:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:03:08] TSPTester_LIB_Survey.py(174) : Instance name: xqe3891, problem_size: 3891
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(239) : Instance name: xqe3891, optimal score: 11995.0000
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(240) : No aug score:13980.000, No aug gap:16.549%
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 12.369s
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(243) : Aug score:13980.000, Aug gap:16.549%
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_beg3293.tsp
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:03:20] TSPTester_LIB_Survey.py(174) : Instance name: beg3293, problem_size: 3293
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(239) : Instance name: beg3293, optimal score: 9772.0000
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(240) : No aug score:11365.000, No aug gap:16.302%
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 7.890s
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(243) : Aug score:11365.000, Aug gap:16.302%
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C3k.4.tsp
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:03:28] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-3162-31624, problem_size: 3162
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-3162-31624, optimal score: 18864046.0000
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(240) : No aug score:22527748.000, No aug gap:19.422%
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.947s
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(243) : Aug score:22527748.000, Aug gap:19.422%
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bck2217.tsp
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:03:35] TSPTester_LIB_Survey.py(174) : Instance name: bck2217, problem_size: 2217
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(239) : Instance name: bck2217, optimal score: 6764.0000
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(240) : No aug score:7862.000, No aug gap:16.233%
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.793s
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(243) : Aug score:7862.000, Aug gap:16.233%
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ym7663.tsp
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:03:38] TSPTester_LIB_Survey.py(174) : Instance name: ym7663, problem_size: 7663
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(239) : Instance name: ym7663, optimal score: 238314.0000
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(240) : No aug score:305288.000, No aug gap:28.103%
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 89.422s
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(243) : Aug score:305288.000, Aug gap:28.103%
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fdp3256.tsp
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:05:07] TSPTester_LIB_Survey.py(174) : Instance name: fdp3256, problem_size: 3256
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(239) : Instance name: fdp3256, optimal score: 10008.0000
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(240) : No aug score:11689.000, No aug gap:16.797%
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 7.713s
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(243) : Aug score:11689.000, Aug gap:16.797%
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_u2319.tsp
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:05:15] TSPTester_LIB_Survey.py(174) : Instance name: u2319, problem_size: 2319
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(239) : Instance name: u2319, optimal score: 234256.0000
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(240) : No aug score:244869.000, No aug gap:4.531%
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 3.102s
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(243) : Aug score:244869.000, Aug gap:4.531%
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_mu1979.tsp
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:05:18] TSPTester_LIB_Survey.py(174) : Instance name: mu1979, problem_size: 1979
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(239) : Instance name: mu1979, optimal score: 86891.0000
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(240) : No aug score:109491.000, No aug gap:26.010%
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.146s
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(243) : Aug score:109491.000, Aug gap:26.010%
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl5915.tsp
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:05:20] TSPTester_LIB_Survey.py(174) : Instance name: rl5915, problem_size: 5915
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(239) : Instance name: rl5915, optimal score: 565530.0000
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(240) : No aug score:660202.000, No aug gap:16.740%
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 41.291s
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(243) : Aug score:660202.000, Aug gap:16.740%
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dcc1911.tsp
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:06:02] TSPTester_LIB_Survey.py(174) : Instance name: dcc1911, problem_size: 1911
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(239) : Instance name: dcc1911, optimal score: 6396.0000
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(240) : No aug score:7279.000, No aug gap:13.806%
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.983s
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(243) : Aug score:7279.000, Aug gap:13.806%
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_mlt2597.tsp
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:06:04] TSPTester_LIB_Survey.py(174) : Instance name: mlt2597, problem_size: 2597
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(239) : Instance name: mlt2597, optimal score: 8071.0000
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(240) : No aug score:9354.000, No aug gap:15.896%
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 4.070s
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(243) : Aug score:9354.000, Aug gap:15.896%
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl1304.tsp
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:06:08] TSPTester_LIB_Survey.py(174) : Instance name: rl1304, problem_size: 1304
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(239) : Instance name: rl1304, optimal score: 252948.0000
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(240) : No aug score:276130.000, No aug gap:9.165%
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.891s
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(243) : Aug score:276130.000, Aug gap:9.165%
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_gr9882.tsp
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:06:09] TSPTester_LIB_Survey.py(174) : Instance name: gr9882, problem_size: 9882
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(239) : Instance name: gr9882, optimal score: 300899.0000
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(240) : No aug score:357033.000, No aug gap:18.655%
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 190.305s
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(243) : Aug score:357033.000, Aug gap:18.655%
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla7397.tsp
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:09:19] TSPTester_LIB_Survey.py(174) : Instance name: pla7397, problem_size: 7397
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(239) : Instance name: pla7397, optimal score: 23260728.0000
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(240) : No aug score:27650192.000, No aug gap:18.871%
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 80.166s
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(243) : Aug score:27650192.000, Aug gap:18.871%
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pia3056.tsp
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:10:39] TSPTester_LIB_Survey.py(174) : Instance name: pia3056, problem_size: 3056
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(239) : Instance name: pia3056, optimal score: 8258.0000
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(240) : No aug score:9533.000, No aug gap:15.440%
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 6.319s
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(243) : Aug score:9533.000, Aug gap:15.440%
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_icw1483.tsp
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:10:45] TSPTester_LIB_Survey.py(174) : Instance name: icw1483, problem_size: 1483
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(239) : Instance name: icw1483, optimal score: 4416.0000
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(240) : No aug score:5089.000, No aug gap:15.240%
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.166s
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(243) : Aug score:5089.000, Aug gap:15.240%
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C1k.1.tsp
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-1000-10001, problem_size: 1000
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-1000-10001, optimal score: 11376735.0000
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(240) : No aug score:12813843.000, No aug gap:12.632%
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 0.602s
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(243) : Aug score:12813843.000, Aug gap:12.632%
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ca4663.tsp
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:10:47] TSPTester_LIB_Survey.py(174) : Instance name: ca4663, problem_size: 4663
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(239) : Instance name: ca4663, optimal score: 1290319.0000
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(240) : No aug score:1686798.000, No aug gap:30.727%
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 20.873s
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(243) : Aug score:1686798.000, Aug gap:30.727%
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bnd7168.tsp
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:11:08] TSPTester_LIB_Survey.py(174) : Instance name: bnd7168, problem_size: 7168
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(239) : Instance name: bnd7168, optimal score: 21834.0000
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(240) : No aug score:26263.000, No aug gap:20.285%
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 74.018s
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(243) : Aug score:26263.000, Aug gap:20.285%
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bva2144.tsp
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:12:22] TSPTester_LIB_Survey.py(174) : Instance name: bva2144, problem_size: 2144
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(239) : Instance name: bva2144, optimal score: 6304.0000
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(240) : No aug score:7536.000, No aug gap:19.543%
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 2.609s
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(243) : Aug score:7536.000, Aug gap:19.543%
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_fl1400.tsp
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:12:25] TSPTester_LIB_Survey.py(174) : Instance name: fl1400, problem_size: 1400
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(239) : Instance name: fl1400, optimal score: 20127.0000
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(240) : No aug score:23458.000, No aug gap:16.550%
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.047s
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(243) : Aug score:23458.000, Aug gap:16.550%
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbv1583.tsp
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:12:26] TSPTester_LIB_Survey.py(174) : Instance name: rbv1583, problem_size: 1583
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(239) : Instance name: rbv1583, optimal score: 5387.0000
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(240) : No aug score:5829.000, No aug gap:8.205%
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.326s
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(243) : Aug score:5829.000, Aug gap:8.205%
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dkf3954.tsp
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:12:27] TSPTester_LIB_Survey.py(174) : Instance name: dkf3954, problem_size: 3954
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(239) : Instance name: dkf3954, optimal score: 12538.0000
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(240) : No aug score:14341.000, No aug gap:14.380%
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 13.001s
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(243) : Aug score:14341.000, Aug gap:14.380%
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d1655.tsp
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:12:40] TSPTester_LIB_Survey.py(174) : Instance name: d1655, problem_size: 1655
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(239) : Instance name: d1655, optimal score: 62128.0000
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(240) : No aug score:71684.000, No aug gap:15.381%
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1.477s
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(243) : Aug score:71684.000, Aug gap:15.381%
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ei8246.tsp
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:12:42] TSPTester_LIB_Survey.py(174) : Instance name: ei8246, problem_size: 8246
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(239) : Instance name: ei8246, optimal score: 206171.0000
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(240) : No aug score:245656.000, No aug gap:19.152%
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 111.878s
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(243) : Aug score:245656.000, Aug gap:19.152%
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(248) :  *** Test Done *** 
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(249) : scale_range: [1000, 10000], instance number: 109, total time: 2351.14s, avg time per instance: 21.57s
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(251) : ===============================================================
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(253) : instance: ['fqm5087', 'd2103', 'ida8197', 'pds2566', 'xqc2175', 'nrw1379', 'ja9847', 'dca1389', 'u1060', 'lta3140', 'dja1436', 'u1432', 'dka1376', 'rby1599', 'u2152', 'pcb1173', 'pr1002', 'rl1889', 'djb2036', 'd1291', 'lsm2854', 'portcgen-1000-10008', 'vm1748', 'xqd4966', 'dsj1000', 'portcgen-1000-10005', 'fra1488', 'portcgen-1000-10002', 'fl1577', 'portcgen-1000-10006', 'xua3937', 'dlb3694', 'dcb2086', 'bch2762', 'xit1083', 'portcgen-1000-10003', 'fea5557', 'portcgen-3162-31622', 'xsc6880', 'portcgen-3162-3162', 'dke3097', 'fjs3649', 'bgf4475', 'ar9152', 'ley2323', 'pm8079', 'kz9976', 'portcgen-1000-10004', 'eg7146', 'xpr2308', 'fjr3672', 'fl3795', 'ltb3729', 'fnb1615', 'bgb4355', 'dga9698', 'portcgen-1000-1000', 'xva2993', 'lsn3119', 'lap7454', 'rl1323', 'vm1084', 'u1817', 'rl5934', 'dhb3386', 'portcgen-3162-31621', 'fnl4461', 'dea2382', 'rbw2481', 'pcb3038', 'portcgen-1000-10009', 'dkd1973', 'dbj2924', 'portcgen-3162-31623', 'portcgen-1000-10007', 'tz6117', 'pr2392', 'djc1785', 'irw2802', 'bgd4396', 'dkc3938', 'frv4410', 'rw1621', 'nu3496', 'xqe3891', 'beg3293', 'portcgen-3162-31624', 'bck2217', 'ym7663', 'fdp3256', 'u2319', 'mu1979', 'rl5915', 'dcc1911', 'mlt2597', 'rl1304', 'gr9882', 'pla7397', 'pia3056', 'icw1483', 'portcgen-1000-10001', 'ca4663', 'bnd7168', 'bva2144', 'fl1400', 'rbv1583', 'dkf3954', 'd1655', 'ei8246']
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(254) : optimal: [13029.0, 80450.0, 22338.0, 7643.0, 6830.0, 56638.0, 491924.0, 5085.0, 224094.0, 9517.0, 5257.0, 152970.0, 4666.0, 5533.0, 64253.0, 56892.0, 259045.0, 316536.0, 6197.0, 50801.0, 8014.0, 11605723.0, 336556.0, 15316.0, 18660188.0, 11394911.0, 4264.0, 10855033.0, 22249.0, 10166701.0, 11239.0, 10959.0, 6600.0, 8234.0, 3558.0, 11886457.0, 15445.0, 19547551.0, 21535.0, 19198258.0, 10539.0, 9272.0, 13221.0, 837479.0, 8352.0, 114855.0, 1061881.0, 11499958.0, 172386.0, 7219.0, 9601.0, 28772.0, 11821.0, 4956.0, 12723.0, 27724.0, 11387430.0, 8492.0, 9114.0, 19535.0, 270199.0, 239297.0, 57201.0, 556045.0, 11137.0, 19017805.0, 182566.0, 8017.0, 7724.0, 137694.0, 10906997.0, 6421.0, 10128.0, 19108508.0, 10664660.0, 394718.0, 378032.0, 6115.0, 8423.0, 13009.0, 12503.0, 10711.0, 26051.0, 96132.0, 11995.0, 9772.0, 18864046.0, 6764.0, 238314.0, 10008.0, 234256.0, 86891.0, 565530.0, 6396.0, 8071.0, 252948.0, 300899.0, 23260728.0, 8258.0, 4416.0, 11376735.0, 1290319.0, 21834.0, 6304.0, 20127.0, 5387.0, 12538.0, 62128.0, 206171.0]
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(255) : problem_size: [5087, 2103, 8197, 2566, 2175, 1379, 9847, 1389, 1060, 3140, 1436, 1432, 1376, 1599, 2152, 1173, 1002, 1889, 2036, 1291, 2854, 1000, 1748, 4966, 1000, 1000, 1488, 1000, 1577, 1000, 3937, 3694, 2086, 2762, 1083, 1000, 5557, 3162, 6880, 3162, 3097, 3649, 4475, 9152, 2323, 8079, 9976, 1000, 7146, 2308, 3672, 3795, 3729, 1615, 4355, 9698, 1000, 2993, 3119, 7454, 1323, 1084, 1817, 5934, 3386, 3162, 4461, 2382, 2481, 3038, 1000, 1973, 2924, 3162, 1000, 6117, 2392, 1785, 2802, 4396, 3938, 4410, 1621, 3496, 3891, 3293, 3162, 2217, 7663, 3256, 2319, 1979, 5915, 1911, 2597, 1304, 9882, 7397, 3056, 1483, 1000, 4663, 7168, 2144, 1400, 1583, 3954, 1655, 8246]
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(256) : no_aug_score: [16139.0, 87479.0, 26838.0, 8762.0, 7764.0, 62867.0, 609250.0, 5863.0, 256060.0, 10933.0, 6147.0, 163831.0, 5202.0, 5965.0, 72180.0, 64070.0, 281727.0, 359272.0, 6802.0, 55406.0, 9180.0, 13324791.0, 385609.0, 19005.0, 20526688.0, 13058325.0, 5055.0, 12583624.0, 25031.0, 12042378.0, 13090.0, 12730.0, 7179.0, 9373.0, 4043.0, 13575770.0, 18486.0, 23151150.0, 26025.0, 22666922.0, 12136.0, 11899.0, 16243.0, 1029687.0, 10566.0, 138044.0, 1287977.0, 13353159.0, 251408.0, 7914.0, 12469.0, 32599.0, 14288.0, 5817.0, 14976.0, 33493.0, 13126301.0, 9554.0, 10683.0, 23364.0, 297907.0, 272502.0, 64113.0, 644139.0, 12931.0, 22309120.0, 210973.0, 9846.0, 8758.0, 158177.0, 12662590.0, 7948.0, 11375.0, 22754448.0, 11956299.0, 472892.0, 423719.0, 6718.0, 10016.0, 15900.0, 15419.0, 12845.0, 28232.0, 111112.0, 13980.0, 11365.0, 22527748.0, 7862.0, 305288.0, 11689.0, 244869.0, 109491.0, 660202.0, 7279.0, 9354.0, 276130.0, 357033.0, 27650192.0, 9533.0, 5089.0, 12813843.0, 1686798.0, 26263.0, 7536.0, 23458.0, 5829.0, 14341.0, 71684.0, 245656.0]
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(257) : aug_score: [16139.0, 87479.0, 26838.0, 8762.0, 7764.0, 62867.0, 609250.0, 5863.0, 256060.0, 10933.0, 6147.0, 163831.0, 5202.0, 5965.0, 72180.0, 64070.0, 281727.0, 359272.0, 6802.0, 55406.0, 9180.0, 13324791.0, 385609.0, 19005.0, 20526688.0, 13058325.0, 5055.0, 12583624.0, 25031.0, 12042378.0, 13090.0, 12730.0, 7179.0, 9373.0, 4043.0, 13575770.0, 18486.0, 23151150.0, 26025.0, 22666922.0, 12136.0, 11899.0, 16243.0, 1029687.0, 10566.0, 138044.0, 1287977.0, 13353159.0, 251408.0, 7914.0, 12469.0, 32599.0, 14288.0, 5817.0, 14976.0, 33493.0, 13126301.0, 9554.0, 10683.0, 23364.0, 297907.0, 272502.0, 64113.0, 644139.0, 12931.0, 22309120.0, 210973.0, 9846.0, 8758.0, 158177.0, 12662590.0, 7948.0, 11375.0, 22754448.0, 11956299.0, 472892.0, 423719.0, 6718.0, 10016.0, 15900.0, 15419.0, 12845.0, 28232.0, 111112.0, 13980.0, 11365.0, 22527748.0, 7862.0, 305288.0, 11689.0, 244869.0, 109491.0, 660202.0, 7279.0, 9354.0, 276130.0, 357033.0, 27650192.0, 9533.0, 5089.0, 12813843.0, 1686798.0, 26263.0, 7536.0, 23458.0, 5829.0, 14341.0, 71684.0, 245656.0]
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(258) : no_aug_gap: [23.869828843349453, 8.737103791174643, 20.1450443190975, 14.640847834619914, 13.674963396778917, 10.997916593100038, 23.85043218058074, 15.299901671583088, 14.264549697894633, 14.878638226331827, 16.929807875214, 7.100084983983788, 11.48735533647664, 7.807699258991505, 12.33716713616485, 12.616888138929902, 8.75600764345963, 13.501149948189148, 9.762788446022268, 9.064782189326982, 14.549538307961068, 14.812243924829156, 14.574989006287215, 24.085923217550274, 10.00257875215405, 14.597867416428263, 18.55065666041276, 15.924327452528242, 12.503932761022968, 18.44921966329097, 16.469436782631906, 16.16023359795602, 8.772727272727273, 13.832888025261113, 13.631253513209668, 14.212081867624642, 19.68921981223697, 18.435040788485473, 20.849779428836776, 18.06759759140647, 15.153240345383812, 28.332614322691978, 22.85757506996445, 22.950784437579927, 26.50862068965517, 20.18980453615428, 21.29202801443853, 16.114850158583188, 45.84014943208845, 9.62737221221776, 29.871888344964066, 13.301126094814403, 20.86963877844514, 17.372881355932204, 17.70808771516152, 20.80868561535132, 15.27009167125506, 12.50588789448893, 17.215273206056615, 19.60071666240082, 10.254664154937657, 13.876061964838673, 12.083704830335135, 15.8429623501695, 16.108467271257968, 17.306492521087474, 15.559852327377497, 22.814020207059997, 13.38684619368203, 14.875738957398289, 16.096025331262126, 23.781342470020245, 12.312401263823064, 19.08019192288587, 12.11139408101149, 19.805025359877177, 12.08548482668134, 9.860997547015536, 18.912501484031818, 22.22307633177031, 23.32240262337039, 19.9234431892447, 8.372039461057158, 15.582740398618567, 16.548561900791995, 16.30167826442898, 19.421612945600323, 16.232998225901834, 28.103258725882657, 16.79656274980016, 4.5305136261184344, 26.009598232268015, 16.74040280798543, 13.805503439649781, 15.896419278899765, 9.16472950962253, 18.655429230406217, 18.87070774397087, 15.439573746669895, 15.240036231884059, 12.631989758045696, 30.727207768001556, 20.284876797655034, 19.543147208121827, 16.549908083668704, 8.20493781325413, 14.380283936832031, 15.381148596446048, 19.151578058989866]
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(259) : aug_gap: [23.869828843349453, 8.737103791174643, 20.1450443190975, 14.640847834619914, 13.674963396778917, 10.997916593100038, 23.85043218058074, 15.299901671583088, 14.264549697894633, 14.878638226331827, 16.929807875214, 7.100084983983788, 11.48735533647664, 7.807699258991505, 12.33716713616485, 12.616888138929902, 8.75600764345963, 13.501149948189148, 9.762788446022268, 9.064782189326982, 14.549538307961068, 14.812243924829156, 14.574989006287215, 24.085923217550274, 10.00257875215405, 14.597867416428263, 18.55065666041276, 15.924327452528242, 12.503932761022968, 18.44921966329097, 16.469436782631906, 16.16023359795602, 8.772727272727273, 13.832888025261113, 13.631253513209668, 14.212081867624642, 19.68921981223697, 18.435040788485473, 20.849779428836776, 18.06759759140647, 15.153240345383812, 28.332614322691978, 22.85757506996445, 22.950784437579927, 26.50862068965517, 20.18980453615428, 21.29202801443853, 16.114850158583188, 45.84014943208845, 9.62737221221776, 29.871888344964066, 13.301126094814403, 20.86963877844514, 17.372881355932204, 17.70808771516152, 20.80868561535132, 15.27009167125506, 12.50588789448893, 17.215273206056615, 19.60071666240082, 10.254664154937657, 13.876061964838673, 12.083704830335135, 15.8429623501695, 16.108467271257968, 17.306492521087474, 15.559852327377497, 22.814020207059997, 13.38684619368203, 14.875738957398289, 16.096025331262126, 23.781342470020245, 12.312401263823064, 19.08019192288587, 12.11139408101149, 19.805025359877177, 12.08548482668134, 9.860997547015536, 18.912501484031818, 22.22307633177031, 23.32240262337039, 19.9234431892447, 8.372039461057158, 15.582740398618567, 16.548561900791995, 16.30167826442898, 19.421612945600323, 16.232998225901834, 28.103258725882657, 16.79656274980016, 4.5305136261184344, 26.009598232268015, 16.74040280798543, 13.805503439649781, 15.896419278899765, 9.16472950962253, 18.655429230406217, 18.87070774397087, 15.439573746669895, 15.240036231884059, 12.631989758045696, 30.727207768001556, 20.284876797655034, 19.543147208121827, 16.549908083668704, 8.20493781325413, 14.380283936832031, 15.381148596446048, 19.151578058989866]
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(260) : ===============================================================
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(262) : ===============================================================
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(268) : Solved_ instances number: 109, min_dimension: 1000, max_dimension: 9976, avg gap(no aug): 16.619%, avg_gap(aug): 16.619%
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(270) : Avg time per instance: 21.57s
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(99) : #################  Test scale range: [10000, 100001]  #################
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fht47608.tsp
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(174) : Instance name: fht47608, problem_size: 47608
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(209) : Error occurred in instance fht47608, dimension: 47608, skip it!
+[2025-10-12 01:14:34] TSPTester_LIB_Survey.py(210) : Error message: CUDA error: invalid configuration argument
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
+[2025-10-12 01:14:35] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.2.tsp
+[2025-10-12 01:14:35] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:14:35] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-10000-100002, problem_size: 10000
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-10000-100002, optimal score: 33155424.0000
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(240) : No aug score:40323696.000, No aug gap:21.620%
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 198.285s
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(243) : Aug score:40323696.000, Aug gap:21.620%
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bby34656.tsp
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:17:53] TSPTester_LIB_Survey.py(174) : Instance name: bby34656, problem_size: 34656
+[2025-10-12 01:17:56] TSPTester_LIB_Survey.py(209) : Error occurred in instance bby34656, dimension: 34656, skip it!
+[2025-10-12 01:17:56] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 4.47 GiB (GPU 0; 23.59 GiB total capacity; 13.53 GiB already allocated; 1.48 GiB free; 21.79 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 01:17:56] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fma21553.tsp
+[2025-10-12 01:17:56] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:17:56] TSPTester_LIB_Survey.py(174) : Instance name: fma21553, problem_size: 21553
+[2025-10-12 01:43:29] TSPTester_LIB_Survey.py(209) : Error occurred in instance fma21553, dimension: 21553, skip it!
+[2025-10-12 01:43:29] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 1.73 GiB (GPU 0; 23.59 GiB total capacity; 16.69 GiB already allocated; 1.48 GiB free; 21.79 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 01:43:29] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ido21215.tsp
+[2025-10-12 01:43:29] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 01:43:29] TSPTester_LIB_Survey.py(174) : Instance name: ido21215, problem_size: 21215
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(209) : Error occurred in instance ido21215, dimension: 21215, skip it!
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.35 GiB (GPU 0; 23.59 GiB total capacity; 15.15 GiB already allocated; 1.50 GiB free; 21.77 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fna52057.tsp
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(174) : Instance name: fna52057, problem_size: 52057
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(209) : Error occurred in instance fna52057, dimension: 52057, skip it!
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 10.10 GiB (GPU 0; 23.59 GiB total capacity; 11.83 GiB already allocated; 8.29 GiB free; 14.97 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.1.tsp
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 02:14:27] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-10000-100001, problem_size: 10000
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-10000-100001, optimal score: 33186248.0000
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(240) : No aug score:40797236.000, No aug gap:22.934%
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 197.149s
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(243) : Aug score:40797236.000, Aug gap:22.934%
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C100k.0.tsp
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-100000-100000, problem_size: 100000
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(209) : Error occurred in instance portcgen-100000-100000, dimension: 100000, skip it!
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 37.25 GiB (GPU 0; 23.59 GiB total capacity; 420.05 MiB already allocated; 18.39 GiB free; 4.88 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xrh24104.tsp
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 02:17:45] TSPTester_LIB_Survey.py(174) : Instance name: xrh24104, problem_size: 24104
+[2025-10-12 02:45:43] TSPTester_LIB_Survey.py(209) : Error occurred in instance xrh24104, dimension: 24104, skip it!
+[2025-10-12 02:45:43] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 2.17 GiB (GPU 0; 23.59 GiB total capacity; 19.94 GiB already allocated; 2.16 GiB free; 21.10 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 02:45:43] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_lsb22777.tsp
+[2025-10-12 02:45:43] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 02:45:43] TSPTester_LIB_Survey.py(174) : Instance name: lsb22777, problem_size: 22777
+[2025-10-12 03:10:20] TSPTester_LIB_Survey.py(209) : Error occurred in instance lsb22777, dimension: 22777, skip it!
+[2025-10-12 03:10:20] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 1.93 GiB (GPU 0; 23.59 GiB total capacity; 18.09 GiB already allocated; 615.12 MiB free; 22.67 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 03:10:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pjh17845.tsp
+[2025-10-12 03:10:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:10:20] TSPTester_LIB_Survey.py(174) : Instance name: pjh17845, problem_size: 17845
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(239) : Instance name: pjh17845, optimal score: 48092.0000
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(240) : No aug score:59065.000, No aug gap:22.817%
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1108.633s
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(243) : Aug score:59065.000, Aug gap:22.817%
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_sw24978.tsp
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:28:49] TSPTester_LIB_Survey.py(174) : Instance name: sw24978, problem_size: 24978
+[2025-10-12 03:28:51] TSPTester_LIB_Survey.py(209) : Error occurred in instance sw24978, dimension: 24978, skip it!
+[2025-10-12 03:28:51] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 2.32 GiB (GPU 0; 23.59 GiB total capacity; 16.38 GiB already allocated; 2.24 GiB free; 21.02 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 03:28:51] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_bm33708.tsp
+[2025-10-12 03:28:51] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:28:51] TSPTester_LIB_Survey.py(174) : Instance name: bm33708, problem_size: 33708
+[2025-10-12 03:28:54] TSPTester_LIB_Survey.py(209) : Error occurred in instance bm33708, dimension: 33708, skip it!
+[2025-10-12 03:28:54] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 4.23 GiB (GPU 0; 23.59 GiB total capacity; 17.08 GiB already allocated; 1.75 GiB free; 21.51 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 03:28:54] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xrb14233.tsp
+[2025-10-12 03:28:54] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:28:54] TSPTester_LIB_Survey.py(174) : Instance name: xrb14233, problem_size: 14233
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(239) : Instance name: xrb14233, optimal score: 45462.0000
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(240) : No aug score:54857.000, No aug gap:20.666%
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 564.189s
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(243) : Aug score:54857.000, Aug gap:20.666%
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xmc10150.tsp
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:38:18] TSPTester_LIB_Survey.py(174) : Instance name: xmc10150, problem_size: 10150
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(239) : Instance name: xmc10150, optimal score: 28387.0000
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(240) : No aug score:34331.000, No aug gap:20.939%
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 207.812s
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(243) : Aug score:34331.000, Aug gap:20.939%
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d15112.tsp
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:41:46] TSPTester_LIB_Survey.py(174) : Instance name: d15112, problem_size: 15112
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(239) : Instance name: d15112, optimal score: 1573084.0000
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(240) : No aug score:1863077.000, No aug gap:18.435%
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 678.207s
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(243) : Aug score:1863077.000, Aug gap:18.435%
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_boa28924.tsp
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:53:04] TSPTester_LIB_Survey.py(174) : Instance name: boa28924, problem_size: 28924
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(209) : Error occurred in instance boa28924, dimension: 28924, skip it!
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.12 GiB (GPU 0; 23.59 GiB total capacity; 12.58 GiB already allocated; 1.75 GiB free; 21.51 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_dan59296.tsp
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(174) : Instance name: dan59296, problem_size: 59296
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(209) : Error occurred in instance dan59296, dimension: 59296, skip it!
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 13.10 GiB (GPU 0; 23.59 GiB total capacity; 16.26 GiB already allocated; 1.59 GiB free; 21.67 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_icx28698.tsp
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:53:06] TSPTester_LIB_Survey.py(174) : Instance name: icx28698, problem_size: 28698
+[2025-10-12 03:53:09] TSPTester_LIB_Survey.py(209) : Error occurred in instance icx28698, dimension: 28698, skip it!
+[2025-10-12 03:53:09] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.07 GiB (GPU 0; 23.59 GiB total capacity; 18.54 GiB already allocated; 923.12 MiB free; 22.37 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 03:53:09] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_d18512.tsp
+[2025-10-12 03:53:09] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 03:53:09] TSPTester_LIB_Survey.py(174) : Instance name: d18512, problem_size: 18512
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(239) : Instance name: d18512, optimal score: 645238.0000
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(240) : No aug score:765711.000, No aug gap:18.671%
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1240.014s
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(243) : Aug score:765711.000, Aug gap:18.671%
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xia16928.tsp
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:13:49] TSPTester_LIB_Survey.py(174) : Instance name: xia16928, problem_size: 16928
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(239) : Instance name: xia16928, optimal score: 52850.0000
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(240) : No aug score:64938.000, No aug gap:22.872%
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 952.442s
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(243) : Aug score:64938.000, Aug gap:22.872%
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_mo14185.tsp
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:29:41] TSPTester_LIB_Survey.py(174) : Instance name: mo14185, problem_size: 14185
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(239) : Instance name: mo14185, optimal score: 427377.0000
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(240) : No aug score:523175.000, No aug gap:22.415%
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 560.048s
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(243) : Aug score:523175.000, Aug gap:22.415%
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pbh30440.tsp
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:39:02] TSPTester_LIB_Survey.py(174) : Instance name: pbh30440, problem_size: 30440
+[2025-10-12 04:39:04] TSPTester_LIB_Survey.py(209) : Error occurred in instance pbh30440, dimension: 30440, skip it!
+[2025-10-12 04:39:04] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.45 GiB (GPU 0; 23.59 GiB total capacity; 17.39 GiB already allocated; 529.12 MiB free; 22.75 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 04:39:04] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_vm22775.tsp
+[2025-10-12 04:39:04] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:39:04] TSPTester_LIB_Survey.py(174) : Instance name: vm22775, problem_size: 22775
+[2025-10-12 04:53:41] TSPTester_LIB_Survey.py(209) : Error occurred in instance vm22775, dimension: 22775, skip it!
+[2025-10-12 04:53:41] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 1.93 GiB (GPU 0; 23.59 GiB total capacity; 17.08 GiB already allocated; 529.12 MiB free; 22.75 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 04:53:41] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C31k.0.tsp
+[2025-10-12 04:53:41] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:53:41] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-31623-31623, problem_size: 31623
+[2025-10-12 04:53:44] TSPTester_LIB_Survey.py(209) : Error occurred in instance portcgen-31623-31623, dimension: 31623, skip it!
+[2025-10-12 04:53:44] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.73 GiB (GPU 0; 23.59 GiB total capacity; 15.04 GiB already allocated; 2.17 GiB free; 21.09 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 04:53:44] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_pba38478.tsp
+[2025-10-12 04:53:44] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:53:44] TSPTester_LIB_Survey.py(174) : Instance name: pba38478, problem_size: 38478
+[2025-10-12 04:53:47] TSPTester_LIB_Survey.py(209) : Error occurred in instance pba38478, dimension: 38478, skip it!
+[2025-10-12 04:53:47] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 5.52 GiB (GPU 0; 23.59 GiB total capacity; 16.68 GiB already allocated; 397.12 MiB free; 22.88 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 04:53:47] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_irx28268.tsp
+[2025-10-12 04:53:47] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:53:47] TSPTester_LIB_Survey.py(174) : Instance name: irx28268, problem_size: 28268
+[2025-10-12 04:53:50] TSPTester_LIB_Survey.py(209) : Error occurred in instance irx28268, dimension: 28268, skip it!
+[2025-10-12 04:53:50] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 2.98 GiB (GPU 0; 23.59 GiB total capacity; 17.99 GiB already allocated; 397.12 MiB free; 22.88 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 04:53:50] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xvb13584.tsp
+[2025-10-12 04:53:50] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 04:53:50] TSPTester_LIB_Survey.py(174) : Instance name: xvb13584, problem_size: 13584
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(239) : Instance name: xvb13584, optimal score: 37083.0000
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(240) : No aug score:45552.000, No aug gap:22.838%
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 494.206s
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(243) : Aug score:45552.000, Aug gap:22.838%
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_brd14051.tsp
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:02:04] TSPTester_LIB_Survey.py(174) : Instance name: brd14051, problem_size: 14051
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(239) : Instance name: brd14051, optimal score: 469385.0000
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(240) : No aug score:556111.000, No aug gap:18.477%
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 550.171s
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(243) : Aug score:556111.000, Aug gap:18.477%
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ird29514.tsp
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:11:14] TSPTester_LIB_Survey.py(174) : Instance name: ird29514, problem_size: 29514
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(209) : Error occurred in instance ird29514, dimension: 29514, skip it!
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.25 GiB (GPU 0; 23.59 GiB total capacity; 19.60 GiB already allocated; 397.12 MiB free; 22.88 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ch71009.tsp
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(174) : Instance name: ch71009, problem_size: 71009
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(209) : Error occurred in instance ch71009, dimension: 71009, skip it!
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 18.79 GiB (GPU 0; 23.59 GiB total capacity; 3.32 GiB already allocated; 5.90 GiB free; 17.37 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_xib32892.tsp
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(174) : Instance name: xib32892, problem_size: 32892
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(209) : Error occurred in instance xib32892, dimension: 32892, skip it!
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 4.03 GiB (GPU 0; 23.59 GiB total capacity; 12.23 GiB already allocated; 1.87 GiB free; 21.40 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_fi10639.tsp
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:11:17] TSPTester_LIB_Survey.py(174) : Instance name: fi10639, problem_size: 10639
+[2025-10-12 05:15:17] TSPTester_LIB_Survey.py(239) : Instance name: fi10639, optimal score: 520527.0000
+[2025-10-12 05:15:17] TSPTester_LIB_Survey.py(240) : No aug score:635117.000, No aug gap:22.014%
+[2025-10-12 05:15:17] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 237.928s
+[2025-10-12 05:15:17] TSPTester_LIB_Survey.py(243) : Aug score:635117.000, Aug gap:22.014%
+[2025-10-12 05:15:18] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C31k.1.tsp
+[2025-10-12 05:15:18] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:15:18] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-31623-316231, problem_size: 31623
+[2025-10-12 05:15:20] TSPTester_LIB_Survey.py(209) : Error occurred in instance portcgen-31623-316231, dimension: 31623, skip it!
+[2025-10-12 05:15:20] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.73 GiB (GPU 0; 23.59 GiB total capacity; 15.01 GiB already allocated; 1.87 GiB free; 21.39 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 05:15:20] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C10k.0.tsp
+[2025-10-12 05:15:20] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:15:20] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-10000-10000, problem_size: 10000
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(239) : Instance name: portcgen-10000-10000, optimal score: 33001034.0000
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(240) : No aug score:40466480.000, No aug gap:22.622%
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 197.142s
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(243) : Aug score:40466480.000, Aug gap:22.622%
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_usa13509.tsp
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:18:37] TSPTester_LIB_Survey.py(174) : Instance name: usa13509, problem_size: 13509
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(239) : Instance name: usa13509, optimal score: 19982859.0000
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(240) : No aug score:24354446.000, No aug gap:21.877%
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 490.667s
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(243) : Aug score:24354446.000, Aug gap:21.877%
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/challenge8_C100k.1.tsp
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(174) : Instance name: portcgen-100000-1000001, problem_size: 100000
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(209) : Error occurred in instance portcgen-100000-1000001, dimension: 100000, skip it!
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 37.25 GiB (GPU 0; 23.59 GiB total capacity; 740.86 MiB already allocated; 19.00 GiB free; 4.27 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_frh19289.tsp
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:26:48] TSPTester_LIB_Survey.py(174) : Instance name: frh19289, problem_size: 19289
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(239) : Instance name: frh19289, optimal score: 55798.0000
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(240) : No aug score:69140.000, No aug gap:23.911%
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1488.858s
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(243) : Aug score:69140.000, Aug gap:23.911%
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_ho14473.tsp
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 05:51:37] TSPTester_LIB_Survey.py(174) : Instance name: ho14473, problem_size: 14473
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(239) : Instance name: ho14473, optimal score: 177092.0000
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(240) : No aug score:213232.000, No aug gap:20.407%
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 593.063s
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(243) : Aug score:213232.000, Aug gap:20.407%
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/national_it16862.tsp
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:01:30] TSPTester_LIB_Survey.py(174) : Instance name: it16862, problem_size: 16862
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(239) : Instance name: it16862, optimal score: 557315.0000
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(240) : No aug score:677737.000, No aug gap:21.608%
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 935.641s
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(243) : Aug score:677737.000, Aug gap:21.608%
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_rbz43748.tsp
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:17:06] TSPTester_LIB_Survey.py(174) : Instance name: rbz43748, problem_size: 43748
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(209) : Error occurred in instance rbz43748, dimension: 43748, skip it!
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 7.13 GiB (GPU 0; 23.59 GiB total capacity; 14.33 GiB already allocated; 6.20 GiB free; 17.06 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bna56769.tsp
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(174) : Instance name: bna56769, problem_size: 56769
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(209) : Error occurred in instance bna56769, dimension: 56769, skip it!
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 12.01 GiB (GPU 0; 23.59 GiB total capacity; 19.19 GiB already allocated; 1.33 GiB free; 21.94 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fyg28534.tsp
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:17:11] TSPTester_LIB_Survey.py(174) : Instance name: fyg28534, problem_size: 28534
+[2025-10-12 06:17:13] TSPTester_LIB_Survey.py(209) : Error occurred in instance fyg28534, dimension: 28534, skip it!
+[2025-10-12 06:17:13] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 3.03 GiB (GPU 0; 23.59 GiB total capacity; 15.29 GiB already allocated; 1.33 GiB free; 21.94 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla33810.tsp
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(174) : Instance name: pla33810, problem_size: 33810
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(209) : Error occurred in instance pla33810, dimension: 33810, skip it!
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 4.26 GiB (GPU 0; 23.59 GiB total capacity; 12.91 GiB already allocated; 1.33 GiB free; 21.94 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_ceil_pla85900.tsp
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:17:14] TSPTester_LIB_Survey.py(174) : Instance name: pla85900, problem_size: 85900
+[2025-10-12 06:17:16] TSPTester_LIB_Survey.py(209) : Error occurred in instance pla85900, dimension: 85900, skip it!
+[2025-10-12 06:17:16] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 27.49 GiB (GPU 0; 23.59 GiB total capacity; 4.33 GiB already allocated; 13.33 GiB free; 9.94 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:17:16] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fnc19402.tsp
+[2025-10-12 06:17:16] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:17:16] TSPTester_LIB_Survey.py(174) : Instance name: fnc19402, problem_size: 19402
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(239) : Instance name: fnc19402, optimal score: 59287.0000
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(240) : No aug score:72410.000, No aug gap:22.135%
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 1458.010s
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(243) : Aug score:72410.000, Aug gap:22.135%
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/tsplib_euc_rl11849.tsp
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:41:35] TSPTester_LIB_Survey.py(174) : Instance name: rl11849, problem_size: 11849
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(239) : Instance name: rl11849, optimal score: 923288.0000
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(240) : No aug score:1091927.000, No aug gap:18.265%
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(242) : Instance time (incl. dist+test): 326.775s
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(243) : Aug score:1091927.000, Aug gap:18.265%
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_fry33203.tsp
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:47:01] TSPTester_LIB_Survey.py(174) : Instance name: fry33203, problem_size: 33203
+[2025-10-12 06:47:04] TSPTester_LIB_Survey.py(209) : Error occurred in instance fry33203, dimension: 33203, skip it!
+[2025-10-12 06:47:04] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 4.11 GiB (GPU 0; 23.59 GiB total capacity; 16.55 GiB already allocated; 1.01 GiB free; 22.26 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:47:04] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_ics39603.tsp
+[2025-10-12 06:47:04] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:47:04] TSPTester_LIB_Survey.py(174) : Instance name: ics39603, problem_size: 39603
+[2025-10-12 06:47:08] TSPTester_LIB_Survey.py(209) : Error occurred in instance ics39603, dimension: 39603, skip it!
+[2025-10-12 06:47:08] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 5.84 GiB (GPU 0; 23.59 GiB total capacity; 17.64 GiB already allocated; 1.65 GiB free; 21.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:47:08] TSPTester_LIB_Survey.py(151) : 当前读取的文件名: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_tsp/vlsi_bbz25234.tsp
+[2025-10-12 06:47:08] TSPTester_LIB_Survey.py(173) : ===============================================================
+[2025-10-12 06:47:08] TSPTester_LIB_Survey.py(174) : Instance name: bbz25234, problem_size: 25234
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(209) : Error occurred in instance bbz25234, dimension: 25234, skip it!
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(210) : Error message: CUDA out of memory. Tried to allocate 2.37 GiB (GPU 0; 23.59 GiB total capacity; 16.72 GiB already allocated; 1.65 GiB free; 21.62 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(248) :  *** Test Done *** 
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(249) : scale_range: [10000, 100001], instance number: 50, total time: 19956.35s, avg time per instance: 399.13s
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(251) : ===============================================================
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(253) : instance: ['portcgen-10000-100002', 'portcgen-10000-100001', 'pjh17845', 'xrb14233', 'xmc10150', 'd15112', 'd18512', 'xia16928', 'mo14185', 'xvb13584', 'brd14051', 'fi10639', 'portcgen-10000-10000', 'usa13509', 'frh19289', 'ho14473', 'it16862', 'fnc19402', 'rl11849']
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(254) : optimal: [33155424.0, 33186248.0, 48092.0, 45462.0, 28387.0, 1573084.0, 645238.0, 52850.0, 427377.0, 37083.0, 469385.0, 520527.0, 33001034.0, 19982859.0, 55798.0, 177092.0, 557315.0, 59287.0, 923288.0]
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(255) : problem_size: [10000, 10000, 17845, 14233, 10150, 15112, 18512, 16928, 14185, 13584, 14051, 10639, 10000, 13509, 19289, 14473, 16862, 19402, 11849]
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(256) : no_aug_score: [40323696.0, 40797236.0, 59065.0, 54857.0, 34331.0, 1863077.0, 765711.0, 64938.0, 523175.0, 45552.0, 556111.0, 635117.0, 40466480.0, 24354446.0, 69140.0, 213232.0, 677737.0, 72410.0, 1091927.0]
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(257) : aug_score: [40323696.0, 40797236.0, 59065.0, 54857.0, 34331.0, 1863077.0, 765711.0, 64938.0, 523175.0, 45552.0, 556111.0, 635117.0, 40466480.0, 24354446.0, 69140.0, 213232.0, 677737.0, 72410.0, 1091927.0]
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(258) : no_aug_gap: [21.620209109676896, 22.93416236749632, 22.816684687681942, 20.665610839822268, 20.939162292598724, 18.43467990266254, 18.67109500680369, 22.872280037842952, 22.415338214269838, 22.83795809400534, 18.476517144774544, 22.014227888274768, 22.621854818246, 21.876684412375628, 23.911251299329724, 20.407471822555507, 21.60752895579699, 22.134700693237978, 18.265048392267634]
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(259) : aug_gap: [21.620209109676896, 22.93416236749632, 22.816684687681942, 20.665610839822268, 20.939162292598724, 18.43467990266254, 18.67109500680369, 22.872280037842952, 22.415338214269838, 22.83795809400534, 18.476517144774544, 22.014227888274768, 22.621854818246, 21.876684412375628, 23.911251299329724, 20.407471822555507, 21.60752895579699, 22.134700693237978, 18.265048392267634]
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(260) : ===============================================================
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(262) : ===============================================================
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(268) : Solved_ instances number: 19, min_dimension: 10000, max_dimension: 19402, avg gap(no aug): 21.343%, avg_gap(aug): 21.343%
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(270) : Avg time per instance: 1050.33s
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(103) : All scale ranges done, solved instance number: 197/228, total time: 22324.61s, avg time per instance: 113.32s
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(108) : [0, 1000), number: 69, avg gap(no aug): 6.527%, avg gap(aug): 6.527%
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(112) : [1000, 10000), number: 109, avg gap(no aug): 16.619%, avg gap(aug): 16.619%
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(116) : [10000, 100000], number: 19, avg gap(no aug): 21.343%, avg gap(aug): 21.343%
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(120) : #################  All Done  #################
+[2025-10-12 06:47:10] TSPTester_LIB_Survey.py(121) : All solved instances, number: 197, avg gap(no aug): 13.540%, avg gap(aug): 13.540%
