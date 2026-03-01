@@ -129,6 +129,7 @@ If there are any issues in running or re-implementing the code, please contact t
 @article{ba2026survey,
   title={Survey on Neural Routing Solvers},
   author={Ba, Yunpeng and Lin, Xi and Zhou, Changliang and Zheng, Ruihao and Wang, Zhenkun and Liang, Xinyan and Lu, Zhichao and Sun, Jianyong and Qian, Yuhua and Zhang, Qingfu},
+  journal={arXiv preprint arXiv:2602.21761},
   year={2026}
 }
 ```
