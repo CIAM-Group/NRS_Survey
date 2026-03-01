@@ -137,7 +137,7 @@ class VRPEnv:
         '''
             Acquire description of a CVRP problem from a CVRPLIB-formatted file
             Parameters:
-            - filename: the name of the CVRPLIB-formatted file. e.g."D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_cvrp\\0\\problem.vrp"
+            - filename: the name of the CVRPLIB-formatted file.   
             Returns:
             - name: the name of the CVRP problem.
             - dimension: the number of nodes in the CVRP problem. (int)

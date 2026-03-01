@@ -55,7 +55,7 @@ class TSPEnv:
         '''
             Acquire description of a TSP problem from a TSPLIB-formatted file
             Parameters:
-            - filename: the name of the TSPLIB-formatted file. e.g."D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_tsp\\0\\problem.tsp"
+            - filename: the name of the TSPLIB-formatted file.  
             Returns:
             - name: the name of the TSP problem.
             - dimension: the number of nodes in the TSP problem. (int)
@@ -125,7 +125,7 @@ class TSPEnv:
             filename = f'{bb}/{inst_names}.tsp'
 
             # print(filename)
-            # filename = "D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_tsp\\0\\problem.tsp"
+            # filename = "xxx"
             name, dimension, locs = self.TSPLIBReader(filename)
             # print(name)
             # print(dimension)

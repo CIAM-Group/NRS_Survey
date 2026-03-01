@@ -6,7 +6,7 @@ def TSPLIBReader(filename):
     '''
         Acquire description of a TSP problem from a TSPLIB-formatted file
         Parameters:
-        - filename: the name of the TSPLIB-formatted file. e.g."D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_tsp\\0\\problem.tsp"
+        - filename: the name of the TSPLIB-formatted file.  
         Returns:
         - name: the name of the TSP problem.
         - dimension: the number of nodes in the TSP problem. (int)
@@ -47,7 +47,7 @@ def CVRPLIBReader(filename):
     '''
         Acquire description of a CVRP problem from a CVRPLIB-formatted file
         Parameters:
-        - filename: the name of the CVRPLIB-formatted file. e.g."D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_cvrp\\0\\problem.vrp"
+        - filename: the name of the CVRPLIB-formatted file.   
         Returns:
         - name: the name of the CVRP problem.
         - dimension: the number of nodes in the CVRP problem. (int)
@@ -102,14 +102,14 @@ def CVRPLIBReader(filename):
 # if __name__ == "__main__":
 #
 #     # test  TSPLIBReader
-#     # filename = "D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_tsp\\0\\problem.tsp"
+#     # filename = "xxx"
 #     # name, dimension, locs = TSPLIBReader(filename)
 #     # print(name)
 #     # print(dimension)
 #     # print(locs)
 #
 #     # test  CVRPLIBReader
-#     filename = "D:\\desktooop\\Code\\EasyNCO\\EasyNCO\\1204\\results_lkh_cvrp\\0\\problem.vrp"
+#     filename = "xxx"
 #     name, dimension, locs, demand, capacity = CVRPLIBReader(filename)
 #     print(name)
 #     print(dimension)

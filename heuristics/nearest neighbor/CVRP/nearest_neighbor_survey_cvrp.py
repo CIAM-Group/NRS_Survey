@@ -183,7 +183,7 @@ def compute_tour_length(cities, tour, edge_weight_type):
 
 
 #############################################
-# 3. Tester：模仿 ICAM 的 CVRPTester_LIB_EasyCO 风格
+# 3. Tester：模仿 ICAM 的 CVRPTester_LIB 风格
 #############################################
 
 class CVRPNNTester:
