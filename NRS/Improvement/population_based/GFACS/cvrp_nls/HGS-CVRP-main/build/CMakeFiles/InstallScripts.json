@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/public/home/bayp/exp_survey_202509/Improvement/population_based/GFACS/cvrp_nls/HGS-CVRP-main/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

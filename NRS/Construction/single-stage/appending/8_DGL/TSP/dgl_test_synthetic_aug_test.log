@@ -1,0 +1,188 @@
+nohup: ignoring input
+/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt
+[2025-12-18 00:17:33] test_synthetic.py(241) : DEBUG_MODE: True
+[2025-12-18 00:17:33] test_synthetic.py(242) : USE_CUDA: True, CUDA_DEVICE_NUM: 3
+[2025-12-18 00:17:33] test_synthetic.py(243) : globle_params{'test_mode': 'aug_test'}
+[2025-12-18 00:17:33] test_synthetic.py(243) : env_params{'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt', 'baseline_path': None, 'mode': 'test', 'append_information': [True, True, True, False, True, True, False, False, False, False, False], 'pomo_size': 1, 'aggregation_nums': 50, 'test_mode': 'aug_test', 'aug_size': 64}
+[2025-12-18 00:17:33] test_synthetic.py(243) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 3, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'append_information': [True, True, True, False, True, True, False, False, False, False, False]}
+[2025-12-18 00:17:33] test_synthetic.py(243) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149], 'gamma': 0.97}}
+[2025-12-18 00:17:33] test_synthetic.py(243) : tester_params{'use_cuda': True, 'cuda_device_num': 3, 'test_mode': 'aug_test', 'epochs': 150, 'test_episodes': 10000, 'test_batch_size': 100, 'loop_in_one_epoch': 1, 'beam_size': 1, 'keep_threshold': 2, 'logging': {'model_save_interval': 1, 'img_save_interval': 3000, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_tsp_100.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': True, 'path': './pretrain', 'file': 'checkpoint-100.pt'}, 'problem_size': 100, 'test_episodes_all': 10000, 'knn': 30}
+[2025-12-18 00:17:33] test_synthetic.py(243) : valid_params{'sgbs_beta': 10, 'sgbs_gamma_minus1': 9, 'aug_factor': 8, 'valid_batch_size': 4}
+[2025-12-18 00:17:33] test_synthetic.py(243) : logger_params{'log_file': {'desc': 'test_aug_test_tsp100_1000_10000', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251218_001733_test_aug_test_tsp100_1000_10000'}}
+[2025-12-18 00:17:34] TSPTester.py(80) : Saved Model Loaded !!
+
+  0%|          | 0/10000 [00:00<?, ?it/s]
+  9%|9         | 941/10000 [00:00<00:00, 9409.27it/s]
+ 19%|#9        | 1910/10000 [00:00<00:00, 9573.08it/s]
+ 29%|##8       | 2868/10000 [00:00<00:00, 9236.94it/s]
+ 38%|###7      | 3794/10000 [00:00<00:00, 8721.45it/s]
+ 47%|####6     | 4671/10000 [00:00<00:00, 8082.62it/s]
+ 58%|#####7    | 5752/10000 [00:00<00:00, 7747.83it/s]
+ 75%|#######4  | 7474/10000 [00:00<00:00, 10385.18it/s]
+ 86%|########5 | 8566/10000 [00:00<00:00, 8906.82it/s] 
+100%|##########| 10000/10000 [00:01<00:00, 9573.98it/s]
+greedy: None
+=======================self.env.baseline_len: tensor(7.7633)
+[2025-12-18 00:17:45] TSPTester.py(155) : episode 100: avg_score 7.7822 batch_gap 0.5934% avg_gap 0.5934%
+[2025-12-18 00:17:53] TSPTester.py(155) : episode 200: avg_score 7.7772 batch_gap 0.5829% avg_gap 0.5881%
+[2025-12-18 00:18:01] TSPTester.py(155) : episode 300: avg_score 7.7965 batch_gap 0.6379% avg_gap 0.6047%
+[2025-12-18 00:18:10] TSPTester.py(155) : episode 400: avg_score 7.7990 batch_gap 0.7296% avg_gap 0.6360%
+[2025-12-18 00:18:18] TSPTester.py(155) : episode 500: avg_score 7.8021 batch_gap 0.5159% avg_gap 0.6119%
+[2025-12-18 00:18:26] TSPTester.py(155) : episode 600: avg_score 7.8014 batch_gap 0.5688% avg_gap 0.6048%
+[2025-12-18 00:18:34] TSPTester.py(155) : episode 700: avg_score 7.8025 batch_gap 0.5030% avg_gap 0.5902%
+[2025-12-18 00:18:43] TSPTester.py(155) : episode 800: avg_score 7.8024 batch_gap 0.6839% avg_gap 0.6019%
+[2025-12-18 00:18:52] TSPTester.py(155) : episode 900: avg_score 7.8026 batch_gap 0.6724% avg_gap 0.6098%
+[2025-12-18 00:19:01] TSPTester.py(155) : episode 1000: avg_score 7.8027 batch_gap 0.6266% avg_gap 0.6114%
+[2025-12-18 00:19:09] TSPTester.py(155) : episode 1100: avg_score 7.8020 batch_gap 0.6324% avg_gap 0.6133%
+[2025-12-18 00:19:17] TSPTester.py(155) : episode 1200: avg_score 7.8026 batch_gap 0.6248% avg_gap 0.6143%
+[2025-12-18 00:19:26] TSPTester.py(155) : episode 1300: avg_score 7.7998 batch_gap 0.5259% avg_gap 0.6075%
+[2025-12-18 00:19:34] TSPTester.py(155) : episode 1400: avg_score 7.8007 batch_gap 0.5743% avg_gap 0.6051%
+[2025-12-18 00:19:42] TSPTester.py(155) : episode 1500: avg_score 7.7989 batch_gap 0.6450% avg_gap 0.6078%
+[2025-12-18 00:19:51] TSPTester.py(155) : episode 1600: avg_score 7.8002 batch_gap 0.6173% avg_gap 0.6084%
+[2025-12-18 00:19:59] TSPTester.py(155) : episode 1700: avg_score 7.8004 batch_gap 0.6140% avg_gap 0.6087%
+[2025-12-18 00:20:07] TSPTester.py(155) : episode 1800: avg_score 7.8037 batch_gap 0.6600% avg_gap 0.6116%
+[2025-12-18 00:20:16] TSPTester.py(155) : episode 1900: avg_score 7.8040 batch_gap 0.6800% avg_gap 0.6152%
+[2025-12-18 00:20:24] TSPTester.py(155) : episode 2000: avg_score 7.8039 batch_gap 0.6621% avg_gap 0.6175%
+[2025-12-18 00:20:34] TSPTester.py(155) : episode 2100: avg_score 7.8032 batch_gap 0.5463% avg_gap 0.6141%
+[2025-12-18 00:20:42] TSPTester.py(155) : episode 2200: avg_score 7.8036 batch_gap 0.5913% avg_gap 0.6131%
+[2025-12-18 00:20:51] TSPTester.py(155) : episode 2300: avg_score 7.8028 batch_gap 0.6261% avg_gap 0.6137%
+[2025-12-18 00:20:59] TSPTester.py(155) : episode 2400: avg_score 7.8035 batch_gap 0.4972% avg_gap 0.6088%
+[2025-12-18 00:21:07] TSPTester.py(155) : episode 2500: avg_score 7.8030 batch_gap 0.5559% avg_gap 0.6067%
+[2025-12-18 00:21:16] TSPTester.py(155) : episode 2600: avg_score 7.8033 batch_gap 0.6432% avg_gap 0.6081%
+[2025-12-18 00:21:24] TSPTester.py(155) : episode 2700: avg_score 7.8056 batch_gap 0.7286% avg_gap 0.6126%
+[2025-12-18 00:21:32] TSPTester.py(155) : episode 2800: avg_score 7.8053 batch_gap 0.6220% avg_gap 0.6129%
+[2025-12-18 00:21:41] TSPTester.py(155) : episode 2900: avg_score 7.8050 batch_gap 0.6286% avg_gap 0.6134%
+[2025-12-18 00:21:49] TSPTester.py(155) : episode 3000: avg_score 7.8045 batch_gap 0.6831% avg_gap 0.6158%
+[2025-12-18 00:21:57] TSPTester.py(155) : episode 3100: avg_score 7.8050 batch_gap 0.6153% avg_gap 0.6157%
+[2025-12-18 00:22:07] TSPTester.py(155) : episode 3200: avg_score 7.8052 batch_gap 0.6041% avg_gap 0.6154%
+[2025-12-18 00:22:15] TSPTester.py(155) : episode 3300: avg_score 7.8045 batch_gap 0.6543% avg_gap 0.6166%
+[2025-12-18 00:22:24] TSPTester.py(155) : episode 3400: avg_score 7.8050 batch_gap 0.6981% avg_gap 0.6190%
+[2025-12-18 00:22:32] TSPTester.py(155) : episode 3500: avg_score 7.8063 batch_gap 0.5398% avg_gap 0.6167%
+[2025-12-18 00:22:40] TSPTester.py(155) : episode 3600: avg_score 7.8066 batch_gap 0.6181% avg_gap 0.6167%
+[2025-12-18 00:22:49] TSPTester.py(155) : episode 3700: avg_score 7.8061 batch_gap 0.6214% avg_gap 0.6169%
+[2025-12-18 00:22:57] TSPTester.py(155) : episode 3800: avg_score 7.8067 batch_gap 0.6846% avg_gap 0.6186%
+[2025-12-18 00:23:05] TSPTester.py(155) : episode 3900: avg_score 7.8072 batch_gap 0.6734% avg_gap 0.6201%
+[2025-12-18 00:23:14] TSPTester.py(155) : episode 4000: avg_score 7.8073 batch_gap 0.5620% avg_gap 0.6186%
+[2025-12-18 00:23:22] TSPTester.py(155) : episode 4100: avg_score 7.8078 batch_gap 0.6566% avg_gap 0.6195%
+[2025-12-18 00:23:30] TSPTester.py(155) : episode 4200: avg_score 7.8095 batch_gap 0.5077% avg_gap 0.6169%
+[2025-12-18 00:23:40] TSPTester.py(155) : episode 4300: avg_score 7.8092 batch_gap 0.5796% avg_gap 0.6160%
+[2025-12-18 00:23:48] TSPTester.py(155) : episode 4400: avg_score 7.8097 batch_gap 0.7271% avg_gap 0.6185%
+[2025-12-18 00:23:57] TSPTester.py(155) : episode 4500: avg_score 7.8097 batch_gap 0.5235% avg_gap 0.6164%
+[2025-12-18 00:24:05] TSPTester.py(155) : episode 4600: avg_score 7.8097 batch_gap 0.5142% avg_gap 0.6142%
+[2025-12-18 00:24:13] TSPTester.py(155) : episode 4700: avg_score 7.8100 batch_gap 0.6717% avg_gap 0.6154%
+[2025-12-18 00:24:22] TSPTester.py(155) : episode 4800: avg_score 7.8099 batch_gap 0.5833% avg_gap 0.6147%
+[2025-12-18 00:24:30] TSPTester.py(155) : episode 4900: avg_score 7.8098 batch_gap 0.5905% avg_gap 0.6142%
+[2025-12-18 00:24:38] TSPTester.py(155) : episode 5000: avg_score 7.8093 batch_gap 0.4941% avg_gap 0.6118%
+[2025-12-18 00:24:47] TSPTester.py(155) : episode 5100: avg_score 7.8092 batch_gap 0.5680% avg_gap 0.6110%
+[2025-12-18 00:24:55] TSPTester.py(155) : episode 5200: avg_score 7.8093 batch_gap 0.5709% avg_gap 0.6102%
+[2025-12-18 00:25:03] TSPTester.py(155) : episode 5300: avg_score 7.8091 batch_gap 0.5653% avg_gap 0.6094%
+[2025-12-18 00:25:12] TSPTester.py(155) : episode 5400: avg_score 7.8095 batch_gap 0.6013% avg_gap 0.6092%
+[2025-12-18 00:25:21] TSPTester.py(155) : episode 5500: avg_score 7.8100 batch_gap 0.5639% avg_gap 0.6084%
+[2025-12-18 00:25:30] TSPTester.py(155) : episode 5600: avg_score 7.8095 batch_gap 0.6633% avg_gap 0.6094%
+[2025-12-18 00:25:38] TSPTester.py(155) : episode 5700: avg_score 7.8094 batch_gap 0.6850% avg_gap 0.6107%
+[2025-12-18 00:25:46] TSPTester.py(155) : episode 5800: avg_score 7.8089 batch_gap 0.5801% avg_gap 0.6102%
+[2025-12-18 00:25:55] TSPTester.py(155) : episode 5900: avg_score 7.8088 batch_gap 0.5804% avg_gap 0.6097%
+[2025-12-18 00:26:03] TSPTester.py(155) : episode 6000: avg_score 7.8093 batch_gap 0.6951% avg_gap 0.6111%
+[2025-12-18 00:26:11] TSPTester.py(155) : episode 6100: avg_score 7.8086 batch_gap 0.5583% avg_gap 0.6102%
+[2025-12-18 00:26:20] TSPTester.py(155) : episode 6200: avg_score 7.8090 batch_gap 0.6108% avg_gap 0.6102%
+[2025-12-18 00:26:28] TSPTester.py(155) : episode 6300: avg_score 7.8089 batch_gap 0.4948% avg_gap 0.6084%
+[2025-12-18 00:26:36] TSPTester.py(155) : episode 6400: avg_score 7.8091 batch_gap 0.5158% avg_gap 0.6070%
+[2025-12-18 00:26:45] TSPTester.py(155) : episode 6500: avg_score 7.8090 batch_gap 0.5774% avg_gap 0.6065%
+[2025-12-18 00:26:54] TSPTester.py(155) : episode 6600: avg_score 7.8089 batch_gap 0.6851% avg_gap 0.6077%
+[2025-12-18 00:27:03] TSPTester.py(155) : episode 6700: avg_score 7.8085 batch_gap 0.6807% avg_gap 0.6088%
+[2025-12-18 00:27:11] TSPTester.py(155) : episode 6800: avg_score 7.8078 batch_gap 0.6112% avg_gap 0.6088%
+[2025-12-18 00:27:19] TSPTester.py(155) : episode 6900: avg_score 7.8078 batch_gap 0.5190% avg_gap 0.6075%
+[2025-12-18 00:27:28] TSPTester.py(155) : episode 7000: avg_score 7.8078 batch_gap 0.6030% avg_gap 0.6075%
+[2025-12-18 00:27:36] TSPTester.py(155) : episode 7100: avg_score 7.8081 batch_gap 0.6161% avg_gap 0.6076%
+[2025-12-18 00:27:45] TSPTester.py(155) : episode 7200: avg_score 7.8075 batch_gap 0.6749% avg_gap 0.6085%
+[2025-12-18 00:27:53] TSPTester.py(155) : episode 7300: avg_score 7.8073 batch_gap 0.5545% avg_gap 0.6078%
+[2025-12-18 00:28:01] TSPTester.py(155) : episode 7400: avg_score 7.8074 batch_gap 0.7160% avg_gap 0.6092%
+[2025-12-18 00:28:10] TSPTester.py(155) : episode 7500: avg_score 7.8069 batch_gap 0.4793% avg_gap 0.6075%
+[2025-12-18 00:28:18] TSPTester.py(155) : episode 7600: avg_score 7.8072 batch_gap 0.6565% avg_gap 0.6081%
+[2025-12-18 00:28:27] TSPTester.py(155) : episode 7700: avg_score 7.8075 batch_gap 0.6880% avg_gap 0.6092%
+[2025-12-18 00:28:36] TSPTester.py(155) : episode 7800: avg_score 7.8078 batch_gap 0.6336% avg_gap 0.6095%
+[2025-12-18 00:28:45] TSPTester.py(155) : episode 7900: avg_score 7.8083 batch_gap 0.6096% avg_gap 0.6095%
+[2025-12-18 00:28:53] TSPTester.py(155) : episode 8000: avg_score 7.8086 batch_gap 0.6225% avg_gap 0.6097%
+[2025-12-18 00:29:01] TSPTester.py(155) : episode 8100: avg_score 7.8090 batch_gap 0.5219% avg_gap 0.6086%
+[2025-12-18 00:29:10] TSPTester.py(155) : episode 8200: avg_score 7.8089 batch_gap 0.6501% avg_gap 0.6091%
+[2025-12-18 00:29:18] TSPTester.py(155) : episode 8300: avg_score 7.8092 batch_gap 0.5990% avg_gap 0.6090%
+[2025-12-18 00:29:26] TSPTester.py(155) : episode 8400: avg_score 7.8099 batch_gap 0.6140% avg_gap 0.6090%
+[2025-12-18 00:29:35] TSPTester.py(155) : episode 8500: avg_score 7.8102 batch_gap 0.5752% avg_gap 0.6086%
+[2025-12-18 00:29:43] TSPTester.py(155) : episode 8600: avg_score 7.8097 batch_gap 0.6683% avg_gap 0.6093%
+[2025-12-18 00:29:52] TSPTester.py(155) : episode 8700: avg_score 7.8097 batch_gap 0.6655% avg_gap 0.6100%
+[2025-12-18 00:30:00] TSPTester.py(155) : episode 8800: avg_score 7.8098 batch_gap 0.7136% avg_gap 0.6111%
+[2025-12-18 00:30:10] TSPTester.py(155) : episode 8900: avg_score 7.8103 batch_gap 0.6638% avg_gap 0.6117%
+[2025-12-18 00:30:18] TSPTester.py(155) : episode 9000: avg_score 7.8101 batch_gap 0.4954% avg_gap 0.6104%
+[2025-12-18 00:30:26] TSPTester.py(155) : episode 9100: avg_score 7.8095 batch_gap 0.6017% avg_gap 0.6103%
+[2025-12-18 00:30:35] TSPTester.py(155) : episode 9200: avg_score 7.8100 batch_gap 0.6899% avg_gap 0.6112%
+[2025-12-18 00:30:43] TSPTester.py(155) : episode 9300: avg_score 7.8102 batch_gap 0.5265% avg_gap 0.6103%
+[2025-12-18 00:30:52] TSPTester.py(155) : episode 9400: avg_score 7.8102 batch_gap 0.6014% avg_gap 0.6102%
+[2025-12-18 00:31:00] TSPTester.py(155) : episode 9500: avg_score 7.8099 batch_gap 0.5840% avg_gap 0.6099%
+[2025-12-18 00:31:08] TSPTester.py(155) : episode 9600: avg_score 7.8102 batch_gap 0.6107% avg_gap 0.6099%
+[2025-12-18 00:31:17] TSPTester.py(155) : episode 9700: avg_score 7.8103 batch_gap 0.5659% avg_gap 0.6095%
+[2025-12-18 00:31:25] TSPTester.py(155) : episode 9800: avg_score 7.8106 batch_gap 0.6225% avg_gap 0.6096%
+[2025-12-18 00:31:33] TSPTester.py(155) : episode 9900: avg_score 7.8107 batch_gap 0.5960% avg_gap 0.6095%
+[2025-12-18 00:31:43] TSPTester.py(155) : episode 10000: avg_score 7.8106 batch_gap 0.5950% avg_gap 0.6093%
+[2025-12-18 00:31:43] TSPTester.py(159) : gap 0.6093%
+[2025-12-18 00:31:43] test_synthetic.py(221) : distribution: uniform size: 100 avg_gap: 0.6093312913179397% time: 849.4677979946136s, 14.15779663324356m
+[2025-12-18 00:31:43] test_synthetic.py(222) : -----------------------------------------------------
+/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt
+[2025-12-18 00:31:43] test_synthetic.py(241) : DEBUG_MODE: True
+[2025-12-18 00:31:43] test_synthetic.py(242) : USE_CUDA: True, CUDA_DEVICE_NUM: 3
+[2025-12-18 00:31:43] test_synthetic.py(243) : globle_params{'test_mode': 'aug_test'}
+[2025-12-18 00:31:43] test_synthetic.py(243) : env_params{'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt', 'baseline_path': None, 'mode': 'test', 'append_information': [True, True, True, False, True, True, False, False, False, False, False], 'pomo_size': 1, 'aggregation_nums': 50, 'test_mode': 'aug_test', 'aug_size': 32}
+[2025-12-18 00:31:43] test_synthetic.py(243) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 3, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'append_information': [True, True, True, False, True, True, False, False, False, False, False]}
+[2025-12-18 00:31:43] test_synthetic.py(243) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149], 'gamma': 0.97}}
+[2025-12-18 00:31:43] test_synthetic.py(243) : tester_params{'use_cuda': True, 'cuda_device_num': 3, 'test_mode': 'aug_test', 'epochs': 150, 'test_episodes': 128, 'test_batch_size': 50, 'loop_in_one_epoch': 1, 'beam_size': 1, 'keep_threshold': 2, 'logging': {'model_save_interval': 1, 'img_save_interval': 3000, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_tsp_100.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': True, 'path': './pretrain', 'file': 'checkpoint-100.pt'}, 'problem_size': 1000, 'test_episodes_all': 128, 'knn': 30}
+[2025-12-18 00:31:43] test_synthetic.py(243) : valid_params{'sgbs_beta': 10, 'sgbs_gamma_minus1': 9, 'aug_factor': 8, 'valid_batch_size': 4}
+[2025-12-18 00:31:43] test_synthetic.py(243) : logger_params{'log_file': {'desc': 'test_aug_test_tsp100_1000_10000', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251218_001733_test_aug_test_tsp100_1000_10000'}}
+[2025-12-18 00:31:43] TSPTester.py(80) : Saved Model Loaded !!
+
+  0%|          | 0/128 [00:00<?, ?it/s]
+ 53%|#####3    | 68/128 [00:00<00:00, 675.21it/s]
+100%|##########| 128/128 [00:00<00:00, 647.18it/s]
+greedy: None
+=======================self.env.baseline_len: tensor(23.1182)
+[2025-12-18 00:32:16] TSPTester.py(155) : episode  50: avg_score 23.7440 batch_gap 2.7029% avg_gap 2.7029%
+[2025-12-18 00:32:49] TSPTester.py(155) : episode 100: avg_score 23.7399 batch_gap 2.6677% avg_gap 2.6853%
+[2025-12-18 00:33:08] TSPTester.py(155) : episode 128: avg_score 23.7456 batch_gap 2.8170% avg_gap 2.7141%
+[2025-12-18 00:33:08] TSPTester.py(159) : gap 2.7141%
+[2025-12-18 00:33:08] test_synthetic.py(221) : distribution: uniform size: 1000 avg_gap: 2.7141107507050037% time: 85.48754715919495s, 1.4247924526532492m
+[2025-12-18 00:33:08] test_synthetic.py(222) : -----------------------------------------------------
+/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp10000_n16_lkh.txt
+[2025-12-18 00:33:08] test_synthetic.py(241) : DEBUG_MODE: True
+[2025-12-18 00:33:08] test_synthetic.py(242) : USE_CUDA: True, CUDA_DEVICE_NUM: 3
+[2025-12-18 00:33:08] test_synthetic.py(243) : globle_params{'test_mode': 'aug_test'}
+[2025-12-18 00:33:08] test_synthetic.py(243) : env_params{'data_path': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp10000_n16_lkh.txt', 'baseline_path': None, 'mode': 'test', 'append_information': [True, True, True, False, True, True, False, False, False, False, False], 'pomo_size': 1, 'aggregation_nums': 50, 'test_mode': 'aug_test', 'aug_size': 8}
+[2025-12-18 00:33:08] test_synthetic.py(243) : model_params{'mode': 'test', 'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'decoder_layer_num': 3, 'qkv_dim': 16, 'head_num': 8, 'ff_hidden_dim': 512, 'append_information': [True, True, True, False, True, True, False, False, False, False, False]}
+[2025-12-18 00:33:08] test_synthetic.py(243) : optimizer_params{'optimizer': {'lr': 0.0001, 'weight_decay': 1e-06}, 'scheduler': {'milestones': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149], 'gamma': 0.97}}
+[2025-12-18 00:33:08] test_synthetic.py(243) : tester_params{'use_cuda': True, 'cuda_device_num': 3, 'test_mode': 'aug_test', 'epochs': 150, 'test_episodes': 16, 'test_batch_size': 1, 'loop_in_one_epoch': 1, 'beam_size': 1, 'keep_threshold': 2, 'logging': {'model_save_interval': 1, 'img_save_interval': 3000, 'log_image_params_1': {'json_foldername': 'log_image_style', 'filename': 'style_tsp_100.json'}, 'log_image_params_2': {'json_foldername': 'log_image_style', 'filename': 'style_loss_1.json'}}, 'model_load': {'enable': True, 'path': './pretrain', 'file': 'checkpoint-100.pt'}, 'problem_size': 10000, 'test_episodes_all': 16, 'knn': 30}
+[2025-12-18 00:33:08] test_synthetic.py(243) : valid_params{'sgbs_beta': 10, 'sgbs_gamma_minus1': 9, 'aug_factor': 8, 'valid_batch_size': 4}
+[2025-12-18 00:33:08] test_synthetic.py(243) : logger_params{'log_file': {'desc': 'test_aug_test_tsp100_1000_10000', 'filename': 'run_log.txt', 'filepath': './result_survey_tsp_synthetic/20251218_001733_test_aug_test_tsp100_1000_10000'}}
+[2025-12-18 00:33:08] TSPTester.py(80) : Saved Model Loaded !!
+
+  0%|          | 0/16 [00:00<?, ?it/s]
+ 44%|####3     | 7/16 [00:00<00:00, 66.08it/s]
+100%|##########| 16/16 [00:00<00:00, 67.50it/s]
+100%|##########| 16/16 [00:00<00:00, 67.25it/s]
+greedy: None
+=======================self.env.baseline_len: tensor(71.7729)
+[2025-12-18 00:33:49] TSPTester.py(155) : episode   1: avg_score 76.3647 batch_gap 6.4520% avg_gap 6.4520%
+[2025-12-18 00:34:28] TSPTester.py(155) : episode   2: avg_score 76.7227 batch_gap 7.0632% avg_gap 6.7576%
+[2025-12-18 00:35:09] TSPTester.py(155) : episode   3: avg_score 76.9850 batch_gap 7.6200% avg_gap 7.0450%
+[2025-12-18 00:35:48] TSPTester.py(155) : episode   4: avg_score 76.9738 batch_gap 7.3898% avg_gap 7.1312%
+[2025-12-18 00:36:29] TSPTester.py(155) : episode   5: avg_score 76.9942 batch_gap 6.7992% avg_gap 7.0648%
+[2025-12-18 00:37:08] TSPTester.py(155) : episode   6: avg_score 76.9001 batch_gap 6.8421% avg_gap 7.0277%
+[2025-12-18 00:37:46] TSPTester.py(155) : episode   7: avg_score 76.7822 batch_gap 6.0038% avg_gap 6.8814%
+[2025-12-18 00:38:26] TSPTester.py(155) : episode   8: avg_score 76.7501 batch_gap 7.0617% avg_gap 6.9040%
+[2025-12-18 00:39:05] TSPTester.py(155) : episode   9: avg_score 76.6860 batch_gap 6.2068% avg_gap 6.8265%
+[2025-12-18 00:39:47] TSPTester.py(155) : episode  10: avg_score 76.7671 batch_gap 7.5434% avg_gap 6.8982%
+[2025-12-18 00:40:26] TSPTester.py(155) : episode  11: avg_score 76.7974 batch_gap 7.4042% avg_gap 6.9442%
+[2025-12-18 00:41:05] TSPTester.py(155) : episode  12: avg_score 76.7687 batch_gap 6.8262% avg_gap 6.9344%
+[2025-12-18 00:41:45] TSPTester.py(155) : episode  13: avg_score 76.7082 batch_gap 5.9803% avg_gap 6.8610%
+[2025-12-18 00:42:24] TSPTester.py(155) : episode  14: avg_score 76.6912 batch_gap 6.6524% avg_gap 6.8461%
+[2025-12-18 00:43:05] TSPTester.py(155) : episode  15: avg_score 76.6979 batch_gap 6.9206% avg_gap 6.8510%
+[2025-12-18 00:43:44] TSPTester.py(155) : episode  16: avg_score 76.6479 batch_gap 5.9029% avg_gap 6.7918%
+[2025-12-18 00:43:44] TSPTester.py(159) : gap 6.7918%
+[2025-12-18 00:43:44] test_synthetic.py(221) : distribution: uniform size: 10000 avg_gap: 6.791782200336456% time: 636.3053631782532s, 10.60508938630422m
+[2025-12-18 00:43:44] test_synthetic.py(222) : -----------------------------------------------------

@@ -1,9 +1,0 @@
-__pycache__/
-.venv/
-.vscode
-data/
-wandb/
-lkh/
-pyvrp/
-pretrained/
-concorde/

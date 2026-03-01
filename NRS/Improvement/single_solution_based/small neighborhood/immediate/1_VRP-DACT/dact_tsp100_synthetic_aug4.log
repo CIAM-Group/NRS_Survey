@@ -1,0 +1,1191 @@
+nohup: ignoring input
+2025-12-23 01:31:51.587308: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-23 01:31:51.614701: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+
+[Options]
+  DACTdecoder_head_num: 4
+  DACTencoder_head_num: 4
+  K_epochs: 3
+  P: 250
+  RL_agent: ppo
+  T_max: 10000
+  T_train: 200
+  Xi_CL: 0.25
+  batch_size: 600
+  best_cl: True
+  checkpoint_epochs: 1
+  critic_head_num: 6
+  distributed: False
+  dummy_rate: 0.5
+  embedding_dim: 64
+  epoch_end: 200
+  epoch_size: 12000
+  epoch_start: 0
+  eps_clip: 0.1
+  eval_batch_size: 1000
+  eval_only: True
+  gamma: 0.999
+  graph_size: 100
+  hidden_dim: 64
+  init_val_met: greedy
+  load_path: pretrained/tsp100-epoch-195.pt
+  log_dir: logs
+  log_step: 50
+  lr_critic: 3e-05
+  lr_decay: 0.985
+  lr_model: 0.0001
+  max_grad_norm: 0.04
+  n_encode_layers: 3
+  n_step: 4
+  no_DDP: False
+  no_cuda: False
+  no_progress_bar: False
+  no_saving: True
+  no_tb: True
+  normalization: layer
+  output_dir: outputs
+  problem: tsp
+  resume: None
+  run_name: run_name_20251223T013153
+  save_dir: None
+  seed: 1234
+  step_method: 2_opt
+  use_assert: False
+  use_cuda: True
+  v_range: 6.0
+  val_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt
+  val_m: 4
+  val_size: 10000
+  world_size: 1
+{'DACTdecoder_head_num': 4,
+ 'DACTencoder_head_num': 4,
+ 'K_epochs': 3,
+ 'P': 250,
+ 'RL_agent': 'ppo',
+ 'T_max': 10000,
+ 'T_train': 200,
+ 'Xi_CL': 0.25,
+ 'batch_size': 600,
+ 'best_cl': True,
+ 'checkpoint_epochs': 1,
+ 'critic_head_num': 6,
+ 'distributed': False,
+ 'dummy_rate': 0.5,
+ 'embedding_dim': 64,
+ 'epoch_end': 200,
+ 'epoch_size': 12000,
+ 'epoch_start': 0,
+ 'eps_clip': 0.1,
+ 'eval_batch_size': 1000,
+ 'eval_only': True,
+ 'gamma': 0.999,
+ 'graph_size': 100,
+ 'hidden_dim': 64,
+ 'init_val_met': 'greedy',
+ 'load_path': 'pretrained/tsp100-epoch-195.pt',
+ 'log_dir': 'logs',
+ 'log_step': 50,
+ 'lr_critic': 3e-05,
+ 'lr_decay': 0.985,
+ 'lr_model': 0.0001,
+ 'max_grad_norm': 0.04,
+ 'n_encode_layers': 3,
+ 'n_step': 4,
+ 'no_DDP': False,
+ 'no_cuda': False,
+ 'no_progress_bar': False,
+ 'no_saving': True,
+ 'no_tb': True,
+ 'normalization': 'layer',
+ 'output_dir': 'outputs',
+ 'problem': 'tsp',
+ 'resume': None,
+ 'run_name': 'run_name_20251223T013153',
+ 'save_dir': None,
+ 'seed': 1234,
+ 'step_method': '2_opt',
+ 'use_assert': False,
+ 'use_cuda': True,
+ 'v_range': 6.0,
+ 'val_dataset': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp100_n10000_lkh.txt',
+ 'val_m': 4,
+ 'val_size': 10000,
+ 'world_size': 1}
+TSP with 100 nodes.  Do assert: False
+{'Total': 280801, 'Trainable': 280801}
+Distributed: False
+ [*] Loading data from pretrained/tsp100-epoch-195.pt
+
+Inference with x4 augments...
+
+  0%|          | 0/10000 [00:00<?, ?it/s]
+  9%|9         | 920/10000 [00:00<00:01, 5651.57it/s]
+ 22%|##2       | 2246/10000 [00:00<00:01, 6412.28it/s]
+ 39%|###9      | 3902/10000 [00:00<00:00, 6882.61it/s]
+ 56%|#####5    | 5585/10000 [00:00<00:00, 9315.78it/s]
+ 67%|######6   | 6661/10000 [00:00<00:00, 7597.39it/s]
+ 83%|########3 | 8333/10000 [00:00<00:00, 9647.91it/s]
+ 95%|#########4| 9480/10000 [00:01<00:00, 7684.35it/s]
+100%|##########| 10000/10000 [00:01<00:00, 8008.85it/s]
+
+##############################################
+# ! Note that Avg cost here is not right, only facilitate monitoring steps during inference,
+# please refer to the final evaluation table below.
+###############################################
+Step: 100/10000 | Avg Cost: 8.2792
+Step: 200/10000 | Avg Cost: 8.2145
+Step: 300/10000 | Avg Cost: 8.1793
+Step: 400/10000 | Avg Cost: 8.1537
+Step: 500/10000 | Avg Cost: 8.1382
+Step: 600/10000 | Avg Cost: 8.1195
+Step: 700/10000 | Avg Cost: 8.1069
+Step: 800/10000 | Avg Cost: 8.1025
+Step: 900/10000 | Avg Cost: 8.0906
+Step: 1000/10000 | Avg Cost: 8.0795
+Step: 1100/10000 | Avg Cost: 8.0875
+Step: 1200/10000 | Avg Cost: 8.0727
+Step: 1300/10000 | Avg Cost: 8.0657
+Step: 1400/10000 | Avg Cost: 8.0634
+Step: 1500/10000 | Avg Cost: 8.0591
+Step: 1600/10000 | Avg Cost: 8.0561
+Step: 1700/10000 | Avg Cost: 8.0500
+Step: 1800/10000 | Avg Cost: 8.0493
+Step: 1900/10000 | Avg Cost: 8.0417
+Step: 2000/10000 | Avg Cost: 8.0342
+Step: 2100/10000 | Avg Cost: 8.0473
+Step: 2200/10000 | Avg Cost: 8.0409
+Step: 2300/10000 | Avg Cost: 8.0378
+Step: 2400/10000 | Avg Cost: 8.0446
+Step: 2500/10000 | Avg Cost: 8.0344
+Step: 2600/10000 | Avg Cost: 8.0300
+Step: 2700/10000 | Avg Cost: 8.0258
+Step: 2800/10000 | Avg Cost: 8.0353
+Step: 2900/10000 | Avg Cost: 8.0318
+Step: 3000/10000 | Avg Cost: 8.0243
+Step: 3100/10000 | Avg Cost: 8.0242
+Step: 3200/10000 | Avg Cost: 8.0236
+Step: 3300/10000 | Avg Cost: 8.0220
+Step: 3400/10000 | Avg Cost: 8.0246
+Step: 3500/10000 | Avg Cost: 8.0241
+Step: 3600/10000 | Avg Cost: 8.0305
+Step: 3700/10000 | Avg Cost: 8.0146
+Step: 3800/10000 | Avg Cost: 8.0192
+Step: 3900/10000 | Avg Cost: 8.0193
+Step: 4000/10000 | Avg Cost: 8.0127
+Step: 4100/10000 | Avg Cost: 8.0230
+Step: 4200/10000 | Avg Cost: 8.0128
+Step: 4300/10000 | Avg Cost: 8.0165
+Step: 4400/10000 | Avg Cost: 8.0096
+Step: 4500/10000 | Avg Cost: 8.0145
+Step: 4600/10000 | Avg Cost: 8.0164
+Step: 4700/10000 | Avg Cost: 8.0082
+Step: 4800/10000 | Avg Cost: 8.0126
+Step: 4900/10000 | Avg Cost: 8.0034
+Step: 5000/10000 | Avg Cost: 8.0062
+Step: 5100/10000 | Avg Cost: 8.0097
+Step: 5200/10000 | Avg Cost: 8.0136
+Step: 5300/10000 | Avg Cost: 8.0068
+Step: 5400/10000 | Avg Cost: 8.0049
+Step: 5500/10000 | Avg Cost: 8.0149
+Step: 5600/10000 | Avg Cost: 8.0051
+Step: 5700/10000 | Avg Cost: 8.0107
+Step: 5800/10000 | Avg Cost: 8.0045
+Step: 5900/10000 | Avg Cost: 8.0025
+Step: 6000/10000 | Avg Cost: 8.0059
+Step: 6100/10000 | Avg Cost: 8.0068
+Step: 6200/10000 | Avg Cost: 8.0038
+Step: 6300/10000 | Avg Cost: 8.0111
+Step: 6400/10000 | Avg Cost: 8.0043
+Step: 6500/10000 | Avg Cost: 8.0049
+Step: 6600/10000 | Avg Cost: 8.0039
+Step: 6700/10000 | Avg Cost: 8.0100
+Step: 6800/10000 | Avg Cost: 8.0030
+Step: 6900/10000 | Avg Cost: 8.0052
+Step: 7000/10000 | Avg Cost: 8.0030
+Step: 7100/10000 | Avg Cost: 8.0083
+Step: 7200/10000 | Avg Cost: 8.0059
+Step: 7300/10000 | Avg Cost: 8.0075
+Step: 7400/10000 | Avg Cost: 7.9954
+Step: 7500/10000 | Avg Cost: 7.9979
+Step: 7600/10000 | Avg Cost: 7.9988
+Step: 7700/10000 | Avg Cost: 7.9973
+Step: 7800/10000 | Avg Cost: 8.0049
+Step: 7900/10000 | Avg Cost: 7.9949
+Step: 8000/10000 | Avg Cost: 7.9906
+Step: 8100/10000 | Avg Cost: 7.9994
+Step: 8200/10000 | Avg Cost: 8.0009
+Step: 8300/10000 | Avg Cost: 8.0074
+Step: 8400/10000 | Avg Cost: 7.9991
+Step: 8500/10000 | Avg Cost: 8.0075
+Step: 8600/10000 | Avg Cost: 7.9972
+Step: 8700/10000 | Avg Cost: 7.9941
+Step: 8800/10000 | Avg Cost: 7.9987
+Step: 8900/10000 | Avg Cost: 7.9934
+Step: 9000/10000 | Avg Cost: 8.0042
+Step: 9100/10000 | Avg Cost: 7.9936
+Step: 9200/10000 | Avg Cost: 8.0009
+Step: 9300/10000 | Avg Cost: 8.0056
+Step: 9400/10000 | Avg Cost: 8.0012
+Step: 9500/10000 | Avg Cost: 8.0007
+Step: 9600/10000 | Avg Cost: 7.9956
+Step: 9700/10000 | Avg Cost: 7.9966
+Step: 9800/10000 | Avg Cost: 7.9971
+Step: 9900/10000 | Avg Cost: 7.9974
+Step: 10000/10000 | Avg Cost: 8.0016
+Step: 100/10000 | Avg Cost: 8.2707
+Step: 200/10000 | Avg Cost: 8.2042
+Step: 300/10000 | Avg Cost: 8.1802
+Step: 400/10000 | Avg Cost: 8.1445
+Step: 500/10000 | Avg Cost: 8.1226
+Step: 600/10000 | Avg Cost: 8.1211
+Step: 700/10000 | Avg Cost: 8.1104
+Step: 800/10000 | Avg Cost: 8.0968
+Step: 900/10000 | Avg Cost: 8.0896
+Step: 1000/10000 | Avg Cost: 8.0769
+Step: 1100/10000 | Avg Cost: 8.0738
+Step: 1200/10000 | Avg Cost: 8.0637
+Step: 1300/10000 | Avg Cost: 8.0605
+Step: 1400/10000 | Avg Cost: 8.0648
+Step: 1500/10000 | Avg Cost: 8.0638
+Step: 1600/10000 | Avg Cost: 8.0589
+Step: 1700/10000 | Avg Cost: 8.0469
+Step: 1800/10000 | Avg Cost: 8.0484
+Step: 1900/10000 | Avg Cost: 8.0442
+Step: 2000/10000 | Avg Cost: 8.0403
+Step: 2100/10000 | Avg Cost: 8.0382
+Step: 2200/10000 | Avg Cost: 8.0385
+Step: 2300/10000 | Avg Cost: 8.0355
+Step: 2400/10000 | Avg Cost: 8.0301
+Step: 2500/10000 | Avg Cost: 8.0243
+Step: 2600/10000 | Avg Cost: 8.0318
+Step: 2700/10000 | Avg Cost: 8.0292
+Step: 2800/10000 | Avg Cost: 8.0301
+Step: 2900/10000 | Avg Cost: 8.0241
+Step: 3000/10000 | Avg Cost: 8.0234
+Step: 3100/10000 | Avg Cost: 8.0212
+Step: 3200/10000 | Avg Cost: 8.0220
+Step: 3300/10000 | Avg Cost: 8.0260
+Step: 3400/10000 | Avg Cost: 8.0141
+Step: 3500/10000 | Avg Cost: 8.0141
+Step: 3600/10000 | Avg Cost: 8.0145
+Step: 3700/10000 | Avg Cost: 8.0140
+Step: 3800/10000 | Avg Cost: 8.0126
+Step: 3900/10000 | Avg Cost: 8.0219
+Step: 4000/10000 | Avg Cost: 8.0134
+Step: 4100/10000 | Avg Cost: 8.0172
+Step: 4200/10000 | Avg Cost: 8.0184
+Step: 4300/10000 | Avg Cost: 8.0157
+Step: 4400/10000 | Avg Cost: 8.0116
+Step: 4500/10000 | Avg Cost: 8.0160
+Step: 4600/10000 | Avg Cost: 8.0113
+Step: 4700/10000 | Avg Cost: 8.0039
+Step: 4800/10000 | Avg Cost: 8.0052
+Step: 4900/10000 | Avg Cost: 8.0103
+Step: 5000/10000 | Avg Cost: 8.0130
+Step: 5100/10000 | Avg Cost: 8.0100
+Step: 5200/10000 | Avg Cost: 8.0131
+Step: 5300/10000 | Avg Cost: 8.0090
+Step: 5400/10000 | Avg Cost: 8.0084
+Step: 5500/10000 | Avg Cost: 8.0026
+Step: 5600/10000 | Avg Cost: 8.0058
+Step: 5700/10000 | Avg Cost: 8.0088
+Step: 5800/10000 | Avg Cost: 8.0084
+Step: 5900/10000 | Avg Cost: 8.0023
+Step: 6000/10000 | Avg Cost: 8.0033
+Step: 6100/10000 | Avg Cost: 8.0056
+Step: 6200/10000 | Avg Cost: 8.0108
+Step: 6300/10000 | Avg Cost: 8.0049
+Step: 6400/10000 | Avg Cost: 7.9974
+Step: 6500/10000 | Avg Cost: 8.0056
+Step: 6600/10000 | Avg Cost: 7.9978
+Step: 6700/10000 | Avg Cost: 7.9982
+Step: 6800/10000 | Avg Cost: 8.0027
+Step: 6900/10000 | Avg Cost: 8.0024
+Step: 7000/10000 | Avg Cost: 7.9980
+Step: 7100/10000 | Avg Cost: 8.0018
+Step: 7200/10000 | Avg Cost: 8.0089
+Step: 7300/10000 | Avg Cost: 7.9933
+Step: 7400/10000 | Avg Cost: 7.9997
+Step: 7500/10000 | Avg Cost: 8.0045
+Step: 7600/10000 | Avg Cost: 7.9992
+Step: 7700/10000 | Avg Cost: 8.0029
+Step: 7800/10000 | Avg Cost: 8.0006
+Step: 7900/10000 | Avg Cost: 7.9975
+Step: 8000/10000 | Avg Cost: 7.9900
+Step: 8100/10000 | Avg Cost: 8.0057
+Step: 8200/10000 | Avg Cost: 7.9963
+Step: 8300/10000 | Avg Cost: 7.9958
+Step: 8400/10000 | Avg Cost: 7.9866
+Step: 8500/10000 | Avg Cost: 7.9988
+Step: 8600/10000 | Avg Cost: 7.9934
+Step: 8700/10000 | Avg Cost: 7.9930
+Step: 8800/10000 | Avg Cost: 7.9938
+Step: 8900/10000 | Avg Cost: 7.9942
+Step: 9000/10000 | Avg Cost: 7.9985
+Step: 9100/10000 | Avg Cost: 7.9979
+Step: 9200/10000 | Avg Cost: 7.9921
+Step: 9300/10000 | Avg Cost: 7.9929
+Step: 9400/10000 | Avg Cost: 7.9958
+Step: 9500/10000 | Avg Cost: 7.9931
+Step: 9600/10000 | Avg Cost: 7.9945
+Step: 9700/10000 | Avg Cost: 7.9915
+Step: 9800/10000 | Avg Cost: 8.0041
+Step: 9900/10000 | Avg Cost: 7.9881
+Step: 10000/10000 | Avg Cost: 7.9951
+Step: 100/10000 | Avg Cost: 8.2832
+Step: 200/10000 | Avg Cost: 8.2137
+Step: 300/10000 | Avg Cost: 8.1812
+Step: 400/10000 | Avg Cost: 8.1528
+Step: 500/10000 | Avg Cost: 8.1369
+Step: 600/10000 | Avg Cost: 8.1174
+Step: 700/10000 | Avg Cost: 8.1097
+Step: 800/10000 | Avg Cost: 8.1025
+Step: 900/10000 | Avg Cost: 8.0951
+Step: 1000/10000 | Avg Cost: 8.0883
+Step: 1100/10000 | Avg Cost: 8.0754
+Step: 1200/10000 | Avg Cost: 8.0724
+Step: 1300/10000 | Avg Cost: 8.0740
+Step: 1400/10000 | Avg Cost: 8.0709
+Step: 1500/10000 | Avg Cost: 8.0638
+Step: 1600/10000 | Avg Cost: 8.0566
+Step: 1700/10000 | Avg Cost: 8.0537
+Step: 1800/10000 | Avg Cost: 8.0569
+Step: 1900/10000 | Avg Cost: 8.0568
+Step: 2000/10000 | Avg Cost: 8.0478
+Step: 2100/10000 | Avg Cost: 8.0464
+Step: 2200/10000 | Avg Cost: 8.0502
+Step: 2300/10000 | Avg Cost: 8.0371
+Step: 2400/10000 | Avg Cost: 8.0390
+Step: 2500/10000 | Avg Cost: 8.0319
+Step: 2600/10000 | Avg Cost: 8.0331
+Step: 2700/10000 | Avg Cost: 8.0365
+Step: 2800/10000 | Avg Cost: 8.0262
+Step: 2900/10000 | Avg Cost: 8.0294
+Step: 3000/10000 | Avg Cost: 8.0261
+Step: 3100/10000 | Avg Cost: 8.0298
+Step: 3200/10000 | Avg Cost: 8.0236
+Step: 3300/10000 | Avg Cost: 8.0235
+Step: 3400/10000 | Avg Cost: 8.0241
+Step: 3500/10000 | Avg Cost: 8.0245
+Step: 3600/10000 | Avg Cost: 8.0187
+Step: 3700/10000 | Avg Cost: 8.0235
+Step: 3800/10000 | Avg Cost: 8.0215
+Step: 3900/10000 | Avg Cost: 8.0144
+Step: 4000/10000 | Avg Cost: 8.0149
+Step: 4100/10000 | Avg Cost: 8.0215
+Step: 4200/10000 | Avg Cost: 8.0153
+Step: 4300/10000 | Avg Cost: 8.0228
+Step: 4400/10000 | Avg Cost: 8.0198
+Step: 4500/10000 | Avg Cost: 8.0102
+Step: 4600/10000 | Avg Cost: 8.0125
+Step: 4700/10000 | Avg Cost: 8.0209
+Step: 4800/10000 | Avg Cost: 8.0086
+Step: 4900/10000 | Avg Cost: 8.0151
+Step: 5000/10000 | Avg Cost: 8.0060
+Step: 5100/10000 | Avg Cost: 8.0063
+Step: 5200/10000 | Avg Cost: 8.0146
+Step: 5300/10000 | Avg Cost: 8.0180
+Step: 5400/10000 | Avg Cost: 8.0102
+Step: 5500/10000 | Avg Cost: 8.0134
+Step: 5600/10000 | Avg Cost: 8.0083
+Step: 5700/10000 | Avg Cost: 8.0111
+Step: 5800/10000 | Avg Cost: 8.0041
+Step: 5900/10000 | Avg Cost: 8.0093
+Step: 6000/10000 | Avg Cost: 8.0109
+Step: 6100/10000 | Avg Cost: 7.9965
+Step: 6200/10000 | Avg Cost: 8.0060
+Step: 6300/10000 | Avg Cost: 8.0045
+Step: 6400/10000 | Avg Cost: 8.0021
+Step: 6500/10000 | Avg Cost: 8.0026
+Step: 6600/10000 | Avg Cost: 8.0099
+Step: 6700/10000 | Avg Cost: 8.0024
+Step: 6800/10000 | Avg Cost: 8.0075
+Step: 6900/10000 | Avg Cost: 8.0010
+Step: 7000/10000 | Avg Cost: 8.0019
+Step: 7100/10000 | Avg Cost: 7.9974
+Step: 7200/10000 | Avg Cost: 8.0025
+Step: 7300/10000 | Avg Cost: 8.0010
+Step: 7400/10000 | Avg Cost: 7.9981
+Step: 7500/10000 | Avg Cost: 8.0027
+Step: 7600/10000 | Avg Cost: 7.9960
+Step: 7700/10000 | Avg Cost: 8.0071
+Step: 7800/10000 | Avg Cost: 8.0022
+Step: 7900/10000 | Avg Cost: 7.9976
+Step: 8000/10000 | Avg Cost: 8.0000
+Step: 8100/10000 | Avg Cost: 7.9919
+Step: 8200/10000 | Avg Cost: 7.9980
+Step: 8300/10000 | Avg Cost: 8.0031
+Step: 8400/10000 | Avg Cost: 7.9966
+Step: 8500/10000 | Avg Cost: 8.0007
+Step: 8600/10000 | Avg Cost: 8.0009
+Step: 8700/10000 | Avg Cost: 7.9975
+Step: 8800/10000 | Avg Cost: 7.9964
+Step: 8900/10000 | Avg Cost: 8.0034
+Step: 9000/10000 | Avg Cost: 8.0059
+Step: 9100/10000 | Avg Cost: 7.9996
+Step: 9200/10000 | Avg Cost: 7.9946
+Step: 9300/10000 | Avg Cost: 7.9976
+Step: 9400/10000 | Avg Cost: 7.9907
+Step: 9500/10000 | Avg Cost: 7.9957
+Step: 9600/10000 | Avg Cost: 7.9888
+Step: 9700/10000 | Avg Cost: 7.9892
+Step: 9800/10000 | Avg Cost: 7.9886
+Step: 9900/10000 | Avg Cost: 8.0018
+Step: 10000/10000 | Avg Cost: 7.9967
+Step: 100/10000 | Avg Cost: 8.2922
+Step: 200/10000 | Avg Cost: 8.2306
+Step: 300/10000 | Avg Cost: 8.1932
+Step: 400/10000 | Avg Cost: 8.1661
+Step: 500/10000 | Avg Cost: 8.1483
+Step: 600/10000 | Avg Cost: 8.1292
+Step: 700/10000 | Avg Cost: 8.1186
+Step: 800/10000 | Avg Cost: 8.1176
+Step: 900/10000 | Avg Cost: 8.0999
+Step: 1000/10000 | Avg Cost: 8.0913
+Step: 1100/10000 | Avg Cost: 8.0932
+Step: 1200/10000 | Avg Cost: 8.0843
+Step: 1300/10000 | Avg Cost: 8.0814
+Step: 1400/10000 | Avg Cost: 8.0798
+Step: 1500/10000 | Avg Cost: 8.0730
+Step: 1600/10000 | Avg Cost: 8.0766
+Step: 1700/10000 | Avg Cost: 8.0667
+Step: 1800/10000 | Avg Cost: 8.0629
+Step: 1900/10000 | Avg Cost: 8.0638
+Step: 2000/10000 | Avg Cost: 8.0589
+Step: 2100/10000 | Avg Cost: 8.0537
+Step: 2200/10000 | Avg Cost: 8.0542
+Step: 2300/10000 | Avg Cost: 8.0477
+Step: 2400/10000 | Avg Cost: 8.0523
+Step: 2500/10000 | Avg Cost: 8.0471
+Step: 2600/10000 | Avg Cost: 8.0426
+Step: 2700/10000 | Avg Cost: 8.0461
+Step: 2800/10000 | Avg Cost: 8.0391
+Step: 2900/10000 | Avg Cost: 8.0471
+Step: 3000/10000 | Avg Cost: 8.0368
+Step: 3100/10000 | Avg Cost: 8.0380
+Step: 3200/10000 | Avg Cost: 8.0344
+Step: 3300/10000 | Avg Cost: 8.0386
+Step: 3400/10000 | Avg Cost: 8.0369
+Step: 3500/10000 | Avg Cost: 8.0238
+Step: 3600/10000 | Avg Cost: 8.0321
+Step: 3700/10000 | Avg Cost: 8.0367
+Step: 3800/10000 | Avg Cost: 8.0303
+Step: 3900/10000 | Avg Cost: 8.0319
+Step: 4000/10000 | Avg Cost: 8.0359
+Step: 4100/10000 | Avg Cost: 8.0279
+Step: 4200/10000 | Avg Cost: 8.0287
+Step: 4300/10000 | Avg Cost: 8.0255
+Step: 4400/10000 | Avg Cost: 8.0319
+Step: 4500/10000 | Avg Cost: 8.0282
+Step: 4600/10000 | Avg Cost: 8.0335
+Step: 4700/10000 | Avg Cost: 8.0276
+Step: 4800/10000 | Avg Cost: 8.0228
+Step: 4900/10000 | Avg Cost: 8.0199
+Step: 5000/10000 | Avg Cost: 8.0340
+Step: 5100/10000 | Avg Cost: 8.0213
+Step: 5200/10000 | Avg Cost: 8.0218
+Step: 5300/10000 | Avg Cost: 8.0266
+Step: 5400/10000 | Avg Cost: 8.0296
+Step: 5500/10000 | Avg Cost: 8.0126
+Step: 5600/10000 | Avg Cost: 8.0152
+Step: 5700/10000 | Avg Cost: 8.0200
+Step: 5800/10000 | Avg Cost: 8.0171
+Step: 5900/10000 | Avg Cost: 8.0239
+Step: 6000/10000 | Avg Cost: 8.0157
+Step: 6100/10000 | Avg Cost: 8.0230
+Step: 6200/10000 | Avg Cost: 8.0211
+Step: 6300/10000 | Avg Cost: 8.0156
+Step: 6400/10000 | Avg Cost: 8.0165
+Step: 6500/10000 | Avg Cost: 8.0134
+Step: 6600/10000 | Avg Cost: 8.0170
+Step: 6700/10000 | Avg Cost: 8.0149
+Step: 6800/10000 | Avg Cost: 8.0101
+Step: 6900/10000 | Avg Cost: 8.0143
+Step: 7000/10000 | Avg Cost: 8.0153
+Step: 7100/10000 | Avg Cost: 8.0072
+Step: 7200/10000 | Avg Cost: 8.0130
+Step: 7300/10000 | Avg Cost: 8.0170
+Step: 7400/10000 | Avg Cost: 8.0146
+Step: 7500/10000 | Avg Cost: 8.0109
+Step: 7600/10000 | Avg Cost: 8.0187
+Step: 7700/10000 | Avg Cost: 8.0103
+Step: 7800/10000 | Avg Cost: 8.0118
+Step: 7900/10000 | Avg Cost: 8.0115
+Step: 8000/10000 | Avg Cost: 8.0076
+Step: 8100/10000 | Avg Cost: 8.0144
+Step: 8200/10000 | Avg Cost: 8.0101
+Step: 8300/10000 | Avg Cost: 8.0055
+Step: 8400/10000 | Avg Cost: 8.0079
+Step: 8500/10000 | Avg Cost: 8.0089
+Step: 8600/10000 | Avg Cost: 8.0105
+Step: 8700/10000 | Avg Cost: 8.0120
+Step: 8800/10000 | Avg Cost: 8.0066
+Step: 8900/10000 | Avg Cost: 8.0109
+Step: 9000/10000 | Avg Cost: 8.0177
+Step: 9100/10000 | Avg Cost: 8.0025
+Step: 9200/10000 | Avg Cost: 8.0112
+Step: 9300/10000 | Avg Cost: 7.9983
+Step: 9400/10000 | Avg Cost: 7.9996
+Step: 9500/10000 | Avg Cost: 8.0077
+Step: 9600/10000 | Avg Cost: 8.0087
+Step: 9700/10000 | Avg Cost: 8.0142
+Step: 9800/10000 | Avg Cost: 8.0120
+Step: 9900/10000 | Avg Cost: 8.0040
+Step: 10000/10000 | Avg Cost: 8.0027
+Step: 100/10000 | Avg Cost: 8.3104
+Step: 200/10000 | Avg Cost: 8.2326
+Step: 300/10000 | Avg Cost: 8.2034
+Step: 400/10000 | Avg Cost: 8.1733
+Step: 500/10000 | Avg Cost: 8.1546
+Step: 600/10000 | Avg Cost: 8.1429
+Step: 700/10000 | Avg Cost: 8.1216
+Step: 800/10000 | Avg Cost: 8.1142
+Step: 900/10000 | Avg Cost: 8.1161
+Step: 1000/10000 | Avg Cost: 8.1088
+Step: 1100/10000 | Avg Cost: 8.1007
+Step: 1200/10000 | Avg Cost: 8.0872
+Step: 1300/10000 | Avg Cost: 8.0816
+Step: 1400/10000 | Avg Cost: 8.0786
+Step: 1500/10000 | Avg Cost: 8.0744
+Step: 1600/10000 | Avg Cost: 8.0722
+Step: 1700/10000 | Avg Cost: 8.0698
+Step: 1800/10000 | Avg Cost: 8.0722
+Step: 1900/10000 | Avg Cost: 8.0642
+Step: 2000/10000 | Avg Cost: 8.0584
+Step: 2100/10000 | Avg Cost: 8.0617
+Step: 2200/10000 | Avg Cost: 8.0537
+Step: 2300/10000 | Avg Cost: 8.0585
+Step: 2400/10000 | Avg Cost: 8.0553
+Step: 2500/10000 | Avg Cost: 8.0438
+Step: 2600/10000 | Avg Cost: 8.0487
+Step: 2700/10000 | Avg Cost: 8.0427
+Step: 2800/10000 | Avg Cost: 8.0413
+Step: 2900/10000 | Avg Cost: 8.0513
+Step: 3000/10000 | Avg Cost: 8.0485
+Step: 3100/10000 | Avg Cost: 8.0493
+Step: 3200/10000 | Avg Cost: 8.0460
+Step: 3300/10000 | Avg Cost: 8.0378
+Step: 3400/10000 | Avg Cost: 8.0366
+Step: 3500/10000 | Avg Cost: 8.0435
+Step: 3600/10000 | Avg Cost: 8.0371
+Step: 3700/10000 | Avg Cost: 8.0359
+Step: 3800/10000 | Avg Cost: 8.0350
+Step: 3900/10000 | Avg Cost: 8.0348
+Step: 4000/10000 | Avg Cost: 8.0283
+Step: 4100/10000 | Avg Cost: 8.0342
+Step: 4200/10000 | Avg Cost: 8.0259
+Step: 4300/10000 | Avg Cost: 8.0363
+Step: 4400/10000 | Avg Cost: 8.0319
+Step: 4500/10000 | Avg Cost: 8.0293
+Step: 4600/10000 | Avg Cost: 8.0269
+Step: 4700/10000 | Avg Cost: 8.0249
+Step: 4800/10000 | Avg Cost: 8.0301
+Step: 4900/10000 | Avg Cost: 8.0208
+Step: 5000/10000 | Avg Cost: 8.0271
+Step: 5100/10000 | Avg Cost: 8.0236
+Step: 5200/10000 | Avg Cost: 8.0348
+Step: 5300/10000 | Avg Cost: 8.0184
+Step: 5400/10000 | Avg Cost: 8.0226
+Step: 5500/10000 | Avg Cost: 8.0266
+Step: 5600/10000 | Avg Cost: 8.0262
+Step: 5700/10000 | Avg Cost: 8.0260
+Step: 5800/10000 | Avg Cost: 8.0353
+Step: 5900/10000 | Avg Cost: 8.0269
+Step: 6000/10000 | Avg Cost: 8.0278
+Step: 6100/10000 | Avg Cost: 8.0297
+Step: 6200/10000 | Avg Cost: 8.0224
+Step: 6300/10000 | Avg Cost: 8.0276
+Step: 6400/10000 | Avg Cost: 8.0191
+Step: 6500/10000 | Avg Cost: 8.0171
+Step: 6600/10000 | Avg Cost: 8.0199
+Step: 6700/10000 | Avg Cost: 8.0168
+Step: 6800/10000 | Avg Cost: 8.0157
+Step: 6900/10000 | Avg Cost: 8.0137
+Step: 7000/10000 | Avg Cost: 8.0246
+Step: 7100/10000 | Avg Cost: 8.0190
+Step: 7200/10000 | Avg Cost: 8.0084
+Step: 7300/10000 | Avg Cost: 8.0205
+Step: 7400/10000 | Avg Cost: 8.0180
+Step: 7500/10000 | Avg Cost: 8.0153
+Step: 7600/10000 | Avg Cost: 8.0137
+Step: 7700/10000 | Avg Cost: 8.0184
+Step: 7800/10000 | Avg Cost: 8.0166
+Step: 7900/10000 | Avg Cost: 8.0205
+Step: 8000/10000 | Avg Cost: 8.0055
+Step: 8100/10000 | Avg Cost: 8.0108
+Step: 8200/10000 | Avg Cost: 8.0162
+Step: 8300/10000 | Avg Cost: 8.0105
+Step: 8400/10000 | Avg Cost: 8.0182
+Step: 8500/10000 | Avg Cost: 8.0167
+Step: 8600/10000 | Avg Cost: 8.0081
+Step: 8700/10000 | Avg Cost: 8.0033
+Step: 8800/10000 | Avg Cost: 8.0203
+Step: 8900/10000 | Avg Cost: 8.0165
+Step: 9000/10000 | Avg Cost: 8.0053
+Step: 9100/10000 | Avg Cost: 8.0170
+Step: 9200/10000 | Avg Cost: 8.0200
+Step: 9300/10000 | Avg Cost: 8.0205
+Step: 9400/10000 | Avg Cost: 8.0062
+Step: 9500/10000 | Avg Cost: 8.0152
+Step: 9600/10000 | Avg Cost: 8.0148
+Step: 9700/10000 | Avg Cost: 8.0104
+Step: 9800/10000 | Avg Cost: 8.0091
+Step: 9900/10000 | Avg Cost: 8.0162
+Step: 10000/10000 | Avg Cost: 8.0088
+Step: 100/10000 | Avg Cost: 8.2848
+Step: 200/10000 | Avg Cost: 8.2141
+Step: 300/10000 | Avg Cost: 8.1898
+Step: 400/10000 | Avg Cost: 8.1589
+Step: 500/10000 | Avg Cost: 8.1470
+Step: 600/10000 | Avg Cost: 8.1299
+Step: 700/10000 | Avg Cost: 8.1064
+Step: 800/10000 | Avg Cost: 8.0986
+Step: 900/10000 | Avg Cost: 8.0909
+Step: 1000/10000 | Avg Cost: 8.0859
+Step: 1100/10000 | Avg Cost: 8.0843
+Step: 1200/10000 | Avg Cost: 8.0751
+Step: 1300/10000 | Avg Cost: 8.0686
+Step: 1400/10000 | Avg Cost: 8.0704
+Step: 1500/10000 | Avg Cost: 8.0592
+Step: 1600/10000 | Avg Cost: 8.0619
+Step: 1700/10000 | Avg Cost: 8.0586
+Step: 1800/10000 | Avg Cost: 8.0535
+Step: 1900/10000 | Avg Cost: 8.0447
+Step: 2000/10000 | Avg Cost: 8.0550
+Step: 2100/10000 | Avg Cost: 8.0510
+Step: 2200/10000 | Avg Cost: 8.0435
+Step: 2300/10000 | Avg Cost: 8.0454
+Step: 2400/10000 | Avg Cost: 8.0477
+Step: 2500/10000 | Avg Cost: 8.0368
+Step: 2600/10000 | Avg Cost: 8.0448
+Step: 2700/10000 | Avg Cost: 8.0393
+Step: 2800/10000 | Avg Cost: 8.0376
+Step: 2900/10000 | Avg Cost: 8.0417
+Step: 3000/10000 | Avg Cost: 8.0301
+Step: 3100/10000 | Avg Cost: 8.0308
+Step: 3200/10000 | Avg Cost: 8.0328
+Step: 3300/10000 | Avg Cost: 8.0237
+Step: 3400/10000 | Avg Cost: 8.0338
+Step: 3500/10000 | Avg Cost: 8.0303
+Step: 3600/10000 | Avg Cost: 8.0205
+Step: 3700/10000 | Avg Cost: 8.0239
+Step: 3800/10000 | Avg Cost: 8.0372
+Step: 3900/10000 | Avg Cost: 8.0245
+Step: 4000/10000 | Avg Cost: 8.0180
+Step: 4100/10000 | Avg Cost: 8.0264
+Step: 4200/10000 | Avg Cost: 8.0236
+Step: 4300/10000 | Avg Cost: 8.0191
+Step: 4400/10000 | Avg Cost: 8.0227
+Step: 4500/10000 | Avg Cost: 8.0171
+Step: 4600/10000 | Avg Cost: 8.0221
+Step: 4700/10000 | Avg Cost: 8.0174
+Step: 4800/10000 | Avg Cost: 8.0160
+Step: 4900/10000 | Avg Cost: 8.0232
+Step: 5000/10000 | Avg Cost: 8.0159
+Step: 5100/10000 | Avg Cost: 8.0152
+Step: 5200/10000 | Avg Cost: 8.0172
+Step: 5300/10000 | Avg Cost: 8.0127
+Step: 5400/10000 | Avg Cost: 8.0146
+Step: 5500/10000 | Avg Cost: 8.0150
+Step: 5600/10000 | Avg Cost: 8.0094
+Step: 5700/10000 | Avg Cost: 8.0114
+Step: 5800/10000 | Avg Cost: 8.0125
+Step: 5900/10000 | Avg Cost: 8.0176
+Step: 6000/10000 | Avg Cost: 8.0149
+Step: 6100/10000 | Avg Cost: 8.0053
+Step: 6200/10000 | Avg Cost: 8.0033
+Step: 6300/10000 | Avg Cost: 8.0010
+Step: 6400/10000 | Avg Cost: 8.0125
+Step: 6500/10000 | Avg Cost: 7.9988
+Step: 6600/10000 | Avg Cost: 8.0091
+Step: 6700/10000 | Avg Cost: 8.0068
+Step: 6800/10000 | Avg Cost: 8.0102
+Step: 6900/10000 | Avg Cost: 8.0102
+Step: 7000/10000 | Avg Cost: 7.9964
+Step: 7100/10000 | Avg Cost: 8.0098
+Step: 7200/10000 | Avg Cost: 8.0082
+Step: 7300/10000 | Avg Cost: 8.0041
+Step: 7400/10000 | Avg Cost: 8.0061
+Step: 7500/10000 | Avg Cost: 8.0048
+Step: 7600/10000 | Avg Cost: 8.0069
+Step: 7700/10000 | Avg Cost: 8.0017
+Step: 7800/10000 | Avg Cost: 8.0022
+Step: 7900/10000 | Avg Cost: 8.0113
+Step: 8000/10000 | Avg Cost: 8.0022
+Step: 8100/10000 | Avg Cost: 7.9949
+Step: 8200/10000 | Avg Cost: 8.0036
+Step: 8300/10000 | Avg Cost: 8.0058
+Step: 8400/10000 | Avg Cost: 8.0071
+Step: 8500/10000 | Avg Cost: 8.0004
+Step: 8600/10000 | Avg Cost: 8.0020
+Step: 8700/10000 | Avg Cost: 8.0010
+Step: 8800/10000 | Avg Cost: 7.9956
+Step: 8900/10000 | Avg Cost: 8.0116
+Step: 9000/10000 | Avg Cost: 7.9993
+Step: 9100/10000 | Avg Cost: 8.0087
+Step: 9200/10000 | Avg Cost: 8.0025
+Step: 9300/10000 | Avg Cost: 8.0133
+Step: 9400/10000 | Avg Cost: 8.0009
+Step: 9500/10000 | Avg Cost: 8.0047
+Step: 9600/10000 | Avg Cost: 8.0009
+Step: 9700/10000 | Avg Cost: 8.0005
+Step: 9800/10000 | Avg Cost: 8.0061
+Step: 9900/10000 | Avg Cost: 8.0034
+Step: 10000/10000 | Avg Cost: 8.0081
+Step: 100/10000 | Avg Cost: 8.2794
+Step: 200/10000 | Avg Cost: 8.2131
+Step: 300/10000 | Avg Cost: 8.1820
+Step: 400/10000 | Avg Cost: 8.1486
+Step: 500/10000 | Avg Cost: 8.1318
+Step: 600/10000 | Avg Cost: 8.1200
+Step: 700/10000 | Avg Cost: 8.1002
+Step: 800/10000 | Avg Cost: 8.1019
+Step: 900/10000 | Avg Cost: 8.0927
+Step: 1000/10000 | Avg Cost: 8.0890
+Step: 1100/10000 | Avg Cost: 8.0789
+Step: 1200/10000 | Avg Cost: 8.0704
+Step: 1300/10000 | Avg Cost: 8.0599
+Step: 1400/10000 | Avg Cost: 8.0664
+Step: 1500/10000 | Avg Cost: 8.0593
+Step: 1600/10000 | Avg Cost: 8.0575
+Step: 1700/10000 | Avg Cost: 8.0525
+Step: 1800/10000 | Avg Cost: 8.0422
+Step: 1900/10000 | Avg Cost: 8.0478
+Step: 2000/10000 | Avg Cost: 8.0403
+Step: 2100/10000 | Avg Cost: 8.0288
+Step: 2200/10000 | Avg Cost: 8.0279
+Step: 2300/10000 | Avg Cost: 8.0478
+Step: 2400/10000 | Avg Cost: 8.0342
+Step: 2500/10000 | Avg Cost: 8.0406
+Step: 2600/10000 | Avg Cost: 8.0254
+Step: 2700/10000 | Avg Cost: 8.0255
+Step: 2800/10000 | Avg Cost: 8.0329
+Step: 2900/10000 | Avg Cost: 8.0327
+Step: 3000/10000 | Avg Cost: 8.0245
+Step: 3100/10000 | Avg Cost: 8.0254
+Step: 3200/10000 | Avg Cost: 8.0140
+Step: 3300/10000 | Avg Cost: 8.0186
+Step: 3400/10000 | Avg Cost: 8.0199
+Step: 3500/10000 | Avg Cost: 8.0160
+Step: 3600/10000 | Avg Cost: 8.0087
+Step: 3700/10000 | Avg Cost: 8.0122
+Step: 3800/10000 | Avg Cost: 8.0173
+Step: 3900/10000 | Avg Cost: 8.0132
+Step: 4000/10000 | Avg Cost: 8.0182
+Step: 4100/10000 | Avg Cost: 8.0150
+Step: 4200/10000 | Avg Cost: 8.0085
+Step: 4300/10000 | Avg Cost: 8.0110
+Step: 4400/10000 | Avg Cost: 8.0157
+Step: 4500/10000 | Avg Cost: 8.0111
+Step: 4600/10000 | Avg Cost: 8.0064
+Step: 4700/10000 | Avg Cost: 8.0061
+Step: 4800/10000 | Avg Cost: 8.0015
+Step: 4900/10000 | Avg Cost: 7.9988
+Step: 5000/10000 | Avg Cost: 8.0107
+Step: 5100/10000 | Avg Cost: 8.0042
+Step: 5200/10000 | Avg Cost: 8.0139
+Step: 5300/10000 | Avg Cost: 8.0006
+Step: 5400/10000 | Avg Cost: 8.0138
+Step: 5500/10000 | Avg Cost: 7.9945
+Step: 5600/10000 | Avg Cost: 7.9989
+Step: 5700/10000 | Avg Cost: 8.0074
+Step: 5800/10000 | Avg Cost: 8.0034
+Step: 5900/10000 | Avg Cost: 7.9980
+Step: 6000/10000 | Avg Cost: 8.0058
+Step: 6100/10000 | Avg Cost: 8.0025
+Step: 6200/10000 | Avg Cost: 7.9979
+Step: 6300/10000 | Avg Cost: 7.9955
+Step: 6400/10000 | Avg Cost: 7.9986
+Step: 6500/10000 | Avg Cost: 7.9995
+Step: 6600/10000 | Avg Cost: 7.9996
+Step: 6700/10000 | Avg Cost: 7.9989
+Step: 6800/10000 | Avg Cost: 8.0042
+Step: 6900/10000 | Avg Cost: 7.9989
+Step: 7000/10000 | Avg Cost: 8.0008
+Step: 7100/10000 | Avg Cost: 7.9991
+Step: 7200/10000 | Avg Cost: 8.0024
+Step: 7300/10000 | Avg Cost: 7.9974
+Step: 7400/10000 | Avg Cost: 7.9887
+Step: 7500/10000 | Avg Cost: 7.9961
+Step: 7600/10000 | Avg Cost: 7.9992
+Step: 7700/10000 | Avg Cost: 7.9922
+Step: 7800/10000 | Avg Cost: 7.9974
+Step: 7900/10000 | Avg Cost: 7.9976
+Step: 8000/10000 | Avg Cost: 7.9931
+Step: 8100/10000 | Avg Cost: 7.9937
+Step: 8200/10000 | Avg Cost: 7.9956
+Step: 8300/10000 | Avg Cost: 7.9952
+Step: 8400/10000 | Avg Cost: 7.9930
+Step: 8500/10000 | Avg Cost: 7.9951
+Step: 8600/10000 | Avg Cost: 7.9927
+Step: 8700/10000 | Avg Cost: 7.9982
+Step: 8800/10000 | Avg Cost: 7.9961
+Step: 8900/10000 | Avg Cost: 7.9923
+Step: 9000/10000 | Avg Cost: 7.9882
+Step: 9100/10000 | Avg Cost: 7.9983
+Step: 9200/10000 | Avg Cost: 7.9976
+Step: 9300/10000 | Avg Cost: 7.9840
+Step: 9400/10000 | Avg Cost: 7.9979
+Step: 9500/10000 | Avg Cost: 7.9920
+Step: 9600/10000 | Avg Cost: 7.9947
+Step: 9700/10000 | Avg Cost: 7.9963
+Step: 9800/10000 | Avg Cost: 7.9974
+Step: 9900/10000 | Avg Cost: 7.9912
+Step: 10000/10000 | Avg Cost: 7.9877
+Step: 100/10000 | Avg Cost: 8.2865
+Step: 200/10000 | Avg Cost: 8.2212
+Step: 300/10000 | Avg Cost: 8.1871
+Step: 400/10000 | Avg Cost: 8.1656
+Step: 500/10000 | Avg Cost: 8.1424
+Step: 600/10000 | Avg Cost: 8.1256
+Step: 700/10000 | Avg Cost: 8.1201
+Step: 800/10000 | Avg Cost: 8.1028
+Step: 900/10000 | Avg Cost: 8.0992
+Step: 1000/10000 | Avg Cost: 8.0949
+Step: 1100/10000 | Avg Cost: 8.0835
+Step: 1200/10000 | Avg Cost: 8.0783
+Step: 1300/10000 | Avg Cost: 8.0825
+Step: 1400/10000 | Avg Cost: 8.0708
+Step: 1500/10000 | Avg Cost: 8.0617
+Step: 1600/10000 | Avg Cost: 8.0646
+Step: 1700/10000 | Avg Cost: 8.0571
+Step: 1800/10000 | Avg Cost: 8.0548
+Step: 1900/10000 | Avg Cost: 8.0556
+Step: 2000/10000 | Avg Cost: 8.0569
+Step: 2100/10000 | Avg Cost: 8.0466
+Step: 2200/10000 | Avg Cost: 8.0529
+Step: 2300/10000 | Avg Cost: 8.0474
+Step: 2400/10000 | Avg Cost: 8.0390
+Step: 2500/10000 | Avg Cost: 8.0433
+Step: 2600/10000 | Avg Cost: 8.0421
+Step: 2700/10000 | Avg Cost: 8.0416
+Step: 2800/10000 | Avg Cost: 8.0430
+Step: 2900/10000 | Avg Cost: 8.0344
+Step: 3000/10000 | Avg Cost: 8.0447
+Step: 3100/10000 | Avg Cost: 8.0343
+Step: 3200/10000 | Avg Cost: 8.0333
+Step: 3300/10000 | Avg Cost: 8.0265
+Step: 3400/10000 | Avg Cost: 8.0254
+Step: 3500/10000 | Avg Cost: 8.0245
+Step: 3600/10000 | Avg Cost: 8.0313
+Step: 3700/10000 | Avg Cost: 8.0310
+Step: 3800/10000 | Avg Cost: 8.0224
+Step: 3900/10000 | Avg Cost: 8.0266
+Step: 4000/10000 | Avg Cost: 8.0170
+Step: 4100/10000 | Avg Cost: 8.0245
+Step: 4200/10000 | Avg Cost: 8.0324
+Step: 4300/10000 | Avg Cost: 8.0228
+Step: 4400/10000 | Avg Cost: 8.0211
+Step: 4500/10000 | Avg Cost: 8.0240
+Step: 4600/10000 | Avg Cost: 8.0219
+Step: 4700/10000 | Avg Cost: 8.0233
+Step: 4800/10000 | Avg Cost: 8.0246
+Step: 4900/10000 | Avg Cost: 8.0226
+Step: 5000/10000 | Avg Cost: 8.0154
+Step: 5100/10000 | Avg Cost: 8.0177
+Step: 5200/10000 | Avg Cost: 8.0168
+Step: 5300/10000 | Avg Cost: 8.0137
+Step: 5400/10000 | Avg Cost: 8.0097
+Step: 5500/10000 | Avg Cost: 8.0106
+Step: 5600/10000 | Avg Cost: 8.0184
+Step: 5700/10000 | Avg Cost: 8.0154
+Step: 5800/10000 | Avg Cost: 8.0134
+Step: 5900/10000 | Avg Cost: 8.0234
+Step: 6000/10000 | Avg Cost: 8.0221
+Step: 6100/10000 | Avg Cost: 8.0194
+Step: 6200/10000 | Avg Cost: 8.0239
+Step: 6300/10000 | Avg Cost: 8.0092
+Step: 6400/10000 | Avg Cost: 8.0097
+Step: 6500/10000 | Avg Cost: 8.0107
+Step: 6600/10000 | Avg Cost: 8.0048
+Step: 6700/10000 | Avg Cost: 8.0088
+Step: 6800/10000 | Avg Cost: 8.0071
+Step: 6900/10000 | Avg Cost: 8.0191
+Step: 7000/10000 | Avg Cost: 8.0130
+Step: 7100/10000 | Avg Cost: 8.0066
+Step: 7200/10000 | Avg Cost: 8.0099
+Step: 7300/10000 | Avg Cost: 8.0092
+Step: 7400/10000 | Avg Cost: 8.0103
+Step: 7500/10000 | Avg Cost: 8.0093
+Step: 7600/10000 | Avg Cost: 8.0067
+Step: 7700/10000 | Avg Cost: 8.0111
+Step: 7800/10000 | Avg Cost: 7.9980
+Step: 7900/10000 | Avg Cost: 8.0150
+Step: 8000/10000 | Avg Cost: 8.0099
+Step: 8100/10000 | Avg Cost: 8.0067
+Step: 8200/10000 | Avg Cost: 8.0100
+Step: 8300/10000 | Avg Cost: 8.0181
+Step: 8400/10000 | Avg Cost: 8.0114
+Step: 8500/10000 | Avg Cost: 8.0041
+Step: 8600/10000 | Avg Cost: 8.0105
+Step: 8700/10000 | Avg Cost: 8.0065
+Step: 8800/10000 | Avg Cost: 8.0070
+Step: 8900/10000 | Avg Cost: 8.0101
+Step: 9000/10000 | Avg Cost: 8.0078
+Step: 9100/10000 | Avg Cost: 8.0036
+Step: 9200/10000 | Avg Cost: 7.9962
+Step: 9300/10000 | Avg Cost: 8.0033
+Step: 9400/10000 | Avg Cost: 8.0071
+Step: 9500/10000 | Avg Cost: 7.9973
+Step: 9600/10000 | Avg Cost: 8.0045
+Step: 9700/10000 | Avg Cost: 8.0054
+Step: 9800/10000 | Avg Cost: 8.0016
+Step: 9900/10000 | Avg Cost: 7.9994
+Step: 10000/10000 | Avg Cost: 8.0073
+Step: 100/10000 | Avg Cost: 8.3029
+Step: 200/10000 | Avg Cost: 8.2277
+Step: 300/10000 | Avg Cost: 8.1906
+Step: 400/10000 | Avg Cost: 8.1658
+Step: 500/10000 | Avg Cost: 8.1479
+Step: 600/10000 | Avg Cost: 8.1423
+Step: 700/10000 | Avg Cost: 8.1271
+Step: 800/10000 | Avg Cost: 8.1188
+Step: 900/10000 | Avg Cost: 8.1028
+Step: 1000/10000 | Avg Cost: 8.1041
+Step: 1100/10000 | Avg Cost: 8.0919
+Step: 1200/10000 | Avg Cost: 8.0857
+Step: 1300/10000 | Avg Cost: 8.0924
+Step: 1400/10000 | Avg Cost: 8.0888
+Step: 1500/10000 | Avg Cost: 8.0754
+Step: 1600/10000 | Avg Cost: 8.0850
+Step: 1700/10000 | Avg Cost: 8.0722
+Step: 1800/10000 | Avg Cost: 8.0684
+Step: 1900/10000 | Avg Cost: 8.0628
+Step: 2000/10000 | Avg Cost: 8.0586
+Step: 2100/10000 | Avg Cost: 8.0586
+Step: 2200/10000 | Avg Cost: 8.0556
+Step: 2300/10000 | Avg Cost: 8.0595
+Step: 2400/10000 | Avg Cost: 8.0462
+Step: 2500/10000 | Avg Cost: 8.0479
+Step: 2600/10000 | Avg Cost: 8.0472
+Step: 2700/10000 | Avg Cost: 8.0477
+Step: 2800/10000 | Avg Cost: 8.0411
+Step: 2900/10000 | Avg Cost: 8.0486
+Step: 3000/10000 | Avg Cost: 8.0495
+Step: 3100/10000 | Avg Cost: 8.0423
+Step: 3200/10000 | Avg Cost: 8.0387
+Step: 3300/10000 | Avg Cost: 8.0357
+Step: 3400/10000 | Avg Cost: 8.0450
+Step: 3500/10000 | Avg Cost: 8.0392
+Step: 3600/10000 | Avg Cost: 8.0346
+Step: 3700/10000 | Avg Cost: 8.0383
+Step: 3800/10000 | Avg Cost: 8.0356
+Step: 3900/10000 | Avg Cost: 8.0314
+Step: 4000/10000 | Avg Cost: 8.0319
+Step: 4100/10000 | Avg Cost: 8.0364
+Step: 4200/10000 | Avg Cost: 8.0380
+Step: 4300/10000 | Avg Cost: 8.0351
+Step: 4400/10000 | Avg Cost: 8.0290
+Step: 4500/10000 | Avg Cost: 8.0239
+Step: 4600/10000 | Avg Cost: 8.0303
+Step: 4700/10000 | Avg Cost: 8.0197
+Step: 4800/10000 | Avg Cost: 8.0268
+Step: 4900/10000 | Avg Cost: 8.0267
+Step: 5000/10000 | Avg Cost: 8.0287
+Step: 5100/10000 | Avg Cost: 8.0316
+Step: 5200/10000 | Avg Cost: 8.0274
+Step: 5300/10000 | Avg Cost: 8.0194
+Step: 5400/10000 | Avg Cost: 8.0259
+Step: 5500/10000 | Avg Cost: 8.0288
+Step: 5600/10000 | Avg Cost: 8.0176
+Step: 5700/10000 | Avg Cost: 8.0234
+Step: 5800/10000 | Avg Cost: 8.0274
+Step: 5900/10000 | Avg Cost: 8.0263
+Step: 6000/10000 | Avg Cost: 8.0182
+Step: 6100/10000 | Avg Cost: 8.0162
+Step: 6200/10000 | Avg Cost: 8.0199
+Step: 6300/10000 | Avg Cost: 8.0223
+Step: 6400/10000 | Avg Cost: 8.0222
+Step: 6500/10000 | Avg Cost: 8.0188
+Step: 6600/10000 | Avg Cost: 8.0200
+Step: 6700/10000 | Avg Cost: 8.0227
+Step: 6800/10000 | Avg Cost: 8.0218
+Step: 6900/10000 | Avg Cost: 8.0218
+Step: 7000/10000 | Avg Cost: 8.0134
+Step: 7100/10000 | Avg Cost: 8.0209
+Step: 7200/10000 | Avg Cost: 8.0077
+Step: 7300/10000 | Avg Cost: 8.0204
+Step: 7400/10000 | Avg Cost: 8.0177
+Step: 7500/10000 | Avg Cost: 8.0164
+Step: 7600/10000 | Avg Cost: 8.0196
+Step: 7700/10000 | Avg Cost: 8.0176
+Step: 7800/10000 | Avg Cost: 8.0079
+Step: 7900/10000 | Avg Cost: 8.0254
+Step: 8000/10000 | Avg Cost: 8.0202
+Step: 8100/10000 | Avg Cost: 8.0186
+Step: 8200/10000 | Avg Cost: 8.0146
+Step: 8300/10000 | Avg Cost: 8.0213
+Step: 8400/10000 | Avg Cost: 8.0147
+Step: 8500/10000 | Avg Cost: 8.0151
+Step: 8600/10000 | Avg Cost: 8.0193
+Step: 8700/10000 | Avg Cost: 8.0100
+Step: 8800/10000 | Avg Cost: 8.0143
+Step: 8900/10000 | Avg Cost: 8.0152
+Step: 9000/10000 | Avg Cost: 8.0167
+Step: 9100/10000 | Avg Cost: 8.0211
+Step: 9200/10000 | Avg Cost: 8.0105
+Step: 9300/10000 | Avg Cost: 8.0167
+Step: 9400/10000 | Avg Cost: 8.0163
+Step: 9500/10000 | Avg Cost: 8.0118
+Step: 9600/10000 | Avg Cost: 8.0183
+Step: 9700/10000 | Avg Cost: 8.0104
+Step: 9800/10000 | Avg Cost: 8.0138
+Step: 9900/10000 | Avg Cost: 8.0079
+Step: 10000/10000 | Avg Cost: 8.0062
+Step: 100/10000 | Avg Cost: 8.2867
+Step: 200/10000 | Avg Cost: 8.2231
+Step: 300/10000 | Avg Cost: 8.1892
+Step: 400/10000 | Avg Cost: 8.1724
+Step: 500/10000 | Avg Cost: 8.1457
+Step: 600/10000 | Avg Cost: 8.1271
+Step: 700/10000 | Avg Cost: 8.1152
+Step: 800/10000 | Avg Cost: 8.1101
+Step: 900/10000 | Avg Cost: 8.0991
+Step: 1000/10000 | Avg Cost: 8.0970
+Step: 1100/10000 | Avg Cost: 8.0860
+Step: 1200/10000 | Avg Cost: 8.0800
+Step: 1300/10000 | Avg Cost: 8.0789
+Step: 1400/10000 | Avg Cost: 8.0768
+Step: 1500/10000 | Avg Cost: 8.0725
+Step: 1600/10000 | Avg Cost: 8.0705
+Step: 1700/10000 | Avg Cost: 8.0645
+Step: 1800/10000 | Avg Cost: 8.0537
+Step: 1900/10000 | Avg Cost: 8.0642
+Step: 2000/10000 | Avg Cost: 8.0609
+Step: 2100/10000 | Avg Cost: 8.0554
+Step: 2200/10000 | Avg Cost: 8.0557
+Step: 2300/10000 | Avg Cost: 8.0482
+Step: 2400/10000 | Avg Cost: 8.0527
+Step: 2500/10000 | Avg Cost: 8.0472
+Step: 2600/10000 | Avg Cost: 8.0490
+Step: 2700/10000 | Avg Cost: 8.0453
+Step: 2800/10000 | Avg Cost: 8.0415
+Step: 2900/10000 | Avg Cost: 8.0348
+Step: 3000/10000 | Avg Cost: 8.0313
+Step: 3100/10000 | Avg Cost: 8.0379
+Step: 3200/10000 | Avg Cost: 8.0322
+Step: 3300/10000 | Avg Cost: 8.0334
+Step: 3400/10000 | Avg Cost: 8.0249
+Step: 3500/10000 | Avg Cost: 8.0340
+Step: 3600/10000 | Avg Cost: 8.0324
+Step: 3700/10000 | Avg Cost: 8.0357
+Step: 3800/10000 | Avg Cost: 8.0261
+Step: 3900/10000 | Avg Cost: 8.0256
+Step: 4000/10000 | Avg Cost: 8.0279
+Step: 4100/10000 | Avg Cost: 8.0200
+Step: 4200/10000 | Avg Cost: 8.0176
+Step: 4300/10000 | Avg Cost: 8.0241
+Step: 4400/10000 | Avg Cost: 8.0329
+Step: 4500/10000 | Avg Cost: 8.0202
+Step: 4600/10000 | Avg Cost: 8.0233
+Step: 4700/10000 | Avg Cost: 8.0261
+Step: 4800/10000 | Avg Cost: 8.0173
+Step: 4900/10000 | Avg Cost: 8.0245
+Step: 5000/10000 | Avg Cost: 8.0248
+Step: 5100/10000 | Avg Cost: 8.0225
+Step: 5200/10000 | Avg Cost: 8.0205
+Step: 5300/10000 | Avg Cost: 8.0268
+Step: 5400/10000 | Avg Cost: 8.0162
+Step: 5500/10000 | Avg Cost: 8.0203
+Step: 5600/10000 | Avg Cost: 8.0134
+Step: 5700/10000 | Avg Cost: 8.0203
+Step: 5800/10000 | Avg Cost: 8.0182
+Step: 5900/10000 | Avg Cost: 8.0149
+Step: 6000/10000 | Avg Cost: 8.0162
+Step: 6100/10000 | Avg Cost: 8.0073
+Step: 6200/10000 | Avg Cost: 8.0182
+Step: 6300/10000 | Avg Cost: 8.0123
+Step: 6400/10000 | Avg Cost: 8.0156
+Step: 6500/10000 | Avg Cost: 8.0160
+Step: 6600/10000 | Avg Cost: 8.0143
+Step: 6700/10000 | Avg Cost: 8.0207
+Step: 6800/10000 | Avg Cost: 8.0165
+Step: 6900/10000 | Avg Cost: 8.0119
+Step: 7000/10000 | Avg Cost: 8.0188
+Step: 7100/10000 | Avg Cost: 8.0130
+Step: 7200/10000 | Avg Cost: 8.0098
+Step: 7300/10000 | Avg Cost: 8.0098
+Step: 7400/10000 | Avg Cost: 8.0188
+Step: 7500/10000 | Avg Cost: 8.0074
+Step: 7600/10000 | Avg Cost: 8.0136
+Step: 7700/10000 | Avg Cost: 8.0133
+Step: 7800/10000 | Avg Cost: 8.0219
+Step: 7900/10000 | Avg Cost: 8.0166
+Step: 8000/10000 | Avg Cost: 8.0090
+Step: 8100/10000 | Avg Cost: 8.0142
+Step: 8200/10000 | Avg Cost: 8.0152
+Step: 8300/10000 | Avg Cost: 8.0071
+Step: 8400/10000 | Avg Cost: 8.0018
+Step: 8500/10000 | Avg Cost: 8.0031
+Step: 8600/10000 | Avg Cost: 8.0114
+Step: 8700/10000 | Avg Cost: 8.0104
+Step: 8800/10000 | Avg Cost: 8.0083
+Step: 8900/10000 | Avg Cost: 8.0138
+Step: 9000/10000 | Avg Cost: 8.0080
+Step: 9100/10000 | Avg Cost: 8.0037
+Step: 9200/10000 | Avg Cost: 8.0056
+Step: 9300/10000 | Avg Cost: 8.0049
+Step: 9400/10000 | Avg Cost: 8.0091
+Step: 9500/10000 | Avg Cost: 8.0075
+Step: 9600/10000 | Avg Cost: 8.0095
+Step: 9700/10000 | Avg Cost: 8.0055
+Step: 9800/10000 | Avg Cost: 8.0011
+Step: 9900/10000 | Avg Cost: 8.0072
+Step: 10000/10000 | Avg Cost: 8.0091
+
+ ------------------------------------------------------------
+         Avg total reward:          5.467473   +- 0.015733  
+          Avg step reward:          0.000547   +- 0.000091  
+------------------------------------------------------------
+           Avg init cost:           9.682679   +- 0.005822  
+    Avg cost after T=500 steps:     7.988459   +- 0.002640  
+    Avg cost after T=1000 steps:    7.948491   +- 0.002611  
+    Avg cost after T=1500 steps:    7.926553   +- 0.002563  
+    Avg cost after T=2000 steps:    7.914159   +- 0.002564  
+    Avg cost after T=2500 steps:    7.905433   +- 0.002547  
+    Avg cost after T=3000 steps:    7.901909   +- 0.002539  
+    Avg cost after T=3500 steps:    7.895557   +- 0.002541  
+    Avg cost after T=4000 steps:    7.889889   +- 0.002520  
+    Avg cost after T=4500 steps:    7.889039   +- 0.002540  
+    Avg cost after T=5000 steps:    7.887094   +- 0.002522  
+    Avg cost after T=5500 steps:    7.884593   +- 0.002518  
+    Avg cost after T=6000 steps:    7.883591   +- 0.002516  
+    Avg cost after T=6500 steps:    7.879768   +- 0.002522  
+    Avg cost after T=7000 steps:    7.880662   +- 0.002539  
+    Avg cost after T=7500 steps:    7.878449   +- 0.002512  
+    Avg cost after T=8000 steps:    7.877112   +- 0.002519  
+    Avg cost after T=8500 steps:    7.875907   +- 0.002505  
+    Avg cost after T=9000 steps:    7.876132   +- 0.002527  
+    Avg cost after T=9500 steps:    7.874972   +- 0.002512  
+   Avg cost after T=10000 steps:    7.873217   +- 0.002491  
+------------------------------------------------------------
+  Avg best cost after T=500 steps:  7.864101   +- 0.002457  
+ Avg best cost after T=1000 steps:  7.825368   +- 0.002395  
+ Avg best cost after T=1500 steps:  7.808237   +- 0.002373  
+ Avg best cost after T=2000 steps:  7.798580   +- 0.002359  
+ Avg best cost after T=2500 steps:  7.791987   +- 0.002348  
+ Avg best cost after T=3000 steps:  7.787446   +- 0.002341  
+ Avg best cost after T=3500 steps:  7.784201   +- 0.002337  
+ Avg best cost after T=4000 steps:  7.781811   +- 0.002332  
+ Avg best cost after T=4500 steps:  7.779822   +- 0.002328  
+ Avg best cost after T=5000 steps:  7.778208   +- 0.002326  
+ Avg best cost after T=5500 steps:  7.776856   +- 0.002325  
+ Avg best cost after T=6000 steps:  7.775775   +- 0.002322  
+ Avg best cost after T=6500 steps:  7.774882   +- 0.002320  
+ Avg best cost after T=7000 steps:  7.774048   +- 0.002319  
+ Avg best cost after T=7500 steps:  7.773275   +- 0.002317  
+ Avg best cost after T=8000 steps:  7.772629   +- 0.002314  
+ Avg best cost after T=8500 steps:  7.772105   +- 0.002313  
+ Avg best cost after T=9000 steps:  7.771557   +- 0.002311  
+ Avg best cost after T=9500 steps:  7.771144   +- 0.002310  
+ Avg best cost after T=10000 steps: 7.770736   +- 0.002310  
+        Avg final best cost:        7.770736   +- 0.002310  
+            Avg gap (%):            0.095761   +- 0.001809  
+------------------------------------------------------------
+           Avg used time:           2.970560s
+------------------------------------------------------------ 
+
+Total time used: 29707.98 seconds
+Total time used: 495.13 mins
+Total time used: 8.25 hours

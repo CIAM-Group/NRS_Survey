@@ -1,0 +1,30 @@
+nohup: ignoring input
+Lightning automatically upgraded your loaded checkpoint from v1.5.2 to v2.1.0. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint h-tsp-ckpt/lower-level/lower200/best.ckpt`
+Arguments:
+lower_model: /public/home/bayp/exp_survey_202509/Construction/two-stage/1_H-TSP/h-tsp-ckpt/lower-level/lower200/best.ckpt
+upper_model: /public/home/bayp/exp_survey_202509/Construction/two-stage/1_H-TSP/h-tsp-ckpt/upper-level/tsp1000/best.ckpt
+repeat_times: 1
+graph_size: 1000
+frag_len: 200
+max_new_cities: 190
+k: 40
+data_augment: False
+improvement_step: 0
+time_limit: 100.0
+batch_size: 128
+Loading data from /public/home/bayp/exp_survey_202509/0_data_survey/survey_synthetic_tsp/test_tsp1000_n128_lkh.txt
+
+  0%|          | 0/128 [00:00<?, ?it/s]
+ 12%|#2        | 16/128 [00:00<00:00, 158.83it/s]
+ 83%|########2 | 106/128 [00:00<00:00, 417.19it/s]
+100%|##########| 128/128 [00:00<00:00, 437.13it/s]
+optimal_score loaded, shape: torch.Size([128])
+optimal_score: 23.118200302124023
+data.shape=torch.Size([128, 1000, 2])
+0/128
+24.660775989294052
+gap (%): 6.67302855757112
+Total time: 46.592286348342896 seconds, 0.7765381058057149 mins, 0.012942301763428582 hours
+average duration: 46.592286348342896
+average gap: 6.67302855757112
+average result: 24.660775989294052

@@ -1,0 +1,1412 @@
+nohup: ignoring input
+2026-01-06 16:39:35.070660: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2026-01-06 16:39:35.098014: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+****************************************************************************************************
+Loading model from: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp200.pt
+model name: cvrp200.pt
+****************************************************************************************************
+
+[Options]
+  K_epochs: 3
+  T_max: 1000
+  T_train: 200
+  actor_head_num: 4
+  batch_size: 512
+  checkpoint_epochs: 1
+  critic_head_num: 4
+  distributed: False
+  dummy_rate: 0.5
+  embedding_dim: 128
+  epoch_end: 200
+  epoch_size: 10240
+  epoch_start: 0
+  eps_clip: 0.1
+  eval_only: True
+  gamma: 0.999
+  graph_size: 100
+  hidden_dim: 128
+  init_val_met: random
+  k: 4
+  lib_model: True
+  load_path: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp200.pt
+  log_dir: logs
+  log_step: 50
+  lr_critic: 2e-05
+  lr_decay: 0.985
+  lr_model: 8e-05
+  max_grad_norm: 0.05
+  n_encode_layers: 3
+  n_step: 4
+  no_DDP: False
+  no_cuda: False
+  no_progress_bar: False
+  no_saving: True
+  no_tb: True
+  normalization: layer
+  output_dir: outputs
+  problem: cvrp
+  record: False
+  resume: None
+  run_name: run_name_20260106T163937
+  save_dir: None
+  seed: 6666
+  stall: 10
+  stall_limit: 10
+  use_assert: False
+  use_cuda: True
+  v_range: 6.0
+  val_batch_size: 1
+  val_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp
+  val_m: 1
+  val_size: 10000
+  warm_up: 2
+  wo_MDP: True
+  wo_RNN: False
+  wo_bonus: False
+  wo_feature1: False
+  wo_feature3: False
+  wo_regular: False
+  world_size: 1
+{'K_epochs': 3,
+ 'T_max': 1000,
+ 'T_train': 200,
+ 'actor_head_num': 4,
+ 'batch_size': 512,
+ 'checkpoint_epochs': 1,
+ 'critic_head_num': 4,
+ 'distributed': False,
+ 'dummy_rate': 0.5,
+ 'embedding_dim': 128,
+ 'epoch_end': 200,
+ 'epoch_size': 10240,
+ 'epoch_start': 0,
+ 'eps_clip': 0.1,
+ 'eval_only': True,
+ 'gamma': 0.999,
+ 'graph_size': 100,
+ 'hidden_dim': 128,
+ 'init_val_met': 'random',
+ 'k': 4,
+ 'lib_model': True,
+ 'load_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small '
+              'neighborhood/sequential/NeuOpt/pre-trained/cvrp200.pt',
+ 'log_dir': 'logs',
+ 'log_step': 50,
+ 'lr_critic': 2e-05,
+ 'lr_decay': 0.985,
+ 'lr_model': 8e-05,
+ 'max_grad_norm': 0.05,
+ 'n_encode_layers': 3,
+ 'n_step': 4,
+ 'no_DDP': False,
+ 'no_cuda': False,
+ 'no_progress_bar': False,
+ 'no_saving': True,
+ 'no_tb': True,
+ 'normalization': 'layer',
+ 'output_dir': 'outputs',
+ 'problem': 'cvrp',
+ 'record': False,
+ 'resume': None,
+ 'run_name': 'run_name_20260106T163937',
+ 'save_dir': None,
+ 'seed': 6666,
+ 'stall': 10,
+ 'stall_limit': 10,
+ 'use_assert': False,
+ 'use_cuda': True,
+ 'v_range': 6.0,
+ 'val_batch_size': 1,
+ 'val_dataset': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp',
+ 'val_m': 1,
+ 'val_size': 10000,
+ 'warm_up': 2,
+ 'wo_MDP': True,
+ 'wo_RNN': False,
+ 'wo_bonus': False,
+ 'wo_feature1': False,
+ 'wo_feature3': False,
+ 'wo_regular': False,
+ 'world_size': 1}
+simpleMDP:  True
+# params in Actor {'Total': 685140, 'Trainable': 685140}
+Distributed: False
+ [*] Loading data from /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp200.pt
+Evaluation with library benchmark datasets.
+#################  Start Testing  #################
+scale_range_all: [[1000, 10000], [10000, 100001]]
+===============================================================
+#################  Test scale range: [1000, 10000]  #################
+
+Inference with x1 augments...
+scale range: [1000, 10000]
+===================当前读取的文件名: X-n1001-k43===================
+===============================================================
+Instance name: X-n1001-k43, problem_size: 1000
+CVRP with 1000 nodes and 500 dummy depots (total 1500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 2/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 3/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 4/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 5/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 100/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 200/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 300/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 400/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 500/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 600/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 700/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 800/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 900/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 1000/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance X-n1001-k43, dimension: 1000, gap: 688.819%, skip it!
+===================当前读取的文件名: Leuven1===================
+===============================================================
+Instance name: Leuven1, problem_size: 3000
+CVRP with 3000 nodes and 1500 dummy depots (total 4500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 2/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 3/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 4/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 5/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 100/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 200/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 300/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 400/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 500/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 600/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 700/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 800/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 900/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 1000/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven1, dimension: 3000, gap: 750.240%, skip it!
+===================当前读取的文件名: Leuven2===================
+===============================================================
+Instance name: Leuven2, problem_size: 4000
+CVRP with 4000 nodes and 2000 dummy depots (total 6000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 2/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 3/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 4/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 5/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 100/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 200/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 300/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 400/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 500/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 600/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 700/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 800/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 900/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 1000/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven2, dimension: 4000, gap: 1832.729%, skip it!
+===================当前读取的文件名: Antwerp1===================
+===============================================================
+Instance name: Antwerp1, problem_size: 6000
+CVRP with 6000 nodes and 3000 dummy depots (total 9000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 2/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 3/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 4/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 5/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 100/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 200/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 300/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 400/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 500/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 600/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 700/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 800/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 900/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 1000/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Antwerp1, dimension: 6000, gap: 984.330%, skip it!
+===================当前读取的文件名: Antwerp2===================
+===============================================================
+Instance name: Antwerp2, problem_size: 7000
+CVRP with 7000 nodes and 3500 dummy depots (total 10500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Antwerp2, dimension: 7000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp200.pt
+scale_range: [1000, 10000], instance number: 5, total time: 6822.27s, avg time per instance (including failed instances): 1364.45s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+#################  Test scale range: [10000, 100001]  #################
+
+Inference with x1 augments...
+scale range: [10000, 100001]
+===================当前读取的文件名: Ghent1===================
+===============================================================
+Instance name: Ghent1, problem_size: 10000
+CVRP with 10000 nodes and 5000 dummy depots (total 15000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent1, dimension: 10000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Ghent2===================
+===============================================================
+Instance name: Ghent2, problem_size: 11000
+CVRP with 11000 nodes and 5500 dummy depots (total 16500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent2, dimension: 11000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels1===================
+===============================================================
+Instance name: Brussels1, problem_size: 15000
+CVRP with 15000 nodes and 7500 dummy depots (total 22500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels1, dimension: 15000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels2===================
+===============================================================
+Instance name: Brussels2, problem_size: 16000
+CVRP with 16000 nodes and 8000 dummy depots (total 24000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels2, dimension: 16000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders1===================
+===============================================================
+Instance name: Flanders1, problem_size: 20000
+CVRP with 20000 nodes and 10000 dummy depots (total 30000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders1, dimension: 20000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders2===================
+===============================================================
+Instance name: Flanders2, problem_size: 30000
+CVRP with 30000 nodes and 15000 dummy depots (total 45000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders2, dimension: 30000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp200.pt
+scale_range: [10000, 100001], instance number: 6, total time: 99.43s, avg time per instance (including failed instances): 16.57s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+model name: cvrp200.pt
+All scale ranges done, solved instance number: 0/11, total time: 6921.71s, avg time per instance: 0.00s
+[0, 1000), number: 0, avg gap: 0.000%
+[1000, 10000), number: 0, avg gap: 0.000%
+[10000, 100000], number: 0, avg gap: 0.000%
+#################  All Done  #################
+All solved instances, number: 0, avg gap: 0.000%
+****************************************************************************************************
+Loading model from: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp100.pt
+model name: cvrp100.pt
+****************************************************************************************************
+
+[Options]
+  K_epochs: 3
+  T_max: 1000
+  T_train: 200
+  actor_head_num: 4
+  batch_size: 512
+  checkpoint_epochs: 1
+  critic_head_num: 4
+  distributed: False
+  dummy_rate: 0.5
+  embedding_dim: 128
+  epoch_end: 200
+  epoch_size: 10240
+  epoch_start: 0
+  eps_clip: 0.1
+  eval_only: True
+  gamma: 0.999
+  graph_size: 100
+  hidden_dim: 128
+  init_val_met: random
+  k: 4
+  lib_model: True
+  load_path: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp100.pt
+  log_dir: logs
+  log_step: 50
+  lr_critic: 2e-05
+  lr_decay: 0.985
+  lr_model: 8e-05
+  max_grad_norm: 0.05
+  n_encode_layers: 3
+  n_step: 4
+  no_DDP: False
+  no_cuda: False
+  no_progress_bar: False
+  no_saving: True
+  no_tb: True
+  normalization: layer
+  output_dir: outputs
+  problem: cvrp
+  record: False
+  resume: None
+  run_name: run_name_20260106T183459
+  save_dir: None
+  seed: 6666
+  stall: 10
+  stall_limit: 10
+  use_assert: False
+  use_cuda: True
+  v_range: 6.0
+  val_batch_size: 1
+  val_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp
+  val_m: 1
+  val_size: 10000
+  warm_up: 2
+  wo_MDP: True
+  wo_RNN: False
+  wo_bonus: False
+  wo_feature1: False
+  wo_feature3: False
+  wo_regular: False
+  world_size: 1
+{'K_epochs': 3,
+ 'T_max': 1000,
+ 'T_train': 200,
+ 'actor_head_num': 4,
+ 'batch_size': 512,
+ 'checkpoint_epochs': 1,
+ 'critic_head_num': 4,
+ 'distributed': False,
+ 'dummy_rate': 0.5,
+ 'embedding_dim': 128,
+ 'epoch_end': 200,
+ 'epoch_size': 10240,
+ 'epoch_start': 0,
+ 'eps_clip': 0.1,
+ 'eval_only': True,
+ 'gamma': 0.999,
+ 'graph_size': 100,
+ 'hidden_dim': 128,
+ 'init_val_met': 'random',
+ 'k': 4,
+ 'lib_model': True,
+ 'load_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small '
+              'neighborhood/sequential/NeuOpt/pre-trained/cvrp100.pt',
+ 'log_dir': 'logs',
+ 'log_step': 50,
+ 'lr_critic': 2e-05,
+ 'lr_decay': 0.985,
+ 'lr_model': 8e-05,
+ 'max_grad_norm': 0.05,
+ 'n_encode_layers': 3,
+ 'n_step': 4,
+ 'no_DDP': False,
+ 'no_cuda': False,
+ 'no_progress_bar': False,
+ 'no_saving': True,
+ 'no_tb': True,
+ 'normalization': 'layer',
+ 'output_dir': 'outputs',
+ 'problem': 'cvrp',
+ 'record': False,
+ 'resume': None,
+ 'run_name': 'run_name_20260106T183459',
+ 'save_dir': None,
+ 'seed': 6666,
+ 'stall': 10,
+ 'stall_limit': 10,
+ 'use_assert': False,
+ 'use_cuda': True,
+ 'v_range': 6.0,
+ 'val_batch_size': 1,
+ 'val_dataset': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp',
+ 'val_m': 1,
+ 'val_size': 10000,
+ 'warm_up': 2,
+ 'wo_MDP': True,
+ 'wo_RNN': False,
+ 'wo_bonus': False,
+ 'wo_feature1': False,
+ 'wo_feature3': False,
+ 'wo_regular': False,
+ 'world_size': 1}
+simpleMDP:  True
+# params in Actor {'Total': 685140, 'Trainable': 685140}
+Distributed: False
+ [*] Loading data from /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp100.pt
+Evaluation with library benchmark datasets.
+#################  Start Testing  #################
+scale_range_all: [[1000, 10000], [10000, 100001]]
+===============================================================
+#################  Test scale range: [1000, 10000]  #################
+
+Inference with x1 augments...
+scale range: [1000, 10000]
+===================当前读取的文件名: X-n1001-k43===================
+===============================================================
+Instance name: X-n1001-k43, problem_size: 1000
+CVRP with 1000 nodes and 500 dummy depots (total 1500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 2/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 3/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 4/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 5/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 100/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 200/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 300/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 400/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 500/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 600/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 700/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 800/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 900/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+Step: 1000/1000 | Avg Cost: 570524.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.5067%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance X-n1001-k43, dimension: 1000, gap: 688.507%, skip it!
+===================当前读取的文件名: Leuven1===================
+===============================================================
+Instance name: Leuven1, problem_size: 3000
+CVRP with 3000 nodes and 1500 dummy depots (total 4500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 2/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 3/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 4/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 5/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 100/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 200/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 300/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 400/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 500/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 600/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 700/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 800/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 900/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 1000/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven1, dimension: 3000, gap: 750.240%, skip it!
+===================当前读取的文件名: Leuven2===================
+===============================================================
+Instance name: Leuven2, problem_size: 4000
+CVRP with 4000 nodes and 2000 dummy depots (total 6000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 2/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 3/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 4/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 5/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 100/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 200/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 300/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 400/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 500/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 600/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 700/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 800/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 900/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 1000/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven2, dimension: 4000, gap: 1832.729%, skip it!
+===================当前读取的文件名: Antwerp1===================
+===============================================================
+Instance name: Antwerp1, problem_size: 6000
+CVRP with 6000 nodes and 3000 dummy depots (total 9000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 2/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 3/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 4/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 5/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 100/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 200/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 300/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 400/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 500/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 600/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 700/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 800/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 900/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 1000/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Antwerp1, dimension: 6000, gap: 984.330%, skip it!
+===================当前读取的文件名: Antwerp2===================
+===============================================================
+Instance name: Antwerp2, problem_size: 7000
+CVRP with 7000 nodes and 3500 dummy depots (total 10500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Antwerp2, dimension: 7000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp100.pt
+scale_range: [1000, 10000], instance number: 5, total time: 6837.92s, avg time per instance (including failed instances): 1367.58s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+#################  Test scale range: [10000, 100001]  #################
+
+Inference with x1 augments...
+scale range: [10000, 100001]
+===================当前读取的文件名: Ghent1===================
+===============================================================
+Instance name: Ghent1, problem_size: 10000
+CVRP with 10000 nodes and 5000 dummy depots (total 15000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent1, dimension: 10000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Ghent2===================
+===============================================================
+Instance name: Ghent2, problem_size: 11000
+CVRP with 11000 nodes and 5500 dummy depots (total 16500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent2, dimension: 11000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels1===================
+===============================================================
+Instance name: Brussels1, problem_size: 15000
+CVRP with 15000 nodes and 7500 dummy depots (total 22500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels1, dimension: 15000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels2===================
+===============================================================
+Instance name: Brussels2, problem_size: 16000
+CVRP with 16000 nodes and 8000 dummy depots (total 24000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels2, dimension: 16000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders1===================
+===============================================================
+Instance name: Flanders1, problem_size: 20000
+CVRP with 20000 nodes and 10000 dummy depots (total 30000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders1, dimension: 20000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders2===================
+===============================================================
+Instance name: Flanders2, problem_size: 30000
+CVRP with 30000 nodes and 15000 dummy depots (total 45000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders2, dimension: 30000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp100.pt
+scale_range: [10000, 100001], instance number: 6, total time: 98.16s, avg time per instance (including failed instances): 16.36s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+model name: cvrp100.pt
+All scale ranges done, solved instance number: 0/11, total time: 6936.08s, avg time per instance: 0.00s
+[0, 1000), number: 0, avg gap: 0.000%
+[1000, 10000), number: 0, avg gap: 0.000%
+[10000, 100000], number: 0, avg gap: 0.000%
+#################  All Done  #################
+All solved instances, number: 0, avg gap: 0.000%
+****************************************************************************************************
+Loading model from: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp50.pt
+model name: cvrp50.pt
+****************************************************************************************************
+
+[Options]
+  K_epochs: 3
+  T_max: 1000
+  T_train: 200
+  actor_head_num: 4
+  batch_size: 512
+  checkpoint_epochs: 1
+  critic_head_num: 4
+  distributed: False
+  dummy_rate: 0.5
+  embedding_dim: 128
+  epoch_end: 200
+  epoch_size: 10240
+  epoch_start: 0
+  eps_clip: 0.1
+  eval_only: True
+  gamma: 0.999
+  graph_size: 100
+  hidden_dim: 128
+  init_val_met: random
+  k: 4
+  lib_model: True
+  load_path: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp50.pt
+  log_dir: logs
+  log_step: 50
+  lr_critic: 2e-05
+  lr_decay: 0.985
+  lr_model: 8e-05
+  max_grad_norm: 0.05
+  n_encode_layers: 3
+  n_step: 4
+  no_DDP: False
+  no_cuda: False
+  no_progress_bar: False
+  no_saving: True
+  no_tb: True
+  normalization: layer
+  output_dir: outputs
+  problem: cvrp
+  record: False
+  resume: None
+  run_name: run_name_20260106T203036
+  save_dir: None
+  seed: 6666
+  stall: 10
+  stall_limit: 10
+  use_assert: False
+  use_cuda: True
+  v_range: 6.0
+  val_batch_size: 1
+  val_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp
+  val_m: 1
+  val_size: 10000
+  warm_up: 2
+  wo_MDP: True
+  wo_RNN: False
+  wo_bonus: False
+  wo_feature1: False
+  wo_feature3: False
+  wo_regular: False
+  world_size: 1
+{'K_epochs': 3,
+ 'T_max': 1000,
+ 'T_train': 200,
+ 'actor_head_num': 4,
+ 'batch_size': 512,
+ 'checkpoint_epochs': 1,
+ 'critic_head_num': 4,
+ 'distributed': False,
+ 'dummy_rate': 0.5,
+ 'embedding_dim': 128,
+ 'epoch_end': 200,
+ 'epoch_size': 10240,
+ 'epoch_start': 0,
+ 'eps_clip': 0.1,
+ 'eval_only': True,
+ 'gamma': 0.999,
+ 'graph_size': 100,
+ 'hidden_dim': 128,
+ 'init_val_met': 'random',
+ 'k': 4,
+ 'lib_model': True,
+ 'load_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small '
+              'neighborhood/sequential/NeuOpt/pre-trained/cvrp50.pt',
+ 'log_dir': 'logs',
+ 'log_step': 50,
+ 'lr_critic': 2e-05,
+ 'lr_decay': 0.985,
+ 'lr_model': 8e-05,
+ 'max_grad_norm': 0.05,
+ 'n_encode_layers': 3,
+ 'n_step': 4,
+ 'no_DDP': False,
+ 'no_cuda': False,
+ 'no_progress_bar': False,
+ 'no_saving': True,
+ 'no_tb': True,
+ 'normalization': 'layer',
+ 'output_dir': 'outputs',
+ 'problem': 'cvrp',
+ 'record': False,
+ 'resume': None,
+ 'run_name': 'run_name_20260106T203036',
+ 'save_dir': None,
+ 'seed': 6666,
+ 'stall': 10,
+ 'stall_limit': 10,
+ 'use_assert': False,
+ 'use_cuda': True,
+ 'v_range': 6.0,
+ 'val_batch_size': 1,
+ 'val_dataset': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp',
+ 'val_m': 1,
+ 'val_size': 10000,
+ 'warm_up': 2,
+ 'wo_MDP': True,
+ 'wo_RNN': False,
+ 'wo_bonus': False,
+ 'wo_feature1': False,
+ 'wo_feature3': False,
+ 'wo_regular': False,
+ 'world_size': 1}
+simpleMDP:  True
+# params in Actor {'Total': 685140, 'Trainable': 685140}
+Distributed: False
+ [*] Loading data from /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp50.pt
+Evaluation with library benchmark datasets.
+#################  Start Testing  #################
+scale_range_all: [[1000, 10000], [10000, 100001]]
+===============================================================
+#################  Test scale range: [1000, 10000]  #################
+
+Inference with x1 augments...
+scale range: [1000, 10000]
+===================当前读取的文件名: X-n1001-k43===================
+===============================================================
+Instance name: X-n1001-k43, problem_size: 1000
+CVRP with 1000 nodes and 500 dummy depots (total 1500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 2/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 3/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 4/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 5/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 100/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 200/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 300/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 400/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 500/1000 | Avg Cost: 563223.0000, Avg Optimal: 72355.0000, Optimality Gap: 678.4162%
+Step: 600/1000 | Avg Cost: 563223.0000, Avg Optimal: 72355.0000, Optimality Gap: 678.4162%
+Step: 700/1000 | Avg Cost: 552825.0000, Avg Optimal: 72355.0000, Optimality Gap: 664.0453%
+Step: 800/1000 | Avg Cost: 541184.0000, Avg Optimal: 72355.0000, Optimality Gap: 647.9566%
+Step: 900/1000 | Avg Cost: 534710.0000, Avg Optimal: 72355.0000, Optimality Gap: 639.0090%
+Step: 1000/1000 | Avg Cost: 531026.0000, Avg Optimal: 72355.0000, Optimality Gap: 633.9175%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance X-n1001-k43, dimension: 1000, gap: 633.917%, skip it!
+===================当前读取的文件名: Leuven1===================
+===============================================================
+Instance name: Leuven1, problem_size: 3000
+CVRP with 3000 nodes and 1500 dummy depots (total 4500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 2/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 3/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 4/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 5/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 100/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 200/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 300/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 400/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 500/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 600/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 700/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 800/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 900/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 1000/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven1, dimension: 3000, gap: 750.240%, skip it!
+===================当前读取的文件名: Leuven2===================
+===============================================================
+Instance name: Leuven2, problem_size: 4000
+CVRP with 4000 nodes and 2000 dummy depots (total 6000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 2/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 3/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 4/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 5/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 100/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 200/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 300/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 400/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 500/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 600/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 700/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 800/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 900/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 1000/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven2, dimension: 4000, gap: 1832.729%, skip it!
+===================当前读取的文件名: Antwerp1===================
+===============================================================
+Instance name: Antwerp1, problem_size: 6000
+CVRP with 6000 nodes and 3000 dummy depots (total 9000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 2/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 3/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 4/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 5/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 100/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 200/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 300/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 400/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 500/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 600/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 700/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 800/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 900/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 1000/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Antwerp1, dimension: 6000, gap: 984.330%, skip it!
+===================当前读取的文件名: Antwerp2===================
+===============================================================
+Instance name: Antwerp2, problem_size: 7000
+CVRP with 7000 nodes and 3500 dummy depots (total 10500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Antwerp2, dimension: 7000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp50.pt
+scale_range: [1000, 10000], instance number: 5, total time: 6842.36s, avg time per instance (including failed instances): 1368.47s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+#################  Test scale range: [10000, 100001]  #################
+
+Inference with x1 augments...
+scale range: [10000, 100001]
+===================当前读取的文件名: Ghent1===================
+===============================================================
+Instance name: Ghent1, problem_size: 10000
+CVRP with 10000 nodes and 5000 dummy depots (total 15000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent1, dimension: 10000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Ghent2===================
+===============================================================
+Instance name: Ghent2, problem_size: 11000
+CVRP with 11000 nodes and 5500 dummy depots (total 16500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent2, dimension: 11000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels1===================
+===============================================================
+Instance name: Brussels1, problem_size: 15000
+CVRP with 15000 nodes and 7500 dummy depots (total 22500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels1, dimension: 15000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels2===================
+===============================================================
+Instance name: Brussels2, problem_size: 16000
+CVRP with 16000 nodes and 8000 dummy depots (total 24000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels2, dimension: 16000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders1===================
+===============================================================
+Instance name: Flanders1, problem_size: 20000
+CVRP with 20000 nodes and 10000 dummy depots (total 30000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders1, dimension: 20000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders2===================
+===============================================================
+Instance name: Flanders2, problem_size: 30000
+CVRP with 30000 nodes and 15000 dummy depots (total 45000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders2, dimension: 30000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp50.pt
+scale_range: [10000, 100001], instance number: 6, total time: 98.46s, avg time per instance (including failed instances): 16.41s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+model name: cvrp50.pt
+All scale ranges done, solved instance number: 0/11, total time: 6940.82s, avg time per instance: 0.00s
+[0, 1000), number: 0, avg gap: 0.000%
+[1000, 10000), number: 0, avg gap: 0.000%
+[10000, 100000], number: 0, avg gap: 0.000%
+#################  All Done  #################
+All solved instances, number: 0, avg gap: 0.000%
+****************************************************************************************************
+Loading model from: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp20.pt
+model name: cvrp20.pt
+****************************************************************************************************
+
+[Options]
+  K_epochs: 3
+  T_max: 1000
+  T_train: 200
+  actor_head_num: 4
+  batch_size: 512
+  checkpoint_epochs: 1
+  critic_head_num: 4
+  distributed: False
+  dummy_rate: 0.5
+  embedding_dim: 128
+  epoch_end: 200
+  epoch_size: 10240
+  epoch_start: 0
+  eps_clip: 0.1
+  eval_only: True
+  gamma: 0.999
+  graph_size: 100
+  hidden_dim: 128
+  init_val_met: random
+  k: 4
+  lib_model: True
+  load_path: /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp20.pt
+  log_dir: logs
+  log_step: 50
+  lr_critic: 2e-05
+  lr_decay: 0.985
+  lr_model: 8e-05
+  max_grad_norm: 0.05
+  n_encode_layers: 3
+  n_step: 4
+  no_DDP: False
+  no_cuda: False
+  no_progress_bar: False
+  no_saving: True
+  no_tb: True
+  normalization: layer
+  output_dir: outputs
+  problem: cvrp
+  record: False
+  resume: None
+  run_name: run_name_20260106T222616
+  save_dir: None
+  seed: 6666
+  stall: 10
+  stall_limit: 10
+  use_assert: False
+  use_cuda: True
+  v_range: 6.0
+  val_batch_size: 1
+  val_dataset: /public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp
+  val_m: 1
+  val_size: 10000
+  warm_up: 2
+  wo_MDP: True
+  wo_RNN: False
+  wo_bonus: False
+  wo_feature1: False
+  wo_feature3: False
+  wo_regular: False
+  world_size: 1
+{'K_epochs': 3,
+ 'T_max': 1000,
+ 'T_train': 200,
+ 'actor_head_num': 4,
+ 'batch_size': 512,
+ 'checkpoint_epochs': 1,
+ 'critic_head_num': 4,
+ 'distributed': False,
+ 'dummy_rate': 0.5,
+ 'embedding_dim': 128,
+ 'epoch_end': 200,
+ 'epoch_size': 10240,
+ 'epoch_start': 0,
+ 'eps_clip': 0.1,
+ 'eval_only': True,
+ 'gamma': 0.999,
+ 'graph_size': 100,
+ 'hidden_dim': 128,
+ 'init_val_met': 'random',
+ 'k': 4,
+ 'lib_model': True,
+ 'load_path': '/public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small '
+              'neighborhood/sequential/NeuOpt/pre-trained/cvrp20.pt',
+ 'log_dir': 'logs',
+ 'log_step': 50,
+ 'lr_critic': 2e-05,
+ 'lr_decay': 0.985,
+ 'lr_model': 8e-05,
+ 'max_grad_norm': 0.05,
+ 'n_encode_layers': 3,
+ 'n_step': 4,
+ 'no_DDP': False,
+ 'no_cuda': False,
+ 'no_progress_bar': False,
+ 'no_saving': True,
+ 'no_tb': True,
+ 'normalization': 'layer',
+ 'output_dir': 'outputs',
+ 'problem': 'cvrp',
+ 'record': False,
+ 'resume': None,
+ 'run_name': 'run_name_20260106T222616',
+ 'save_dir': None,
+ 'seed': 6666,
+ 'stall': 10,
+ 'stall_limit': 10,
+ 'use_assert': False,
+ 'use_cuda': True,
+ 'v_range': 6.0,
+ 'val_batch_size': 1,
+ 'val_dataset': '/public/home/bayp/exp_survey_202509/0_data_survey/survey_bench_cvrp',
+ 'val_m': 1,
+ 'val_size': 10000,
+ 'warm_up': 2,
+ 'wo_MDP': True,
+ 'wo_RNN': False,
+ 'wo_bonus': False,
+ 'wo_feature1': False,
+ 'wo_feature3': False,
+ 'wo_regular': False,
+ 'world_size': 1}
+simpleMDP:  True
+# params in Actor {'Total': 685140, 'Trainable': 685140}
+Distributed: False
+ [*] Loading data from /public/home/bayp/exp_survey_202509/Improvement/single_solution_based/small neighborhood/sequential/NeuOpt/pre-trained/cvrp20.pt
+Evaluation with library benchmark datasets.
+#################  Start Testing  #################
+scale_range_all: [[1000, 10000], [10000, 100001]]
+===============================================================
+#################  Test scale range: [1000, 10000]  #################
+
+Inference with x1 augments...
+scale range: [1000, 10000]
+===================当前读取的文件名: X-n1001-k43===================
+===============================================================
+Instance name: X-n1001-k43, problem_size: 1000
+CVRP with 1000 nodes and 500 dummy depots (total 1500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 2/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 3/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 4/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 5/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 100/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 200/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 300/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 400/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 500/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 600/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 700/1000 | Avg Cost: 570750.0000, Avg Optimal: 72355.0000, Optimality Gap: 688.8190%
+Step: 800/1000 | Avg Cost: 457865.0000, Avg Optimal: 72355.0000, Optimality Gap: 532.8035%
+Step: 900/1000 | Avg Cost: 457865.0000, Avg Optimal: 72355.0000, Optimality Gap: 532.8035%
+Step: 1000/1000 | Avg Cost: 457865.0000, Avg Optimal: 72355.0000, Optimality Gap: 532.8035%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance X-n1001-k43, dimension: 1000, gap: 532.804%, skip it!
+===================当前读取的文件名: Leuven1===================
+===============================================================
+Instance name: Leuven1, problem_size: 3000
+CVRP with 3000 nodes and 1500 dummy depots (total 4500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 2/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 3/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 4/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 5/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 100/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 200/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 300/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 400/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 500/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 600/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 700/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 800/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 900/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+Step: 1000/1000 | Avg Cost: 1639671.0000, Avg Optimal: 192848.0000, Optimality Gap: 750.2401%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven1, dimension: 3000, gap: 750.240%, skip it!
+===================当前读取的文件名: Leuven2===================
+===============================================================
+Instance name: Leuven2, problem_size: 4000
+CVRP with 4000 nodes and 2000 dummy depots (total 6000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 2/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 3/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 4/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 5/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 100/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 200/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 300/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 400/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 500/1000 | Avg Cost: 2152964.0000, Avg Optimal: 111395.0000, Optimality Gap: 1832.7295%
+Step: 600/1000 | Avg Cost: 2019656.0000, Avg Optimal: 111395.0000, Optimality Gap: 1713.0581%
+Step: 700/1000 | Avg Cost: 2015475.0000, Avg Optimal: 111395.0000, Optimality Gap: 1709.3048%
+Step: 800/1000 | Avg Cost: 2010340.0000, Avg Optimal: 111395.0000, Optimality Gap: 1704.6949%
+Step: 900/1000 | Avg Cost: 2006418.0000, Avg Optimal: 111395.0000, Optimality Gap: 1701.1742%
+Step: 1000/1000 | Avg Cost: 2006418.0000, Avg Optimal: 111395.0000, Optimality Gap: 1701.1742%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Leuven2, dimension: 4000, gap: 1701.174%, skip it!
+===================当前读取的文件名: Antwerp1===================
+===============================================================
+Instance name: Antwerp1, problem_size: 6000
+CVRP with 6000 nodes and 3000 dummy depots (total 9000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+feasibility check passed.
+Step: 1/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 2/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 3/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 4/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 5/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 100/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 200/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 300/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 400/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 500/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 600/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 700/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 800/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 900/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+Step: 1000/1000 | Avg Cost: 5175259.0000, Avg Optimal: 477277.0000, Optimality Gap: 984.3303%
+checking feasibility...
+feasibility check passed.
+Warning: Gap >=100% in instance Antwerp1, dimension: 6000, gap: 984.330%, skip it!
+===================当前读取的文件名: Antwerp2===================
+===============================================================
+Instance name: Antwerp2, problem_size: 7000
+CVRP with 7000 nodes and 3500 dummy depots (total 10500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Antwerp2, dimension: 7000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp20.pt
+scale_range: [1000, 10000], instance number: 5, total time: 6840.26s, avg time per instance (including failed instances): 1368.05s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+#################  Test scale range: [10000, 100001]  #################
+
+Inference with x1 augments...
+scale range: [10000, 100001]
+===================当前读取的文件名: Ghent1===================
+===============================================================
+Instance name: Ghent1, problem_size: 10000
+CVRP with 10000 nodes and 5000 dummy depots (total 15000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent1, dimension: 10000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Ghent2===================
+===============================================================
+Instance name: Ghent2, problem_size: 11000
+CVRP with 11000 nodes and 5500 dummy depots (total 16500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Ghent2, dimension: 11000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels1===================
+===============================================================
+Instance name: Brussels1, problem_size: 15000
+CVRP with 15000 nodes and 7500 dummy depots (total 22500).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels1, dimension: 15000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Brussels2===================
+===============================================================
+Instance name: Brussels2, problem_size: 16000
+CVRP with 16000 nodes and 8000 dummy depots (total 24000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Brussels2, dimension: 16000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders1===================
+===============================================================
+Instance name: Flanders1, problem_size: 20000
+CVRP with 20000 nodes and 10000 dummy depots (total 30000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders1, dimension: 20000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+===================当前读取的文件名: Flanders2===================
+===============================================================
+Instance name: Flanders2, problem_size: 30000
+CVRP with 30000 nodes and 15000 dummy depots (total 45000).
+ Regulation: True Bonus: True Do assert: False.
+ MAX 4-opt. Epsilon: 1.429. 
+
+checking feasibility...
+Error occurred in instance Flanders2, dimension: 30000, skip it!
+Error message: (tensor([1], device='cuda:0'), 'not visiting all nodes')
+ *** Test Done *** 
+model name: cvrp20.pt
+scale_range: [10000, 100001], instance number: 6, total time: 97.92s, avg time per instance (including failed instances): 16.32s
+===============================================================
+instance: []
+optimal: []
+problem_size: []
+score: []
+gap: []
+===============================================================
+===============================================================
+No instance solved successfully in this scale range!
+model name: cvrp20.pt
+All scale ranges done, solved instance number: 0/11, total time: 6938.19s, avg time per instance: 0.00s
+[0, 1000), number: 0, avg gap: 0.000%
+[1000, 10000), number: 0, avg gap: 0.000%
+[10000, 100000], number: 0, avg gap: 0.000%
+#################  All Done  #################
+All solved instances, number: 0, avg gap: 0.000%

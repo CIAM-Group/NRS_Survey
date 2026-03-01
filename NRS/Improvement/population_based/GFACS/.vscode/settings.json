@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python3 /public/home/bayp/exp_survey_202509/Improvement/population_based/GFACS/cvrp_nls/analyze_custom_ranges\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
